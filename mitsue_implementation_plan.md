@@ -241,6 +241,82 @@ These are illustrative targets, not commitments. Real numbers will depend heavil
 
 ---
 
+## Return on Investment — Quantitative and Qualitative
+
+A successful 25-year project must demonstrate clear value to multiple stakeholders. This section presents both the **qualitative benefits** (immediately demonstrable) and the **quantitative ROI framework** (with illustrative ranges; precise figures will come from Phase 1 feasibility studies).
+
+### Qualitative Returns — Available from Day One
+
+These are the benefits that funders, the village, and partners can be told about now:
+
+**For Mitsue Village and Residents**
+- New local employment in forestry, facility operations, EV charging, and administration (estimated 8–15 direct jobs by Year 5)
+- Income stream for private mountain owners through fair sugi harvesting compensation
+- Improved local resilience through distributed energy generation
+- EV charging infrastructure preparing the village for the coming transition
+- Preserved use of the closed school building as a community-anchored facility
+- Long-term reduction in cedar pollen affecting public health
+- Visible signal that Mitsue is investing in its future — supporting in-migration and reducing depopulation pressure
+
+**For the Region (Nara Prefecture, rural Japan more broadly)**
+- A documented, replicable model for rural revitalization
+- Demonstration of distributed energy generation suitable for other depopulating villages
+- Strengthened regional fiber and digital infrastructure
+- Concrete progress against multiple SDGs simultaneously
+
+**For Funders and Partners**
+- Open data and open methodology — measurable, transparent outcomes
+- Strong storytelling value (Dutch-Japanese, rural-tech, community-driven)
+- Alignment with Digital Garden City Nation initiative and 地方創生 priorities
+- Credible advisory bench (Joi Ito, Ray Ozzie, Dutch consular interest)
+
+### Quantitative Returns — Framework and Illustrative Ranges
+
+The quantitative case rests on five revenue and savings categories. **The ranges below are illustrative early-stage estimates**; Phase 1 feasibility studies will replace these with vetted figures.
+
+| Revenue / Savings Category | Year 1 | Year 5 | Year 10 | Notes |
+|----------------------------|--------|--------|---------|-------|
+| Data center hosting fees | ¥0 | ¥15–30M | ¥40–80M | Edge computing / AI specialist workloads |
+| Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from biomass + heat recovery |
+| Heat sales (greenhouses, community) | ¥0 | ¥2–5M | ¥5–10M | Heat is more efficient than electricity |
+| EV charging fees | ¥0 | ¥1–3M | ¥3–8M | Modest but visible local revenue |
+| Carbon credits (J-Credit) | ¥0 | ¥1–3M | ¥3–10M | From forest restoration |
+| Forestry products (timber, lumber) | ¥0 | ¥3–8M | ¥10–20M | Beyond biomass use |
+| Education / consulting | ¥0 | ¥1–3M | ¥3–8M | "Playbook" sharing |
+| **Total annual revenue (illustrative)** | **¥0** | **¥28–67M** | **¥74–166M** | |
+
+### Cost Displacement (Comparison Baseline)
+
+To frame the ROI, it helps to articulate what the project *replaces* or *avoids*:
+
+- **Energy import to the village**: Mitsue residents and businesses currently import essentially 100% of their electricity. Local generation displaces approximately ¥40–60M per year of energy imports leaving the village economy.
+- **School maintenance burden**: The closed school costs the village an estimated ¥3–8M per year in basic upkeep with no return. Active use generates value from a previously stranded asset.
+- **Forest management deficit**: Untended sugi plantations are a liability — both ecologically (pollen, biodiversity loss) and physically (landslide risk, fire risk). Active forestry management converts this liability into an asset.
+- **Rural broadband gap**: Without intervention, Mitsue's connectivity will continue to lag urban Japan. The project's fiber upgrade benefits all village users, not only the data center.
+
+### Payback Framework
+
+Based on the illustrative figures above and the phase budgets earlier in this plan, a rough payback model looks like:
+
+- **Total capital deployed by Year 5**: ¥150–250M (Phases 1–3)
+- **Annual revenue by Year 5**: ¥28–67M
+- **Operating costs by Year 5**: ¥18–35M (estimated 60% of revenue)
+- **Net annual surplus by Year 5**: ¥10–32M
+- **Approximate payback period**: 8–15 years for capital recovery, depending on funding mix (grants vs. loans vs. revenue-financed)
+
+**Important honest caveat**: These figures assume successful execution of all three project elements at their target scale. Phase 1 feasibility studies will sharpen these numbers significantly, and real-world performance will determine actual ROI. The numbers above should be read as a *framework* for evaluation, not a forecast.
+
+### How This ROI Story Should Be Used
+
+- **For village government**: Lead with qualitative resident benefits, then show the cost-displacement framing (energy imports leaving the village; the school as stranded asset).
+- **For private funders / corporate partners**: Lead with the revenue table and payback period, supported by qualitative storytelling.
+- **For government grant applications**: Lead with SDG alignment and rural revitalization metrics (jobs created, depopulation impact, replicability), supported by the quantitative framework.
+- **For Sandra Pellegrom and diplomatic audiences**: Emphasize the qualitative impact and the Dutch-Japanese partnership story, with quantitative figures available on request.
+
+Different audiences need different orderings of the same underlying story. The discipline is to always have both available.
+
+---
+
 ## Legal & Regulatory Checklist
 
 ### Entity & Tax

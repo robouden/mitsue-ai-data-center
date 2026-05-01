@@ -29,6 +29,20 @@ A 25-year initiative built carefully, in close partnership with the village.
 
 ---
 
+## Economic Value to the Village (Indicative)
+
+Precise figures will come from Phase 1 feasibility studies, but early-stage estimates suggest meaningful local economic value:
+
+- **Energy currently imported**: approximately ¥40–60M per year leaves Mitsue's local economy as electricity payments. Local generation keeps a portion of this value within the village.
+- **Closed school maintenance**: currently ¥3–8M per year in upkeep with no return. Active use generates value from a previously stranded asset.
+- **Direct employment**: an estimated 8–15 local jobs by Year 5 (forestry, facility operations, EV charging, administration).
+- **Landowner income**: new revenue streams for private mountain owners through sustainable cedar harvesting.
+- **Combined annual economic activity** by Year 5 (estimated): ¥28–67M, with a meaningful share retained locally.
+
+These ranges are illustrative; the formal numbers will be developed with the village in Phase 1.
+
+---
+
 ## What We Are Asking For
 
 At this early stage, we are seeking:
