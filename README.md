@@ -46,6 +46,8 @@ Phased replacement of aged sugi plantations with native broadleaf species, in co
 ### 4.2 Sustainable Energy Generation
 Biomass and biogas generation from sustainably harvested forest material. Output is intended for local consumption (village load, EV charging, heat for greenhouses or community use) with grid feed-in via FIT/FIP where economically appropriate.
 
+> **Thermal first, electrical second.** At pilot scale, a biomass boiler with heat recovery costs roughly one-third as much as a combined heat-and-power unit and is several times more energy-efficient. The project therefore begins with thermal output and adds electrical generation only when feasibility, demand, and feedstock economics support it. The aim is **not** to replace the village's existing solar capacity or to power Mitsue from biomass alone — the realistic local mix is biomass (baseload and heat) + existing solar (daytime) + the grid (backup).
+
 ### 4.3 Community-Owned Data Center
 Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics.
 
@@ -211,6 +213,7 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_village_government_onepager.md` / `.pdf` | One-page brief for village government engagement |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
 | `mitsue_mayor_meeting_talking_points.md` / `.docx` | Preparation document for the formal mayor meeting |
+| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
 | `mitsue_letter_pellegrom_support_request.md` | Draft letter requesting consular goodwill association |
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN/JP) |

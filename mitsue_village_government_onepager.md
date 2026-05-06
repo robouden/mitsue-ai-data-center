@@ -29,6 +29,21 @@ A 25-year initiative built carefully, in close partnership with the village.
 
 ---
 
+## Early Benefits — Visible Within Five Years
+
+The 25-year horizon applies to forest restoration ecology. Concrete benefits to the village arrive much earlier:
+
+| Year | Tangible benefit to the village |
+|------|--------------------------------|
+| 1 | Closed school building reactivated; village named in domestic and international press; first researcher and student visits |
+| 2 | First forestry contracts → direct cash income to private mountain owners |
+| 2–3 | Reduced sugi pollen and landslide risk in actively managed plots |
+| 3–4 | Pilot biomass thermal output online → greenhouse heat, lower utility costs for village facilities, first EV charging stations |
+| 4–5 | Data center hires local staff; hosting fees and energy sales become real revenue; village becomes a study-tour destination |
+| Ongoing | School programmes, field trips, and open environmental and financial dashboards from Year 1 onward |
+
+---
+
 ## Economic Value to the Village (Indicative)
 
 Precise figures will come from Phase 1 feasibility studies, but early-stage estimates suggest meaningful local economic value:
