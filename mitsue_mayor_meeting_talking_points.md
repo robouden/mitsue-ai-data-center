@@ -117,9 +117,11 @@ Now you can be more substantive. Use your one-page visual if helpful.
 >
 > *(First, gradually returning sugi plantations to native species over a long period. From my conversation with the forestry group, I sensed there may be openness to this.)*
 
-> "2つ目は、伐採される杉を、地域のクリーンエネルギーとして活用すること。バイオマスやバイオガスといった形で、村の中でエネルギーを生み出すという考えです。"
+> "2つ目は、伐採される杉を、地域のクリーンエネルギーとして活用すること。最初は小型バイオマスボイラーによる熱供給から始め、温室や村の施設の暖房・給湯にお使いいただく考えでございます。発電は、需要と採算性が整いました段階で、後の段階として検討してまいります。"
 >
-> *(Second, using the harvested cedar as local clean energy — biomass and biogas, generating energy within the village itself.)*
+> *(Second, using the harvested cedar as local clean energy. We would begin with a small biomass boiler providing heat for greenhouses and village facilities — at this scale, heat is more efficient and useful than electricity. Electrical generation would come as a later stage when demand and economics support it.)*
+
+This framing matters: the mayor — like most listeners — may otherwise picture a "biomass power plant", which is a much larger and more capital-intensive project than what is intended. Setting the thermal-first scale early prevents that mental image taking hold.
 
 > "3つ目は、そのエネルギーを使って、副村長にお話しした閉校舎の活用構想を支える、というつながりでございます。"
 >
@@ -199,6 +201,44 @@ This is critical information you can only get by listening.
 ### Reaction F: "We need to involve [other person/body] now that this is bigger."
 **Your response:** Welcome this. The mayor pointing you to additional stakeholders is a positive signal — he's helping you navigate the village.
 > "ご教示いただきありがとうございます。村長のご助言に従って、適切な順序でご相談を進めてまいります."
+
+---
+
+## If the Mayor Asks Substantive Questions
+
+The mayor may probe the practical mechanics. Full bilingual answers live in [`mitsue_qa_briefing.md`](mitsue_qa_briefing.md). Compressed answers for live use:
+
+### "How big is the plant? Can village cedar power the village?"
+> "実証段階の規模でございまして、村全体の電力をバイオマスで賄うことは目的としておりません。バイオマス、既存の太陽光、電力会社の組み合わせを想定しております。正確な数値は第2段階のフィージビリティスタディで算出いたします."
+>
+> *(Pilot scale, not utility scale. Not aiming to power the entire village from biomass alone. Realistic mix is biomass + existing solar + grid. Firm figures from Phase 2 feasibility.)*
+
+### "What is the heat used for?"
+> "温室、村の施設、給湯、木材乾燥、冬季の融雪など、多様に活用できます。小規模では、熱は電気よりも価値が高うございまして、最初は熱供給から始めるのが最も効率的でございます."
+>
+> *(Greenhouses, village facilities, hot water, lumber drying, winter snow-melt. At small scale, heat is more valuable than electricity — thermal-first is the most efficient pilot path.)*
+
+### "Why is a data center necessary?"
+> "データセンターは24時間稼働するため、バイオマスの経済性を成り立たせる安定した需要先となります。これがないと、日本の小規模バイオマスは経済的に成立しないのが通例でございまして、データセンターはエネルギー事業を可能にする鍵でございます."
+>
+> *(The data center provides 24/7 baseload demand that makes biomass economically viable. Without an anchor offtaker, small biomass projects in Japan typically fail their financials. The data center is what enables the energy project.)*
+
+### "We have many solar panels already. Why biomass?"
+> "太陽光とバイオマスは競合ではなく補完の関係でございます。太陽光は日中、バイオマスは夜間と冬。さらにバイオマスは熱を生み出し、村の杉という現在の負債を資源に変えるという、太陽光単独では解決できない課題に応えるものでございます."
+>
+> *(Solar and biomass are complementary, not competitive. Solar by day; biomass at night and in winter. Biomass also produces heat, and converts the cedar-management problem from liability to feedstock — solar alone cannot solve that.)*
+
+### "Will benefits really take 25 years?"
+> "25年は森林再生の生態的な期間でございます。村への具体的な恩恵はもっと早く現れます。1年目で閉校舎の再活用とメディア発信、2年目で山林所有者への伐採収入、3〜4年目で熱供給とEV充電、4〜5年目でデータセンターの地域雇用が始まります."
+>
+> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, heat and EV charging in Year 3–4, data center jobs in Year 4–5.)*
+
+### "Biomass is expensive. How will the costs be managed?"
+> "決定的な単一の解決策ではなく、複数の対策の積み重ねでございます: 熱供給からの開始、林野庁・経産省・FIT/FIP・J-クレジット・NEDOなどの補助制度の重ね合わせ、熱の商品化、製材との組み合わせ、そして数値が見合わなければ無理に進めない原則でございます."
+>
+> *(Not a single fix but a stack: start thermal (one-third the cost of CHP), stack subsidies that biomass uniquely qualifies for, sell heat as a product, pair with timber, and hold rather than force the project if the numbers don't work.)*
+
+If the mayor asks something not on this list, it is better to say *"村長、その点は専門家とともに改めて整理してご報告させていただきとう存じます"* (*"Mayor, allow me to come back to you on that point with our specialists"*) than to improvise. Promising to follow up is more credible than guessing.
 
 ---
 

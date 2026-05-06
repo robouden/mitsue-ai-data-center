@@ -76,6 +76,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Data center compliance** — data localization rules, cybersecurity standards, possibly APPI (privacy law)
 
 ### Technical Infrastructure
+- **Thermal-first biomass pilot** — the energy plant begins as a small biomass boiler with heat recovery, not as a power station; electrical generation is added only when feasibility, demand, and economics support it. The aim is not to replace village solar or to power Mitsue from biomass alone, but to provide dispatchable baseload heat (and later electricity) that complements existing solar and the grid.
 - **High-bandwidth fiber connectivity** — essential for any data center, even small-scale; Mitsue's current fiber capacity needs assessment
 - **Backup power and grid connection** — biomass alone is not 100% reliable; battery storage and grid backup needed
 - **Cooling strategy** — Japan's humid summers are hard on data centers; could leverage Mitsue's cool mountain climate and water resources

@@ -172,6 +172,8 @@ These are the **single most important documents** for unlocking serious funding.
 - Creates fundable success story for Phase 4 expansion
 - Lowers risk if a major component proves harder than expected
 
+> **Early visible benefits to the village.** The 25-year horizon applies to forest restoration ecology — concrete community benefits arrive much earlier. Year-by-year tangible outcomes through Phases 0–3 (school reactivation, landowner income, biomass thermal output, EV charging, data center jobs) are summarized in the "Early Benefits — Visible Within Five Years" table in [`mitsue_village_government_onepager.md`](mitsue_village_government_onepager.md).
+
 ---
 
 ## Phase 4 — Operation & Scale (Months 31+)
