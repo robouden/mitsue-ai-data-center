@@ -109,6 +109,31 @@ docker compose -f ~/openproject/docker-compose.yml ps
 
 All project data is stored in Docker volumes (`pgdata`, `opdata`) and is never lost when stopping or restarting.
 
+## Theme — Robouden Dark
+
+The header and sidebar use your robouden dark colors, set via OpenProject's 7 built-in CSS variables:
+
+| Variable | Color |
+|---|---|
+| primary-button-color | `#3655b5` |
+| accent-color | `#6796e6` |
+| header-bg-color | `#353535` |
+| header-item-bg-hover-color | `#505050` |
+| main-menu-bg-color | `#353535` |
+| main-menu-bg-selected-background | `#505050` |
+| main-menu-bg-hover-background | `#444444` |
+
+### Full dark mode (content area) via Stylus
+
+The Community edition only exposes those 7 variables. For a complete dark theme install the **Stylus** browser extension (Firefox / Chrome), then:
+
+1. Open Stylus → **Manage** → **Write new style**
+2. Set it to apply to `http://localhost:8080/*`
+3. Paste the contents of [`openproject_robouden_theme.css`](openproject_robouden_theme.css)
+4. Save
+
+The CSS file is kept in the repo so all agents can reference it.
+
 ## Backup
 
 Run this any time you want to snapshot OpenProject and push it to both repos:
