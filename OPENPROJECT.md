@@ -109,6 +109,26 @@ docker compose -f ~/openproject/docker-compose.yml ps
 
 All project data is stored in Docker volumes (`pgdata`, `opdata`) and is never lost when stopping or restarting.
 
+## Backup
+
+Run this any time you want to snapshot OpenProject and push it to both repos:
+
+```bash
+bash "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/openproject_backup.sh"
+```
+
+This will:
+1. Export all work packages to `openproject_backup.json` (human-readable)
+2. Dump the full PostgreSQL database to `openproject_backup.sql` (restorable)
+3. Commit and push both files to Codeberg and GitHub
+
+### Restore from backup
+
+```bash
+# Restore the database from the SQL dump
+docker exec -i openproject-db-1 psql -U postgres openproject < openproject_backup.sql
+```
+
 ## Import Script
 
 The script that imported `mitsue_todo.xlsx` into OpenProject lives at:
