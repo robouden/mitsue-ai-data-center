@@ -1,14 +1,14 @@
 [
   {
     "derivedStartDate": "2026-04-01",
-    "derivedDueDate": "2026-06-30",
+    "derivedDueDate": "2026-10-30",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 38,
-    "lockVersion": 11,
+    "lockVersion": 19,
     "subject": "Phase 0",
     "description": {
       "format": "markdown",
@@ -17,16 +17,16 @@
     },
     "scheduleManually": false,
     "startDate": "2026-04-01",
-    "dueDate": "2026-06-30",
+    "dueDate": "2026-10-30",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P91D",
+    "duration": "P213D",
     "ignoreNonWorkingDays": true,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.304Z",
-    "updatedAt": "2026-05-08T00:01:47.759Z",
+    "updatedAt": "2026-05-08T22:12:25.647Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/38/attachments"
@@ -171,7 +171,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -236,8 +236,8 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/128",
-          "title": "Draft 2-page preliminary charter (JP + EN)"
+          "href": "/api/v3/work_packages/43",
+          "title": "Quiet conversations with 2–3 sympathetic landowners"
         },
         {
           "href": "/api/v3/work_packages/39",
@@ -248,16 +248,16 @@
           "title": "Identify 3–5 founding team members"
         },
         {
-          "href": "/api/v3/work_packages/43",
-          "title": "Quiet conversations with 2–3 sympathetic landowners"
+          "href": "/api/v3/work_packages/128",
+          "title": "Draft 2-page preliminary charter (JP + EN)"
         },
         {
           "href": "/api/v3/work_packages/45",
           "title": "Confirm advisory commitments (Joi Ito, Ray Ozzie) in writing"
         },
         {
-          "href": "/api/v3/work_packages/40",
-          "title": "Meet 自治会 leaders in Sugano + surrounding hamlets"
+          "href": "/api/v3/work_packages/48",
+          "title": "Open project Slack/Signal/email list"
         },
         {
           "href": "/api/v3/work_packages/41",
@@ -268,8 +268,8 @@
           "title": "Reach out to 1–2 candidate 行政書士 in Nara"
         },
         {
-          "href": "/api/v3/work_packages/48",
-          "title": "Open project Slack/Signal/email list"
+          "href": "/api/v3/work_packages/40",
+          "title": "Meet 自治会 leaders in Sugano + surrounding hamlets"
         },
         {
           "href": "/api/v3/work_packages/46",
@@ -293,25 +293,25 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 39,
-    "lockVersion": 5,
+    "lockVersion": 9,
     "subject": "Private meeting with Mitsue village mayor",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob + JP co-founder\nListen first, present second",
       "html": "<p class=\"op-uc-p\">Owner: Rob + JP co-founder<br>\nListen first, present second</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-05-01",
-    "dueDate": "2026-05-31",
+    "scheduleManually": false,
+    "startDate": "2026-05-16",
+    "dueDate": "2026-05-30",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P31D",
+    "duration": "P15D",
     "ignoreNonWorkingDays": true,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.468Z",
-    "updatedAt": "2026-05-08T00:01:46.973Z",
+    "updatedAt": "2026-05-08T22:12:25.033Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/39/attachments"
@@ -456,7 +456,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -541,7 +541,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 40,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Meet 自治会 leaders in Sugano + surrounding hamlets",
     "description": {
       "format": "markdown",
@@ -549,17 +549,17 @@
       "html": "<p class=\"op-uc-p\">Owner: JP co-founder</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-05-01",
+    "startDate": "2026-05-19",
     "dueDate": "2026-06-01",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P22D",
+    "duration": "P10D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.663Z",
-    "updatedAt": "2026-05-08T00:01:47.346Z",
+    "updatedAt": "2026-05-08T11:48:58.906Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/40/attachments"
@@ -704,7 +704,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -789,16 +789,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 41,
-    "lockVersion": 2,
+    "lockVersion": 6,
     "subject": "Identify and confirm Japanese co-founder",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob\nMost important single decision",
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nMost important single decision</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-04-01",
-    "dueDate": "2026-06-30",
+    "scheduleManually": false,
+    "startDate": "2026-06-01",
+    "dueDate": "2026-08-28",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -807,7 +807,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.922Z",
-    "updatedAt": "2026-05-08T00:01:47.677Z",
+    "updatedAt": "2026-05-08T22:12:25.389Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/41/attachments"
@@ -952,7 +952,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -1037,25 +1037,25 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 42,
-    "lockVersion": 1,
+    "lockVersion": 6,
     "subject": "Identify 3–5 founding team members",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob\nVerbal commitments OK",
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nVerbal commitments OK</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-04-01",
-    "dueDate": "2026-06-30",
+    "scheduleManually": false,
+    "startDate": "2026-08-31",
+    "dueDate": "2026-10-30",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P65D",
+    "duration": "P45D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.138Z",
-    "updatedAt": "2026-05-08T00:01:48.068Z",
+    "updatedAt": "2026-05-08T22:12:25.629Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/42/attachments"
@@ -1200,11 +1200,11 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -1285,7 +1285,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 43,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Quiet conversations with 2–3 sympathetic landowners",
     "description": {
       "format": "markdown",
@@ -1293,17 +1293,17 @@
       "html": "<p class=\"op-uc-p\">Owner: JP co-founder<br>\nGauge sugi harvesting interest</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-05-01",
-    "dueDate": "2026-06-01",
+    "startDate": "2026-06-01",
+    "dueDate": "2026-06-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P22D",
+    "duration": "P8D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.280Z",
-    "updatedAt": "2026-05-08T00:01:48.332Z",
+    "updatedAt": "2026-05-08T11:51:58.882Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/43/attachments"
@@ -1448,7 +1448,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -1533,7 +1533,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 46,
-    "lockVersion": 3,
+    "lockVersion": 6,
     "subject": "Confirm support letter intent — Sandra Pellegrom / Dutch Consulate",
     "description": {
       "format": "markdown",
@@ -1541,17 +1541,17 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-05-01",
-    "dueDate": "2026-06-30",
+    "startDate": "2026-05-11",
+    "dueDate": "2026-06-17",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P43D",
+    "duration": "P28D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.694Z",
-    "updatedAt": "2026-05-08T00:01:48.950Z",
+    "updatedAt": "2026-05-08T11:54:20.764Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/46/attachments"
@@ -1696,7 +1696,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -1781,25 +1781,25 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 47,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "Reach out to 1–2 candidate 行政書士 in Nara",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob\nFor permits + grant apps",
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nFor permits + grant apps</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-05-01",
-    "dueDate": "2026-06-30",
+    "scheduleManually": false,
+    "startDate": "2026-06-01",
+    "dueDate": "2026-07-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P43D",
+    "duration": "P28D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.056Z",
-    "updatedAt": "2026-05-08T00:01:49.251Z",
+    "updatedAt": "2026-05-08T22:12:25.852Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/47/attachments"
@@ -1944,7 +1944,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2029,7 +2029,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 48,
-    "lockVersion": 1,
+    "lockVersion": 8,
     "subject": "Open project Slack/Signal/email list",
     "description": {
       "format": "markdown",
@@ -2037,17 +2037,17 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-04-01",
-    "dueDate": "2026-04-30",
+    "startDate": "2026-05-11",
+    "dueDate": "2026-06-23",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P22D",
+    "duration": "P32D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.193Z",
-    "updatedAt": "2026-05-08T00:01:49.511Z",
+    "updatedAt": "2026-05-08T11:54:04.270Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/48/attachments"
@@ -2192,11 +2192,11 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -2270,14 +2270,14 @@
   },
   {
     "derivedStartDate": "2026-07-01",
-    "derivedDueDate": "2026-12-31",
+    "derivedDueDate": "2027-06-08",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 49,
-    "lockVersion": 7,
+    "lockVersion": 12,
     "subject": "Phase 1",
     "description": {
       "format": "markdown",
@@ -2286,16 +2286,16 @@
     },
     "scheduleManually": false,
     "startDate": "2026-07-01",
-    "dueDate": "2026-12-31",
+    "dueDate": "2027-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P132D",
+    "duration": "P245D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.316Z",
-    "updatedAt": "2026-05-08T00:01:51.656Z",
+    "updatedAt": "2026-05-08T22:12:28.300Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/49/attachments"
@@ -2440,7 +2440,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2517,10 +2517,6 @@
           "title": "Open corporate bank account"
         },
         {
-          "href": "/api/v3/work_packages/59",
-          "title": "Commission Connectivity Assessment"
-        },
-        {
           "href": "/api/v3/work_packages/60",
           "title": "Secure letter of interest from Mitsue village government"
         },
@@ -2531,6 +2527,10 @@
         {
           "href": "/api/v3/work_packages/62",
           "title": "Formalize advisory board"
+        },
+        {
+          "href": "/api/v3/work_packages/59",
+          "title": "Commission Connectivity Assessment"
         },
         {
           "href": "/api/v3/work_packages/50",
@@ -2574,16 +2574,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 50,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Draft 定款 (articles of incorporation)",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-07-31",
+    "scheduleManually": false,
+    "startDate": "2026-11-02",
+    "dueDate": "2026-12-02",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -2592,7 +2592,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.431Z",
-    "updatedAt": "2026-05-08T00:01:49.950Z",
+    "updatedAt": "2026-05-08T22:12:26.398Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/50/attachments"
@@ -2737,7 +2737,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2822,16 +2822,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 51,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Notarize 定款",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士\n~¥50,000",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\n~¥50,000</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-15",
-    "dueDate": "2026-08-17",
+    "scheduleManually": false,
+    "startDate": "2026-12-03",
+    "dueDate": "2027-01-05",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -2840,7 +2840,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.586Z",
-    "updatedAt": "2026-05-08T00:01:50.264Z",
+    "updatedAt": "2026-05-08T22:12:26.729Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/51/attachments"
@@ -2985,7 +2985,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3070,16 +3070,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 52,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Register 一般社団法人 with Legal Affairs Bureau",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士\n~¥110,000 registration tax",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\n~¥110,000 registration tax</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-08-03",
-    "dueDate": "2026-09-01",
+    "scheduleManually": false,
+    "startDate": "2027-01-06",
+    "dueDate": "2027-02-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3088,7 +3088,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.722Z",
-    "updatedAt": "2026-05-08T00:01:50.556Z",
+    "updatedAt": "2026-05-08T22:12:26.916Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/52/attachments"
@@ -3233,7 +3233,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3318,16 +3318,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 53,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Tax registration (法人税, 消費税)",
     "description": {
       "format": "markdown",
       "raw": "Owner: 税理士",
       "html": "<p class=\"op-uc-p\">Owner: 税理士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-09-30",
+    "scheduleManually": false,
+    "startDate": "2027-02-05",
+    "dueDate": "2027-03-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3336,7 +3336,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.862Z",
-    "updatedAt": "2026-05-08T00:01:50.836Z",
+    "updatedAt": "2026-05-08T22:12:27.119Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/53/attachments"
@@ -3481,7 +3481,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3566,16 +3566,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 54,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Open corporate bank account",
     "description": {
       "format": "markdown",
       "raw": "Owner: Representative Director",
       "html": "<p class=\"op-uc-p\">Owner: Representative Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-09-30",
+    "scheduleManually": false,
+    "startDate": "2027-02-05",
+    "dueDate": "2027-03-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3584,7 +3584,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.048Z",
-    "updatedAt": "2026-05-08T00:01:51.093Z",
+    "updatedAt": "2026-05-08T22:12:27.359Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/54/attachments"
@@ -3729,7 +3729,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3814,16 +3814,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 55,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Set up accounting system (e.g. 弥生会計)",
     "description": {
       "format": "markdown",
       "raw": "Owner: 税理士",
       "html": "<p class=\"op-uc-p\">Owner: 税理士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-11-02",
+    "scheduleManually": false,
+    "startDate": "2027-03-09",
+    "dueDate": "2027-05-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3832,7 +3832,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.186Z",
-    "updatedAt": "2026-05-08T00:01:51.369Z",
+    "updatedAt": "2026-05-08T22:12:27.516Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/55/attachments"
@@ -3977,7 +3977,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4225,7 +4225,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4473,7 +4473,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4721,7 +4721,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4969,7 +4969,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5054,16 +5054,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 60,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Secure letter of interest from Mitsue village government",
     "description": {
       "format": "markdown",
       "raw": "Owner: Representative Director",
       "html": "<p class=\"op-uc-p\">Owner: Representative Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-11-30",
+    "scheduleManually": false,
+    "startDate": "2027-02-05",
+    "dueDate": "2027-05-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5072,7 +5072,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.892Z",
-    "updatedAt": "2026-05-08T00:01:52.693Z",
+    "updatedAt": "2026-05-08T22:12:27.856Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/60/attachments"
@@ -5217,7 +5217,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5302,16 +5302,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 61,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Launch bilingual project website (basic, professional)",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob",
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-11-30",
+    "scheduleManually": false,
+    "startDate": "2027-02-05",
+    "dueDate": "2027-05-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5320,7 +5320,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.125Z",
-    "updatedAt": "2026-05-08T00:01:52.963Z",
+    "updatedAt": "2026-05-08T22:12:28.030Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/61/attachments"
@@ -5465,7 +5465,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5550,16 +5550,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 62,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Formalize advisory board",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob",
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-09-01",
-    "dueDate": "2026-12-31",
+    "scheduleManually": false,
+    "startDate": "2027-02-05",
+    "dueDate": "2027-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5568,7 +5568,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.420Z",
-    "updatedAt": "2026-05-08T00:01:53.234Z",
+    "updatedAt": "2026-05-08T22:12:28.228Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/62/attachments"
@@ -5713,7 +5713,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5791,14 +5791,14 @@
   },
   {
     "derivedStartDate": "2027-01-01",
-    "derivedDueDate": "2027-09-30",
+    "derivedDueDate": "2028-06-08",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 63,
-    "lockVersion": 5,
+    "lockVersion": 10,
     "subject": "Phase 2",
     "description": {
       "format": "markdown",
@@ -5807,16 +5807,16 @@
     },
     "scheduleManually": false,
     "startDate": "2027-01-01",
-    "dueDate": "2027-09-30",
+    "dueDate": "2028-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P195D",
+    "duration": "P375D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.559Z",
-    "updatedAt": "2026-05-08T00:01:57.741Z",
+    "updatedAt": "2026-05-08T22:12:31.564Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/63/attachments"
@@ -5961,7 +5961,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6070,8 +6070,12 @@
           "title": "FIT/FIP registration with METI"
         },
         {
-          "href": "/api/v3/work_packages/70",
-          "title": "Landowner partnership template contract"
+          "href": "/api/v3/work_packages/77",
+          "title": "Submit Nippon Foundation grant application"
+        },
+        {
+          "href": "/api/v3/work_packages/78",
+          "title": "Submit Japan Fund for Global Environment application"
         },
         {
           "href": "/api/v3/work_packages/71",
@@ -6082,16 +6086,12 @@
           "title": "Vendor selection — data center hardware"
         },
         {
-          "href": "/api/v3/work_packages/77",
-          "title": "Submit Nippon Foundation grant application"
-        },
-        {
-          "href": "/api/v3/work_packages/78",
-          "title": "Submit Japan Fund for Global Environment application"
-        },
-        {
           "href": "/api/v3/work_packages/81",
           "title": "Hire first 2–3 part-time staff"
+        },
+        {
+          "href": "/api/v3/work_packages/70",
+          "title": "Landowner partnership template contract"
         },
         {
           "href": "/api/v3/work_packages/80",
@@ -6115,16 +6115,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 64,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Detailed engineering & architectural plans",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director + vendor",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director + vendor</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-04-30",
+    "scheduleManually": false,
+    "startDate": "2027-06-09",
+    "dueDate": "2027-10-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6133,7 +6133,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.659Z",
-    "updatedAt": "2026-05-08T00:01:53.655Z",
+    "updatedAt": "2026-05-08T22:12:28.495Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/64/attachments"
@@ -6278,7 +6278,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6363,16 +6363,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 65,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "File 伐採届出 (cutting notification)",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士\nForest Act",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\nForest Act</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-03-31",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-01-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6381,7 +6381,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.803Z",
-    "updatedAt": "2026-05-08T00:01:53.931Z",
+    "updatedAt": "2026-05-08T22:12:29.159Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/65/attachments"
@@ -6526,7 +6526,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6611,16 +6611,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 66,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Building conversion permits (建築基準法)",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-06-30",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-04-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6629,7 +6629,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.931Z",
-    "updatedAt": "2026-05-08T00:01:54.304Z",
+    "updatedAt": "2026-05-08T22:12:29.329Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/66/attachments"
@@ -6774,7 +6774,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6859,16 +6859,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 67,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "消防 approvals for biomass plant",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-02-01",
-    "dueDate": "2027-06-30",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-03-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6877,7 +6877,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.069Z",
-    "updatedAt": "2026-05-08T00:01:54.568Z",
+    "updatedAt": "2026-05-08T22:12:29.509Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/67/attachments"
@@ -7022,7 +7022,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7107,16 +7107,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 68,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "電気事業法 compliance for power generation",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-02-01",
-    "dueDate": "2027-06-30",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-03-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7125,7 +7125,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.259Z",
-    "updatedAt": "2026-05-08T00:01:54.812Z",
+    "updatedAt": "2026-05-08T22:12:29.675Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/68/attachments"
@@ -7270,7 +7270,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7355,16 +7355,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 69,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "FIT/FIP registration with METI",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-03-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7373,7 +7373,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.460Z",
-    "updatedAt": "2026-05-08T00:01:55.182Z",
+    "updatedAt": "2026-05-08T22:12:29.838Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/69/attachments"
@@ -7518,7 +7518,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7766,7 +7766,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7851,16 +7851,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 71,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Vendor selection — biomass equipment",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-04-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-06-09",
+    "dueDate": "2027-10-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7869,7 +7869,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.768Z",
-    "updatedAt": "2026-05-08T00:01:55.703Z",
+    "updatedAt": "2026-05-08T22:12:31.057Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/71/attachments"
@@ -8014,7 +8014,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8099,16 +8099,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 72,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Vendor selection — data center hardware",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-04-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-02-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8117,7 +8117,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.896Z",
-    "updatedAt": "2026-05-08T00:01:55.945Z",
+    "updatedAt": "2026-05-08T22:12:31.234Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/72/attachments"
@@ -8262,7 +8262,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8347,16 +8347,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 73,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit 地方創生 grant application",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士 + Rep Dir\nCabinet Office",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士 + Rep Dir<br>\nCabinet Office</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-06-30",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-04-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8365,7 +8365,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.015Z",
-    "updatedAt": "2026-05-08T00:01:56.182Z",
+    "updatedAt": "2026-05-08T22:12:30.008Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/73/attachments"
@@ -8510,7 +8510,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8595,16 +8595,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 74,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit 林野庁 forestry subsidy application",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-06-30",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-04-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8613,7 +8613,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.135Z",
-    "updatedAt": "2026-05-08T00:01:56.416Z",
+    "updatedAt": "2026-05-08T22:12:30.170Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/74/attachments"
@@ -8758,7 +8758,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8843,16 +8843,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 75,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit NEDO grant application",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-02-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-04-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8861,7 +8861,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.276Z",
-    "updatedAt": "2026-05-08T00:01:56.653Z",
+    "updatedAt": "2026-05-08T22:12:30.328Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/75/attachments"
@@ -9006,7 +9006,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9091,16 +9091,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 76,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit METI green tech subsidy application",
     "description": {
       "format": "markdown",
       "raw": "Owner: 行政書士",
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-02-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-04-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9109,7 +9109,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.409Z",
-    "updatedAt": "2026-05-08T00:01:56.906Z",
+    "updatedAt": "2026-05-08T22:12:30.482Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/76/attachments"
@@ -9254,7 +9254,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9339,16 +9339,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 77,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit Nippon Foundation grant application",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob",
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-03-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9357,7 +9357,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.540Z",
-    "updatedAt": "2026-05-08T00:01:57.162Z",
+    "updatedAt": "2026-05-08T22:12:30.683Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/77/attachments"
@@ -9502,7 +9502,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9587,16 +9587,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 78,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Submit Japan Fund for Global Environment application",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob",
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-03-01",
-    "dueDate": "2027-08-02",
+    "scheduleManually": false,
+    "startDate": "2027-10-07",
+    "dueDate": "2028-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9605,7 +9605,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.668Z",
-    "updatedAt": "2026-05-08T00:01:57.408Z",
+    "updatedAt": "2026-05-08T22:12:30.849Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/78/attachments"
@@ -9750,7 +9750,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9998,7 +9998,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10246,7 +10246,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10331,16 +10331,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 81,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Hire first 2–3 part-time staff",
     "description": {
       "format": "markdown",
       "raw": "Owner: Operations Director",
       "html": "<p class=\"op-uc-p\">Owner: Operations Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-06-01",
-    "dueDate": "2027-09-30",
+    "scheduleManually": false,
+    "startDate": "2028-02-08",
+    "dueDate": "2028-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10349,7 +10349,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.066Z",
-    "updatedAt": "2026-05-08T00:01:58.235Z",
+    "updatedAt": "2026-05-08T22:12:31.554Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/81/attachments"
@@ -10494,7 +10494,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10572,14 +10572,14 @@
   },
   {
     "derivedStartDate": "2027-10-01",
-    "derivedDueDate": "2028-10-02",
+    "derivedDueDate": "2029-06-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 82,
-    "lockVersion": 5,
+    "lockVersion": 7,
     "subject": "Phase 3",
     "description": {
       "format": "markdown",
@@ -10588,16 +10588,16 @@
     },
     "scheduleManually": false,
     "startDate": "2027-10-01",
-    "dueDate": "2028-10-02",
+    "dueDate": "2029-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P262D",
+    "duration": "P442D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.181Z",
-    "updatedAt": "2026-05-08T00:02:00.265Z",
+    "updatedAt": "2026-05-08T22:12:32.396Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/82/attachments"
@@ -10742,7 +10742,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10807,12 +10807,12 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/83",
-          "title": "Harvest first 5–10 ha of sugi"
-        },
-        {
           "href": "/api/v3/work_packages/84",
           "title": "Replant native species on harvested plots"
+        },
+        {
+          "href": "/api/v3/work_packages/83",
+          "title": "Harvest first 5–10 ha of sugi"
         },
         {
           "href": "/api/v3/work_packages/86",
@@ -11015,7 +11015,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11100,16 +11100,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 84,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Replant native species on harvested plots",
     "description": {
       "format": "markdown",
       "raw": "Owner: Forestry Director",
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-10-01",
-    "dueDate": "2028-06-30",
+    "scheduleManually": false,
+    "startDate": "2028-06-09",
+    "dueDate": "2029-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11118,7 +11118,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.463Z",
-    "updatedAt": "2026-05-08T00:01:58.913Z",
+    "updatedAt": "2026-05-08T22:12:31.728Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/84/attachments"
@@ -11263,7 +11263,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11348,16 +11348,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 85,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Install small biomass boiler + heat recovery",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director + vendor\nThermal first, not electrical",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director + vendor<br>\nThermal first, not electrical</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-10-01",
-    "dueDate": "2028-05-01",
+    "scheduleManually": false,
+    "startDate": "2028-06-09",
+    "dueDate": "2029-01-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11366,7 +11366,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.603Z",
-    "updatedAt": "2026-05-08T00:01:59.159Z",
+    "updatedAt": "2026-05-08T22:12:31.910Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/85/attachments"
@@ -11511,7 +11511,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11759,7 +11759,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11844,16 +11844,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 87,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Install ~10–20 servers (edge compute)",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-04-03",
-    "dueDate": "2028-07-31",
+    "scheduleManually": false,
+    "startDate": "2028-08-01",
+    "dueDate": "2028-11-28",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11862,7 +11862,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.867Z",
-    "updatedAt": "2026-05-08T00:01:59.689Z",
+    "updatedAt": "2026-05-08T22:12:32.069Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/87/attachments"
@@ -12007,7 +12007,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12092,16 +12092,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 88,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Install 2–4 EV charging stations",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director\nVisible village benefit",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\nVisible village benefit</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-04-03",
-    "dueDate": "2028-07-31",
+    "scheduleManually": false,
+    "startDate": "2028-08-01",
+    "dueDate": "2028-11-28",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12110,7 +12110,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.991Z",
-    "updatedAt": "2026-05-08T00:01:59.934Z",
+    "updatedAt": "2026-05-08T22:12:32.228Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/88/attachments"
@@ -12255,7 +12255,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12340,16 +12340,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 89,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Apply for J-Credit certification",
     "description": {
       "format": "markdown",
       "raw": "Owner: Forestry Director\nCarbon credits",
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director<br>\nCarbon credits</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-07-03",
-    "dueDate": "2028-10-02",
+    "scheduleManually": false,
+    "startDate": "2029-03-12",
+    "dueDate": "2029-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12358,7 +12358,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.116Z",
-    "updatedAt": "2026-05-08T00:02:00.249Z",
+    "updatedAt": "2026-05-08T22:12:32.384Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/89/attachments"
@@ -12503,7 +12503,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12581,14 +12581,14 @@
   },
   {
     "derivedStartDate": "2028-10-02",
-    "derivedDueDate": "2030-12-31",
+    "derivedDueDate": "2031-06-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 90,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Phase 4",
     "description": {
       "format": "markdown",
@@ -12597,16 +12597,16 @@
     },
     "scheduleManually": false,
     "startDate": "2028-10-02",
-    "dueDate": "2030-12-31",
+    "dueDate": "2031-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P587D",
+    "duration": "P703D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.232Z",
-    "updatedAt": "2026-05-08T00:02:01.629Z",
+    "updatedAt": "2026-05-08T22:12:32.561Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/90/attachments"
@@ -12751,7 +12751,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12816,20 +12816,20 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/91",
-          "title": "Begin convert to NPO法人 (18–24 months in)"
-        },
-        {
-          "href": "/api/v3/work_packages/92",
-          "title": "Establish ongoing operations team"
+          "href": "/api/v3/work_packages/94",
+          "title": "Plan replication in 1–2 other villages"
         },
         {
           "href": "/api/v3/work_packages/93",
           "title": "Publish open data + open methodology"
         },
         {
-          "href": "/api/v3/work_packages/94",
-          "title": "Plan replication in 1–2 other villages"
+          "href": "/api/v3/work_packages/91",
+          "title": "Begin convert to NPO法人 (18–24 months in)"
+        },
+        {
+          "href": "/api/v3/work_packages/92",
+          "title": "Establish ongoing operations team"
         }
       ],
       "ancestors": [],
@@ -13012,7 +13012,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13260,7 +13260,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13345,16 +13345,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 93,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Publish open data + open methodology",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob\nFunder commitment",
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nFunder commitment</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-10-02",
-    "dueDate": "2029-07-02",
+    "scheduleManually": false,
+    "startDate": "2029-06-12",
+    "dueDate": "2030-03-12",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13363,7 +13363,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.626Z",
-    "updatedAt": "2026-05-08T00:02:01.284Z",
+    "updatedAt": "2026-05-08T22:12:32.787Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/93/attachments"
@@ -13508,7 +13508,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13593,16 +13593,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 94,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Plan replication in 1–2 other villages",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rep Dir + Rob",
       "html": "<p class=\"op-uc-p\">Owner: Rep Dir + Rob</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2029-01-01",
-    "dueDate": "2030-12-31",
+    "scheduleManually": false,
+    "startDate": "2029-06-12",
+    "dueDate": "2031-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13611,7 +13611,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.788Z",
-    "updatedAt": "2026-05-08T00:02:01.615Z",
+    "updatedAt": "2026-05-08T22:12:32.552Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/94/attachments"
@@ -13756,7 +13756,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13833,15 +13833,15 @@
     }
   },
   {
-    "derivedStartDate": "2026-04-01",
-    "derivedDueDate": "2030-12-31",
+    "derivedStartDate": "2026-07-01",
+    "derivedDueDate": "2031-04-04",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 95,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Cross-cutting",
     "description": {
       "format": "markdown",
@@ -13849,17 +13849,17 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2026-04-01",
-    "dueDate": "2030-12-31",
+    "startDate": "2026-07-01",
+    "dueDate": "2031-04-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P1240D",
+    "duration": "P1243D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.939Z",
-    "updatedAt": "2026-05-08T00:02:02.067Z",
+    "updatedAt": "2026-05-08T11:47:34.480Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/95/attachments"
@@ -14004,7 +14004,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14102,7 +14102,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 96,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Diversify funding — never depend on one source",
     "description": {
       "format": "markdown",
@@ -14110,8 +14110,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nRisk mitigation</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-04-01",
-    "dueDate": "2030-12-31",
+    "startDate": "2026-07-06",
+    "dueDate": "2031-04-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -14120,7 +14120,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.062Z",
-    "updatedAt": "2026-05-08T00:02:02.051Z",
+    "updatedAt": "2026-05-08T11:47:34.463Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/96/attachments"
@@ -14265,7 +14265,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14513,7 +14513,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14761,7 +14761,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15009,7 +15009,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15257,7 +15257,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15522,7 +15522,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15770,7 +15770,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16018,7 +16018,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16266,7 +16266,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16514,7 +16514,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16762,7 +16762,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17039,7 +17039,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17287,7 +17287,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17535,7 +17535,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17783,7 +17783,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18031,7 +18031,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18279,7 +18279,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18527,7 +18527,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18775,7 +18775,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19023,7 +19023,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19121,16 +19121,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 116,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Engage 行政書士 (Nara-based ideal)",
     "description": {
       "format": "markdown",
       "raw": "",
       "html": ""
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-08-31",
+    "scheduleManually": false,
+    "startDate": "2026-07-09",
+    "dueDate": "2026-09-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -19139,7 +19139,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.052Z",
-    "updatedAt": "2026-05-08T00:02:06.922Z",
+    "updatedAt": "2026-05-08T22:12:26.189Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/116/attachments"
@@ -19284,7 +19284,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19532,7 +19532,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19780,7 +19780,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20028,7 +20028,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20113,7 +20113,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 120,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "[Risk] Local community resistance",
     "description": {
       "format": "markdown",
@@ -20121,8 +20121,8 @@
       "html": "<p class=\"op-uc-p\">Likelihood: Medium<br>\nImpact: High<br>\nMitigation: Phase 0 trust-building before any announcements<br>\nOwner: Rep Dir</p>"
     },
     "scheduleManually": true,
-    "startDate": "2026-04-01",
-    "dueDate": "2026-06-30",
+    "startDate": "2026-07-08",
+    "dueDate": "2026-10-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -20131,7 +20131,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.001Z",
-    "updatedAt": "2026-05-08T00:02:07.929Z",
+    "updatedAt": "2026-05-08T11:47:26.860Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/120/attachments"
@@ -20276,7 +20276,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20519,7 +20519,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20762,7 +20762,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21005,7 +21005,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21248,7 +21248,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21491,7 +21491,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21734,7 +21734,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21977,7 +21977,7 @@
       },
       "project": {
         "href": "/api/v3/projects/3",
-        "title": "Mistue ai data center"
+        "title": "Mitsue ai data center"
       },
       "status": {
         "href": "/api/v3/statuses/1",
