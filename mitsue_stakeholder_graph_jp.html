@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>御杖プロジェクト — ステークホルダー関係図</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a1a; color: #dedede; font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif; }
+  #header { padding: 12px 20px; background: #272727; border-bottom: 1px solid #505050;
+            display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  #header h1 { font-size: 15px; font-weight: 600; color: #fff; white-space: nowrap; }
+  #legend { display: flex; gap: 12px; flex-wrap: wrap; }
+  .leg { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #aaa; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  #network { width: 100vw; height: calc(100vh - 45px); }
+  #tooltip { position: fixed; background: #272727; border: 1px solid #505050;
+             border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #dedede;
+             pointer-events: none; display: none; max-width: 240px; z-index: 100;
+             line-height: 1.5; }
+  #controls { position: fixed; bottom: 16px; right: 16px; display: flex;
+              flex-direction: column; gap: 6px; }
+  .ctrl-btn { background: #353535; border: 1px solid #505050; color: #dedede;
+              padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  .ctrl-btn:hover { background: #505050; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>御杖プロジェクト — ステークホルダー関係図</h1>
+  <div id="legend">
+    <div class="leg"><div class="dot" style="background:#FFCC66"></div>コアチーム</div>
+    <div class="leg"><div class="dot" style="background:#8ACAE6"></div>アドバイザー</div>
+    <div class="leg"><div class="dot" style="background:#9CD7FF"></div>地域</div>
+    <div class="leg"><div class="dot" style="background:#6796e6"></div>行政</div>
+    <div class="leg"><div class="dot" style="background:#FCB16F"></div>財団</div>
+    <div class="leg"><div class="dot" style="background:#F09040"></div>日本企業</div>
+    <div class="leg"><div class="dot" style="background:#e58520"></div>オランダ企業</div>
+    <div class="leg"><div class="dot" style="background:#A0A0C0"></div>法務・専門家</div>
+    <div class="leg"><div class="dot" style="background:#FF8080"></div>外交</div>
+  </div>
+</div>
+<div id="network"></div>
+<div id="tooltip"></div>
+<div id="controls">
+  <button class="ctrl-btn" onclick="network.fit()">全体表示</button>
+  <button class="ctrl-btn" onclick="togglePhysics()">物理演算切替</button>
+</div>
+
+<script>
+const COLORS = {
+  core:       { bg: '#FFCC66', border: '#e58520', font: '#1a1a1a' },
+  advisor:    { bg: '#8ACAE6', border: '#3655b5', font: '#1a1a1a' },
+  local:      { bg: '#9CD7FF', border: '#6796e6', font: '#1a1a1a' },
+  gov:        { bg: '#6796e6', border: '#3655b5', font: '#ffffff' },
+  foundation: { bg: '#FCB16F', border: '#e58520', font: '#1a1a1a' },
+  corpJP:     { bg: '#F09040', border: '#e58520', font: '#1a1a1a' },
+  corpNL:     { bg: '#e58520', border: '#c06010', font: '#ffffff' },
+  legal:      { bg: '#A0A0C0', border: '#707090', font: '#1a1a1a' },
+  diplomatic: { bg: '#FF8080', border: '#c04040', font: '#1a1a1a' },
+  asset:      { bg: '#505050', border: '#707070', font: '#dedede' },
+};
+
+function n(id, label, type, title='', shape='dot', size=18) {
+  const c = COLORS[type];
+  return { id, label, title: title||label,
+    color: { background: c.bg, border: c.border,
+             highlight: { background: c.bg, border: '#ffffff' } },
+    font: { color: c.font, size: 12, face: 'Noto Sans JP, Hiragino Sans, Yu Gothic, sans-serif' },
+    shape, size, borderWidth: 2 };
+}
+function e(from, to, label='', dashes=false) {
+  return { from, to, label, dashes,
+    color: { color: '#505050', highlight: '#FFCC66' },
+    font: { color: '#909090', size: 10, align: 'middle' },
+    arrows: { to: { enabled: true, scaleFactor: 0.6 } },
+    smooth: { type: 'dynamic' } };
+}
+
+const nodes = new vis.DataSet([
+  // コアチーム
+  n('ROB',      'ロブ・アウデンダイク\n創設者・リード',         'core',  'オランダ人電気技術者。Safecast中核メンバー。YR-Design。2012年より菅野在住。', 'dot', 28),
+  n('COFOUND',  '日本人共同創設者\n（未定・最優先）',           'core',  '地域に信頼される日本語話者の共同創設者。最優先採用対象。', 'dot', 22),
+  n('PROJ',     '御杖プロジェクト\n一般社団法人 → NPO法人',    'core',  '森林・エネルギー・データセンターの統合プロジェクト法人。', 'diamond', 32),
+  n('YR',       'YR-Design',                                   'core',  'ロブの会社。プロジェクト所属母体。', 'dot', 14),
+  n('SAFECAST', 'Safecast\n市民科学ネットワーク',              'core',  'オープンデータ・市民科学のモデル。プロジェクトの哲学的基盤。', 'dot', 16),
+
+  // アドバイザー
+  n('JOI', '伊藤穰一\nAI政策・MIT・日本政府', 'advisor', '元MITメディアラボ所長。AI政策アドバイザー（経産省AIストラテジー会議、デジタル庁諮問委員）。日本の技術・政府・財団界に幅広いネットワーク。2026年5月5日確定。'),
+  n('RAY', 'レイ・オジー\nMicrosoft / Lotus', 'advisor', 'Lotus Notes開発者。元Microsoft最高ソフトウェアアーキテクト。2026年5月5日確定。'),
+
+  // 外交
+  n('CONSUL', 'サンドラ・ペレグロム\n在大阪オランダ総領事', 'diplomatic', '在大阪オランダ王国総領事。支援書簡の取得対象。オランダ・日本の架け橋。'),
+  n('NL',     'オランダ王国',                               'diplomatic', 'ロブの出身国。外交的後ろ盾。', 'dot', 14),
+
+  // 地域ステークホルダー
+  n('MAYOR',       '御杖村長',               'local', '主要な行政窓口。正式な面談が必要。'),
+  n('VMAYOR',      '副村長',                 'local', '最初の非公式接触先。2025年末に面談済み。'),
+  n('JICHIKAI',    '自治会リーダー\n菅野・周辺集落', 'local', '地域住民組織のリーダー。信頼関係構築の重要対象。'),
+  n('LANDOWNERS',  '民間山林地主',           'local', '杉林の所有者。伐採パートナーシップの交渉対象。'),
+  n('FORESTRY_L',  '地元林業グループ',       'local', '初期協議パートナー。2026年初頭に面談済み。'),
+  n('SCHOOL',      '御杖小学校（廃校）',     'asset', 'プロジェクトの中核資産。データセンター・コミュニティ拠点として活用予定。', 'square', 16),
+
+  // 行政
+  n('VILLAGE_GOV', '御杖村役場',             'gov', '主要ステークホルダー。村の協力意向書の取得対象。'),
+  n('NARA',        '奈良県',                 'gov', '地域監督機関。県補助金の潜在的な提供元。'),
+  n('METI',        '経済産業省（METI）\nFIT/FIP・グリーン補助金\n電気事業法', 'gov', 'FIT/FIP登録、グリーン技術補助金、電気事業法ライセンス。伊藤穰一がAI戦略会議に関与。'),
+  n('NEDO',        'NEDO\n再エネR&D補助金',  'gov', '再生可能エネルギーR&D補助金。バイオマス技術助成。経産省の外郭団体。'),
+  n('RINSHO',      '林野庁\n伐採届出・林業補助金', 'gov', '伐採届出（森林法）。林業補助金。バイオマス燃料の合法的調達に不可欠。'),
+  n('CABINET',     '内閣府\n地方創生交付金\nデジタル田園都市', 'gov', '地方創生関係交付金（5億〜50億円規模）。デジタル田園都市国家構想の推進母体。'),
+  n('MIC',         '総務省\n農村ブロードバンド補助金', 'gov', '農村ブロードバンド補助金、地方データセンター誘致交付金。通信規制、市区町村デジタル政策。デジタル田園都市戦略と連動。'),
+  n('DIGITAL',     'デジタル庁\n農村DX補助金', 'gov', '農村デジタルトランスフォーメーション補助金。デジタルインフラ標準。伊藤穰一が諮問委員として関与。'),
+  n('ENV',         '環境省\nJ-Credit・環境アセスメント', 'gov', 'J-Credit認証（森林カーボンオフセット）。環境アセスメント。カーボン市場の監督官庁。'),
+  n('JST',         'JST\nR&D助成（フェーズ2〜3）', 'gov', '科学技術振興機構。グリーンテック・AIのR&D助成。フェーズ2〜3での共同資金調達候補。', 'dot', 14),
+  n('LEGAL_B',     '法務局\n法人登記',        'gov', '一般社団法人の法人登記。設立時の一回限りの手続き。', 'dot', 14),
+
+  // 財団
+  n('NIPPON',    '日本財団',             'foundation', 'アジア最大級の助成機関。社会課題解決の助成。'),
+  n('JFGE',      '地球環境基金',         'foundation', '環境保全助成。'),
+  n('TOYOTA_F',  'トヨタ財団',           'foundation', 'コミュニティ・農村プロジェクト助成。'),
+  n('MACARTHUR', 'マッカーサー財団',     'foundation', '伊藤穰一のネットワーク経由。発展的候補。', 'dot', 12),
+  n('ROCKEFELLER','ロックフェラー財団',  'foundation', '伊藤穰一のネットワーク経由。発展的候補。', 'dot', 12),
+
+  // 日本企業
+  n('NTT',      'NTT\n光ファイバー・データセンター', 'corpJP', '光ファイバー接続、データセンター協議の最重要接触先。'),
+  n('SOFTBANK',  'ソフトバンク',          'corpJP', 'データセンターパートナーシップ候補。'),
+  n('SUMITOMO',  '住友林業',              'corpJP', '林業専門知識と資本。'),
+  n('MITSUI',    '三井物産',              'corpJP', '総合商社。林業サプライチェーン。'),
+  n('HITACHI',   '日立製作所',            'corpJP', '産業・インフラパートナー候補。', 'dot', 12),
+
+  // オランダ企業
+  n('PHILIPS',   'フィリップス',          'corpNL', 'CSRパートナー。日本でのオランダ企業プレゼンス。'),
+  n('ASML',      'ASML',                  'corpNL', 'CSRパートナー。日本でのオランダ企業プレゼンス。'),
+  n('RHDHV',     'ロイヤル・ハスコニングDHV', 'corpNL', '水・インフラ工学の専門知識。'),
+  n('ARCADIS',   'アルカディス',          'corpNL', 'サステナビリティ・気候コンサルティング。'),
+  n('HEINEKEN',  'ハイネケン',            'corpNL', 'CSRパートナー。日本でのオランダ企業プレゼンス。', 'dot', 12),
+
+  // 法務・専門家
+  n('GYOSEI',   '行政書士\n（採用予定）', 'legal', '許認可・NPO設立・補助金申請。奈良県内が望ましい。フェーズ0〜1。'),
+  n('KAIKEI',   '公認会計士 / 税理士\n（採用予定）', 'legal', '会計システム構築・税務登録。フェーズ1。'),
+  n('BENGOSHI', '弁護士\n（採用予定）',   'legal', '地主との契約書作成。フェーズ1〜2。'),
+]);
+
+const edges = new vis.DataSet([
+  // コア
+  e('ROB',      'PROJ',    '共同創設'),
+  e('COFOUND',  'PROJ',    '共同創設'),
+  e('ROB',      'YR',      '所属'),
+  e('ROB',      'SAFECAST','中核貢献者'),
+  e('SAFECAST', 'PROJ',    'オープンデータ\nモデルに影響', true),
+
+  // アドバイザー
+  e('JOI', 'PROJ',    '顧問'),
+  e('RAY', 'PROJ',    '顧問'),
+  e('JOI', 'METI',    'AI政策顧問', true),
+  e('JOI', 'DIGITAL', '諮問委員', true),
+
+  // 外交
+  e('NL',     'CONSUL', '任命'),
+  e('CONSUL', 'PROJ',   '支援書簡'),
+  e('ROB',    'CONSUL', 'オランダ国籍\n支援要請', true),
+  e('CONSUL', 'PHILIPS','オランダ企業\n紹介', true),
+
+  // 地域
+  e('ROB',        'VMAYOR',     '初回面談\n（2025年）'),
+  e('VMAYOR',     'MAYOR',      '村長へのルート'),
+  e('MAYOR',      'VILLAGE_GOV','統括'),
+  e('VILLAGE_GOV','PROJ',       '協力意向書'),
+  e('VILLAGE_GOV','SCHOOL',     '所有'),
+  e('SCHOOL',     'PROJ',       'データセンター\n拠点として活用'),
+  e('JICHIKAI',   'PROJ',       '地域の\n合意形成'),
+  e('LANDOWNERS', 'PROJ',       '杉伐採\nパートナーシップ'),
+  e('FORESTRY_L', 'PROJ',       '初期協議'),
+
+  // 行政
+  e('VILLAGE_GOV','NARA',    '管轄下'),
+  e('NARA',       'PROJ',    '地域補助金'),
+  e('LEGAL_B',    'PROJ',    '法人登記'),
+  e('METI',       'PROJ',    'FIT/FIP\n補助金'),
+  e('NEDO',       'PROJ',    'R&D補助金'),
+  e('RINSHO',     'PROJ',    '伐採許可\n林業補助金'),
+  e('CABINET',    'PROJ',    '地方創生\n交付金'),
+  e('MIC',        'PROJ',    '農村ブロードバンド\nデータセンター補助金'),
+  e('DIGITAL',    'PROJ',    '農村DX補助金'),
+  e('ENV',        'PROJ',    'J-Credit認証\n環境許認可'),
+  e('JST',        'PROJ',    'R&D助成', true),
+
+  // 財団
+  e('NIPPON',     'PROJ',  '社会課題助成'),
+  e('JFGE',       'PROJ',  '環境助成'),
+  e('TOYOTA_F',   'PROJ',  'コミュニティ助成'),
+  e('JOI',        'NIPPON','ネットワーク\nアクセス', true),
+  e('MACARTHUR',  'PROJ',  '助成（発展的候補）', true),
+  e('ROCKEFELLER','PROJ',  '助成（発展的候補）', true),
+
+  // 日本企業
+  e('NTT',      'PROJ', '光ファイバー\nデータセンター'),
+  e('SOFTBANK', 'PROJ', 'データセンター\nパートナー'),
+  e('SUMITOMO', 'PROJ', '林業専門知識'),
+  e('MITSUI',   'PROJ', 'サプライチェーン'),
+  e('HITACHI',  'PROJ', 'インフラ', true),
+
+  // オランダ企業
+  e('PHILIPS',  'PROJ', 'CSRパートナー'),
+  e('ASML',     'PROJ', 'CSRパートナー'),
+  e('RHDHV',    'PROJ', 'インフラ工学'),
+  e('ARCADIS',  'PROJ', 'サステナビリティ'),
+  e('HEINEKEN', 'PROJ', 'CSRパートナー', true),
+
+  // 法務
+  e('GYOSEI',  'PROJ', '許認可\nNPO設立'),
+  e('KAIKEI',  'PROJ', '会計'),
+  e('BENGOSHI','PROJ', '地主との契約'),
+]);
+
+const container = document.getElementById('network');
+const network = new vis.Network(container, { nodes, edges }, {
+  physics: {
+    enabled: true,
+    forceAtlas2Based: {
+      gravitationalConstant: -60,
+      centralGravity: 0.005,
+      springLength: 120,
+      springConstant: 0.08,
+      damping: 0.4,
+    },
+    solver: 'forceAtlas2Based',
+    stabilization: { iterations: 150 },
+  },
+  interaction: { hover: true, tooltipDelay: 150, keyboard: true, zoomView: true },
+  edges: { width: 1.2, selectionWidth: 2.5 },
+  nodes: { borderWidth: 2 },
+});
+
+let physicsOn = true;
+function togglePhysics() {
+  physicsOn = !physicsOn;
+  network.setOptions({ physics: { enabled: physicsOn } });
+}
+
+const tooltip = document.getElementById('tooltip');
+network.on('hoverNode', params => {
+  const node = nodes.get(params.node);
+  tooltip.innerHTML = `<strong>${node.label.replace(/\n/g,'<br>')}</strong><br><span style="color:#aaa;font-size:11px">${node.title}</span>`;
+  tooltip.style.display = 'block';
+});
+network.on('blurNode', () => { tooltip.style.display = 'none'; });
+document.addEventListener('mousemove', e => {
+  tooltip.style.left = (e.clientX + 14) + 'px';
+  tooltip.style.top  = (e.clientY + 14) + 'px';
+});
+network.on('doubleClick', params => {
+  if (!params.nodes.length) { network.unselectAll(); return; }
+  const id = params.nodes[0];
+  network.selectNodes([id, ...network.getConnectedNodes(id)]);
+});
+</script>
+</body>
+</html>
