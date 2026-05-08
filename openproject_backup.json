@@ -236,10 +236,6 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/43",
-          "title": "Quiet conversations with 2–3 sympathetic landowners"
-        },
-        {
           "href": "/api/v3/work_packages/39",
           "title": "Private meeting with Mitsue village mayor"
         },
@@ -252,12 +248,12 @@
           "title": "Draft 2-page preliminary charter (JP + EN)"
         },
         {
-          "href": "/api/v3/work_packages/45",
-          "title": "Confirm advisory commitments (Joi Ito, Ray Ozzie) in writing"
+          "href": "/api/v3/work_packages/43",
+          "title": "Quiet conversations with 2–3 sympathetic landowners"
         },
         {
-          "href": "/api/v3/work_packages/48",
-          "title": "Open project Slack/Signal/email list"
+          "href": "/api/v3/work_packages/45",
+          "title": "Confirm advisory commitments (Joi Ito, Ray Ozzie) in writing"
         },
         {
           "href": "/api/v3/work_packages/41",
@@ -270,6 +266,10 @@
         {
           "href": "/api/v3/work_packages/40",
           "title": "Meet 自治会 leaders in Sugano + surrounding hamlets"
+        },
+        {
+          "href": "/api/v3/work_packages/48",
+          "title": "Open project Slack/Signal/email list"
         },
         {
           "href": "/api/v3/work_packages/46",
@@ -293,7 +293,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 39,
-    "lockVersion": 9,
+    "lockVersion": 10,
     "subject": "Private meeting with Mitsue village mayor",
     "description": {
       "format": "markdown",
@@ -311,7 +311,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.468Z",
-    "updatedAt": "2026-05-08T22:12:25.033Z",
+    "updatedAt": "2026-05-08T22:41:51.276Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/39/attachments"
@@ -459,8 +459,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -541,7 +541,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 40,
-    "lockVersion": 2,
+    "lockVersion": 4,
     "subject": "Meet 自治会 leaders in Sugano + surrounding hamlets",
     "description": {
       "format": "markdown",
@@ -559,7 +559,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.663Z",
-    "updatedAt": "2026-05-08T11:48:58.906Z",
+    "updatedAt": "2026-05-08T22:40:13.971Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/40/attachments"
@@ -1285,7 +1285,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 43,
-    "lockVersion": 3,
+    "lockVersion": 5,
     "subject": "Quiet conversations with 2–3 sympathetic landowners",
     "description": {
       "format": "markdown",
@@ -1303,7 +1303,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.280Z",
-    "updatedAt": "2026-05-08T11:51:58.882Z",
+    "updatedAt": "2026-05-08T22:40:14.312Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/43/attachments"
@@ -1533,7 +1533,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 46,
-    "lockVersion": 6,
+    "lockVersion": 8,
     "subject": "Confirm support letter intent — Sandra Pellegrom / Dutch Consulate",
     "description": {
       "format": "markdown",
@@ -1551,7 +1551,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.694Z",
-    "updatedAt": "2026-05-08T11:54:20.764Z",
+    "updatedAt": "2026-05-08T22:40:14.597Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/46/attachments"
@@ -2029,7 +2029,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 48,
-    "lockVersion": 8,
+    "lockVersion": 10,
     "subject": "Open project Slack/Signal/email list",
     "description": {
       "format": "markdown",
@@ -2047,7 +2047,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.193Z",
-    "updatedAt": "2026-05-08T11:54:04.270Z",
+    "updatedAt": "2026-05-08T22:40:14.883Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/48/attachments"
@@ -2269,7 +2269,7 @@
     }
   },
   {
-    "derivedStartDate": "2026-07-01",
+    "derivedStartDate": "2026-11-02",
     "derivedDueDate": "2027-06-08",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
@@ -2277,7 +2277,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 49,
-    "lockVersion": 12,
+    "lockVersion": 13,
     "subject": "Phase 1",
     "description": {
       "format": "markdown",
@@ -2285,17 +2285,17 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2026-07-01",
+    "startDate": "2026-11-02",
     "dueDate": "2027-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P245D",
+    "duration": "P157D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.316Z",
-    "updatedAt": "2026-05-08T22:12:28.300Z",
+    "updatedAt": "2026-05-08T22:40:15.877Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/49/attachments"
@@ -4062,16 +4062,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 56,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Commission Forestry Feasibility Study",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director\n¥1.5–3M, 林野庁-aligned consultant",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥1.5–3M, 林野庁-aligned consultant</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-12-31",
+    "scheduleManually": false,
+    "startDate": "2026-11-02",
+    "dueDate": "2027-05-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4080,7 +4080,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.309Z",
-    "updatedAt": "2026-05-08T00:01:51.640Z",
+    "updatedAt": "2026-05-08T22:40:15.072Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/56/attachments"
@@ -4310,16 +4310,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 57,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Commission Energy Systems Feasibility Study",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director\n¥2–4M",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥2–4M</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-12-31",
+    "scheduleManually": false,
+    "startDate": "2026-11-02",
+    "dueDate": "2027-05-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4328,7 +4328,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.465Z",
-    "updatedAt": "2026-05-08T00:01:51.923Z",
+    "updatedAt": "2026-05-08T22:40:15.345Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/57/attachments"
@@ -4558,16 +4558,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 58,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Commission Building & Site Assessment",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director\n¥1–2M, school structural check",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥1–2M, school structural check</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-12-31",
+    "scheduleManually": false,
+    "startDate": "2026-11-02",
+    "dueDate": "2027-05-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4576,7 +4576,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.610Z",
-    "updatedAt": "2026-05-08T00:01:52.197Z",
+    "updatedAt": "2026-05-08T22:40:15.581Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/58/attachments"
@@ -4806,16 +4806,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 59,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Commission Connectivity Assessment",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director\n¥0.3–0.5M, NTT coordination",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥0.3–0.5M, NTT coordination</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2026-07-01",
-    "dueDate": "2026-11-30",
+    "scheduleManually": false,
+    "startDate": "2026-11-02",
+    "dueDate": "2027-04-01",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4824,7 +4824,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.748Z",
-    "updatedAt": "2026-05-08T00:01:52.448Z",
+    "updatedAt": "2026-05-08T22:40:15.822Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/59/attachments"
@@ -5790,7 +5790,7 @@
     }
   },
   {
-    "derivedStartDate": "2027-01-01",
+    "derivedStartDate": "2027-06-09",
     "derivedDueDate": "2028-06-08",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
@@ -5798,7 +5798,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 63,
-    "lockVersion": 10,
+    "lockVersion": 11,
     "subject": "Phase 2",
     "description": {
       "format": "markdown",
@@ -5806,17 +5806,17 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2027-01-01",
+    "startDate": "2027-06-09",
     "dueDate": "2028-06-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P375D",
+    "duration": "P262D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.559Z",
-    "updatedAt": "2026-05-08T22:12:31.564Z",
+    "updatedAt": "2026-05-08T22:40:16.554Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/63/attachments"
@@ -6078,10 +6078,6 @@
           "title": "Submit Japan Fund for Global Environment application"
         },
         {
-          "href": "/api/v3/work_packages/71",
-          "title": "Vendor selection — biomass equipment"
-        },
-        {
           "href": "/api/v3/work_packages/72",
           "title": "Vendor selection — data center hardware"
         },
@@ -6092,6 +6088,10 @@
         {
           "href": "/api/v3/work_packages/70",
           "title": "Landowner partnership template contract"
+        },
+        {
+          "href": "/api/v3/work_packages/71",
+          "title": "Vendor selection — biomass equipment"
         },
         {
           "href": "/api/v3/work_packages/80",
@@ -7603,16 +7603,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 70,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Landowner partnership template contract",
     "description": {
       "format": "markdown",
       "raw": "Owner: 弁護士",
       "html": "<p class=\"op-uc-p\">Owner: 弁護士</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-03-31",
+    "scheduleManually": false,
+    "startDate": "2027-06-09",
+    "dueDate": "2027-09-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7621,7 +7621,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.623Z",
-    "updatedAt": "2026-05-08T00:01:55.457Z",
+    "updatedAt": "2026-05-08T22:40:16.052Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/70/attachments"
@@ -7851,7 +7851,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 71,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Vendor selection — biomass equipment",
     "description": {
       "format": "markdown",
@@ -7859,8 +7859,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2027-10-08",
+    "startDate": "2027-09-07",
+    "dueDate": "2028-01-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7869,7 +7869,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.768Z",
-    "updatedAt": "2026-05-08T22:12:31.057Z",
+    "updatedAt": "2026-05-08T22:40:16.091Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/71/attachments"
@@ -9835,16 +9835,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 79,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Initial outreach — Dutch corporates (Philips, ASML, RHDHV, Arcadis)",
     "description": {
       "format": "markdown",
       "raw": "Owner: Rob\nCSR / sustainability framing",
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nCSR / sustainability framing</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-09-30",
+    "scheduleManually": false,
+    "startDate": "2027-06-09",
+    "dueDate": "2028-03-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9853,7 +9853,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.800Z",
-    "updatedAt": "2026-05-08T00:01:57.703Z",
+    "updatedAt": "2026-05-08T22:40:16.312Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/79/attachments"
@@ -10083,16 +10083,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 80,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Initial outreach — JP corporates (NTT, SoftBank, Sumitomo Forestry)",
     "description": {
       "format": "markdown",
       "raw": "Owner: JP co-founder",
       "html": "<p class=\"op-uc-p\">Owner: JP co-founder</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-01-01",
-    "dueDate": "2027-09-30",
+    "scheduleManually": false,
+    "startDate": "2027-06-09",
+    "dueDate": "2028-03-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10101,7 +10101,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.943Z",
-    "updatedAt": "2026-05-08T00:01:57.988Z",
+    "updatedAt": "2026-05-08T22:40:16.524Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/80/attachments"
@@ -10571,15 +10571,15 @@
     }
   },
   {
-    "derivedStartDate": "2027-10-01",
-    "derivedDueDate": "2029-06-11",
+    "derivedStartDate": "2028-06-09",
+    "derivedDueDate": "2029-12-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 82,
-    "lockVersion": 7,
+    "lockVersion": 9,
     "subject": "Phase 3",
     "description": {
       "format": "markdown",
@@ -10587,17 +10587,17 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2027-10-01",
-    "dueDate": "2029-06-11",
+    "startDate": "2028-06-09",
+    "dueDate": "2029-12-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P442D",
+    "duration": "P393D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.181Z",
-    "updatedAt": "2026-05-08T22:12:32.396Z",
+    "updatedAt": "2026-05-08T22:40:17.055Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/82/attachments"
@@ -10807,12 +10807,12 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/84",
-          "title": "Replant native species on harvested plots"
-        },
-        {
           "href": "/api/v3/work_packages/83",
           "title": "Harvest first 5–10 ha of sugi"
+        },
+        {
+          "href": "/api/v3/work_packages/84",
+          "title": "Replant native species on harvested plots"
         },
         {
           "href": "/api/v3/work_packages/86",
@@ -10823,16 +10823,16 @@
           "title": "Install small biomass boiler + heat recovery"
         },
         {
-          "href": "/api/v3/work_packages/87",
-          "title": "Install ~10–20 servers (edge compute)"
+          "href": "/api/v3/work_packages/89",
+          "title": "Apply for J-Credit certification"
         },
         {
           "href": "/api/v3/work_packages/88",
           "title": "Install 2–4 EV charging stations"
         },
         {
-          "href": "/api/v3/work_packages/89",
-          "title": "Apply for J-Credit certification"
+          "href": "/api/v3/work_packages/87",
+          "title": "Install ~10–20 servers (edge compute)"
         }
       ],
       "ancestors": [],
@@ -10852,16 +10852,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 83,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Harvest first 5–10 ha of sugi",
     "description": {
       "format": "markdown",
       "raw": "Owner: Forestry Director",
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-10-01",
-    "dueDate": "2028-03-31",
+    "scheduleManually": false,
+    "startDate": "2028-06-09",
+    "dueDate": "2028-12-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10870,7 +10870,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.305Z",
-    "updatedAt": "2026-05-08T00:01:58.665Z",
+    "updatedAt": "2026-05-08T22:40:16.748Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/83/attachments"
@@ -11100,7 +11100,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 84,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Replant native species on harvested plots",
     "description": {
       "format": "markdown",
@@ -11108,8 +11108,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-06-09",
-    "dueDate": "2029-03-09",
+    "startDate": "2028-12-11",
+    "dueDate": "2029-09-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11118,7 +11118,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.463Z",
-    "updatedAt": "2026-05-08T22:12:31.728Z",
+    "updatedAt": "2026-05-08T22:40:16.779Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/84/attachments"
@@ -11348,7 +11348,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 85,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Install small biomass boiler + heat recovery",
     "description": {
       "format": "markdown",
@@ -11356,8 +11356,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director + vendor<br>\nThermal first, not electrical</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-06-09",
-    "dueDate": "2029-01-08",
+    "startDate": "2028-12-11",
+    "dueDate": "2029-07-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11366,7 +11366,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.603Z",
-    "updatedAt": "2026-05-08T22:12:31.910Z",
+    "updatedAt": "2026-05-08T22:40:16.772Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/85/attachments"
@@ -11596,16 +11596,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 86,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Renovate one wing of school for office + small server room",
     "description": {
       "format": "markdown",
       "raw": "Owner: Tech Director",
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2027-11-01",
-    "dueDate": "2028-07-31",
+    "scheduleManually": false,
+    "startDate": "2028-06-09",
+    "dueDate": "2029-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11614,7 +11614,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.744Z",
-    "updatedAt": "2026-05-08T00:01:59.414Z",
+    "updatedAt": "2026-05-08T22:40:17.010Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/86/attachments"
@@ -11844,7 +11844,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 87,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Install ~10–20 servers (edge compute)",
     "description": {
       "format": "markdown",
@@ -11852,8 +11852,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-08-01",
-    "dueDate": "2028-11-28",
+    "startDate": "2029-03-12",
+    "dueDate": "2029-07-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11862,7 +11862,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.867Z",
-    "updatedAt": "2026-05-08T22:12:32.069Z",
+    "updatedAt": "2026-05-08T22:40:17.048Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/87/attachments"
@@ -12092,7 +12092,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 88,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Install 2–4 EV charging stations",
     "description": {
       "format": "markdown",
@@ -12100,8 +12100,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\nVisible village benefit</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-08-01",
-    "dueDate": "2028-11-28",
+    "startDate": "2029-03-12",
+    "dueDate": "2029-07-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12110,7 +12110,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.991Z",
-    "updatedAt": "2026-05-08T22:12:32.228Z",
+    "updatedAt": "2026-05-08T22:40:17.038Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/88/attachments"
@@ -12340,7 +12340,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 89,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Apply for J-Credit certification",
     "description": {
       "format": "markdown",
@@ -12348,8 +12348,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director<br>\nCarbon credits</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-03-12",
-    "dueDate": "2029-06-11",
+    "startDate": "2029-09-11",
+    "dueDate": "2029-12-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12358,7 +12358,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.116Z",
-    "updatedAt": "2026-05-08T22:12:32.384Z",
+    "updatedAt": "2026-05-08T22:40:16.785Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/89/attachments"
@@ -12580,15 +12580,15 @@
     }
   },
   {
-    "derivedStartDate": "2028-10-02",
-    "derivedDueDate": "2031-06-11",
+    "derivedStartDate": "2029-12-12",
+    "derivedDueDate": "2032-06-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 90,
-    "lockVersion": 4,
+    "lockVersion": 6,
     "subject": "Phase 4",
     "description": {
       "format": "markdown",
@@ -12596,17 +12596,17 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2028-10-02",
-    "dueDate": "2031-06-11",
+    "startDate": "2029-12-12",
+    "dueDate": "2032-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P703D",
+    "duration": "P653D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.232Z",
-    "updatedAt": "2026-05-08T22:12:32.561Z",
+    "updatedAt": "2026-05-08T22:40:17.517Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/90/attachments"
@@ -12816,20 +12816,20 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/94",
-          "title": "Plan replication in 1–2 other villages"
-        },
-        {
-          "href": "/api/v3/work_packages/93",
-          "title": "Publish open data + open methodology"
-        },
-        {
           "href": "/api/v3/work_packages/91",
           "title": "Begin convert to NPO法人 (18–24 months in)"
         },
         {
           "href": "/api/v3/work_packages/92",
           "title": "Establish ongoing operations team"
+        },
+        {
+          "href": "/api/v3/work_packages/94",
+          "title": "Plan replication in 1–2 other villages"
+        },
+        {
+          "href": "/api/v3/work_packages/93",
+          "title": "Publish open data + open methodology"
         }
       ],
       "ancestors": [],
@@ -12849,16 +12849,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 91,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Begin convert to NPO法人 (18–24 months in)",
     "description": {
       "format": "markdown",
       "raw": "Owner: Representative Director\nLong-term legitimacy",
       "html": "<p class=\"op-uc-p\">Owner: Representative Director<br>\nLong-term legitimacy</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-10-02",
-    "dueDate": "2030-09-30",
+    "scheduleManually": false,
+    "startDate": "2029-12-12",
+    "dueDate": "2031-12-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12867,7 +12867,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.332Z",
-    "updatedAt": "2026-05-08T00:02:00.731Z",
+    "updatedAt": "2026-05-08T22:40:17.280Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/91/attachments"
@@ -13097,16 +13097,16 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 92,
-    "lockVersion": 1,
+    "lockVersion": 2,
     "subject": "Establish ongoing operations team",
     "description": {
       "format": "markdown",
       "raw": "Owner: Operations Director",
       "html": "<p class=\"op-uc-p\">Owner: Operations Director</p>"
     },
-    "scheduleManually": true,
-    "startDate": "2028-10-02",
-    "dueDate": "2029-04-02",
+    "scheduleManually": false,
+    "startDate": "2029-12-12",
+    "dueDate": "2030-06-12",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13115,7 +13115,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.494Z",
-    "updatedAt": "2026-05-08T00:02:01.015Z",
+    "updatedAt": "2026-05-08T22:40:17.478Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/92/attachments"
@@ -13345,7 +13345,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 93,
-    "lockVersion": 2,
+    "lockVersion": 4,
     "subject": "Publish open data + open methodology",
     "description": {
       "format": "markdown",
@@ -13353,8 +13353,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nFunder commitment</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-06-12",
-    "dueDate": "2030-03-12",
+    "startDate": "2030-06-13",
+    "dueDate": "2031-03-13",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13363,7 +13363,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.626Z",
-    "updatedAt": "2026-05-08T22:12:32.787Z",
+    "updatedAt": "2026-05-08T22:40:17.508Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/93/attachments"
@@ -13593,7 +13593,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 94,
-    "lockVersion": 2,
+    "lockVersion": 4,
     "subject": "Plan replication in 1–2 other villages",
     "description": {
       "format": "markdown",
@@ -13601,8 +13601,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rep Dir + Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-06-12",
-    "dueDate": "2031-06-11",
+    "startDate": "2030-06-13",
+    "dueDate": "2032-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13611,7 +13611,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.788Z",
-    "updatedAt": "2026-05-08T22:12:32.552Z",
+    "updatedAt": "2026-05-08T22:40:17.500Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/94/attachments"
@@ -14102,7 +14102,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 96,
-    "lockVersion": 2,
+    "lockVersion": 4,
     "subject": "Diversify funding — never depend on one source",
     "description": {
       "format": "markdown",
@@ -14120,7 +14120,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.062Z",
-    "updatedAt": "2026-05-08T11:47:34.463Z",
+    "updatedAt": "2026-05-08T22:40:17.816Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/96/attachments"
@@ -14350,7 +14350,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 97,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Document succession plan (reduce Rob-dependency)",
     "description": {
       "format": "markdown",
@@ -14368,7 +14368,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.230Z",
-    "updatedAt": "2026-05-08T00:02:02.358Z",
+    "updatedAt": "2026-05-08T22:40:18.118Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/97/attachments"
@@ -14598,7 +14598,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 98,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Quarterly board reviews",
     "description": {
       "format": "markdown",
@@ -14616,7 +14616,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.396Z",
-    "updatedAt": "2026-05-08T00:02:02.624Z",
+    "updatedAt": "2026-05-08T22:40:18.443Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/98/attachments"
@@ -14846,7 +14846,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 99,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Annual financial reporting",
     "description": {
       "format": "markdown",
@@ -14864,7 +14864,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.532Z",
-    "updatedAt": "2026-05-08T00:02:02.866Z",
+    "updatedAt": "2026-05-08T22:40:18.647Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/99/attachments"
@@ -15359,7 +15359,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 101,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "一般社団法人 incorporation",
     "description": {
       "format": "markdown",
@@ -15377,7 +15377,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.780Z",
-    "updatedAt": "2026-05-08T00:02:03.286Z",
+    "updatedAt": "2026-05-08T22:40:18.860Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/101/attachments"
@@ -15607,7 +15607,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 102,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Tax registration (法人税, 消費税)",
     "description": {
       "format": "markdown",
@@ -15625,7 +15625,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.977Z",
-    "updatedAt": "2026-05-08T00:02:03.540Z",
+    "updatedAt": "2026-05-08T22:40:19.030Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/102/attachments"
@@ -15855,7 +15855,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 103,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Bank account opening",
     "description": {
       "format": "markdown",
@@ -15873,7 +15873,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.144Z",
-    "updatedAt": "2026-05-08T00:02:03.796Z",
+    "updatedAt": "2026-05-08T22:40:19.196Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/103/attachments"
@@ -16103,7 +16103,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 104,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Accounting system (e.g. 弥生会計)",
     "description": {
       "format": "markdown",
@@ -16121,7 +16121,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.294Z",
-    "updatedAt": "2026-05-08T00:02:04.054Z",
+    "updatedAt": "2026-05-08T22:40:19.378Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/104/attachments"
@@ -16351,7 +16351,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 105,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Annual financial reporting",
     "description": {
       "format": "markdown",
@@ -16369,7 +16369,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.434Z",
-    "updatedAt": "2026-05-08T00:02:04.318Z",
+    "updatedAt": "2026-05-08T22:40:19.558Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/105/attachments"
@@ -16876,7 +16876,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 107,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Forestry permit — 伐採届出 (Forest Act)",
     "description": {
       "format": "markdown",
@@ -16894,7 +16894,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.715Z",
-    "updatedAt": "2026-05-08T00:02:04.745Z",
+    "updatedAt": "2026-05-08T22:40:19.737Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/107/attachments"
@@ -17124,7 +17124,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 108,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Land use coordination — 農業委員会 if agricultural land",
     "description": {
       "format": "markdown",
@@ -17142,7 +17142,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.883Z",
-    "updatedAt": "2026-05-08T00:02:05.011Z",
+    "updatedAt": "2026-05-08T22:40:19.956Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/108/attachments"
@@ -17372,7 +17372,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 109,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Building conversion — 建築基準法",
     "description": {
       "format": "markdown",
@@ -17390,7 +17390,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.031Z",
-    "updatedAt": "2026-05-08T00:02:05.266Z",
+    "updatedAt": "2026-05-08T22:40:20.138Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/109/attachments"
@@ -17620,7 +17620,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 110,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Fire & safety — 消防 approvals for biomass",
     "description": {
       "format": "markdown",
@@ -17638,7 +17638,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.175Z",
-    "updatedAt": "2026-05-08T00:02:05.526Z",
+    "updatedAt": "2026-05-08T22:40:20.320Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/110/attachments"
@@ -17868,7 +17868,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 111,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Electrical — 電気事業法 compliance",
     "description": {
       "format": "markdown",
@@ -17886,7 +17886,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.322Z",
-    "updatedAt": "2026-05-08T00:02:05.754Z",
+    "updatedAt": "2026-05-08T22:40:20.497Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/111/attachments"
@@ -18116,7 +18116,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 112,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "FIT/FIP registration — METI",
     "description": {
       "format": "markdown",
@@ -18134,7 +18134,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.470Z",
-    "updatedAt": "2026-05-08T00:02:06.004Z",
+    "updatedAt": "2026-05-08T22:40:20.667Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/112/attachments"
@@ -18364,7 +18364,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 113,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Environmental impact — 環境アセスメント (if scale triggers)",
     "description": {
       "format": "markdown",
@@ -18382,7 +18382,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.640Z",
-    "updatedAt": "2026-05-08T00:02:06.262Z",
+    "updatedAt": "2026-05-08T22:40:20.832Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/113/attachments"
@@ -18612,7 +18612,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 114,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Data center compliance — APPI + cybersecurity",
     "description": {
       "format": "markdown",
@@ -18630,7 +18630,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.795Z",
-    "updatedAt": "2026-05-08T00:02:06.525Z",
+    "updatedAt": "2026-05-08T22:40:21.030Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/114/attachments"
@@ -19369,7 +19369,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 117,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Engage 公認会計士 / 税理士",
     "description": {
       "format": "markdown",
@@ -19387,7 +19387,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.332Z",
-    "updatedAt": "2026-05-08T00:02:07.173Z",
+    "updatedAt": "2026-05-08T22:40:21.264Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/117/attachments"
@@ -19617,7 +19617,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 118,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "弁護士 consult — landowner contracts",
     "description": {
       "format": "markdown",
@@ -19635,7 +19635,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.608Z",
-    "updatedAt": "2026-05-08T00:02:07.426Z",
+    "updatedAt": "2026-05-08T22:40:21.459Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/118/attachments"
@@ -19865,7 +19865,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 119,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "Patent attorney — only if novel IP arises",
     "description": {
       "format": "markdown",
@@ -19883,7 +19883,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.838Z",
-    "updatedAt": "2026-05-08T00:02:07.705Z",
+    "updatedAt": "2026-05-08T22:40:21.659Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/119/attachments"
@@ -20113,7 +20113,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 120,
-    "lockVersion": 2,
+    "lockVersion": 4,
     "subject": "[Risk] Local community resistance",
     "description": {
       "format": "markdown",
@@ -20131,7 +20131,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.001Z",
-    "updatedAt": "2026-05-08T11:47:26.860Z",
+    "updatedAt": "2026-05-08T22:40:21.836Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/120/attachments"
@@ -20356,7 +20356,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 121,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Forestry economics worse than expected",
     "description": {
       "format": "markdown",
@@ -20374,7 +20374,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.103Z",
-    "updatedAt": "2026-05-08T00:02:08.114Z",
+    "updatedAt": "2026-05-08T22:42:35.968Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/121/attachments"
@@ -20522,8 +20522,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -20599,7 +20599,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 122,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Funding gaps between phases",
     "description": {
       "format": "markdown",
@@ -20617,7 +20617,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.235Z",
-    "updatedAt": "2026-05-08T00:02:08.300Z",
+    "updatedAt": "2026-05-08T22:41:20.593Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/122/attachments"
@@ -20765,8 +20765,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -20842,7 +20842,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 123,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Founder dependency on Rob",
     "description": {
       "format": "markdown",
@@ -20860,7 +20860,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.346Z",
-    "updatedAt": "2026-05-08T00:02:08.480Z",
+    "updatedAt": "2026-05-08T22:41:25.811Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/123/attachments"
@@ -21008,8 +21008,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -21085,7 +21085,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 124,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Building unsuitable for data center",
     "description": {
       "format": "markdown",
@@ -21103,7 +21103,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.456Z",
-    "updatedAt": "2026-05-08T00:02:08.698Z",
+    "updatedAt": "2026-05-08T22:42:47.744Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/124/attachments"
@@ -21251,8 +21251,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -21328,7 +21328,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 125,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Fiber connectivity insufficient",
     "description": {
       "format": "markdown",
@@ -21346,7 +21346,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.561Z",
-    "updatedAt": "2026-05-08T00:02:08.905Z",
+    "updatedAt": "2026-05-08T22:42:51.262Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/125/attachments"
@@ -21494,8 +21494,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
@@ -21571,7 +21571,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 126,
-    "lockVersion": 1,
+    "lockVersion": 3,
     "subject": "[Risk] Regulatory delays",
     "description": {
       "format": "markdown",
@@ -21589,7 +21589,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.672Z",
-    "updatedAt": "2026-05-08T00:02:09.100Z",
+    "updatedAt": "2026-05-08T22:40:22.778Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/126/attachments"
@@ -21814,7 +21814,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 127,
-    "lockVersion": 1,
+    "lockVersion": 4,
     "subject": "[Risk] Team conflict / mission drift",
     "description": {
       "format": "markdown",
@@ -21832,7 +21832,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.785Z",
-    "updatedAt": "2026-05-08T00:02:09.319Z",
+    "updatedAt": "2026-05-08T22:42:11.102Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/127/attachments"
@@ -21980,8 +21980,8 @@
         "title": "Mitsue ai data center"
       },
       "status": {
-        "href": "/api/v3/statuses/1",
-        "title": "New"
+        "href": "/api/v3/statuses/7",
+        "title": "In progress"
       },
       "author": {
         "href": "/api/v3/users/4",
