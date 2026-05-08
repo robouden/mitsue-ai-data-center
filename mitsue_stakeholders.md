@@ -14,7 +14,7 @@
 ### Advisors
 | Name | Role |
 |---|---|
-| Joi Ito | Former MIT Media Lab Director; tech & innovation; confirmed May 5 2026 |
+| Joi Ito | Former MIT Media Lab Director; AI policy advisor to Japanese government; member of METI AI Strategy Council & Digital Agency advisory bodies; deep connections across Japanese tech, government, and philanthropy circles; confirmed May 5 2026 |
 | Ray Ozzie | Creator of Lotus Notes; former Microsoft CSA; confirmed May 5 2026 |
 
 ### Local Stakeholders
@@ -33,14 +33,20 @@
 | Mitsue Village Government | Primary stakeholder; letter of interest target |
 | Nara Prefecture | Regional oversight; potential grant source |
 
-### Government — National
-| Name | Role |
-|---|---|
-| METI (経済産業省) | FIT/FIP registration; green tech subsidies; 電気事業法 licensing |
-| NEDO | Renewable energy R&D grants |
-| 林野庁 (Forestry Agency) | Forestry permits (伐採届出); forestry subsidies |
-| Cabinet Office (内閣府) | 地方創生 regional revitalization grants |
-| Legal Affairs Bureau (法務局) | Corporate registration |
+### Government — National (Grants, Permissions & Policy)
+
+| Ministry / Agency | Grants / Funding | Permissions / Regulation | Notes |
+|---|---|---|---|
+| METI (経済産業省) | Green tech subsidies; data center incentives | FIT/FIP registration; 電気事業法 (power generation licensing) | Key funder for energy transition & AI infrastructure |
+| NEDO | Renewable energy R&D grants; biomass technology grants | — | Arm of METI; major R&D grant source |
+| 林野庁 (Forestry Agency) | Forestry subsidies; reforestation grants | 伐採届出 (cutting notification); Forest Act compliance | Critical for biomass feedstock legality |
+| Cabinet Office (内閣府) | 地方創生 regional revitalization grants (¥5–50M) | — | Digital Garden City Nation Initiative policy driver |
+| 総務省 (MIC — Ministry of Internal Affairs) | Rural broadband subsidies; data center regional grants | Telecom regulation; municipal digital policy | Funds rural fiber; connected to Digital Garden City strategy |
+| デジタル庁 (Digital Agency) | Digital transformation grants for rural areas | Digital infrastructure standards | Joi Ito has advisory connections here; aligned with project's rural digital mission |
+| 環境省 (Ministry of Environment) | Carbon credit support | J-Credit certification; environmental impact assessment (環境アセスメント) | Governs J-Credit scheme for forest carbon offsets |
+| JST (Japan Science and Technology Agency) | R&D grants for green tech & AI | — | Potential Phase 2–3 R&D co-funding |
+| 農業委員会 (Agricultural Commission) | — | Land use permits if agricultural land involved | Local body; Nara Prefecture jurisdiction |
+| Legal Affairs Bureau (法務局) | — | Corporate registration (一般社団法人) | One-time registration |
 
 ### Diplomatic
 | Name | Role |
@@ -96,7 +102,7 @@ graph TD
     SAFECAST["🌐 Safecast\nOpen data model"]
 
     %% Advisors
-    JOI["👤 Joi Ito\nMIT Media Lab"]
+    JOI["👤 Joi Ito\nAI Policy · MIT · Japan Govt"]
     RAY["👤 Ray Ozzie\nMicrosoft / Lotus"]
 
     %% Diplomatic
@@ -117,12 +123,16 @@ graph TD
         NARA["🏛️ Nara Prefecture"]
     end
 
-    subgraph GOV_NAT["National Government"]
-        METI["🏛️ METI\nFIT/FIP · subsidies"]
-        NEDO["🏛️ NEDO\nR&D grants"]
-        RINSHO["🏛️ 林野庁\nForestry permits"]
-        CABINET["🏛️ Cabinet Office\n地方創生 grants"]
-        LEGAL_BUREAU["🏛️ Legal Affairs Bureau"]
+    subgraph GOV_NAT["National Government — Grants, Permissions & Policy"]
+        METI["🏛️ METI 経済産業省\nFIT/FIP · green tech subsidies\n電気事業法 licensing"]
+        NEDO["🏛️ NEDO\nRenewable energy R&D grants"]
+        RINSHO["🏛️ 林野庁 Forestry Agency\nForestry permits · subsidies"]
+        CABINET["🏛️ Cabinet Office 内閣府\n地方創生 grants\nDigital Garden City"]
+        MIC["🏛️ 総務省 MIC\nRural broadband · data center grants\nTelecom regulation"]
+        DIGITAL["🏛️ デジタル庁\nDigital Agency\nRural digital grants"]
+        ENV["🏛️ 環境省\nJ-Credit certification\n環境アセスメント"]
+        JST["🏛️ JST\nR&D grants (Phase 2–3)"]
+        LEGAL_BUREAU["🏛️ Legal Affairs Bureau\nCorporate registration"]
     end
 
     %% Foundations
@@ -164,6 +174,8 @@ graph TD
 
     JOI -->|"advises"| PROJ
     RAY -->|"advises"| PROJ
+    JOI -.->|"AI policy advisor"| METI
+    JOI -.->|"advisory connections"| DIGITAL
 
     CONSUL -->|"potential support letter"| PROJ
     NL -->|"diplomatic backing"| CONSUL
@@ -187,6 +199,10 @@ graph TD
     NEDO -->|"R&D grants"| PROJ
     RINSHO -->|"forestry permits\n+ subsidies"| PROJ
     CABINET -->|"地方創生 grants"| PROJ
+    MIC -->|"rural broadband\n+ data center grants"| PROJ
+    DIGITAL -->|"rural digital\ngrants"| PROJ
+    ENV -->|"J-Credit · env.\npermits"| PROJ
+    JST -->|"R&D grants"| PROJ
 
     NIPPON -->|"social grants"| PROJ
     JFGE -->|"env. grants"| PROJ

@@ -82,7 +82,7 @@ const nodes = new vis.DataSet([
   n('SAFECAST', 'Safecast',                              'core',  'Citizen science network. Open-data model and inspiration.', 'dot', 16),
 
   // Advisors
-  n('JOI',  'Joi Ito\nMIT Media Lab',  'advisor', 'Former MIT Media Lab Director. Technology & innovation. Confirmed May 5 2026.'),
+  n('JOI',  'Joi Ito\nAI Policy · MIT · Japan Govt', 'advisor', 'Former MIT Media Lab Director. AI policy advisor to Japanese government. Member of METI AI Strategy Council & Digital Agency advisory bodies. Deep connections across Japanese tech, government, and philanthropy. Confirmed May 5 2026.'),
   n('RAY',  'Ray Ozzie\nMicrosoft',    'advisor', 'Creator of Lotus Notes. Former Microsoft CSA. Confirmed May 5 2026.'),
 
   // Diplomatic
@@ -100,10 +100,14 @@ const nodes = new vis.DataSet([
   // Government
   n('VILLAGE_GOV','Mitsue Village\nGovernment','gov', 'Primary stakeholder. Letter of interest target.'),
   n('NARA',       'Nara Prefecture\n奈良県',  'gov', 'Regional oversight. Potential grant source.'),
-  n('METI',       'METI\n経済産業省',         'gov', 'FIT/FIP registration. Green tech subsidies. 電気事業法 licensing.'),
-  n('NEDO',       'NEDO',                     'gov', 'Renewable energy R&D grants.'),
+  n('METI',       'METI\n経済産業省',         'gov', 'FIT/FIP registration. Green tech subsidies. 電気事業法 licensing. AI Strategy Council (Joi Ito connected).'),
+  n('NEDO',       'NEDO',                     'gov', 'Renewable energy R&D grants. Arm of METI.'),
   n('RINSHO',     '林野庁\nForestry Agency',  'gov', 'Forestry permits (伐採届出). Forestry subsidies.'),
-  n('CABINET',    'Cabinet Office\n地方創生', 'gov', '地方創生 regional revitalization grants.'),
+  n('CABINET',    'Cabinet Office\n地方創生', 'gov', '地方創生 regional revitalization grants. Digital Garden City Nation policy driver.'),
+  n('MIC',        '総務省 MIC\nInternal Affairs', 'gov', 'Rural broadband subsidies. Data center regional grants. Telecom regulation. Connected to Digital Garden City strategy.'),
+  n('DIGITAL',    'デジタル庁\nDigital Agency', 'gov', 'Digital transformation grants for rural areas. Digital infrastructure standards. Joi Ito has advisory connections here.'),
+  n('ENV',        '環境省\nEnvironment Ministry', 'gov', 'J-Credit certification for forest carbon offsets. Environmental impact assessment (環境アセスメント). Carbon market oversight.'),
+  n('JST',        'JST\nScience & Technology Agency', 'gov', 'R&D grants for green tech & AI. Potential Phase 2–3 co-funding.', 'dot', 14),
   n('LEGAL_B',    'Legal Affairs\nBureau 法務局','gov','Corporate registration for 一般社団法人.', 'dot', 14),
 
   // Foundations
@@ -170,6 +174,13 @@ const edges = new vis.DataSet([
   e('NEDO',       'PROJ',    'R&D grants'),
   e('RINSHO',     'PROJ',    'forestry permits\n+ subsidies'),
   e('CABINET',    'PROJ',    '地方創生\ngrants'),
+  e('MIC',        'PROJ',    'rural broadband\n+ data center grants'),
+  e('DIGITAL',    'PROJ',    'rural digital\ngrants'),
+  e('ENV',        'PROJ',    'J-Credit\n+ env. permits'),
+  e('JST',        'PROJ',    'R&D grants', true),
+  // Joi Ito → Japanese Government AI connections
+  e('JOI',        'METI',    'AI Strategy\nCouncil', true),
+  e('JOI',        'DIGITAL', 'advisory\nconnections', true),
 
   // Foundations
   e('NIPPON',     'PROJ',  'grants'),
