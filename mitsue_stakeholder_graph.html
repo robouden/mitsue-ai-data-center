@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitsue Project — Stakeholder Graph</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a1a; color: #dedede; font-family: 'Segoe UI', sans-serif; }
+  #header { padding: 12px 20px; background: #272727; border-bottom: 1px solid #505050;
+            display: flex; align-items: center; gap: 16px; }
+  #header h1 { font-size: 15px; font-weight: 600; color: #fff; }
+  #legend { display: flex; gap: 12px; flex-wrap: wrap; }
+  .leg { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #aaa; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  #network { width: 100vw; height: calc(100vh - 45px); }
+  #tooltip { position: fixed; background: #272727; border: 1px solid #505050;
+             border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #dedede;
+             pointer-events: none; display: none; max-width: 220px; z-index: 100; }
+  #controls { position: fixed; bottom: 16px; right: 16px; display: flex; flex-direction: column;
+              gap: 6px; }
+  .ctrl-btn { background: #353535; border: 1px solid #505050; color: #dedede;
+              padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  .ctrl-btn:hover { background: #505050; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>Mitsue Project — Stakeholder Graph</h1>
+  <div id="legend">
+    <div class="leg"><div class="dot" style="background:#FFCC66"></div>Core Team</div>
+    <div class="leg"><div class="dot" style="background:#8ACAE6"></div>Advisors</div>
+    <div class="leg"><div class="dot" style="background:#9CD7FF"></div>Local</div>
+    <div class="leg"><div class="dot" style="background:#6796e6"></div>Government</div>
+    <div class="leg"><div class="dot" style="background:#FCB16F"></div>Foundations</div>
+    <div class="leg"><div class="dot" style="background:#F09040"></div>Corporates JP</div>
+    <div class="leg"><div class="dot" style="background:#e58520"></div>Corporates NL</div>
+    <div class="leg"><div class="dot" style="background:#A0A0C0"></div>Legal / Prof</div>
+    <div class="leg"><div class="dot" style="background:#FF8080"></div>Diplomatic</div>
+  </div>
+</div>
+<div id="network"></div>
+<div id="tooltip"></div>
+<div id="controls">
+  <button class="ctrl-btn" onclick="network.fit()">Fit all</button>
+  <button class="ctrl-btn" onclick="togglePhysics()">Toggle physics</button>
+</div>
+
+<script>
+const COLORS = {
+  core:       { bg: '#FFCC66', border: '#e58520', font: '#1a1a1a' },
+  advisor:    { bg: '#8ACAE6', border: '#3655b5', font: '#1a1a1a' },
+  local:      { bg: '#9CD7FF', border: '#6796e6', font: '#1a1a1a' },
+  gov:        { bg: '#6796e6', border: '#3655b5', font: '#ffffff' },
+  foundation: { bg: '#FCB16F', border: '#e58520', font: '#1a1a1a' },
+  corpJP:     { bg: '#F09040', border: '#e58520', font: '#1a1a1a' },
+  corpNL:     { bg: '#e58520', border: '#c06010', font: '#ffffff' },
+  legal:      { bg: '#A0A0C0', border: '#707090', font: '#1a1a1a' },
+  diplomatic: { bg: '#FF8080', border: '#c04040', font: '#1a1a1a' },
+  asset:      { bg: '#505050', border: '#707070', font: '#dedede' },
+};
+
+function n(id, label, type, title='', shape='dot', size=18) {
+  const c = COLORS[type];
+  return { id, label, title: title||label, color: { background: c.bg, border: c.border,
+    highlight: { background: c.bg, border: '#ffffff' } },
+    font: { color: c.font, size: 12, face: 'Segoe UI' },
+    shape, size, borderWidth: 2 };
+}
+function e(from, to, label='', dashes=false) {
+  return { from, to, label, dashes, color: { color: '#505050', highlight: '#FFCC66' },
+    font: { color: '#909090', size: 10, align: 'middle' },
+    arrows: { to: { enabled: true, scaleFactor: 0.6 } }, smooth: { type: 'dynamic' } };
+}
+
+const nodes = new vis.DataSet([
+  // Core
+  n('ROB',      'Rob Oudendijk\nFounder & Lead',        'core',  'Dutch electrical engineer. Safecast. YR-Design. Living in Sugano since 2012.', 'dot', 28),
+  n('COFOUND',  'Japanese Co-founder\n(TBD)',            'core',  'Top priority hire. Rural-credible Japanese founding member.', 'dot', 22),
+  n('PROJ',     'Mitsue Project\n御杖プロジェクト',      'core',  '一般社団法人 → NPO法人. Forest · Energy · Data Center.', 'diamond', 32),
+  n('YR',       'YR-Design',                             'core',  "Rob's company. Project affiliation.", 'dot', 14),
+  n('SAFECAST', 'Safecast',                              'core',  'Citizen science network. Open-data model and inspiration.', 'dot', 16),
+
+  // Advisors
+  n('JOI',  'Joi Ito\nMIT Media Lab',  'advisor', 'Former MIT Media Lab Director. Technology & innovation. Confirmed May 5 2026.'),
+  n('RAY',  'Ray Ozzie\nMicrosoft',    'advisor', 'Creator of Lotus Notes. Former Microsoft CSA. Confirmed May 5 2026.'),
+
+  // Diplomatic
+  n('CONSUL', 'Sandra Pellegrom\nDutch Consul-General', 'diplomatic', 'Consul-General of Netherlands in Osaka. Potential support letter. Dutch-Japan bridge.'),
+  n('NL',     'Kingdom of\nNetherlands',                'diplomatic', "Rob's origin country. Diplomatic backing.", 'dot', 14),
+
+  // Local
+  n('MAYOR',    'Village Mayor',              'local', 'Mitsue Village Mayor. Target for formal meeting.'),
+  n('VMAYOR',   'Vice Mayor',                'local', 'Initial informal contact. Met late 2025.'),
+  n('JICHIKAI', '自治会 Leaders\nSugano + hamlets', 'local', 'Community associations. Critical for trust-building.'),
+  n('LANDOWNERS','Private\nLandowners',       'local', 'Sugi forest owners. Target for harvesting partnerships.'),
+  n('FORESTRY_L','Local Forestry Group',      'local', 'Early consultation partner. Met early 2026.'),
+  n('SCHOOL',   'Mitsue Elementary\n(closed)','asset', 'Closed school. Central project asset. Repurposed as data center + community hub.', 'square', 16),
+
+  // Government
+  n('VILLAGE_GOV','Mitsue Village\nGovernment','gov', 'Primary stakeholder. Letter of interest target.'),
+  n('NARA',       'Nara Prefecture\n奈良県',  'gov', 'Regional oversight. Potential grant source.'),
+  n('METI',       'METI\n経済産業省',         'gov', 'FIT/FIP registration. Green tech subsidies. 電気事業法 licensing.'),
+  n('NEDO',       'NEDO',                     'gov', 'Renewable energy R&D grants.'),
+  n('RINSHO',     '林野庁\nForestry Agency',  'gov', 'Forestry permits (伐採届出). Forestry subsidies.'),
+  n('CABINET',    'Cabinet Office\n地方創生', 'gov', '地方創生 regional revitalization grants.'),
+  n('LEGAL_B',    'Legal Affairs\nBureau 法務局','gov','Corporate registration for 一般社団法人.', 'dot', 14),
+
+  // Foundations
+  n('NIPPON',  'Nippon Foundation\n日本財団',          'foundation', "Asia's leading grantmaker. Social challenge grants."),
+  n('JFGE',    'Japan Fund for\nGlobal Environment',   'foundation', 'Environmental conservation grants.'),
+  n('TOYOTA_F','Toyota Foundation',                    'foundation', 'Community & rural projects grants.'),
+  n('MACARTHUR','MacArthur Foundation',                'foundation', 'Through Joi Ito network. Stretch goal.', 'dot', 12),
+  n('ROCKEFELLER','Rockefeller Foundation',            'foundation', 'Through Joi Ito network. Stretch goal.', 'dot', 12),
+
+  // Japanese Corporates
+  n('NTT',      'NTT',              'corpJP', 'Fiber connectivity. Data center consultation. Critical infrastructure contact.'),
+  n('SOFTBANK', 'SoftBank',         'corpJP', 'Data center partnership potential.'),
+  n('SUMITOMO', 'Sumitomo Forestry\n住友林業','corpJP','Forestry expertise and capital.'),
+  n('MITSUI',   'Mitsui Bussan\n三井物産',   'corpJP','Trading company. Forestry supply chain.'),
+  n('HITACHI',  'Hitachi',          'corpJP', 'Industrial / infrastructure partner.', 'dot', 12),
+
+  // Dutch Corporates
+  n('PHILIPS',  'Philips',          'corpNL', 'Dutch corporate in Japan. CSR partnership.'),
+  n('ASML',     'ASML',             'corpNL', 'Dutch corporate in Japan. CSR partnership.'),
+  n('RHDHV',    'Royal HaskoningDHV','corpNL','Water & infrastructure engineering expertise.'),
+  n('ARCADIS',  'Arcadis',          'corpNL', 'Sustainability & climate consulting.'),
+  n('HEINEKEN', 'Heineken',         'corpNL', 'Dutch corporate in Japan. CSR partnership.', 'dot', 12),
+
+  // Legal / Professional
+  n('GYOSEI',  '行政書士\n(to hire)', 'legal', 'Administrative scrivener. Permits, NPO setup, grant applications. Nara-based preferred.'),
+  n('KAIKEI',  '公認会計士 / 税理士\n(to hire)', 'legal', 'Accountant / tax advisor. Accounting system, tax registration.'),
+  n('BENGOSHI','弁護士\n(to hire)',  'legal', 'Lawyer. Landowner contracts. Phase 1-2.'),
+]);
+
+const edges = new vis.DataSet([
+  // Core relations
+  e('ROB',      'PROJ',    'co-founds'),
+  e('COFOUND',  'PROJ',    'co-founds'),
+  e('ROB',      'YR',      'runs'),
+  e('ROB',      'SAFECAST','contributes to'),
+  e('SAFECAST', 'PROJ',    'inspires\nopen-data model', true),
+
+  // Advisors
+  e('JOI', 'PROJ', 'advises'),
+  e('RAY', 'PROJ', 'advises'),
+
+  // Diplomatic
+  e('NL',     'CONSUL', 'employs'),
+  e('CONSUL', 'PROJ',   'support letter'),
+  e('ROB',    'CONSUL', 'seeks support', true),
+  e('CONSUL', 'PHILIPS','introduces\nDutch corps', true),
+
+  // Local
+  e('ROB',        'VMAYOR',    'initial meeting\n2025'),
+  e('VMAYOR',     'MAYOR',     'gateway to'),
+  e('MAYOR',      'VILLAGE_GOV','leads'),
+  e('VILLAGE_GOV','PROJ',      'letter of interest'),
+  e('VILLAGE_GOV','SCHOOL',    'owns'),
+  e('SCHOOL',     'PROJ',      'repurposed\nas hub'),
+  e('JICHIKAI',   'PROJ',      'community\nbuy-in'),
+  e('LANDOWNERS', 'PROJ',      'sugi harvest\npartnership'),
+  e('FORESTRY_L', 'PROJ',      'early consultation'),
+
+  // Government
+  e('VILLAGE_GOV','NARA',    'under'),
+  e('NARA',       'PROJ',    'regional grants'),
+  e('LEGAL_B',    'PROJ',    'registers'),
+  e('METI',       'PROJ',    'FIT/FIP\n+ subsidies'),
+  e('NEDO',       'PROJ',    'R&D grants'),
+  e('RINSHO',     'PROJ',    'forestry permits\n+ subsidies'),
+  e('CABINET',    'PROJ',    '地方創生\ngrants'),
+
+  // Foundations
+  e('NIPPON',     'PROJ',  'grants'),
+  e('JFGE',       'PROJ',  'env. grants'),
+  e('TOYOTA_F',   'PROJ',  'community\ngrants'),
+  e('JOI',        'NIPPON','network\naccess', true),
+  e('JOI',        'MACARTHUR','network', true),
+  e('MACARTHUR',  'PROJ',  'grants\n(stretch)', true),
+  e('ROCKEFELLER','PROJ',  'grants\n(stretch)', true),
+
+  // Japanese Corporates
+  e('NTT',      'PROJ', 'fiber +\ndata center'),
+  e('SOFTBANK', 'PROJ', 'data center\npartner'),
+  e('SUMITOMO', 'PROJ', 'forestry\nexpertise'),
+  e('MITSUI',   'PROJ', 'supply chain'),
+  e('HITACHI',  'PROJ', 'infrastructure', true),
+
+  // Dutch Corporates
+  e('PHILIPS',  'PROJ', 'CSR partner'),
+  e('ASML',     'PROJ', 'CSR partner'),
+  e('RHDHV',    'PROJ', 'engineering'),
+  e('ARCADIS',  'PROJ', 'sustainability'),
+  e('HEINEKEN', 'PROJ', 'CSR partner', true),
+
+  // Legal
+  e('GYOSEI',  'PROJ', 'permits +\nNPO setup'),
+  e('KAIKEI',  'PROJ', 'accounting'),
+  e('BENGOSHI','PROJ', 'landowner\ncontracts'),
+]);
+
+const container = document.getElementById('network');
+const data = { nodes, edges };
+const options = {
+  physics: {
+    enabled: true,
+    forceAtlas2Based: {
+      gravitationalConstant: -60,
+      centralGravity: 0.005,
+      springLength: 120,
+      springConstant: 0.08,
+      damping: 0.4,
+    },
+    solver: 'forceAtlas2Based',
+    stabilization: { iterations: 150 },
+  },
+  interaction: {
+    hover: true,
+    tooltipDelay: 150,
+    navigationButtons: false,
+    keyboard: true,
+    zoomView: true,
+  },
+  edges: {
+    width: 1.2,
+    selectionWidth: 2.5,
+  },
+  nodes: {
+    borderWidth: 2,
+  },
+};
+
+const network = new vis.Network(container, data, options);
+let physicsOn = true;
+
+function togglePhysics() {
+  physicsOn = !physicsOn;
+  network.setOptions({ physics: { enabled: physicsOn } });
+}
+
+// Tooltip on hover
+const tooltip = document.getElementById('tooltip');
+network.on('hoverNode', params => {
+  const node = nodes.get(params.node);
+  tooltip.innerHTML = `<strong>${node.label.replace(/\n/g,'<br>')}</strong><br><span style="color:#aaa;font-size:11px">${node.title}</span>`;
+  tooltip.style.display = 'block';
+});
+network.on('blurNode', () => { tooltip.style.display = 'none'; });
+document.addEventListener('mousemove', e => {
+  tooltip.style.left = (e.clientX + 14) + 'px';
+  tooltip.style.top  = (e.clientY + 14) + 'px';
+});
+
+// Double-click: highlight connected nodes
+network.on('doubleClick', params => {
+  if (!params.nodes.length) { network.unselectAll(); return; }
+  const id = params.nodes[0];
+  const connected = network.getConnectedNodes(id);
+  network.selectNodes([id, ...connected]);
+});
+</script>
+</body>
+</html>
