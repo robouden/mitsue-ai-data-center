@@ -149,10 +149,21 @@ This will:
 
 ### Restore from backup
 
+After a `git pull`, run the restore script:
+
 ```bash
-# Restore the database from the SQL dump
-docker exec -i openproject-db-1 psql -U postgres openproject < openproject_backup.sql
+git pull
+bash "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/openproject_restore.sh"
 ```
+
+The script will:
+1. Confirm before doing anything destructive
+2. Stop the web/worker containers to prevent writes during restore
+3. Drop and recreate the database
+4. Load the SQL dump
+5. Restart everything and wait until the site is back up
+
+> **Note:** `git pull` only restores the backup *files* — the script is what actually loads the data into OpenProject.
 
 ## Import Script
 
