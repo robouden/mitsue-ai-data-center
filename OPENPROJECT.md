@@ -174,3 +174,44 @@ The script that imported `mitsue_todo.xlsx` into OpenProject lives at:
 ```
 
 Re-run it only on a fresh project — it will create duplicates if work packages already exist.
+
+## Project Documents (Codeberg)
+
+All documents live at: **https://codeberg.org/YR-Design/mitsue-ai-data-center**
+
+### Project Overview & Strategy
+
+| Document | View | PDF |
+|---|---|---|
+| Project Overview (Pellegrom) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_overview_pellegrom.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_overview_pellegrom.pdf) |
+| Founding Story | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_founding_story.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_founding_story.pdf) |
+| Founding Story (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_founding_story_jp.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_founding_story_jp.pdf) |
+| Village Government One-Pager | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_village_government_onepager.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_village_government_onepager.pdf) |
+| Village Government One-Pager (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_village_government_onepager_jp.md) | — |
+| Q&A Briefing | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_qa_briefing.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_qa_briefing.pdf) |
+| Phases & Funding Flowchart | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_phases_funding_flowchart.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_phases_funding_flowchart.pdf) |
+
+### Implementation & Planning
+
+| Document | View | PDF |
+|---|---|---|
+| Implementation Plan | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_implementation_plan.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_implementation_plan.pdf) |
+| Implementation Plan (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_implementation_plan_jp.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_implementation_plan_jp.pdf) |
+| Mayor Meeting Talking Points | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points.md) | — |
+| Letter: Pellegrom Support Request | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_letter_pellegrom_support_request.md) | — |
+
+### Legal & Governance
+
+| Document | View | PDF |
+|---|---|---|
+| Founding Charter | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_founding_charter.md) | — |
+| Founder Agreement Template | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_founder_agreement_template.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_founder_agreement_template.pdf) |
+
+### Stakeholders
+
+| Document | View |
+|---|---|
+| Stakeholders (English) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_stakeholders.md) |
+| Stakeholders (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_stakeholders_jp.md) |
+| Interactive Graph (English) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_stakeholder_graph.html) |
+| Interactive Graph (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_stakeholder_graph_jp.html) |
