@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # The Mitsue Project
 ### A Forest, a School, and a Future Powered by Itself
 

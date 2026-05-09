@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # Founder Agreement Template
 ### Mitsue Project — Founding Members
 **Draft for discussion — not a final legal document**

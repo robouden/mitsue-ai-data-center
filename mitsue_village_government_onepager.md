@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # 御杖村プロジェクト概要 / Mitsue Village Project — Summary
 ### One-Page Briefing for Mitsue Village Government
 **April 2026**

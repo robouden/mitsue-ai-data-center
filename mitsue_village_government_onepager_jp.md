@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # 御杖村プロジェクト概要
 ### 御杖村役場へのご説明資料
 **2026年4月**

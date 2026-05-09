@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
 

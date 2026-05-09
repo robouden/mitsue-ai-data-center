@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # Letter Template — Request for Name Support
 ### To Consul-General Sandra Pellegrom
 **Draft for Rob's review and adaptation**

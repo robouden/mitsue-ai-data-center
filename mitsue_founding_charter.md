@@ -1,3 +1,5 @@
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # Mitsue Project — Founding Charter
 ### 御杖プロジェクト設立憲章
 **Draft — April 2026 / 草案 ― 2026年4月**

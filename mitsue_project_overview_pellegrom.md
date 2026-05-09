@@ -1,9 +1,13 @@
-**Mitsue Sustainable Energy & AI Data Center**  
+<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
+# Mitsue Sustainable Energy & AI Data Center  
+
 **Project Overview for Consul General Ms. Sandra Pellegrom**  
 **Follow-up to King's Day Meeting — April 24, 2026**  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lieLGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fGBdgoVMwYAAAAAElFTkSuQmCC)  
 **The Idea in Brief**  
 Repurpose the closed Mitsue Elementary School as a **rural sustainable energy hub** combining:  
+
 1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species  
 2. **Biomass & biogas energy generation** — from the harvested sugi  
 3. **A micro-scale AI data center** — powered entirely by this locally generated renewable energy  
@@ -111,7 +115,7 @@ Phase 1 feasibility studies will produce vetted figures. Early-stage estimates s
 | Net annual surplus | ¥10–32M | ¥30–75M |   
 | Capital invested by Year 5 | ¥150–250M | — |   
 | Approximate payback period | 8–15 years | — |   
-   
+
 **Cost Displacement**  
 - Mitsue currently imports ~~100% of its electricity (~~¥40–60M annually leaves the local economy)  
 - The closed school costs the village ¥3–8M/year in upkeep with no return  
@@ -127,6 +131,4 @@ These figures are illustrative ranges, not forecasts. Phase 1 feasibility studie
 5. **Build a simple project website** with bilingual content, founding members, advisory board  
 6. **Apply for initial seed funding** — government rural revitalization grants (地方創生) are a natural starting point  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCj7fFjsymJHAjAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrsexNkF4H1/HJoAAAAASUVORK5CYII=)  
-*Rob Oudendijk — YR-Design / Safecast*  
-   
- *Mitsue, Nara Prefecture, Japan*  
+*Rob Oudendijk — YR-Design / Safecast*   *Mitsue, Nara Prefecture, Japan*
