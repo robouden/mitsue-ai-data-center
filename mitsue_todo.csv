@@ -1,0 +1,60 @@
+﻿Mitsue Project — Master To-Do List,,,,,,
+Status options: Not started • In progress • Blocked • Done,,,,,,
+
+Phase,Task,Owner,Status,Due,Priority,Notes
+Phase 0,Private meeting with Mitsue village mayor,Rob + JP co-founder,Not started,,High,"Listen first, present second"
+,Meet 自治会 leaders in Sugano + surrounding hamlets,JP co-founder,Not started,,High,
+,Identify and confirm Japanese co-founder,Rob,In progress,,Critical,Most important single decision
+,Identify 3–5 founding team members,Rob,Not started,,High,Verbal commitments OK
+,Quiet conversations with 2–3 sympathetic landowners,JP co-founder,Not started,,Medium,Gauge sugi harvesting interest
+,Draft 2-page preliminary charter (JP + EN),Rob,Not started,,High,
+,"Confirm advisory commitments (Joi Ito, Ray Ozzie) in writing",Rob,Done,,High,2026-05-05 confirmed in Slack private channel.
+,Confirm support letter intent — Sandra Pellegrom / Dutch Consulate,Rob,In progress,,High,
+,Reach out to 1–2 candidate 行政書士 in Nara,Rob,Not started,,Medium,For permits + grant apps
+,Open project Slack/Signal/email list,Rob,Not started,,Low,
+Phase 1,Draft 定款 (articles of incorporation),行政書士,Not started,,High,
+,Notarize 定款,行政書士,Not started,,High,"~¥50,000"
+,Register 一般社団法人 with Legal Affairs Bureau,行政書士,Not started,,Critical,"~¥110,000 registration tax"
+,"Tax registration (法人税, 消費税)",税理士,Not started,,High,
+,Open corporate bank account,Representative Director,Not started,,High,
+,Set up accounting system (e.g. 弥生会計),税理士,Not started,,Medium,
+,Commission Forestry Feasibility Study,Tech Director,Not started,,Critical,"¥1.5–3M, 林野庁-aligned consultant"
+,Commission Energy Systems Feasibility Study,Tech Director,Not started,,Critical,¥2–4M
+,Commission Building & Site Assessment,Tech Director,Not started,,Critical,"¥1–2M, school structural check"
+,Commission Connectivity Assessment,Tech Director,Not started,,High,"¥0.3–0.5M, NTT coordination"
+,Secure letter of interest from Mitsue village government,Representative Director,Not started,,High,
+,"Launch bilingual project website (basic, professional)",Rob,Not started,,Medium,
+,Formalize advisory board,Rob,Not started,,Medium,
+Phase 2,Detailed engineering & architectural plans,Tech Director + vendor,Not started,,Critical,
+,File 伐採届出 (cutting notification),行政書士,Not started,,High,Forest Act
+,Building conversion permits (建築基準法),行政書士,Not started,,High,
+,消防 approvals for biomass plant,行政書士,Not started,,High,
+,電気事業法 compliance for power generation,行政書士,Not started,,High,
+,FIT/FIP registration with METI,行政書士,Not started,,High,
+,Landowner partnership template contract,弁護士,Not started,,High,
+,Vendor selection — biomass equipment,Tech Director,Not started,,High,
+,Vendor selection — data center hardware,Tech Director,Not started,,High,
+,Submit 地方創生 grant application,行政書士 + Rep Dir,Not started,,Critical,Cabinet Office
+,Submit 林野庁 forestry subsidy application,行政書士,Not started,,Critical,
+,Submit NEDO grant application,行政書士,Not started,,High,
+,Submit METI green tech subsidy application,行政書士,Not started,,High,
+,Submit Nippon Foundation grant application,Rob,Not started,,High,
+,Submit Japan Fund for Global Environment application,Rob,Not started,,High,
+,"Initial outreach — Dutch corporates (Philips, ASML, RHDHV, Arcadis)",Rob,Not started,,Medium,CSR / sustainability framing
+,"Initial outreach — JP corporates (NTT, SoftBank, Sumitomo Forestry)",JP co-founder,Not started,,Medium,
+,Hire first 2–3 part-time staff,Operations Director,Not started,,Medium,
+Phase 3,Harvest first 5–10 ha of sugi,Forestry Director,Not started,,Critical,
+,Replant native species on harvested plots,Forestry Director,Not started,,Critical,
+,Install small biomass boiler + heat recovery,Tech Director + vendor,Not started,,Critical,"Thermal first, not electrical"
+,Renovate one wing of school for office + small server room,Tech Director,Not started,,Critical,
+,Install ~10–20 servers (edge compute),Tech Director,Not started,,High,
+,Install 2–4 EV charging stations,Tech Director,Not started,,Medium,Visible village benefit
+,Apply for J-Credit certification,Forestry Director,Not started,,Medium,Carbon credits
+Phase 4,Begin convert to NPO法人 (18–24 months in),Representative Director,Not started,,High,Long-term legitimacy
+,Establish ongoing operations team,Operations Director,Not started,,High,
+,Publish open data + open methodology,Rob,Not started,,Medium,Funder commitment
+,Plan replication in 1–2 other villages,Rep Dir + Rob,Not started,,Medium,
+Cross-cutting,Diversify funding — never depend on one source,Rob,Ongoing,,Critical,Risk mitigation
+,Document succession plan (reduce Rob-dependency),Rep Dir,Not started,,High,
+,Quarterly board reviews,Rep Dir,Ongoing,,Medium,
+,Annual financial reporting,税理士,Ongoing,,High,

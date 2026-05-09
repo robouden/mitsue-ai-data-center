@@ -1,3 +1,5 @@
+<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+
 # Mitsue Project — 御杖プロジェクト
 
 **A 25-Year Initiative for Forest Restoration, Distributed Renewable Energy, and Community-Owned Digital Infrastructure in Rural Japan.**
@@ -9,7 +11,7 @@
 | **Horizon** | 25 years |
 | **Current Phase** | Phase 0 — Pre-Foundation (Months 1–3) |
 | **Project Lead** | Rob Oudendijk (YR-Design / Safecast) |
-| **Document Status** | Working draft, May 2026 |
+| **Document Status** | Working draft, May 9, 2026 |
 
 ---
 
@@ -125,7 +127,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Initial meeting with the local forestry group (early 2026)
 - Drafted founding charter and detailed implementation plan (April 2026)
 - Phase and funding-gate flowchart published (May 2026)
-- Initial advisor commitments identified (Joi Ito, Ray Ozzie)
+- Advisory commitments confirmed: Joi Ito and Ray Ozzie (confirmed May 5, 2026)
 - Draft project overview prepared for the Dutch Consul General
 
 ### In Progress
@@ -133,15 +135,14 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Scheduling a formal meeting with the Village Mayor
 - Drafting bylaws for a 一般社団法人 (General Incorporated Association)
 - Engaging a 行政書士 (administrative scrivener) in Nara
-- Confirming written advisory commitments
+- Confirming letter-of-support from the Dutch Consul General (Sandra Pellegrom)
 
 ### Next 30 Days
 1. Approach candidate Japanese co-founder
 2. Hold informal meeting with the Village Mayor
 3. Initial consultations with one or two administrative scriveners
 4. Finalise a two-page bilingual charter for distribution
-5. Secure written advisor confirmations from Joi Ito and Ray Ozzie
-6. Confirm letter-of-support intent from the Dutch Consul General
+5. Send formal letter requesting name support from Consul General Pellegrom
 
 A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF copies in English and Japanese available in the repository).
 
@@ -216,9 +217,19 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
 | `mitsue_letter_pellegrom_support_request.md` | Draft letter requesting consular goodwill association |
-| `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN/JP) |
+| `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
+| `mitsue_project_founding_story_jp.md` / `.pdf` | Japanese version of the founding story |
+| `mitsue_stakeholders.md` | Stakeholder entity list and relationship map (EN), with Mermaid diagram |
+| `mitsue_stakeholders_jp.md` | Japanese version of the stakeholder list and relationship map |
+| `mitsue_stakeholder_graph.html` | Interactive stakeholder relationship graph (EN) |
+| `mitsue_stakeholder_graph_jp.html` | Interactive stakeholder relationship graph (JP) |
 | `mitsue_todo.xlsx` / `.pdf` | Working task list (English and Japanese PDFs) |
 | `mitsue_finance.xlsx` | Financial planning workbook |
+| `OPENPROJECT.md` | OpenProject project management setup, API reference, and Codeberg document index |
+| `openproject_docker-compose.yml` | Docker Compose configuration for the local OpenProject instance |
+| `openproject_backup.sh` / `openproject_restore.sh` | Backup and restore scripts for OpenProject data |
+| `openproject_backup.json` / `openproject_backup.sql` | Most recent OpenProject work-package export and PostgreSQL dump |
+| `openproject_robouden_theme.css` | Custom dark theme for the OpenProject UI (applied via Stylus extension) |
 
 Related working folders for forestry research, the closed-school site, and visual assets sit alongside this repository under the parent `Mitsue/` directory.
 
@@ -241,4 +252,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: May 2026 · Maintained by Rob Oudendijk*
+*Last updated: May 9, 2026 · Maintained by Rob Oudendijk*
