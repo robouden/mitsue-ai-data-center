@@ -1,14 +1,14 @@
 [
   {
     "derivedStartDate": "2026-04-01",
-    "derivedDueDate": "2026-10-30",
+    "derivedDueDate": "2026-10-02",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 38,
-    "lockVersion": 19,
+    "lockVersion": 20,
     "subject": "Phase 0",
     "description": {
       "format": "markdown",
@@ -17,16 +17,16 @@
     },
     "scheduleManually": false,
     "startDate": "2026-04-01",
-    "dueDate": "2026-10-30",
+    "dueDate": "2026-10-02",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P213D",
+    "duration": "P185D",
     "ignoreNonWorkingDays": true,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.304Z",
-    "updatedAt": "2026-05-08T22:12:25.647Z",
+    "updatedAt": "2026-05-09T14:46:11.082Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/38/attachments"
@@ -789,7 +789,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 41,
-    "lockVersion": 6,
+    "lockVersion": 7,
     "subject": "Identify and confirm Japanese co-founder",
     "description": {
       "format": "markdown",
@@ -798,16 +798,16 @@
     },
     "scheduleManually": false,
     "startDate": "2026-06-01",
-    "dueDate": "2026-08-28",
+    "dueDate": "2026-07-31",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
-    "duration": "P65D",
+    "duration": "P45D",
     "ignoreNonWorkingDays": false,
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.922Z",
-    "updatedAt": "2026-05-08T22:12:25.389Z",
+    "updatedAt": "2026-05-09T14:46:10.872Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/41/attachments"
@@ -1037,7 +1037,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 42,
-    "lockVersion": 6,
+    "lockVersion": 7,
     "subject": "Identify 3–5 founding team members",
     "description": {
       "format": "markdown",
@@ -1045,8 +1045,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nVerbal commitments OK</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-08-31",
-    "dueDate": "2026-10-30",
+    "startDate": "2026-08-03",
+    "dueDate": "2026-10-02",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -1055,7 +1055,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.138Z",
-    "updatedAt": "2026-05-08T22:12:25.629Z",
+    "updatedAt": "2026-05-09T14:46:11.068Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/42/attachments"
@@ -2269,15 +2269,15 @@
     }
   },
   {
-    "derivedStartDate": "2026-11-02",
-    "derivedDueDate": "2027-06-08",
+    "derivedStartDate": "2026-10-05",
+    "derivedDueDate": "2027-05-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 49,
-    "lockVersion": 13,
+    "lockVersion": 14,
     "subject": "Phase 1",
     "description": {
       "format": "markdown",
@@ -2285,8 +2285,8 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2027-06-08",
+    "startDate": "2026-10-05",
+    "dueDate": "2027-05-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -2295,7 +2295,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.316Z",
-    "updatedAt": "2026-05-08T22:40:15.877Z",
+    "updatedAt": "2026-05-09T14:46:11.207Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/49/attachments"
@@ -2505,32 +2505,44 @@
       },
       "children": [
         {
+          "href": "/api/v3/work_packages/59",
+          "title": "Commission Connectivity Assessment"
+        },
+        {
           "href": "/api/v3/work_packages/52",
           "title": "Register 一般社団法人 with Legal Affairs Bureau"
-        },
-        {
-          "href": "/api/v3/work_packages/53",
-          "title": "Tax registration (法人税, 消費税)"
-        },
-        {
-          "href": "/api/v3/work_packages/54",
-          "title": "Open corporate bank account"
-        },
-        {
-          "href": "/api/v3/work_packages/60",
-          "title": "Secure letter of interest from Mitsue village government"
-        },
-        {
-          "href": "/api/v3/work_packages/61",
-          "title": "Launch bilingual project website (basic, professional)"
         },
         {
           "href": "/api/v3/work_packages/62",
           "title": "Formalize advisory board"
         },
         {
-          "href": "/api/v3/work_packages/59",
-          "title": "Commission Connectivity Assessment"
+          "href": "/api/v3/work_packages/61",
+          "title": "Launch bilingual project website (basic, professional)"
+        },
+        {
+          "href": "/api/v3/work_packages/60",
+          "title": "Secure letter of interest from Mitsue village government"
+        },
+        {
+          "href": "/api/v3/work_packages/54",
+          "title": "Open corporate bank account"
+        },
+        {
+          "href": "/api/v3/work_packages/53",
+          "title": "Tax registration (法人税, 消費税)"
+        },
+        {
+          "href": "/api/v3/work_packages/58",
+          "title": "Commission Building & Site Assessment"
+        },
+        {
+          "href": "/api/v3/work_packages/57",
+          "title": "Commission Energy Systems Feasibility Study"
+        },
+        {
+          "href": "/api/v3/work_packages/56",
+          "title": "Commission Forestry Feasibility Study"
         },
         {
           "href": "/api/v3/work_packages/50",
@@ -2543,18 +2555,6 @@
         {
           "href": "/api/v3/work_packages/55",
           "title": "Set up accounting system (e.g. 弥生会計)"
-        },
-        {
-          "href": "/api/v3/work_packages/56",
-          "title": "Commission Forestry Feasibility Study"
-        },
-        {
-          "href": "/api/v3/work_packages/57",
-          "title": "Commission Energy Systems Feasibility Study"
-        },
-        {
-          "href": "/api/v3/work_packages/58",
-          "title": "Commission Building & Site Assessment"
         }
       ],
       "ancestors": [],
@@ -2574,7 +2574,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 50,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Draft 定款 (articles of incorporation)",
     "description": {
       "format": "markdown",
@@ -2582,8 +2582,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2026-12-02",
+    "startDate": "2026-10-05",
+    "dueDate": "2026-11-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -2592,7 +2592,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.431Z",
-    "updatedAt": "2026-05-08T22:12:26.398Z",
+    "updatedAt": "2026-05-09T14:46:11.122Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/50/attachments"
@@ -2822,7 +2822,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 51,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Notarize 定款",
     "description": {
       "format": "markdown",
@@ -2830,8 +2830,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\n~¥50,000</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-12-03",
-    "dueDate": "2027-01-05",
+    "startDate": "2026-11-05",
+    "dueDate": "2026-12-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -2840,7 +2840,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.586Z",
-    "updatedAt": "2026-05-08T22:12:26.729Z",
+    "updatedAt": "2026-05-09T14:46:11.135Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/51/attachments"
@@ -3070,7 +3070,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 52,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Register 一般社団法人 with Legal Affairs Bureau",
     "description": {
       "format": "markdown",
@@ -3078,8 +3078,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\n~¥110,000 registration tax</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-01-06",
-    "dueDate": "2027-02-04",
+    "startDate": "2026-12-09",
+    "dueDate": "2027-01-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3088,7 +3088,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.722Z",
-    "updatedAt": "2026-05-08T22:12:26.916Z",
+    "updatedAt": "2026-05-09T14:46:11.150Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/52/attachments"
@@ -3318,7 +3318,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 53,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Tax registration (法人税, 消費税)",
     "description": {
       "format": "markdown",
@@ -3326,8 +3326,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 税理士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-02-05",
-    "dueDate": "2027-03-08",
+    "startDate": "2027-01-08",
+    "dueDate": "2027-02-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3336,7 +3336,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.862Z",
-    "updatedAt": "2026-05-08T22:12:27.119Z",
+    "updatedAt": "2026-05-09T14:46:11.198Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/53/attachments"
@@ -3566,7 +3566,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 54,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Open corporate bank account",
     "description": {
       "format": "markdown",
@@ -3574,8 +3574,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Representative Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-02-05",
-    "dueDate": "2027-03-08",
+    "startDate": "2027-01-08",
+    "dueDate": "2027-02-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3584,7 +3584,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.048Z",
-    "updatedAt": "2026-05-08T22:12:27.359Z",
+    "updatedAt": "2026-05-09T14:46:11.182Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/54/attachments"
@@ -3814,7 +3814,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 55,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Set up accounting system (e.g. 弥生会計)",
     "description": {
       "format": "markdown",
@@ -3822,8 +3822,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 税理士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-03-09",
-    "dueDate": "2027-05-10",
+    "startDate": "2027-02-09",
+    "dueDate": "2027-04-12",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -3832,7 +3832,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.186Z",
-    "updatedAt": "2026-05-08T22:12:27.516Z",
+    "updatedAt": "2026-05-09T14:46:11.189Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/55/attachments"
@@ -4062,7 +4062,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 56,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Commission Forestry Feasibility Study",
     "description": {
       "format": "markdown",
@@ -4070,8 +4070,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥1.5–3M, 林野庁-aligned consultant</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2027-05-04",
+    "startDate": "2026-10-05",
+    "dueDate": "2027-04-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4080,7 +4080,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.309Z",
-    "updatedAt": "2026-05-08T22:40:15.072Z",
+    "updatedAt": "2026-05-09T14:46:11.112Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/56/attachments"
@@ -4310,7 +4310,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 57,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Commission Energy Systems Feasibility Study",
     "description": {
       "format": "markdown",
@@ -4318,8 +4318,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥2–4M</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2027-05-04",
+    "startDate": "2026-10-05",
+    "dueDate": "2027-04-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4328,7 +4328,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.465Z",
-    "updatedAt": "2026-05-08T22:40:15.345Z",
+    "updatedAt": "2026-05-09T14:46:11.103Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/57/attachments"
@@ -4558,7 +4558,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 58,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Commission Building & Site Assessment",
     "description": {
       "format": "markdown",
@@ -4566,8 +4566,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥1–2M, school structural check</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2027-05-04",
+    "startDate": "2026-10-05",
+    "dueDate": "2027-04-06",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4576,7 +4576,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.610Z",
-    "updatedAt": "2026-05-08T22:40:15.581Z",
+    "updatedAt": "2026-05-09T14:46:11.090Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/58/attachments"
@@ -4806,7 +4806,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 59,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Commission Connectivity Assessment",
     "description": {
       "format": "markdown",
@@ -4814,8 +4814,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\n¥0.3–0.5M, NTT coordination</p>"
     },
     "scheduleManually": false,
-    "startDate": "2026-11-02",
-    "dueDate": "2027-04-01",
+    "startDate": "2026-10-05",
+    "dueDate": "2027-03-04",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -4824,7 +4824,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.748Z",
-    "updatedAt": "2026-05-08T22:40:15.822Z",
+    "updatedAt": "2026-05-09T14:46:11.142Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/59/attachments"
@@ -5054,7 +5054,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 60,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Secure letter of interest from Mitsue village government",
     "description": {
       "format": "markdown",
@@ -5062,8 +5062,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Representative Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-02-05",
-    "dueDate": "2027-05-06",
+    "startDate": "2027-01-08",
+    "dueDate": "2027-04-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5072,7 +5072,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.892Z",
-    "updatedAt": "2026-05-08T22:12:27.856Z",
+    "updatedAt": "2026-05-09T14:46:11.172Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/60/attachments"
@@ -5302,7 +5302,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 61,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Launch bilingual project website (basic, professional)",
     "description": {
       "format": "markdown",
@@ -5310,8 +5310,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-02-05",
-    "dueDate": "2027-05-06",
+    "startDate": "2027-01-08",
+    "dueDate": "2027-04-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5320,7 +5320,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.125Z",
-    "updatedAt": "2026-05-08T22:12:28.030Z",
+    "updatedAt": "2026-05-09T14:46:11.165Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/61/attachments"
@@ -5550,7 +5550,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 62,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Formalize advisory board",
     "description": {
       "format": "markdown",
@@ -5558,8 +5558,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-02-05",
-    "dueDate": "2027-06-08",
+    "startDate": "2027-01-08",
+    "dueDate": "2027-05-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5568,7 +5568,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.420Z",
-    "updatedAt": "2026-05-08T22:12:28.228Z",
+    "updatedAt": "2026-05-09T14:46:11.157Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/62/attachments"
@@ -5790,15 +5790,15 @@
     }
   },
   {
-    "derivedStartDate": "2027-06-09",
-    "derivedDueDate": "2028-06-08",
+    "derivedStartDate": "2027-05-12",
+    "derivedDueDate": "2028-05-11",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 63,
-    "lockVersion": 11,
+    "lockVersion": 12,
     "subject": "Phase 2",
     "description": {
       "format": "markdown",
@@ -5806,8 +5806,8 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2028-06-08",
+    "startDate": "2027-05-12",
+    "dueDate": "2028-05-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -5816,7 +5816,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.559Z",
-    "updatedAt": "2026-05-08T22:40:16.554Z",
+    "updatedAt": "2026-05-09T14:46:11.412Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/63/attachments"
@@ -6026,56 +6026,36 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/64",
-          "title": "Detailed engineering & architectural plans"
-        },
-        {
-          "href": "/api/v3/work_packages/66",
-          "title": "Building conversion permits (建築基準法)"
-        },
-        {
-          "href": "/api/v3/work_packages/73",
-          "title": "Submit 地方創生 grant application"
-        },
-        {
-          "href": "/api/v3/work_packages/74",
-          "title": "Submit 林野庁 forestry subsidy application"
-        },
-        {
-          "href": "/api/v3/work_packages/75",
-          "title": "Submit NEDO grant application"
-        },
-        {
-          "href": "/api/v3/work_packages/76",
-          "title": "Submit METI green tech subsidy application"
-        },
-        {
           "href": "/api/v3/work_packages/79",
           "title": "Initial outreach — Dutch corporates (Philips, ASML, RHDHV, Arcadis)"
         },
         {
-          "href": "/api/v3/work_packages/65",
-          "title": "File 伐採届出 (cutting notification)"
-        },
-        {
-          "href": "/api/v3/work_packages/67",
-          "title": "消防 approvals for biomass plant"
+          "href": "/api/v3/work_packages/64",
+          "title": "Detailed engineering & architectural plans"
         },
         {
           "href": "/api/v3/work_packages/68",
           "title": "電気事業法 compliance for power generation"
         },
         {
-          "href": "/api/v3/work_packages/69",
-          "title": "FIT/FIP registration with METI"
+          "href": "/api/v3/work_packages/67",
+          "title": "消防 approvals for biomass plant"
         },
         {
-          "href": "/api/v3/work_packages/77",
-          "title": "Submit Nippon Foundation grant application"
+          "href": "/api/v3/work_packages/65",
+          "title": "File 伐採届出 (cutting notification)"
         },
         {
-          "href": "/api/v3/work_packages/78",
-          "title": "Submit Japan Fund for Global Environment application"
+          "href": "/api/v3/work_packages/76",
+          "title": "Submit METI green tech subsidy application"
+        },
+        {
+          "href": "/api/v3/work_packages/70",
+          "title": "Landowner partnership template contract"
+        },
+        {
+          "href": "/api/v3/work_packages/71",
+          "title": "Vendor selection — biomass equipment"
         },
         {
           "href": "/api/v3/work_packages/72",
@@ -6086,12 +6066,32 @@
           "title": "Hire first 2–3 part-time staff"
         },
         {
-          "href": "/api/v3/work_packages/70",
-          "title": "Landowner partnership template contract"
+          "href": "/api/v3/work_packages/78",
+          "title": "Submit Japan Fund for Global Environment application"
         },
         {
-          "href": "/api/v3/work_packages/71",
-          "title": "Vendor selection — biomass equipment"
+          "href": "/api/v3/work_packages/77",
+          "title": "Submit Nippon Foundation grant application"
+        },
+        {
+          "href": "/api/v3/work_packages/69",
+          "title": "FIT/FIP registration with METI"
+        },
+        {
+          "href": "/api/v3/work_packages/75",
+          "title": "Submit NEDO grant application"
+        },
+        {
+          "href": "/api/v3/work_packages/74",
+          "title": "Submit 林野庁 forestry subsidy application"
+        },
+        {
+          "href": "/api/v3/work_packages/73",
+          "title": "Submit 地方創生 grant application"
+        },
+        {
+          "href": "/api/v3/work_packages/66",
+          "title": "Building conversion permits (建築基準法)"
         },
         {
           "href": "/api/v3/work_packages/80",
@@ -6115,7 +6115,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 64,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Detailed engineering & architectural plans",
     "description": {
       "format": "markdown",
@@ -6123,8 +6123,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director + vendor</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2027-10-06",
+    "startDate": "2027-05-12",
+    "dueDate": "2027-09-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6133,7 +6133,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.659Z",
-    "updatedAt": "2026-05-08T22:12:28.495Z",
+    "updatedAt": "2026-05-09T14:46:11.253Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/64/attachments"
@@ -6363,7 +6363,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 65,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "File 伐採届出 (cutting notification)",
     "description": {
       "format": "markdown",
@@ -6371,8 +6371,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士<br>\nForest Act</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-01-04",
+    "startDate": "2027-09-09",
+    "dueDate": "2027-12-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6381,7 +6381,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.803Z",
-    "updatedAt": "2026-05-08T22:12:29.159Z",
+    "updatedAt": "2026-05-09T14:46:11.316Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/65/attachments"
@@ -6611,7 +6611,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 66,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Building conversion permits (建築基準法)",
     "description": {
       "format": "markdown",
@@ -6619,8 +6619,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-04-04",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-03-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6629,7 +6629,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.931Z",
-    "updatedAt": "2026-05-08T22:12:29.329Z",
+    "updatedAt": "2026-05-09T14:46:11.405Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/66/attachments"
@@ -6859,7 +6859,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 67,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "消防 approvals for biomass plant",
     "description": {
       "format": "markdown",
@@ -6867,8 +6867,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-03-06",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-02-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -6877,7 +6877,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.069Z",
-    "updatedAt": "2026-05-08T22:12:29.509Z",
+    "updatedAt": "2026-05-09T14:46:11.307Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/67/attachments"
@@ -7107,7 +7107,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 68,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "電気事業法 compliance for power generation",
     "description": {
       "format": "markdown",
@@ -7115,8 +7115,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-03-06",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-02-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7125,7 +7125,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.259Z",
-    "updatedAt": "2026-05-08T22:12:29.675Z",
+    "updatedAt": "2026-05-09T14:46:11.300Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/68/attachments"
@@ -7355,7 +7355,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 69,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "FIT/FIP registration with METI",
     "description": {
       "format": "markdown",
@@ -7363,8 +7363,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-03-09",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-02-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7373,7 +7373,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.460Z",
-    "updatedAt": "2026-05-08T22:12:29.838Z",
+    "updatedAt": "2026-05-09T14:46:11.291Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/69/attachments"
@@ -7603,7 +7603,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 70,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Landowner partnership template contract",
     "description": {
       "format": "markdown",
@@ -7611,8 +7611,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 弁護士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2027-09-06",
+    "startDate": "2027-05-12",
+    "dueDate": "2027-08-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7621,7 +7621,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.623Z",
-    "updatedAt": "2026-05-08T22:40:16.052Z",
+    "updatedAt": "2026-05-09T14:46:11.222Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/70/attachments"
@@ -7851,7 +7851,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 71,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Vendor selection — biomass equipment",
     "description": {
       "format": "markdown",
@@ -7859,8 +7859,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-09-07",
-    "dueDate": "2028-01-06",
+    "startDate": "2027-08-10",
+    "dueDate": "2027-12-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -7869,7 +7869,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.768Z",
-    "updatedAt": "2026-05-08T22:40:16.091Z",
+    "updatedAt": "2026-05-09T14:46:11.229Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/71/attachments"
@@ -8099,7 +8099,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 72,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Vendor selection — data center hardware",
     "description": {
       "format": "markdown",
@@ -8107,8 +8107,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-02-07",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-01-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8117,7 +8117,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.896Z",
-    "updatedAt": "2026-05-08T22:12:31.234Z",
+    "updatedAt": "2026-05-09T14:46:11.260Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/72/attachments"
@@ -8347,7 +8347,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 73,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit 地方創生 grant application",
     "description": {
       "format": "markdown",
@@ -8355,8 +8355,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士 + Rep Dir<br>\nCabinet Office</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-04-04",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-03-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8365,7 +8365,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.015Z",
-    "updatedAt": "2026-05-08T22:12:30.008Z",
+    "updatedAt": "2026-05-09T14:46:11.398Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/73/attachments"
@@ -8595,7 +8595,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 74,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit 林野庁 forestry subsidy application",
     "description": {
       "format": "markdown",
@@ -8603,8 +8603,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-04-04",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-03-07",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8613,7 +8613,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.135Z",
-    "updatedAt": "2026-05-08T22:12:30.170Z",
+    "updatedAt": "2026-05-09T14:46:11.389Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/74/attachments"
@@ -8843,7 +8843,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 75,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit NEDO grant application",
     "description": {
       "format": "markdown",
@@ -8851,8 +8851,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-04-06",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -8861,7 +8861,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.276Z",
-    "updatedAt": "2026-05-08T22:12:30.328Z",
+    "updatedAt": "2026-05-09T14:46:11.382Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/75/attachments"
@@ -9091,7 +9091,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 76,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit METI green tech subsidy application",
     "description": {
       "format": "markdown",
@@ -9099,8 +9099,8 @@
       "html": "<p class=\"op-uc-p\">Owner: 行政書士</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-04-06",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-03-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9109,7 +9109,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.409Z",
-    "updatedAt": "2026-05-08T22:12:30.482Z",
+    "updatedAt": "2026-05-09T14:46:11.332Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/76/attachments"
@@ -9339,7 +9339,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 77,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit Nippon Foundation grant application",
     "description": {
       "format": "markdown",
@@ -9347,8 +9347,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-03-09",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-02-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9357,7 +9357,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.540Z",
-    "updatedAt": "2026-05-08T22:12:30.683Z",
+    "updatedAt": "2026-05-09T14:46:11.285Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/77/attachments"
@@ -9587,7 +9587,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 78,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Submit Japan Fund for Global Environment application",
     "description": {
       "format": "markdown",
@@ -9595,8 +9595,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-10-07",
-    "dueDate": "2028-03-09",
+    "startDate": "2027-09-09",
+    "dueDate": "2028-02-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9605,7 +9605,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.668Z",
-    "updatedAt": "2026-05-08T22:12:30.849Z",
+    "updatedAt": "2026-05-09T14:46:11.277Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/78/attachments"
@@ -9835,7 +9835,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 79,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Initial outreach — Dutch corporates (Philips, ASML, RHDHV, Arcadis)",
     "description": {
       "format": "markdown",
@@ -9843,8 +9843,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nCSR / sustainability framing</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2028-03-07",
+    "startDate": "2027-05-12",
+    "dueDate": "2028-02-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -9853,7 +9853,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.800Z",
-    "updatedAt": "2026-05-08T22:40:16.312Z",
+    "updatedAt": "2026-05-09T14:46:11.241Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/79/attachments"
@@ -10083,7 +10083,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 80,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Initial outreach — JP corporates (NTT, SoftBank, Sumitomo Forestry)",
     "description": {
       "format": "markdown",
@@ -10091,8 +10091,8 @@
       "html": "<p class=\"op-uc-p\">Owner: JP co-founder</p>"
     },
     "scheduleManually": false,
-    "startDate": "2027-06-09",
-    "dueDate": "2028-03-07",
+    "startDate": "2027-05-12",
+    "dueDate": "2028-02-08",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10101,7 +10101,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.943Z",
-    "updatedAt": "2026-05-08T22:40:16.524Z",
+    "updatedAt": "2026-05-09T14:46:11.215Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/80/attachments"
@@ -10331,7 +10331,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 81,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Hire first 2–3 part-time staff",
     "description": {
       "format": "markdown",
@@ -10339,8 +10339,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Operations Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-02-08",
-    "dueDate": "2028-06-08",
+    "startDate": "2028-01-11",
+    "dueDate": "2028-05-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10349,7 +10349,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.066Z",
-    "updatedAt": "2026-05-08T22:12:31.554Z",
+    "updatedAt": "2026-05-09T14:46:11.268Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/81/attachments"
@@ -10571,15 +10571,15 @@
     }
   },
   {
-    "derivedStartDate": "2028-06-09",
-    "derivedDueDate": "2029-12-11",
+    "derivedStartDate": "2028-05-12",
+    "derivedDueDate": "2029-11-13",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 82,
-    "lockVersion": 9,
+    "lockVersion": 10,
     "subject": "Phase 3",
     "description": {
       "format": "markdown",
@@ -10587,8 +10587,8 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2028-06-09",
-    "dueDate": "2029-12-11",
+    "startDate": "2028-05-12",
+    "dueDate": "2029-11-13",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10597,7 +10597,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.181Z",
-    "updatedAt": "2026-05-08T22:40:17.055Z",
+    "updatedAt": "2026-05-09T14:46:11.479Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/82/attachments"
@@ -10807,32 +10807,32 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/83",
-          "title": "Harvest first 5–10 ha of sugi"
-        },
-        {
-          "href": "/api/v3/work_packages/84",
-          "title": "Replant native species on harvested plots"
-        },
-        {
           "href": "/api/v3/work_packages/86",
           "title": "Renovate one wing of school for office + small server room"
         },
         {
-          "href": "/api/v3/work_packages/85",
-          "title": "Install small biomass boiler + heat recovery"
-        },
-        {
-          "href": "/api/v3/work_packages/89",
-          "title": "Apply for J-Credit certification"
+          "href": "/api/v3/work_packages/87",
+          "title": "Install ~10–20 servers (edge compute)"
         },
         {
           "href": "/api/v3/work_packages/88",
           "title": "Install 2–4 EV charging stations"
         },
         {
-          "href": "/api/v3/work_packages/87",
-          "title": "Install ~10–20 servers (edge compute)"
+          "href": "/api/v3/work_packages/83",
+          "title": "Harvest first 5–10 ha of sugi"
+        },
+        {
+          "href": "/api/v3/work_packages/85",
+          "title": "Install small biomass boiler + heat recovery"
+        },
+        {
+          "href": "/api/v3/work_packages/84",
+          "title": "Replant native species on harvested plots"
+        },
+        {
+          "href": "/api/v3/work_packages/89",
+          "title": "Apply for J-Credit certification"
         }
       ],
       "ancestors": [],
@@ -10852,7 +10852,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 83,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Harvest first 5–10 ha of sugi",
     "description": {
       "format": "markdown",
@@ -10860,8 +10860,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-06-09",
-    "dueDate": "2028-12-08",
+    "startDate": "2028-05-12",
+    "dueDate": "2028-11-10",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -10870,7 +10870,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.305Z",
-    "updatedAt": "2026-05-08T22:40:16.748Z",
+    "updatedAt": "2026-05-09T14:46:11.440Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/83/attachments"
@@ -11100,7 +11100,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 84,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Replant native species on harvested plots",
     "description": {
       "format": "markdown",
@@ -11108,8 +11108,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-12-11",
-    "dueDate": "2029-09-10",
+    "startDate": "2028-11-13",
+    "dueDate": "2029-08-13",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11118,7 +11118,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.463Z",
-    "updatedAt": "2026-05-08T22:40:16.779Z",
+    "updatedAt": "2026-05-09T14:46:11.465Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/84/attachments"
@@ -11348,7 +11348,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 85,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Install small biomass boiler + heat recovery",
     "description": {
       "format": "markdown",
@@ -11356,8 +11356,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director + vendor<br>\nThermal first, not electrical</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-12-11",
-    "dueDate": "2029-07-10",
+    "startDate": "2028-11-13",
+    "dueDate": "2029-06-12",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11366,7 +11366,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.603Z",
-    "updatedAt": "2026-05-08T22:40:16.772Z",
+    "updatedAt": "2026-05-09T14:46:11.456Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/85/attachments"
@@ -11596,7 +11596,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 86,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Renovate one wing of school for office + small server room",
     "description": {
       "format": "markdown",
@@ -11604,8 +11604,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2028-06-09",
-    "dueDate": "2029-03-09",
+    "startDate": "2028-05-12",
+    "dueDate": "2029-02-09",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11614,7 +11614,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.744Z",
-    "updatedAt": "2026-05-08T22:40:17.010Z",
+    "updatedAt": "2026-05-09T14:46:11.421Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/86/attachments"
@@ -11844,7 +11844,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 87,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Install ~10–20 servers (edge compute)",
     "description": {
       "format": "markdown",
@@ -11852,8 +11852,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-03-12",
-    "dueDate": "2029-07-09",
+    "startDate": "2029-02-12",
+    "dueDate": "2029-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -11862,7 +11862,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.867Z",
-    "updatedAt": "2026-05-08T22:40:17.048Z",
+    "updatedAt": "2026-05-09T14:46:11.426Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/87/attachments"
@@ -12092,7 +12092,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 88,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Install 2–4 EV charging stations",
     "description": {
       "format": "markdown",
@@ -12100,8 +12100,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Tech Director<br>\nVisible village benefit</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-03-12",
-    "dueDate": "2029-07-09",
+    "startDate": "2029-02-12",
+    "dueDate": "2029-06-11",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12110,7 +12110,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.991Z",
-    "updatedAt": "2026-05-08T22:40:17.038Z",
+    "updatedAt": "2026-05-09T14:46:11.434Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/88/attachments"
@@ -12340,7 +12340,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 89,
-    "lockVersion": 3,
+    "lockVersion": 4,
     "subject": "Apply for J-Credit certification",
     "description": {
       "format": "markdown",
@@ -12348,8 +12348,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Forestry Director<br>\nCarbon credits</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-09-11",
-    "dueDate": "2029-12-11",
+    "startDate": "2029-08-14",
+    "dueDate": "2029-11-13",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12358,7 +12358,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.116Z",
-    "updatedAt": "2026-05-08T22:40:16.785Z",
+    "updatedAt": "2026-05-09T14:46:11.472Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/89/attachments"
@@ -12580,15 +12580,15 @@
     }
   },
   {
-    "derivedStartDate": "2029-12-12",
-    "derivedDueDate": "2032-06-11",
+    "derivedStartDate": "2029-11-14",
+    "derivedDueDate": "2032-05-14",
     "spentTime": "PT0S",
     "laborCosts": "0.00 EUR",
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 90,
-    "lockVersion": 6,
+    "lockVersion": 7,
     "subject": "Phase 4",
     "description": {
       "format": "markdown",
@@ -12596,8 +12596,8 @@
       "html": ""
     },
     "scheduleManually": false,
-    "startDate": "2029-12-12",
-    "dueDate": "2032-06-11",
+    "startDate": "2029-11-14",
+    "dueDate": "2032-05-14",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12606,7 +12606,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.232Z",
-    "updatedAt": "2026-05-08T22:40:17.517Z",
+    "updatedAt": "2026-05-09T14:46:11.514Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/90/attachments"
@@ -12816,20 +12816,20 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/91",
-          "title": "Begin convert to NPO法人 (18–24 months in)"
-        },
-        {
           "href": "/api/v3/work_packages/92",
           "title": "Establish ongoing operations team"
+        },
+        {
+          "href": "/api/v3/work_packages/93",
+          "title": "Publish open data + open methodology"
         },
         {
           "href": "/api/v3/work_packages/94",
           "title": "Plan replication in 1–2 other villages"
         },
         {
-          "href": "/api/v3/work_packages/93",
-          "title": "Publish open data + open methodology"
+          "href": "/api/v3/work_packages/91",
+          "title": "Begin convert to NPO法人 (18–24 months in)"
         }
       ],
       "ancestors": [],
@@ -12849,7 +12849,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 91,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Begin convert to NPO法人 (18–24 months in)",
     "description": {
       "format": "markdown",
@@ -12857,8 +12857,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Representative Director<br>\nLong-term legitimacy</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-12-12",
-    "dueDate": "2031-12-10",
+    "startDate": "2029-11-14",
+    "dueDate": "2031-11-12",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -12867,7 +12867,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.332Z",
-    "updatedAt": "2026-05-08T22:40:17.280Z",
+    "updatedAt": "2026-05-09T14:46:11.507Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/91/attachments"
@@ -13097,7 +13097,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 92,
-    "lockVersion": 2,
+    "lockVersion": 3,
     "subject": "Establish ongoing operations team",
     "description": {
       "format": "markdown",
@@ -13105,8 +13105,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Operations Director</p>"
     },
     "scheduleManually": false,
-    "startDate": "2029-12-12",
-    "dueDate": "2030-06-12",
+    "startDate": "2029-11-14",
+    "dueDate": "2030-05-15",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13115,7 +13115,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.494Z",
-    "updatedAt": "2026-05-08T22:40:17.478Z",
+    "updatedAt": "2026-05-09T14:46:11.486Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/92/attachments"
@@ -13345,7 +13345,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 93,
-    "lockVersion": 4,
+    "lockVersion": 5,
     "subject": "Publish open data + open methodology",
     "description": {
       "format": "markdown",
@@ -13353,8 +13353,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rob<br>\nFunder commitment</p>"
     },
     "scheduleManually": false,
-    "startDate": "2030-06-13",
-    "dueDate": "2031-03-13",
+    "startDate": "2030-05-16",
+    "dueDate": "2031-02-13",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13363,7 +13363,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.626Z",
-    "updatedAt": "2026-05-08T22:40:17.508Z",
+    "updatedAt": "2026-05-09T14:46:11.492Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/93/attachments"
@@ -13593,7 +13593,7 @@
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
     "id": 94,
-    "lockVersion": 4,
+    "lockVersion": 5,
     "subject": "Plan replication in 1–2 other villages",
     "description": {
       "format": "markdown",
@@ -13601,8 +13601,8 @@
       "html": "<p class=\"op-uc-p\">Owner: Rep Dir + Rob</p>"
     },
     "scheduleManually": false,
-    "startDate": "2030-06-13",
-    "dueDate": "2032-06-11",
+    "startDate": "2030-05-16",
+    "dueDate": "2032-05-14",
     "estimatedTime": null,
     "derivedEstimatedTime": null,
     "derivedRemainingTime": null,
@@ -13611,7 +13611,7 @@
     "percentageDone": null,
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.788Z",
-    "updatedAt": "2026-05-08T22:40:17.500Z",
+    "updatedAt": "2026-05-09T14:46:11.499Z",
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/94/attachments"
