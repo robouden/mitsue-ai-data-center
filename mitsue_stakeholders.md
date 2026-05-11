@@ -185,6 +185,6 @@ flowchart LR
     %% ==================== MAIN PROJECT - RIGHT CENTER ====================
     PROJ["🏗️ **Mitsue Project**\n御杖プロジェクト"]
 
-    classDef main fill:#202020, stroke:#202020, stroke-width:5px, rx:5, ry5
+    classDef main fill:#bbbbbb, stroke:#202020, stroke-width:3px, rx:3, ry3
     class PROJ main
 ```

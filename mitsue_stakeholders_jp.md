@@ -51,8 +51,8 @@
 | 法務局                                     | —                                                      | 一般社団法人の法人登記                                   | 設立時の一回限りの手続き                                                   |
 
 ### 外交
-| 名前         | 役割                   |
-| ------------ | ---------------------- |
+| 名前         | 役割                       |
+| ------------ | -------------------------- |
 | オランダ王国 | ロブの出身国。外交的後ろ盾 |
 
 ### 財団・助成機関
@@ -189,6 +189,6 @@ flowchart LR
     %% ==================== MAIN PROJECT - RIGHT CENTER ====================
     PROJ["🏗️ **御杖プロジェクト**\n一般社団法人 → NPO法人"]
 
-  classDef main fill:#202020, stroke:#202020, stroke-width:5px, rx:5, ry5
+  classDef main fill:#bbbbbb, stroke:#202020, stroke-width:3px, rx:3, ry3
     class PROJ main
 ```
