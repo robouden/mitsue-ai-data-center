@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-11</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -11,7 +11,7 @@
 | **Horizon** | 25 years |
 | **Current Phase** | Phase 0 — Pre-Foundation (Months 1–3) |
 | **Project Lead** | Rob Oudendijk (YR-Design / Safecast) |
-| **Document Status** | Working draft, May 9, 2026 |
+| **Document Status** | Working draft, May 11, 2026 |
 
 ---
 
@@ -209,7 +209,8 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_phases_funding_flowchart.md` / `.pdf` | Phase spine and funding-gate diagrams |
 | `mitsue_village_government_onepager.md` / `.pdf` | One-page brief for village government engagement |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
-| `mitsue_mayor_meeting_talking_points.md` / `.docx` | Preparation document for the formal mayor meeting |
+| `mitsue_mayor_meeting_talking_points.md` / `.pdf` | Preparation document for the formal mayor meeting (EN) |
+| `mitsue_mayor_meeting_talking_points_ja.md` | Japanese translation of the mayor meeting talking points |
 | `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
@@ -247,4 +248,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: May 9, 2026 · Maintained by Rob Oudendijk*
+*Last updated: May 11, 2026 · Maintained by Rob Oudendijk*
