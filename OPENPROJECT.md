@@ -183,7 +183,6 @@ All documents live at: **https://codeberg.org/YR-Design/mitsue-ai-data-center**
 
 | Document | View | PDF |
 |---|---|---|
-| Project Overview (Pellegrom) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_overview_pellegrom.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_overview_pellegrom.pdf) |
 | Founding Story | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_founding_story.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_founding_story.pdf) |
 | Founding Story (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_project_founding_story_jp.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_project_founding_story_jp.pdf) |
 | Village Government One-Pager | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_village_government_onepager.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_village_government_onepager.pdf) |
@@ -198,7 +197,6 @@ All documents live at: **https://codeberg.org/YR-Design/mitsue-ai-data-center**
 | Implementation Plan | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_implementation_plan.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_implementation_plan.pdf) |
 | Implementation Plan (Japanese) | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_implementation_plan_jp.md) | [pdf](https://codeberg.org/YR-Design/mitsue-ai-data-center/raw/branch/main/mitsue_implementation_plan_jp.pdf) |
 | Mayor Meeting Talking Points | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points.md) | — |
-| Letter: Pellegrom Support Request | [view](https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_letter_pellegrom_support_request.md) | — |
 
 ### Legal & Governance
 

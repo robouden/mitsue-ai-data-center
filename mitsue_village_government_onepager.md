@@ -93,8 +93,6 @@ A dedicated **non-profit organization (NPO法人)** will be established to coord
 - **Joi Ito** (former Director, MIT Media Lab)
 - **Ray Ozzie** (software pioneer, former Microsoft Chief Software Architect)
 
-The project has also received interest from the **Consul-General of the Kingdom of the Netherlands in Osaka, Ms. Sandra Pellegrom**, as an example of Dutch-Japanese sustainable collaboration.
-
 ---
 
 ## Our Approach

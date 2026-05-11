@@ -128,21 +128,18 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Drafted founding charter and detailed implementation plan (April 2026)
 - Phase and funding-gate flowchart published (May 2026)
 - Advisory commitments confirmed: Joi Ito and Ray Ozzie (confirmed May 5, 2026)
-- Draft project overview prepared for the Dutch Consul General
 
 ### In Progress
 - Identifying a Japanese co-founder with rural credibility (top priority)
 - Scheduling a formal meeting with the Village Mayor
 - Drafting bylaws for a 一般社団法人 (General Incorporated Association)
 - Engaging a 行政書士 (administrative scrivener) in Nara
-- Confirming letter-of-support from the Dutch Consul General (Sandra Pellegrom)
 
 ### Next 30 Days
 1. Approach candidate Japanese co-founder
 2. Hold informal meeting with the Village Mayor
 3. Initial consultations with one or two administrative scriveners
 4. Finalise a two-page bilingual charter for distribution
-5. Send formal letter requesting name support from Consul General Pellegrom
 
 A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF copies in English and Japanese available in the repository).
 
@@ -210,13 +207,11 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_implementation_plan.md` / `.pdf` | Detailed five-phase implementation plan (EN) |
 | `mitsue_implementation_plan_jp.md` / `.pdf` | Japanese translation of the implementation plan |
 | `mitsue_phases_funding_flowchart.md` / `.pdf` | Phase spine and funding-gate diagrams |
-| `mitsue_project_overview_pellegrom.md` / `.pdf` | Stakeholder overview prepared for the Dutch Consul General |
 | `mitsue_village_government_onepager.md` / `.pdf` | One-page brief for village government engagement |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
 | `mitsue_mayor_meeting_talking_points.md` / `.docx` | Preparation document for the formal mayor meeting |
 | `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
-| `mitsue_letter_pellegrom_support_request.md` | Draft letter requesting consular goodwill association |
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
 | `mitsue_project_founding_story_jp.md` / `.pdf` | Japanese version of the founding story |
 | `mitsue_stakeholders.md` | Stakeholder entity list and relationship map (EN), with Mermaid diagram |

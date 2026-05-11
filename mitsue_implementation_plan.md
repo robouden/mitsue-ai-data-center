@@ -272,7 +272,7 @@ These are the benefits that funders, the village, and partners can be told about
 - Open data and open methodology — measurable, transparent outcomes
 - Strong storytelling value (Dutch-Japanese, rural-tech, community-driven)
 - Alignment with Digital Garden City Nation initiative and 地方創生 priorities
-- Credible advisory bench (Joi Ito, Ray Ozzie, Dutch consular interest)
+- Credible advisory bench (Joi Ito, Ray Ozzie)
 
 ### Quantitative Returns — Framework and Illustrative Ranges
 
@@ -315,8 +315,6 @@ Based on the illustrative figures above and the phase budgets earlier in this pl
 - **For village government**: Lead with qualitative resident benefits, then show the cost-displacement framing (energy imports leaving the village; the school as stranded asset).
 - **For private funders / corporate partners**: Lead with the revenue table and payback period, supported by qualitative storytelling.
 - **For government grant applications**: Lead with SDG alignment and rural revitalization metrics (jobs created, depopulation impact, replicability), supported by the quantitative framework.
-- **For Sandra Pellegrom and diplomatic audiences**: Emphasize the qualitative impact and the Dutch-Japanese partnership story, with quantitative figures available on request.
-
 Different audiences need different orderings of the same underlying story. The discipline is to always have both available.
 
 ---
@@ -372,8 +370,7 @@ Different audiences need different orderings of the same underlying story. The d
 3. **Reach out to 1–2 candidate 行政書士** in Nara for initial consultations
 4. **Draft a 2-page charter** in Japanese and English
 5. **Confirm advisory commitments** from Joi Ito and Ray Ozzie in writing (even informal)
-6. **Confirm support letter intent** from Sandra Pellegrom / Dutch Consulate
-7. **Open a project Slack/Signal/email list** for the founding team
+6. **Open a project Slack/Signal/email list** for the founding team
 
 ---
 

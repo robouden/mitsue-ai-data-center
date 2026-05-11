@@ -51,10 +51,9 @@
 | Legal Affairs Bureau (法務局)               | —                                                      | Corporate registration (一般社団法人)                                      | One-time registration                                                               |
 
 ### Diplomatic
-| Name                       | Role                                                                   |
-| -------------------------- | ---------------------------------------------------------------------- |
-| Sandra Pellegrom           | Dutch Consul-General, Osaka; potential support letter; Dutch-JP bridge |
-| Kingdom of the Netherlands | Rob's origin; diplomatic backing                                       |
+| Name                       | Role                             |
+| -------------------------- | -------------------------------- |
+| Kingdom of the Netherlands | Rob's origin; diplomatic backing |
 
 ### Foundations
 | Name                              | Tier      | Role                                               |
@@ -105,7 +104,6 @@ flowchart LR
     subgraph Advisors["Advisors & Diplomacy"]
         JOI["👤 Joi Ito\nAI Policy"]
         RAY["👤 Ray Ozzie"]
-        CONSUL["👤 Sandra Pellegrom\nDutch Consul-General"]
         NL["🇳🇱 Kingdom of Netherlands"]
     end
 
@@ -156,8 +154,6 @@ flowchart LR
 
     JOI -.->|"advises"| PROJ
     RAY -.->|"advises"| PROJ
-    CONSUL -.->|"support letter"| PROJ
-
     VILLAGE -->|"approval + school"| PROJ
     MAYOR --> VILLAGE
     VMAYOR --> MAYOR
