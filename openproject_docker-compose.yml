@@ -7,16 +7,16 @@ volumes:
   opdata:
 
 x-op-restart-policy: &restart_policy
-  restart: unless-stopped
+  restart: "no"
 
 x-op-image: &image
-  image: openproject/openproject:15
+  image: openproject-patched:16
 
 x-op-app: &app
   <<: [*image, *restart_policy]
   environment:
-    OPENPROJECT_HTTPS: "false"
-    OPENPROJECT_HOST__NAME: "localhost:8080"
+    OPENPROJECT_HTTPS: "true"
+    OPENPROJECT_HOST__NAME: "openproject.mitsue.it"
     OPENPROJECT_HSTS: "false"
     RAILS_CACHE_STORE: "memcache"
     OPENPROJECT_CACHE__MEMCACHE__SERVER: "cache:11211"
@@ -25,6 +25,15 @@ x-op-app: &app
     RAILS_MIN_THREADS: 4
     RAILS_MAX_THREADS: 16
     IMAP_ENABLED: "false"
+    EMAIL_DELIVERY_METHOD: "smtp"
+    SMTP_ADDRESS: "mail.mitsue.it"
+    SMTP_PORT: "587"
+    SMTP_DOMAIN: "mitsue.it"
+    SMTP_AUTHENTICATION: "plain"
+    SMTP_ENABLE_STARTTLS_AUTO: "true"
+    SMTP_USER_NAME: "opennproject@mitsue.it"
+    SMTP_PASSWORD: "CHANGE_ME"
+    OPENPROJECT_MAIL__FROM: "opennproject@mitsue.it"
   volumes:
     - "opdata:/var/openproject/assets"
 
