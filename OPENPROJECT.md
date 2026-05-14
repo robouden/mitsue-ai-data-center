@@ -1,14 +1,16 @@
 # OpenProject — Mitsue Village Project
 
-OpenProject is installed locally on Rob's machine and manages all work packages for this project.
+OpenProject is hosted on a VPS and accessible from any browser at **https://openproject.mitsue.it**.
+A local instance also runs on Rob's laptop at http://localhost:8080 for development/backup purposes.
 
 ## Access
 
 | | |
 |---|---|
-| **URL** | http://localhost:8080 |
-| **Project** | Mistue ai data center |
-| **Project ID** | `3` (numeric) / `mistue-ai-data-center` (slug) |
+| **URL (VPS — primary)** | https://openproject.mitsue.it |
+| **URL (local — Rob's laptop)** | http://localhost:8080 |
+| **English Project** | Mitsue ai data center (`mistue-ai-data-center`) |
+| **Japanese Project** | 御杖AIデータセンタープロジェクト (`mitsue-jp`) |
 
 ## API Tokens
 
@@ -23,11 +25,11 @@ Each agent has its own account and API token. Use `apikey` as the username.
 ## Making API Calls
 
 ```bash
-# List all work packages in the project
-curl -u "apikey:<TOKEN>" http://localhost:8080/api/v3/projects/3/work_packages
+# List all work packages in the project (VPS)
+curl -u "apikey:<TOKEN>" https://openproject.mitsue.it/api/v3/projects/3/work_packages
 
 # Create a work package
-curl -u "apikey:<TOKEN>" -X POST http://localhost:8080/api/v3/projects/3/work_packages \
+curl -u "apikey:<TOKEN>" -X POST https://openproject.mitsue.it/api/v3/projects/3/work_packages \
   -H "Content-Type: application/json" \
   -d '{
     "subject": "Task title",
@@ -39,7 +41,7 @@ curl -u "apikey:<TOKEN>" -X POST http://localhost:8080/api/v3/projects/3/work_pa
   }'
 
 # Update a work package
-curl -u "apikey:<TOKEN>" -X PATCH http://localhost:8080/api/v3/work_packages/<ID> \
+curl -u "apikey:<TOKEN>" -X PATCH https://openproject.mitsue.it/api/v3/work_packages/<ID> \
   -H "Content-Type: application/json" \
   -d '{"subject": "Updated title", "lockVersion": <current_lock_version>}'
 ```
@@ -78,25 +80,100 @@ Work packages are organised as:
 - **Legal Checklist** — Summary tasks per category (Entity & Tax, Permits, Pro support), with Tasks as children
 - **Risk Register** — Flat list of Tasks prefixed `[Risk]`
 
-## Docker Management
+---
 
-OpenProject runs via Docker Compose on Rob's machine.
+## VPS Setup (openproject.mitsue.it)
 
-### After powering the laptop back on
+### Infrastructure
+- **VPS:** 80.208.225.44 (Ubuntu 24.04, 8GB RAM, 3 vCPU)
+- **Provider:** Contabo (shared with other yr-design.biz sites)
+- **Web server:** Apache2 (managed by Virtualmin)
+- **SSL:** Let's Encrypt via Virtualmin, auto-renews
+- **Docker files:** `/opt/openproject/`
 
-Open a terminal and run:
+### Architecture
+OpenProject runs in Docker on port 8080 (internal only). Apache acts as a reverse proxy, handling SSL and forwarding traffic to Docker.
 
-```bash
-docker compose -f ~/openproject/docker-compose.yml up -d
+```
+Browser → Apache :443 (SSL) → Docker OpenProject :8080
 ```
 
-Then open http://localhost:8080 in your browser. Everything is back up in ~30 seconds.
-
-> **Note:** the containers survive *reboots* automatically (`restart: unless-stopped`), but not a clean shutdown. You only need the command above after powering off.
-
-### Other useful commands
+### Docker Management (VPS)
 
 ```bash
+ssh root@80.208.225.44
+
+# Status
+cd /opt/openproject && docker compose ps
+
+# Logs
+docker compose logs -f web
+
+# Restart
+docker compose restart web
+
+# Stop all
+docker compose down
+
+# Start all
+docker compose up -d
+```
+
+### Patched Image
+
+The official `openproject/openproject:16` image is patched to unlock Gantt PDF export (enterprise feature). The patch is defined in `/opt/openproject/Dockerfile`:
+
+```dockerfile
+FROM openproject/openproject:16
+
+RUN sed -i 's/EnterpriseToken.allows_to?(:gantt_pdf_export)/true/' \
+    /app/app/components/work_packages/exports/pdf/export_settings_component.rb && \
+    sed -i 's/render_403 unless EnterpriseToken.allows_to?(:gantt_pdf_export)/# gantt export allowed/' \
+    /app/app/helpers/work_packages_controller_helper.rb
+```
+
+To rebuild after an OpenProject version upgrade:
+```bash
+ssh root@80.208.225.44
+cd /opt/openproject
+# Update version in Dockerfile, then:
+docker build -t openproject-patched:16 .
+docker compose up -d
+```
+
+### Boot Behavior
+
+OpenProject starts automatically 2 minutes after VPS reboot (via systemd) to avoid competing with Apache and other services during boot.
+
+```bash
+# Check service status
+systemctl status openproject
+
+# Manual start/stop
+systemctl start openproject
+systemctl stop openproject
+```
+
+### Reset Admin Password
+
+If locked out of the admin account:
+
+```bash
+ssh root@80.208.225.44
+docker exec openproject-web-1 bash -c "cd /app && bundle exec rails runner \
+  \"u = User.find_by(login: 'admin'); u.failed_login_count = 0; u.password = 'NewPassword!'; u.password_confirmation = 'NewPassword!'; u.save!\""
+```
+
+---
+
+## Local Instance (Rob's Laptop)
+
+### Docker Management
+
+```bash
+# Start
+docker compose -f ~/openproject/docker-compose.yml up -d
+
 # Stop
 docker compose -f ~/openproject/docker-compose.yml down
 
@@ -107,11 +184,46 @@ docker compose -f ~/openproject/docker-compose.yml logs -f web
 docker compose -f ~/openproject/docker-compose.yml ps
 ```
 
-All project data is stored in Docker volumes (`pgdata`, `opdata`) and is never lost when stopping or restarting.
+Access at http://localhost:8080.
+
+---
+
+## Backup & Restore
+
+### Backup (run on laptop)
+
+```bash
+bash "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/openproject_backup.sh"
+```
+
+This will:
+1. Export all work packages to `openproject_backup.json` (human-readable)
+2. Dump the full PostgreSQL database to `openproject_backup.sql` (restorable)
+3. Commit and push both files to Codeberg and GitHub
+
+### Restore to VPS
+
+```bash
+# 1. Copy fresh backup to VPS
+scp openproject_backup.sql root@80.208.225.44:/opt/openproject/
+
+# 2. On the VPS — stop app containers, restore DB, restart
+ssh root@80.208.225.44 "cd /opt/openproject && \
+  docker compose stop web worker cron seeder proxy && \
+  docker exec openproject-db-1 psql -U postgres -c 'DROP DATABASE openproject' && \
+  docker exec openproject-db-1 psql -U postgres -c 'CREATE DATABASE openproject' && \
+  docker exec -i openproject-db-1 psql -U postgres openproject < /opt/openproject/openproject_backup.sql && \
+  docker compose up -d"
+
+# 3. Reset admin password after restore (backup may contain old password)
+# See "Reset Admin Password" section above
+```
+
+---
 
 ## Theme — Robouden Dark
 
-The header and sidebar use your robouden dark colors, set via OpenProject's 7 built-in CSS variables:
+The header and sidebar use robouden dark colors, set via OpenProject's 7 built-in CSS variables:
 
 | Variable | Color |
 |---|---|
@@ -123,57 +235,7 @@ The header and sidebar use your robouden dark colors, set via OpenProject's 7 bu
 | main-menu-bg-selected-background | `#505050` |
 | main-menu-bg-hover-background | `#444444` |
 
-### Full dark mode (content area) via Stylus
-
-The Community edition only exposes those 7 variables. For a complete dark theme install the **Stylus** browser extension (Firefox / Chrome), then:
-
-1. Open Stylus → **Manage** → **Write new style**
-2. Set it to apply to `http://localhost:8080/*`
-3. Paste the contents of [`openproject_robouden_theme.css`](openproject_robouden_theme.css)
-4. Save
-
-The CSS file is kept in the repo so all agents can reference it.
-
-## Backup
-
-Run this any time you want to snapshot OpenProject and push it to both repos:
-
-```bash
-bash "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/openproject_backup.sh"
-```
-
-This will:
-1. Export all work packages to `openproject_backup.json` (human-readable)
-2. Dump the full PostgreSQL database to `openproject_backup.sql` (restorable)
-3. Commit and push both files to Codeberg and GitHub
-
-### Restore from backup
-
-After a `git pull`, run the restore script:
-
-```bash
-git pull
-bash "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/openproject_restore.sh"
-```
-
-The script will:
-1. Confirm before doing anything destructive
-2. Stop the web/worker containers to prevent writes during restore
-3. Drop and recreate the database
-4. Load the SQL dump
-5. Restart everything and wait until the site is back up
-
-> **Note:** `git pull` only restores the backup *files* — the script is what actually loads the data into OpenProject.
-
-## Import Script
-
-The script that imported `mitsue_todo.xlsx` into OpenProject lives at:
-
-```
-~/openproject/import_mitsue.py
-```
-
-Re-run it only on a fresh project — it will create duplicates if work packages already exist.
+---
 
 ## Project Documents (Codeberg)
 

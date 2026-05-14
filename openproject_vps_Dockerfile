@@ -1,0 +1,7 @@
+FROM openproject/openproject:16
+
+# Unlock Gantt PDF export (enterprise feature gate removed)
+RUN sed -i 's/EnterpriseToken.allows_to?(:gantt_pdf_export)/true/' \
+    /app/app/components/work_packages/exports/pdf/export_settings_component.rb && \
+    sed -i 's/render_403 unless EnterpriseToken.allows_to?(:gantt_pdf_export)/# gantt export allowed/' \
+    /app/app/helpers/work_packages_controller_helper.rb
