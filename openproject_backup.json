@@ -27,6 +27,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.304Z",
     "updatedAt": "2026-05-09T14:46:11.082Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/38/attachments"
@@ -96,7 +97,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -155,7 +156,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2238%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2238%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -172,6 +173,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -236,10 +241,6 @@
       },
       "children": [
         {
-          "href": "/api/v3/work_packages/39",
-          "title": "Private meeting with Mitsue village mayor"
-        },
-        {
           "href": "/api/v3/work_packages/42",
           "title": "Identify 3–5 founding team members"
         },
@@ -250,6 +251,10 @@
         {
           "href": "/api/v3/work_packages/43",
           "title": "Quiet conversations with 2–3 sympathetic landowners"
+        },
+        {
+          "href": "/api/v3/work_packages/39",
+          "title": "Private meeting with Mitsue village mayor"
         },
         {
           "href": "/api/v3/work_packages/45",
@@ -297,8 +302,8 @@
     "subject": "Private meeting with Mitsue village mayor",
     "description": {
       "format": "markdown",
-      "raw": "Owner: Rob + JP co-founder\nListen first, present second",
-      "html": "<p class=\"op-uc-p\">Owner: Rob + JP co-founder<br>\nListen first, present second</p>"
+      "raw": "Owner: Rob + JP co-founder\nListen first, present second\n\n**Talking Points (Codeberg):**\n- [EN] https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points.md\n- [JA] https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points_ja.md",
+      "html": "<p class=\"op-uc-p\">Owner: Rob + JP co-founder<br>\nListen first, present second</p>\n<p class=\"op-uc-p\"><strong>Talking Points (Codeberg):</strong></p>\n<ul class=\"op-uc-list\">\n<li class=\"op-uc-list--item\">[EN] <a href=\"https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points.md\" class=\"op-uc-link\" rel=\"noopener noreferrer\" target=\"_top\">https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points.md</a>\n</li>\n<li class=\"op-uc-list--item\">[JA] <a href=\"https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points_ja.md\" class=\"op-uc-link\" rel=\"noopener noreferrer\" target=\"_top\">https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_mayor_meeting_talking_points_ja.md</a>\n</li>\n</ul>"
     },
     "scheduleManually": false,
     "startDate": "2026-05-16",
@@ -312,6 +317,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.468Z",
     "updatedAt": "2026-05-08T22:41:51.276Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/39/attachments"
@@ -381,7 +387,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -440,7 +446,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2239%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2239%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -457,6 +463,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -560,6 +570,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.663Z",
     "updatedAt": "2026-05-08T22:40:13.971Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/40/attachments"
@@ -629,7 +640,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -688,7 +699,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2240%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2240%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -705,6 +716,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -808,6 +823,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.922Z",
     "updatedAt": "2026-05-09T14:46:10.872Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/41/attachments"
@@ -877,7 +893,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -936,7 +952,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2241%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2241%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -953,6 +969,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -1056,6 +1076,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.138Z",
     "updatedAt": "2026-05-09T14:46:11.068Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/42/attachments"
@@ -1125,7 +1146,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -1184,7 +1205,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2242%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2242%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -1201,6 +1222,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -1304,6 +1329,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.280Z",
     "updatedAt": "2026-05-08T22:40:14.312Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/43/attachments"
@@ -1373,7 +1399,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -1432,7 +1458,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2243%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2243%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -1449,6 +1475,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -1532,254 +1562,6 @@
     "materialCosts": "0.00 EUR",
     "overallCosts": "0.00 EUR",
     "_type": "WorkPackage",
-    "id": 46,
-    "lockVersion": 8,
-    "subject": "Confirm support letter intent — Sandra Pellegrom / Dutch Consulate",
-    "description": {
-      "format": "markdown",
-      "raw": "Owner: Rob",
-      "html": "<p class=\"op-uc-p\">Owner: Rob</p>"
-    },
-    "scheduleManually": true,
-    "startDate": "2026-05-11",
-    "dueDate": "2026-06-17",
-    "estimatedTime": null,
-    "derivedEstimatedTime": null,
-    "derivedRemainingTime": null,
-    "duration": "P28D",
-    "ignoreNonWorkingDays": false,
-    "percentageDone": null,
-    "derivedPercentageDone": null,
-    "createdAt": "2026-05-07T14:21:37.694Z",
-    "updatedAt": "2026-05-08T22:40:14.597Z",
-    "_links": {
-      "attachments": {
-        "href": "/api/v3/work_packages/46/attachments"
-      },
-      "addAttachment": {
-        "href": "/api/v3/work_packages/46/attachments",
-        "method": "post"
-      },
-      "fileLinks": {
-        "href": "/api/v3/work_packages/46/file_links"
-      },
-      "addFileLink": {
-        "href": "/api/v3/work_packages/46/file_links",
-        "method": "post"
-      },
-      "update": {
-        "href": "/api/v3/work_packages/46/form",
-        "method": "post"
-      },
-      "schema": {
-        "href": "/api/v3/work_packages/schemas/3-1"
-      },
-      "updateImmediately": {
-        "href": "/api/v3/work_packages/46",
-        "method": "patch"
-      },
-      "delete": {
-        "href": "/api/v3/work_packages/46",
-        "method": "delete"
-      },
-      "logTime": {
-        "href": "/api/v3/time_entries",
-        "title": "Log time on work package 'Confirm support letter intent — Sandra Pellegrom / Dutch Consulate'"
-      },
-      "move": {
-        "href": "/work_packages/46/move/new",
-        "type": "text/html",
-        "title": "Move work package 'Confirm support letter intent — Sandra Pellegrom / Dutch Consulate'"
-      },
-      "copy": {
-        "href": "/work_packages/46/copy",
-        "type": "text/html",
-        "title": "Copy work package 'Confirm support letter intent — Sandra Pellegrom / Dutch Consulate'"
-      },
-      "pdf": {
-        "href": "/work_packages/46.pdf",
-        "type": "application/pdf",
-        "title": "Export as PDF"
-      },
-      "generate_pdf": {
-        "href": "/work_packages/46/generate_pdf_dialog",
-        "type": "text/vnd.turbo-stream.html",
-        "title": "Generate PDF"
-      },
-      "atom": {
-        "href": "/work_packages/46.atom",
-        "type": "application/rss+xml",
-        "title": "Atom feed"
-      },
-      "availableRelationCandidates": {
-        "href": "/api/v3/work_packages/46/available_relation_candidates",
-        "title": "Potential work packages to relate to"
-      },
-      "customFields": {
-        "href": "/projects/mistue-ai-data-center/settings/custom_fields",
-        "type": "text/html",
-        "title": "Custom fields"
-      },
-      "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
-        "type": "text/html",
-        "title": "Configure form"
-      },
-      "activities": {
-        "href": "/api/v3/work_packages/46/activities"
-      },
-      "availableWatchers": {
-        "href": "/api/v3/work_packages/46/available_watchers"
-      },
-      "relations": {
-        "href": "/api/v3/work_packages/46/relations"
-      },
-      "revisions": {
-        "href": "/api/v3/work_packages/46/revisions"
-      },
-      "watchers": {
-        "href": "/api/v3/work_packages/46/watchers"
-      },
-      "addWatcher": {
-        "href": "/api/v3/work_packages/46/watchers",
-        "method": "post",
-        "payload": {
-          "user": {
-            "href": "/api/v3/users/{user_id}"
-          }
-        },
-        "templated": true
-      },
-      "removeWatcher": {
-        "href": "/api/v3/work_packages/46/watchers/{user_id}",
-        "method": "delete",
-        "templated": true
-      },
-      "addRelation": {
-        "href": "/api/v3/work_packages/46/relations",
-        "method": "post",
-        "title": "Add relation"
-      },
-      "addChild": {
-        "href": "/api/v3/projects/mistue-ai-data-center/work_packages",
-        "method": "post",
-        "title": "Add child of Confirm support letter intent — Sandra Pellegrom / Dutch Consulate"
-      },
-      "changeParent": {
-        "href": "/api/v3/work_packages/46",
-        "method": "patch",
-        "title": "Change parent of Confirm support letter intent — Sandra Pellegrom / Dutch Consulate"
-      },
-      "addComment": {
-        "href": "/api/v3/work_packages/46/activities",
-        "method": "post",
-        "title": "Add comment"
-      },
-      "previewMarkup": {
-        "href": "/api/v3/render/markdown?context=/api/v3/work_packages/46",
-        "method": "post"
-      },
-      "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2246%22%5D%7D%7D%5D",
-        "title": "Time entries"
-      },
-      "category": {
-        "href": null
-      },
-      "type": {
-        "href": "/api/v3/types/1",
-        "title": "Task"
-      },
-      "priority": {
-        "href": "/api/v3/priorities/9",
-        "title": "High"
-      },
-      "project": {
-        "href": "/api/v3/projects/3",
-        "title": "Mitsue ai data center"
-      },
-      "status": {
-        "href": "/api/v3/statuses/7",
-        "title": "In progress"
-      },
-      "author": {
-        "href": "/api/v3/users/4",
-        "title": "OpenProject Admin"
-      },
-      "responsible": {
-        "href": null
-      },
-      "assignee": {
-        "href": null
-      },
-      "version": {
-        "href": null
-      },
-      "budget": {
-        "href": null
-      },
-      "logCosts": {
-        "href": "/work_packages/46/cost_entries/new",
-        "type": "text/html",
-        "title": "Log costs on Confirm support letter intent — Sandra Pellegrom / Dutch Consulate"
-      },
-      "showCosts": {
-        "href": "/projects/3/cost_reports?fields%5B%5D=WorkPackageId&operators%5BWorkPackageId%5D=%3D&set_filter=1&values%5BWorkPackageId%5D=46",
-        "type": "text/html",
-        "title": "Show cost entries"
-      },
-      "costsByType": {
-        "href": "/api/v3/work_packages/46/summarized_costs_by_type"
-      },
-      "github": {
-        "href": "/work_packages/46/tabs/github",
-        "title": "github"
-      },
-      "github_pull_requests": {
-        "href": "/api/v3/work_packages/46/github_pull_requests",
-        "title": "GitHub pull requests"
-      },
-      "gitlab_merge_requests": {
-        "href": "/api/v3/work_packages/46/gitlab_merge_requests",
-        "title": "Gitlab merge requests"
-      },
-      "gitlab_issues": {
-        "href": "/api/v3/work_packages/46/gitlab_issues",
-        "title": "Gitlab Issues"
-      },
-      "meetings": {
-        "href": "/work_packages/46/tabs/meetings",
-        "title": "meetings"
-      },
-      "self": {
-        "href": "/api/v3/work_packages/46",
-        "title": "Confirm support letter intent — Sandra Pellegrom / Dutch Consulate"
-      },
-      "unwatch": {
-        "href": "/api/v3/work_packages/46/watchers/4",
-        "method": "delete"
-      },
-      "ancestors": [
-        {
-          "href": "/api/v3/work_packages/38",
-          "title": "Phase 0"
-        }
-      ],
-      "parent": {
-        "href": "/api/v3/work_packages/38",
-        "title": "Phase 0"
-      },
-      "customActions": []
-    }
-  },
-  {
-    "derivedStartDate": null,
-    "derivedDueDate": null,
-    "spentTime": "PT0S",
-    "laborCosts": "0.00 EUR",
-    "materialCosts": "0.00 EUR",
-    "overallCosts": "0.00 EUR",
-    "_type": "WorkPackage",
     "id": 47,
     "lockVersion": 4,
     "subject": "Reach out to 1–2 candidate 行政書士 in Nara",
@@ -1800,6 +1582,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.056Z",
     "updatedAt": "2026-05-08T22:12:25.852Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/47/attachments"
@@ -1869,7 +1652,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -1928,7 +1711,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2247%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2247%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -1945,6 +1728,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2048,6 +1835,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.193Z",
     "updatedAt": "2026-05-08T22:40:14.883Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/48/attachments"
@@ -2117,7 +1905,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -2176,7 +1964,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2248%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2248%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -2193,6 +1981,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -2296,6 +2088,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.316Z",
     "updatedAt": "2026-05-09T14:46:11.207Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/49/attachments"
@@ -2365,7 +2158,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -2424,7 +2217,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2249%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2249%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -2441,6 +2234,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2593,6 +2390,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.431Z",
     "updatedAt": "2026-05-09T14:46:11.122Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/50/attachments"
@@ -2662,7 +2460,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -2721,7 +2519,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2250%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2250%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -2738,6 +2536,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -2841,6 +2643,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.586Z",
     "updatedAt": "2026-05-09T14:46:11.135Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/51/attachments"
@@ -2910,7 +2713,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -2969,7 +2772,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2251%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2251%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -2986,6 +2789,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3089,6 +2896,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.722Z",
     "updatedAt": "2026-05-09T14:46:11.150Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/52/attachments"
@@ -3158,7 +2966,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -3217,7 +3025,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2252%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2252%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -3234,6 +3042,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3337,6 +3149,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.862Z",
     "updatedAt": "2026-05-09T14:46:11.198Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/53/attachments"
@@ -3406,7 +3219,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -3465,7 +3278,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2253%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2253%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -3482,6 +3295,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3585,6 +3402,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.048Z",
     "updatedAt": "2026-05-09T14:46:11.182Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/54/attachments"
@@ -3654,7 +3472,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -3713,7 +3531,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2254%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2254%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -3730,6 +3548,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -3833,6 +3655,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.186Z",
     "updatedAt": "2026-05-09T14:46:11.189Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/55/attachments"
@@ -3902,7 +3725,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -3961,7 +3784,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2255%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2255%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -3978,6 +3801,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4081,6 +3908,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.309Z",
     "updatedAt": "2026-05-09T14:46:11.112Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/56/attachments"
@@ -4150,7 +3978,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -4209,7 +4037,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2256%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2256%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -4226,6 +4054,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4329,6 +4161,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.465Z",
     "updatedAt": "2026-05-09T14:46:11.103Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/57/attachments"
@@ -4398,7 +4231,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -4457,7 +4290,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2257%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2257%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -4474,6 +4307,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4577,6 +4414,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.610Z",
     "updatedAt": "2026-05-09T14:46:11.090Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/58/attachments"
@@ -4646,7 +4484,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -4705,7 +4543,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2258%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2258%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -4722,6 +4560,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -4825,6 +4667,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.748Z",
     "updatedAt": "2026-05-09T14:46:11.142Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/59/attachments"
@@ -4894,7 +4737,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -4953,7 +4796,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2259%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2259%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -4970,6 +4813,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5073,6 +4920,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.892Z",
     "updatedAt": "2026-05-09T14:46:11.172Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/60/attachments"
@@ -5142,7 +4990,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -5201,7 +5049,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2260%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2260%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -5218,6 +5066,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5321,6 +5173,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.125Z",
     "updatedAt": "2026-05-09T14:46:11.165Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/61/attachments"
@@ -5390,7 +5243,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -5449,7 +5302,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2261%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2261%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -5466,6 +5319,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5569,6 +5426,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.420Z",
     "updatedAt": "2026-05-09T14:46:11.157Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/62/attachments"
@@ -5638,7 +5496,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -5697,7 +5555,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2262%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2262%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -5714,6 +5572,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -5817,6 +5679,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.559Z",
     "updatedAt": "2026-05-09T14:46:11.412Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/63/attachments"
@@ -5886,7 +5749,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -5945,7 +5808,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2263%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2263%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -5962,6 +5825,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6134,6 +6001,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.659Z",
     "updatedAt": "2026-05-09T14:46:11.253Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/64/attachments"
@@ -6203,7 +6071,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -6262,7 +6130,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2264%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2264%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -6279,6 +6147,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6382,6 +6254,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.803Z",
     "updatedAt": "2026-05-09T14:46:11.316Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/65/attachments"
@@ -6451,7 +6324,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -6510,7 +6383,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2265%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2265%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -6527,6 +6400,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6630,6 +6507,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.931Z",
     "updatedAt": "2026-05-09T14:46:11.405Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/66/attachments"
@@ -6699,7 +6577,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -6758,7 +6636,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2266%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2266%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -6775,6 +6653,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -6878,6 +6760,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.069Z",
     "updatedAt": "2026-05-09T14:46:11.307Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/67/attachments"
@@ -6947,7 +6830,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -7006,7 +6889,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2267%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2267%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -7023,6 +6906,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7126,6 +7013,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.259Z",
     "updatedAt": "2026-05-09T14:46:11.300Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/68/attachments"
@@ -7195,7 +7083,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -7254,7 +7142,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2268%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2268%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -7271,6 +7159,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7374,6 +7266,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.460Z",
     "updatedAt": "2026-05-09T14:46:11.291Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/69/attachments"
@@ -7443,7 +7336,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -7502,7 +7395,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2269%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2269%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -7519,6 +7412,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7622,6 +7519,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.623Z",
     "updatedAt": "2026-05-09T14:46:11.222Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/70/attachments"
@@ -7691,7 +7589,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -7750,7 +7648,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2270%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2270%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -7767,6 +7665,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -7870,6 +7772,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.768Z",
     "updatedAt": "2026-05-09T14:46:11.229Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/71/attachments"
@@ -7939,7 +7842,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -7998,7 +7901,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2271%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2271%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -8015,6 +7918,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8118,6 +8025,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.896Z",
     "updatedAt": "2026-05-09T14:46:11.260Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/72/attachments"
@@ -8187,7 +8095,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -8246,7 +8154,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2272%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2272%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -8263,6 +8171,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8366,6 +8278,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.015Z",
     "updatedAt": "2026-05-09T14:46:11.398Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/73/attachments"
@@ -8435,7 +8348,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -8494,7 +8407,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2273%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2273%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -8511,6 +8424,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8614,6 +8531,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.135Z",
     "updatedAt": "2026-05-09T14:46:11.389Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/74/attachments"
@@ -8683,7 +8601,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -8742,7 +8660,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2274%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2274%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -8759,6 +8677,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -8862,6 +8784,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.276Z",
     "updatedAt": "2026-05-09T14:46:11.382Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/75/attachments"
@@ -8931,7 +8854,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -8990,7 +8913,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2275%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2275%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -9007,6 +8930,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9110,6 +9037,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.409Z",
     "updatedAt": "2026-05-09T14:46:11.332Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/76/attachments"
@@ -9179,7 +9107,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -9238,7 +9166,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2276%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2276%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -9255,6 +9183,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9358,6 +9290,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.540Z",
     "updatedAt": "2026-05-09T14:46:11.285Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/77/attachments"
@@ -9427,7 +9360,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -9486,7 +9419,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2277%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2277%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -9503,6 +9436,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9606,6 +9543,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.668Z",
     "updatedAt": "2026-05-09T14:46:11.277Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/78/attachments"
@@ -9675,7 +9613,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -9734,7 +9672,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2278%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2278%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -9751,6 +9689,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -9854,6 +9796,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.800Z",
     "updatedAt": "2026-05-09T14:46:11.241Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/79/attachments"
@@ -9923,7 +9866,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -9982,7 +9925,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2279%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2279%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -9999,6 +9942,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10102,6 +10049,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.943Z",
     "updatedAt": "2026-05-09T14:46:11.215Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/80/attachments"
@@ -10171,7 +10119,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -10230,7 +10178,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2280%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2280%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -10247,6 +10195,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10350,6 +10302,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.066Z",
     "updatedAt": "2026-05-09T14:46:11.268Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/81/attachments"
@@ -10419,7 +10372,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -10478,7 +10431,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2281%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2281%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -10495,6 +10448,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10598,6 +10555,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.181Z",
     "updatedAt": "2026-05-09T14:46:11.479Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/82/attachments"
@@ -10667,7 +10625,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -10726,7 +10684,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2282%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2282%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -10743,6 +10701,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -10871,6 +10833,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.305Z",
     "updatedAt": "2026-05-09T14:46:11.440Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/83/attachments"
@@ -10940,7 +10903,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -10999,7 +10962,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2283%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2283%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -11016,6 +10979,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11119,6 +11086,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.463Z",
     "updatedAt": "2026-05-09T14:46:11.465Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/84/attachments"
@@ -11188,7 +11156,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -11247,7 +11215,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2284%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2284%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -11264,6 +11232,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11367,6 +11339,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.603Z",
     "updatedAt": "2026-05-09T14:46:11.456Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/85/attachments"
@@ -11436,7 +11409,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -11495,7 +11468,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2285%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2285%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -11512,6 +11485,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11615,6 +11592,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.744Z",
     "updatedAt": "2026-05-09T14:46:11.421Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/86/attachments"
@@ -11684,7 +11662,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -11743,7 +11721,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2286%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2286%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -11760,6 +11738,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -11863,6 +11845,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.867Z",
     "updatedAt": "2026-05-09T14:46:11.426Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/87/attachments"
@@ -11932,7 +11915,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -11991,7 +11974,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2287%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2287%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -12008,6 +11991,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12111,6 +12098,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.991Z",
     "updatedAt": "2026-05-09T14:46:11.434Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/88/attachments"
@@ -12180,7 +12168,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -12239,7 +12227,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2288%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2288%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -12256,6 +12244,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12359,6 +12351,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.116Z",
     "updatedAt": "2026-05-09T14:46:11.472Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/89/attachments"
@@ -12428,7 +12421,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -12487,7 +12480,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2289%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2289%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -12504,6 +12497,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12607,6 +12604,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.232Z",
     "updatedAt": "2026-05-09T14:46:11.514Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/90/attachments"
@@ -12676,7 +12674,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -12735,7 +12733,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2290%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2290%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -12752,6 +12750,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -12868,6 +12870,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.332Z",
     "updatedAt": "2026-05-09T14:46:11.507Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/91/attachments"
@@ -12937,7 +12940,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -12996,7 +12999,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2291%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2291%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -13013,6 +13016,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13116,6 +13123,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.494Z",
     "updatedAt": "2026-05-09T14:46:11.486Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/92/attachments"
@@ -13185,7 +13193,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -13244,7 +13252,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2292%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2292%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -13261,6 +13269,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13364,6 +13376,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.626Z",
     "updatedAt": "2026-05-09T14:46:11.492Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/93/attachments"
@@ -13433,7 +13446,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -13492,7 +13505,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2293%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2293%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -13509,6 +13522,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13612,6 +13629,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.788Z",
     "updatedAt": "2026-05-09T14:46:11.499Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/94/attachments"
@@ -13681,7 +13699,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -13740,7 +13758,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2294%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2294%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -13757,6 +13775,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -13860,6 +13882,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.939Z",
     "updatedAt": "2026-05-08T11:47:34.480Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/95/attachments"
@@ -13929,7 +13952,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -13988,7 +14011,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2295%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2295%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -14005,6 +14028,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14121,6 +14148,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.062Z",
     "updatedAt": "2026-05-08T22:40:17.816Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/96/attachments"
@@ -14190,7 +14218,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -14249,7 +14277,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2296%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2296%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -14266,6 +14294,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14369,6 +14401,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.230Z",
     "updatedAt": "2026-05-08T22:40:18.118Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/97/attachments"
@@ -14438,7 +14471,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -14497,7 +14530,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2297%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2297%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -14514,6 +14547,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14617,6 +14654,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.396Z",
     "updatedAt": "2026-05-08T22:40:18.443Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/98/attachments"
@@ -14686,7 +14724,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -14745,7 +14783,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2298%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2298%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -14762,6 +14800,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -14865,6 +14907,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.532Z",
     "updatedAt": "2026-05-08T22:40:18.647Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/99/attachments"
@@ -14934,7 +14977,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -14993,7 +15036,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2299%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2299%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -15010,6 +15053,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15113,6 +15160,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.659Z",
     "updatedAt": "2026-05-08T00:02:04.332Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/100/attachments"
@@ -15182,7 +15230,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -15241,7 +15289,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22100%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22100%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -15258,6 +15306,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15378,6 +15430,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.780Z",
     "updatedAt": "2026-05-08T22:40:18.860Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/101/attachments"
@@ -15447,7 +15500,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -15506,7 +15559,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22101%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22101%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -15523,6 +15576,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15626,6 +15683,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.977Z",
     "updatedAt": "2026-05-08T22:40:19.030Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/102/attachments"
@@ -15695,7 +15753,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -15754,7 +15812,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22102%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22102%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -15771,6 +15829,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -15874,6 +15936,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.144Z",
     "updatedAt": "2026-05-08T22:40:19.196Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/103/attachments"
@@ -15943,7 +16006,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -16002,7 +16065,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22103%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22103%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -16019,6 +16082,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16122,6 +16189,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.294Z",
     "updatedAt": "2026-05-08T22:40:19.378Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/104/attachments"
@@ -16191,7 +16259,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -16250,7 +16318,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22104%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22104%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -16267,6 +16335,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16370,6 +16442,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.434Z",
     "updatedAt": "2026-05-08T22:40:19.558Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/105/attachments"
@@ -16439,7 +16512,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -16498,7 +16571,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22105%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22105%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -16515,6 +16588,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16618,6 +16695,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.598Z",
     "updatedAt": "2026-05-08T00:02:06.275Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/106/attachments"
@@ -16687,7 +16765,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -16746,7 +16824,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22106%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22106%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -16763,6 +16841,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -16895,6 +16977,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.715Z",
     "updatedAt": "2026-05-08T22:40:19.737Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/107/attachments"
@@ -16964,7 +17047,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -17023,7 +17106,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22107%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22107%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -17040,6 +17123,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17143,6 +17230,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.883Z",
     "updatedAt": "2026-05-08T22:40:19.956Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/108/attachments"
@@ -17212,7 +17300,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -17271,7 +17359,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22108%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22108%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -17288,6 +17376,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17391,6 +17483,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.031Z",
     "updatedAt": "2026-05-08T22:40:20.138Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/109/attachments"
@@ -17460,7 +17553,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -17519,7 +17612,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22109%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22109%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -17536,6 +17629,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17639,6 +17736,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.175Z",
     "updatedAt": "2026-05-08T22:40:20.320Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/110/attachments"
@@ -17708,7 +17806,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -17767,7 +17865,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22110%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22110%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -17784,6 +17882,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -17887,6 +17989,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.322Z",
     "updatedAt": "2026-05-08T22:40:20.497Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/111/attachments"
@@ -17956,7 +18059,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -18015,7 +18118,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22111%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22111%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -18032,6 +18135,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18135,6 +18242,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.470Z",
     "updatedAt": "2026-05-08T22:40:20.667Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/112/attachments"
@@ -18204,7 +18312,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -18263,7 +18371,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22112%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22112%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -18280,6 +18388,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18383,6 +18495,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.640Z",
     "updatedAt": "2026-05-08T22:40:20.832Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/113/attachments"
@@ -18452,7 +18565,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -18511,7 +18624,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22113%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22113%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -18528,6 +18641,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18631,6 +18748,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.795Z",
     "updatedAt": "2026-05-08T22:40:21.030Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/114/attachments"
@@ -18700,7 +18818,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -18759,7 +18877,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22114%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22114%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -18776,6 +18894,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -18879,6 +19001,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.942Z",
     "updatedAt": "2026-05-08T00:02:07.719Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/115/attachments"
@@ -18948,7 +19071,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/3/edit?tab=form_configuration",
+        "href": "/types/3/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -19007,7 +19130,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22115%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22115%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -19024,6 +19147,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19140,6 +19267,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.052Z",
     "updatedAt": "2026-05-08T22:12:26.189Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/116/attachments"
@@ -19209,7 +19337,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -19268,7 +19396,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22116%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22116%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -19285,6 +19413,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19388,6 +19520,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.332Z",
     "updatedAt": "2026-05-08T22:40:21.264Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/117/attachments"
@@ -19457,7 +19590,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -19516,7 +19649,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22117%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22117%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -19533,6 +19666,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19636,6 +19773,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.608Z",
     "updatedAt": "2026-05-08T22:40:21.459Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/118/attachments"
@@ -19705,7 +19843,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -19764,7 +19902,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22118%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22118%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -19781,6 +19919,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -19884,6 +20026,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.838Z",
     "updatedAt": "2026-05-08T22:40:21.659Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/119/attachments"
@@ -19953,7 +20096,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -20012,7 +20155,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22119%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22119%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -20029,6 +20172,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20132,6 +20279,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.001Z",
     "updatedAt": "2026-05-08T22:40:21.836Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/120/attachments"
@@ -20201,7 +20349,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -20260,7 +20408,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22120%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22120%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -20277,6 +20425,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -20375,6 +20527,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.103Z",
     "updatedAt": "2026-05-08T22:42:35.968Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/121/attachments"
@@ -20444,7 +20597,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -20503,7 +20656,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22121%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22121%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -20520,6 +20673,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -20618,6 +20775,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.235Z",
     "updatedAt": "2026-05-08T22:41:20.593Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/122/attachments"
@@ -20687,7 +20845,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -20746,7 +20904,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22122%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22122%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -20763,6 +20921,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -20861,6 +21023,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.346Z",
     "updatedAt": "2026-05-08T22:41:25.811Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/123/attachments"
@@ -20930,7 +21093,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -20989,7 +21152,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22123%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22123%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -21006,6 +21169,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -21104,6 +21271,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.456Z",
     "updatedAt": "2026-05-08T22:42:47.744Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/124/attachments"
@@ -21173,7 +21341,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -21232,7 +21400,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22124%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22124%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -21249,6 +21417,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -21347,6 +21519,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.561Z",
     "updatedAt": "2026-05-08T22:42:51.262Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/125/attachments"
@@ -21416,7 +21589,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -21475,7 +21648,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22125%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22125%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -21492,6 +21665,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
@@ -21590,6 +21767,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.672Z",
     "updatedAt": "2026-05-08T22:40:22.778Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/126/attachments"
@@ -21659,7 +21837,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -21718,7 +21896,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22126%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22126%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -21735,6 +21913,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/1",
@@ -21833,6 +22015,7 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.785Z",
     "updatedAt": "2026-05-08T22:42:11.102Z",
+    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/127/attachments"
@@ -21902,7 +22085,7 @@
         "title": "Custom fields"
       },
       "configureForm": {
-        "href": "/types/1/edit?tab=form_configuration",
+        "href": "/types/1/form_configuration/edit",
         "type": "text/html",
         "title": "Configure form"
       },
@@ -21961,7 +22144,7 @@
         "method": "post"
       },
       "timeEntries": {
-        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22127%22%5D%7D%7D%5D",
+        "href": "/api/v3/time_entries?filters=%5B%7B%22entity_type%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22WorkPackage%22%5D%7D%7D%2C%7B%22entity_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%22127%22%5D%7D%7D%5D",
         "title": "Time entries"
       },
       "category": {
@@ -21978,6 +22161,10 @@
       "project": {
         "href": "/api/v3/projects/3",
         "title": "Mitsue ai data center"
+      },
+      "projectPhaseDefinition": {
+        "href": null,
+        "title": null
       },
       "status": {
         "href": "/api/v3/statuses/7",
