@@ -4,8 +4,9 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-API="http://localhost:8080/api/v3"
+API="https://openproject.mitsue.it/api/v3"
 TOKEN="d7df8157865c3e15a0c08e6f856afcceadc7c15709684a29766976c82e742c75"
+VPS="root@80.208.225.44"
 SQL_OUT="$SCRIPT_DIR/openproject_backup.sql"
 
 export_project_json() {
@@ -42,8 +43,8 @@ export_project_json "3" "$SCRIPT_DIR/openproject_backup.json"
 echo "==> Exporting work packages to JSON (Japanese project)..."
 export_project_json "4" "$SCRIPT_DIR/openproject_backup_jp.json"
 
-echo "==> Dumping PostgreSQL database..."
-docker exec openproject-db-1 pg_dump -U postgres openproject > "$SQL_OUT"
+echo "==> Dumping PostgreSQL database from VPS..."
+ssh "$VPS" "docker exec openproject-db-1 pg_dump -U postgres openproject" > "$SQL_OUT"
 echo "    Database saved to openproject_backup.sql ($(du -sh "$SQL_OUT" | cut -f1))"
 
 echo "==> Committing and pushing..."

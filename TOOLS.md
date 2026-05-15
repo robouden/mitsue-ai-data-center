@@ -39,7 +39,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## OpenProject (Project Management)
 
-- **URL:** http://localhost:8080
+- **URL:** https://openproject.mitsue.it
 - **Project:** Mistue ai data center (ID: `3`)
 - **Full docs:** [OPENPROJECT.md](OPENPROJECT.md)
 
