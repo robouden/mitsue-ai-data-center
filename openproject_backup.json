@@ -27,7 +27,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.304Z",
     "updatedAt": "2026-05-09T14:46:11.082Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/38/attachments"
@@ -317,7 +316,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.468Z",
     "updatedAt": "2026-05-08T22:41:51.276Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/39/attachments"
@@ -570,7 +568,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.663Z",
     "updatedAt": "2026-05-08T22:40:13.971Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/40/attachments"
@@ -823,7 +820,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:36.922Z",
     "updatedAt": "2026-05-09T14:46:10.872Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/41/attachments"
@@ -1076,7 +1072,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.138Z",
     "updatedAt": "2026-05-09T14:46:11.068Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/42/attachments"
@@ -1329,7 +1324,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:37.280Z",
     "updatedAt": "2026-05-08T22:40:14.312Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/43/attachments"
@@ -1582,7 +1576,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.056Z",
     "updatedAt": "2026-05-08T22:12:25.852Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/47/attachments"
@@ -1835,7 +1828,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.193Z",
     "updatedAt": "2026-05-08T22:40:14.883Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/48/attachments"
@@ -2088,7 +2080,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.316Z",
     "updatedAt": "2026-05-09T14:46:11.207Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/49/attachments"
@@ -2390,7 +2381,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.431Z",
     "updatedAt": "2026-05-09T14:46:11.122Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/50/attachments"
@@ -2643,7 +2633,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.586Z",
     "updatedAt": "2026-05-09T14:46:11.135Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/51/attachments"
@@ -2896,7 +2885,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.722Z",
     "updatedAt": "2026-05-09T14:46:11.150Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/52/attachments"
@@ -3149,7 +3137,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:38.862Z",
     "updatedAt": "2026-05-09T14:46:11.198Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/53/attachments"
@@ -3402,7 +3389,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.048Z",
     "updatedAt": "2026-05-09T14:46:11.182Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/54/attachments"
@@ -3655,7 +3641,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.186Z",
     "updatedAt": "2026-05-09T14:46:11.189Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/55/attachments"
@@ -3908,7 +3893,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.309Z",
     "updatedAt": "2026-05-09T14:46:11.112Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/56/attachments"
@@ -4161,7 +4145,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.465Z",
     "updatedAt": "2026-05-09T14:46:11.103Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/57/attachments"
@@ -4414,7 +4397,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.610Z",
     "updatedAt": "2026-05-09T14:46:11.090Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/58/attachments"
@@ -4667,7 +4649,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.748Z",
     "updatedAt": "2026-05-09T14:46:11.142Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/59/attachments"
@@ -4920,7 +4901,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:39.892Z",
     "updatedAt": "2026-05-09T14:46:11.172Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/60/attachments"
@@ -5173,7 +5153,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.125Z",
     "updatedAt": "2026-05-09T14:46:11.165Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/61/attachments"
@@ -5426,7 +5405,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.420Z",
     "updatedAt": "2026-05-09T14:46:11.157Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/62/attachments"
@@ -5679,7 +5657,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.559Z",
     "updatedAt": "2026-05-09T14:46:11.412Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/63/attachments"
@@ -6001,7 +5978,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.659Z",
     "updatedAt": "2026-05-09T14:46:11.253Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/64/attachments"
@@ -6254,7 +6230,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.803Z",
     "updatedAt": "2026-05-09T14:46:11.316Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/65/attachments"
@@ -6507,7 +6482,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:40.931Z",
     "updatedAt": "2026-05-09T14:46:11.405Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/66/attachments"
@@ -6760,7 +6734,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.069Z",
     "updatedAt": "2026-05-09T14:46:11.307Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/67/attachments"
@@ -7013,7 +6986,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.259Z",
     "updatedAt": "2026-05-09T14:46:11.300Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/68/attachments"
@@ -7266,7 +7238,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.460Z",
     "updatedAt": "2026-05-09T14:46:11.291Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/69/attachments"
@@ -7519,7 +7490,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.623Z",
     "updatedAt": "2026-05-09T14:46:11.222Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/70/attachments"
@@ -7772,7 +7742,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.768Z",
     "updatedAt": "2026-05-09T14:46:11.229Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/71/attachments"
@@ -8025,7 +7994,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:41.896Z",
     "updatedAt": "2026-05-09T14:46:11.260Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/72/attachments"
@@ -8278,7 +8246,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.015Z",
     "updatedAt": "2026-05-09T14:46:11.398Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/73/attachments"
@@ -8531,7 +8498,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.135Z",
     "updatedAt": "2026-05-09T14:46:11.389Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/74/attachments"
@@ -8784,7 +8750,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.276Z",
     "updatedAt": "2026-05-09T14:46:11.382Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/75/attachments"
@@ -9037,7 +9002,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.409Z",
     "updatedAt": "2026-05-09T14:46:11.332Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/76/attachments"
@@ -9290,7 +9254,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.540Z",
     "updatedAt": "2026-05-09T14:46:11.285Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/77/attachments"
@@ -9543,7 +9506,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.668Z",
     "updatedAt": "2026-05-09T14:46:11.277Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/78/attachments"
@@ -9796,7 +9758,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.800Z",
     "updatedAt": "2026-05-09T14:46:11.241Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/79/attachments"
@@ -10049,7 +10010,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:42.943Z",
     "updatedAt": "2026-05-09T14:46:11.215Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/80/attachments"
@@ -10302,7 +10262,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.066Z",
     "updatedAt": "2026-05-09T14:46:11.268Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/81/attachments"
@@ -10555,7 +10514,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.181Z",
     "updatedAt": "2026-05-09T14:46:11.479Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/82/attachments"
@@ -10833,7 +10791,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.305Z",
     "updatedAt": "2026-05-09T14:46:11.440Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/83/attachments"
@@ -11086,7 +11043,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.463Z",
     "updatedAt": "2026-05-09T14:46:11.465Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/84/attachments"
@@ -11339,7 +11295,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.603Z",
     "updatedAt": "2026-05-09T14:46:11.456Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/85/attachments"
@@ -11592,7 +11547,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.744Z",
     "updatedAt": "2026-05-09T14:46:11.421Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/86/attachments"
@@ -11845,7 +11799,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.867Z",
     "updatedAt": "2026-05-09T14:46:11.426Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/87/attachments"
@@ -12098,7 +12051,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:43.991Z",
     "updatedAt": "2026-05-09T14:46:11.434Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/88/attachments"
@@ -12351,7 +12303,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.116Z",
     "updatedAt": "2026-05-09T14:46:11.472Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/89/attachments"
@@ -12604,7 +12555,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.232Z",
     "updatedAt": "2026-05-09T14:46:11.514Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/90/attachments"
@@ -12870,7 +12820,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.332Z",
     "updatedAt": "2026-05-09T14:46:11.507Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/91/attachments"
@@ -13123,7 +13072,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.494Z",
     "updatedAt": "2026-05-09T14:46:11.486Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/92/attachments"
@@ -13376,7 +13324,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.626Z",
     "updatedAt": "2026-05-09T14:46:11.492Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/93/attachments"
@@ -13629,7 +13576,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.788Z",
     "updatedAt": "2026-05-09T14:46:11.499Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/94/attachments"
@@ -13882,7 +13828,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:44.939Z",
     "updatedAt": "2026-05-08T11:47:34.480Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/95/attachments"
@@ -14148,7 +14093,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.062Z",
     "updatedAt": "2026-05-08T22:40:17.816Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/96/attachments"
@@ -14401,7 +14345,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.230Z",
     "updatedAt": "2026-05-08T22:40:18.118Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/97/attachments"
@@ -14654,7 +14597,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.396Z",
     "updatedAt": "2026-05-08T22:40:18.443Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/98/attachments"
@@ -14907,7 +14849,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.532Z",
     "updatedAt": "2026-05-08T22:40:18.647Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/99/attachments"
@@ -15160,7 +15101,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.659Z",
     "updatedAt": "2026-05-08T00:02:04.332Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/100/attachments"
@@ -15430,7 +15370,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.780Z",
     "updatedAt": "2026-05-08T22:40:18.860Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/101/attachments"
@@ -15683,7 +15622,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:45.977Z",
     "updatedAt": "2026-05-08T22:40:19.030Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/102/attachments"
@@ -15936,7 +15874,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.144Z",
     "updatedAt": "2026-05-08T22:40:19.196Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/103/attachments"
@@ -16189,7 +16126,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.294Z",
     "updatedAt": "2026-05-08T22:40:19.378Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/104/attachments"
@@ -16442,7 +16378,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.434Z",
     "updatedAt": "2026-05-08T22:40:19.558Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/105/attachments"
@@ -16695,7 +16630,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.598Z",
     "updatedAt": "2026-05-08T00:02:06.275Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/106/attachments"
@@ -16977,7 +16911,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.715Z",
     "updatedAt": "2026-05-08T22:40:19.737Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/107/attachments"
@@ -17230,7 +17163,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:46.883Z",
     "updatedAt": "2026-05-08T22:40:19.956Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/108/attachments"
@@ -17483,7 +17415,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.031Z",
     "updatedAt": "2026-05-08T22:40:20.138Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/109/attachments"
@@ -17736,7 +17667,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.175Z",
     "updatedAt": "2026-05-08T22:40:20.320Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/110/attachments"
@@ -17989,7 +17919,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.322Z",
     "updatedAt": "2026-05-08T22:40:20.497Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/111/attachments"
@@ -18242,7 +18171,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.470Z",
     "updatedAt": "2026-05-08T22:40:20.667Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/112/attachments"
@@ -18495,7 +18423,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.640Z",
     "updatedAt": "2026-05-08T22:40:20.832Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/113/attachments"
@@ -18748,7 +18675,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.795Z",
     "updatedAt": "2026-05-08T22:40:21.030Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/114/attachments"
@@ -19001,7 +18927,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:47.942Z",
     "updatedAt": "2026-05-08T00:02:07.719Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/115/attachments"
@@ -19267,7 +19192,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.052Z",
     "updatedAt": "2026-05-08T22:12:26.189Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/116/attachments"
@@ -19520,7 +19444,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.332Z",
     "updatedAt": "2026-05-08T22:40:21.264Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/117/attachments"
@@ -19773,7 +19696,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.608Z",
     "updatedAt": "2026-05-08T22:40:21.459Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/118/attachments"
@@ -20026,7 +19948,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:48.838Z",
     "updatedAt": "2026-05-08T22:40:21.659Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/119/attachments"
@@ -20279,7 +20200,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.001Z",
     "updatedAt": "2026-05-08T22:40:21.836Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/120/attachments"
@@ -20527,7 +20447,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.103Z",
     "updatedAt": "2026-05-08T22:42:35.968Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/121/attachments"
@@ -20775,7 +20694,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.235Z",
     "updatedAt": "2026-05-08T22:41:20.593Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/122/attachments"
@@ -21023,7 +20941,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.346Z",
     "updatedAt": "2026-05-08T22:41:25.811Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/123/attachments"
@@ -21271,7 +21188,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.456Z",
     "updatedAt": "2026-05-08T22:42:47.744Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/124/attachments"
@@ -21519,7 +21435,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.561Z",
     "updatedAt": "2026-05-08T22:42:51.262Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/125/attachments"
@@ -21767,7 +21682,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.672Z",
     "updatedAt": "2026-05-08T22:40:22.778Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/126/attachments"
@@ -22015,7 +21929,6 @@
     "derivedPercentageDone": null,
     "createdAt": "2026-05-07T14:21:49.785Z",
     "updatedAt": "2026-05-08T22:42:11.102Z",
-    "readonly": false,
     "_links": {
       "attachments": {
         "href": "/api/v3/work_packages/127/attachments"
