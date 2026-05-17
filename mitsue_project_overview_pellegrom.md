@@ -9,12 +9,12 @@
 Repurpose the closed Mitsue Elementary School as a **rural sustainable energy hub** combining:  
 
 1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species  
-2. **Biomass & biogas energy generation** — from the harvested sugi  
+2. **EV charging infrastructure & community energy resilience** — solar panels, battery storage, and EV charging stations at the school  
 3. **A micro-scale AI data center** — powered entirely by this locally generated renewable energy  
 A single integrated project that addresses ecology, energy, rural revitalization, and digital infrastructure in one place.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCUpfDq4wwIAABiywEZJWQZeZ2ao9AAD+4liruzq/ngAA8Nr1ABweBgdur/QFAAAAAElFTkSuQmCC)  
 **Timeframe: 25 Years**  
-The project is planned as a **25-year initiative**, designed to bridge the gap until  **localized small-scale fusion power generation** becomes commercially available. Biomass energy is the practical, sustainable solution for the coming decades — fusion is the long-term horizon.  
+The project is planned as a **25-year initiative**, designed to bridge the gap until  **localized small-scale fusion power generation** becomes commercially available. Solar, battery storage, and EV charging infrastructure is the practical, sustainable solution for the coming decades — fusion is the long-term horizon.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OQQmAABRAsad4FCtY9ecwnkms4E2ELcGWmTmrKwAA/uLeqrU6vp4AAPDa/gDzUgM9+S8z3AAAAABJRU5ErkJggg==)  
 **Why Now — The EV Power Demand**  
 Within roughly **10 years, most cars in Japan will be electric vehicles**. This will require dramatically more  **localized electric power generation** — especially in the countryside, where grid extension is expensive and slow.  
@@ -27,7 +27,7 @@ A **non-profit organization (NGO)** will be established to coordinate the projec
 - **Forestry contractors and managers** — for the harvesting operations  
 - **Private mountain/forest landowners** — for sourcing sugi from privately owned land  
 - **Data center operators** — Japanese and international, for technical partnership and operational expertise  
-- **Business partners** — biomass/biogas equipment suppliers, EV charging operators, IT infrastructure providers  
+- **Business partners** — solar and battery storage suppliers, EV charging operators, IT infrastructure providers  
 - **Communications teams** — for outreach, media, and storytelling  
 - **Academic and research partners** — universities for forestry, energy, and AI research  
 - **Citizen and community groups** — local residents, Mitsue community, Safecast network  
@@ -47,13 +47,13 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **NGO/NPO incorporation in Japan** — register as a 認定NPO法人 (certified NPO) for tax-deductible donations  
 - **Building permits** — converting the school to industrial/data use requires zoning and structural approvals  
 - **Forestry permits** — Japan's Forest Act regulates harvesting; coordination with the Forestry Agency (林野庁)  
-- **Biomass plant licensing** — emissions permits, fire safety, METI (Ministry of Economy, Trade and Industry) approvals  
+- **EV charging permits** — grid connection approval, safety inspections for charging equipment  
 - **FIT/FIP feed-in tariff registration** — for any surplus electricity sold to the grid  
 - **Data center compliance** — data localization rules, cybersecurity standards, possibly APPI (privacy law)  
 **Technical Infrastructure**  
-- **Thermal-first biomass pilot** — the energy plant begins as a small biomass boiler with heat recovery, not as a power station; electrical generation is added only when feasibility, demand, and economics support it. The aim is not to replace village solar or to power Mitsue from biomass alone, but to provide dispatchable baseload heat (and later electricity) that complements existing solar and the grid.  
+- **Solar + battery + EV charging system** — rooftop solar panels at the school feed battery storage, powering the data center and EV charging stations. The system is sized for data center and EV demand, not for powering the whole village.  
 - **High-bandwidth fiber connectivity** — essential for any data center, even small-scale; Mitsue's current fiber capacity needs assessment  
-- **Backup power and grid connection** — biomass alone is not 100% reliable; battery storage and grid backup needed  
+- **Blackout resilience** — battery storage enables island-mode operation during grid outages, keeping the data center, EV chargers, and emergency services running for 12–48 hours  
 - **Cooling strategy** — Japan's humid summers are hard on data centers; could leverage Mitsue's cool mountain climate and water resources  
 - **Heat recovery** — waste heat from servers can warm greenhouses, fish farms, or community buildings (a real opportunity)  
 - **Seismic engineering** — the school building must be assessed and likely retrofitted for modern earthquake codes  
@@ -70,11 +70,10 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 **Forestry**  
 - **Sugi monoculture is privately fragmented.** Hundreds of small landowners may need to sign off. Create a simple, fair contract template early.  
 - **Native forest restoration is slow** (20–50 years to mature). Set realistic ecological expectations — don't oversell biodiversity gains in the first decade.  
-- **Biomass logistics** — transporting cut sugi from steep mountain slopes is expensive and dangerous. Budget realistically for forestry roads and equipment.  
 **Technical**  
 - **Data centers depreciate fast.** Hardware is obsolete in 5–7 years. Plan for ongoing capital reinvestment, not a one-time build.  
 - **Don't over-promise scale.** A "micro" data center is realistic; trying to compete with hyperscalers is not. Position it as edge computing or specialized AI workloads.  
-- **Biomass emissions.** Burning wood is only "carbon neutral" if regrowth keeps pace. Get proper lifecycle accounting from day one — critics will scrutinize this.  
+- **Battery disposal.** Lithium batteries have a finite cycle life (typically 10–15 years). Plan for recycling and replacement costs. Get proper lifecycle accounting from day one.  
 **Organizational**  
 - **NGO governance.** Boards can become dysfunctional. Set clear bylaws, term limits, and conflict-of-interest policies up front.  
 - **Founder dependency.** Don't let the project depend entirely on one or two people. Build redundancy in leadership.  
@@ -85,7 +84,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Educational component** — partner with universities for student internships and research projects; the school setting is symbolic and practical  
 - **Citizen science integration** — Safecast environmental monitoring (radiation, air quality, forest health) deployed across the project area as a living lab  
 - **Open data commitment** — publish energy production, forest growth, and environmental data publicly (aligns with your Safecast philosophy and Dutch open-government values)  
-- **Greenhouse / agriculture loop** — use waste heat for year-round vegetable production; addresses rural food security  
+- **Server waste heat loop** — data center heat can still warm community spaces or a small greenhouse, closing a useful loop without requiring a separate biomass plant  
 - **EV charging network** — install charging stations in Mitsue and neighboring villages from year one, creating immediate visible value to residents  
 **Strategic Positioning**  
 - **Make it a model, not a one-off.** Document everything as an open playbook so other Japanese villages can replicate it. This attracts government and philanthropic interest faster.  

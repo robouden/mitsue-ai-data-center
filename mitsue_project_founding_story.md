@@ -22,7 +22,7 @@ The Mitsue Project is a 25-year initiative to turn an abandoned school into a li
 We will:
 
 - **Restore native forests** in place of aging sugi monoculture, healing land that has been ecologically depleted for generations.
-- **Generate clean energy** from the harvested cedar through biomass and biogas — energy that belongs to the village, not a distant utility.
+- **Build EV charging infrastructure** and install solar panels with battery storage — energy resilience that belongs to the village, keeping it powered during blackouts and ready for the coming EV transition.
 - **Build a small, sustainable AI data center** inside the old school — powered entirely by that local energy, providing digital infrastructure where it has never existed before.
 
 Three things, woven together: ecology, energy, and the digital age.
@@ -31,7 +31,7 @@ Three things, woven together: ecology, energy, and the digital age.
 
 ## Why 25 Years
 
-We are not building for the short term. The forests we plant will mature over decades. The technology we install will evolve. By the time our project completes its first full cycle, **localized small-scale fusion energy** may finally be commercially available — and the biomass infrastructure we build now will have served as the bridge.
+We are not building for the short term. The forests we plant will mature over decades. The technology we install will evolve. By the time our project completes its first full cycle, **localized small-scale fusion energy** may finally be commercially available — and the solar, battery, and EV infrastructure we build now will have served as the bridge.
 
 In the meantime, we expect the world around Mitsue to change profoundly. Within ten years, most cars in Japan will be electric. Rural villages will need their own clean power, generated locally, to serve a future that the existing grid cannot reach.
 

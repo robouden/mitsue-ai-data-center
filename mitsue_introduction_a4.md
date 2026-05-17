@@ -27,7 +27,7 @@
 The Mitsue Project transforms the closed Mitsue Elementary School — and the aging cedar forest above it — into a living model of rural self-sufficiency. Three elements work together:
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades
-- **Local clean energy** — Harvested cedar becomes biomass fuel, supplying heat and eventually electricity that belongs to the village, not a distant utility
+- **EV charging & energy resilience** — Solar panels and battery storage at the school supply clean local energy, EV charging for residents and visitors, and backup power during grid outages
 - **Sustainable AI data center** — A small, efficient digital facility inside the old school, powered entirely by local energy, providing infrastructure and employment where none existed
 
 These are not three separate ideas. Each one makes the others possible.
@@ -40,10 +40,10 @@ These are not three separate ideas. Each one makes the others possible.
 |---|---|
 | Closed school, no new purpose | Repurposed as data center & community anchor |
 | Cedar monoculture — ecologically depleted | Systematic conversion to native mixed forest |
-| Biomass uneconomical without stable demand | Data center provides 24/7 baseload energy demand |
-| Rural grid dependency, no local power | Village-owned biomass + solar hybrid energy system |
+| EV charging needs reliable local power | Data center provides 24/7 baseload demand that justifies the solar + battery investment |
+| Rural grid dependency, no local power | Village-owned solar + battery hybrid system with EV charging |
 | Shrinking population, no local jobs | Data center operations, forestry, maintenance roles |
-| Small-scale biomass fails without subsidy stacking | Heat-first design + FIT/FIP + J-credit + NEDO grants |
+| Blackouts threaten critical services | Village-owned battery storage keeps the school, data center, and key facilities running during outages |
 | Rising electricity demand as cars shift to EV | As gasoline vehicles are replaced by electric, village grid load will grow significantly; local generation absorbs this increase without burdening the national grid |
 | Existing rural blackouts | Aging distribution lines already cause outages in Mitsue; a village-owned power supply provides resilience and keeps critical services running |
 
@@ -77,7 +77,7 @@ The 25-year horizon describes full forest restoration — not how long the villa
 |---|---|
 | **Year 1** | Closed school reactivated; international media visibility for Mitsue |
 | **Year 2** | Landowners begin receiving income from cedar harvest |
-| **Year 3–4** | Biomass heat supply for village facilities and greenhouses; EV charging |
+| **Year 3–4** | EV charging stations operational; battery storage installed for village blackout resilience |
 | **Year 4–5** | Data center operational; local employment in operations and maintenance |
 | **Year 5–10** | Data service revenue reinvested into village and forest programmes |
 | **Year 25** | Native forest established; model documented for replication worldwide |
@@ -86,7 +86,7 @@ The 25-year horizon describes full forest restoration — not how long the villa
 
 ## How It Is Financed
 
-The project stacks complementary sources rather than depending on a single funder: **林野庁 grants** (forest restoration) · **METI / NEDO grants** (biomass and rural energy) · **FIT / FIP** feed-in tariff revenues · **J-Credit** carbon offset income · **data center service revenue** (primary long-term income) · **impact investment and philanthropy** (Phase 0 and early infrastructure).
+The project stacks complementary sources rather than depending on a single funder: **林野庁 grants** (forest restoration) · **METI / NEDO grants** (rural energy resilience and EV infrastructure) · **FIT / FIP** feed-in tariff revenues · **J-Credit** carbon offset income · **data center service revenue** (primary long-term income) · **impact investment and philanthropy** (Phase 0 and early infrastructure).
 
 All environmental, energy, and forestry data will be published openly — so any village facing the same challenges can learn from what is built here. This ethos comes directly from Safecast, which has published over 250 million measurements openly since 2011.
 
@@ -96,7 +96,7 @@ All environmental, energy, and forestry data will be published openly — so any
 
 Most rural revitalisation projects in Japan either depend permanently on outside subsidy or import a use with no connection to the land. The Mitsue Project is built around the village's own resources — its forest, its school, its people — and is designed to become financially self-sustaining within the first decade.
 
-The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes small-scale biomass viable — something neither forestry nor energy alone could achieve. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them.
+The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes solar and battery storage economically viable — and its backup power infrastructure extends naturally to the whole community during blackouts. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them.
 
 ---
 

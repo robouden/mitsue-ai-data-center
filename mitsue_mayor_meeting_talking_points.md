@@ -16,7 +16,7 @@ This is **not a first introduction** of either Rob or the project. You are build
 This changes the meeting in three meaningful ways:
 
 1. **The mayor likely already knows about the AI data center idea** — the vice mayor will almost certainly have briefed him. Don't pretend it's new.
-2. **You are now broadening the picture** — adding the biomass/biogas energy and forestry components transforms a single-building proposal into an integrated rural sustainability project. This is the most important shift to communicate.
+2. **You are now broadening the picture** — adding the solar/EV/battery energy and forestry components transforms a single-building proposal into an integrated rural sustainability project. This is the most important shift to communicate.
 3. **You have already shown respect** for proper village process by approaching the vice mayor first and the forestry group separately. That groundwork is in your favor — let it work for you.
 
 ---
@@ -119,11 +119,11 @@ Now you can be more substantive. Use your one-page visual if helpful.
 >
 > *(First, gradually returning sugi plantations to native species over a long period. From my conversation with the forestry group, I sensed there may be openness to this.)*
 
-> "2つ目は、伐採される杉を、地域のクリーンエネルギーとして活用すること。最初は小型バイオマスボイラーによる熱供給から始め、温室や村の施設の暖房・給湯にお使いいただく考えでございます。発電は、需要と採算性が整いました段階で、後の段階として検討してまいります。"
+> "2つ目は、校舎跡地に太陽光発電と蓄電池を設置し、EV充電ステーションを整備することでございます。日本全体でEVへの移行が進む中、村内に充電設備がないことは住民にとって切実な課題です。さらに、蓄電池は台風や大雪による停電時のバックアップ電源ともなり、村の重要施設を守ります。"
 >
-> *(Second, using the harvested cedar as local clean energy. We would begin with a small biomass boiler providing heat for greenhouses and village facilities — at this scale, heat is more efficient and useful than electricity. Electrical generation would come as a later stage when demand and economics support it.)*
+> *(Second, installing solar panels and battery storage at the school site, and providing EV charging stations. As Japan transitions to electric vehicles, the absence of village charging infrastructure is a real issue for residents. Additionally, the battery storage serves as backup power during typhoons and heavy snowfall, protecting the village's critical facilities.)*
 
-This framing matters: the mayor — like most listeners — may otherwise picture a "biomass power plant", which is a much larger and more capital-intensive project than what is intended. Setting the thermal-first scale early prevents that mental image taking hold.
+This framing matters: clearly explaining that the energy component is solar panels and EV charging — not a large industrial plant — is important for setting realistic expectations.
 
 > "3つ目は、そのエネルギーを使って、副村長にお話しした閉校舎の活用構想を支える、というつながりでございます。"
 >
@@ -210,35 +210,35 @@ This is critical information you can only get by listening.
 
 The mayor may probe the practical mechanics. Full bilingual answers live in [`mitsue_qa_briefing.md`](mitsue_qa_briefing.md). Compressed answers for live use:
 
-### "How big is the plant? Can village cedar power the village?"
-> "実証段階の規模でございまして、村全体の電力をバイオマスで賄うことは目的としておりません。バイオマス、既存の太陽光、電力会社の組み合わせを想定しております。正確な数値は第2段階のフィージビリティスタディで算出いたします."
+### "What is the energy plan? How do solar and EV charging work together?"
+> "校舎の屋根と周辺エリアに太陽光パネルを設置し、蓄電池でエネルギーを蓄えます。その電力でデータセンターを稼働させ、余剰分でEV充電ステーションを運営します。さらに停電時には蓄電池が校舎や重要施設のバックアップ電源となります。正確な規模は第2段階のフィージビリティスタディで算出いたします。"
 >
-> *(Pilot scale, not utility scale. Not aiming to power the entire village from biomass alone. Realistic mix is biomass + existing solar + grid. Firm figures from Phase 2 feasibility.)*
+> *(Solar panels at the school roof and surrounding area feed battery storage. That powers the data center, with surplus powering EV charging. During grid outages, the battery provides backup for the school and critical facilities. Firm specifications from Phase 2 feasibility study.)*
 
-### "What is the heat used for?"
-> "温室、村の施設、給湯、木材乾燥、冬季の融雪など、多様に活用できます。小規模では、熱は電気よりも価値が高うございまして、最初は熱供給から始めるのが最も効率的でございます."
+### "What is the EV charging plan?"
+> "まず2〜4台の充電器から始め、村の住民と来訪者に開放いたします。EV普及に合わせて段階的に増設していく計画でございます。充電料金は施設維持費の一部に充当します。"
 >
-> *(Greenhouses, village facilities, hot water, lumber drying, winter snow-melt. At small scale, heat is more valuable than electricity — thermal-first is the most efficient pilot path.)*
+> *(Starting with 2–4 chargers, open to residents and visitors, scaling up as EV adoption grows. Charging fees contribute to facility operating costs.)*
 
 ### "Why is a data center necessary?"
-> "データセンターは24時間稼働するため、バイオマスの経済性を成り立たせる安定した需要先となります。これがないと、日本の小規模バイオマスは経済的に成立しないのが通例でございまして、データセンターはエネルギー事業を可能にする鍵でございます."
+> "データセンターは24時間365日稼働するため、太陽光発電と蓄電池への投資を経済的に成立させる安定した需要先となります。これがないと、農村のエネルギー事業は財務的に成立しないのが通例でございまして、データセンターはEV充電や停電レジリエンスを可能にする規模の蓄電池投資を正当化する鍵でございます."
 >
-> *(The data center provides 24/7 baseload demand that makes biomass economically viable. Without an anchor offtaker, small biomass projects in Japan typically fail their financials. The data center is what enables the energy project.)*
+> *(The data center provides 24/7 baseload demand that makes the solar and battery investment economically viable. Without an anchor offtaker, rural energy projects typically fail their financials. The data center justifies the scale of battery storage that enables EV charging and blackout resilience.)*
 
-### "We have many solar panels already. Why biomass?"
-> "太陽光とバイオマスは競合ではなく補完の関係でございます。太陽光は日中、バイオマスは夜間と冬。さらにバイオマスは熱を生み出し、村の杉という現在の負債を資源に変えるという、太陽光単独では解決できない課題に応えるものでございます."
+### "We already have solar panels in the village. Why do we need more?"
+> "既存の太陽光設備はFITで国の系統に売電しており、村の直接利用や停電対策には活用されておりません。本プロジェクトが設置するのは地産地消型のシステムであり、EV充電と停電バックアップという既存設備にはない機能を提供いたします。"
 >
-> *(Solar and biomass are complementary, not competitive. Solar by day; biomass at night and in winter. Biomass also produces heat, and converts the cedar-management problem from liability to feedstock — solar alone cannot solve that.)*
+> *(Existing solar sells to the national grid via FIT and does not provide local-use benefits or blackout protection. The project's system is designed for local consumption — providing EV charging and backup power that existing installations cannot.)*
 
 ### "Will benefits really take 25 years?"
-> "25年は森林再生の生態的な期間でございます。村への具体的な恩恵はもっと早く現れます。1年目で閉校舎の再活用とメディア発信、2年目で山林所有者への伐採収入、3〜4年目で熱供給とEV充電、4〜5年目でデータセンターの地域雇用が始まります."
+> "25年は森林再生の生態的な期間でございます。村への具体的な恩恵はもっと早く現れます。1年目で閉校舎の再活用とメディア発信、2年目で山林所有者への伐採収入、3〜4年目でEV充電ステーション稼働と停電レジリエンス向け蓄電池設置、4〜5年目でデータセンターの地域雇用が始まります."
 >
-> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, heat and EV charging in Year 3–4, data center jobs in Year 4–5.)*
+> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, EV charging stations and battery storage for blackout resilience in Year 3–4, data center jobs in Year 4–5.)*
 
-### "Biomass is expensive. How will the costs be managed?"
-> "決定的な単一の解決策ではなく、複数の対策の積み重ねでございます: 熱供給からの開始、林野庁・経産省・FIT/FIP・J-クレジット・NEDOなどの補助制度の重ね合わせ、熱の商品化、製材との組み合わせ、そして数値が見合わなければ無理に進めない原則でございます."
+### "How will the solar and battery costs be managed?"
+> "複数の収益源を積み重ねます: EV充電料金、FIT/FIP売電、J-クレジット、そしてデータセンターの収益でございます。さらに、農村エネルギーレジリエンスとEVインフラは経産省・NEDO補助制度の優先対象でございます。数値が見合わなければ無理に進めない段階的な構造としております。"
 >
-> *(Not a single fix but a stack: start thermal (one-third the cost of CHP), stack subsidies that biomass uniquely qualifies for, sell heat as a product, pair with timber, and hold rather than force the project if the numbers don't work.)*
+> *(Multiple revenue streams stack: EV charging fees, FIT/FIP feed-in, J-Credits, and data center revenue. Rural energy resilience and EV infrastructure are priority areas for METI/NEDO subsidies. Phased structure refuses to proceed if numbers don't work.)*
 
 If the mayor asks something not on this list, it is better to say *"村長、その点は専門家とともに改めて整理してご報告させていただきとう存じます"* (*"Mayor, allow me to come back to you on that point with our specialists"*) than to improvise. Promising to follow up is more credible than guessing.
 

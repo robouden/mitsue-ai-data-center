@@ -17,7 +17,7 @@
 
 ## 1. Executive Summary
 
-The Mitsue Project is a non-profit initiative to repurpose the closed Mitsue Elementary School and the surrounding forested landscape into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass and renewable energy, and a small-scale community-owned data center — under a single coordinating organization.
+The Mitsue Project is a non-profit initiative to repurpose the closed Mitsue Elementary School and the surrounding forested landscape into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated solar energy with EV charging and community backup power, and a small-scale community-owned data center — under a single coordinating organization.
 
 The project is designed to be **modest in scale, fully transparent, and openly replicable**, so that other depopulating municipalities in Japan and beyond can adapt the model to their own circumstances. The 25-year horizon is intentional: it bridges the period between today's rural energy and digital deficits and the anticipated availability of localized small-scale fusion power generation.
 
@@ -27,7 +27,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 **Mission.** To demonstrate that rural Japanese communities can build their own sustainable future by integrating ecological restoration, locally generated clean energy, and modern digital infrastructure — and to share what is learned so that other communities may follow.
 
-**Vision (2050).** Mitsue Village is a self-sustaining model of rural revitalization in which restored native forests, locally generated biomass and renewable energy, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model is openly documented and freely available to any community that wishes to adapt it.
+**Vision (2050).** Mitsue Village is a self-sustaining model of rural revitalization in which restored native forests, locally generated solar energy, EV charging infrastructure, and community backup power, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model is openly documented and freely available to any community that wishes to adapt it.
 
 ---
 
@@ -45,10 +45,8 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 ### 4.1 Forest Restoration
 Phased replacement of aged sugi plantations with native broadleaf species, in cooperation with private landowners, the Forestry Agency (林野庁), and local forestry contractors. Restoration operates on a 25-year ecological timeline.
 
-### 4.2 Sustainable Energy Generation
-Biomass and biogas generation from sustainably harvested forest material. Output is intended for local consumption (village load, EV charging, heat for greenhouses or community use) with grid feed-in via FIT/FIP where economically appropriate.
-
-> **Thermal first, electrical second.** At pilot scale, a biomass boiler with heat recovery costs roughly one-third as much as a combined heat-and-power unit and is several times more energy-efficient. The project therefore begins with thermal output and adds electrical generation only when feasibility, demand, and feedstock economics support it. The aim is **not** to replace the village's existing solar capacity or to power Mitsue from biomass alone — the realistic local mix is biomass (baseload and heat) + existing solar (daytime) + the grid (backup).
+### 4.2 Renewable Energy, EV Charging & Community Resilience
+Solar generation and battery storage at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage serves dual purpose: smoothing solar output for the data center and providing community resilience during blackouts, an increasingly frequent occurrence as rural distribution lines age.
 
 ### 4.3 Community-Owned Data Center
 Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics.
@@ -178,7 +176,7 @@ The project pursues a five-layer funding stack, with each layer unlocked by the 
 | L2 | Government grants (NEDO, METI, Nara Prefecture, Mitsue village) | ¥5M | ¥80M |
 | L3 | Foundations (Nippon Foundation, Japan Fund for Global Environment, Toyota Foundation, others) | ¥3M | ¥20M |
 | L4 | Corporate partnerships (Dutch and Japanese; CSR-aligned) | ¥0 | ¥30M |
-| L5 | Operating revenue (hosting fees, FIT/FIP, heat, EV charging, J-Credits) | ¥0 | ¥3M |
+| L5 | Operating revenue (hosting fees, FIT/FIP, EV charging fees, J-Credits) | ¥0 | ¥3M |
 | **Total (illustrative)** | | **¥11M** | **¥134M** |
 
 These figures are planning targets, not commitments. Actual funding mix will depend on grant outcomes and partnership negotiations during Phases 1 and 2.
@@ -211,7 +209,7 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
 | `mitsue_mayor_meeting_talking_points.md` / `.pdf` | Preparation document for the formal mayor meeting (EN) |
 | `mitsue_mayor_meeting_talking_points_ja.md` | Japanese translation of the mayor meeting talking points |
-| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass, data center, solar, and 25-year horizon |
+| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on EV charging, blackout resilience, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
 | `mitsue_project_founding_story_jp.md` / `.pdf` | Japanese version of the founding story |

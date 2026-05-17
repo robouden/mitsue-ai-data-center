@@ -11,7 +11,7 @@
 To repurpose the closed **Mitsue Elementary School** (御杖小学校) as a **community sustainability center** that will:
 
 1. Restore aging cedar (sugi) plantations to healthy native forest
-2. Generate clean local energy from harvested cedar (biomass and biogas)
+2. Provide EV charging infrastructure and community backup power (solar panels + battery storage)
 3. House a small, low-impact data center powered by that local energy
 
 A 25-year initiative built carefully, in close partnership with the village.
@@ -40,7 +40,7 @@ The 25-year horizon applies to forest restoration ecology. Concrete benefits to 
 | 1 | Closed school building reactivated; village named in domestic and international press; first researcher and student visits |
 | 2 | First forestry contracts → direct cash income to private mountain owners |
 | 2–3 | Reduced sugi pollen and landslide risk in actively managed plots |
-| 3–4 | Pilot biomass thermal output online → greenhouse heat, lower utility costs for village facilities, first EV charging stations |
+| 3–4 | EV charging stations operational at the school; battery storage installed for community backup power during blackouts |
 | 4–5 | Data center hires local staff; hosting fees and energy sales become real revenue; village becomes a study-tour destination |
 | Ongoing | School programmes, field trips, and open environmental and financial dashboards from Year 1 onward |
 

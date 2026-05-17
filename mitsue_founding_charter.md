@@ -15,13 +15,13 @@ The organization shall be known as the **Mitsue Project** (御杖プロジェク
 To demonstrate that rural Japanese communities can build their own sustainable future by integrating ecological restoration, locally generated clean energy, and modern digital infrastructure — and to share what is learned so that other communities may follow.
 
 ### 3. Vision
-By the year 2050, Mitsue Village will be home to a self-sustaining model of rural revitalization in which restored native forests, locally generated biomass and renewable energy, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model shall be openly documented and freely available to any community that wishes to adapt it.
+By the year 2050, Mitsue Village will be home to a self-sustaining model of rural revitalization in which restored native forests, locally generated solar energy, EV charging infrastructure, and community backup power, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model shall be openly documented and freely available to any community that wishes to adapt it.
 
 ### 4. Core Activities
 The organization shall pursue the following activities:
 
 - **Forest Restoration**: Gradual replacement of aged sugi (cedar) plantations with native broadleaf species, in cooperation with private landowners and forestry authorities.
-- **Sustainable Energy Generation**: Production of clean energy through biomass and biogas from sustainably harvested forest material.
+- **Sustainable Energy Generation**: Provision of solar generation, battery storage, and EV charging infrastructure for village residents and visitors, providing clean local energy and backup power during grid outages.
 - **Digital Infrastructure**: Operation of a small-scale, energy-efficient data center within the repurposed Mitsue Elementary School building.
 - **EV Charging Network**: Provision of electric vehicle charging infrastructure for residents and visitors.
 - **Education and Open Knowledge**: Documentation and open publication of all methods, data, and lessons learned.
@@ -91,13 +91,13 @@ ________________________
 日本の農村地域が、生態系の再生、地域で生み出されるクリーンエネルギー、そして現代的なデジタル基盤を統合することにより、自らの持続可能な未来を築き得ることを実証する。さらに、その学びを共有し、他の地域がこの道に続けるようにすることを目指す。
 
 ### 3. ビジョン
-2050年までに、御杖村は農村再生の自立的なモデルとなる。再生された在来種の森林、地域で生み出されるバイオマスおよび再生可能エネルギー、そして地域所有の小規模データセンターが、村の経済、生態系、デジタル未来を共に支える姿である。本モデルは公開文書として整え、これを採用しようとするすべての地域が自由に活用できるようにする。
+2050年までに、御杖村は農村再生の自立的なモデルとなる。再生された在来種の森林、地域で生み出される太陽光エネルギー、EV充電インフラ、および停電時のコミュニティバックアップ電源、そして地域所有の小規模データセンターが、村の経済、生態系、デジタル未来を共に支える姿である。本モデルは公開文書として整え、これを採用しようとするすべての地域が自由に活用できるようにする。
 
 ### 4. 主たる活動
 本団体は以下の活動を行う。
 
 - **森林再生**: 民間山林所有者および林業当局との協力のもと、老齢杉人工林を在来広葉樹へと段階的に転換する。
-- **持続可能なエネルギー生成**: 持続可能な形で伐採された森林資源から、バイオマスおよびバイオガスによるクリーンエネルギーを生産する。
+- **再生可能エネルギーとレジリエンス**: 太陽光発電、蓄電池、およびEV充電インフラを村の住民・来訪者のために整備し、クリーンな地域エネルギーと停電時のバックアップ電源を提供する。
 - **デジタル基盤**: 再利用された御杖小学校校舎内において、小規模かつ省エネ型のデータセンターを運営する。
 - **EV充電網**: 住民および来訪者向けに電気自動車充電インフラを提供する。
 - **教育と知識の公開**: あらゆる手法、データ、学びを文書化し公開する。

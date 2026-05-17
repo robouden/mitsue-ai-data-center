@@ -163,7 +163,7 @@ These are the **single most important documents** for unlocking serious funding.
 
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
-- **Energy**: Small biomass boiler + heat recovery (start with thermal, not electrical generation; cheaper and more efficient)
+- **Energy**: Rooftop solar panels + battery storage + EV charging stations (2–4 chargers initially, scaling with demand); battery sized to provide 12–48 hours of critical-facility backup during grid outages
 - **Building**: Renovate one wing of the school for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
@@ -202,7 +202,7 @@ The project should pursue **multiple funding streams in parallel**, never depend
 - **地方創生関係交付金 (Regional Revitalization Grants)** — Cabinet Office; for projects creating jobs and stemming rural depopulation. Typically ¥5–50M per project.
 - **林野庁 / Forestry Agency subsidies** — for native forest restoration, sugi conversion, forest road infrastructure
 - **NEDO grants** — New Energy and Industrial Technology Development Organization; renewable energy R&D
-- **METI green technology subsidies** — for biomass and innovative energy projects
+- **METI green technology subsidies** — for rural energy resilience and EV infrastructure
 - **Nara Prefecture rural development grants** — varies by year; check 奈良県地域創造課
 - **Mitsue village local subsidies** — small but politically meaningful
 
@@ -281,9 +281,8 @@ The quantitative case rests on five revenue and savings categories. **The ranges
 | Revenue / Savings Category | Year 1 | Year 5 | Year 10 | Notes |
 |----------------------------|--------|--------|---------|-------|
 | Data center hosting fees | ¥0 | ¥15–30M | ¥40–80M | Edge computing / AI specialist workloads |
-| Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from biomass + heat recovery |
-| Heat sales (greenhouses, community) | ¥0 | ¥2–5M | ¥5–10M | Heat is more efficient than electricity |
-| EV charging fees | ¥0 | ¥1–3M | ¥3–8M | Modest but visible local revenue |
+| Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from solar generation |
+| EV charging fees | ¥0 | ¥1–3M | ¥3–8M | Growing as EV fleet expands |
 | Carbon credits (J-Credit) | ¥0 | ¥1–3M | ¥3–10M | From forest restoration |
 | Forestry products (timber, lumber) | ¥0 | ¥3–8M | ¥10–20M | Beyond biomass use |
 | Education / consulting | ¥0 | ¥1–3M | ¥3–8M | "Playbook" sharing |
@@ -332,7 +331,7 @@ Different audiences need different orderings of the same underlying story. The d
 - [ ] **Forestry permits** — 伐採届出 (cutting notification) under Forest Act
 - [ ] **Land use changes** — coordination with 農業委員会 if any agricultural land involved
 - [ ] **Building conversion permits** — Building Standards Act (建築基準法)
-- [ ] **Fire and safety** — biomass plant requires 消防 approvals
+- [ ] **Fire and safety** — EV charging infrastructure requires 消防 and 電気設備 approvals
 - [ ] **Electrical equipment** — 電気事業法 compliance for power generation
 - [ ] **FIT/FIP registration** — METI process for grid feed-in
 - [ ] **Environmental impact** — depending on scale, may require 環境アセスメント
@@ -353,7 +352,7 @@ Different audiences need different orderings of the same underlying story. The d
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
 | Local community resistance | Medium | High | Phase 0 trust-building before any announcements |
-| Forestry economics worse than expected | High | High | Independent feasibility study early; have alternative biomass sources ready |
+| Forestry economics worse than expected | High | High | Independent feasibility study early; timber revenue is independent of energy system |
 | Funding gaps between phases | Medium | High | Diversified funding, never depend on one source; phase budgets conservatively |
 | Founder dependency on Rob | Medium | High | Strong co-founders, documented processes, succession plan |
 | Building unsuitable for data center | Low | High | Early structural assessment in Phase 1 |
@@ -380,7 +379,7 @@ Different audiences need different orderings of the same underlying story. The d
 - **林野庁 (Forestry Agency)** website — forestry subsidies and regulations
 - **NEDO** — renewable energy grant programs
 - **The Nippon Foundation** — major funder for social initiatives
-- **METI** — biomass and FIT/FIP regulations
+- **METI** — EV charging infrastructure and FIT/FIP regulations
 - **Cabinet Office Regional Revitalization portal** (chisou.go.jp)
 
 ---
