@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
+<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
 
 **御杖プロジェクト ― 実施計画**  
 **構想から実現へ**  

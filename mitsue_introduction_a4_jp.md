@@ -9,7 +9,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">バージョン: v1.0 &nbsp;|&nbsp; 最終更新: 2026-05-16</p>
+<p align="right">バージョン: v2.0 &nbsp;|&nbsp; 最終更新: 2026-05-17</p>
 
 ---
 
