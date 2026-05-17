@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
 
 # Mitsue Project — Phases & Funding Flowchart
 

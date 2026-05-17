@@ -1,4 +1,4 @@
-<p align="right">バージョン: v1.2 &nbsp;|&nbsp; 最終更新: 2026-05-11</p>
+<p align="right">バージョン: v1.2 &nbsp;|&nbsp; 最終更新: 2026-05-16</p>
 
 # 御杖プロジェクト — Mitsue Project
 

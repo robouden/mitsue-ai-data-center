@@ -9,7 +9,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">バージョン: v1.0 &nbsp;|&nbsp; 最終更新: 2026-05-12</p>
+<p align="right">バージョン: v1.0 &nbsp;|&nbsp; 最終更新: 2026-05-16</p>
 
 ---
 
@@ -42,6 +42,8 @@
 | 電力網依存、地産エネルギーなし | 村所有のバイオマス＋太陽光ハイブリッドシステム |
 | 人口減少、地域に雇用なし | データセンター運営、林業、保守管理の雇用を創出 |
 | 補助金の積み上げなしに小規模バイオマスは成立しない | 熱供給優先の設計＋FIT/FIP・J-クレジット・NEDO補助金 |
+| EVへの移行による電力需要増加 | ガソリン車が電気自動車へ切り替わるにつれ村の電力需要は大幅に増加する。地域発電によりこの需要増を国家電力網の負担なく吸収できる |
+| 農村部ですでに発生している停電 | 老朽化した配電線により御杖村ではすでに停電が発生している。村が自前の電力供給源を持つことで重要なサービスを継続的に維持できる |
 
 ---
 
@@ -108,5 +110,13 @@
 
 ---
 
-*御杖プロジェクト · 奈良県御杖村*
-*連絡先：ロブ・アウデンダイク · oudendijk.biz@gmail.com · 080-2260-5966*
+<table style="width:100%; border:none; border-collapse:collapse;"><tr>
+<td style="border:none; vertical-align:middle;">
+<em>御杖プロジェクト · 奈良県御杖村</em><br/>
+<em>連絡先：ロブ・アウデンダイク · oudendijk.biz@gmail.com · 080-2260-5966</em>
+</td>
+<td style="border:none; vertical-align:middle; text-align:right; width:140px;">
+<a href="https://mitsue.it"><strong>mitsue.it</strong></a><br/>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://mitsue.it" alt="mitsue.it QRコード" width="120" height="120"/>
+</td>
+</tr></table>

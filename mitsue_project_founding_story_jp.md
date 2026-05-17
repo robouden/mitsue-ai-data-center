@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
 
 # 御杖プロジェクト
 ### 森と学校、そして自らの力で動く未来

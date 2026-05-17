@@ -1,4 +1,4 @@
-<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-05-09</p>
+<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 

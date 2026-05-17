@@ -1,15 +1,17 @@
 <style>
-  body { font-size: 10pt; line-height: 1.4; }
-  h1 { font-size: 16pt; margin: 6pt 0 2pt; }
-  h2 { font-size: 10.5pt; margin: 10pt 0 3pt; }
-  h3 { font-size: 10pt; margin: 2pt 0; }
-  p, li { margin: 3pt 0; }
-  table { font-size: 9.5pt; }
-  blockquote { margin: 6pt 0; }
+  body { font-size: 9.5pt; line-height: 1.3; }
+  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
+  h2 { font-size: 10pt; margin: 6pt 0 2pt; }
+  h3 { font-size: 9.5pt; margin: 2pt 0; }
+  p, li { margin: 2pt 0; }
+  table { font-size: 9pt; }
+  blockquote { margin: 3pt 0; }
+  hr { margin: 4pt 0; }
+  .page-break { page-break-after: always; break-after: page; }
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-05-12</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
 
 ---
 
@@ -42,6 +44,8 @@ These are not three separate ideas. Each one makes the others possible.
 | Rural grid dependency, no local power | Village-owned biomass + solar hybrid energy system |
 | Shrinking population, no local jobs | Data center operations, forestry, maintenance roles |
 | Small-scale biomass fails without subsidy stacking | Heat-first design + FIT/FIP + J-credit + NEDO grants |
+| Rising electricity demand as cars shift to EV | As gasoline vehicles are replaced by electric, village grid load will grow significantly; local generation absorbs this increase without burdening the national grid |
+| Existing rural blackouts | Aging distribution lines already cause outages in Mitsue; a village-owned power supply provides resilience and keeps critical services running |
 
 ---
 
@@ -61,11 +65,7 @@ Mitsue has what most villages lack: a closed school available for reuse, product
 
 <div class="page-break"></div>
 
----
-
 # The Mitsue Project — What to Expect, and When
-
-*Continued from front — Phase timeline and benefits*
 
 ---
 
@@ -96,6 +96,8 @@ All environmental, energy, and forestry data will be published openly — so any
 
 Most rural revitalisation projects in Japan either depend permanently on outside subsidy or import a use with no connection to the land. The Mitsue Project is built around the village's own resources — its forest, its school, its people — and is designed to become financially self-sustaining within the first decade.
 
+The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes small-scale biomass viable — something neither forestry nor energy alone could achieve. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them.
+
 ---
 
 ## Current Status
@@ -104,9 +106,29 @@ The project is in **Phase 0** — community consultation, feasibility study, and
 
 ---
 
+## How to Get Involved
+
+There are several ways to support or participate at this early stage:
+
+- **Village residents & landowners** — Join the consultation process; your land, knowledge, and voice shape the design
+- **Forestry & energy professionals** — Feasibility input, technical review, and partnership on implementation
+- **Investors & philanthropists** — Phase 0 funding for feasibility studies, legal structure, and early outreach
+- **Researchers & academics** — Collaborate on open data, carbon measurement, and rural energy modelling
+- **Other rural communities** — Follow the project; everything built here will be documented and shared openly
+
+---
+
 > *"If it works here, it can work elsewhere."*
 
 ---
 
-*The Mitsue Project · Mitsue Village, Nara Prefecture, Japan*
-*Contact: Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966*
+<table style="width:100%; border:none; border-collapse:collapse;"><tr>
+<td style="border:none; vertical-align:middle;">
+<em>The Mitsue Project · Mitsue Village, Nara Prefecture, Japan</em><br/>
+<em>Contact: Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em>
+</td>
+<td style="border:none; vertical-align:middle; text-align:right; width:140px;">
+<a href="https://mitsue.it"><strong>mitsue.it</strong></a><br/>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://mitsue.it" alt="QR code for mitsue.it" width="120" height="120"/>
+</td>
+</tr></table>
