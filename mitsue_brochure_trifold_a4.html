@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Mitsue Project — Tri-fold Brochure A4</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans JP', 'Segoe UI', Helvetica, Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #1a2a4a;
+    font-size: 8pt;
+  }
+
+  @page { size: 297mm 210mm; margin: 0; }
+
+  /* ── Two-page layout ── */
+  .page {
+    width: 297mm;
+    height: 210mm;
+    display: grid;
+    grid-template-columns: 99mm 99mm 99mm;
+    page-break-after: always;
+    break-after: page;
+    overflow: hidden;
+  }
+
+  /* Base panel */
+  .panel {
+    height: 210mm;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Fold guides */
+  .fold-guide {
+    border-right: 0.4pt dashed #ccc;
+  }
+
+  /* ── OUTSIDE panels ── */
+  .p-flap   { background: #f0f4ff; padding: 9mm 7mm; border-right: 0.4pt dashed #bbb; }
+  .p-back   { background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 8mm 8mm; border-right: 0.4pt dashed #bbb; }
+  .p-cover  { background: #1a2a4a; padding: 0; }
+
+  /* ── INSIDE panels ── */
+  .p-in-left   { background: #ffffff; padding: 9mm 7mm; border-right: 0.4pt dashed #e0e8f8; }
+  .p-in-center { background: #1a2a4a; padding: 9mm 7mm; border-right: 0.4pt dashed #2a3c60; }
+  .p-in-right  { background: #f4f7ff; padding: 9mm 7mm; }
+
+  /* ── Typography ── */
+  .section-tag {
+    display: inline-block;
+    background: #e58520;
+    color: white;
+    font-size: 5.5pt;
+    font-weight: 700;
+    letter-spacing: 0.6pt;
+    text-transform: uppercase;
+    padding: 1pt 4pt;
+    border-radius: 2pt;
+    margin-bottom: 3.5mm;
+  }
+
+  .panel-title {
+    font-size: 13pt;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.3pt;
+    margin-bottom: 4mm;
+  }
+
+  .panel-intro {
+    font-size: 7.5pt;
+    color: #5a6a8a;
+    line-height: 1.5;
+    margin-bottom: 5mm;
+  }
+
+  /* Pillars */
+  .pillar {
+    padding-bottom: 3.5mm;
+    margin-bottom: 3.5mm;
+    border-bottom: 0.5pt solid #dde6f8;
+  }
+  .pillar:last-of-type { border-bottom: none; margin-bottom: 0; }
+
+  .pillar-icon { font-size: 13pt; display: block; margin-bottom: 1mm; line-height: 1; }
+
+  .pillar-head {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #4a7ac4;
+    margin-bottom: 1.5mm;
+  }
+
+  .pillar-body {
+    font-size: 7pt;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  /* Quote */
+  .quote {
+    border-left: 2.5pt solid #e58520;
+    padding: 2mm 3mm;
+    margin-top: 4mm;
+    font-size: 8pt;
+    font-style: italic;
+    color: #4a6090;
+    line-height: 1.5;
+    background: #f8fbff;
+  }
+
+  /* Back cover / contact */
+  .contact-brand {
+    font-size: 22pt;
+    font-weight: 900;
+    color: #1a2a4a;
+    letter-spacing: -1pt;
+    line-height: 1;
+    margin-bottom: 1mm;
+  }
+  .contact-brand span { color: #e58520; }
+
+  .contact-tagline {
+    font-size: 6.5pt;
+    color: #6796e6;
+    text-transform: uppercase;
+    letter-spacing: 0.8pt;
+    margin-bottom: 5mm;
+  }
+
+  .qr-block { margin: 2mm 0 2mm; }
+  .qr-block img { width: 28mm; height: 28mm; display: block; margin: 0 auto; }
+
+  .qr-url {
+    font-size: 11pt;
+    font-weight: 800;
+    color: #1a2a4a;
+    margin-bottom: 1mm;
+    letter-spacing: -0.3pt;
+  }
+
+  .divider {
+    width: 12mm;
+    height: 1.5pt;
+    background: #e58520;
+    margin: 4mm auto;
+    border-radius: 1pt;
+  }
+
+  .contact-name {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #1a2a4a;
+    margin-bottom: 1.5mm;
+  }
+  .contact-detail {
+    font-size: 7pt;
+    color: #555;
+    line-height: 1.9;
+  }
+  .contact-footer {
+    font-size: 6pt;
+    color: #aaa;
+    margin-top: 4mm;
+    line-height: 1.6;
+  }
+
+  /* Front cover */
+  .cover-img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+  .cover-gradient {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 65%;
+    background: linear-gradient(to top, rgba(15,25,55,0.97) 35%, rgba(15,25,55,0.6) 70%, transparent 100%);
+  }
+  .cover-text {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 7mm 7mm 8mm;
+  }
+  .cover-main {
+    font-size: 14.5pt;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    letter-spacing: -0.4pt;
+    text-transform: uppercase;
+    margin-bottom: 2mm;
+  }
+  .cover-sub {
+    font-size: 7.5pt;
+    color: #a8c4ff;
+    letter-spacing: 0.2pt;
+    margin-bottom: 2mm;
+    line-height: 1.5;
+  }
+  .cover-loc {
+    font-size: 6.5pt;
+    color: #6796e6;
+    text-transform: uppercase;
+    letter-spacing: 0.8pt;
+  }
+  .cover-badge {
+    position: absolute;
+    top: 7mm; right: 7mm;
+    background: #e58520;
+    color: white;
+    font-size: 5.5pt;
+    font-weight: 700;
+    padding: 1.5pt 4pt;
+    border-radius: 2pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+  }
+
+  /* Inside center (dark) */
+  .p-in-center .section-tag { background: #e58520; }
+  .p-in-center .panel-title { color: #ffffff; }
+  .p-in-center .panel-intro { color: #a8c4ff; }
+
+  .check-list { list-style: none; margin-bottom: 5mm; }
+  .check-list li {
+    font-size: 7pt;
+    color: #c8d8f8;
+    line-height: 1.5;
+    padding: 1.5mm 0 1.5mm 6mm;
+    border-bottom: 0.4pt solid rgba(255,255,255,0.08);
+    position: relative;
+  }
+  .check-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4aaa60;
+    font-weight: 700;
+  }
+
+  .in-center-head {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #a8c4ff;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    margin: 4mm 0 2mm;
+  }
+  .in-center-p {
+    font-size: 7pt;
+    color: #c0d4f0;
+    line-height: 1.6;
+  }
+
+  .advisor {
+    font-size: 7pt;
+    color: #c0d4f0;
+    line-height: 1.7;
+    padding: 1mm 0;
+    border-bottom: 0.4pt solid rgba(255,255,255,0.1);
+  }
+  .advisor:last-child { border-bottom: none; }
+  .advisor strong { color: #ffffff; }
+
+  /* Inside right — timeline */
+  .milestone {
+    display: flex;
+    gap: 3mm;
+    align-items: flex-start;
+    padding: 2.5mm 0;
+    border-bottom: 0.4pt solid #dde6f8;
+  }
+  .milestone:last-of-type { border-bottom: none; }
+
+  .ms-year {
+    font-size: 6.5pt;
+    font-weight: 800;
+    color: #e58520;
+    min-width: 13mm;
+    padding-top: 0.5pt;
+    flex-shrink: 0;
+  }
+  .ms-text {
+    font-size: 7pt;
+    color: #3a4a6a;
+    line-height: 1.45;
+  }
+
+  .team-box {
+    margin-top: 4mm;
+    padding-top: 4mm;
+    border-top: 1pt solid #dde6f8;
+  }
+  .team-head {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #1a2a4a;
+    margin-bottom: 2mm;
+  }
+  .team-body {
+    font-size: 7pt;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  /* Inside left — Involve */
+  .involve-item {
+    padding: 3mm 0;
+    border-bottom: 0.4pt solid #dde6f8;
+  }
+  .involve-item:last-of-type { border-bottom: none; }
+  .involve-head {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #4a7ac4;
+    margin-bottom: 1.5mm;
+  }
+  .involve-body {
+    font-size: 7pt;
+    color: #444;
+    line-height: 1.45;
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     PAGE 1 — OUTSIDE
+     [Left=Inside Flap | Middle=Back Cover | Right=Front Cover]
+     ══════════════════════════════════════════ -->
+<div class="page">
+
+  <!-- LEFT: Inside Flap — How to Get Involved -->
+  <div class="panel p-flap">
+    <div class="section-tag">Get Involved</div>
+    <div class="panel-title" style="color:#1a2a4a; font-size:12pt;">How to<br/>Participate</div>
+    <p class="panel-intro">Phase 0 is the right moment to ask questions, raise concerns, and help shape what comes next.</p>
+
+    <div class="involve-item">
+      <div class="involve-head">🏘 Village Residents &amp; Landowners</div>
+      <p class="involve-body">Your land, local knowledge and voice shape the design. Join the community consultation.</p>
+    </div>
+    <div class="involve-item">
+      <div class="involve-head">🌲 Forestry &amp; Energy Professionals</div>
+      <p class="involve-body">Feasibility input, technical review, and partnership in implementation.</p>
+    </div>
+    <div class="involve-item">
+      <div class="involve-head">💼 Investors &amp; Philanthropists</div>
+      <p class="involve-body">Phase 0 funding for feasibility studies, legal structure, and early outreach.</p>
+    </div>
+    <div class="involve-item">
+      <div class="involve-head">🔬 Researchers &amp; Academics</div>
+      <p class="involve-body">Collaborate on open data, carbon measurement, and rural energy modelling.</p>
+    </div>
+    <div class="involve-item">
+      <div class="involve-head">🌏 Other Rural Communities</div>
+      <p class="involve-body">Everything built here is documented and shared openly — free for any village to replicate.</p>
+    </div>
+  </div>
+
+  <!-- MIDDLE: Back Cover — Contact / QR -->
+  <div class="panel p-back">
+    <div class="contact-brand">Mitsue<span>.</span></div>
+    <div class="contact-tagline">Ecology · Energy · Digital Infrastructure</div>
+
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://mitsue.it&color=1a2a4a&bgcolor=ffffff" alt="QR code — mitsue.it"/>
+    </div>
+    <div class="qr-url">mitsue.it</div>
+
+    <div class="divider"></div>
+
+    <div class="contact-name">Rob Oudendijk</div>
+    <div class="contact-detail">
+      oudendijk.biz@gmail.com<br/>
+      080-2260-5966
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="contact-footer">
+      Mitsue Village, Nara Prefecture, Japan<br/>
+      Version 2.0 · May 2026
+    </div>
+  </div>
+
+  <!-- RIGHT: Front Cover -->
+  <div class="panel p-cover">
+    <img class="cover-img" src="Tsuemi-chan AI data center  website.jpg" alt="Mitsue Project"/>
+    <div class="cover-gradient"></div>
+    <div class="cover-badge">Phase 0 · 2026</div>
+    <div class="cover-text">
+      <div class="cover-main">The Mitsue<br/>Project</div>
+      <div class="cover-sub">Ecology · Energy<br/>Digital Infrastructure for Rural Japan</div>
+      <div class="cover-loc">Mitsue Village · Nara · Japan</div>
+    </div>
+  </div>
+
+</div><!-- end outside page -->
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 2 — INSIDE
+     [Left=Inside Left | Middle=Inside Center | Right=Inside Right]
+     ══════════════════════════════════════════ -->
+<div class="page">
+
+  <!-- LEFT: Three Pillars -->
+  <div class="panel p-in-left">
+    <div class="section-tag">The Project</div>
+    <div class="panel-title" style="color:#1a2a4a; font-size:12pt;">Three<br/>Pillars</div>
+
+    <div class="pillar">
+      <span class="pillar-icon">🌲</span>
+      <div class="pillar-head">Forest Restoration</div>
+      <p class="pillar-body">Aging cedar monoculture replaced with native mixed forest, healing land depleted for decades. Landowners receive timber income from Year 2.</p>
+    </div>
+
+    <div class="pillar">
+      <span class="pillar-icon">⚡</span>
+      <div class="pillar-head">EV Charging &amp; Energy Resilience</div>
+      <p class="pillar-body">Solar panels and battery storage at the school supply clean local energy, EV charging for the community, and backup power during blackouts.</p>
+    </div>
+
+    <div class="pillar">
+      <span class="pillar-icon">💻</span>
+      <div class="pillar-head">Sustainable AI Data Center</div>
+      <p class="pillar-body">A small, efficient digital facility inside the old school, powered entirely by local renewable energy — creating employment and stable revenue where none existed.</p>
+    </div>
+
+    <div class="quote">"These are not three separate ideas — each one makes the others possible."</div>
+  </div>
+
+  <!-- CENTER: What We're Building -->
+  <div class="panel p-in-center">
+    <div class="section-tag">Phase 0 · Now Open</div>
+    <div class="panel-title" style="font-size:12pt;">What We're<br/>Building</div>
+    <p class="panel-intro">The closed Mitsue Elementary School and its surrounding cedar forest — transformed into a living model of rural self-sufficiency.</p>
+
+    <div class="in-center-head">Why Here?</div>
+    <ul class="check-list">
+      <li>Closed school available for reuse</li>
+      <li>Productive cedar forest within reach</li>
+      <li>River for natural water cooling</li>
+      <li>Resident engineer with deep local roots</li>
+      <li>Village leadership open to new ideas</li>
+    </ul>
+
+    <div class="in-center-head">Funded By</div>
+    <p class="in-center-p">林野庁 forest grants · METI/NEDO energy &amp; EV grants · FIT/FIP feed-in tariff · J-Credit carbon income · Data center service revenue · Impact investment &amp; philanthropy</p>
+
+    <div class="in-center-head" style="margin-top:4mm;">Advisors</div>
+    <div class="advisor"><strong>Joi Ito</strong> — Former Director, MIT Media Lab</div>
+    <div class="advisor"><strong>Ray Ozzie</strong> — Former Chief Software Architect, Microsoft</div>
+
+    <div style="position:absolute; bottom:7mm; right:6mm;">
+      <img src="Mitsue AI Tsuemi-chan.png" alt="Tsuemi-chan" style="width:18mm; opacity:0.9;"/>
+    </div>
+  </div>
+
+  <!-- RIGHT: Timeline + Team -->
+  <div class="panel p-in-right">
+    <div class="section-tag">Milestones</div>
+    <div class="panel-title" style="color:#1a2a4a; font-size:12pt;">Timeline</div>
+    <p class="panel-intro" style="font-size:7pt; margin-bottom:3mm;">Benefits arrive well before Year 25 — the 25-year horizon describes full forest restoration, not how long the village waits.</p>
+
+    <div class="milestone">
+      <span class="ms-year">Year 1</span>
+      <span class="ms-text">School reactivated; international media visibility for Mitsue</span>
+    </div>
+    <div class="milestone">
+      <span class="ms-year">Year 2</span>
+      <span class="ms-text">Landowners begin receiving income from cedar harvest</span>
+    </div>
+    <div class="milestone">
+      <span class="ms-year">Year 3–4</span>
+      <span class="ms-text">EV charging operational; battery storage for village blackout resilience</span>
+    </div>
+    <div class="milestone">
+      <span class="ms-year">Year 4–5</span>
+      <span class="ms-text">Data center operational; local jobs in operations &amp; maintenance</span>
+    </div>
+    <div class="milestone">
+      <span class="ms-year">Year 5–10</span>
+      <span class="ms-text">Revenue reinvested into village and forest programmes</span>
+    </div>
+    <div class="milestone">
+      <span class="ms-year">Year 25</span>
+      <span class="ms-text">Native forest established; model documented and shared openly</span>
+    </div>
+
+    <div class="team-box">
+      <div class="team-head">About the Team</div>
+      <p class="team-body"><strong>Rob Oudendijk</strong> — Dutch electrical engineer, resident of Mitsue since 2012. Core hardware developer for <em>Safecast</em>, the open citizen science network born after Fukushima, with over 250 million published measurements.<br/><br/>A dedicated non-profit is being established with local residents, village leadership, forestry professionals, and academic partners.</p>
+    </div>
+  </div>
+
+</div><!-- end inside page -->
+
+</body>
+</html>
