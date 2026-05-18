@@ -73,7 +73,6 @@
     border-bottom: 0.5pt solid #dde6f8;
   }
   .pillar:last-of-type { border-bottom: none; margin-bottom: 0; }
-  .pillar-icon { font-size: 13pt; display: block; margin-bottom: 1mm; line-height: 1; }
   .pillar-head { font-size: 8pt; font-weight: 700; color: #4a7ac4; margin-bottom: 1.5mm; }
   .pillar-body { font-size: 7pt; color: #444; line-height: 1.6; }
 
@@ -167,23 +166,23 @@
     <p class="panel-intro">フェーズ0は今まさに、疑問や懸念を提示し、この取り組みの形を一緒につくるべき段階です。</p>
 
     <div class="involve-item">
-      <div class="involve-head">🏘 村の住民・土地所有者</div>
+      <div class="involve-head">村の住民・土地所有者</div>
       <p class="involve-body">あなたの土地、地域の知識と声が不可欠です。地域協議に参加し、設計に貢献してください。</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🌲 林業・エネルギー専門家</div>
+      <div class="involve-head">林業・エネルギー専門家</div>
       <p class="involve-body">技術審査、実現可能性評価、および実施段階でのパートナーシップ。</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">💼 投資家・フィランソロピスト</div>
+      <div class="involve-head">投資家・フィランソロピスト</div>
       <p class="involve-body">フィージビリティスタディ、法人設立、初期アウトリーチのためのフェーズ0資金。</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🔬 研究者・学術機関</div>
+      <div class="involve-head">研究者・学術機関</div>
       <p class="involve-body">オープンデータ、炭素測定、農村エネルギーモデリングでの協力。</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🌏 他の農村コミュニティ</div>
+      <div class="involve-head">他の農村コミュニティ</div>
       <p class="involve-body">ここで構築されるすべてはオープン公開され、同じ課題を抱えるどの村でも活用できます。</p>
     </div>
   </div>
@@ -215,13 +214,19 @@
   </div>
 
   <!-- 右：表紙 -->
-  <div class="panel p-cover" style="display:flex; flex-direction:column;">
+  <div class="panel p-cover" style="display:flex; flex-direction:column; background:#1a2a4a;">
+    <!-- 上部の細いダーク帯 — 写真を少し下にずらす -->
+    <div style="height:14mm; padding:5mm 7mm 0; display:flex; justify-content:flex-end; flex-shrink:0;">
+      <div class="cover-badge" style="position:relative; top:auto; right:auto;">フェーズ0 · 2026年</div>
+    </div>
+    <!-- 写真（上下グラデーションフェード） -->
     <div style="position:relative; height:90mm; overflow:hidden; flex-shrink:0;">
       <img src="02_20-11-704x474.jpg" alt="御杖プロジェクト" style="width:100%; height:100%; object-fit:cover; object-position:center 50%; display:block;"/>
-      <div style="position:absolute; bottom:0; left:0; right:0; height:28mm; background:linear-gradient(to bottom, transparent, #1a2a4a);"></div>
-      <div class="cover-badge">フェーズ0 · 2026年</div>
+      <div style="position:absolute; top:0; left:0; right:0; height:28mm; background:linear-gradient(to bottom, #1a2a4a, transparent); pointer-events:none;"></div>
+      <div style="position:absolute; bottom:0; left:0; right:0; height:28mm; background:linear-gradient(to top, #1a2a4a, transparent); pointer-events:none;"></div>
     </div>
-    <div style="flex:1; background:#1a2a4a; padding:6mm 7mm 8mm; display:flex; flex-direction:column; justify-content:flex-end;">
+    <!-- 下部ダークテキストエリア -->
+    <div style="flex:1; background:#1a2a4a; padding:4mm 7mm 8mm; display:flex; flex-direction:column; justify-content:flex-end;">
       <div class="cover-main">御杖<br/>プロジェクト</div>
       <div class="cover-sub">生態系・エネルギー<br/>日本の農村のためのデジタルインフラ</div>
       <div class="cover-loc">御杖村 · 奈良県 · 日本</div>
@@ -243,19 +248,16 @@
     <div class="panel-title" style="color:#1a2a4a;">三つの<br/>柱</div>
 
     <div class="pillar">
-      <span class="pillar-icon">🌲</span>
       <div class="pillar-head">森林再生</div>
       <p class="pillar-body">老齢化した杉の単一栽培林を在来種の混交林へ転換し、長年疲弊した土地を回復。土地所有者は2年目から木材収入を得始めます。</p>
     </div>
 
     <div class="pillar">
-      <span class="pillar-icon">⚡</span>
       <div class="pillar-head">EVインフラとエネルギーレジリエンス</div>
       <p class="pillar-body">校舎の太陽光パネルと蓄電池が地域にクリーンエネルギーを供給し、EV充電と停電時のバックアップ電力を提供します。</p>
     </div>
 
     <div class="pillar">
-      <span class="pillar-icon">💻</span>
       <div class="pillar-head">持続可能なAIデータセンター</div>
       <p class="pillar-body">旧校舎内の小規模・高効率デジタル施設。地域の再生可能エネルギーのみで稼働し、これまでなかった雇用と安定収益を創出します。</p>
     </div>

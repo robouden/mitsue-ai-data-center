@@ -81,7 +81,6 @@
   }
   .pillar:last-of-type { border-bottom: none; margin-bottom: 0; }
 
-  .pillar-icon { font-size: 18pt; display: block; margin-bottom: 1.5mm; line-height: 1; }
 
   .pillar-head {
     font-size: 10pt;
@@ -339,23 +338,23 @@
     <p class="panel-intro">Phase 0 is the right moment to ask questions, raise concerns, and help shape what comes next. There is no single path to getting involved.</p>
 
     <div class="involve-item">
-      <div class="involve-head">🏘 Village Residents &amp; Landowners</div>
+      <div class="involve-head">Village Residents &amp; Landowners</div>
       <p class="involve-body">Your land, local knowledge, and voice are essential. Join the community consultation process and help shape the design of what is built here.</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🌲 Forestry &amp; Energy Professionals</div>
+      <div class="involve-head">Forestry &amp; Energy Professionals</div>
       <p class="involve-body">Technical review, feasibility input, and partnership in implementation of forest restoration and energy systems.</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">💼 Investors &amp; Philanthropists</div>
+      <div class="involve-head">Investors &amp; Philanthropists</div>
       <p class="involve-body">Phase 0 funding for feasibility studies, legal structure, and early community outreach. Impact-first approach.</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🔬 Researchers &amp; Academics</div>
+      <div class="involve-head">Researchers &amp; Academics</div>
       <p class="involve-body">Collaborate on open data, carbon measurement, rural energy modelling, and ecological monitoring.</p>
     </div>
     <div class="involve-item">
-      <div class="involve-head">🌏 Other Rural Communities</div>
+      <div class="involve-head">Other Rural Communities</div>
       <p class="involve-body">Everything built here is documented and shared openly — free for any village facing the same challenges to replicate and adapt.</p>
     </div>
   </div>
@@ -387,13 +386,19 @@
   </div>
 
   <!-- RIGHT: Front Cover -->
-  <div class="panel p-cover" style="display:flex; flex-direction:column;">
+  <div class="panel p-cover" style="display:flex; flex-direction:column; background:#1a2a4a;">
+    <!-- Small dark strip at top — pushes photo down -->
+    <div style="height:20mm; padding:7mm 11mm 0; display:flex; justify-content:flex-end; flex-shrink:0;">
+      <div class="cover-badge" style="position:relative; top:auto; right:auto;">Phase 0 · 2026</div>
+    </div>
+    <!-- Photo section with top + bottom fades -->
     <div style="position:relative; height:128mm; overflow:hidden; flex-shrink:0;">
       <img src="02_20-11-704x474.jpg" alt="Mitsue Project" style="width:100%; height:100%; object-fit:cover; object-position:center 50%; display:block;"/>
-      <div style="position:absolute; bottom:0; left:0; right:0; height:38mm; background:linear-gradient(to bottom, transparent, #1a2a4a);"></div>
-      <div class="cover-badge">Phase 0 · 2026</div>
+      <div style="position:absolute; top:0; left:0; right:0; height:40mm; background:linear-gradient(to bottom, #1a2a4a, transparent); pointer-events:none;"></div>
+      <div style="position:absolute; bottom:0; left:0; right:0; height:40mm; background:linear-gradient(to top, #1a2a4a, transparent); pointer-events:none;"></div>
     </div>
-    <div style="flex:1; background:#1a2a4a; padding:9mm 11mm 12mm; display:flex; flex-direction:column; justify-content:flex-end;">
+    <!-- Dark text section at bottom -->
+    <div style="flex:1; background:#1a2a4a; padding:4mm 11mm 12mm; display:flex; flex-direction:column; justify-content:flex-end;">
       <div class="cover-main">The Mitsue<br/>Project</div>
       <div class="cover-sub">Ecology · Energy<br/>Digital Infrastructure for Rural Japan</div>
       <div class="cover-loc">Mitsue Village · Nara · Japan</div>
@@ -415,19 +420,16 @@
     <div class="panel-title" style="color:#1a2a4a;">Three<br/>Pillars</div>
 
     <div class="pillar">
-      <span class="pillar-icon">🌲</span>
       <div class="pillar-head">Forest Restoration</div>
       <p class="pillar-body">Aging cedar monoculture replaced with native mixed forest, healing land that has been ecologically depleted for decades. Landowners begin receiving income from timber harvest from Year 2.</p>
     </div>
 
     <div class="pillar">
-      <span class="pillar-icon">⚡</span>
       <div class="pillar-head">EV Charging &amp; Energy Resilience</div>
       <p class="pillar-body">Solar panels and battery storage at the school supply clean local energy, EV charging for residents and visitors, and backup power during grid outages — addressing a real problem already affecting Mitsue today.</p>
     </div>
 
     <div class="pillar">
-      <span class="pillar-icon">💻</span>
       <div class="pillar-head">Sustainable AI Data Center</div>
       <p class="pillar-body">A small, efficient digital facility inside the old school, powered entirely by local renewable energy — creating local employment and stable long-term revenue where none existed before.</p>
     </div>
