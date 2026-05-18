@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
+<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 # Mitsue Project — Phases & Funding Flowchart
 
@@ -21,10 +21,10 @@ flowchart LR
     P3["Phase 3<br/>Pilot Build<br/>M 19–30"]
     P4["Phase 4<br/>Operate &amp; Scale<br/>M 31+"]
 
-    G1{{"Gate 1<br/>¥3–8M"}}
-    G2{{"Gate 2<br/>¥30–50M"}}
-    G3{{"Gate 3<br/>¥80–200M"}}
-    G4{{"Gate 4<br/>Revenue<br/>online?"}}
+    G1{"Gate 1<br/>¥3–8M"}
+    G2{"Gate 2<br/>¥30–50M"}
+    G3{"Gate 3<br/>¥80–200M"}
+    G4{"Gate 4<br/>Revenue<br/>online?"}
 
     H1["Hold &amp; Re-pitch"]
     H2["Hold / Descope"]
@@ -68,10 +68,10 @@ flowchart LR
   'edgeLabelBackground':'#FCEB6C'
 }}}%%
 flowchart TB
-    P0["Phase 0<br/>Pre-Foundation"] --> G1{{"Gate 1<br/>¥3–8M"}}
-    G1 --> P1["Phase 1<br/>Foundation"] --> G2{{"Gate 2<br/>¥30–50M"}}
-    G2 --> P2["Phase 2<br/>Pilot Design"] --> G3{{"Gate 3<br/>¥80–200M"}}
-    G3 --> P3["Phase 3<br/>Pilot Build"] --> G4{{"Gate 4<br/>Revenue"}}
+    P0["Phase 0<br/>Pre-Foundation"] --> G1{"Gate 1<br/>¥3–8M"}
+    G1 --> P1["Phase 1<br/>Foundation"] --> G2{"Gate 2<br/>¥30–50M"}
+    G2 --> P2["Phase 2<br/>Pilot Design"] --> G3{"Gate 3<br/>¥80–200M"}
+    G3 --> P3["Phase 3<br/>Pilot Build"] --> G4{"Gate 4<br/>Revenue"}
     G4 --> P4["Phase 4<br/>Operate &amp; Scale"]
 
     F1["L1 — Founders<br/>¥3M"]
