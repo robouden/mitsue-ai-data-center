@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -21,7 +21,7 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 | 0. Pre-Foundation | Months 1–3 | Local trust, founding team, basic structure | ¥0–500,000 (self-funded) |
 | 1. Foundation | Months 4–9 | NPO incorporation, feasibility studies | ¥3–8 million |
 | 2. Pilot Design | Months 10–18 | Detailed engineering, partnerships, permits | ¥15–30 million |
-| 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥80–200 million |
+| 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
 | 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
 
 These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on biomass equipment, fiber availability, and building condition.
@@ -301,11 +301,11 @@ To frame the ROI, it helps to articulate what the project *replaces* or *avoids*
 
 Based on the illustrative figures above and the phase budgets earlier in this plan, a rough payback model looks like:
 
-- **Total capital deployed by Year 5**: ¥150–250M (Phases 1–3)
+- **Total capital deployed by Year 5**: ¥200–290M (Phases 1–3)
 - **Annual revenue by Year 5**: ¥28–67M
 - **Operating costs by Year 5**: ¥18–35M (estimated 60% of revenue)
 - **Net annual surplus by Year 5**: ¥10–32M
-- **Approximate payback period**: 8–15 years for capital recovery, depending on funding mix (grants vs. loans vs. revenue-financed)
+- **Approximate payback period**: 10–18 years for capital recovery, depending on funding mix (grants vs. loans vs. revenue-financed)
 
 **Important honest caveat**: These figures assume successful execution of all three project elements at their target scale. Phase 1 feasibility studies will sharpen these numbers significantly, and real-world performance will determine actual ROI. The numbers above should be read as a *framework* for evaluation, not a forecast.
 

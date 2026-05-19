@@ -16,7 +16,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 ---
 
@@ -62,26 +62,28 @@ The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (
 
 | Level | Item | Budget (¥M) | % of BAC |
 |-------|------|-------------|----------|
-| Total Project Budget | | **¥185.0M** | — |
-| — Management Reserve (10%) | Not in PMB | **¥17.0M** | — |
-| **Performance Measurement Baseline (BAC)** | | **¥168.0M** | 100% |
-| 1.0 | Project Management & Governance | ¥8.0M | 4.8% |
+| Total Project Budget | | **¥245.0M** | — |
+| — Management Reserve (~11%) | Not in PMB | **¥25.0M** | — |
+| **Performance Measurement Baseline (BAC)** | | **¥220.0M** | 100% |
+| 1.0 | Project Management & Governance | ¥15.0M | 6.8% |
 | 2.0 | Phase 0 — Pre-Foundation | ¥0.25M | 0.1% |
-| 3.0 | Phase 1 — Foundation | ¥5.5M | 3.3% |
-| 4.0 | Phase 2 — Pilot Design | ¥22.25M | 13.2% |
-| 5.0 | Phase 3 — Pilot Build | ¥132.0M | 78.6% |
+| 3.0 | Phase 1 — Foundation | ¥5.5M | 2.5% |
+| 4.0 | Phase 2 — Pilot Design | ¥22.25M | 10.1% |
+| 5.0 | Phase 3 — Pilot Build | ¥177.0M | 80.5% |
 
-> **Management Reserve** (¥17M) is held by the Representative Director and is **not part of the PMB**. It may be drawn down only with explicit board approval to address unforeseen scope.
+> **Management Reserve** (¥25M) is held by the Representative Director and is **not part of the PMB**. It may be drawn down only with explicit board approval to address unforeseen scope.
+
+> **Baseline Rev 1 (May 2026)** — Reality-checked against real-world Japan benchmarks for solar PV (¥200–300K/kW), school seismic retrofit (¥200–500K/㎡), commercial EV fast-chargers (¥5–6M each), and forestry road works. Phase 3 line items, PM/governance, and contingency uplifted accordingly; BAC raised from ¥168M to ¥220M.
 
 ### 3.2 Work Breakdown Structure (WBS) — Budget Detail
 
 | WBS | Element | Budget (¥M) | Phase |
 |-----|---------|-------------|-------|
 | 1.0 | **Project Management & Governance** | | |
-| 1.1 | Core PM team (Rep. Director + coordinator) | ¥4.0M | All |
-| 1.2 | Legal, accounting, 行政書士 fees | ¥2.5M | All |
-| 1.3 | Communications, website, translation | ¥1.5M | All |
-| | *Sub-total 1.0* | *¥8.0M* | |
+| 1.1 | Core PM team (Rep. Director + coordinator) | ¥8.0M | All |
+| 1.2 | Legal, accounting, 行政書士 fees | ¥4.0M | All |
+| 1.3 | Communications, website, translation | ¥3.0M | All |
+| | *Sub-total 1.0* | *¥15.0M* | |
 | 2.0 | **Phase 0 — Pre-Foundation** | | |
 | 2.1 | Community stakeholder meetings & travel | ¥0.10M | P0 |
 | 2.2 | Charter & document preparation | ¥0.10M | P0 |
@@ -108,17 +110,17 @@ The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (
 | 4.10 | Phase 2 contingency | ¥1.75M | P2 |
 | | *Sub-total 4.0* | *¥22.25M* | |
 | 5.0 | **Phase 3 — Pilot Build** | | |
-| 5.1 | School building renovation (1 wing) | ¥25.0M | P3 |
-| 5.2 | Solar PV installation (~100 kW) | ¥15.0M | P3 |
+| 5.1 | School building renovation (1 wing) | ¥38.0M | P3 |
+| 5.2 | Solar PV installation (~100 kW) | ¥22.0M | P3 |
 | 5.3 | Battery storage system | ¥12.0M | P3 |
-| 5.4 | EV charging infrastructure (4 stations) | ¥8.0M | P3 |
+| 5.4 | EV charging infrastructure (4 stations) | ¥15.0M | P3 |
 | 5.5 | Data center fitout (10–20 servers) | ¥20.0M | P3 |
-| 5.6 | Forestry operations (5–10 ha harvest + replant) | ¥18.0M | P3 |
+| 5.6 | Forestry operations (5–10 ha harvest + replant) | ¥25.0M | P3 |
 | 5.7 | Fiber connectivity upgrade | ¥10.0M | P3 |
 | 5.8 | Testing, commissioning, and startup | ¥8.0M | P3 |
-| 5.9 | Phase 3 contingency (13%) | ¥16.0M | P3 |
-| | *Sub-total 5.0* | *¥132.0M* | |
-| | **TOTAL BAC** | **¥168.0M** | |
+| 5.9 | Phase 3 contingency (18%) | ¥27.0M | P3 |
+| | *Sub-total 5.0* | *¥177.0M* | |
+| | **TOTAL BAC** | **¥220.0M** | |
 
 ---
 
@@ -132,34 +134,34 @@ Monthly planned expenditure and cumulative planned value over the 30-month basel
 | M2 | May 2026 | P0 | 0.10 | 0.15 | 0.1% |
 | **M2 ← Status Date** | | | | | |
 | M3 | Jun 2026 | P0 | 0.10 | 0.25 | 0.1% |
-| M4 | Jul 2026 | P1 | 0.20 | 0.45 | 0.3% |
-| M5 | Aug 2026 | P1 | 0.50 | 0.95 | 0.6% |
-| M6 | Sep 2026 | P1 | 0.80 | 1.75 | 1.0% |
-| M7 | Oct 2026 | P1 | 1.20 | 2.95 | 1.8% |
-| M8 | Nov 2026 | P1 | 1.50 | 4.45 | 2.6% |
-| M9 | Dec 2026 | P1 | 1.30 | 5.75 | 3.4% |
-| M10 | Jan 2027 | P2 | 1.50 | 7.25 | 4.3% |
-| M11 | Feb 2027 | P2 | 2.20 | 9.45 | 5.6% |
-| M12 | Mar 2027 | P2 | 2.80 | 12.25 | 7.3% |
-| M13 | Apr 2027 | P2 | 3.00 | 15.25 | 9.1% |
-| M14 | May 2027 | P2 | 3.00 | 18.25 | 10.9% |
-| M15 | Jun 2027 | P2 | 3.00 | 21.25 | 12.7% |
-| M16 | Jul 2027 | P2 | 2.50 | 23.75 | 14.1% |
-| M17 | Aug 2027 | P2 | 2.50 | 26.25 | 15.6% |
-| M18 | Sep 2027 | P2 | 2.00 | 28.25 | 16.8% |
-| M19 | Oct 2027 | P3 | 3.00 | 31.25 | 18.6% |
-| M20 | Nov 2027 | P3 | 5.00 | 36.25 | 21.6% |
-| M21 | Dec 2027 | P3 | 8.00 | 44.25 | 26.3% |
-| M22 | Jan 2028 | P3 | 12.00 | 56.25 | 33.5% |
-| M23 | Feb 2028 | P3 | 15.00 | 71.25 | 42.4% |
-| M24 | Mar 2028 | P3 | 15.00 | 86.25 | 51.3% |
-| M25 | Apr 2028 | P3 | 18.00 | 104.25 | 62.1% |
-| M26 | May 2028 | P3 | 18.00 | 122.25 | 72.8% |
-| M27 | Jun 2028 | P3 | 15.00 | 137.25 | 81.7% |
-| M28 | Jul 2028 | P3 | 15.00 | 152.25 | 90.6% |
-| M29 | Aug 2028 | P3 | 10.00 | 162.25 | 96.6% |
-| M30 | Sep 2028 | P3 | 5.75 | 168.00 | 100.0% |
-| | **BAC** | | **¥168.0M** | | |
+| M4 | Jul 2026 | P1 | 0.20 | 0.45 | 0.2% |
+| M5 | Aug 2026 | P1 | 0.50 | 0.95 | 0.4% |
+| M6 | Sep 2026 | P1 | 0.80 | 1.75 | 0.8% |
+| M7 | Oct 2026 | P1 | 1.20 | 2.95 | 1.3% |
+| M8 | Nov 2026 | P1 | 1.50 | 4.45 | 2.0% |
+| M9 | Dec 2026 | P1 | 1.30 | 5.75 | 2.6% |
+| M10 | Jan 2027 | P2 | 1.50 | 7.25 | 3.3% |
+| M11 | Feb 2027 | P2 | 2.20 | 9.45 | 4.3% |
+| M12 | Mar 2027 | P2 | 2.80 | 12.25 | 5.6% |
+| M13 | Apr 2027 | P2 | 3.00 | 15.25 | 6.9% |
+| M14 | May 2027 | P2 | 3.00 | 18.25 | 8.3% |
+| M15 | Jun 2027 | P2 | 3.00 | 21.25 | 9.7% |
+| M16 | Jul 2027 | P2 | 2.50 | 23.75 | 10.8% |
+| M17 | Aug 2027 | P2 | 2.50 | 26.25 | 11.9% |
+| M18 | Sep 2027 | P2 | 2.00 | 28.25 | 12.8% |
+| M19 | Oct 2027 | P3 | 4.00 | 32.25 | 14.7% |
+| M20 | Nov 2027 | P3 | 7.00 | 39.25 | 17.8% |
+| M21 | Dec 2027 | P3 | 11.00 | 50.25 | 22.8% |
+| M22 | Jan 2028 | P3 | 16.50 | 66.75 | 30.3% |
+| M23 | Feb 2028 | P3 | 20.50 | 87.25 | 39.7% |
+| M24 | Mar 2028 | P3 | 20.50 | 107.75 | 49.0% |
+| M25 | Apr 2028 | P3 | 25.00 | 132.75 | 60.3% |
+| M26 | May 2028 | P3 | 25.00 | 157.75 | 71.7% |
+| M27 | Jun 2028 | P3 | 20.50 | 178.25 | 81.0% |
+| M28 | Jul 2028 | P3 | 20.50 | 198.75 | 90.3% |
+| M29 | Aug 2028 | P3 | 14.00 | 212.75 | 96.7% |
+| M30 | Sep 2028 | P3 | 7.25 | 220.00 | 100.0% |
+| | **BAC** | | **¥220.0M** | | |
 
 ### S-Curve Shape
 
@@ -202,20 +204,20 @@ The expenditure profile follows a classic **slow-fast-slow** S-curve:
   <line x1="680" y1="28" x2="680" y2="280" stroke="#ddd" stroke-width="0.4"/>
   <!-- BAC line -->
   <line x1="60" y1="30" x2="680" y2="30" stroke="#d94f4f" stroke-width="1" stroke-dasharray="5,4"/>
-  <text x="683" y="33" font-size="7" fill="#d94f4f" font-family="Segoe UI,sans-serif">BAC ¥168M</text>
+  <text x="683" y="33" font-size="7" fill="#d94f4f" font-family="Segoe UI,sans-serif">BAC ¥220M</text>
   <!-- Status date line -->
   <line x1="103" y1="28" x2="103" y2="288" stroke="#e58520" stroke-width="1.5" stroke-dasharray="4,3"/>
   <text x="106" y="299" font-size="7" fill="#e58520" font-weight="bold" font-family="Segoe UI,sans-serif">▲ Status Date 2026-05-18</text>
   <!-- Y-axis labels -->
   <text x="55" y="283" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">0</text>
-  <text x="55" y="253" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">20</text>
-  <text x="55" y="223" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">40</text>
-  <text x="55" y="194" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">60</text>
-  <text x="55" y="164" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">80</text>
-  <text x="55" y="134" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">100</text>
-  <text x="55" y="104" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">120</text>
-  <text x="55" y="75" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">140</text>
-  <text x="55" y="45" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">160</text>
+  <text x="55" y="253" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">25</text>
+  <text x="55" y="223" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">50</text>
+  <text x="55" y="194" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">75</text>
+  <text x="55" y="164" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">100</text>
+  <text x="55" y="134" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">130</text>
+  <text x="55" y="104" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">160</text>
+  <text x="55" y="75" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">195</text>
+  <text x="55" y="45" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">220</text>
   <text x="16" y="165" text-anchor="middle" font-size="8" fill="#555" transform="rotate(-90,16,165)" font-family="Segoe UI,sans-serif">¥ Million (cumulative)</text>
   <!-- X-axis labels -->
   <text x="60" y="295" text-anchor="middle" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">M1</text>
@@ -309,11 +311,11 @@ The expenditure profile follows a classic **slow-fast-slow** S-curve:
   <line x1="60" y1="200" x2="685" y2="200" stroke="#888" stroke-width="1.5"/>
   <!-- Y labels -->
   <text x="55" y="203" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">0</text>
-  <text x="55" y="163" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">4</text>
-  <text x="55" y="123" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">8</text>
-  <text x="55" y="83" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">12</text>
-  <text x="55" y="43" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">16</text>
-  <text x="55" y="23" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">18</text>
+  <text x="55" y="163" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">5</text>
+  <text x="55" y="123" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">11</text>
+  <text x="55" y="83" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">17</text>
+  <text x="55" y="43" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">22</text>
+  <text x="55" y="23" text-anchor="end" font-size="8" fill="#555" font-family="Segoe UI,sans-serif">25</text>
   <text x="16" y="120" text-anchor="middle" font-size="8" fill="#555" transform="rotate(-90,16,120)" font-family="Segoe UI,sans-serif">¥ Million / month</text>
   <!-- X labels every 6 months -->
   <text x="69" y="213" text-anchor="middle" font-size="7.5" fill="#555" font-family="Segoe UI,sans-serif">M1</text>
@@ -326,7 +328,7 @@ The expenditure profile follows a classic **slow-fast-slow** S-curve:
   <rect x="120" y="225" width="12" height="8" fill="#b8c9ee"/><text x="136" y="233" font-size="7.5" fill="#444" font-family="Segoe UI,sans-serif">Phase 0</text>
   <rect x="200" y="225" width="12" height="8" fill="#6796e6"/><text x="216" y="233" font-size="7.5" fill="#444" font-family="Segoe UI,sans-serif">Phase 1</text>
   <rect x="280" y="225" width="12" height="8" fill="#e58520"/><text x="296" y="233" font-size="7.5" fill="#444" font-family="Segoe UI,sans-serif">Phase 2</text>
-  <rect x="360" y="225" width="12" height="8" fill="#d94f4f"/><text x="376" y="233" font-size="7.5" fill="#444" font-family="Segoe UI,sans-serif">Phase 3 (peak spend M25–M26: ¥18M/month)</text>
+  <rect x="360" y="225" width="12" height="8" fill="#d94f4f"/><text x="376" y="233" font-size="7.5" fill="#444" font-family="Segoe UI,sans-serif">Phase 3 (peak spend M25–M26: ¥25M/month)</text>
 </svg>
 
 </div>
@@ -390,8 +392,8 @@ Expenditure to date is personal travel, document translation, and a preliminary 
   <text x="549" y="97" text-anchor="middle" font-size="6.5" fill="#aaa" font-family="Segoe UI,sans-serif">Phase 0 personal-time effect</text>
   <!-- BAC label -->
   <text x="605" y="55" text-anchor="middle" font-size="7.5" fill="#666" font-weight="bold" font-family="Segoe UI,sans-serif">BAC</text>
-  <text x="605" y="67" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">¥168M</text>
-  <text x="605" y="79" text-anchor="middle" font-size="6.5" fill="#999" font-family="Segoe UI,sans-serif">0.05% spent</text>
+  <text x="605" y="67" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">¥220M</text>
+  <text x="605" y="79" text-anchor="middle" font-size="6.5" fill="#999" font-family="Segoe UI,sans-serif">0.04% spent</text>
 </svg>
 
 </div>
@@ -456,12 +458,12 @@ These projections assume execution at the planned efficiency levels. They will b
 | Item | Value |
 |------|-------|
 | Duration | M19–M30 (Oct 2027–Sep 2028) |
-| BAC | ¥132M |
+| BAC | ¥177M |
 | Planned end date | 2028-09-30 |
 | Key gate | Revenue operational; Phase 4 plan confirmed |
 | Critical path | Building renovation → solar/battery install → EV charging → commissioning |
 | Primary risk | Building structural findings requiring scope increase (currently low probability, high impact) |
-| Contingency plan | Phase 3 WBS 5.9 includes ¥16M contingency; Management Reserve of ¥17M backstop |
+| Contingency plan | Phase 3 WBS 5.9 includes ¥27M contingency (18%); Management Reserve of ¥25M backstop |
 
 ---
 
@@ -471,9 +473,11 @@ For a project with this level of regulatory and geographic complexity, planning 
 
 | Scenario | Description | EAC | End Date |
 |----------|-------------|-----|----------|
-| **Optimistic** | All grants awarded on first application; building in good condition; no permit delays | ¥152M | Aug 2028 |
-| **Base Case** | One major permit delay (+2 months); one grant deferred to Year 2; CPI ≈ 1.0 | **¥168M** | Sep 2028 |
-| **Pessimistic** | Two permit delays; building remediation required; government grant shortfall — draw on MR | ¥195M | Mar 2029 |
+| **Optimistic** | All grants awarded on first application; building in good condition; no permit delays; lower-bound vendor quotes | ¥185M | Aug 2028 |
+| **Base Case** | One major permit delay (+2 months); one grant deferred to Year 2; CPI ≈ 1.0; mid-range vendor quotes | **¥220M** | Sep 2028 |
+| **Pessimistic** | Two permit delays; building remediation required; government grant shortfall — draws on MR and beyond | ¥285M | Mar 2029 |
+
+> The scenario band is intentionally wider than the Rev 0 baseline. Phase 1 feasibility studies (M9) will narrow the range substantially once school structural condition, vendor quotes, and grant awards are confirmed.
 
 <div style="page-break-inside:avoid; margin: 8pt 0">
 
@@ -482,34 +486,35 @@ For a project with this level of regulatory and geographic complexity, planning 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 175" style="width:100%;display:block">
   <!-- Background -->
   <rect x="160" y="10" width="500" height="140" fill="#fafafa" stroke="#ddd" stroke-width="0.5" rx="3"/>
-  <!-- BAC reference line: 168M → x = 160 + 168/200*500 = 160+420 = 580 -->
-  <line x1="580" y1="10" x2="580" y2="155" stroke="#6796e6" stroke-width="1" stroke-dasharray="5,3"/>
-  <text x="580" y="166" text-anchor="middle" font-size="7.5" fill="#6796e6" font-weight="bold" font-family="Segoe UI,sans-serif">BAC ¥168M</text>
-  <!-- MR limit: 185M → x = 160 + 185/200*500 = 160+462.5 = 622.5 -->
-  <line x1="622.5" y1="10" x2="622.5" y2="155" stroke="#e58520" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="622.5" y="166" text-anchor="middle" font-size="7" fill="#e58520" font-family="Segoe UI,sans-serif">Total Budget ¥185M</text>
-  <!-- X axis labels -->
+  <!-- New scale: 500px / 300M = 1.667 px/¥M -->
+  <!-- BAC reference line: 220M → x = 160 + 220*1.667 = 160 + 367 = 527 -->
+  <line x1="527" y1="10" x2="527" y2="155" stroke="#6796e6" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="527" y="166" text-anchor="middle" font-size="7.5" fill="#6796e6" font-weight="bold" font-family="Segoe UI,sans-serif">BAC ¥220M</text>
+  <!-- MR limit: 245M → x = 160 + 245*1.667 = 160 + 408 = 568 -->
+  <line x1="568" y1="10" x2="568" y2="155" stroke="#e58520" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="568" y="176" text-anchor="middle" font-size="7" fill="#e58520" font-family="Segoe UI,sans-serif">Total Budget ¥245M</text>
+  <!-- X axis labels: 0, 75, 150, 225, 300 -->
   <text x="160" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">0</text>
-  <text x="285" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">50</text>
-  <text x="410" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">100</text>
-  <text x="535" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">150</text>
-  <text x="660" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">200 ¥M</text>
-  <!-- Optimistic: 152M → w = 152/200*500 = 380 -->
-  <rect x="160" y="22" width="380" height="30" fill="#4aaa60" rx="3"/>
+  <text x="285" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">75</text>
+  <text x="410" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">150</text>
+  <text x="535" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">225</text>
+  <text x="660" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">300 ¥M</text>
+  <!-- Optimistic: 185M → w = 185*1.667 = 308 -->
+  <rect x="160" y="22" width="308" height="30" fill="#4aaa60" rx="3"/>
   <text x="148" y="40" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">Optimistic</text>
   <text x="155" y="50" text-anchor="end" font-size="7" fill="#555" font-family="Segoe UI,sans-serif">Aug 2028</text>
-  <text x="548" y="41" font-size="9" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥152M  (−¥16M vs BAC)</text>
-  <!-- Base: 168M → w = 168/200*500 = 420 -->
-  <rect x="160" y="62" width="420" height="30" fill="#6796e6" rx="3"/>
+  <text x="476" y="41" font-size="9" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">¥185M  (−¥35M vs BAC)</text>
+  <!-- Base: 220M → w = 220*1.667 = 367 -->
+  <rect x="160" y="62" width="367" height="30" fill="#6796e6" rx="3"/>
   <text x="148" y="80" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">Base Case</text>
   <text x="155" y="90" text-anchor="end" font-size="7" fill="#555" font-family="Segoe UI,sans-serif">Sep 2028</text>
-  <text x="588" y="81" font-size="9" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥168M  (on budget)</text>
-  <!-- Pessimistic: 195M → w = 195/200*500 = 487.5 -->
-  <rect x="160" y="102" width="487.5" height="30" fill="#d94f4f" rx="3"/>
+  <text x="535" y="81" font-size="9" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">¥220M  (on budget)</text>
+  <!-- Pessimistic: 285M → w = 285*1.667 = 475 -->
+  <rect x="160" y="102" width="475" height="30" fill="#d94f4f" rx="3"/>
   <text x="148" y="120" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">Pessimistic</text>
   <text x="155" y="130" text-anchor="end" font-size="7" fill="#555" font-family="Segoe UI,sans-serif">Mar 2029</text>
-  <text x="655" y="121" font-size="9" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥195M</text>
-  <text x="168" y="121" font-size="7.5" fill="white" font-family="Segoe UI,sans-serif">Draws on MR — still within total approved budget</text>
+  <text x="643" y="121" font-size="9" fill="#222" font-weight="bold" font-family="Segoe UI,sans-serif">¥285M</text>
+  <text x="168" y="121" font-size="7.5" fill="white" font-family="Segoe UI,sans-serif">Exceeds total budget — requires additional funding round or scope reduction</text>
   <!-- X gridlines -->
   <line x1="285" y1="10" x2="285" y2="155" stroke="#ddd" stroke-width="0.4"/>
   <line x1="410" y1="10" x2="410" y2="155" stroke="#ddd" stroke-width="0.4"/>
@@ -518,7 +523,7 @@ For a project with this level of regulatory and geographic complexity, planning 
 
 </div>
 
-> The pessimistic scenario is **not failure** — it is the project executing at ¥195M total (still within total approved budget of ¥185M + ¥10M further MR) with a 6-month schedule slip. Absolute failure scenarios (community resistance, no funding at Gate 1) are managed at the funding gate level, not the EVM level.
+> The pessimistic scenario at ¥285M **exceeds the total approved budget of ¥245M by ¥40M** and would trigger a Gate 3 funding decision: either (a) raise an additional funding round, (b) reduce Phase 3 scope (e.g., defer EV chargers or fiber upgrade), or (c) extend the schedule and stage construction. Absolute failure scenarios (community resistance, no funding at Gate 1) are still managed at the funding gate level, not the EVM level.
 
 ---
 
@@ -556,12 +561,12 @@ Monthly reports are generated from OpenProject time tracking + invoicing. The fi
 - Project start date: 2026-04-01 (Month 1)
 - All phase durations are calendar months, including Japanese holidays
 - Feasibility studies are awarded to single vendors per study; no multi-vendor splits
-- Phase 3 construction prices are based on 2026 Nara Prefecture rural construction indices
+- Phase 3 construction prices are based on 2026 Nara Prefecture rural construction indices, with a 15–25% rural mobilisation premium applied to commercial benchmarks for solar PV, EV charging, and seismic retrofit work
 - Exchange rate assumptions (for Dutch/international corporate partnerships): ¥150/EUR
 - Forestry operations are weather-dependent; M19–M23 baseline avoids typhoon season
 
 **Constraints**
-- BAC of ¥168M is a **ceiling**; Phase 3 cannot proceed without confirmed funding at Gate 3
+- BAC of ¥220M is a **ceiling**; Phase 3 cannot proceed without confirmed funding at Gate 3
 - Management Reserve requires board approval for any drawdown
 - EVM data must be reported in JPY; foreign currency transactions converted at transaction-date rate
 - The Phase 1 feasibility studies are the **single largest driver of overall project accuracy** — all EAC figures before M9 carry high uncertainty (±40%)
@@ -574,11 +579,11 @@ This is an **early-stage EVM plan** written at Month 2 of a 30-month project. Th
 
 1. **CPI and SPI at Month 2 are not statistically reliable.** With only ¥0.08M of actual cost data, the performance indices reflect Phase 0 characteristics (personal time, low hard costs) rather than the project overall. Trust these numbers only after ¥2–3M of Phase 1 costs are confirmed.
 
-2. **The Phase 3 budget range is wide.** The ¥80–200M range from the implementation plan reflects genuine uncertainty about building condition, equipment procurement conditions, and grid connection costs. The EVM baseline uses ¥132M for WBS 5.0; the ¥16M Phase 3 contingency and ¥17M Management Reserve exist precisely to absorb this range.
+2. **The Phase 3 budget range is wide.** The ¥120–290M range from the implementation plan reflects genuine uncertainty about building condition (¥30–100M school renovation range alone), equipment procurement conditions, and grid connection costs. The EVM baseline uses ¥177M for WBS 5.0; the ¥27M Phase 3 contingency (18%) and ¥25M Management Reserve exist precisely to absorb this range.
 
 3. **Funding gate gating is the primary control mechanism.** EVM monitors cost and schedule efficiency within a phase; the funding gates control whether the next phase begins at all. These two controls are complementary, not redundant.
 
-4. **Phase 1 feasibility studies will substantially revise this baseline.** After M9, expect a formal baseline revision. The revised Phase 2 and Phase 3 budgets will be anchored to real survey data, not planning estimates.
+4. **Phase 1 feasibility studies will substantially revise this baseline.** After M9, expect a formal baseline revision (Rev 2). The revised Phase 2 and Phase 3 budgets will be anchored to real survey data — particularly the school structural assessment and vendor quotes — not Japan-market benchmarks.
 
 ---
 
@@ -590,7 +595,10 @@ The PMB may be formally revised:
 - When board-approved scope changes are incorporated
 - When Management Reserve is drawn down
 
-Each baseline revision is documented with: old baseline, new baseline, reason, approving authority, and date. Revisions are numbered (Baseline Rev 0 = this document; Rev 1 = post-Phase 1 revision; etc.).
+Each baseline revision is documented with: old baseline, new baseline, reason, approving authority, and date. Revisions are numbered:
+- **Rev 0** (v1.1, Apr 2026) — Original BAC ¥168M, drafted from planning estimates
+- **Rev 1** (v2.0, May 2026) — Current document. BAC ¥220M, reality-checked against real-world Japan benchmarks (solar, EV chargers, school seismic retrofit, forestry). Reason: pre-emptive correction in advance of Phase 1 feasibility studies.
+- **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes.
 
 ---
 

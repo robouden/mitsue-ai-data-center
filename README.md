@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -73,7 +73,7 @@ flowchart LR
 
     G1{{"Gate 1<br/>¥3–8M"}}
     G2{{"Gate 2<br/>¥30–50M"}}
-    G3{{"Gate 3<br/>¥80–200M"}}
+    G3{{"Gate 3<br/>¥120–290M"}}
     G4{{"Gate 4<br/>Revenue<br/>online?"}}
 
     H1["Hold &amp; Re-pitch"]
@@ -107,10 +107,10 @@ flowchart LR
 | 0. Pre-Foundation | 1–3 | Local trust-building, founding team, draft charter | ¥0–0.5M (self-funded) |
 | 1. Foundation | 4–9 | Legal entity, feasibility studies, professional advisors | ¥3–8M |
 | 2. Pilot Design | 10–18 | Detailed engineering, partnerships, permits | ¥15–30M |
-| 3. Pilot Build | 19–30 | First-stage construction, commissioning | ¥80–200M |
+| 3. Pilot Build | 19–30 | First-stage construction, commissioning | ¥120–290M |
 | 4. Operation & Scale | 31+ | Operations, monitoring, replication | Variable |
 
-Funding gates between phases are: **G1 ¥3–8M · G2 ¥30–50M · G3 ¥80–200M · G4 Operating revenue online**. Failure to clear a gate triggers a hold-and-re-pitch cycle rather than acceleration into an under-resourced phase.
+Funding gates between phases are: **G1 ¥3–8M · G2 ¥30–50M · G3 ¥120–290M · G4 Operating revenue online**. Failure to clear a gate triggers a hold-and-re-pitch cycle rather than acceleration into an under-resourced phase.
 
 A more detailed plan, including phase-by-phase deliverables, ROI framework, and risk register, is in [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md).
 

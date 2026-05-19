@@ -1,4 +1,4 @@
-<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 # Mitsue Project — Phases & Funding Flowchart
 
@@ -23,7 +23,7 @@ flowchart LR
 
     G1{"Gate 1<br/>¥3–8M"}
     G2{"Gate 2<br/>¥30–50M"}
-    G3{"Gate 3<br/>¥80–200M"}
+    G3{"Gate 3<br/>¥120–290M"}
     G4{"Gate 4<br/>Revenue<br/>online?"}
 
     H1["Hold &amp; Re-pitch"]
@@ -123,6 +123,30 @@ flowchart TB
 2. **Yellow diamonds are decision gates.** Each one asks: *"Have we secured enough funding to begin the next phase?"* If yes → proceed; if short → loop into a grey hold/descope box and re-pitch.
 3. **The bottom row is the funding stack.** Arrows go *upward* into the gate that each funding source unlocks.
 4. **Dotted arrows close the loop.** Completing a phase produces deliverables (feasibility studies, legal entity, working pilot) that themselves *unlock the next layer* of funding. This is the engine of the project.
+
+---
+
+---
+
+## Funding Stack — Current Position (Baseline Rev 1, May 2026)
+
+| Funding Layer | Source | Amount (¥M) |
+|---|---|---|
+| L1 — Founders | Founder capital (Rob Oudendijk) | ¥6M |
+| L2 — Government Grants | National + prefectural + municipal grants | ¥115M |
+| L3 — Foundations | Philanthropic foundations | ¥33M |
+| L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M |
+| L5 — Operating Revenue | Early data center and EV revenue | ¥3M |
+| **Total Raised / Committed** | | **¥192M** |
+| | | |
+| **BAC (PMB)** | Project budget baseline | **¥220M** |
+| **Management Reserve** | Board-controlled reserve | ¥25M |
+| **Total Project Budget** | | **¥245M** |
+| | | |
+| **Funding Gap vs BAC** | Additional funding required to meet BAC | **¥28M** |
+| **Funding Gap vs Total Budget** | Additional funding required including MR | **¥53M** |
+
+> **Note:** The ¥28M–¥53M funding gap is to be closed through additional government grants, new corporate partnerships, or bridge financing secured during Phase 2 (M10–M18). The funding stack above reflects commitments and realistic pipeline as of May 2026 — it is not a target to be artificially inflated. The gap is shown explicitly because stakeholders deserve an honest picture.
 
 ---
 

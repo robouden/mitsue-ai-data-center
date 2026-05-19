@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 ---
 
@@ -38,16 +38,17 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
 - **Budget** columns show the planning estimate; ranges indicate remaining uncertainty
 - **Owner** is the person accountable for delivery (not necessarily the doer)
 - **Deliverable** is what must exist / be accepted for the element to be marked complete
-- Total BAC = **¥168.0M** | Management Reserve (not in WBS) = ¥17.0M
+- Total BAC = **¥220.0M** | Management Reserve (not in WBS) = ¥25.0M
+- **Baseline Rev 1 (May 2026)** — Reality-checked against real-world Japan benchmarks for solar PV (¥200–300K/kW), school seismic retrofit (¥200–500K/㎡), commercial EV fast-chargers (¥5–6M each), and forestry road works. BAC raised from ¥168M to ¥220M.
 
 ---
 
 ## 2. WBS Summary Tree
 
 ```
-0.0  MITSUE PROJECT (Phases 0–3)                          ¥168.0M
+0.0  MITSUE PROJECT (Phases 0–3)                          ¥220.0M
  │
- ├── 1.0  Project Management & Governance                   ¥8.0M
+ ├── 1.0  Project Management & Governance                  ¥15.0M
  │    ├── 1.1  Programme direction & reporting
  │    ├── 1.2  Legal, accounting & compliance
  │    └── 1.3  Communications, translation & website
@@ -77,7 +78,7 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
  │    ├── 4.9  Vendor pre-qualification
  │    └── 4.10 Phase 2 contingency
  │
- └── 5.0  Phase 3 — Pilot Build                           ¥132.0M
+ └── 5.0  Phase 3 — Pilot Build                           ¥177.0M
       ├── 5.1  School building renovation
       ├── 5.2  Solar PV installation
       ├── 5.3  Battery storage system
@@ -231,17 +232,17 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
 
 ---
 
-### 1.0 Project Management & Governance — ¥8.0M
+### 1.0 Project Management & Governance — ¥15.0M
 
 Cross-phase overhead covering leadership, legal compliance, and external communications. These costs are time-phased across all 30 months and do not correspond to a single phase.
 
-#### 1.1 Programme Direction & Reporting — ¥4.0M
+#### 1.1 Programme Direction & Reporting — ¥8.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | Representative Director oversight; monthly EVM reporting; board meetings; stakeholder briefings; risk register maintenance |
 | Owner | Representative Director (代表理事) |
-| Budget | ¥4.0M (¥130K/month average across 30 months) |
+| Budget | ¥8.0M (¥265K/month average across 30 months) |
 | Deliverables | Monthly EVM status reports; gate review packages; annual stakeholder reports |
 | Acceptance | Board approval of each gate review package |
 
@@ -253,13 +254,13 @@ Cross-phase overhead covering leadership, legal compliance, and external communi
 - Risk register (maintained monthly)
 - OpenProject administration
 
-#### 1.2 Legal, Accounting & Compliance — ¥2.5M
+#### 1.2 Legal, Accounting & Compliance — ¥4.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | 行政書士 retainer for grants & permits; 税理士 for annual tax filing; legal counsel for contracts; ongoing compliance |
 | Owner | Director — Finance/Operations |
-| Budget | ¥2.5M |
+| Budget | ¥4.0M |
 | Deliverables | Audited annual accounts; tax filings; legal review sign-offs on all major contracts |
 | Acceptance | Annual accounts accepted by auditor (監事) |
 
@@ -269,13 +270,13 @@ Cross-phase overhead covering leadership, legal compliance, and external communi
 - Annual financial report & audit
 - Contract legal review (landowner, vendor, partnership agreements)
 
-#### 1.3 Communications, Translation & Website — ¥1.5M
+#### 1.3 Communications, Translation & Website — ¥3.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | Bilingual project website; press & stakeholder materials; translation of all formal documents; annual report design |
 | Owner | Director — Technology |
-| Budget | ¥1.5M |
+| Budget | ¥3.0M |
 | Deliverables | Live bilingual website (by end of Phase 1); translated versions of all key documents; annual impact report |
 | Acceptance | Website live and reviewed by board before Phase 1 close |
 
@@ -508,7 +509,7 @@ Converts feasibility into engineering reality. The permit applications submitted
 
 <div class="page-break"></div>
 
-### 5.0 Phase 3 — Pilot Build — ¥132.0M
+### 5.0 Phase 3 — Pilot Build — ¥177.0M
 
 *Duration: Month 19–30 (October 2027 – September 2028)*
 
@@ -523,13 +524,13 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 5.8 Testing & Commissioning → final 2 months
 ```
 
-#### 5.1 School Building Renovation — ¥25.0M
+#### 5.1 School Building Renovation — ¥38.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | Seismic retrofit of 1 wing; internal renovation for data center and office use; MEP installation (power distribution, cooling, fire suppression); accessible entrance and welfare facilities; exterior weatherproofing |
 | Owner | Director — Technology |
-| Budget | ¥25.0M |
+| Budget | ¥38.0M |
 | Deliverables | Renovated wing with 建築基準法 compliance certificate; handover from contractor; punch-list sign-off |
 | Acceptance | Building inspector sign-off; internal acceptance by project board |
 | Key risks | Unforeseen structural issues adding scope; labour shortage in rural Nara |
@@ -542,13 +543,13 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 - Site works (access road, parking, landscaping for EV)
 - Final inspections and compliance certificates
 
-#### 5.2 Solar PV Installation — ¥15.0M
+#### 5.2 Solar PV Installation — ¥22.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | Rooftop solar PV (~100 kW); inverters; monitoring system; grid connection infrastructure; commissioning and FIT/FIP handover documentation |
 | Owner | Director — Technology |
-| Budget | ¥15.0M (approx. ¥150K/kW installed, rural premium) |
+| Budget | ¥22.0M (approx. ¥220K/kW installed, rural premium) |
 | Deliverables | Grid-connected solar array generating power; FIT/FIP connection agreement in place; monitoring dashboard live |
 | Acceptance | METI FIT/FIP connection confirmed; generation data logging active |
 
@@ -562,13 +563,13 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 | Deliverables | Battery system installed, commissioned, and safety-certified; blackout simulation test passed |
 | Acceptance | 消防 safety certificate; 48-hour backup test at design load |
 
-#### 5.4 EV Charging Infrastructure — ¥8.0M
+#### 5.4 EV Charging Infrastructure — ¥15.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | 4 EV charging stations (mix of standard AC and fast DC); civil works for cable trenching; payment/management software; signage; safety approvals; public launch |
 | Owner | Director — Technology |
-| Budget | ¥8.0M |
+| Budget | ¥15.0M |
 | Deliverables | 4 operational charging stations open to public; payment system live; 消防・電気設備 approvals in hand |
 | Acceptance | Public launch event; village government acceptance |
 
@@ -582,13 +583,13 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 | Deliverables | Operational data center accepting first paying workloads; monitoring dashboard live; APPI compliance documentation complete |
 | Acceptance | First commercial hosting contract signed; uptime monitoring active |
 
-#### 5.6 Forestry Operations — ¥18.0M
+#### 5.6 Forestry Operations — ¥25.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | First 5–10 ha of sugi harvested under signed landowner agreements; timber and biomass processed; native species replanting commenced; forest road and drainage improvements; J-Credit documentation initiated |
 | Owner | Director — Forestry/Local |
-| Budget | ¥18.0M |
+| Budget | ¥25.0M |
 | Deliverables | Harvest completion report; replanting plan executed for cleared area; first J-Credit application submitted |
 | Acceptance | 伐採届出 (cutting notification) filed and acknowledged; replanting confirmed by site inspection |
 | Key risks | Seasonal access (avoid typhoon season M19–M23); steep terrain requiring specialised equipment |
@@ -624,13 +625,13 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 - Phase 3 completion documentation package
 - Public launch event (village + media + funders)
 
-#### 5.9 Phase 3 Contingency — ¥16.0M
+#### 5.9 Phase 3 Contingency — ¥27.0M
 
 | Item | Detail |
 |------|--------|
 | Scope | Reserve for Phase 3 cost variances — primarily structural findings in 5.1, equipment cost movements, rural labour premiums, or seasonal delays |
 | Owner | Representative Director |
-| Budget | ¥16.0M (~13% of Phase 3 direct costs) |
+| Budget | ¥27.0M (~18% of Phase 3 direct costs) |
 | Access | Representative Director approval for draws up to ¥5M; board approval required above ¥5M |
 
 > **Phase 3 Gate Criterion (Gate 4):** All systems operational; first commercial data center contract signed; EV charging open to public; forestry harvest commenced; Phase 4 plan approved by board.
@@ -641,63 +642,64 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 
 | WBS | Element | Budget (¥M) | % of BAC |
 |-----|---------|-------------|----------|
-| 1.0 | Project Management & Governance | 8.00 | 4.8% |
+| 1.0 | Project Management & Governance | 15.00 | 6.8% |
 | 2.0 | Phase 0 — Pre-Foundation | 0.25 | 0.1% |
-| 3.0 | Phase 1 — Foundation | 5.50 | 3.3% |
-| 4.0 | Phase 2 — Pilot Design | 22.25 | 13.2% |
-| 5.0 | Phase 3 — Pilot Build | 132.00 | 78.6% |
-| | **Total BAC (PMB)** | **168.00** | **100%** |
-| | Management Reserve (not in PMB) | 17.00 | — |
-| | **Total Project Budget** | **185.00** | — |
+| 3.0 | Phase 1 — Foundation | 5.50 | 2.5% |
+| 4.0 | Phase 2 — Pilot Design | 22.25 | 10.1% |
+| 5.0 | Phase 3 — Pilot Build | 177.00 | 80.5% |
+| | **Total BAC (PMB)** | **220.00** | **100%** |
+| | Management Reserve (not in PMB) | 25.00 | — |
+| | **Total Project Budget** | **245.00** | — |
 
 <div style="page-break-inside:avoid; margin: 10pt 0">
 
 **Figure 2 — Budget by WBS Element**
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 195" style="width:100%;display:block">
-  <!-- scale: 500px = ¥168M → 2.976px/¥1M; bars from x=195 to x=695 -->
-  <!-- Row 1: PM & Gov ¥8M → w=23.8 -->
+  <!-- scale: 500px = ¥245M → 2.041px/¥1M; bars from x=195 to x=695 -->
+  <!-- Row 1: PM & Gov ¥15M → w=31 -->
   <rect x="0" y="5" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="21" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">PM &amp; Governance</text>
-  <rect x="195" y="8" width="24" height="16" rx="2" fill="#9fb8e8"/>
-  <text x="222" y="20" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥8M (4.8%)</text>
-  <!-- Row 2: Phase 0 ¥0.25M → w=0.7 (show minimum 6px) -->
+  <rect x="195" y="8" width="31" height="16" rx="2" fill="#9fb8e8"/>
+  <text x="229" y="20" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥15M (6.8%)</text>
+  <!-- Row 2: Phase 0 ¥0.25M → w=0.5 (show minimum 6px) -->
   <rect x="0" y="30" width="700" height="24" fill="#ffffff"/>
   <text x="190" y="46" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">Phase 0 — Pre-Foundation</text>
   <rect x="195" y="33" width="6" height="16" rx="2" fill="#6796e6" fill-opacity="0.4"/>
   <text x="204" y="45" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥0.25M (0.1%)</text>
-  <!-- Row 3: Phase 1 ¥5.5M → w=16.4 -->
+  <!-- Row 3: Phase 1 ¥5.5M → w=11 -->
   <rect x="0" y="55" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="71" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">Phase 1 — Foundation</text>
-  <rect x="195" y="58" width="16" height="16" rx="2" fill="#6796e6"/>
-  <text x="214" y="70" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥5.5M (3.3%)</text>
-  <!-- Row 4: Phase 2 ¥22.25M → w=66.2 -->
+  <rect x="195" y="58" width="11" height="16" rx="2" fill="#6796e6"/>
+  <text x="209" y="70" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥5.5M (2.5%)</text>
+  <!-- Row 4: Phase 2 ¥22.25M → w=45 -->
   <rect x="0" y="80" width="700" height="24" fill="#ffffff"/>
   <text x="190" y="96" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">Phase 2 — Pilot Design</text>
-  <rect x="195" y="83" width="66" height="16" rx="2" fill="#e58520"/>
-  <text x="264" y="95" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥22.25M (13.2%)</text>
-  <!-- Row 5: Phase 3 ¥132M → w=393 -->
+  <rect x="195" y="83" width="45" height="16" rx="2" fill="#e58520"/>
+  <text x="243" y="95" font-size="7.5" fill="#333" font-family="Segoe UI,sans-serif">¥22.25M (10.1%)</text>
+  <!-- Row 5: Phase 3 ¥177M → w=361 -->
   <rect x="0" y="105" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="121" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">Phase 3 — Pilot Build</text>
-  <rect x="195" y="108" width="393" height="16" rx="2" fill="#d94f4f"/>
-  <text x="440" y="120" text-anchor="middle" font-size="8.5" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥132M — 78.6% of BAC</text>
-  <!-- Row 6: MR ¥17M → w=50.6 (greyed, not in PMB) -->
+  <rect x="195" y="108" width="361" height="16" rx="2" fill="#d94f4f"/>
+  <text x="376" y="120" text-anchor="middle" font-size="8.5" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥177M — 80.5% of BAC</text>
+  <!-- Row 6: MR ¥25M → w=51 (greyed, not in PMB) -->
   <rect x="0" y="130" width="700" height="24" fill="#f8f8f8"/>
   <text x="190" y="146" text-anchor="end" font-size="8.5" fill="#888" font-family="Segoe UI,sans-serif">Management Reserve (outside PMB)</text>
   <rect x="195" y="133" width="51" height="16" rx="2" fill="#ccc"/>
-  <text x="249" y="145" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">¥17M — Board approval required to access</text>
+  <text x="249" y="145" font-size="7.5" fill="#666" font-family="Segoe UI,sans-serif">¥25M — Board approval required to access</text>
   <!-- Total bar -->
   <rect x="0" y="155" width="700" height="28" fill="#e8eeff"/>
   <text x="190" y="173" text-anchor="end" font-size="9" fill="#333" font-weight="bold" font-family="Segoe UI,sans-serif">TOTAL PROJECT BUDGET</text>
   <rect x="195" y="158" width="500" height="18" rx="2" fill="#4a7ac4"/>
-  <text x="445" y="171" text-anchor="middle" font-size="9" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥185M Total Approved Budget (BAC ¥168M + MR ¥17M)</text>
+  <text x="445" y="171" text-anchor="middle" font-size="9" fill="white" font-weight="bold" font-family="Segoe UI,sans-serif">¥245M Total Approved Budget (BAC ¥220M + MR ¥25M)</text>
   <!-- Scale line -->
   <line x1="195" y1="185" x2="695" y2="185" stroke="#bbb" stroke-width="0.5"/>
   <text x="195" y="193" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">0</text>
-  <text x="345" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">50M</text>
-  <text x="493" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">100M</text>
-  <text x="641" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">150M</text>
-  <text x="695" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">168M</text>
+  <text x="297" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">50M</text>
+  <text x="399" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">100M</text>
+  <text x="501" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">150M</text>
+  <text x="603" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">200M</text>
+  <text x="695" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">245M</text>
 </svg>
 
 </div>
@@ -707,76 +709,77 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 | Category | Budget (¥M) | Examples |
 |----------|-------------|---------|
 | Studies & design | ¥13.0M | Feasibility studies, engineering design, IT architecture |
-| Construction & civil | ¥35.0M | Building renovation, site works, civil for EV/fiber |
-| Equipment & hardware | ¥55.0M | Solar, battery, EV chargers, servers, network gear |
-| Ecology & forestry | ¥18.0M | Harvest operations, replanting, forest roads |
-| Permits & compliance | ¥5.0M | 行政書士 fees, permit applications, legal |
-| People & operations | ¥18.0M | PM team, hired staff, advisory board |
-| Contingencies | ¥17.75M | Phase 2 and Phase 3 contingency reserves |
-| Communications | ¥1.5M | Website, translation, design |
-| Other / miscellaneous | ¥3.75M | Accounting, banking, training, launch event |
-| **Total BAC** | **¥168.0M** | |
+| Construction & civil | ¥48.0M | Building renovation, site works, civil for EV/fiber |
+| Equipment & hardware | ¥69.0M | Solar, battery, EV chargers, servers, network gear |
+| Ecology & forestry | ¥25.0M | Harvest operations, replanting, forest roads |
+| Permits & compliance | ¥6.5M | 行政書士 fees, permit applications, legal |
+| People & operations | ¥22.0M | PM team, hired staff, advisory board |
+| Contingencies | ¥28.75M | Phase 2 and Phase 3 contingency reserves |
+| Communications | ¥3.0M | Website, translation, design |
+| Other / miscellaneous | ¥4.75M | Accounting, banking, training, launch event |
+| **Total BAC** | **¥220.0M** | |
 
 <div style="page-break-inside:avoid; margin: 10pt 0">
 
 **Figure 3 — Budget Breakdown by Cost Category**
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" style="width:100%;display:block">
-  <!-- scale: 400px = ¥55M (max) → 7.27px/¥1M; bars from x=205 to x=605 -->
-  <!-- Equipment ¥55M → 400 -->
+  <!-- scale: 400px = ¥70M (max) → 5.714px/¥1M; bars from x=205 to x=605 -->
+  <!-- Equipment ¥69M → w=394 -->
   <rect x="0" y="5" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="19" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Equipment &amp; hardware</text>
-  <rect x="205" y="7" width="400" height="14" rx="2" fill="#d94f4f"/>
-  <text x="610" y="18" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥55M</text>
-  <!-- Construction ¥35M → 254.5 -->
+  <rect x="205" y="7" width="394" height="14" rx="2" fill="#d94f4f"/>
+  <text x="604" y="18" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥69M</text>
+  <!-- Construction ¥48M → w=274 -->
   <rect x="0" y="28" width="700" height="22" fill="#fff"/>
   <text x="200" y="42" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Construction &amp; civil</text>
-  <rect x="205" y="30" width="255" height="14" rx="2" fill="#c04040"/>
-  <text x="465" y="42" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥35M</text>
-  <!-- Ecology ¥18M → 130.9 -->
+  <rect x="205" y="30" width="274" height="14" rx="2" fill="#c04040"/>
+  <text x="484" y="42" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥48M</text>
+  <!-- Contingencies ¥28.75M → w=164 -->
   <rect x="0" y="51" width="700" height="22" fill="#f0f4ff"/>
-  <text x="200" y="65" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Ecology &amp; forestry</text>
-  <rect x="205" y="53" width="131" height="14" rx="2" fill="#4aaa50"/>
-  <text x="340" y="65" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥18M</text>
-  <!-- People ¥18M → 130.9 -->
+  <text x="200" y="65" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Contingencies (P2+P3)</text>
+  <rect x="205" y="53" width="164" height="14" rx="2" fill="#aaa"/>
+  <text x="374" y="65" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥28.75M</text>
+  <!-- Ecology ¥25M → w=143 -->
   <rect x="0" y="74" width="700" height="22" fill="#fff"/>
-  <text x="200" y="88" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">People &amp; operations</text>
-  <rect x="205" y="76" width="131" height="14" rx="2" fill="#6796e6"/>
-  <text x="340" y="88" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥18M</text>
-  <!-- Contingencies ¥17.75M → 129.1 -->
+  <text x="200" y="88" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Ecology &amp; forestry</text>
+  <rect x="205" y="76" width="143" height="14" rx="2" fill="#4aaa50"/>
+  <text x="352" y="88" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥25M</text>
+  <!-- People ¥22M → w=126 -->
   <rect x="0" y="97" width="700" height="22" fill="#f0f4ff"/>
-  <text x="200" y="111" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Contingencies (P2+P3)</text>
-  <rect x="205" y="99" width="129" height="14" rx="2" fill="#aaa"/>
-  <text x="338" y="111" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥17.75M</text>
-  <!-- Studies & design ¥13M → 94.5 -->
+  <text x="200" y="111" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">People &amp; operations</text>
+  <rect x="205" y="99" width="126" height="14" rx="2" fill="#6796e6"/>
+  <text x="335" y="111" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥22M</text>
+  <!-- Studies & design ¥13M → w=74 -->
   <rect x="0" y="120" width="700" height="22" fill="#fff"/>
   <text x="200" y="134" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Studies &amp; design</text>
-  <rect x="205" y="122" width="95" height="14" rx="2" fill="#4a7ac4"/>
-  <text x="304" y="134" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥13M</text>
-  <!-- Permits ¥5M → 36.4 -->
+  <rect x="205" y="122" width="74" height="14" rx="2" fill="#4a7ac4"/>
+  <text x="284" y="134" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥13M</text>
+  <!-- Permits ¥6.5M → w=37 -->
   <rect x="0" y="143" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="157" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Permits &amp; compliance</text>
-  <rect x="205" y="145" width="36" height="14" rx="2" fill="#9fb8e8"/>
-  <text x="245" y="157" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥5M</text>
-  <!-- Other ¥3.75M → 27.3 -->
+  <rect x="205" y="145" width="37" height="14" rx="2" fill="#9fb8e8"/>
+  <text x="246" y="157" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥6.5M</text>
+  <!-- Other ¥4.75M → w=27 -->
   <rect x="0" y="166" width="700" height="22" fill="#fff"/>
   <text x="200" y="180" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Other / miscellaneous</text>
   <rect x="205" y="168" width="27" height="14" rx="2" fill="#bbb"/>
-  <text x="236" y="180" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥3.75M</text>
-  <!-- Communications ¥1.5M → 10.9 -->
+  <text x="236" y="180" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥4.75M</text>
+  <!-- Communications ¥3.0M → w=17 -->
   <rect x="0" y="189" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="203" text-anchor="end" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">Communications &amp; website</text>
-  <rect x="205" y="191" width="11" height="14" rx="2" fill="#c8d8f0"/>
-  <text x="220" y="203" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥1.5M</text>
+  <rect x="205" y="191" width="17" height="14" rx="2" fill="#c8d8f0"/>
+  <text x="226" y="203" font-size="8" fill="#333" font-family="Segoe UI,sans-serif">¥3.0M</text>
   <!-- Total line -->
   <line x1="205" y1="215" x2="605" y2="215" stroke="#bbb" stroke-width="0.5"/>
   <text x="205" y="224" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">0</text>
-  <text x="278" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">10M</text>
-  <text x="350" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">20M</text>
-  <text x="423" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">30M</text>
-  <text x="496" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">40M</text>
-  <text x="605" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">55M</text>
-  <text x="400" y="240" text-anchor="middle" font-size="7.5" fill="#555" font-family="Segoe UI,sans-serif">78% of spend is equipment + construction (Phase 3 procurement is the critical cost-control period)</text>
+  <text x="262" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">10M</text>
+  <text x="319" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">20M</text>
+  <text x="376" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">30M</text>
+  <text x="434" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">40M</text>
+  <text x="491" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">50M</text>
+  <text x="605" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Segoe UI,sans-serif">70M</text>
+  <text x="400" y="240" text-anchor="middle" font-size="7.5" fill="#555" font-family="Segoe UI,sans-serif">54% of spend is equipment + construction (Phase 3 procurement is the critical cost-control period)</text>
 </svg>
 
 </div>

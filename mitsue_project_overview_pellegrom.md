@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 
@@ -112,8 +112,8 @@ Phase 1 feasibility studies will produce vetted figures. Early-stage estimates s
 | Annual revenue | ¥28–67M | ¥74–166M |   
 | Operating costs | ~60% of revenue | ~55% of revenue |   
 | Net annual surplus | ¥10–32M | ¥30–75M |   
-| Capital invested by Year 5 | ¥150–250M | — |   
-| Approximate payback period | 8–15 years | — |   
+| Capital invested by Year 5 | ¥200–290M | — |   
+| Approximate payback period | 10–18 years | — |   
 
 **Cost Displacement**  
 - Mitsue currently imports ~~100% of its electricity (~~¥40–60M annually leaves the local economy)  

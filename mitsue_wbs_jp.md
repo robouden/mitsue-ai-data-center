@@ -15,7 +15,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 ---
 
@@ -33,16 +33,17 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 - **予算**欄は計画見積を示す；レンジは残存不確実性を示す
 - **担当者**は成果責任者（必ずしも実作業者ではない）
 - **成果物**はその要素を完了とみなすために存在すべきもの
-- 合計BAC = **¥168.0M** | マネジメント予備費（WBS対象外）= ¥17.0M
+- 合計BAC = **¥220.0M** | マネジメント予備費（WBS対象外）= ¥25.0M
+- **ベースライン Rev 1（2026年5月）** — 太陽光発電（¥20〜30万/kW）、学校耐震改修（¥20〜50万/㎡）、商用EV急速充電器（1基¥500〜600万）、林道整備など日本国内の実勢価格と照合し再評価。BACを¥1.68億から¥2.20億へ改定。
 
 ---
 
 ## 2. WBS サマリーツリー
 
 ```
-0.0  御杖プロジェクト（フェーズ0〜3）                      ¥168.0M
+0.0  御杖プロジェクト（フェーズ0〜3）                      ¥220.0M
  │
- ├── 1.0  プロジェクト管理・ガバナンス                       ¥8.0M
+ ├── 1.0  プロジェクト管理・ガバナンス                      ¥15.0M
  │    ├── 1.1  事業推進・報告
  │    ├── 1.2  法務・会計・コンプライアンス
  │    └── 1.3  広報・翻訳・ウェブサイト
@@ -72,7 +73,7 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
  │    ├── 4.9  ベンダー事前選定
  │    └── 4.10 フェーズ2予備費
  │
- └── 5.0  フェーズ3 — 試験建設期                          ¥132.0M
+ └── 5.0  フェーズ3 — 試験建設期                          ¥177.0M
       ├── 5.1  校舎改修
       ├── 5.2  太陽光発電設置
       ├── 5.3  蓄電池システム
@@ -151,13 +152,13 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
   <rect x="396" y="163" width="128" height="13" rx="2" fill="#9fb8e8"/>
   <text x="460" y="173" text-anchor="middle" font-size="6.5" fill="#222" font-family="Noto Sans JP,Yu Gothic,sans-serif">早期着手 — NTTリードタイム6〜9ヶ月</text>
   <rect x="469" y="184" width="91" height="13" rx="2" fill="#d94f4f"/>
-  <text x="515" y="194" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">校舎改修 ¥25M</text>
+  <text x="515" y="194" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">校舎改修 ¥38M</text>
   <rect x="469" y="205" width="146" height="13" rx="2" fill="#6aaa50"/>
-  <text x="542" y="215" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">林業作業 ¥18M</text>
+  <text x="542" y="215" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">林業作業 ¥25M</text>
   <rect x="487" y="226" width="110" height="13" rx="2" fill="#d94f4f" fill-opacity="0.8"/>
-  <text x="542" y="236" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">太陽光・蓄電池 ¥27M</text>
+  <text x="542" y="236" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">太陽光・蓄電池 ¥34M</text>
   <rect x="524" y="247" width="91" height="13" rx="2" fill="#d94f4f" fill-opacity="0.7"/>
-  <text x="570" y="257" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">EV充電 ¥8M</text>
+  <text x="570" y="257" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">EV充電 ¥15M</text>
   <rect x="542" y="268" width="110" height="13" rx="2" fill="#d94f4f" fill-opacity="0.6"/>
   <text x="597" y="278" text-anchor="middle" font-size="7" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">データセンター ¥20M</text>
   <rect x="633" y="289" width="37" height="13" rx="2" fill="#333"/>
@@ -206,36 +207,36 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 ---
 
-### 1.0 プロジェクト管理・ガバナンス — ¥8.0M
+### 1.0 プロジェクト管理・ガバナンス — ¥15.0M
 
 全フェーズにわたるオーバーヘッド費用。リーダーシップ、法的コンプライアンス、対外広報を含みます。
 
-#### 1.1 事業推進・報告 — ¥4.0M
+#### 1.1 事業推進・報告 — ¥8.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 代表理事による監督；月次EVM報告；理事会運営；ステークホルダーへの説明；リスク管理簿の維持 |
 | 担当者 | 代表理事 |
-| 予算 | ¥4.0M（30か月平均¥13万/月） |
+| 予算 | ¥8.0M（30か月平均¥26.5万/月） |
 | 成果物 | 月次EVM報告書；ゲート審査パッケージ；年次ステークホルダー報告書 |
 | 受入基準 | 各ゲート審査パッケージの理事会承認 |
 
-#### 1.2 法務・会計・コンプライアンス — ¥2.5M
+#### 1.2 法務・会計・コンプライアンス — ¥4.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 補助金・許認可対応行政書士；年次税務申告税理士；主要契約の法的確認；継続的コンプライアンス対応 |
 | 担当者 | 財務・運営担当理事 |
-| 予算 | ¥2.5M |
+| 予算 | ¥4.0M |
 | 成果物 | 監査済み年次決算書；税務申告書；主要契約の法的確認サインオフ |
 
-#### 1.3 広報・翻訳・ウェブサイト — ¥1.5M
+#### 1.3 広報・翻訳・ウェブサイト — ¥3.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 日英バイリンガルプロジェクトウェブサイト；プレス・ステークホルダー向け資料；全公式書類の翻訳；年次報告書デザイン |
 | 担当者 | テクノロジー担当理事 |
-| 予算 | ¥1.5M |
+| 予算 | ¥3.0M |
 | 成果物 | フェーズ1終了までに稼働するバイリンガルウェブサイト；全主要書類の翻訳版 |
 
 ---
@@ -457,7 +458,7 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 ---
 
-### 5.0 フェーズ3 — 試験建設期 — ¥132.0M
+### 5.0 フェーズ3 — 試験建設期 — ¥177.0M
 
 *期間：第19〜30か月（2027年10月〜2028年9月）*
 
@@ -472,23 +473,23 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 5.8 試験・調整 → 最終2か月
 ```
 
-#### 5.1 校舎改修 — ¥25.0M
+#### 5.1 校舎改修 — ¥38.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 棟1区画の耐震補強；データセンター・執務室利用のための内装改修；MEP設備（電源分電、冷却、スプリンクラー）；バリアフリー入口・厚生施設；外装防水工事 |
 | 担当者 | テクノロジー担当理事 |
-| 予算 | ¥25.0M |
+| 予算 | ¥38.0M |
 | 成果物 | 建築基準法適合証明書付き改修済み棟；施工業者からの引渡し；パンチリスト完了 |
 | 主要リスク | 予期せぬ構造上の問題；奈良県農村部における労働力不足 |
 
-#### 5.2 太陽光発電設置 — ¥15.0M
+#### 5.2 太陽光発電設置 — ¥22.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 屋根置き太陽光発電（約100kW）；パワーコンディショナー；監視システム；系統接続設備；試運転・FIT/FIP引渡し書類 |
 | 担当者 | テクノロジー担当理事 |
-| 予算 | ¥15.0M（農村プレミアム含む約¥150K/kW設置） |
+| 予算 | ¥22.0M（農村プレミアム含む約¥220K/kW設置） |
 | 成果物 | 系統連系済み太陽光発電システム；FIT/FIP接続協定；監視ダッシュボード稼働 |
 
 #### 5.3 蓄電池システム — ¥12.0M
@@ -501,13 +502,13 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 | 成果物 | 設置・試運転・安全認証済み蓄電池システム；停電模擬試験合格 |
 | 受入基準 | 消防安全証明書；設計負荷での48時間バックアップ試験 |
 
-#### 5.4 EV充電インフラ — ¥8.0M
+#### 5.4 EV充電インフラ — ¥15.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | EV充電ステーション4基（AC普通充電・DC急速充電の組み合わせ）；ケーブル配管の土木工事；決済・管理ソフトウェア；標識；安全認証；公開 |
 | 担当者 | テクノロジー担当理事 |
-| 予算 | ¥8.0M |
+| 予算 | ¥15.0M |
 | 成果物 | 一般公開済み4基の充電ステーション；決済システム稼働；消防・電気設備許可取得 |
 | 受入基準 | 一般公開イベント；村役場による受入れ |
 
@@ -521,13 +522,13 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 | 成果物 | 初の有料ワークロードを受け入れるデータセンター稼働；監視ダッシュボード；APPIコンプライアンス文書 |
 | 受入基準 | 初の商業ホスティング契約締結；稼働率監視稼働 |
 
-#### 5.6 林業作業 — ¥18.0M
+#### 5.6 林業作業 — ¥25.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | 署名済み土地所有者契約に基づく杉5〜10ha伐採；材木・バイオマス処理；在来種植栽開始；林道・排水整備；J-Credit申請書類作成 |
 | 担当者 | 林業・地域担当理事 |
-| 予算 | ¥18.0M |
+| 予算 | ¥25.0M |
 | 成果物 | 伐採完了報告書；植栽計画実施；最初のJ-Credit申請提出 |
 | 主要リスク | 季節的なアクセス制約（台風シーズンM19〜M23回避）；急峻地形への特殊機材 |
 
@@ -551,13 +552,13 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 | 成果物 | 全システム試験・稼働確認；スタッフ研修完了；パンチリスト完了；フェーズ4運営計画承認；公開イベント開催 |
 | 受入基準 | フェーズ3完了の理事会承認；フェーズ4運営計画承認 |
 
-#### 5.9 フェーズ3予備費 — ¥16.0M
+#### 5.9 フェーズ3予備費 — ¥27.0M
 
 | 項目 | 内容 |
 |------|------|
 | スコープ | フェーズ3コスト差異への備え（主に5.1の構造上の問題、機器費用の変動、農村部人件費プレミアム、季節的遅延） |
 | 担当者 | 代表理事 |
-| 予算 | ¥16.0M（フェーズ3直接費の約13%） |
+| 予算 | ¥27.0M（フェーズ3直接費の約18%） |
 | 取崩条件 | ¥500万以下は代表理事承認；¥500万超は理事会承認が必要 |
 
 > **フェーズ3ゲート基準（ゲート4）：** 全システム稼働；初の商業データセンター契約締結；EV充電一般公開；林業伐採開始；フェーズ4計画理事会承認。
@@ -568,53 +569,56 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 | WBS | 項目 | 予算（¥M） | BAC比率 |
 |-----|------|------------|---------|
-| 1.0 | プロジェクト管理・ガバナンス | 8.00 | 4.8% |
+| 1.0 | プロジェクト管理・ガバナンス | 15.00 | 6.8% |
 | 2.0 | フェーズ0 — 準備期 | 0.25 | 0.1% |
-| 3.0 | フェーズ1 — 基盤構築期 | 5.50 | 3.3% |
-| 4.0 | フェーズ2 — 試験設計期 | 22.25 | 13.2% |
-| 5.0 | フェーズ3 — 試験建設期 | 132.00 | 78.6% |
-| | **合計 BAC（PMB）** | **168.00** | **100%** |
-| | マネジメント予備費（PMB対象外） | 17.00 | — |
-| | **総プロジェクト予算** | **185.00** | — |
+| 3.0 | フェーズ1 — 基盤構築期 | 5.50 | 2.5% |
+| 4.0 | フェーズ2 — 試験設計期 | 22.25 | 10.1% |
+| 5.0 | フェーズ3 — 試験建設期 | 177.00 | 80.5% |
+| | **合計 BAC（PMB）** | **220.00** | **100%** |
+| | マネジメント予備費（PMB対象外） | 25.00 | — |
+| | **総プロジェクト予算** | **245.00** | — |
 
 <div style="page-break-inside:avoid; margin: 10pt 0">
 
 **図2 — WBS要素別予算**
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 195" style="width:100%;display:block">
+  <!-- scale: 500px = ¥245M → 2.041px/¥1M; bars from x=195 to x=695 -->
   <rect x="0" y="5" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="21" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">PM・ガバナンス</text>
-  <rect x="195" y="8" width="24" height="16" rx="2" fill="#9fb8e8"/>
-  <text x="222" y="20" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥8M（4.8%）</text>
+  <rect x="195" y="8" width="31" height="16" rx="2" fill="#9fb8e8"/>
+  <text x="229" y="20" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥15M（6.8%）</text>
   <rect x="0" y="30" width="700" height="24" fill="#ffffff"/>
   <text x="190" y="46" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">フェーズ0 — 準備期</text>
   <rect x="195" y="33" width="6" height="16" rx="2" fill="#6796e6" fill-opacity="0.4"/>
   <text x="204" y="45" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥0.25M（0.1%）</text>
   <rect x="0" y="55" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="71" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">フェーズ1 — 基盤構築期</text>
-  <rect x="195" y="58" width="16" height="16" rx="2" fill="#6796e6"/>
-  <text x="214" y="70" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥5.5M（3.3%）</text>
+  <rect x="195" y="58" width="11" height="16" rx="2" fill="#6796e6"/>
+  <text x="209" y="70" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥5.5M（2.5%）</text>
   <rect x="0" y="80" width="700" height="24" fill="#ffffff"/>
   <text x="190" y="96" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">フェーズ2 — 試験設計期</text>
-  <rect x="195" y="83" width="66" height="16" rx="2" fill="#e58520"/>
-  <text x="264" y="95" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥22.25M（13.2%）</text>
+  <rect x="195" y="83" width="45" height="16" rx="2" fill="#e58520"/>
+  <text x="243" y="95" font-size="7.5" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥22.25M（10.1%）</text>
   <rect x="0" y="105" width="700" height="24" fill="#f0f4ff"/>
   <text x="190" y="121" text-anchor="end" font-size="8.5" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">フェーズ3 — 試験建設期</text>
-  <rect x="195" y="108" width="393" height="16" rx="2" fill="#d94f4f"/>
-  <text x="440" y="120" text-anchor="middle" font-size="8.5" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥132M — BAC比率 78.6%</text>
+  <rect x="195" y="108" width="361" height="16" rx="2" fill="#d94f4f"/>
+  <text x="376" y="120" text-anchor="middle" font-size="8.5" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥177M — BAC比率 80.5%</text>
   <rect x="0" y="130" width="700" height="24" fill="#f8f8f8"/>
   <text x="190" y="146" text-anchor="end" font-size="8.5" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">マネジメント予備費（PMB対象外）</text>
   <rect x="195" y="133" width="51" height="16" rx="2" fill="#ccc"/>
-  <text x="249" y="145" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥17M — 取崩しには理事会承認が必要</text>
+  <text x="249" y="145" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥25M — 取崩しには理事会承認が必要</text>
   <rect x="0" y="155" width="700" height="28" fill="#e8eeff"/>
   <text x="190" y="173" text-anchor="end" font-size="9" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">総プロジェクト予算</text>
   <rect x="195" y="158" width="500" height="18" rx="2" fill="#4a7ac4"/>
-  <text x="445" y="171" text-anchor="middle" font-size="9" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥185M 総承認予算（BAC ¥168M + 予備費 ¥17M）</text>
+  <text x="445" y="171" text-anchor="middle" font-size="9" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥245M 総承認予算（BAC ¥220M + 予備費 ¥25M）</text>
   <line x1="195" y1="185" x2="695" y2="185" stroke="#bbb" stroke-width="0.5"/>
   <text x="195" y="193" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">0</text>
-  <text x="345" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">5,000万円</text>
-  <text x="493" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1億円</text>
-  <text x="641" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1億5,000万円</text>
+  <text x="297" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">5,000万円</text>
+  <text x="399" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1億円</text>
+  <text x="501" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1億5,000万円</text>
+  <text x="603" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">2億円</text>
+  <text x="695" y="193" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">2億4,500万円</text>
 </svg>
 
 </div>
@@ -623,66 +627,68 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 | カテゴリー | 予算（¥M） | 主な内容 |
 |-----------|------------|---------|
-| 機器・ハードウェア | ¥55.0M | 太陽光、蓄電池、EV充電器、サーバー、ネットワーク機器 |
-| 建設・土木 | ¥35.0M | 校舎改修、敷地工事、EV・光ファイバー土木工事 |
-| 生態・林業 | ¥18.0M | 伐採作業、植栽、林道整備 |
-| 人件費・運営 | ¥18.0M | PMチーム、スタッフ、アドバイザリーボード |
-| 予備費 | ¥17.75M | フェーズ2・3予備費 |
+| 機器・ハードウェア | ¥69.0M | 太陽光、蓄電池、EV充電器、サーバー、ネットワーク機器 |
+| 建設・土木 | ¥48.0M | 校舎改修、敷地工事、EV・光ファイバー土木工事 |
+| 予備費 | ¥28.75M | フェーズ2・3予備費 |
+| 生態・林業 | ¥25.0M | 伐採作業、植栽、林道整備 |
+| 人件費・運営 | ¥22.0M | PMチーム、スタッフ、アドバイザリーボード |
 | 調査・設計 | ¥13.0M | フィージビリティスタディ、詳細設計、IT設計 |
-| 許認可・コンプライアンス | ¥5.0M | 行政書士費用、許認可申請、法務 |
-| 広報 | ¥1.5M | ウェブサイト、翻訳、デザイン |
-| その他 | ¥3.75M | 会計、銀行、研修、公開イベント |
-| **合計 BAC** | **¥168.0M** | |
+| 許認可・コンプライアンス | ¥6.5M | 行政書士費用、許認可申請、法務 |
+| 広報 | ¥3.0M | ウェブサイト、翻訳、デザイン |
+| その他 | ¥4.75M | 会計、銀行、研修、公開イベント |
+| **合計 BAC** | **¥220.0M** | |
 
 <div style="page-break-inside:avoid; margin: 10pt 0">
 
 **図3 — コストカテゴリー別予算内訳**
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" style="width:100%;display:block">
+  <!-- scale: 400px = ¥70M (max) → 5.714px/¥1M; bars from x=205 to x=605 -->
   <rect x="0" y="5" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="19" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">機器・ハードウェア</text>
-  <rect x="205" y="7" width="400" height="14" rx="2" fill="#d94f4f"/>
-  <text x="610" y="18" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥55M</text>
+  <rect x="205" y="7" width="394" height="14" rx="2" fill="#d94f4f"/>
+  <text x="604" y="18" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥69M</text>
   <rect x="0" y="28" width="700" height="22" fill="#fff"/>
   <text x="200" y="42" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">建設・土木</text>
-  <rect x="205" y="30" width="255" height="14" rx="2" fill="#c04040"/>
-  <text x="465" y="42" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥35M</text>
+  <rect x="205" y="30" width="274" height="14" rx="2" fill="#c04040"/>
+  <text x="484" y="42" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥48M</text>
   <rect x="0" y="51" width="700" height="22" fill="#f0f4ff"/>
-  <text x="200" y="65" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">生態・林業</text>
-  <rect x="205" y="53" width="131" height="14" rx="2" fill="#4aaa50"/>
-  <text x="340" y="65" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥18M</text>
+  <text x="200" y="65" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">予備費（P2+P3）</text>
+  <rect x="205" y="53" width="164" height="14" rx="2" fill="#aaa"/>
+  <text x="374" y="65" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥28.75M</text>
   <rect x="0" y="74" width="700" height="22" fill="#fff"/>
-  <text x="200" y="88" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">人件費・運営</text>
-  <rect x="205" y="76" width="131" height="14" rx="2" fill="#6796e6"/>
-  <text x="340" y="88" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥18M</text>
+  <text x="200" y="88" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">生態・林業</text>
+  <rect x="205" y="76" width="143" height="14" rx="2" fill="#4aaa50"/>
+  <text x="352" y="88" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥25M</text>
   <rect x="0" y="97" width="700" height="22" fill="#f0f4ff"/>
-  <text x="200" y="111" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">予備費（P2+P3）</text>
-  <rect x="205" y="99" width="129" height="14" rx="2" fill="#aaa"/>
-  <text x="338" y="111" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥17.75M</text>
+  <text x="200" y="111" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">人件費・運営</text>
+  <rect x="205" y="99" width="126" height="14" rx="2" fill="#6796e6"/>
+  <text x="335" y="111" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥22M</text>
   <rect x="0" y="120" width="700" height="22" fill="#fff"/>
   <text x="200" y="134" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">調査・設計</text>
-  <rect x="205" y="122" width="95" height="14" rx="2" fill="#4a7ac4"/>
-  <text x="304" y="134" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥13M</text>
+  <rect x="205" y="122" width="74" height="14" rx="2" fill="#4a7ac4"/>
+  <text x="284" y="134" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥13M</text>
   <rect x="0" y="143" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="157" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">許認可・コンプライアンス</text>
-  <rect x="205" y="145" width="36" height="14" rx="2" fill="#9fb8e8"/>
-  <text x="245" y="157" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥5M</text>
+  <rect x="205" y="145" width="37" height="14" rx="2" fill="#9fb8e8"/>
+  <text x="246" y="157" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥6.5M</text>
   <rect x="0" y="166" width="700" height="22" fill="#fff"/>
   <text x="200" y="180" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">その他・雑費</text>
   <rect x="205" y="168" width="27" height="14" rx="2" fill="#bbb"/>
-  <text x="236" y="180" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥3.75M</text>
+  <text x="236" y="180" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥4.75M</text>
   <rect x="0" y="189" width="700" height="22" fill="#f0f4ff"/>
   <text x="200" y="203" text-anchor="end" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">広報・ウェブサイト</text>
-  <rect x="205" y="191" width="11" height="14" rx="2" fill="#c8d8f0"/>
-  <text x="220" y="203" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥1.5M</text>
+  <rect x="205" y="191" width="17" height="14" rx="2" fill="#c8d8f0"/>
+  <text x="226" y="203" font-size="8" fill="#333" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥3.0M</text>
   <line x1="205" y1="215" x2="605" y2="215" stroke="#bbb" stroke-width="0.5"/>
   <text x="205" y="224" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">0</text>
-  <text x="278" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1,000万</text>
-  <text x="350" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">2,000万</text>
-  <text x="423" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">3,000万</text>
-  <text x="496" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">4,000万</text>
-  <text x="605" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">5,500万</text>
-  <text x="400" y="240" text-anchor="middle" font-size="7.5" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">支出の78%は機器＋建設（フェーズ3調達期がコスト管理の最重要期間）</text>
+  <text x="262" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">1,000万</text>
+  <text x="319" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">2,000万</text>
+  <text x="376" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">3,000万</text>
+  <text x="434" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">4,000万</text>
+  <text x="491" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">5,000万</text>
+  <text x="605" y="224" text-anchor="middle" font-size="7" fill="#888" font-family="Noto Sans JP,Yu Gothic,sans-serif">7,000万</text>
+  <text x="400" y="240" text-anchor="middle" font-size="7.5" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">支出の54%は機器＋建設（フェーズ3調達期がコスト管理の最重要期間）</text>
 </svg>
 
 </div>

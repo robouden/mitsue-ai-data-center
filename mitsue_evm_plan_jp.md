@@ -14,7 +14,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.0（基準値Rev.1） &nbsp;|&nbsp; Last modified: 2026-05-18</p>
 
 ---
 
@@ -60,26 +60,28 @@
 
 | 区分 | 項目 | 予算（百万円） | BAC比率 |
 |------|------|---------------|---------|
-| 総プロジェクト予算 | | **¥185.0M** | — |
-| — マネジメント予備費（10%） | PMB対象外 | **¥17.0M** | — |
-| **パフォーマンス測定基準（BAC）** | | **¥168.0M** | 100% |
-| 1.0 | プロジェクト管理・ガバナンス | ¥8.0M | 4.8% |
+| 総プロジェクト予算 | | **¥245.0M** | — |
+| — マネジメント予備費（約11%） | PMB対象外 | **¥25.0M** | — |
+| **パフォーマンス測定基準（BAC）** | | **¥220.0M** | 100% |
+| 1.0 | プロジェクト管理・ガバナンス | ¥15.0M | 6.8% |
 | 2.0 | フェーズ0 — 準備期 | ¥0.25M | 0.1% |
-| 3.0 | フェーズ1 — 基盤構築期 | ¥5.5M | 3.3% |
-| 4.0 | フェーズ2 — 試験設計期 | ¥22.25M | 13.2% |
-| 5.0 | フェーズ3 — 試験建設期 | ¥132.0M | 78.6% |
+| 3.0 | フェーズ1 — 基盤構築期 | ¥5.5M | 2.5% |
+| 4.0 | フェーズ2 — 試験設計期 | ¥22.25M | 10.1% |
+| 5.0 | フェーズ3 — 試験建設期 | ¥177.0M | 80.5% |
 
-> **マネジメント予備費**（¥17M）は代表理事が管理し、**PMBには含まれません**。予見不可能なスコープへの対応のみを目的とし、理事会の承認を得た場合にのみ取り崩し可能です。
+> **マネジメント予備費**（¥25M）は代表理事が管理し、**PMBには含まれません**。予見不可能なスコープへの対応のみを目的とし、理事会の承認を得た場合にのみ取り崩し可能です。
+
+> **ベースライン Rev.1（2026年5月）** — 太陽光発電（¥20〜30万/kW）、学校耐震改修（¥20〜50万/㎡）、商用EV急速充電器（1基¥500〜600万）、林道整備など日本国内の実勢価格と照合し再評価。フェーズ3の各費目、プロジェクトマネジメント、予備費を引き上げ、BACを¥1.68億から¥2.20億へ改定。
 
 ### 3.2 作業分解構造（WBS）— 予算詳細
 
 | WBS | 項目 | 予算（¥M） | フェーズ |
 |-----|------|------------|---------|
 | 1.0 | **プロジェクト管理・ガバナンス** | | |
-| 1.1 | PMチーム中核（代表理事＋コーディネーター） | ¥4.0M | 全期間 |
-| 1.2 | 法務・会計・行政書士費用 | ¥2.5M | 全期間 |
-| 1.3 | 広報・ウェブサイト・翻訳 | ¥1.5M | 全期間 |
-| | *小計 1.0* | *¥8.0M* | |
+| 1.1 | PMチーム中核（代表理事＋コーディネーター） | ¥8.0M | 全期間 |
+| 1.2 | 法務・会計・行政書士費用 | ¥4.0M | 全期間 |
+| 1.3 | 広報・ウェブサイト・翻訳 | ¥3.0M | 全期間 |
+| | *小計 1.0* | *¥15.0M* | |
 | 2.0 | **フェーズ0 — 準備期** | | |
 | 2.1 | 地域ステークホルダーとの対話・交通費 | ¥0.10M | P0 |
 | 2.2 | 憲章・書類作成 | ¥0.10M | P0 |
@@ -106,17 +108,17 @@
 | 4.10 | フェーズ2予備費 | ¥1.75M | P2 |
 | | *小計 4.0* | *¥22.25M* | |
 | 5.0 | **フェーズ3 — 試験建設期** | | |
-| 5.1 | 校舎改修（棟1区画） | ¥25.0M | P3 |
-| 5.2 | 太陽光発電設置（約100kW） | ¥15.0M | P3 |
+| 5.1 | 校舎改修（棟1区画） | ¥38.0M | P3 |
+| 5.2 | 太陽光発電設置（約100kW） | ¥22.0M | P3 |
 | 5.3 | 蓄電池システム | ¥12.0M | P3 |
-| 5.4 | EV充電インフラ（4基） | ¥8.0M | P3 |
+| 5.4 | EV充電インフラ（4基） | ¥15.0M | P3 |
 | 5.5 | データセンター設備（サーバー10〜20台） | ¥20.0M | P3 |
-| 5.6 | 林業作業（5〜10ha伐採・植替） | ¥18.0M | P3 |
+| 5.6 | 林業作業（5〜10ha伐採・植替） | ¥25.0M | P3 |
 | 5.7 | 光ファイバー接続強化 | ¥10.0M | P3 |
 | 5.8 | 試験・調整・稼働開始 | ¥8.0M | P3 |
-| 5.9 | フェーズ3予備費（13%） | ¥16.0M | P3 |
-| | *小計 5.0* | *¥132.0M* | |
-| | **合計 BAC** | **¥168.0M** | |
+| 5.9 | フェーズ3予備費（18%） | ¥27.0M | P3 |
+| | *小計 5.0* | *¥177.0M* | |
+| | **合計 BAC** | **¥220.0M** | |
 
 ---
 
@@ -130,34 +132,34 @@
 | M2 | 2026年5月 | P0 | 0.10 | 0.15 | 0.1% |
 | **M2 ← 基準日** | | | | | |
 | M3 | 2026年6月 | P0 | 0.10 | 0.25 | 0.1% |
-| M4 | 2026年7月 | P1 | 0.20 | 0.45 | 0.3% |
-| M5 | 2026年8月 | P1 | 0.50 | 0.95 | 0.6% |
-| M6 | 2026年9月 | P1 | 0.80 | 1.75 | 1.0% |
-| M7 | 2026年10月 | P1 | 1.20 | 2.95 | 1.8% |
-| M8 | 2026年11月 | P1 | 1.50 | 4.45 | 2.6% |
-| M9 | 2026年12月 | P1 | 1.30 | 5.75 | 3.4% |
-| M10 | 2027年1月 | P2 | 1.50 | 7.25 | 4.3% |
-| M11 | 2027年2月 | P2 | 2.20 | 9.45 | 5.6% |
-| M12 | 2027年3月 | P2 | 2.80 | 12.25 | 7.3% |
-| M13 | 2027年4月 | P2 | 3.00 | 15.25 | 9.1% |
-| M14 | 2027年5月 | P2 | 3.00 | 18.25 | 10.9% |
-| M15 | 2027年6月 | P2 | 3.00 | 21.25 | 12.7% |
-| M16 | 2027年7月 | P2 | 2.50 | 23.75 | 14.1% |
-| M17 | 2027年8月 | P2 | 2.50 | 26.25 | 15.6% |
-| M18 | 2027年9月 | P2 | 2.00 | 28.25 | 16.8% |
-| M19 | 2027年10月 | P3 | 3.00 | 31.25 | 18.6% |
-| M20 | 2027年11月 | P3 | 5.00 | 36.25 | 21.6% |
-| M21 | 2027年12月 | P3 | 8.00 | 44.25 | 26.3% |
-| M22 | 2028年1月 | P3 | 12.00 | 56.25 | 33.5% |
-| M23 | 2028年2月 | P3 | 15.00 | 71.25 | 42.4% |
-| M24 | 2028年3月 | P3 | 15.00 | 86.25 | 51.3% |
-| M25 | 2028年4月 | P3 | 18.00 | 104.25 | 62.1% |
-| M26 | 2028年5月 | P3 | 18.00 | 122.25 | 72.8% |
-| M27 | 2028年6月 | P3 | 15.00 | 137.25 | 81.7% |
-| M28 | 2028年7月 | P3 | 15.00 | 152.25 | 90.6% |
-| M29 | 2028年8月 | P3 | 10.00 | 162.25 | 96.6% |
-| M30 | 2028年9月 | P3 | 5.75 | 168.00 | 100.0% |
-| | **BAC** | | **¥168.0M** | | |
+| M4 | 2026年7月 | P1 | 0.20 | 0.45 | 0.2% |
+| M5 | 2026年8月 | P1 | 0.50 | 0.95 | 0.4% |
+| M6 | 2026年9月 | P1 | 0.80 | 1.75 | 0.8% |
+| M7 | 2026年10月 | P1 | 1.20 | 2.95 | 1.3% |
+| M8 | 2026年11月 | P1 | 1.50 | 4.45 | 2.0% |
+| M9 | 2026年12月 | P1 | 1.30 | 5.75 | 2.6% |
+| M10 | 2027年1月 | P2 | 1.50 | 7.25 | 3.3% |
+| M11 | 2027年2月 | P2 | 2.20 | 9.45 | 4.3% |
+| M12 | 2027年3月 | P2 | 2.80 | 12.25 | 5.6% |
+| M13 | 2027年4月 | P2 | 3.00 | 15.25 | 6.9% |
+| M14 | 2027年5月 | P2 | 3.00 | 18.25 | 8.3% |
+| M15 | 2027年6月 | P2 | 3.00 | 21.25 | 9.7% |
+| M16 | 2027年7月 | P2 | 2.50 | 23.75 | 10.8% |
+| M17 | 2027年8月 | P2 | 2.50 | 26.25 | 11.9% |
+| M18 | 2027年9月 | P2 | 2.00 | 28.25 | 12.8% |
+| M19 | 2027年10月 | P3 | 4.00 | 32.25 | 14.7% |
+| M20 | 2027年11月 | P3 | 7.00 | 39.25 | 17.8% |
+| M21 | 2027年12月 | P3 | 11.00 | 50.25 | 22.8% |
+| M22 | 2028年1月 | P3 | 16.50 | 66.75 | 30.3% |
+| M23 | 2028年2月 | P3 | 20.50 | 87.25 | 39.7% |
+| M24 | 2028年3月 | P3 | 20.50 | 107.75 | 49.0% |
+| M25 | 2028年4月 | P3 | 25.00 | 132.75 | 60.3% |
+| M26 | 2028年5月 | P3 | 25.00 | 157.75 | 71.7% |
+| M27 | 2028年6月 | P3 | 20.50 | 178.25 | 81.0% |
+| M28 | 2028年7月 | P3 | 20.50 | 198.75 | 90.3% |
+| M29 | 2028年8月 | P3 | 14.00 | 212.75 | 96.7% |
+| M30 | 2028年9月 | P3 | 7.25 | 220.00 | 100.0% |
+| | **BAC** | | **¥220.0M** | | |
 
 ### S字曲線の形状
 
@@ -195,18 +197,18 @@
   <line x1="552" y1="28" x2="552" y2="280" stroke="#ddd" stroke-width="0.4"/>
   <line x1="680" y1="28" x2="680" y2="280" stroke="#ddd" stroke-width="0.4"/>
   <line x1="60" y1="30" x2="680" y2="30" stroke="#d94f4f" stroke-width="1" stroke-dasharray="5,4"/>
-  <text x="683" y="33" font-size="7" fill="#d94f4f" font-family="Noto Sans JP,Yu Gothic,sans-serif">BAC¥168M</text>
+  <text x="683" y="33" font-size="7" fill="#d94f4f" font-family="Noto Sans JP,Yu Gothic,sans-serif">BAC¥220M</text>
   <line x1="103" y1="28" x2="103" y2="288" stroke="#e58520" stroke-width="1.5" stroke-dasharray="4,3"/>
   <text x="106" y="299" font-size="7" fill="#e58520" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">▲ 基準日 2026-05-18</text>
   <text x="55" y="283" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">0</text>
-  <text x="55" y="253" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">20</text>
-  <text x="55" y="223" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">40</text>
-  <text x="55" y="194" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">60</text>
-  <text x="55" y="164" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">80</text>
-  <text x="55" y="134" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">100</text>
-  <text x="55" y="104" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">120</text>
-  <text x="55" y="75" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">140</text>
-  <text x="55" y="45" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">160</text>
+  <text x="55" y="253" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">25</text>
+  <text x="55" y="223" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">50</text>
+  <text x="55" y="194" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">75</text>
+  <text x="55" y="164" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">100</text>
+  <text x="55" y="134" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">130</text>
+  <text x="55" y="104" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">160</text>
+  <text x="55" y="75" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">195</text>
+  <text x="55" y="45" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">220</text>
   <text x="16" y="165" text-anchor="middle" font-size="8" fill="#555" transform="rotate(-90,16,165)" font-family="Noto Sans JP,Yu Gothic,sans-serif">百万円（累計）</text>
   <text x="60" y="295" text-anchor="middle" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">M1</text>
   <text x="167" y="295" text-anchor="middle" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">M6</text>
@@ -287,11 +289,11 @@
   <line x1="60" y1="20" x2="60" y2="202" stroke="#888" stroke-width="1.5"/>
   <line x1="60" y1="200" x2="685" y2="200" stroke="#888" stroke-width="1.5"/>
   <text x="55" y="203" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">0</text>
-  <text x="55" y="163" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">4</text>
-  <text x="55" y="123" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">8</text>
-  <text x="55" y="83" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">12</text>
-  <text x="55" y="43" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">16</text>
-  <text x="55" y="23" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">18</text>
+  <text x="55" y="163" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">5</text>
+  <text x="55" y="123" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">11</text>
+  <text x="55" y="83" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">17</text>
+  <text x="55" y="43" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">22</text>
+  <text x="55" y="23" text-anchor="end" font-size="8" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">25</text>
   <text x="16" y="120" text-anchor="middle" font-size="8" fill="#555" transform="rotate(-90,16,120)" font-family="Noto Sans JP,Yu Gothic,sans-serif">百万円／月</text>
   <text x="69" y="213" text-anchor="middle" font-size="7.5" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">M1</text>
   <text x="172" y="213" text-anchor="middle" font-size="7.5" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">M6</text>
@@ -302,7 +304,7 @@
   <rect x="120" y="225" width="12" height="8" fill="#b8c9ee"/><text x="136" y="233" font-size="7.5" fill="#444" font-family="Noto Sans JP,Yu Gothic,sans-serif">P0</text>
   <rect x="160" y="225" width="12" height="8" fill="#6796e6"/><text x="176" y="233" font-size="7.5" fill="#444" font-family="Noto Sans JP,Yu Gothic,sans-serif">P1</text>
   <rect x="200" y="225" width="12" height="8" fill="#e58520"/><text x="216" y="233" font-size="7.5" fill="#444" font-family="Noto Sans JP,Yu Gothic,sans-serif">P2</text>
-  <rect x="240" y="225" width="12" height="8" fill="#d94f4f"/><text x="256" y="233" font-size="7.5" fill="#444" font-family="Noto Sans JP,Yu Gothic,sans-serif">P3（ピーク M25-26: 月¥18M）</text>
+  <rect x="240" y="225" width="12" height="8" fill="#d94f4f"/><text x="256" y="233" font-size="7.5" fill="#444" font-family="Noto Sans JP,Yu Gothic,sans-serif">P3（ピーク M25-26: 月¥25M）</text>
 </svg>
 
 </div>
@@ -357,8 +359,8 @@
   <text x="549" y="86" text-anchor="middle" font-size="7" fill="#2a8040" font-family="Noto Sans JP,Yu Gothic,sans-serif">🟢 予算内</text>
   <text x="549" y="97" text-anchor="middle" font-size="6.5" fill="#aaa" font-family="Noto Sans JP,Yu Gothic,sans-serif">P0個人時間効果</text>
   <text x="605" y="55" text-anchor="middle" font-size="7.5" fill="#666" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">BAC</text>
-  <text x="605" y="67" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥168M</text>
-  <text x="605" y="79" text-anchor="middle" font-size="6.5" fill="#999" font-family="Noto Sans JP,Yu Gothic,sans-serif">0.05%消化</text>
+  <text x="605" y="67" text-anchor="middle" font-size="9" fill="#333" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥220M</text>
+  <text x="605" y="79" text-anchor="middle" font-size="6.5" fill="#999" font-family="Noto Sans JP,Yu Gothic,sans-serif">0.04%消化</text>
 </svg>
 
 </div>
@@ -420,11 +422,11 @@
 | 項目 | 値 |
 |------|-----|
 | 期間 | M19〜M30（2027年10月〜2028年9月） |
-| BAC | ¥132M |
+| BAC | ¥177M |
 | 計画完了日 | 2028年9月30日 |
 | クリティカルパス | 校舎改修 → 太陽光・蓄電池設置 → EV充電 → 調整・稼働 |
 | 主要リスク | 建物構造上の問題によるスコープ増大（現状：低確率、高影響） |
-| 対応策 | WBS 5.9予備費¥16M ＋ マネジメント予備費¥17M でバックアップ |
+| 対応策 | WBS 5.9予備費¥27M（18%）＋ マネジメント予備費¥25M でバックアップ |
 
 ---
 
@@ -432,9 +434,11 @@
 
 | シナリオ | 説明 | EAC | 完了日 |
 |----------|------|-----|--------|
-| **楽観的** | 全補助金一発採択；建物良好；許認可遅延なし | ¥152M | 2028年8月 |
-| **基本ケース** | 許認可1件遅延（+2か月）；補助金1件翌年繰越；CPI≈1.0 | **¥168M** | 2028年9月 |
-| **悲観的** | 許認可2件遅延；建物補修必要；補助金不足 — MR取崩し | ¥195M | 2029年3月 |
+| **楽観的** | 全補助金一発採択；建物良好；許認可遅延なし；下限ベンダー見積 | ¥185M | 2028年8月 |
+| **基本ケース** | 許認可1件遅延（+2か月）；補助金1件翌年繰越；CPI≈1.0；中位ベンダー見積 | **¥220M** | 2028年9月 |
+| **悲観的** | 許認可2件遅延；建物補修必要；補助金不足 — MR取崩し及び追加調達 | ¥285M | 2029年3月 |
+
+> シナリオの幅はRev.0基準値より意図的に広げています。フェーズ1フィージビリティスタディ（M9）にて校舎の構造状態、ベンダー見積、補助金採択が確定すれば、レンジは大幅に絞られます。
 
 <div style="page-break-inside:avoid; margin: 8pt 0">
 
@@ -442,28 +446,28 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 175" style="width:100%;display:block">
   <rect x="160" y="10" width="500" height="140" fill="#fafafa" stroke="#ddd" stroke-width="0.5" rx="3"/>
-  <line x1="580" y1="10" x2="580" y2="155" stroke="#6796e6" stroke-width="1" stroke-dasharray="5,3"/>
-  <text x="580" y="166" text-anchor="middle" font-size="7.5" fill="#6796e6" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">BAC¥168M</text>
-  <line x1="622.5" y1="10" x2="622.5" y2="155" stroke="#e58520" stroke-width="1" stroke-dasharray="3,3"/>
-  <text x="622.5" y="166" text-anchor="middle" font-size="7" fill="#e58520" font-family="Noto Sans JP,Yu Gothic,sans-serif">総予算¥185M</text>
+  <line x1="527" y1="10" x2="527" y2="155" stroke="#6796e6" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="527" y="166" text-anchor="middle" font-size="7.5" fill="#6796e6" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">BAC¥220M</text>
+  <line x1="568" y1="10" x2="568" y2="155" stroke="#e58520" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="568" y="176" text-anchor="middle" font-size="7" fill="#e58520" font-family="Noto Sans JP,Yu Gothic,sans-serif">総予算¥245M</text>
   <text x="160" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">0</text>
-  <text x="285" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">50</text>
-  <text x="410" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">100</text>
-  <text x="535" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">150</text>
-  <text x="660" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">200 ¥M</text>
-  <rect x="160" y="22" width="380" height="30" fill="#4aaa60" rx="3"/>
+  <text x="285" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">75</text>
+  <text x="410" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">150</text>
+  <text x="535" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">225</text>
+  <text x="660" y="166" text-anchor="middle" font-size="7.5" fill="#666" font-family="Noto Sans JP,Yu Gothic,sans-serif">300 ¥M</text>
+  <rect x="160" y="22" width="308" height="30" fill="#4aaa60" rx="3"/>
   <text x="148" y="40" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">楽観的</text>
   <text x="155" y="50" text-anchor="end" font-size="7" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">2028年8月</text>
-  <text x="548" y="41" font-size="9" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥152M（BAC比−¥16M）</text>
-  <rect x="160" y="62" width="420" height="30" fill="#6796e6" rx="3"/>
+  <text x="476" y="41" font-size="9" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥185M（BAC比−¥35M）</text>
+  <rect x="160" y="62" width="367" height="30" fill="#6796e6" rx="3"/>
   <text x="148" y="80" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">基本ケース</text>
   <text x="155" y="90" text-anchor="end" font-size="7" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">2028年9月</text>
-  <text x="588" y="81" font-size="9" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥168M（予算通り）</text>
-  <rect x="160" y="102" width="487.5" height="30" fill="#d94f4f" rx="3"/>
+  <text x="535" y="81" font-size="9" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥220M（予算通り）</text>
+  <rect x="160" y="102" width="475" height="30" fill="#d94f4f" rx="3"/>
   <text x="148" y="120" text-anchor="end" font-size="8.5" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">悲観的</text>
   <text x="155" y="130" text-anchor="end" font-size="7" fill="#555" font-family="Noto Sans JP,Yu Gothic,sans-serif">2029年3月</text>
-  <text x="655" y="121" font-size="9" fill="white" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥195M</text>
-  <text x="168" y="121" font-size="7.5" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">MR取崩し — 承認総予算内に収まる</text>
+  <text x="643" y="121" font-size="9" fill="#222" font-weight="bold" font-family="Noto Sans JP,Yu Gothic,sans-serif">¥285M</text>
+  <text x="168" y="121" font-size="7.5" fill="white" font-family="Noto Sans JP,Yu Gothic,sans-serif">総予算を超過 — 追加資金調達またはスコープ縮小が必要</text>
   <line x1="285" y1="10" x2="285" y2="155" stroke="#ddd" stroke-width="0.4"/>
   <line x1="410" y1="10" x2="410" y2="155" stroke="#ddd" stroke-width="0.4"/>
   <line x1="535" y1="10" x2="535" y2="155" stroke="#ddd" stroke-width="0.4"/>
@@ -471,7 +475,7 @@
 
 </div>
 
-> 悲観的シナリオは**失敗ではありません** — プロジェクトが¥195M（承認総予算¥185M＋追加¥10M MR以内）で6か月の遅延を伴って実行されるケースです。
+> 悲観的シナリオ¥285Mは**承認総予算¥245Mを¥40M超過**し、ゲート3で意思決定が必要となります：(a) 追加の資金調達ラウンド実施、(b) フェーズ3スコープ縮小（EV充電またはファイバー強化の延期等）、(c) 工程延長と建設段階分割のいずれか。絶対的失敗シナリオ（地域抵抗、ゲート1資金未確保等）は引き続き資金調達ゲートで管理し、EVMでは管理しません。
 
 ---
 
@@ -503,11 +507,11 @@
 - プロジェクト開始日：2026年4月1日（第1か月）
 - 全フェーズ期間は祝日を含む暦月
 - 各調査は単一ベンダーに発注（分割発注なし）
-- フェーズ3建設費は2026年奈良県農村部建設指数に基づく
+- フェーズ3建設費は2026年奈良県農村部建設指数に基づく。太陽光発電、EV充電、耐震改修については、商用ベンチマークに15〜25%の農村部動員プレミアムを上乗せ
 - 為替レート前提（蘭系・国際コーポレートパートナー向け）：¥150/EUR
 
 **制約条件**
-- BAC ¥168Mは**上限**；ゲート3での確定資金なしにP3は着手不可
+- BAC ¥220Mは**上限**；ゲート3での確定資金なしにP3は着手不可
 - マネジメント予備費の取崩しには理事会承認が必要
 - データはJPY（円）で報告；外貨取引は取引日レートで換算
 - フェーズ1フィージビリティスタディは**全体精度の最大の決定要因** — M9以前の全EACは不確実性が高い（±40%）
@@ -518,11 +522,11 @@
 
 1. **第2か月時点のCPI・SPIは統計的に信頼性がありません。** ¥0.08Mの実績コストデータのみでは、指数はプロジェクト全体ではなくフェーズ0の特性を反映しています。フェーズ1コスト¥200〜300Mが確定した後に初めて信頼性が高まります。
 
-2. **フェーズ3の予算レンジは広い。** ¥8,000万〜2億円というレンジは、建物状態・機器調達・系統接続コストの不確実性を正直に反映しています。EVM基準値はWBS 5.0に¥132Mを使用し、¥16Mのフェーズ3予備費と¥17Mのマネジメント予備費がこのレンジを吸収します。
+2. **フェーズ3の予算レンジは広い。** ¥1.2億〜2.9億円というレンジは、建物状態（校舎改修だけで¥30〜100Mのレンジ）・機器調達・系統接続コストの不確実性を正直に反映しています。EVM基準値はWBS 5.0に¥177Mを使用し、¥27Mのフェーズ3予備費（18%）と¥25Mのマネジメント予備費がこのレンジを吸収します。
 
 3. **資金調達ゲートが主要管理メカニズムです。** EVMはフェーズ内の効率を監視し、ゲートは次フェーズを開始するかどうかを制御します。
 
-4. **フェーズ1フィージビリティスタディが基準値を大幅に改定します。** M9後に正式な基準値改訂を行います。
+4. **フェーズ1フィージビリティスタディが基準値を大幅に改定します。** M9後に正式な基準値改訂（Rev.2）を行います。改訂後のフェーズ2・3予算は、日本の市場ベンチマークではなく、校舎構造調査結果とベンダー見積に基づくものとなります。
 
 ---
 
@@ -535,7 +539,10 @@ PMBは以下の場合に正式に改訂可能：
 - マネジメント予備費の取崩し時
 
 各改訂は記録：旧基準値、新基準値、理由、承認者、日付。
-改訂番号（基準値Rev.0＝本書；Rev.1＝フェーズ1後改訂）。
+改訂番号：
+- **Rev.0**（v1.1、2026年4月）— 当初BAC ¥168M、計画見積に基づく
+- **Rev.1**（v2.0、2026年5月）— 本書。BAC ¥220M、日本国内の実勢価格（太陽光、EV充電器、学校耐震改修、林業）と照合の上で再評価。フェーズ1フィージビリティスタディに先行する予防的修正。
+- **Rev.2**（計画 M9、2026年12月）— フェーズ1完了後の改訂。フィージビリティスタディ結果とベンダー見積に基づく。
 
 ---
 
