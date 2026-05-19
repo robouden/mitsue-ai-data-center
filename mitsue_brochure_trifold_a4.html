@@ -310,6 +310,32 @@
     line-height: 1.5;
   }
 
+  /* Visual concept photo tiles */
+  .photo-strip { display:flex; gap:1.5mm; margin-top:4mm; }
+  .photo-tile {
+    flex:1; height:24mm; border-radius:2pt; overflow:hidden;
+    position:relative; display:flex; flex-direction:column;
+    align-items:stretch; justify-content:flex-end;
+  }
+  .tile-forest { background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%), url('Docs extra/foresty.jpg') center/cover; }
+  .tile-ev     { background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%), url('Docs extra/evcharging.jpg') center/cover; }
+  .tile-comm   { background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%), url('Docs extra/community.png') center/cover; }
+  .tile-cap {
+    width:100%; padding:1mm 2mm; text-align:center;
+    background:rgba(0,0,0,0.52); font-size:4.5pt; font-weight:700;
+    color:rgba(255,255,255,0.92); text-transform:uppercase; letter-spacing:0.5pt;
+  }
+  .act-photo {
+    margin-top:4mm; height:60mm; border-radius:2pt; overflow:hidden;
+    background:linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 60%), url('Docs extra/community.png') center/cover;
+    display:flex; align-items:flex-end;
+  }
+  .act-photo-cap {
+    width:100%; padding:1.5mm 3mm; background:rgba(0,0,0,0.5);
+    font-size:4.5pt; font-weight:700; color:rgba(255,255,255,0.9);
+    text-transform:uppercase; letter-spacing:0.5pt;
+  }
+
   /* Inside left — Involve */
   .involve-item {
     padding: 3mm 0;
@@ -363,6 +389,15 @@
       <div class="involve-head">Other Rural Communities</div>
       <p class="involve-body">Everything built here is documented and shared openly — free for any village to replicate.</p>
     </div>
+
+    <div class="photo-strip" style="margin-top:4mm;">
+      <div class="photo-tile" style="height:45mm; background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 55%), url('Docs extra/mitsue-jinja-matsuri.jpg') center/cover;">
+        <div class="tile-cap">Jinja Festival</div>
+      </div>
+      <div class="photo-tile" style="height:45mm; background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 55%), url('Docs extra/tsue-churros.jpg') center/contain; background-color:#1a1a1a; background-repeat:no-repeat;">
+        <div class="tile-cap">Village Events</div>
+      </div>
+    </div>
   </div>
 
   <!-- MIDDLE: Back Cover — Contact / QR -->
@@ -387,7 +422,7 @@
 
     <div class="contact-footer">
       Mitsue Village, Nara Prefecture, Japan<br/>
-      Version 2.0 · May 2026
+      Version 2.1 · May 2026
     </div>
   </div>
 
@@ -441,6 +476,18 @@
     </div>
 
     <div class="quote">"These are not three separate ideas — each one makes the others possible."</div>
+
+    <div class="photo-strip">
+      <div class="photo-tile tile-forest">
+        <div class="tile-cap">Cedar Forest</div>
+      </div>
+      <div class="photo-tile tile-ev">
+        <div class="tile-cap">EV Charging</div>
+      </div>
+      <div class="photo-tile tile-comm">
+        <div class="tile-cap">Community</div>
+      </div>
+    </div>
   </div>
 
   <!-- CENTER: What We're Building -->
