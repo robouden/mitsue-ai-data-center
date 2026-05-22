@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Introduction Email — HIGHRESO Co., Ltd.
 
@@ -8,16 +8,20 @@
 
 ## How to approach HIGHRESO
 
-HIGHRESO is the closest operating analogue to the Mitsue project in Japan: they run air-cooled data centers in repurposed school buildings (廃校活用) and publish a PUE target of under 1.1. They are a company at meaningful scale — Mitsue is small, rural, and earlier-stage — so the first contact should be **respectful, learning-oriented, and short**. Three rules for the first email:
+HIGHRESO is the closest operating analogue to the Mitsue project in Japan: they run air-cooled data centers in repurposed school buildings (廃校活用) and publish a PUE target of under 1.1. They are a company at meaningful scale — Mitsue is small, rural, and earlier-stage — so the first contact should be **respectful, learning-oriented, and short**.
+
+**Referral context:** Joi Ito (伊藤穰一), an advisor to the Mitsue project, identified HIGHRESO as a meaningful potential partner. Naming him in the opening line transforms this from a cold contact into a warm-referral inquiry. Use the referral honestly — Mr. Ito *suggested HIGHRESO's website* as worth studying, not that he made a personal introduction; the email language reflects that exact framing.
+
+Three rules for the first email:
 
 1. **Japanese first.** This is a Japanese company being approached about a Japanese rural project. Japanese-primary signals respect and competence; an English-only first email is a common mis-step.
-2. **No partnership ask yet.** The first email asks for a short introductory conversation only — not a memorandum of understanding, not investment, not a site visit. Save those for later contacts once mutual interest is established.
-3. **Show you've done your homework.** Reference one specific thing from their site (the PUE <1.1 figure, the school-conversion model, or the Ayagawa Kagawa facility). This signals that the email is not generic outreach.
+2. **No partnership ask yet.** Even with a referral, the first email asks for a short introductory conversation only — not a memorandum of understanding, not investment, not a site visit. Save those for later contacts once mutual interest is established.
+3. **Lead with the referral, then show you've done your homework.** Reference one specific thing from their site (the PUE <1.1 figure, the school-conversion model, or the Ayagawa Kagawa facility). This signals that the referral was taken seriously and that the email is not generic outreach.
 
 ### How to find the right contact
 
-- Start with their **website contact form** at https://highreso.jp/ — this is the official, low-friction route and is normal for first-touch in Japan
-- If you have a LinkedIn connection in common (likely via Joi Ito or the data-center community), a warm introduction is significantly stronger than a cold form submission
+- Start with their **website contact form** at https://highreso.jp/ — this is the official, low-friction route and is normal for first-touch in Japan, including referral-based first-touch
+- If Joi Ito is willing to send a direct line (an email to a named contact at HIGHRESO), that is **significantly stronger** than going through the contact form. Worth asking him before sending the form version
 - Avoid going directly to executives via LinkedIn InMail for first contact; the contact form is the culturally expected path
 
 ### What to expect
@@ -47,10 +51,11 @@ A formal partnership ask should only come after points 1–3 have established mu
 株式会社ハイレゾ
 ご担当者様
 
-突然のご連絡、誠に失礼いたします。
+このたびは、本プロジェクトの顧問の一人である **伊藤穰一様** より、貴社を「廃校活用型データセンターの運営において、御杖プロジェクトにとって意義ある協力先となり得る企業」としてご紹介いただきましたことから、ご連絡を差し上げる次第です。
+
 オランダ出身で、現在奈良県御杖村において小規模AIデータセンターを核とした地域再生プロジェクトを準備しております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
-御社のSDGsに関するお取り組みを拝見し、特に**廃校を活用された空冷型データセンター運営**、ならびに**PUE 1.1未満を実現されている設計思想**に深く感銘を受けました。私どもが御杖村の閉校（御杖小学校）を再活用して目指している方向と、まさに同じ方向性を、より大きなスケールで実現されている貴社のご経験から、ぜひ学ばせていただきたく、ご連絡を差し上げた次第です。
+伊藤様よりお伺いした上で貴社のSDGsに関するお取り組みを拝見し、特に**廃校を活用された空冷型データセンター運営**、ならびに**PUE 1.1未満を実現されている設計思想**に深く感銘を受けました。私どもが御杖村の閉校（御杖小学校）を再活用して目指している方向と、まさに同じ方向性を、より大きなスケールで実現されている貴社のご経験から、ぜひ学ばせていただきたく存じます。
 
 **御杖村プロジェクトの概要（簡略）:**
 - 奈良県御杖村の閉校舎を活用した、小規模AI／エッジコンピューティング・データセンター（サーバー10〜20台規模）
@@ -82,9 +87,11 @@ Project: https://mitsue.it
 
 Dear HIGHRESO Team,
 
-My apologies for the unsolicited contact. My name is Rob Oudendijk, a Dutch national currently preparing a rural revitalization project in Mitsue Village (御杖村), Nara Prefecture, centered on a small-scale AI data center.
+I am writing to introduce the Mitsue Village Project on the recommendation of **Joi Ito (伊藤穰一)**, an advisor to our initiative, who pointed us to HIGHRESO as a company whose work would be a particularly meaningful reference — and potentially a partner — for what we are building in Mitsue.
 
-I came across your SDGs page and was deeply impressed by your **air-cooled data centers in repurposed schools** and your **published PUE target of under 1.1**. The direction you are realizing at scale is essentially the same direction we are aiming for at a much smaller scale in Mitsue, repurposing the closed Mitsue Elementary School. I am writing to ask whether we might have the opportunity to learn from your experience.
+My name is Rob Oudendijk, a Dutch national currently preparing a rural revitalization project in Mitsue Village (御杖村), Nara Prefecture, centered on a small-scale AI data center.
+
+Following Mr. Ito's suggestion I reviewed your SDGs page and was deeply impressed by your **air-cooled data centers in repurposed schools** and your **published PUE target of under 1.1**. The direction you are realizing at scale is essentially the same direction we are aiming for at a much smaller scale in Mitsue, repurposing the closed Mitsue Elementary School.
 
 **Project at a glance:**
 - Small AI / edge-compute data center (~10–20 servers) in a closed elementary school, Mitsue Village, Nara
