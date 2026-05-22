@@ -67,7 +67,7 @@ The founding members of the organization are:
 
 - **Joi Ito** — former Director, MIT Media Lab
 - **Ray Ozzie** — software pioneer; former Microsoft Chief Software Architect
-- **[Advisor 3 — TBD]** — [name, title, area of expertise]
+- **San Poisson** — Project Manager
 - **[Advisor 4 — TBD]** — [name, title, area of expertise]
 
 ### 10. Adoption

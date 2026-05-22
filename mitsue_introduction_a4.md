@@ -53,7 +53,7 @@ These are not three separate ideas. Each one makes the others possible.
 
 **Rob Oudendijk** — Dutch electrical engineer, resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org), the global open citizen science network born after Fukushima.
 
-**Advisors:** Joi Ito (former MIT Media Lab Director) · Ray Ozzie (former Microsoft Chief Software Architect) · [Advisor 3 — TBD] · [Advisor 4 — TBD]
+**Advisors:** Joi Ito (former MIT Media Lab Director) · Ray Ozzie (former Microsoft Chief Software Architect) · San Poisson (Project Manager) · [Advisor 4 — TBD]
 
 A dedicated **non-profit** is being established with local residents, village leadership, forestry professionals, and academic partners.
 
