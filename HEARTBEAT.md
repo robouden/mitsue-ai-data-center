@@ -1,5 +1,9 @@
-# Heartbeat Tasks
+```markdown
+# Keep this file empty (or with only comments) to skip heartbeat API calls.
 
-## Daily Report Structure
-- Review and update daily report with activities by project
-- Track what kind of work is done for what projects in each activity section
+# Add tasks below when you want the agent to check something periodically.
+```
+
+## Related
+
+- [Heartbeat config](/gateway/config-agents)
