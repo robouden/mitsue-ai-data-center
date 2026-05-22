@@ -72,6 +72,73 @@ curl -u "apikey:<TOKEN>" -X PATCH https://openproject.mitsue.it/api/v3/work_pack
 | 9 | High |
 | 10 | Immediate |
 
+## Updating Personal Wiki Pages (rob-personal project)
+
+The OpenProject API does **not** support creating or updating wiki pages in this version.
+Updates go through the Rails console via SSH instead.
+
+### Wiki IDs
+| Project | Project ID | Wiki ID |
+|---------|-----------|---------|
+| rob-personal | 6 | 5 |
+| Mitsue ai data center | 3 | (none yet) |
+
+### Personal wiki pages
+| Page | Slug | Local file |
+|------|------|-----------|
+| 榧の種 · Kaya Seed Poem | `fei-nozhong-star-kaya-seed-poem` | `/home/rob/Documents/Mitsue/kaya_seed_poem.md` |
+| Mayor Meeting — Kaya Seed Card | `mayor-meeting-kaya-seed-card` | `/home/rob/Documents/Mitsue/mayor-meeting-card.md` |
+
+### Update procedure
+
+**Step 1 — Edit the local `.md` file** (e.g. `kaya_seed_poem.md`).
+
+**Step 2 — Copy to VPS and into the container:**
+```bash
+scp /home/rob/Documents/Mitsue/kaya_seed_poem.md root@80.208.225.44:/tmp/kaya_poem.md
+scp /home/rob/Documents/Mitsue/mayor-meeting-card.md root@80.208.225.44:/tmp/mayor_card.md
+ssh root@80.208.225.44 "docker cp /tmp/kaya_poem.md openproject-web-1:/tmp/kaya_poem.md"
+ssh root@80.208.225.44 "docker cp /tmp/mayor_card.md openproject-web-1:/tmp/mayor_card.md"
+```
+
+**Step 3 — Run the Rails updater:**
+```bash
+ssh root@80.208.225.44 "docker exec openproject-web-1 bash -c 'cd /app && bundle exec rails runner \"
+wiki = Wiki.find(5)
+admin = User.find_by(login: \\\\\"admin\\\\\")
+
+page1 = wiki.find_or_new_page(\\\\\"fei-nozhong-star-kaya-seed-poem\\\\\")
+page1.text = File.read(\\\\\"/tmp/kaya_poem.md\\\\\")
+page1.author = admin
+page1.save!
+puts \\\\\"Updated: #{page1.title}\\\\\"
+
+page2 = wiki.find_or_new_page(\\\\\"mayor-meeting-kaya-seed-card\\\\\")
+page2.text = File.read(\\\\\"/tmp/mayor_card.md\\\\\")
+page2.author = admin
+page2.save!
+puts \\\\\"Updated: #{page2.title}\\\\\"
+\"'"
+```
+
+**View in browser:**
+- https://openproject.mitsue.it/projects/rob-personal/wiki/fei-nozhong-star-kaya-seed-poem
+- https://openproject.mitsue.it/projects/rob-personal/wiki/mayor-meeting-kaya-seed-card
+
+### Adding a new wiki page
+
+```bash
+# On the VPS, inside the container:
+wiki = Wiki.find(5)
+page = wiki.find_or_new_page("your-slug")
+page.title = "Your Title"
+page.text = File.read("/tmp/your_file.md")
+page.author = User.find_by(login: "admin")
+page.save!
+```
+
+---
+
 ## Project Structure (imported from mitsue_todo.xlsx)
 
 Work packages are organised as:
