@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -24,7 +24,7 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 | 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
 | 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
 
-These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on biomass equipment, fiber availability, and building condition.
+These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/battery/EV equipment, optional biomass-electric (gasifier/CHP) capacity, fiber availability, and building condition.
 
 ---
 
@@ -106,18 +106,18 @@ There are **three relevant non-profit structures** in Japan, with different trad
 These are the **single most important documents** for unlocking serious funding. Get these right.
 
 1. **Forestry Feasibility Study** (~¥1.5–3M)
-   - Biomass yield from candidate sugi plots
+   - Thinning residue yield from candidate sugi plots (volume available as fuel input for biomass-electric conversion)
    - Transportation costs from steep terrain
    - Native forest restoration plan and timeline
    - Carbon sequestration estimate
    - Recommended providers: forestry consultants connected to 日本林業協会 or 林野庁
 
 2. **Energy Systems Feasibility Study** (~¥2–4M)
-   - Biomass plant sizing options
-   - Biogas potential
+   - Solar PV sizing on school rooftop and adjacent surfaces
+   - Battery storage requirements (data center load + EV charging + 12–48h blackout backup)
+   - EV charging capacity sizing (2–4 stations initially, scalable)
    - Grid connection and FIT/FIP eligibility
-   - Battery storage requirements
-   - Heat recovery opportunities
+   - **Biomass-electric optionality** — small gasifier or CHP unit feeding the same battery + EV bus (not a separate thermal plant); sizing, capex, and dispatch model for winter/nighttime/blackout gap-fill
 
 3. **Building & Site Assessment** (~¥1–2M)
    - Structural condition of school building
@@ -146,9 +146,9 @@ These are the **single most important documents** for unlocking serious funding.
 
 ### Key Activities
 - Detailed engineering and architectural plans
-- Permitting (forestry, building, METI biomass licensing, FIT registration)
+- Permitting (forestry, building, electrical & fire safety for EV/battery, FIT/FIP registration; biomass-electric permits only if Phase 2 study advances that option)
 - Partnership agreements with landowners (template contract)
-- Vendor selection for biomass equipment, data center hardware, IT
+- Vendor selection for solar/battery/EV equipment, data center hardware, IT; biomass-electric gasifier/CHP vendor scoping deferred to Phase 3
 - Major funding applications submitted
 - Hiring of first 2–3 part-time staff
 
@@ -174,7 +174,7 @@ These are the **single most important documents** for unlocking serious funding.
 - Creates fundable success story for Phase 4 expansion
 - Lowers risk if a major component proves harder than expected
 
-> **Early visible benefits to the village.** The 25-year horizon applies to forest restoration ecology — concrete community benefits arrive much earlier. Year-by-year tangible outcomes through Phases 0–3 (school reactivation, landowner income, biomass thermal output, EV charging, data center jobs) are summarized in the "Early Benefits — Visible Within Five Years" table in [`mitsue_village_government_onepager.md`](mitsue_village_government_onepager.md).
+> **Early visible benefits to the village.** The 25-year horizon applies to forest restoration ecology — concrete community benefits arrive much earlier. Year-by-year tangible outcomes through Phases 0–3 (school reactivation, landowner income, EV charging, blackout resilience, data center jobs) are summarized in the "Early Benefits — Visible Within Five Years" table in [`mitsue_village_government_onepager.md`](mitsue_village_government_onepager.md).
 
 ---
 
@@ -223,11 +223,10 @@ The project should pursue **multiple funding streams in parallel**, never depend
 
 #### Layer 5 — Revenue (Phase 3+)
 - Data center hosting fees
-- Electricity sales (if FIT-registered)
-- Heat sales to greenhouses or community
+- Electricity sales (if FIT/FIP-registered) — solar surplus plus biomass-electric output when active
 - EV charging fees
 - Carbon credits (J-Credit certification)
-- Forestry products beyond biomass (timber, lumber)
+- Forestry products beyond fuel residue (timber, lumber)
 - Educational tourism / consulting (sharing the playbook)
 
 ### Realistic Funding Scenario for First 3 Years
@@ -284,7 +283,7 @@ The quantitative case rests on five revenue and savings categories. **The ranges
 | Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from solar generation |
 | EV charging fees | ¥0 | ¥1–3M | ¥3–8M | Growing as EV fleet expands |
 | Carbon credits (J-Credit) | ¥0 | ¥1–3M | ¥3–10M | From forest restoration |
-| Forestry products (timber, lumber) | ¥0 | ¥3–8M | ¥10–20M | Beyond biomass use |
+| Forestry products (timber, lumber) | ¥0 | ¥3–8M | ¥10–20M | Beyond fuel-residue use |
 | Education / consulting | ¥0 | ¥1–3M | ¥3–8M | "Playbook" sharing |
 | **Total annual revenue (illustrative)** | **¥0** | **¥28–67M** | **¥74–166M** | |
 

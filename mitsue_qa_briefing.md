@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
@@ -16,9 +16,13 @@ This document responds to six questions raised during informal consultation. It 
 
 ## A note before the questions / ご質問にお答えする前に
 
-Several early conversations assumed biomass energy generation as the project's energy component. After extensive community consultation, the project is now focusing on **EV charging infrastructure and community energy resilience** — solar panels, battery storage, and EV charging stations — rather than a biomass boiler. This reflects both what the community needs most and what is most practical to implement.
+Several early conversations assumed biomass energy generation as the project's energy component. After extensive community consultation, the project is now focusing on **EV charging infrastructure and community energy resilience** — solar panels, battery storage, and EV charging stations — rather than a biomass heat boiler. This reflects both what the community needs most and what is most practical to implement.
+
+A note on forest residue: thinning produces sugi off-cuts that the project plans to convert into **electricity** (via a small gasifier or CHP unit feeding the same battery + EV stack) rather than into local heat. This keeps the energy system on a single electrical bus — solar by day, biomass-electric as a dispatchable backup at night or during winter blackouts — and avoids the permitting and maintenance burden of a separate thermal plant.
 
 ご相談を重ねた結果、エネルギー部門の焦点を**EVインフラと地域エネルギーレジリエンス**（太陽光発電・蓄電池・EV充電ステーション）に絞ることといたしました。これは地域のニーズと実現可能性の両面から最善の選択です。
+
+林産残材の取り扱いについて：間伐により発生する杉の端材は、熱としてではなく、小型ガス化発電装置またはCHPユニットを通じて**電力**へ変換し、太陽光・蓄電池・EV充電と同じ電力系統に統合する方針です。これにより、昼は太陽光、夜間・冬季・停電時はバイオマス発電による補完という、一つの電気系統に統一された設計が可能となり、独立した熱供給設備にともなう許認可・保守の負担を回避できます。
 
 ---
 
@@ -87,6 +91,16 @@ A stack of revenue streams, not a single source:
 5. **METI/NEDO grants** — rural energy resilience and EV infrastructure are explicit priority areas for government subsidy programs.
 6. **Phased capacity** — the funding-gate structure prevents over-scaling. EV charging begins small (2–4 stations) and expands as demand grows.
 
+### Q7. What happened to biomass? Why electricity instead of heat?
+
+Earlier conversations described a biomass boiler producing heat for greenhouses and village facilities. After community consultation, the project moved away from biomass-as-heat for three reasons — but biomass remains in the design, **reframed as a dispatchable electrical source**, not a thermal one. Key points:
+
+- **One electrical bus, not two systems.** Solar PV, battery storage, biomass-electric (small gasifier or CHP), and EV chargers all share the same DC/AC infrastructure. Heat requires a parallel hydraulic system with its own pumps, pipes, permits, and maintenance crew. Electricity is fungible — it powers the data center, charges EVs, and runs critical loads during a blackout. Heat only serves whatever sits next to the boiler.
+- **Forest residue still has an offtake.** Thinning produces sugi off-cuts that landowners cannot easily monetize. Converting them to electricity preserves the forestry revenue stream (and the village's existing 森林環境譲与税-funded thinning program) without committing to a thermal plant.
+- **Solar/nighttime/winter gap-fill.** Biomass-electric is most useful exactly when solar underproduces — winter days, nights, and during typhoon-driven grid outages. This is the same window in which EV charging and blackout resilience matter most.
+- **Mitsue Onsen precedent, but electrical.** Mitsue Onsen already operates a forest-residue boiler — local proof that the supply chain works. The project takes the next step: forest residue → electricity, on the same infrastructure that delivers solar and EV services.
+- **Timing.** Biomass-electric is a Phase 3 / Phase 4 optionality, not a Phase 0–2 commitment. Phase 2 feasibility (months 10–18) will size and price the option against alternatives; it is not a precondition for the EV/solar/battery core.
+
 ---
 
 # 日本語
@@ -153,6 +167,16 @@ A stack of revenue streams, not a single source:
 4. **データセンター基幹収益** ―― 最も重要な長期収入源。初期は地域エネルギーサービスを内部補助します。
 5. **経産省・NEDO補助金** ―― 農村エネルギーレジリエンスとEVインフラは補助制度の優先対象分野です。
 6. **段階的な能力拡張** ―― 充電ステーションは少数（2〜4台）から始め、需要拡大に合わせて増設します。
+
+### Q7. バイオマスはどうなったのでしょうか? なぜ「熱」ではなく「電気」なのでしょうか?
+
+以前のご説明では、温室や村の施設に熱を供給するバイオマス・ボイラーを想定しておりました。地域とのご相談を経て、プロジェクトは「熱としてのバイオマス」から離れることといたしました。ただし、バイオマス自体は計画から消えたわけではなく、**熱ではなく「電気」の補完電源**として位置付け直しております。要点は以下の通りです。
+
+- **電気系統を一本化する設計。** 太陽光・蓄電池・バイオマス発電（小型ガス化発電・CHP）・EV充電器を、すべて同一の直流／交流系統で運用します。熱を供給するには、ポンプ・配管・許認可・保守要員を含む並行的な熱供給系統が別途必要となります。電気は汎用性が高く、データセンター・EV・停電時の重要負荷など、用途を問わず使えます。一方、熱はボイラーの近傍施設にしか届きません。
+- **林産残材の出口は維持。** 間伐により発生する杉の端材は、山林所有者にとって従来現金化が難しいものです。これを電力に変換することで、林業収入の流れ（および村が現に活用している**森林環境譲与税**による間伐補助）を維持しつつ、独立した熱供給設備への投資を回避できます。
+- **太陽光・夜間・冬季の補完。** バイオマス発電が最も有用なのは、太陽光が発電しにくい冬期・夜間・台風による停電時です。これはEV充電と停電レジリエンスが最も求められる時間帯と一致します。
+- **御杖温泉の先例を、電気として継承。** 御杖温泉では既に森林由来のボイラーが稼働しており、燃料供給の仕組みは実証済みでございます。本プロジェクトはその次の段階として、森林残材を「電力」に変換し、太陽光・EVサービスと同じインフラに統合いたします。
+- **時期について。** バイオマス発電は第3段階／第4段階の選択肢として位置付けており、第0〜2段階の必須要素ではございません。第2段階のフィージビリティスタディ（10〜18か月目）で他の選択肢と比較し、規模・コストを精査いたします。EV・太陽光・蓄電池の基幹計画は、バイオマス発電の採否に左右されません。
 
 ---
 

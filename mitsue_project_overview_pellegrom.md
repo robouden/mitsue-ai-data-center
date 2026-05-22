@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 
@@ -84,7 +84,8 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Educational component** — partner with universities for student internships and research projects; the school setting is symbolic and practical  
 - **Citizen science integration** — Safecast environmental monitoring (radiation, air quality, forest health) deployed across the project area as a living lab  
 - **Open data commitment** — publish energy production, forest growth, and environmental data publicly (aligns with your Safecast philosophy and Dutch open-government values)  
-- **Server waste heat loop** — data center heat can still warm community spaces or a small greenhouse, closing a useful loop without requiring a separate biomass plant  
+- **Server waste heat loop** — data center heat can still warm community spaces or a small greenhouse, closing a useful loop without requiring a separate thermal plant
+- **Forest residue → electricity (optional, Phase 3+)** — sugi thinning off-cuts can later feed a small gasifier or CHP unit that injects into the same battery + EV bus as the solar array, providing a dispatchable backup source for winter, night, and blackout hours; this preserves a forestry-revenue tie-in without committing to a thermal boiler plant  
 - **EV charging network** — install charging stations in Mitsue and neighboring villages from year one, creating immediate visible value to residents  
 **Strategic Positioning**  
 - **Make it a model, not a one-off.** Document everything as an open playbook so other Japanese villages can replicate it. This attracts government and philanthropic interest faster.  
