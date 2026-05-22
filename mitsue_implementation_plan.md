@@ -1,4 +1,4 @@
-<p align="right">Version: v2.2 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.3 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -129,6 +129,45 @@ These are the **single most important documents** for unlocking serious funding.
    - Current fiber capacity to Mitsue
    - Upgrade requirements and costs
    - Coordination with NTT / regional providers
+
+### Indicative Sizing — Data Center Load vs Forestry Supply
+
+A first-order check that biomass-electric is plausibly supplied by the village's existing thinning program. Final figures come from the Phase 1 feasibility studies above; these are planning estimates.
+
+**Data center electrical load (10–20 servers, edge compute, PUE 1.2):**
+
+| Scenario | IT load | Facility load | Annual kWh |
+|---|---|---|---|
+| Lean (10 × 300 W) | 3.0 kW | 3.6 kW | ~31,500 |
+| Baseline (15 × 500 W) | 7.5 kW | 9.0 kW | ~78,800 |
+| AI-leaning (20 × 700 W, PUE 1.3) | 14.0 kW | 18.2 kW | ~159,500 |
+
+PUE 1.2 is a realistic planning figure for the air-cooled school-conversion archetype (HIGHRESO's published target for similar deployments is <1.1).
+
+**Wood-to-electricity conversion:**
+Small-scale (under 100 kWe) Japanese wood-gasification CHP plants consume **~1.0 kg of wood chips per kWh of electricity** at ~15% moisture content (documented operating range 0.6–1.2 kg/kWh; 1.0 used here for part-load and degradation margin).
+
+**EV charging load (must be added — ramps over years):**
+
+EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytime), so most EV energy is solar-coincident and only ~20–40% of its raw kWh adds to the biomass-electric gap-fill window. The data center is the inflexible 24/7 base.
+
+| Period | EV charger build-out | Annual EV kWh | Combined DC + EV kWh/yr |
+|---|---|---|---|
+| Year 3–5 | 2 × 6 kW AC, low rural utilization | ~10,000–20,000 | ~90–100k |
+| Year 5–7 | 4 chargers, growing demand | ~30,000–60,000 | ~110–140k |
+| Year 10+ | 4–6 chargers incl. 1–2 DC fast | ~100,000–150,000 | ~180–230k |
+
+**Annual wood requirement — biomass-electric as gap-fill (30–40% of DC load + ~25% of EV load, the actual Phase 3+ design role):**
+
+| Year horizon (baseline 15-server DC + EV growth) | Wood (tonnes/year) |
+|---|---|
+| Year 3–5 (early EV) | ~30–40 t |
+| Year 5–7 (growing EV) | ~38–52 t |
+| Year 10+ (mature EV) | ~55–80 t |
+
+(Lean-DC and AI-leaning-DC variants scale roughly ±50% around the baseline column.)
+
+**Supply check.** The village currently thins ~27.81 ha/year under the Forest Environment Transfer Tax (森林環境譲与税) program. Conservative residue yield (~30–40% of harvested volume that is non-lumber-grade) gives **~150–325 tonnes/year of residue available** village-wide. The project's own Phase 3 forestry adds another 5–10 ha → **30–100 t/yr** of residue independently. Either source comfortably covers the Year 5–7 baseline gap-fill demand (~38–52 t/yr); the Year 10+ scaled scenario (~55–80 t/yr) is still ~25–50% of existing village residue. **Feedstock is not the constraint; gasifier capex is** (¥30–80M for 40–100 kWe class units in Japan), which is why this remains a Phase 3+ optionality rather than a Phase 0–2 commitment.
 
 ### Phase 1 Deliverables
 - Legal entity registered
