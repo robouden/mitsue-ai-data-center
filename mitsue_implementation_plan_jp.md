@@ -1,4 +1,4 @@
-<p align="right">Version: v2.3 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.4 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 **御杖プロジェクト ― 実施計画**  
 **構想から実現へ**  
@@ -137,6 +137,18 @@ EV充電は **時間帯シフトが可能** な負荷であり、日中の太陽
 （低構成・AI重視構成は上表の標準値を概ね±50%でスケールする。）  
 
 **供給力チェック.** 御杖村では森林環境譲与税の枠組みで年間約27.81 haの間伐を実施している。残材歩留り（用材化できない部分）を保守的に30〜40%と見積もると、村全体で **年間約150〜325 t の残材** が発生する計算となる。プロジェクト第3段階の追加間伐（5〜10 ha）からも独立して **年間30〜100 t** の残材が見込める。いずれの供給源も 5〜7年目の標準補完需要（約38〜52 t/年）を十分に賄える規模であり、10年目以降の最大需要（約55〜80 t/年）でも既存残材の25〜50%にとどまる。**燃料供給がボトルネックになることはなく、制約はガス化発電装置の初期投資**（日本国内の40〜100 kWe級機器で¥3,000万〜8,000万円）にある。これがバイオマス発電を第0〜2段階の必須要素ではなく、第3段階以降の選択肢として位置付ける根拠である。  
+
+**出典・前提条件**（第1段階フィージビリティスタディにて検証予定）:  
+
+- 株式会社ハイレゾ ― 廃校活用型の空冷データセンター、公表PUE目標 1.1 未満: https://highreso.jp/sdgs/
+- 御杖村 森林環境譲与税による間伐 27.81 ha/年（村政策の概要・Grokipedia 経由）: https://grokipedia.com/page/mitsue_nara
+- 100 kWe 未満の日本国内木質ガス化 CHP プラントにおける木材／電力変換係数 約0.6〜1.2 kg/kWh。40 kWe ENTRENCO クラス（串間病院設置例）で含水率15%チップを約 1 t/日 消費。文献: 「日本における木質バイオマスガス化発電の現状分析」MDPI Energies 13(18) 4903: https://mdpi.com/1996-1073/13/18/4903/htm
+- 木質チップ燃料CHP熱供給システムの技術経済評価: MDPI Sustainability 14(24) 16878: https://www.mdpi.com/2071-1050/14/24/16878
+- 小規模ガス化CHPのベンチマーク数値（電気効率、初期投資水準）: IEA Bioenergy Task 33 ワークショップ報告書（2022）: https://task33.ieabioenergy.com/wp-content/uploads/sites/33/2022/07/WS-Report-final-2.pdf
+- 日本のバイオマス市場・FIT制度: USDA FAS Japan Biomass Annual 2023: https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Japan+Biomass+Annual+2023_Tokyo_Japan_JA2023-0071.pdf
+- 杉（Cryptomeria japonica）の比重は含水率15%で約290 kg/m³ と仮定。ヘクタールあたりの蓄積量および間伐率は林野庁の標準的な森林資源統計に基づく。
+- サーバー消費電力（300〜700 W/台）および PUE 前提: エッジデータセンター業界資料、[IAEI Magazine](https://iaeimagazine.org/electrical-fundamentals/how-much-electricity-does-a-data-center-use-complete-2025-analysis/)、[Dgtl Infra](https://dgtlinfra.com/what-is-an-edge-data-center/) など。
+- 地方部における EV 充電器稼働率モデル: 計画前提値（1〜3年目 10〜20%、5年目以降 30〜50%）。フィージビリティスタディで検証予定。
 
 **第1段階の成果物**  
 - 法人登記完了  

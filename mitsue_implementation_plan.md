@@ -1,4 +1,4 @@
-<p align="right">Version: v2.3 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.4 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -168,6 +168,18 @@ EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytim
 (Lean-DC and AI-leaning-DC variants scale roughly ±50% around the baseline column.)
 
 **Supply check.** The village currently thins ~27.81 ha/year under the Forest Environment Transfer Tax (森林環境譲与税) program. Conservative residue yield (~30–40% of harvested volume that is non-lumber-grade) gives **~150–325 tonnes/year of residue available** village-wide. The project's own Phase 3 forestry adds another 5–10 ha → **30–100 t/yr** of residue independently. Either source comfortably covers the Year 5–7 baseline gap-fill demand (~38–52 t/yr); the Year 10+ scaled scenario (~55–80 t/yr) is still ~25–50% of existing village residue. **Feedstock is not the constraint; gasifier capex is** (¥30–80M for 40–100 kWe class units in Japan), which is why this remains a Phase 3+ optionality rather than a Phase 0–2 commitment.
+
+**Sources & assumptions** (for Phase 1 feasibility study validation):
+
+- HIGHRESO Co., Ltd. — air-cooled data centers in repurposed schools, published PUE target <1.1: https://highreso.jp/sdgs/
+- Mitsue Village forestry program — 27.81 ha/yr thinning under 森林環境譲与税 (cited via Grokipedia summary of village policy): https://grokipedia.com/page/mitsue_nara
+- Small-scale (under 100 kWe) Japanese wood gasification CHP — wood-to-electricity conversion ~0.6–1.2 kg/kWh; 40 kWe ENTRENCO-class unit at Kushima Hospital documented at ~1 t/day woodchips at 15% MC. Reference: "An Analysis of the Current Status of Woody Biomass Gasification Power Generation in Japan", MDPI Energies 13(18) 4903: https://mdpi.com/1996-1073/13/18/4903/htm
+- Techno-economic assessment of woodchip-fed CHP heat-supply systems: MDPI Sustainability 14(24) 16878: https://www.mdpi.com/2071-1050/14/24/16878
+- Small-scale gasification CHP benchmark figures (electrical efficiency, capex ranges): IEA Bioenergy Task 33 workshop report (2022): https://task33.ieabioenergy.com/wp-content/uploads/sites/33/2022/07/WS-Report-final-2.pdf
+- Japanese biomass market context and FIT framework: USDA FAS Japan Biomass Annual 2023: https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Japan+Biomass+Annual+2023_Tokyo_Japan_JA2023-0071.pdf
+- Sugi (Cryptomeria japonica) wood density assumed at ~290 kg/m³ at 15% moisture content; standing volume per ha and thinning removal rates from standard Japanese forestry references (林野庁 timber statistics).
+- Server power draw (300–700 W/server) and PUE assumptions: edge data center industry references including [IAEI Magazine](https://iaeimagazine.org/electrical-fundamentals/how-much-electricity-does-a-data-center-use-complete-2025-analysis/) and [Dgtl Infra](https://dgtlinfra.com/what-is-an-edge-data-center/).
+- EV charger utilization model in rural Japan: planning assumption (10–20% utilization Year 1–3, 30–50% Year 5+), to be validated in feasibility study.
 
 ### Phase 1 Deliverables
 - Legal entity registered
