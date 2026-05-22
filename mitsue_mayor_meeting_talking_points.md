@@ -1,4 +1,4 @@
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Village Mayor Conversation — Talking Points
 ### Meeting with Mitsue Village Mayor (御杖村長)
@@ -244,6 +244,13 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 > "ご指摘の通り、当初はバイオマス・ボイラーによる熱供給を想定しておりました。その後の地域との対話を通じて、エネルギー部門の中心を太陽光・蓄電池・EV充電へと整理いたしました。森林の間伐残材は廃棄するのではなく、将来的に**小型のバイオマス発電装置**で電力に変換し、太陽光と同じ蓄電池・EV系統へ統合する設計でございます。熱供給用のボイラーを別途建設するのではなく、電気として一本化する考え方です。導入の可否と規模は第2段階のフィージビリティスタディで判断いたします。"
 >
 > *(Originally the concept included a biomass boiler producing heat. Through community consultation we reorganized the energy core to solar + battery + EV charging. Forest thinning residue is not discarded but, in a future phase, converted to electricity via a small biomass-electric unit feeding the same battery + EV bus as the solar array — one unified electrical system, no separate thermal plant. Phase 2 feasibility will decide whether and at what size to add it.)*
+
+### Positioning under the village's 5-enterprise startup program
+If the conversation turns to village policy or youth retention, signal alignment with the village's own startup-subsidy framework:
+
+> "村が掲げておられる『5年で5社の新規事業創出』の方針とも、本プロジェクトは整合しております。NPO本体に加え、林業部門・EV/エネルギー事業部門などを将来的に事業会社として独立させることも視野に入れており、それぞれが村の若者定着策の一端を担えればと考えております。具体的な補助制度の適用については、募集要項を確認のうえ、村長のご指導を仰ぎたく存じます。"
+>
+> *(The project aligns with the village's stated "5 new enterprises over 5 years" policy. Beyond the NPO itself, we envisage spinning forestry operations and EV/energy services into separate operating companies over time, each contributing to the village's youth-retention strategy. We would like to confirm subsidy eligibility against the actual 募集要項 under the mayor's guidance.)*
 
 If the mayor asks something not on this list, it is better to say *"村長、その点は専門家とともに改めて整理してご報告させていただきとう存じます"* (*"Mayor, allow me to come back to you on that point with our specialists"*) than to improvise. Promising to follow up is more credible than guessing.
 

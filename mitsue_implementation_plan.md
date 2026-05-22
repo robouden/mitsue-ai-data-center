@@ -1,4 +1,4 @@
-<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -205,6 +205,8 @@ The project should pursue **multiple funding streams in parallel**, never depend
 - **METI green technology subsidies** — for rural energy resilience and EV infrastructure
 - **Nara Prefecture rural development grants** — varies by year; check 奈良県地域創造課
 - **Mitsue village local subsidies** — small but politically meaningful
+- **Mitsue village startup subsidy program** — partial business-cost support for new enterprises; village policy targets **5 new enterprises over 5 years** to retain youth and stem depopulation. The project should be positioned as filling one or more of those slots. *Eligibility for NPOs to be confirmed with the village 募集要項; if the program is restricted to for-profit entities, the NPO can incorporate subsidiary 合同会社 / GKs (forestry operations, EV/energy services, biomass-electric operations) that apply separately.* Politically aligned with stated village policy; coordinate with the mayor before applying.
+- **森林環境譲与税 (Forest Environment Transfer Tax)** — already funding the village's ongoing thinning program (~28 ha/yr); applies to forestry operations and to thinning-residue supply chains feeding biomass-electric.
 
 **Recommendation:** Hire a **行政書士 (administrative scrivener)** experienced in grant applications. Cost: ¥200,000–500,000 per application. Worth every yen — Japanese government grant applications are notoriously demanding.
 

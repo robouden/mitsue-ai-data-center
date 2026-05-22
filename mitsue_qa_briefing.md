@@ -1,4 +1,4 @@
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
@@ -89,7 +89,8 @@ A stack of revenue streams, not a single source:
 3. **J-Credit** — carbon offset income from verified renewable generation.
 4. **Data center anchor revenue** — the primary long-term income source; cross-subsidizes community energy services in early years.
 5. **METI/NEDO grants** — rural energy resilience and EV infrastructure are explicit priority areas for government subsidy programs.
-6. **Phased capacity** — the funding-gate structure prevents over-scaling. EV charging begins small (2–4 stations) and expands as demand grows.
+6. **Mitsue village startup subsidy** — the village's own program (5 new enterprises over 5 years, partial business-cost support) is a natural fit. The project, or for-profit sub-entities the NPO incorporates, can apply. Politically aligned with stated village policy on youth retention and depopulation.
+7. **Phased capacity** — the funding-gate structure prevents over-scaling. EV charging begins small (2–4 stations) and expands as demand grows.
 
 ### Q7. What happened to biomass? Why electricity instead of heat?
 
@@ -166,7 +167,8 @@ Earlier conversations described a biomass boiler producing heat for greenhouses 
 3. **J-クレジット** ―― 再生可能エネルギー発電に対する炭素オフセット収入。
 4. **データセンター基幹収益** ―― 最も重要な長期収入源。初期は地域エネルギーサービスを内部補助します。
 5. **経産省・NEDO補助金** ―― 農村エネルギーレジリエンスとEVインフラは補助制度の優先対象分野です。
-6. **段階的な能力拡張** ―― 充電ステーションは少数（2〜4台）から始め、需要拡大に合わせて増設します。
+6. **御杖村 起業支援補助金** ―― 「5年で5社の新規事業創出」を掲げる村の制度。本プロジェクト本体、もしくはNPO傘下に設立する事業会社（合同会社・GK等）が対象となり得ます。若者定着・過疎対策という村の政策方針と整合します。
+7. **段階的な能力拡張** ―― 充電ステーションは少数（2〜4台）から始め、需要拡大に合わせて増設します。
 
 ### Q7. バイオマスはどうなったのでしょうか? なぜ「熱」ではなく「電気」なのでしょうか?
 
