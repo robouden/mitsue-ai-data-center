@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Mitsue Project — Founding Charter
 ### 御杖プロジェクト設立憲章
@@ -67,7 +67,8 @@ The founding members of the organization are:
 
 - **Joi Ito** — former Director, MIT Media Lab
 - **Ray Ozzie** — software pioneer; former Microsoft Chief Software Architect
-- [Additional advisors to be added]
+- **[Advisor 3 — TBD]** — [name, title, area of expertise]
+- **[Advisor 4 — TBD]** — [name, title, area of expertise]
 
 ### 10. Adoption
 

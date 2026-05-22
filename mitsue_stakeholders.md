@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-17</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Mitsue Project — Stakeholders & Relations
 
@@ -16,8 +16,10 @@
 ### Advisors
 | Name      | Role                                                                                                                                                                                                                                            |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Joi Ito   | Former MIT Media Lab Director; AI policy advisor to Japanese government; member of METI AI Strategy Council & Digital Agency advisory bodies; deep connections across Japanese tech, government, and philanthropy circles; confirmed May 5 2026 |
-| Ray Ozzie | Creator of Lotus Notes; former Microsoft CSA; confirmed May 5 2026                                                                                                                                                                              |
+| Joi Ito              | Former MIT Media Lab Director; AI policy advisor to Japanese government; member of METI AI Strategy Council & Digital Agency advisory bodies; deep connections across Japanese tech, government, and philanthropy circles; confirmed May 5 2026 |
+| Ray Ozzie            | Creator of Lotus Notes; former Microsoft CSA; confirmed May 5 2026                                                                                                                                                                              |
+| [Advisor 3 — TBD]   | [Name, title, area of expertise — to be confirmed]                                                                                                                                                                                              |
+| [Advisor 4 — TBD]   | [Name, title, area of expertise — to be confirmed]                                                                                                                                                                                              |
 
 ### Local Stakeholders
 | Name                              | Role                                               |
