@@ -304,6 +304,105 @@ The header and sidebar use robouden dark colors, set via OpenProject's 7 built-i
 
 ---
 
+## Generating PDFs from Markdown
+
+Project documents are stored as `.md` files and committed alongside matching `.pdf` files. Regenerate PDFs after editing any `.md` file.
+
+### Prerequisites
+
+| Tool | Install | Notes |
+|---|---|---|
+| `pandoc` | `sudo apt install pandoc` | Converts Markdown → HTML |
+| `mermaid-filter` | `npm install -g mermaid-filter` | Pandoc filter — renders Mermaid diagrams as PNG images |
+| `google-chrome` | system package | Converts HTML → PDF (headless) |
+
+`npx mmdc` (Mermaid CLI) is used internally by `mermaid-filter`; it is installed automatically when `mermaid-filter` runs if not already present.
+
+### Single file
+
+```bash
+cd "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center"
+
+MERMAID_FILTER_FORMAT=png \
+  pandoc myfile.md -t html -o /tmp/myfile.html \
+  -F /home/rob/.npm-global/bin/mermaid-filter \
+  --metadata title="myfile" --standalone
+
+google-chrome --headless --no-sandbox --disable-gpu \
+  --print-to-pdf="myfile.pdf" \
+  "file:///tmp/myfile.html"
+
+rm /tmp/myfile.html
+```
+
+### Batch — regenerate all documents
+
+```bash
+bash /tmp/gen_pdfs.sh
+```
+
+The script lives at `/tmp/gen_pdfs.sh` but is ephemeral. Recreate it if needed:
+
+```bash
+cat > /tmp/gen_pdfs.sh << 'EOF'
+#!/bin/bash
+set -e
+DIR="/home/rob/Documents/Mitsue/Mitsue Village Project AI data center"
+FILTER="/home/rob/.npm-global/bin/mermaid-filter"
+export MERMAID_FILTER_FORMAT=png
+export PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome
+
+files=(
+  README.md README_jp.md
+  mitsue_email_highreso_intro.md
+  mitsue_founding_charter.md
+  mitsue_implementation_plan.md mitsue_implementation_plan_jp.md
+  mitsue_introduction_a4.md mitsue_introduction_a4_jp.md
+  mitsue_mayor_meeting_talking_points.md mitsue_mayor_meeting_talking_points_ja.md
+  mitsue_project_founding_story.md mitsue_project_founding_story_jp.md
+  mitsue_project_overview_pellegrom.md
+  mitsue_qa_briefing.md
+  mitsue_village_government_onepager.md mitsue_village_government_onepager_jp.md
+  mitsue_wbs.md mitsue_wbs_jp.md
+  mitsue_stakeholders.md mitsue_stakeholders_jp.md
+)
+
+for md in "${files[@]}"; do
+  base="${md%.md}"
+  html="/tmp/pdf_build_${base}.html"
+  pdf="${DIR}/${base}.pdf"
+  echo "→ $md"
+  pandoc "${DIR}/${md}" -t html -o "$html" -F "$FILTER" \
+    --metadata title="$base" --standalone 2>/dev/null
+  google-chrome --headless --no-sandbox --disable-gpu \
+    --print-to-pdf="$pdf" "file://${html}" 2>/dev/null
+  rm -f "$html"
+  echo "  ✓ ${base}.pdf"
+done
+echo "Done."
+EOF
+chmod +x /tmp/gen_pdfs.sh
+bash /tmp/gen_pdfs.sh
+```
+
+After regenerating, commit and push:
+
+```bash
+cd "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center"
+git add *.pdf
+git commit -m "docs: regenerate PDFs"
+git push origin main && git push github main
+```
+
+### Notes
+
+- **Mermaid diagrams** (`\`\`\`mermaid` blocks) are rendered to PNG by `mermaid-filter` before Chrome converts the HTML to PDF. Files that currently contain Mermaid: `README.md`, `README_jp.md`, `mitsue_stakeholders.md`, `mitsue_stakeholders_jp.md`.
+- **Japanese fonts** render correctly because Chrome uses the system font stack; no extra configuration needed.
+- **Page size** is Chrome's default (US Letter). The `.md` files use inline `<style>` blocks for font sizes and margins — these are preserved in the HTML→PDF conversion.
+- **SVG diagrams** in `mitsue_wbs.md` and `mitsue_wbs_jp.md` are inline HTML and render natively without any filter.
+
+---
+
 ## Project Documents (Codeberg)
 
 All documents live at: **https://codeberg.org/YR-Design/mitsue-ai-data-center**
