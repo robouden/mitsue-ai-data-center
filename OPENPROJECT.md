@@ -323,25 +323,66 @@ Project documents are stored as `.md` files and committed alongside matching `.p
 ```bash
 cd "/home/rob/Documents/Mitsue/Mitsue Village Project AI data center"
 
+# Step 1 — Markdown → HTML (Mermaid diagrams rendered to PNG)
 MERMAID_FILTER_FORMAT=png \
   pandoc myfile.md -t html -o /tmp/myfile.html \
   -F /home/rob/.npm-global/bin/mermaid-filter \
   --metadata title="myfile" --standalone
 
-google-chrome --headless --no-sandbox --disable-gpu \
-  --print-to-pdf="myfile.pdf" \
-  "file:///tmp/myfile.html"
+# Step 2 — HTML → PDF via puppeteer (no date/filename headers)
+node /tmp/md2pdf.js /tmp/myfile.html myfile.pdf
 
 rm /tmp/myfile.html
 ```
 
+**Why puppeteer instead of `google-chrome --print-to-pdf`?**
+Chrome 112+ new headless ignores `--print-to-pdf-no-header-footer`, so the
+date/time and filename always appear. The puppeteer script uses the Chrome DevTools
+Protocol directly with `displayHeaderFooter: false`, which works on all Chrome versions.
+
+### Helper script — md2pdf.js
+
+Lives at `/tmp/md2pdf.js` (ephemeral — recreate after reboot):
+
+```bash
+cat > /tmp/md2pdf.js << 'JSEOF'
+const puppeteer = require('/home/rob/.npm-global/lib/node_modules/mermaid-filter/node_modules/puppeteer');
+const path = require('path');
+
+async function htmlToPdf(htmlFile, pdfFile) {
+  const browser = await puppeteer.launch({
+    executablePath: '/usr/bin/google-chrome',
+    args: ['--no-sandbox', '--disable-gpu'],
+    headless: true,
+  });
+  const page = await browser.newPage();
+  await page.goto('file://' + htmlFile, { waitUntil: 'networkidle0' });
+  await page.pdf({
+    path: pdfFile,
+    format: 'A4',
+    displayHeaderFooter: false,
+    printBackground: true,
+    margin: { top: '15mm', bottom: '15mm', left: '15mm', right: '15mm' },
+  });
+  await browser.close();
+}
+
+const [,, htmlFile, pdfFile] = process.argv;
+htmlToPdf(path.resolve(htmlFile), path.resolve(pdfFile))
+  .then(() => console.log('✓ ' + path.basename(pdfFile)))
+  .catch(e => { console.error(e); process.exit(1); });
+JSEOF
+```
+
 ### Batch — regenerate all documents
+
+Both `/tmp/md2pdf.js` and `/tmp/gen_pdfs.sh` are ephemeral. Recreate with blocks above then:
 
 ```bash
 bash /tmp/gen_pdfs.sh
 ```
 
-The script lives at `/tmp/gen_pdfs.sh` but is ephemeral. Recreate it if needed:
+Full batch script:
 
 ```bash
 cat > /tmp/gen_pdfs.sh << 'EOF'
@@ -374,10 +415,8 @@ for md in "${files[@]}"; do
   echo "→ $md"
   pandoc "${DIR}/${md}" -t html -o "$html" -F "$FILTER" \
     --metadata title="$base" --standalone 2>/dev/null
-  google-chrome --headless --no-sandbox --disable-gpu \
-    --print-to-pdf="$pdf" "file://${html}" 2>/dev/null
+  node /tmp/md2pdf.js "$html" "$pdf"
   rm -f "$html"
-  echo "  ✓ ${base}.pdf"
 done
 echo "Done."
 EOF
