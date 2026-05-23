@@ -20,9 +20,9 @@ By the year 2050, Mitsue Village will be home to a self-sustaining model of rura
 ### 4. Core Activities
 The organization shall pursue the following activities:
 
-- **Forest Restoration**: Gradual replacement of aged sugi (cedar) plantations with native broadleaf species, in cooperation with private landowners and forestry authorities.
-- **Sustainable Energy Generation**: Provision of solar generation, battery storage, and EV charging infrastructure for village residents and visitors, providing clean local energy and backup power during grid outages.
-- **Digital Infrastructure**: Operation of a small-scale, energy-efficient data center within the repurposed Mitsue Elementary School building.
+- **Forest Restoration**: Gradual replacement of aged sugi (cedar) plantations with native broadleaf species, in cooperation with private landowners and forestry authorities. Native broadleaf trees provide natural food for deer, wild boar, and bear, reducing wildlife raids on surrounding crop areas.
+- **Sustainable Energy Generation**: Provision of privately owned solar generation, biomass-electric generation from forest thinning residue, and EV charging infrastructure for village residents and visitors, providing clean local energy and backup power during grid outages. Battery storage to be confirmed by feasibility study.
+- **Digital Infrastructure**: Operation of a small-scale, energy-efficient community-owned AI data center within the repurposed Mitsue Elementary School building — a working model demonstrating that technological progress and ecological sustainability are a single coherent system.
 - **EV Charging Network**: Provision of electric vehicle charging infrastructure for residents and visitors.
 - **Education and Open Knowledge**: Documentation and open publication of all methods, data, and lessons learned.
 - **Community Partnership**: Continuous engagement with Mitsue residents, landowners, and the village government.

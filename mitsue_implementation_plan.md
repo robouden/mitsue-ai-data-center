@@ -24,7 +24,7 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 | 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
 | 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
 
-These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/battery/EV equipment, optional biomass-electric (gasifier/CHP) capacity, fiber availability, and building condition.
+These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/biomass-electric/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
 
 ---
 
@@ -114,10 +114,10 @@ These are the **single most important documents** for unlocking serious funding.
 
 2. **Energy Systems Feasibility Study** (~¥2–4M)
    - Solar PV sizing on school rooftop and adjacent surfaces
-   - Battery storage requirements (data center load + EV charging + 12–48h blackout backup)
    - EV charging capacity sizing (2–4 stations initially, scalable)
    - Grid connection and FIT/FIP eligibility
-   - **Biomass-electric optionality** — small gasifier or CHP unit feeding the same battery + EV bus (not a separate thermal plant); sizing, capex, and dispatch model for winter/nighttime/blackout gap-fill
+   - **Biomass-electric sizing** — small gasifier or CHP unit feeding the same EV bus as solar (not a separate thermal plant); sizing, capex, and dispatch model for winter/nighttime/blackout gap-fill
+   - Battery storage requirements (data center load + EV charging + 12–48h blackout backup; subject to feasibility study confirmation)
 
 3. **Building & Site Assessment** (~¥1–2M)
    - Structural condition of school building
@@ -197,9 +197,9 @@ EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytim
 
 ### Key Activities
 - Detailed engineering and architectural plans
-- Permitting (forestry, building, electrical & fire safety for EV/battery, FIT/FIP registration; biomass-electric permits only if Phase 2 study advances that option)
+- Permitting (forestry, building, electrical & fire safety for EV/biomass-electric, FIT/FIP registration; battery storage permits if feasibility study confirms)
 - Partnership agreements with landowners (template contract)
-- Vendor selection for solar/battery/EV equipment, data center hardware, IT; biomass-electric gasifier/CHP vendor scoping deferred to Phase 3
+- Vendor selection for solar/biomass-electric/EV equipment, data center hardware, IT; battery storage vendor scoping deferred pending feasibility study
 - Major funding applications submitted
 - Hiring of first 2–3 part-time staff
 
@@ -214,7 +214,7 @@ EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytim
 
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
-- **Energy**: Rooftop solar panels + battery storage + EV charging stations (2–4 chargers initially, scaling with demand); battery sized to provide 12–48 hours of critical-facility backup during grid outages
+- **Energy**: Privately owned rooftop solar panels + biomass-electric unit (from forest thinning residue) + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
 - **Building**: Renovate one wing of the school for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit

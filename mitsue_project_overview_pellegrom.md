@@ -1,4 +1,4 @@
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 
@@ -8,13 +8,13 @@
 **The Idea in Brief**  
 Repurpose the closed Mitsue Elementary School as a **rural sustainable energy hub** combining:  
 
-1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species  
-2. **EV charging infrastructure & community energy resilience** — solar panels, battery storage, and EV charging stations at the school  
-3. **A micro-scale AI data center** — powered entirely by this locally generated renewable energy  
+1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species; native trees provide natural food for deer, wild boar, and bear, keeping wildlife in the forest and out of crop areas  
+2. **EV charging infrastructure & community energy resilience** — privately owned solar and biomass-electric generation, EV charging stations at the school; battery storage subject to feasibility study  
+3. **A community-owned AI data center** — powered entirely by locally generated renewable energy; a working model demonstrating that technological progress and ecological sustainability are a single coherent system  
 A single integrated project that addresses ecology, energy, rural revitalization, and digital infrastructure in one place.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCUpfDq4wwIAABiywEZJWQZeZ2ao9AAD+4liruzq/ngAA8Nr1ABweBgdur/QFAAAAAElFTkSuQmCC)  
 **Timeframe: 25 Years**  
-The project is planned as a **25-year initiative**, designed to bridge the gap until  **localized small-scale fusion power generation** becomes commercially available. Solar, battery storage, and EV charging infrastructure is the practical, sustainable solution for the coming decades — fusion is the long-term horizon.  
+The project is planned as a **25-year initiative**, designed to bridge the gap until  **localized small-scale fusion power generation** becomes commercially available. Solar, biomass-electric generation, and EV charging infrastructure is the practical, sustainable solution for the coming decades — fusion is the long-term horizon.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OQQmAABRAsad4FCtY9ecwnkms4E2ELcGWmTmrKwAA/uLeqrU6vp4AAPDa/gDzUgM9+S8z3AAAAABJRU5ErkJggg==)  
 **Why Now — The EV Power Demand**  
 Within roughly **10 years, most cars in Japan will be electric vehicles**. This will require dramatically more  **localized electric power generation** — especially in the countryside, where grid extension is expensive and slow.  
@@ -27,7 +27,7 @@ A **non-profit organization (NGO)** will be established to coordinate the projec
 - **Forestry contractors and managers** — for the harvesting operations  
 - **Private mountain/forest landowners** — for sourcing sugi from privately owned land  
 - **Data center operators** — Japanese and international, for technical partnership and operational expertise  
-- **Business partners** — solar and battery storage suppliers, EV charging operators, IT infrastructure providers  
+- **Business partners** — solar and biomass-electric suppliers, EV charging operators, IT infrastructure providers  
 - **Communications teams** — for outreach, media, and storytelling  
 - **Academic and research partners** — universities for forestry, energy, and AI research  
 - **Citizen and community groups** — local residents, Mitsue community, Safecast network  
@@ -51,9 +51,9 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **FIT/FIP feed-in tariff registration** — for any surplus electricity sold to the grid  
 - **Data center compliance** — data localization rules, cybersecurity standards, possibly APPI (privacy law)  
 **Technical Infrastructure**  
-- **Solar + battery + EV charging system** — rooftop solar panels at the school feed battery storage, powering the data center and EV charging stations. The system is sized for data center and EV demand, not for powering the whole village.  
+- **Solar + biomass-electric + EV charging system** — privately owned rooftop solar and biomass-electric generation at the school power the data center and EV charging stations. Battery storage to be evaluated in feasibility study. The system is sized for data center and EV demand, not for powering the whole village.  
 - **High-bandwidth fiber connectivity** — essential for any data center, even small-scale; Mitsue's current fiber capacity needs assessment  
-- **Blackout resilience** — battery storage enables island-mode operation during grid outages, keeping the data center, EV chargers, and emergency services running for 12–48 hours  
+- **Blackout resilience** — on-site solar and biomass-electric generation enables island-mode operation during grid outages, keeping the data center, EV chargers, and emergency services running; battery storage to be evaluated in feasibility study  
 - **Cooling strategy** — Japan's humid summers are hard on data centers; could leverage Mitsue's cool mountain climate and water resources  
 - **Heat recovery** — waste heat from servers can warm greenhouses, fish farms, or community buildings (a real opportunity)  
 - **Seismic engineering** — the school building must be assessed and likely retrofitted for modern earthquake codes  

@@ -1,4 +1,4 @@
-<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
@@ -16,13 +16,13 @@ This document responds to six questions raised during informal consultation. It 
 
 ## A note before the questions / ご質問にお答えする前に
 
-Several early conversations assumed biomass energy generation as the project's energy component. After extensive community consultation, the project is now focusing on **EV charging infrastructure and community energy resilience** — solar panels, battery storage, and EV charging stations — rather than a biomass heat boiler. This reflects both what the community needs most and what is most practical to implement.
+Several early conversations assumed biomass energy generation as the project's energy component. After extensive community consultation, the project is now focusing on **EV charging infrastructure and community energy resilience** — privately owned solar, biomass-electric generation, and EV charging stations — rather than a biomass heat boiler. Battery storage will be evaluated in the Phase 1 feasibility study and is not a confirmed install. This reflects both what the community needs most and what is most practical to implement.
 
-A note on forest residue: thinning produces sugi off-cuts that the project plans to convert into **electricity** (via a small gasifier or CHP unit feeding the same battery + EV stack) rather than into local heat. This keeps the energy system on a single electrical bus — solar by day, biomass-electric as a dispatchable backup at night or during winter blackouts — and avoids the permitting and maintenance burden of a separate thermal plant.
+A note on forest residue: thinning produces sugi off-cuts that the project plans to convert into **electricity** (via a small gasifier or CHP unit on the same electrical bus as the solar array) rather than into local heat. This keeps the energy system unified — solar by day, biomass-electric as a dispatchable backup at night or during winter blackouts — and avoids the permitting and maintenance burden of a separate thermal plant.
 
-ご相談を重ねた結果、エネルギー部門の焦点を**EVインフラと地域エネルギーレジリエンス**（太陽光発電・蓄電池・EV充電ステーション）に絞ることといたしました。これは地域のニーズと実現可能性の両面から最善の選択です。
+ご相談を重ねた結果、エネルギー部門の焦点を**EVインフラと地域エネルギーレジリエンス**（個人所有の太陽光発電・バイオマス発電・EV充電ステーション）に絞ることといたしました。蓄電池はフィージビリティスタディで評価します。これは地域のニーズと実現可能性の両面から最善の選択です。
 
-林産残材の取り扱いについて：間伐により発生する杉の端材は、熱としてではなく、小型ガス化発電装置またはCHPユニットを通じて**電力**へ変換し、太陽光・蓄電池・EV充電と同じ電力系統に統合する方針です。これにより、昼は太陽光、夜間・冬季・停電時はバイオマス発電による補完という、一つの電気系統に統一された設計が可能となり、独立した熱供給設備にともなう許認可・保守の負担を回避できます。
+林産残材の取り扱いについて：間伐により発生する杉の端材は、熱としてではなく、小型ガス化発電装置またはCHPユニットを通じて**電力**へ変換し、太陽光・EV充電と同じ電力系統に統合する方針です。バイオマス発電は山林所有者への収入と地元雇用に直結します。昼は太陽光、夜間・冬季・停電時はバイオマス発電による補完という、一つの電気系統に統一された設計が可能となり、独立した熱供給設備にともなう許認可・保守の負担を回避できます。
 
 ---
 
@@ -41,7 +41,7 @@ Yes — and growing. Japan's national policy targets widespread EV adoption by t
 
 Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location makes it vulnerable to outages during typhoons, heavy snowfall, and other weather events. Key points:
 
-- The project's battery storage system — sized primarily to store solar generation for the data center — can be configured to supply the school building and adjacent facilities during a grid outage.
+- The project's on-site generation (solar + biomass-electric) can be configured to supply the school building and adjacent facilities during a grid outage. Battery storage will be evaluated in Phase 1 and added if confirmed.
 - This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down.
 - Battery capacity will be specified during Phase 2 feasibility (months 10–18). Preliminary estimates suggest a system supporting 12–48 hours of critical-load operation during an outage.
 - The data center's uninterruptible power supply (UPS) infrastructure, already required for its own operations, forms the backbone of this community resilience capability at minimal additional cost.
@@ -50,12 +50,12 @@ Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location
 
 The data center is what turns an energy project into a development project.
 
-1. **Load-shape match.** Solar is intermittent. A data center is one of the very few rural loads that runs 24/7/365 — it justifies the scale of battery storage that makes EV charging and blackout resilience feasible.
+1. **Load-shape match.** Solar is intermittent. A data center is one of the very few rural loads that runs 24/7/365 — it justifies the scale of solar and biomass-electric investment that makes EV charging and blackout resilience feasible.
 2. **Anchor revenue.** Without an anchor offtaker, rural energy projects in Japan typically fail their financials. The data center provides predictable, year-round revenue.
 3. **Heat reuse.** Server waste heat can warm community spaces or greenhouses, closing a useful loop.
 4. **Digital deficit.** Rural Japan has a real edge-compute and connectivity gap. Local hosting improves latency, sovereignty, and resilience for nearby municipalities and SMEs.
 5. **Higher-skill jobs.** Operations and monitoring roles attract younger residents and returnees.
-6. **Replicability.** With the data center, Mitsue becomes a rural-revitalization model that other depopulating municipalities can study and adapt.
+6. **Replicability.** With the data center, Mitsue becomes a rural-revitalization model that other depopulating municipalities can study and adapt. A community-owned AI data center powered by locally generated renewable energy sets a working example of how technological progress and ecological sustainability can be a single coherent system — not opposites.
 
 ### Q4. Are there benefits visible before 25 years?
 
@@ -63,29 +63,29 @@ Yes. The 25-year horizon applies to forest restoration ecology, not to community
 
 - **Year 1**: Closed school reactivated; domestic and international media coverage; first researcher and student visits.
 - **Year 2**: First forestry contracts → direct cash income to private landowners.
-- **Year 3–4**: EV charging stations operational; battery storage for community blackout resilience.
+- **Year 3–4**: EV charging stations operational; biomass-electric unit installed; battery storage if confirmed by feasibility study.
 - **Year 4–5**: Data center hires local staff; hosting and energy revenue real; village becomes a study-tour destination.
 
 ### Q5. Solar panels already exist in Mitsue. How does the project add value beyond what's already there?
 
 The existing solar installations belong to individual landowners and are connected to the grid via FIT (feed-in tariff) — their output goes to the national grid, not to local use. The project adds:
 
-| | Existing solar | Project solar + battery |
+| | Existing solar | Project solar + biomass-electric |
 |---|---|---|
 | Output destination | National grid (FIT) | Local use first, grid second |
-| Battery storage | None | Yes — enables blackout resilience |
+| Battery storage | None | Subject to feasibility study |
 | EV charging | None | Yes — from Year 3 |
 | Community control | Individual owners | Village NPO |
 | Blackout protection | None | Yes — critical facilities |
 
 The project does not compete with existing installations — it builds a complementary community-owned system that does what individual rooftop solar cannot: store energy, provide EV charging, and keep critical services running when the grid fails.
 
-### Q6. How will EV charging and battery storage costs be recovered?
+### Q6. How will EV charging and energy infrastructure costs be recovered?
 
 A stack of revenue streams, not a single source:
 
 1. **EV charging fees** — residents and visitors pay per kWh or per session. At low initial volume, fees will not cover costs; by Year 5–7, when the EV fleet is larger, economics improve significantly.
-2. **FIT/FIP feed-in tariff** — surplus solar generation sold to the grid when battery is full and local demand is low.
+2. **FIT/FIP feed-in tariff** — surplus solar and biomass-electric generation sold to the grid when local demand is low.
 3. **J-Credit** — carbon offset income from verified renewable generation.
 4. **Data center anchor revenue** — the primary long-term income source; cross-subsidizes community energy services in early years.
 5. **METI/NEDO grants** — rural energy resilience and EV infrastructure are explicit priority areas for government subsidy programs.
@@ -100,7 +100,7 @@ Earlier conversations described a biomass boiler producing heat for greenhouses 
 - **Forest residue still has an offtake.** Thinning produces sugi off-cuts that landowners cannot easily monetize. Converting them to electricity preserves the forestry revenue stream (and the village's existing 森林環境譲与税-funded thinning program) without committing to a thermal plant.
 - **Solar/nighttime/winter gap-fill.** Biomass-electric is most useful exactly when solar underproduces — winter days, nights, and during typhoon-driven grid outages. This is the same window in which EV charging and blackout resilience matter most.
 - **Mitsue Onsen precedent, but electrical.** Mitsue Onsen already operates a forest-residue boiler — local proof that the supply chain works. The project takes the next step: forest residue → electricity, on the same infrastructure that delivers solar and EV services.
-- **Timing.** Biomass-electric is a Phase 3 / Phase 4 optionality, not a Phase 0–2 commitment. Phase 2 feasibility (months 10–18) will size and price the option against alternatives; it is not a precondition for the EV/solar/battery core.
+- **Timing.** Biomass-electric is planned for Phase 3 installation, following feasibility sizing in Phase 2 (months 10–18). Phase 2 feasibility will confirm capacity and procurement path; it is not a Phase 0–2 commitment but it is a confirmed design pillar, not a mere optionality.
 
 ---
 
@@ -128,7 +128,7 @@ Earlier conversations described a biomass boiler producing heat for greenhouses 
 
 データセンターの存在こそが、エネルギー事業を地域振興事業へと転換いたします。
 
-1. **負荷曲線の整合性。** 太陽光は間欠的でございます。データセンターは農村部における数少ない24時間365日稼働の負荷であり、EV充電や停電レジリエンスを可能にする規模の蓄電池投資を正当化します。
+1. **負荷曲線の整合性。** 太陽光は間欠的でございます。データセンターは農村部における数少ない24時間365日稼働の負荷であり、EV充電や停電レジリエンスを可能にする規模の太陽光・バイオマス発電設備投資を正当化します。
 2. **基幹収益。** 安定した引き取り手なしには、農村のエネルギー事業は経済的に成立しないのが通例です。データセンターは年間を通じた予測可能な収益を提供します。
 3. **排熱の再利用。** サーバーの排熱を地域スペースや温室の暖房に活用できます。
 4. **デジタル基盤の不足。** 日本の農村部にはエッジコンピューティングと通信環境の現実的な格差があります。
@@ -148,10 +148,10 @@ Earlier conversations described a biomass boiler producing heat for greenhouses 
 
 既存の太陽光設備は個人所有であり、FIT（固定価格買取制度）により発電電力は国の系統へ送られています。プロジェクトが加えるものは:
 
-| | 既存の太陽光 | プロジェクトの太陽光＋蓄電池 |
+| | 既存の太陽光 | プロジェクトの太陽光＋バイオマス発電 |
 |---|---|---|
 | 出力先 | 国の系統（FIT） | 地産地消優先、余剰を系統へ |
-| 蓄電池 | なし | あり ―― 停電レジリエンスを実現 |
+| 蓄電池 | なし | フィージビリティスタディで評価 |
 | EV充電 | なし | あり ―― 3年目から |
 | 地域管理 | 個人所有者 | 村NPO |
 | 停電対策 | なし | あり ―― 重要施設を守る |

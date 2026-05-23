@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 ---
 
@@ -553,11 +553,11 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 | Deliverables | Grid-connected solar array generating power; FIT/FIP connection agreement in place; monitoring dashboard live |
 | Acceptance | METI FIT/FIP connection confirmed; generation data logging active |
 
-#### 5.3 Battery Storage System — ¥12.0M
+#### 5.3 Battery Storage System — ¥12.0M *(subject to feasibility study confirmation)*
 
 | Item | Detail |
 |------|--------|
-| Scope | Lithium-ion battery storage system sized for 12–48 hours critical-facility backup; BMS; integration with solar and grid; safety certifications |
+| Scope | Lithium-ion battery storage system sized for 12–48 hours critical-facility backup; BMS; integration with solar and grid; safety certifications. **Decision gate: Phase 1 energy feasibility study must confirm economic and operational case before this work package proceeds.** |
 | Owner | Director — Technology |
 | Budget | ¥12.0M |
 | Deliverables | Battery system installed, commissioned, and safety-certified; blackout simulation test passed |

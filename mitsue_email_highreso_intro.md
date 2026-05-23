@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
 
 # Introduction Email — HIGHRESO Co., Ltd.
 
@@ -59,7 +59,7 @@ A formal partnership ask should only come after points 1–3 have established mu
 
 **御杖村プロジェクトの概要（簡略）:**
 - 奈良県御杖村の閉校舎を活用した、小規模AI／エッジコンピューティング・データセンター（サーバー10〜20台規模）
-- 太陽光発電・蓄電池・EV充電インフラを統合した地産地消型エネルギー設計
+- 個人所有の太陽光発電・バイオマス発電（森林間伐材原料）・EV充電インフラを統合した地産地消型エネルギー設計（蓄電池はフィージビリティスタディで評価）
 - 25年スケールの森林再生と林業再活性化を併せて推進
 - NPO法人格、地域所有モデル、オープンソース運営を予定
 
@@ -95,7 +95,7 @@ Following Mr. Ito's suggestion I reviewed your SDGs page and was deeply impresse
 
 **Project at a glance:**
 - Small AI / edge-compute data center (~10–20 servers) in a closed elementary school, Mitsue Village, Nara
-- Integrated locally-generated renewable energy (solar PV + battery storage + EV charging)
+- Integrated locally-generated renewable energy (privately owned solar PV + biomass-electric from forest thinning + EV charging; battery storage subject to feasibility study)
 - Paired with a 25-year forest restoration and forestry revitalization programme
 - NPO legal structure, community-owned model, open-source operating playbook
 

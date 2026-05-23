@@ -26,9 +26,9 @@
 
 The Mitsue Project transforms the closed Mitsue Elementary School — and the aging cedar forest above it — into a living model of rural self-sufficiency. Three elements work together:
 
-- **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades
-- **EV charging & energy resilience** — Solar panels and battery storage at the school supply clean local energy, EV charging for residents and visitors, and backup power during grid outages
-- **Sustainable AI data center** — A small, efficient digital facility inside the old school, powered entirely by local energy, providing infrastructure and employment where none existed
+- **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades. Native broadleaf trees feed deer, wild boar, and bear — keeping wildlife in the forest and out of crop areas
+- **EV charging & energy resilience** — Privately owned solar at the school, EV charging for residents and visitors, and biomass-electric backup power during grid outages. Battery storage to be evaluated in feasibility study
+- **Sustainable AI data center** — A small, efficient digital facility inside the old school, powered entirely by local energy, providing infrastructure and employment where none existed. A working model of progress and sustainability as a single coherent system
 
 These are not three separate ideas. Each one makes the others possible.
 
@@ -40,10 +40,11 @@ These are not three separate ideas. Each one makes the others possible.
 |---|---|
 | Closed school, no new purpose | Repurposed as data center & community anchor |
 | Cedar monoculture — ecologically depleted | Systematic conversion to native mixed forest |
-| EV charging needs reliable local power | Data center provides 24/7 baseload demand that justifies the solar + battery investment |
-| Rural grid dependency, no local power | Village-owned solar + battery hybrid system with EV charging |
+| EV charging needs reliable local power | Data center provides 24/7 baseload demand that justifies the solar + biomass-electric investment |
+| Rural grid dependency, no local power | Privately owned solar + biomass-electric hybrid with EV charging |
 | Shrinking population, no local jobs | Data center operations, forestry, maintenance roles |
-| Blackouts threaten critical services | Village-owned battery storage keeps the school, data center, and key facilities running during outages |
+| Blackouts threaten critical services | On-site generation keeps the school, data center, and key facilities running during outages |
+| Wildlife raiding crop areas | Restored native broadleaf forest provides natural food — acorns, nuts — keeping deer, wild boar, and bear in the forest |
 | Rising electricity demand as cars shift to EV | As gasoline vehicles are replaced by electric, village grid load will grow significantly; local generation absorbs this increase without burdening the national grid |
 | Existing rural blackouts | Aging distribution lines already cause outages in Mitsue; a village-owned power supply provides resilience and keeps critical services running |
 
@@ -77,7 +78,7 @@ The 25-year horizon describes full forest restoration — not how long the villa
 |---|---|
 | **Year 1** | Closed school reactivated; international media visibility for Mitsue |
 | **Year 2** | Landowners begin receiving income from cedar harvest |
-| **Year 3–4** | EV charging stations operational; battery storage installed for village blackout resilience |
+| **Year 3–4** | EV charging stations operational; biomass-electric unit installed; battery storage if confirmed by feasibility study |
 | **Year 4–5** | Data center operational; local employment in operations and maintenance |
 | **Year 5–10** | Data service revenue reinvested into village and forest programmes |
 | **Year 25** | Native forest established; model documented for replication worldwide |
@@ -96,7 +97,7 @@ All environmental, energy, and forestry data will be published openly — so any
 
 Most rural revitalisation projects in Japan either depend permanently on outside subsidy or import a use with no connection to the land. The Mitsue Project is built around the village's own resources — its forest, its school, its people — and is designed to become financially self-sustaining within the first decade.
 
-The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes solar and battery storage economically viable — and its backup power infrastructure extends naturally to the whole community during blackouts. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them.
+The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes solar and biomass-electric generation economically viable — and its backup power infrastructure extends naturally to the whole community during blackouts. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them. Together they set a working example of how rural communities can integrate technological progress with ecological sustainability — not as opposites, but as a single coherent system.
 
 ---
 
