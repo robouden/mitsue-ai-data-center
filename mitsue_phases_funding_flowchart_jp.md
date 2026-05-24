@@ -1,12 +1,14 @@
 <style>
-  body { font-size: 9.5pt; line-height: 1.35; font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', sans-serif; }
-  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
-  h2 { font-size: 11pt; margin: 8pt 0 3pt; }
-  h3 { font-size: 10pt; margin: 4pt 0 2pt; }
-  table { border-collapse: collapse; width: 100%; font-size: 8.5pt; }
-  th, td { border: 1px solid #ccc; padding: 3px 6px; }
-  th { background: #f0f4ff; }
-  p { margin: 3pt 0; }
+  body { font-size: 9.5pt; line-height: 1.25; font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', sans-serif; }
+  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
+  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
+  h3 { font-size: 9.5pt; margin: 2pt 0; }
+  p, li { margin: 1pt 0; }
+  ul, ol { margin: 2pt 0; padding-left: 18pt; }
+  blockquote { margin: 3pt 0; }
+  hr { margin: 3pt 0; }
+  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
+  @media print { body { margin: 0; } }
 </style>
 
 <p align="right">バージョン: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; 最終更新: 2026-05-18</p>

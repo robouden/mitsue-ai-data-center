@@ -1,16 +1,13 @@
 <style>
-  body { font-size: 9.5pt; line-height: 1.4; font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', sans-serif; }
-  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
-  h2 { font-size: 11pt; margin: 8pt 0 3pt; }
-  h3 { font-size: 10pt; margin: 4pt 0 2pt; }
-  p, li { margin: 2pt 0; }
-  table { font-size: 8.5pt; border-collapse: collapse; width: 100%; }
-  th, td { border: 1px solid #ccc; padding: 3pt 5pt; }
-  th { background: #f0f4ff; font-weight: bold; }
-  tr:nth-child(even) { background: #f9f9f9; }
-  blockquote { margin: 4pt 8pt; padding: 4pt 8pt; background: #f8f8f8; border-left: 3px solid #6796e6; }
-  hr { margin: 6pt 0; }
-  .page-break { page-break-after: always; break-after: page; }
+  body { font-size: 9.5pt; line-height: 1.25; font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', sans-serif; }
+  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
+  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
+  h3 { font-size: 9.5pt; margin: 2pt 0; }
+  p, li { margin: 1pt 0; }
+  ul, ol { margin: 2pt 0; padding-left: 18pt; }
+  blockquote { margin: 3pt 0; }
+  hr { margin: 3pt 0; }
+  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   @media print { body { margin: 0; } }
 </style>
 
