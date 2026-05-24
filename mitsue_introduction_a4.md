@@ -1,17 +1,22 @@
 <style>
-  body { font-size: 9.5pt; line-height: 1.3; }
-  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
-  h2 { font-size: 10pt; margin: 6pt 0 2pt; }
+  body { font-size: 9.5pt; line-height: 1.25; }
+  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
+  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
   h3 { font-size: 9.5pt; margin: 2pt 0; }
-  p, li { margin: 2pt 0; }
+  p, li { margin: 1pt 0; }
+  ul { margin: 2pt 0; padding-left: 18pt; }
   table { font-size: 9pt; }
+  table > thead > tr > th,
+  table > thead > tr > td,
+  table > tbody > tr > th,
+  table > tbody > tr > td { padding: 2pt 6pt; }
   blockquote { margin: 3pt 0; }
-  hr { margin: 4pt 0; }
-  .page-break { page-break-after: always; break-after: page; }
+  hr { margin: 3pt 0; }
+  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-24</p>
 
 ---
 

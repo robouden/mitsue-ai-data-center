@@ -23,7 +23,40 @@ const CSS_MD   = fs.readFileSync(path.join(EXT, 'styles', 'markdown.css'), 'utf8
 const CSS_PDF  = fs.readFileSync(path.join(EXT, 'styles', 'markdown-pdf.css'), 'utf8');
 const CSS_HL   = fs.readFileSync(path.join(EXT, 'styles', 'tomorrow.css'), 'utf8');
 
-const STYLE_BLOCK = `<style>\n${CSS_HL}\n${CSS_MD}\n${CSS_PDF}\n</style>`;
+// Typora theme support: --theme=<name> wraps content in #write and prepends the theme CSS
+const THEMES_DIR = path.join(os.homedir(), '.config/Typora/themes');
+
+function loadTyporaTheme(name) {
+  const cssPath = path.join(THEMES_DIR, name + '.css');
+  if (!fs.existsSync(cssPath)) {
+    throw new Error(`Typora theme not found: ${cssPath}`);
+  }
+  let css = fs.readFileSync(cssPath, 'utf8');
+  // Strip Typora-specific @include-when-export (we use the bundled local woff2 instead)
+  css = css.replace(/@include-when-export[^;]*;\s*/g, '');
+  // Resolve relative url(./...) paths to absolute file:// so puppeteer can load assets
+  css = css.replace(/url\(\s*['"]?\.\/([^'")]+)['"]?\s*\)/g, (_, rel) =>
+    `url('file://${path.join(THEMES_DIR, rel)}')`
+  );
+  return css;
+}
+
+// Counter the theme's screen-oriented #write padding (Typora itself bypasses this on export).
+// Table: force full content width (github.css omits width:100%, causing narrow columns on print).
+const PRINT_OVERRIDE = `
+  html, body { margin: 0; padding: 0; }
+  #write { max-width: none !important; margin: 0 !important; padding: 0 !important; }
+  table { width: 100% !important; table-layout: auto; border-collapse: collapse !important; border-spacing: 0 !important; }
+  table th, table td { padding: 2px 6px !important; }
+`;
+
+function buildStyleBlock(themeName) {
+  if (themeName) {
+    const themeCss = loadTyporaTheme(themeName);
+    return `<style>\n${CSS_HL}\n${themeCss}\n${PRINT_OVERRIDE}\n</style>`;
+  }
+  return `<style>\n${CSS_HL}\n${CSS_MD}\n${CSS_PDF}\n</style>`;
+}
 
 function convertMarkdownToHtml(mdFile, text) {
   const md = markdownIt({
@@ -69,14 +102,16 @@ function convertMarkdownToHtml(mdFile, text) {
   return md.render(text);
 }
 
-async function convertToPdf(mdFile) {
+async function convertToPdf(mdFile, opts = {}) {
   const text = fs.readFileSync(mdFile, 'utf8');
   const title = path.basename(mdFile, '.md');
-  const content = convertMarkdownToHtml(mdFile, text);
+  const rendered = convertMarkdownToHtml(mdFile, text);
+  // Typora theme styles target #write; wrap content so they apply.
+  const content = opts.theme ? `<div id="write" class="is-node">${rendered}</div>` : rendered;
 
   const html = mustache.render(TEMPLATE, {
     title,
-    style: STYLE_BLOCK,
+    style: buildStyleBlock(opts.theme),
     mermaid: '',
     content
   });
@@ -112,10 +147,18 @@ async function convertToPdf(mdFile) {
 }
 
 async function main() {
-  const args = process.argv.slice(2);
+  const raw = process.argv.slice(2);
+  const opts = {};
+  const args = [];
+  for (const a of raw) {
+    const m = a.match(/^--theme=(.+)$/);
+    if (m) opts.theme = m[1];
+    else args.push(a);
+  }
   if (args.length === 0) {
-    console.error('Usage: node convert_md_to_pdf.js <file.md> [file2.md ...]');
-    console.error('       node convert_md_to_pdf.js --all   (convert all .md in cwd)');
+    console.error('Usage: node convert_md_to_pdf.js [--theme=<name>] <file.md> [file2.md ...]');
+    console.error('       node convert_md_to_pdf.js [--theme=<name>] --all   (convert all .md in cwd)');
+    console.error('Available Typora themes:', fs.readdirSync(THEMES_DIR).filter(f => f.endsWith('.css')).map(f => f.replace('.css','')).join(', '));
     process.exit(1);
   }
 
@@ -129,12 +172,12 @@ async function main() {
     files = args.map(f => path.resolve(f));
   }
 
-  console.log(`Converting ${files.length} file(s) to PDF...`);
+  console.log(`Converting ${files.length} file(s) to PDF${opts.theme ? ` with Typora theme "${opts.theme}"` : ''}...`);
   let ok = 0, fail = 0;
   for (const f of files) {
     process.stdout.write('  ' + path.basename(f) + ' ... ');
     try {
-      await convertToPdf(f);
+      await convertToPdf(f, opts);
       ok++;
     } catch (err) {
       console.log('FAIL:', err.message);

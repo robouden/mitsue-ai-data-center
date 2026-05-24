@@ -1,15 +1,22 @@
 <style>
-  body { font-size: 10pt; line-height: 1.4; }
-  h1 { font-size: 16pt; margin: 6pt 0 2pt; }
-  h2 { font-size: 10.5pt; margin: 10pt 0 3pt; }
+  body { font-size: 9.5pt; line-height: 1.3; }
+  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
+  h2 { font-size: 10.5pt; margin: 7pt 0 2pt; }
   h3 { font-size: 10pt; margin: 2pt 0; }
-  p, li { margin: 3pt 0; }
-  table { font-size: 9.5pt; }
-  blockquote { margin: 6pt 0; }
+  p, li { margin: 2pt 0; }
+  ul { margin: 2pt 0; padding-left: 18pt; }
+  table { font-size: 9pt; }
+  table > thead > tr > th,
+  table > thead > tr > td,
+  table > tbody > tr > th,
+  table > tbody > tr > td { padding: 2pt 6pt; }
+  blockquote { margin: 4pt 0; }
+  hr { margin: 4pt 0; }
+  .page-break { page-break-after: always; height: 0; margin: 0; padding: 0; }
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">バージョン: v2.2 &nbsp;|&nbsp; 最終更新: 2026-05-23</p>
+<p align="right">バージョン: v2.3 &nbsp;|&nbsp; 最終更新: 2026-05-24</p>
 
 ---
 
