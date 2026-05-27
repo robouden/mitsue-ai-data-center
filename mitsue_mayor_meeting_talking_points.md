@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 # Village Mayor Conversation — Talking Points
 ### Meeting with Mitsue Village Mayor (御杖村長)
@@ -29,7 +29,7 @@ This is **not a first introduction** of either Rob or the project. You are build
 This changes the meeting in three meaningful ways:
 
 1. **The mayor likely already knows about the AI data center idea** — the vice mayor will almost certainly have briefed him. Don't pretend it's new.
-2. **You are now broadening the picture** — adding the solar/biomass-electric/EV energy and forestry components transforms a single-building proposal into an integrated rural sustainability project. This is the most important shift to communicate.
+2. **You are now broadening the picture** — adding the solar/EV energy and forestry components transforms a single-building proposal into an integrated rural sustainability project. This is the most important shift to communicate.
 3. **You have already shown respect** for proper village process by approaching the vice mayor first and the forestry group separately. That groundwork is in your favor — let it work for you.
 
 ---
@@ -132,9 +132,9 @@ Now you can be more substantive. Use your one-page visual if helpful.
 >
 > *(First, gradually returning sugi plantations to native species over a long period. From my conversation with the forestry group, I sensed there may be openness to this.)*
 
-> "2つ目は、校舎跡地に個人所有の太陽光発電とバイオマス発電を設置し、EV充電ステーションを整備することでございます。森林の間伐材を電力に変換することで、山林所有者への収入と地元雇用が生まれます。日本全体でEVへの移行が進む中、村内に充電設備がないことは住民にとって切実な課題です。さらに、現地発電設備は停電時のバックアップ電源ともなり、村の重要施設を守ります。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
+> "2つ目は、校舎跡地に個人所有の太陽光発電を設置し、EV充電ステーションを整備することでございます。日本全体でEVへの移行が進む中、村内に充電設備がないことは住民にとって切実な課題です。さらに、現地発電設備は停電時のバックアップ電源ともなり、村の重要施設を守ります。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
 >
-> *(Second, installing privately owned solar and biomass-electric generation at the school site, and providing EV charging stations. Converting forest thinning residue to electricity creates income for forest landowners and local employment. As Japan transitions to electric vehicles, the absence of village charging infrastructure is a real issue for residents. On-site generation also provides backup power during typhoons and heavy snowfall. Battery storage to be confirmed by feasibility study.)*
+> *(Second, installing privately owned solar at the school site and providing EV charging stations. As Japan transitions to electric vehicles, the absence of village charging infrastructure is a real issue for residents. On-site generation also provides backup power during typhoons and heavy snowfall. Battery storage to be confirmed by feasibility study.)*
 
 This framing matters: clearly explaining that the energy component is solar panels and EV charging — not a large industrial plant — is important for setting realistic expectations.
 
@@ -224,9 +224,9 @@ This is critical information you can only get by listening.
 The mayor may probe the practical mechanics. Full bilingual answers live in [`mitsue_qa_briefing.md`](mitsue_qa_briefing.md). Compressed answers for live use:
 
 ### "What is the energy plan? How do solar and EV charging work together?"
-> "校舎の屋根に個人所有の太陽光パネルを設置し、また森林間伐材を燃料とするバイオマス発電装置を導入します。この2つを組み合わせた電力でデータセンターを稼働させ、EV充電ステーションに供給します。バイオマス発電は24時間安定した電力を供給できるため、太陽光の日射変動を補います。蓄電池の設置については第2段階のフィージビリティスタディで判断いたします。"
+> "校舎の屋根に個人所有の太陽光パネルを設置し、EV充電ステーションと組み合わせて稼働させます。太陽光の電力でデータセンターを稼働させ、EV充電ステーションに供給します。蓄電池の設置については第2段階のフィージビリティスタディで判断いたします。"
 >
-> *(Privately owned solar panels at the school roof, combined with a biomass-electric unit fuelled by forest thinning residue. Together they power the data center and EV charging stations. The biomass unit provides stable 24/7 generation that complements solar variability. Battery storage to be confirmed by Phase 2 feasibility study.)*
+> *(Privately owned solar panels at the school roof, combined with EV charging stations. Together they power the data center and support village EV charging. Battery storage to be confirmed by Phase 2 feasibility study.)*
 
 ### "What is the EV charging plan?"
 > "まず2〜4台の充電器から始め、村の住民と来訪者に開放いたします。EV普及に合わせて段階的に増設していく計画でございます。充電料金は施設維持費の一部に充当します。"
@@ -234,9 +234,9 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 > *(Starting with 2–4 chargers, open to residents and visitors, scaling up as EV adoption grows. Charging fees contribute to facility operating costs.)*
 
 ### "Why is a data center necessary?"
-> "データセンターは24時間365日稼働するため、太陽光発電とバイオマス発電への投資を経済的に成立させる安定した需要先となります。これがないと、農村のエネルギー事業は財務的に成立しないのが通例でございまして、データセンターはEV充電や停電レジリエンスを可能にするエネルギー設備投資を正当化する鍵でございます."
+> "データセンターは24時間365日稼働するため、太陽光発電への投資を経済的に成立させる安定した需要先となります。これがないと、農村のエネルギー事業は財務的に成立しないのが通例でございまして、データセンターはEV充電や停電レジリエンスを可能にするエネルギー設備投資を正当化する鍵でございます."
 >
-> *(The data center provides 24/7 baseload demand that makes the solar and biomass-electric investment economically viable. Without an anchor offtaker, rural energy projects typically fail their financials. The data center justifies the energy infrastructure investment that enables EV charging and blackout resilience.)*
+> *(The data center provides 24/7 baseload demand that makes the solar investment economically viable. Without an anchor offtaker, rural energy projects typically fail their financials. The data center justifies the energy infrastructure investment that enables EV charging and blackout resilience.)*
 
 ### "We already have solar panels in the village. Why do we need more?"
 > "既存の太陽光設備はFITで国の系統に売電しており、村の直接利用や停電対策には活用されておりません。本プロジェクトが設置するのは地産地消型のシステムであり、EV充電と停電バックアップという既存設備にはない機能を提供いたします。"
@@ -246,17 +246,17 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 ### "Will benefits really take 25 years?"
 > "25年は森林再生の生態的な期間でございます。村への具体的な恩恵はもっと早く現れます。1年目で閉校舎の再活用とメディア発信、2年目で山林所有者への伐採収入、3〜4年目でEV充電ステーション稼働と停電レジリエンス向け蓄電池設置、4〜5年目でデータセンターの地域雇用が始まります."
 >
-> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, EV charging stations and biomass-electric unit installed by Year 3–4 (battery storage subject to feasibility study), data center jobs in Year 4–5.)*
+> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, EV charging stations installed by Year 3–4 (battery storage subject to feasibility study), data center jobs in Year 4–5.)*
 
-### "How will the solar and biomass-electric costs be managed?"
+### "How will the solar and EV charging costs be managed?"
 > "複数の収益源を積み重ねます: EV充電料金、FIT/FIP売電、J-クレジット、そしてデータセンターの収益でございます。さらに、農村エネルギーレジリエンスとEVインフラは経産省・NEDO補助制度の優先対象でございます。数値が見合わなければ無理に進めない段階的な構造としております。"
 >
 > *(Multiple revenue streams stack: EV charging fees, FIT/FIP feed-in, J-Credits, and data center revenue. Rural energy resilience and EV infrastructure are priority areas for METI/NEDO subsidies. Phased structure refuses to proceed if numbers don't work.)*
 
 ### "What about biomass? Wasn't that part of the original idea?"
-> "ご指摘の通り、当初はバイオマス・ボイラーによる熱供給を想定しておりました。その後の検討を通じて、**バイオマス発電**（熱ではなく電気）を太陽光と組み合わせたエネルギー中核とする構成に整理いたしました。間伐材を小型のバイオマス発電装置で電力に変換し、太陽光と同じEV充電系統へ統合します。熱供給用のボイラーを別途建設するのではなく、電気として一本化する考え方です。バイオマス発電は村の山林所有者と林業従事者への収入・雇用に直結します。"
+> "ご指摘の通り、当初はバイオマス発電も構想に含まれておりました。その後の検討を通じて、エネルギー部門は**個人所有の太陽光発電とEV充電インフラ**に集約いたしました。林業部門は、杉人工林を在来種の広葉樹へ転換する生態的な森林再生に特化します。これにより、エネルギーと林業をそれぞれの目的に最適化した、より明確な構成となっております。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
 >
-> *(Originally the concept included a biomass boiler producing heat. Through further development we reorganised the energy core to biomass-electric generation combined with solar — electricity, not heat. Forest thinning residue is converted to electricity via a small biomass-electric unit integrated with the same EV charging system as the solar array. No separate thermal boiler. Biomass-electric directly creates income and employment for the village's forest landowners and forestry workers.)*
+> *(Originally the concept included biomass generation. Through further development, the energy component was focused on privately owned solar and EV charging infrastructure. The forestry component is dedicated to ecological restoration — replacing sugi plantations with native broadleaf species. This gives each programme a clear and independent purpose. Battery storage to be confirmed by feasibility study.)*
 
 ### Positioning under the village's 5-enterprise startup program
 If the conversation turns to village policy or youth retention, signal alignment with the village's own startup-subsidy framework:

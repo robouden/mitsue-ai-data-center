@@ -1,1 +1,4 @@
 .openclaw/
+.omc/
+mermaid-filter.err
+.~lock.*

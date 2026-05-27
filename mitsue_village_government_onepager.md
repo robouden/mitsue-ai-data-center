@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-24</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 # 御杖村プロジェクト概要 / Mitsue Village Project — Summary
 ### One-Page Briefing for Mitsue Village Government
@@ -24,7 +24,7 @@
 To repurpose the closed **Mitsue Elementary School** (御杖小学校) as a **community sustainability center** that will:
 
 1. Restore aging cedar (sugi) plantations to healthy native forest — native broadleaf trees feed local wildlife, reducing crop raids by deer, wild boar, and bear
-2. Provide EV charging infrastructure and community backup power (privately owned solar + biomass-electric; battery storage subject to feasibility study)
+2. Provide EV charging infrastructure and community backup power (privately owned solar; battery storage subject to feasibility study)
 3. House a small, low-impact data center powered by that local energy — a working model of progress and sustainability as a single coherent system
 
 A 25-year initiative built carefully, in close partnership with the village.
@@ -54,7 +54,7 @@ The 25-year horizon applies to forest restoration ecology. Concrete benefits to 
 | 1 | Closed school building reactivated; village named in domestic and international press; first researcher and student visits |
 | 2 | First forestry contracts → direct cash income to private mountain owners |
 | 2–3 | Reduced sugi pollen and landslide risk in actively managed plots |
-| 3–4 | EV charging stations operational; biomass-electric unit installed; battery storage if confirmed by feasibility study |
+| 3–4 | EV charging stations operational; battery storage if confirmed by feasibility study |
 | 4–5 | Data center hires local staff; hosting fees and energy sales become real revenue; village becomes a study-tour destination |
 | Ongoing | School programmes, field trips, and open environmental and financial dashboards from Year 1 onward |
 

@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -46,10 +46,10 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 Phased replacement of aged sugi plantations with native broadleaf species, in cooperation with private landowners, the Forestry Agency (林野庁), and local forestry contractors. Restoration operates on a 25-year ecological timeline. Native broadleaf trees — oak, chestnut, and konara — produce acorns and nuts that sustain deer, wild boar, and bear through winter. When the forest feeds them, they stay in the forest, directly reducing wildlife raids on surrounding crop areas.
 
 ### 4.2 Renewable Energy, EV Charging & Community Resilience
-Privately owned solar generation at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Forest thinning residue feeds a biomass-electric unit (gasifier or CHP) on the same electrical bus as the solar array, providing a dispatchable backup source for winter, night, and blackout hours. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
+Privately owned solar generation at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
 
 ### 4.3 Community-Owned Data Center
-Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with solar and biomass-electric generation, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
+Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with locally generated solar power, native forest restoration, and EV charging infrastructure, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
 
 ### 4.4 EV Charging Network
 Provision of distributed charging infrastructure for residents and visitors, anchored to local generation rather than dependent on external grid extension.

@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.2 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.3 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 ---
 
@@ -344,7 +344,7 @@ The most structurally important phase. The feasibility studies produced here det
 
 | Item | Detail |
 |------|--------|
-| Scope | Field survey of candidate sugi plots; thinning residue yield estimates (fuel input for biomass-electric conversion); transportation cost analysis from steep terrain; native forest restoration plan and timeline; carbon sequestration estimate; coordination with 日本林業協会 / 林野庁 advisors |
+| Scope | Field survey of candidate sugi plots for native species conversion; transportation and extraction cost analysis from steep terrain; native forest restoration plan, species selection, and timeline; carbon sequestration estimate; coordination with 日本林業協会 / 林野庁 advisors |
 | Owner | Director — Forestry/Local |
 | Budget | ¥1.5M (lower end of ¥1.5–3M range; full range covered by Phase 1 contingency if needed) |
 | Deliverables | Forestry feasibility report (Japanese); executive summary (bilingual); land parcel map; carbon estimate methodology |
@@ -587,7 +587,7 @@ The largest and most complex phase. Peak spend is in Months 22–27. All Phase 3
 
 | Item | Detail |
 |------|--------|
-| Scope | First 5–10 ha of sugi harvested under signed landowner agreements; timber processed for lumber + residue stockpiled for future biomass-electric conversion; native species replanting commenced; forest road and drainage improvements; J-Credit documentation initiated |
+| Scope | First 5–10 ha of sugi harvested under signed landowner agreements; timber processed for lumber; native species replanting commenced; forest road and drainage improvements; J-Credit documentation initiated |
 | Owner | Director — Forestry/Local |
 | Budget | ¥25.0M |
 | Deliverables | Harvest completion report; replanting plan executed for cleared area; first J-Credit application submitted |

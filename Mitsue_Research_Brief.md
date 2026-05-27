@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-05-24</p>
+<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 ---
 
@@ -64,8 +64,8 @@ Agriculture and forestry dominate Mitsue’s economy. While traditional in chara
 
 Nara Prefecture’s overall forestry output declined from a peak of ¥351 billion in 1975 to just ¥26 billion in 2022 — a drop of roughly 93% in real terms. Mitsue’s forests, covering 88% of the village area, represent the village’s largest undeveloped asset.
 
-- 2022: Regional Revitalization Cooperation Corps program facilitated thinning across 27.81 hectares annually, funded by the forest environment transfer tax.
-- 2022: Two new forestry entrants recruited. Five-year target: four additional workers, 100 hectares thinned.
+- 2022: Regional Revitalization Cooperation Corps program managed 27.81 hectares of forest annually, funded by the forest environment transfer tax.
+- 2022: Two new forestry entrants recruited. Five-year target: four additional workers, 100 hectares under active forest management.
 - Goal: establish self-felling forestry models suitable for small-scale operators.
 - International export initiative: model wooden homes being constructed in Thailand using traditional Japanese joinery techniques, targeting markets where wooden architecture has largely disappeared.
 
@@ -216,11 +216,11 @@ The research above supports the following positioning for the project proposal:
 
 ## **Unique Convergence**
 
-Mitsue sits at the intersection of four nationally recognized priorities: rural depopulation response, forestry revitalization, biomass renewable energy development, and regional data center distribution. No other village in Uda District is visibly pursuing all four simultaneously.
+Mitsue sits at the intersection of four nationally recognized priorities: rural depopulation response, native forest restoration and forestry revitalization, rural renewable energy resilience, and regional data center distribution. No other village in Uda District is visibly pursuing all four simultaneously.
 
 ## **Policy Tailwind**
 
-The Japanese government is actively subsidizing exactly the components of the Mitsue.it proposal: Regional Cooperation Corps recruitment, forestry thinning via forest environment transfer tax, digital infrastructure in rural areas, and decarbonized data center construction. The proposal is not ahead of policy — it is aligned with it.
+The Japanese government is actively subsidizing exactly the components of the Mitsue.it proposal: Regional Cooperation Corps recruitment, native forest restoration and forestry revitalization via forest environment transfer tax, digital infrastructure in rural areas, and decarbonized data center construction. The proposal is not ahead of policy — it is aligned with it.
 
 ## **The Key Argument**
 

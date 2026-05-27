@@ -1,4 +1,4 @@
-<p align="right">Version: v2.4 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-23</p>
+<p align="right">Version: v2.5 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-27</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -24,7 +24,7 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 | 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
 | 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
 
-These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/biomass-electric/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
+These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
 
 ---
 
@@ -106,7 +106,7 @@ There are **three relevant non-profit structures** in Japan, with different trad
 These are the **single most important documents** for unlocking serious funding. Get these right.
 
 1. **Forestry Feasibility Study** (~¥1.5–3M)
-   - Thinning residue yield from candidate sugi plots (volume available as fuel input for biomass-electric conversion)
+   - Native forest restoration plan and species selection for candidate sugi plots
    - Transportation costs from steep terrain
    - Native forest restoration plan and timeline
    - Carbon sequestration estimate
@@ -130,9 +130,25 @@ These are the **single most important documents** for unlocking serious funding.
    - Upgrade requirements and costs
    - Coordination with NTT / regional providers
 
-### Indicative Sizing — Data Center Load vs Forestry Supply
+### Native Forest Restoration — Indicative Scope
 
-A first-order check that biomass-electric is plausibly supplied by the village's existing thinning program. Final figures come from the Phase 1 feasibility studies above; these are planning estimates.
+First-order planning figures to guide the Phase 1 forestry feasibility study. Final scope, species mix, and timeline come from that study.
+
+**Target area for sugi-to-native conversion:**
+
+| Scenario | Area (ha) | Timeframe |
+|---|---|---|
+| Phase 3 pilot | 5–10 | Years 2–4 |
+| Phase 4 expansion | 20–40 | Years 5–10 |
+| Long-term target | 50–100+ | Years 10–25 |
+
+Mitsue village has approximately 88% forest cover. The project focuses on replacing aged sugi (Cryptomeria japonica) monoculture with native broadleaf species — predominantly konara oak (Quercus serrata), kunugi oak (Quercus acutissima), and chestnut (Castanea crenata) — suited to the Yoshino-Kumano mountain climate zone.
+
+**Carbon sequestration potential:**
+
+Native broadleaf forests in the Japanese mountain climate accumulate roughly 3–6 tC/ha/yr once established. A 50 ha restored stand at maturity could sequester 150–300 tCO₂/yr, supporting J-Credit certification and providing a long-term revenue stream for participating forest landowners.
+
+**J-Credit pathway:** Forest carbon credits under the J-Credit scheme require a certified methodology and minimum project area. Phase 1 forestry feasibility will confirm eligibility, pre-qualification path, and coordination with the Forestry Agency (林野庁).
 
 **Data center electrical load (10–20 servers, edge compute, PUE 1.2):**
 
@@ -144,40 +160,13 @@ A first-order check that biomass-electric is plausibly supplied by the village's
 
 PUE 1.2 is a realistic planning figure for the air-cooled school-conversion archetype (HIGHRESO's published target for similar deployments is <1.1).
 
-**Wood-to-electricity conversion:**
-Small-scale (under 100 kWe) Japanese wood-gasification CHP plants consume **~1.0 kg of wood chips per kWh of electricity** at ~15% moisture content (documented operating range 0.6–1.2 kg/kWh; 1.0 used here for part-load and degradation margin).
-
-**EV charging load (must be added — ramps over years):**
-
-EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytime), so most EV energy is solar-coincident and only ~20–40% of its raw kWh adds to the biomass-electric gap-fill window. The data center is the inflexible 24/7 base.
-
-| Period | EV charger build-out | Annual EV kWh | Combined DC + EV kWh/yr |
-|---|---|---|---|
-| Year 3–5 | 2 × 6 kW AC, low rural utilization | ~10,000–20,000 | ~90–100k |
-| Year 5–7 | 4 chargers, growing demand | ~30,000–60,000 | ~110–140k |
-| Year 10+ | 4–6 chargers incl. 1–2 DC fast | ~100,000–150,000 | ~180–230k |
-
-**Annual wood requirement — biomass-electric as gap-fill (30–40% of DC load + ~25% of EV load, the actual Phase 3+ design role):**
-
-| Year horizon (baseline 15-server DC + EV growth) | Wood (tonnes/year) |
-|---|---|
-| Year 3–5 (early EV) | ~30–40 t |
-| Year 5–7 (growing EV) | ~38–52 t |
-| Year 10+ (mature EV) | ~55–80 t |
-
-(Lean-DC and AI-leaning-DC variants scale roughly ±50% around the baseline column.)
-
-**Supply check.** The village currently thins ~27.81 ha/year under the Forest Environment Transfer Tax (森林環境譲与税) program. Conservative residue yield (~30–40% of harvested volume that is non-lumber-grade) gives **~150–325 tonnes/year of residue available** village-wide. The project's own Phase 3 forestry adds another 5–10 ha → **30–100 t/yr** of residue independently. Either source comfortably covers the Year 5–7 baseline gap-fill demand (~38–52 t/yr); the Year 10+ scaled scenario (~55–80 t/yr) is still ~25–50% of existing village residue. **Feedstock is not the constraint; gasifier capex is** (¥30–80M for 40–100 kWe class units in Japan), which is why this remains a Phase 3+ optionality rather than a Phase 0–2 commitment.
-
 **Sources & assumptions** (for Phase 1 feasibility study validation):
 
 - HIGHRESO Co., Ltd. — air-cooled data centers in repurposed schools, published PUE target <1.1: https://highreso.jp/sdgs/
-- Mitsue Village forestry program — 27.81 ha/yr thinning under 森林環境譲与税 (cited via Grokipedia summary of village policy): https://grokipedia.com/page/mitsue_nara
-- Small-scale (under 100 kWe) Japanese wood gasification CHP — wood-to-electricity conversion ~0.6–1.2 kg/kWh; 40 kWe ENTRENCO-class unit at Kushima Hospital documented at ~1 t/day woodchips at 15% MC. Reference: "An Analysis of the Current Status of Woody Biomass Gasification Power Generation in Japan", MDPI Energies 13(18) 4903: https://mdpi.com/1996-1073/13/18/4903/htm
-- Techno-economic assessment of woodchip-fed CHP heat-supply systems: MDPI Sustainability 14(24) 16878: https://www.mdpi.com/2071-1050/14/24/16878
-- Small-scale gasification CHP benchmark figures (electrical efficiency, capex ranges): IEA Bioenergy Task 33 workshop report (2022): https://task33.ieabioenergy.com/wp-content/uploads/sites/33/2022/07/WS-Report-final-2.pdf
-- Japanese biomass market context and FIT framework: USDA FAS Japan Biomass Annual 2023: https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Japan+Biomass+Annual+2023_Tokyo_Japan_JA2023-0071.pdf
-- Sugi (Cryptomeria japonica) wood density assumed at ~290 kg/m³ at 15% moisture content; standing volume per ha and thinning removal rates from standard Japanese forestry references (林野庁 timber statistics).
+- Mitsue Village forest cover and forestry programme: Grokipedia summary of village policy: https://grokipedia.com/page/mitsue_nara
+- Native broadleaf species suitability for Yoshino-Kumano climate zone: 林野庁 (Forestry Agency) afforestation guidelines
+- Carbon sequestration rates for native broadleaf secondary forest in Japan: Forestry and Forest Products Research Institute (森林総合研究所) reference data
+- J-Credit forest carbon methodology: Japan's J-Credit Scheme — https://japancredit.go.jp/
 - Server power draw (300–700 W/server) and PUE assumptions: edge data center industry references including [IAEI Magazine](https://iaeimagazine.org/electrical-fundamentals/how-much-electricity-does-a-data-center-use-complete-2025-analysis/) and [Dgtl Infra](https://dgtlinfra.com/what-is-an-edge-data-center/).
 - EV charger utilization model in rural Japan: planning assumption (10–20% utilization Year 1–3, 30–50% Year 5+), to be validated in feasibility study.
 
@@ -197,9 +186,9 @@ EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytim
 
 ### Key Activities
 - Detailed engineering and architectural plans
-- Permitting (forestry, building, electrical & fire safety for EV/biomass-electric, FIT/FIP registration; battery storage permits if feasibility study confirms)
+- Permitting (forestry, building, electrical & fire safety for EV, FIT/FIP registration; battery storage permits if feasibility study confirms)
 - Partnership agreements with landowners (template contract)
-- Vendor selection for solar/biomass-electric/EV equipment, data center hardware, IT; battery storage vendor scoping deferred pending feasibility study
+- Vendor selection for solar/EV equipment, data center hardware, IT; battery storage vendor scoping deferred pending feasibility study
 - Major funding applications submitted
 - Hiring of first 2–3 part-time staff
 
@@ -214,7 +203,7 @@ EV charging is **time-flexible** (sessions can be scheduled to solar-peak daytim
 
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
-- **Energy**: Privately owned rooftop solar panels + biomass-electric unit (from forest thinning residue) + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
+- **Energy**: Privately owned rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
 - **Building**: Renovate one wing of the school for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
@@ -256,8 +245,8 @@ The project should pursue **multiple funding streams in parallel**, never depend
 - **METI green technology subsidies** — for rural energy resilience and EV infrastructure
 - **Nara Prefecture rural development grants** — varies by year; check 奈良県地域創造課
 - **Mitsue village local subsidies** — small but politically meaningful
-- **Mitsue village startup subsidy program** — partial business-cost support for new enterprises; village policy targets **5 new enterprises over 5 years** to retain youth and stem depopulation. The project should be positioned as filling one or more of those slots. *Eligibility for NPOs to be confirmed with the village 募集要項; if the program is restricted to for-profit entities, the NPO can incorporate subsidiary 合同会社 / GKs (forestry operations, EV/energy services, biomass-electric operations) that apply separately.* Politically aligned with stated village policy; coordinate with the mayor before applying.
-- **森林環境譲与税 (Forest Environment Transfer Tax)** — already funding the village's ongoing thinning program (~28 ha/yr); applies to forestry operations and to thinning-residue supply chains feeding biomass-electric.
+- **Mitsue village startup subsidy program** — partial business-cost support for new enterprises; village policy targets **5 new enterprises over 5 years** to retain youth and stem depopulation. The project should be positioned as filling one or more of those slots. *Eligibility for NPOs to be confirmed with the village 募集要項; if the program is restricted to for-profit entities, the NPO can incorporate subsidiary 合同会社 / GKs (forestry operations, EV/energy services) that apply separately.* Politically aligned with stated village policy; coordinate with the mayor before applying.
+- **森林環境譲与税 (Forest Environment Transfer Tax)** — already funding the village's ongoing forestry programme; applies to native forest restoration operations and sugi plantation conversion to native broadleaf species.
 
 **Recommendation:** Hire a **行政書士 (administrative scrivener)** experienced in grant applications. Cost: ¥200,000–500,000 per application. Worth every yen — Japanese government grant applications are notoriously demanding.
 
@@ -276,10 +265,10 @@ The project should pursue **multiple funding streams in parallel**, never depend
 
 #### Layer 5 — Revenue (Phase 3+)
 - Data center hosting fees
-- Electricity sales (if FIT/FIP-registered) — solar surplus plus biomass-electric output when active
+- Electricity sales (if FIT/FIP-registered) — solar surplus
 - EV charging fees
 - Carbon credits (J-Credit certification)
-- Forestry products beyond fuel residue (timber, lumber)
+- Forestry products (timber, lumber)
 - Educational tourism / consulting (sharing the playbook)
 
 ### Realistic Funding Scenario for First 3 Years
