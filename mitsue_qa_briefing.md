@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
@@ -29,11 +29,11 @@ This document responds to six questions raised during informal consultation. It 
 
 ## A note before the questions / ご質問にお答えする前に
 
-Several early conversations assumed biomass energy generation as the project's energy component. After extensive community consultation, the project is now focusing on **EV charging infrastructure and community energy resilience** — privately owned solar, battery storage, and EV charging stations. Battery storage will be evaluated in the Phase 1 feasibility study and is not a confirmed install. This reflects both what the community needs most and what is most practical to implement.
+The project's **primary energy source is biomass combined heat and power (CHP)** fuelled by sugi (cedar) forest thinnings — generating electricity (primary output) and heat (secondary output). This is complemented by solar panels (intermittent, supplementary) and supports community services including EV charging stations, with battery storage and blackout resilience. Battery storage will be evaluated in the Phase 1 feasibility study and is not a confirmed install. The result is a circular local energy economy: the forest powers the village.
 
-The forestry programme is focused on **replacing aged sugi (cedar) plantations with native broadleaf species** — ecological restoration that heals land that has been depleted for generations. Native broadleaf trees (konara oak, kunugi, chestnut) provide food for deer, wild boar, and bear, reducing wildlife raids on crops, and support long-term carbon sequestration via J-Credit certification.
+The forestry programme is focused on **replacing aged sugi (cedar) plantations with native broadleaf species** — ecological restoration that heals land that has been depleted for generations. Thinning the aged sugi serves both purposes: it heals the forest and generates the biomass fuel feedstock. Native broadleaf trees (konara oak, kunugi, chestnut) provide food for deer, wild boar, and bear, reducing wildlife raids on crops, and support long-term carbon sequestration via J-Credit certification.
 
-ご相談を重ねた結果、エネルギー部門の焦点を**EVインフラと地域エネルギーレジリエンス**（個人所有の太陽光発電・蓄電池・EV充電ステーション）に絞ることといたしました。蓄電池はフィージビリティスタディで評価します。これは地域のニーズと実現可能性の両面から最善の選択です。
+このプロジェクトの**主たるエネルギー源は、杉（スギ）林の間伐材を燃料とするバイオマス熱電併給（CHP）**であり、電力（主たる出力）と熱（副次的な出力）を生み出します。これを太陽光発電（間欠的・補完的）が補い、EV充電ステーションをはじめとする地域サービスや蓄電池・停電レジリエンスを支えます。蓄電池はフィージビリティスタディで評価します。こうして「森が村を動かす」循環型の地域エネルギー経済が実現します。
 
 林業の方針については：老齢化した杉の人工林を在来種の広葉樹（コナラ・クヌギ・クリなど）へ転換する**生態的な森林再生**を進めます。在来広葉樹はシカ・イノシシ・クマの食料を供給し、野生動物を森に留め、農作物への被害を軽減します。J-Creditによる炭素固定収入も山林所有者の長期的な財源となります。
 
@@ -43,7 +43,7 @@ The forestry programme is focused on **replacing aged sugi (cedar) plantations w
 
 ### Q1. Why EV charging? Is there really demand for this in a rural mountain village?
 
-Yes — and growing. Japan's national policy targets widespread EV adoption by the mid-2030s. Rural areas are actually at greater disadvantage in this transition: existing public charging infrastructure is concentrated in cities, and rural residents who commute long distances between visits to the nearest town need reliable local charging most. Key points:
+Yes — and rural EV owners are among the most underserved. Japan's national policy aims for plug-in vehicles to reach 30–40% of new car sales by the mid-2030s, though the total share of EVs on all roads is projected at only around 10–15% by 2036 — a gradual transition, not an overnight switch. Rural areas are at greater disadvantage in this shift: existing charging infrastructure is concentrated in cities, while rural residents who travel long distances need reliable local charging most. Key points:
 
 - Mitsue residents who own EVs currently have no public charging within the village. Home charging requires overnight access and stable power — not always available.
 - The school site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
@@ -54,8 +54,8 @@ Yes — and growing. Japan's national policy targets widespread EV adoption by t
 
 Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location makes it vulnerable to outages during typhoons, heavy snowfall, and other weather events. Key points:
 
-- The project's on-site solar generation, combined with battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the school building and adjacent facilities during a grid outage.
-- This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down.
+- The project's on-site biomass CHP generation provides 24/7 baseload power and, combined with complementary solar and battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the school building and adjacent facilities during a grid outage.
+- This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down — and unlike solar alone, biomass CHP runs through the night and through extended bad-weather outages.
 - Battery capacity will be specified during Phase 2 feasibility (months 10–18). Preliminary estimates suggest a system supporting 12–48 hours of critical-load operation during an outage.
 - The data center's uninterruptible power supply (UPS) infrastructure, already required for its own operations, forms the backbone of this community resilience capability at minimal additional cost.
 
@@ -63,9 +63,9 @@ Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location
 
 The data center is what turns an energy project into a development project.
 
-1. **Load-shape match.** Solar is intermittent. A data center is one of the very few rural loads that runs 24/7/365 — it justifies the scale of solar and battery investment that makes EV charging and blackout resilience feasible.
+1. **Load-shape match.** A data center is one of the very few rural loads that runs 24/7/365 — a steady baseload that pairs naturally with biomass CHP (which also runs continuously) and justifies the scale of the energy investment that makes EV charging and blackout resilience feasible. Solar alone is intermittent; biomass provides the round-the-clock baseload the data center needs.
 2. **Anchor revenue.** Without an anchor offtaker, rural energy projects in Japan typically fail their financials. The data center provides predictable, year-round revenue.
-3. **Heat reuse.** Server waste heat can warm community spaces or greenhouses, closing a useful loop.
+3. **Heat reuse.** The biomass CHP system's heat output and server waste heat can warm community spaces or greenhouses, closing a useful loop.
 4. **Digital deficit.** Rural Japan has a real edge-compute and connectivity gap. Local hosting improves latency, sovereignty, and resilience for nearby municipalities and SMEs.
 5. **Higher-skill jobs.** Operations and monitoring roles attract younger residents and returnees.
 6. **Replicability.** With the data center, Mitsue becomes a rural-revitalization model that other depopulating municipalities can study and adapt. A community-owned AI data center powered by locally generated renewable energy sets a working example of how technological progress and ecological sustainability can be a single coherent system — not opposites.
@@ -91,7 +91,7 @@ The existing solar installations belong to individual landowners and are connect
 | Community control | Individual owners | Village NPO |
 | Blackout protection | None | Yes — critical facilities |
 
-The project does not compete with existing installations — it builds a complementary community-owned system that does what individual rooftop solar cannot: store energy, provide EV charging, and keep critical services running when the grid fails.
+The project does not compete with existing installations — it builds a complementary community-owned system that does what individual rooftop solar cannot: pair solar with biomass CHP baseload generation, store energy, provide EV charging, and keep critical services running when the grid fails. Solar is one supplementary input to the project; the primary supply is biomass CHP from sugi thinnings.
 
 ### Q6. How will EV charging and energy infrastructure costs be recovered?
 
@@ -112,7 +112,7 @@ Earlier conversations sometimes described the forestry component as managing sug
 - **Ecological recovery, not resource extraction.** Sugi monocultures are ecologically depleted — poor biodiversity, minimal understory, and limited wildlife habitat. Replacing them with native broadleaf species (konara oak, kunugi, chestnut) restores the forest ecosystem over a 25-year horizon.
 - **Wildlife pressure relief.** Native broadleaf trees produce acorns and nuts that feed deer, wild boar, and bear through winter. When the forest feeds them naturally, they stay in the forest — directly reducing the wildlife raids on surrounding crop areas that already trouble Mitsue farmers.
 - **Carbon sequestration revenue.** Native broadleaf forests accumulate carbon at roughly 3–6 tC/ha/yr once established. A 50 ha restored stand could generate J-Credit carbon credits, providing long-term income for participating landowners — more durable than one-time timber revenue.
-- **Energy is solar + EV, not biomass.** The energy system is privately owned rooftop solar combined with EV charging stations and battery storage (to be evaluated in feasibility study). The project does not depend on forest biomass for energy — keeping the forestry and energy programmes each optimized for its own purpose.
+- **Thinnings become energy.** Restoration is not pure extraction, but the sugi removed during conversion is not wasted: it fuels the biomass CHP system that is the project's primary energy source. The forest is both an ecological liability to heal and an energy asset — thinning it does both at once. Solar and EV charging complement this biomass core.
 - **Policy alignment.** The Forestry Agency (林野庁) and the 森林環境譲与税 framework actively support native species conversion and forest restoration projects of exactly this type.
 
 ---
@@ -121,7 +121,7 @@ Earlier conversations sometimes described the forestry component as managing sug
 
 ### Q1. なぜEV充電なのでしょうか? 山間の農村にそれほど需要があるのでしょうか?
 
-はい、そして需要は拡大しています。日本の国家政策は2030年代半ばまでのEV普及を目指しており、農村部はこの移行においてとりわけ不利な立場にあります。既存の公共充電インフラは都市部に集中しており、最寄りの町まで長距離を移動する農村住民こそ、地元の充電設備を最も必要としています。
+はい、そして農村部のEVオーナーほど不便な状況に置かれています。日本の国家政策は2030年代半ばまでに新車販売の30〜40%をプラグイン車にすることを目指していますが、路上全車両に占めるEVの割合は2036年時点でも10〜15%程度にとどまる見込みで、急速な転換ではなく段階的な移行です。農村部はこの変化においてとりわけ不利な立場にあります。既存の公共充電インフラは都市部に集中しており、最寄りの町まで長距離を移動する農村住民こそ、地元の充電設備を最も必要としています。
 
 - 御杖村でEVを所有する住民が利用できる公共充電設備は、現在村内に存在しません。
 - 駐車場を備えアクセスしやすい校舎跡地は、村の充電インフラの自然な拠点です。
@@ -132,8 +132,8 @@ Earlier conversations sometimes described the forestry component as managing sug
 
 はい。日本の農村部の配電線は老朽化が進んでおり、御杖村の山間部立地により、台風・大雪・その他の気象イベント時に停電リスクが高い状況です。
 
-- プロジェクトの蓄電池システムは、主にデータセンター向けに太陽光発電を蓄電するものですが、停電時には校舎および周辺施設へ電力を供給するよう構成できます。
-- この「アイランドモード」運転により、広域停電時もデータセンター、非常照明、通信機器、EV充電器を稼働させ続けることができます。
+- プロジェクトの現地バイオマスCHP発電は24時間の安定電源を供給し、これを補完する太陽光発電と蓄電池（フィージビリティスタディで評価し確認されれば設置）と組み合わせることで、停電時には校舎および周辺施設へ電力を供給するよう構成できます。
+- この「アイランドモード」運転により、広域停電時もデータセンター、非常照明、通信機器、EV充電器を稼働させ続けることができます。太陽光だけと異なり、バイオマスCHPは夜間も悪天候による長時間停電中も稼働を続けます。
 - 蓄電容量は第2段階のフィージビリティスタディ（10〜18か月目）で詳細設計します。予備試算では、停電時に重要負荷を12〜48時間程度維持できる規模を想定しています。
 - データセンター自身の運営に必須の無停電電源装置（UPS）インフラが、最小限の追加コストで地域レジリエンス機能の基盤を形成します。
 
@@ -141,9 +141,9 @@ Earlier conversations sometimes described the forestry component as managing sug
 
 データセンターの存在こそが、エネルギー事業を地域振興事業へと転換いたします。
 
-1. **負荷曲線の整合性。** 太陽光は間欠的でございます。データセンターは農村部における数少ない24時間365日稼働の負荷であり、EV充電や停電レジリエンスを可能にする規模の太陽光・蓄電池設備投資を正当化します。
+1. **負荷曲線の整合性。** データセンターは農村部における数少ない24時間365日稼働の負荷であり、同じく連続稼働するバイオマスCHPと自然に組み合わさる安定したベースロード需要として、EV充電や停電レジリエンスを可能にする規模のエネルギー設備投資を正当化します。太陽光だけでは間欠的ですが、バイオマスがデータセンターに必要な24時間のベースロードを供給します。
 2. **基幹収益。** 安定した引き取り手なしには、農村のエネルギー事業は経済的に成立しないのが通例です。データセンターは年間を通じた予測可能な収益を提供します。
-3. **排熱の再利用。** サーバーの排熱を地域スペースや温室の暖房に活用できます。
+3. **排熱の再利用。** バイオマスCHPの熱出力とサーバーの排熱を地域スペースや温室の暖房に活用できます。
 4. **デジタル基盤の不足。** 日本の農村部にはエッジコンピューティングと通信環境の現実的な格差があります。
 5. **より高度な雇用。** 運用・監視業務は若い住民やUターン者の受け皿となります。
 6. **再現可能性。** データセンターを伴うことで、御杖は他の過疎自治体が学習・展開できる農村再生のモデルとなります。
@@ -169,7 +169,7 @@ Earlier conversations sometimes described the forestry component as managing sug
 | 地域管理 | 個人所有者 | 村NPO |
 | 停電対策 | なし | あり ―― 重要施設を守る |
 
-プロジェクトは既存設備と競合するのではなく、個人の屋根置き太陽光にはできないことを実現するコミュニティ所有システムを構築します。
+プロジェクトは既存設備と競合するのではなく、個人の屋根置き太陽光にはできないことを実現するコミュニティ所有システムを構築します。すなわち、太陽光をバイオマスCHPのベースロード発電と組み合わせ、電力を蓄え、EV充電を提供し、停電時にも重要サービスを維持します。太陽光はプロジェクトの補完的な一入力にすぎず、主たる供給源は杉間伐材によるバイオマスCHPです。
 
 ### Q6. EV充電と蓄電池のコストはどのように回収されるのでしょうか?
 
@@ -190,7 +190,7 @@ Earlier conversations sometimes described the forestry component as managing sug
 - **生態系の回復を最優先に。** 杉の単一林は生態的に貧しく、生物多様性・下層植生・野生動物の生息環境が著しく損なわれています。コナラ・クヌギ・クリなどの在来広葉樹への転換により、25年という時間軸で森林生態系を回復させます。
 - **野生動物被害の軽減。** 在来広葉樹はシカ・イノシシ・クマの冬の食料（どんぐり・木の実）を供給します。森が食料を提供すれば、野生動物は森の中に留まり、御杖村の農家がすでに悩まされている農作物被害が直接的に軽減されます。
 - **炭素固定による収入。** 在来広葉樹林は定着後、年間約3〜6 tC/haのペースで炭素を蓄積します。50haの再生林でJ-Creditの炭素クレジット収入が見込め、参加する山林所有者に一時的な木材収益より持続的な長期収入をもたらします。
-- **エネルギーは太陽光＋EVのみ。** エネルギー系統は個人所有の屋根置き太陽光発電・EV充電ステーション・蓄電池（フィージビリティスタディで要否確認）で構成します。プロジェクトは森林バイオマスをエネルギー源として依存せず、林業とエネルギーの両部門をそれぞれの目的に最適化した独立した計画として進めます。
+- **間伐材がエネルギーになる。** 森林再生は単なる資源採取ではありませんが、転換の過程で伐り出される杉は無駄になりません。プロジェクトの主たるエネルギー源であるバイオマスCHPの燃料となります。森は癒すべき生態的負債であると同時にエネルギー資産でもあり、間伐はその両方を同時に果たします。太陽光とEV充電はこのバイオマスの中核を補完します。
 - **政策との整合。** 林野庁および森林環境譲与税の枠組みは、まさにこのような在来種への転換・森林再生事業を積極的に支援しています。
 
 ---

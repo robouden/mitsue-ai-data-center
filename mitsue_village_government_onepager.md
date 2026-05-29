@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # 御杖村プロジェクト概要 / Mitsue Village Project — Summary
 ### One-Page Briefing for Mitsue Village Government
@@ -23,8 +23,8 @@
 
 To repurpose the closed **Mitsue Elementary School** (御杖小学校) as a **community sustainability center** that will:
 
-1. Restore aging cedar (sugi) plantations to healthy native forest — native broadleaf trees feed local wildlife, reducing crop raids by deer, wild boar, and bear
-2. Provide EV charging infrastructure and community backup power (privately owned solar; battery storage subject to feasibility study)
+1. Restore aging cedar (sugi) plantations to healthy native forest — native broadleaf trees feed local wildlife, reducing crop raids by deer, wild boar, and bear; thinning the sugi also generates biomass fuel for the village energy system
+2. Generate the village's electricity and heat from sugi forest thinnings through a biomass CHP system — a circular energy economy where the forest powers the village, complemented by solar, EV charging, and community backup power (battery storage subject to feasibility study)
 3. House a small, low-impact data center powered by that local energy — a working model of progress and sustainability as a single coherent system
 
 A 25-year initiative built carefully, in close partnership with the village.
@@ -35,8 +35,9 @@ A 25-year initiative built carefully, in close partnership with the village.
 
 - **Local employment** — forestry work, facility operations, maintenance roles
 - **Income for landowners** — fair compensation to private mountain owners for sugi harvesting
-- **Lower energy costs** — locally generated power for the village
-- **EV charging infrastructure** — Mitsue prepared for the coming shift to electric vehicles
+- **Lower energy costs** — locally generated biomass and solar power for the village
+- **Circular forest-to-energy economy** — sugi thinnings fuel the village's biomass CHP system, turning a forest liability into local energy
+- **EV charging infrastructure** — Mitsue prepared for the coming shift to electric vehicles, powered by the local energy system
 - **New use for the closed school** — preserving and honoring an important community building
 - **Reduced cedar pollen** — gradual replacement of sugi with native species over decades
 - **Reduced wildlife crop damage** — restored native forest provides natural food for deer, wild boar, and bear, keeping them out of agricultural areas

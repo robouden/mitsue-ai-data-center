@@ -1,4 +1,4 @@
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -17,7 +17,7 @@
 
 ## 1. Executive Summary
 
-The Mitsue Project is a non-profit initiative to repurpose the closed Mitsue Elementary School and the surrounding forested landscape into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated solar energy with EV charging and community backup power, and a small-scale community-owned data center — under a single coordinating organization.
+The Mitsue Project is a non-profit initiative to repurpose the closed Mitsue Elementary School and the surrounding forested landscape into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
 
 The project is designed to be **modest in scale, fully transparent, and openly replicable**, so that other depopulating municipalities in Japan and beyond can adapt the model to their own circumstances. The 25-year horizon is intentional: it bridges the period between today's rural energy and digital deficits and the anticipated availability of localized small-scale fusion power generation.
 
@@ -27,7 +27,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 **Mission.** To demonstrate that rural Japanese communities can build their own sustainable future by integrating ecological restoration, locally generated clean energy, and modern digital infrastructure — and to share what is learned so that other communities may follow.
 
-**Vision (2050).** Mitsue Village is a self-sustaining model of rural revitalization in which restored native forests, locally generated solar energy, EV charging infrastructure, and community backup power, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model is openly documented and freely available to any community that wishes to adapt it.
+**Vision (2050).** Mitsue Village is a self-sustaining model of rural revitalization in which restored native forests, locally generated biomass CHP energy from sugi thinnings, complementary solar and EV charging infrastructure, community backup power, and a small-scale community-owned data center together support the village's economy, ecology, and digital future. The model is openly documented and freely available to any community that wishes to adapt it.
 
 ---
 
@@ -45,11 +45,11 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 ### 4.1 Forest Restoration
 Phased replacement of aged sugi plantations with native broadleaf species, in cooperation with private landowners, the Forestry Agency (林野庁), and local forestry contractors. Restoration operates on a 25-year ecological timeline. Native broadleaf trees — oak, chestnut, and konara — produce acorns and nuts that sustain deer, wild boar, and bear through winter. When the forest feeds them, they stay in the forest, directly reducing wildlife raids on surrounding crop areas.
 
-### 4.2 Renewable Energy, EV Charging & Community Resilience
-Privately owned solar generation at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
+### 4.2 Biomass CHP Energy, Solar, EV Charging & Community Resilience
+The village's primary energy source is a biomass combined heat and power (CHP) system fuelled by sugi forest thinnings, generating 24/7 baseload electricity (primary output) and heat (secondary output). This circular local energy economy — where the forest powers the village — is complemented by solar generation at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. Unlike intermittent solar alone, biomass CHP supplies the round-the-clock baseload the data center needs. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
 
 ### 4.3 Community-Owned Data Center
-Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with locally generated solar power, native forest restoration, and EV charging infrastructure, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
+Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with locally generated biomass CHP and solar power, native forest restoration, and EV charging infrastructure, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
 
 ### 4.4 EV Charging Network
 Provision of distributed charging infrastructure for residents and visitors, anchored to local generation rather than dependent on external grid extension.
@@ -209,7 +209,7 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
 | `mitsue_mayor_meeting_talking_points.md` / `.pdf` | Preparation document for the formal mayor meeting (EN) |
 | `mitsue_mayor_meeting_talking_points_ja.md` | Japanese translation of the mayor meeting talking points |
-| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on EV charging, blackout resilience, data center, solar, and 25-year horizon |
+| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass CHP energy, EV charging, blackout resilience, data center, solar, and 25-year horizon |
 | `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
 | `mitsue_project_founding_story_jp.md` / `.pdf` | Japanese version of the founding story |

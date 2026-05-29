@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # Mitsue Project — Phases & Funding Flowchart
 
@@ -149,7 +149,7 @@ flowchart TB
 | L2 — Government Grants | National + prefectural + municipal grants | ¥115M |
 | L3 — Foundations | Philanthropic foundations | ¥33M |
 | L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M |
-| L5 — Operating Revenue | Early data center and EV revenue | ¥3M |
+| L5 — Operating Revenue | Early data center, biomass/solar energy, and EV revenue | ¥3M |
 | **Total Raised / Committed** | | **¥192M** |
 | | | |
 | **BAC (PMB)** | Project budget baseline | **¥220M** |

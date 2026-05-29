@@ -1,4 +1,4 @@
-<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # The Mitsue Project
 ### A Forest, a School, and a Future Powered by Itself
@@ -21,8 +21,8 @@ The Mitsue Project is a 25-year initiative to turn an abandoned school into a li
 
 We will:
 
-- **Restore native forests** in place of aging sugi monoculture, healing land that has been ecologically depleted for generations.
-- **Build EV charging infrastructure** with privately owned solar panels — energy resilience that belongs to the village, keeping it powered during blackouts and ready for the coming EV transition. Battery storage to be evaluated in the feasibility study.
+- **Restore native forests** in place of aging sugi monoculture, healing land that has been ecologically depleted for generations. Thinning the overgrown sugi both heals the forest and generates the fuel that powers the village.
+- **Generate electricity and heat from sugi forest thinnings** through a biomass combined heat and power (CHP) system — a circular energy economy where the forest powers the village. Electricity is the primary output and heat the secondary; complementary solar panels and EV charging stations round out a locally owned system that keeps the village powered during blackouts and ready for the coming EV transition. Battery storage to be evaluated in the feasibility study.
 - **Build a small, sustainable AI data center** inside the old school — powered entirely by that local energy, providing digital infrastructure where it has never existed before.
 
 Three things, woven together: ecology, energy, and the digital age.
@@ -31,9 +31,9 @@ Three things, woven together: ecology, energy, and the digital age.
 
 ## Why 25 Years
 
-We are not building for the short term. The forests we plant will mature over decades. The technology we install will evolve. By the time our project completes its first full cycle, **localized small-scale fusion energy** may finally be commercially available — and the solar and EV infrastructure we build now will have served as the bridge.
+We are not building for the short term. The forests we plant will mature over decades. The technology we install will evolve. By the time our project completes its first full cycle, **localized small-scale fusion energy** may finally be commercially available — and the biomass CHP, solar, and EV infrastructure we build now will have served as the bridge.
 
-In the meantime, we expect the world around Mitsue to change profoundly. Within ten years, most cars in Japan will be electric. Rural villages will need their own clean power, generated locally, to serve a future that the existing grid cannot reach.
+In the meantime, Japan's vehicle fleet is gradually shifting toward electrification. New plug-in vehicle sales are projected to reach 30–40% by the mid-2030s — but the total share of EVs on the road is expected to remain around 10–15% through 2036. Mitsue is not waiting for EV ownership to become widespread. By building EV-capable charging infrastructure today, the village positions itself as forward-looking and EV-ready: serving the EV owners already here, welcoming visitors, and prepared for the longer transition ahead.
 
 The Mitsue Project is designed for that future.
 

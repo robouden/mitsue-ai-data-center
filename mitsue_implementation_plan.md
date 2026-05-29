@@ -1,4 +1,4 @@
-<p align="right">Version: v2.5 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.6 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -24,7 +24,7 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 | 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
 | 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
 
-These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on solar/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
+These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on biomass CHP and solar/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
 
 ---
 
@@ -113,10 +113,10 @@ These are the **single most important documents** for unlocking serious funding.
    - Recommended providers: forestry consultants connected to 日本林業協会 or 林野庁
 
 2. **Energy Systems Feasibility Study** (~¥2–4M)
-   - Solar PV sizing on school rooftop and adjacent surfaces
-   - EV charging capacity sizing (2–4 stations initially, scalable)
+   - **Biomass CHP sizing (primary source)** — gasifier or CHP unit fuelled by sugi forest thinnings, providing 24/7 baseload electricity (primary output) and heat (secondary output); sizing, capex, fuel-supply logistics, and dispatch model
+   - Solar PV sizing on school rooftop and adjacent surfaces (complementary, intermittent supply)
+   - EV charging capacity sizing (2–4 stations initially, scalable), powered by the local biomass+solar system
    - Grid connection and FIT/FIP eligibility
-   - **Biomass-electric sizing** — small gasifier or CHP unit feeding the same EV bus as solar (not a separate thermal plant); sizing, capex, and dispatch model for winter/nighttime/blackout gap-fill
    - Battery storage requirements (data center load + EV charging + 12–48h blackout backup; subject to feasibility study confirmation)
 
 3. **Building & Site Assessment** (~¥1–2M)
@@ -203,7 +203,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled school-conversion arch
 
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
-- **Energy**: Privately owned rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
+- **Energy**: Biomass CHP from sugi thinnings (primary baseload electricity + heat) + complementary rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
 - **Building**: Renovate one wing of the school for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
@@ -265,10 +265,10 @@ The project should pursue **multiple funding streams in parallel**, never depend
 
 #### Layer 5 — Revenue (Phase 3+)
 - Data center hosting fees
-- Electricity sales (if FIT/FIP-registered) — solar surplus
+- Electricity sales (if FIT/FIP-registered) — biomass CHP and solar surplus
 - EV charging fees
 - Carbon credits (J-Credit certification)
-- Forestry products (timber, lumber)
+- Forestry products (timber, lumber, biomass fuel from thinnings)
 - Educational tourism / consulting (sharing the playbook)
 
 ### Realistic Funding Scenario for First 3 Years
@@ -322,7 +322,7 @@ The quantitative case rests on five revenue and savings categories. **The ranges
 | Revenue / Savings Category | Year 1 | Year 5 | Year 10 | Notes |
 |----------------------------|--------|--------|---------|-------|
 | Data center hosting fees | ¥0 | ¥15–30M | ¥40–80M | Edge computing / AI specialist workloads |
-| Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from solar generation |
+| Electricity sales (FIT/FIP) | ¥0 | ¥5–15M | ¥10–30M | Surplus from biomass CHP and solar generation |
 | EV charging fees | ¥0 | ¥1–3M | ¥3–8M | Growing as EV fleet expands |
 | Carbon credits (J-Credit) | ¥0 | ¥1–3M | ¥3–10M | From forest restoration |
 | Forestry products (timber, lumber) | ¥0 | ¥3–8M | ¥10–20M | Beyond fuel-residue use |
@@ -393,7 +393,7 @@ Different audiences need different orderings of the same underlying story. The d
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
 | Local community resistance | Medium | High | Phase 0 trust-building before any announcements |
-| Forestry economics worse than expected | High | High | Independent feasibility study early; timber revenue is independent of energy system |
+| Forestry economics worse than expected | High | High | Independent feasibility study early; sugi thinnings feed the biomass energy system as fuel, adding value to the forestry programme |
 | Funding gaps between phases | Medium | High | Diversified funding, never depend on one source; phase budgets conservatively |
 | Founder dependency on Rob | Medium | High | Strong co-founders, documented processes, succession plan |
 | Building unsuitable for data center | Low | High | Early structural assessment in Phase 1 |

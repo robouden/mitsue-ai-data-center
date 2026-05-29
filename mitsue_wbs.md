@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.3 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.4 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 ---
 
@@ -354,10 +354,10 @@ The most structurally important phase. The feasibility studies produced here det
 
 | Item | Detail |
 |------|--------|
-| Scope | Solar generation potential at school site; battery storage sizing; grid connection options; FIT/FIP eligibility assessment; EV charging load modelling; blackout resilience scenarios |
+| Scope | Biomass CHP sizing (primary source) fuelled by sugi thinnings — baseload electricity + heat, fuel-supply logistics; complementary solar generation potential at school site; battery storage sizing; grid connection options; FIT/FIP eligibility assessment; EV charging load modelling; blackout resilience scenarios |
 | Owner | Director — Technology |
 | Budget | ¥1.5M (lower end of ¥2–4M range) |
-| Deliverables | Energy feasibility report; solar yield model; battery sizing recommendation; grid connection options memo; FIT/FIP eligibility letter |
+| Deliverables | Energy feasibility report; biomass CHP sizing and dispatch model; solar yield model; battery sizing recommendation; grid connection options memo; FIT/FIP eligibility letter |
 | Acceptance | Report accepted by advisory board; METI pre-consultation completed |
 
 #### 3.4 Building & Site Assessment — ¥0.8M
