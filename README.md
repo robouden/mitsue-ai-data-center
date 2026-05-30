@@ -35,7 +35,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 - **Energy transition.** Within roughly ten years, the majority of Japanese passenger vehicles are expected to be electric. This transition will require significant new distributed generation capacity, particularly in rural regions where grid extension is slow and capital-intensive.
 - **Forest liability conversion.** Aged sugi (cedar) plantations across rural Japan represent an under-managed asset that imposes ecological costs (pollen burden, biodiversity loss) and physical risks (landslide and fire). Active management converts liability into feedstock and timber revenue.
-- **Stranded community assets.** Closed schools, such as the former Mitsue Elementary School, currently impose net maintenance costs on shrinking municipal budgets. Productive reuse turns these into community-anchored facilities.
+- **Stranded community assets.** Available community facilities, such as the Mitsue Taiken Koryukan, currently impose net maintenance costs on shrinking municipal budgets. Productive reuse turns these into community-anchored facilities.
 - **Digital infrastructure deficit.** Rural broadband and edge-compute capacity continue to lag urban Japan. A small, energy-aligned data center addresses both the connectivity and the on-site computation gap.
 
 ---
@@ -46,10 +46,10 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 Phased replacement of aged sugi plantations with native broadleaf species, in cooperation with private landowners, the Forestry Agency (林野庁), and local forestry contractors. Restoration operates on a 25-year ecological timeline. Native broadleaf trees — oak, chestnut, and konara — produce acorns and nuts that sustain deer, wild boar, and bear through winter. When the forest feeds them, they stay in the forest, directly reducing wildlife raids on surrounding crop areas.
 
 ### 4.2 Biomass CHP Energy, Solar, EV Charging & Community Resilience
-The village's primary energy source is a biomass combined heat and power (CHP) system fuelled by sugi forest thinnings, generating 24/7 baseload electricity (primary output) and heat (secondary output). This circular local energy economy — where the forest powers the village — is complemented by solar generation at the school site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. Unlike intermittent solar alone, biomass CHP supplies the round-the-clock baseload the data center needs. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
+The village's primary energy source is a biomass combined heat and power (CHP) system fuelled by sugi forest thinnings, generating 24/7 baseload electricity (primary output) and heat (secondary output). This circular local energy economy — where the forest powers the village — is complemented by solar generation at the Koryukan site, EV charging stations for residents and visitors, and backup power for critical community facilities during grid outages. Unlike intermittent solar alone, biomass CHP supplies the round-the-clock baseload the data center needs. As Japan's vehicle fleet shifts to electric, local charging infrastructure becomes essential — particularly in rural areas where grid extension is slow. Battery storage will be evaluated during the Phase 1 feasibility study and installed only if confirmed.
 
 ### 4.3 Community-Owned Data Center
-Repurposing of the closed Mitsue Elementary School building as a small-scale, energy-efficient edge-compute facility, powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with locally generated biomass CHP and solar power, native forest restoration, and EV charging infrastructure, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
+Repurposing of the Mitsue Taiken Koryukan as a small-scale, energy-efficient edge-compute facility (Phase 2 expands to an old factory building in Mitsue), powered entirely by locally generated renewable energy. The facility is sized for accountability and community ownership, not for hyperscale economics. By integrating a community-owned AI data center with locally generated biomass CHP and solar power, native forest restoration, and EV charging infrastructure, Mitsue sets a working example of how rural communities can combine technological progress with ecological sustainability — not as opposites, but as a single coherent system built to be replicated.
 
 ### 4.4 EV Charging Network
 Provision of distributed charging infrastructure for residents and visitors, anchored to local generation rather than dependent on external grid extension.
@@ -225,7 +225,7 @@ This repository holds the working documents that govern the project's first thre
 | `openproject_backup.json` / `openproject_backup.sql` | Most recent OpenProject work-package export and PostgreSQL dump |
 | `openproject_robouden_theme.css` | Custom dark theme for the OpenProject UI (applied via Stylus extension) |
 
-Related working folders for forestry research, the closed-school site, and visual assets sit alongside this repository under the parent `Mitsue/` directory.
+Related working folders for forestry research, the Koryukan site, and visual assets sit alongside this repository under the parent `Mitsue/` directory.
 
 ---
 

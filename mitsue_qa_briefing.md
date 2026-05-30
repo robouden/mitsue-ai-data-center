@@ -46,7 +46,7 @@ The forestry programme is focused on **replacing aged sugi (cedar) plantations w
 Yes — and rural EV owners are among the most underserved. Japan's national policy aims for plug-in vehicles to reach 30–40% of new car sales by the mid-2030s, though the total share of EVs on all roads is projected at only around 10–15% by 2036 — a gradual transition, not an overnight switch. Rural areas are at greater disadvantage in this shift: existing charging infrastructure is concentrated in cities, while rural residents who travel long distances need reliable local charging most. Key points:
 
 - Mitsue residents who own EVs currently have no public charging within the village. Home charging requires overnight access and stable power — not always available.
-- The school site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
+- The Koryukan site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
 - EV charging also attracts visitors (hikers, tourism, day-trippers from Nara/Osaka) who will need to charge while visiting.
 - Revenue from charging fees contributes to project sustainability from Year 3 onwards.
 
@@ -54,7 +54,7 @@ Yes — and rural EV owners are among the most underserved. Japan's national pol
 
 Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location makes it vulnerable to outages during typhoons, heavy snowfall, and other weather events. Key points:
 
-- The project's on-site biomass CHP generation provides 24/7 baseload power and, combined with complementary solar and battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the school building and adjacent facilities during a grid outage.
+- The project's on-site biomass CHP generation provides 24/7 baseload power and, combined with complementary solar and battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the Koryukan and adjacent facilities during a grid outage.
 - This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down — and unlike solar alone, biomass CHP runs through the night and through extended bad-weather outages.
 - Battery capacity will be specified during Phase 2 feasibility (months 10–18). Preliminary estimates suggest a system supporting 12–48 hours of critical-load operation during an outage.
 - The data center's uninterruptible power supply (UPS) infrastructure, already required for its own operations, forms the backbone of this community resilience capability at minimal additional cost.
@@ -74,7 +74,7 @@ The data center is what turns an energy project into a development project.
 
 Yes. The 25-year horizon applies to forest restoration ecology, not to community benefit. Tangible benefits arrive much sooner — see the early-benefits table in [mitsue_village_government_onepager.md](mitsue_village_government_onepager.md). Highlights:
 
-- **Year 1**: Closed school reactivated; domestic and international media coverage; first researcher and student visits.
+- **Year 1**: Taiken Koryukan reactivated as datacenter hub; domestic and international media coverage; first researcher and student visits.
 - **Year 2**: First forestry contracts → direct cash income to private landowners.
 - **Year 3–4**: EV charging stations operational; battery storage if confirmed by feasibility study.
 - **Year 4–5**: Data center hires local staff; hosting and energy revenue real; village becomes a study-tour destination.
@@ -152,7 +152,7 @@ Earlier conversations sometimes described the forestry component as managing sug
 
 ございます。25年という時間軸は森林再生の生態的な期間であり、村への効果はもっと早く現れます。
 
-- **1年目**: 閉校舎の再活用、国内外メディアによる発信、研究者・学生の来訪。
+- **1年目**: 体験交流館の活用開始、国内外メディアによる発信、研究者・学生の来訪。
 - **2年目**: 最初の林業契約 → 山林所有者への直接的な現金収入。
 - **3〜4年目**: EV充電ステーション稼働開始、停電レジリエンス向けの蓄電池設置。
 - **4〜5年目**: データセンターの地域雇用、ホスティング料・電力販売による実収入。

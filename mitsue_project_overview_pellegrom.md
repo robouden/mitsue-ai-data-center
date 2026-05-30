@@ -19,10 +19,10 @@
 **Follow-up to King's Day Meeting — April 24, 2026**  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lieLGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fGBdgoVMwYAAAAAElFTkSuQmCC)  
 **The Idea in Brief**  
-Repurpose the closed Mitsue Elementary School as a **rural sustainable energy hub** combining:  
+Repurpose the **Mitsue Taiken Koryukan** as a **rural sustainable energy hub** combining:  
 
 1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species; native trees provide natural food for deer, wild boar, and bear, keeping wildlife in the forest and out of crop areas  
-2. **EV charging infrastructure & community energy resilience** — privately owned solar and EV charging stations at the school; battery storage subject to feasibility study  
+2. **EV charging infrastructure & community energy resilience** — privately owned solar and EV charging stations at the Koryukan; battery storage subject to feasibility study  
 3. **A community-owned AI data center** — powered entirely by locally generated renewable energy; a working model demonstrating that technological progress and ecological sustainability are a single coherent system  
 A single integrated project that addresses ecology, energy, rural revitalization, and digital infrastructure in one place.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCUpfDq4wwIAABiywEZJWQZeZ2ao9AAD+4liruzq/ngAA8Nr1ABweBgdur/QFAAAAAElFTkSuQmCC)  
@@ -58,18 +58,18 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 **Additional Requirements & Considerations**  
 **Legal & Regulatory**  
 - **NGO/NPO incorporation in Japan** — register as a 認定NPO法人 (certified NPO) for tax-deductible donations  
-- **Building permits** — converting the school to industrial/data use requires zoning and structural approvals  
+- **Building permits** — converting the Koryukan to data use requires zoning and structural approvals  
 - **Forestry permits** — Japan's Forest Act regulates harvesting; coordination with the Forestry Agency (林野庁)  
 - **EV charging permits** — grid connection approval, safety inspections for charging equipment  
 - **FIT/FIP feed-in tariff registration** — for any surplus electricity sold to the grid  
 - **Data center compliance** — data localization rules, cybersecurity standards, possibly APPI (privacy law)  
 **Technical Infrastructure**  
-- **Solar + EV charging system** — privately owned rooftop solar at the school powers the data center and EV charging stations. Battery storage to be evaluated in feasibility study. The system is sized for data center and EV demand, not for powering the whole village.  
+- **Solar + EV charging system** — privately owned rooftop solar at the Koryukan powers the data center and EV charging stations. Battery storage to be evaluated in feasibility study. The system is sized for data center and EV demand, not for powering the whole village.  
 - **High-bandwidth fiber connectivity** — essential for any data center, even small-scale; Mitsue's current fiber capacity needs assessment  
 - **Blackout resilience** — on-site solar generation enables island-mode operation during grid outages, keeping the data center, EV chargers, and emergency services running; battery storage to be evaluated in feasibility study  
 - **Cooling strategy** — Japan's humid summers are hard on data centers; could leverage Mitsue's cool mountain climate and water resources  
 - **Heat recovery** — waste heat from servers can warm greenhouses, fish farms, or community buildings (a real opportunity)  
-- **Seismic engineering** — the school building must be assessed and likely retrofitted for modern earthquake codes  
+- **Seismic engineering** — the Koryukan must be assessed and likely retrofitted for modern earthquake codes  
 **Financial**  
 - **Phased funding model** — don't try to fund all 25 years at once; secure 3–5 year initial phases  
 - **Diverse revenue streams** — data center hosting fees, electricity sales, carbon credits, government forestry subsidies, EV charging fees  
@@ -94,7 +94,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OUQmAABBAsSdYxKYXx1gmEBOIFfwTYUuwZWa2ag8AgL841uquzq8nAAC8dj05WgYLQTzjnAAAAABJRU5ErkJggg==)  
 **Additional Ideas to Strengthen the Project**  
 **Synergies to Add**  
-- **Educational component** — partner with universities for student internships and research projects; the school setting is symbolic and practical  
+- **Educational component** — partner with universities for student internships and research projects; the Koryukan setting is symbolic and practical  
 - **Citizen science integration** — Safecast environmental monitoring (radiation, air quality, forest health) deployed across the project area as a living lab  
 - **Open data commitment** — publish energy production, forest growth, and environmental data publicly (aligns with your Safecast philosophy and Dutch open-government values)  
 - **Server waste heat loop** — data center heat can still warm community spaces or a small greenhouse, closing a useful loop without requiring a separate thermal plant
@@ -105,7 +105,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Dutch-Japanese branding.** Position as a flagship of Dutch sustainable innovation in Japan, especially around water management, circular economy, and smart agriculture (areas where the Netherlands genuinely leads globally).  
 - **Engage Dutch corporates already in Japan** — companies like Philips, ASML, Heineken, and others may be interested in CSR partnership.  
 **Communications Strategy**  
-- **Start with a strong founding story** — Mitsue, Safecast, citizen science, the closed school. The narrative is already compelling; tell it well.  
+- **Start with a strong founding story** — Mitsue, Safecast, citizen science, the Mitsue Taiken Koryukan. The narrative is already compelling; tell it well.  
 - **Bilingual from day one** — Japanese-language credibility is essential for local trust; English is essential for international partners.  
 - **Modest, credible milestones** — under-promise, over-deliver. Rural projects in Japan that hype too early lose credibility quickly.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OYQ1AABSAwc8mi5wvlAB6CKCAACr4Z7a7BLfMzFYdAQDwF+da3dX+9QQAgNeuB6fWBdZMUxZ2AAAAAElFTkSuQmCC)  
@@ -130,7 +130,7 @@ Phase 1 feasibility studies will produce vetted figures. Early-stage estimates s
 
 **Cost Displacement**  
 - Mitsue currently imports ~~100% of its electricity (~~¥40–60M annually leaves the local economy)  
-- The closed school costs the village ¥3–8M/year in upkeep with no return  
+- The Koryukan costs the village ¥3–8M/year in upkeep with no return  
 - Untended sugi plantations carry ecological and physical risk costs not currently priced  
 The project converts these standing costs into local value.  
 These figures are illustrative ranges, not forecasts. Phase 1 feasibility studies — forestry, energy systems, building condition, and connectivity — will replace these with vetted numbers within 9 months of project launch.  

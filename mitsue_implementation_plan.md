@@ -1,4 +1,4 @@
-<p align="right">Version: v2.6 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-28</p>
+<p align="right">Version: v2.7 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-30</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -114,13 +114,13 @@ These are the **single most important documents** for unlocking serious funding.
 
 2. **Energy Systems Feasibility Study** (~¥2–4M)
    - **Biomass CHP sizing (primary source)** — gasifier or CHP unit fuelled by sugi forest thinnings, providing 24/7 baseload electricity (primary output) and heat (secondary output); sizing, capex, fuel-supply logistics, and dispatch model
-   - Solar PV sizing on school rooftop and adjacent surfaces (complementary, intermittent supply)
+   - Solar PV sizing on Koryukan rooftop and adjacent surfaces (complementary, intermittent supply)
    - EV charging capacity sizing (2–4 stations initially, scalable), powered by the local biomass+solar system
    - Grid connection and FIT/FIP eligibility
    - Battery storage requirements (data center load + EV charging + 12–48h blackout backup; subject to feasibility study confirmation)
 
 3. **Building & Site Assessment** (~¥1–2M)
-   - Structural condition of school building
+   - Structural condition of Koryukan building
    - Seismic compliance requirements
    - Required renovations for data center use
    - Zoning and permit considerations
@@ -158,11 +158,11 @@ Native broadleaf forests in the Japanese mountain climate accumulate roughly 3�
 | Baseline (15 × 500 W) | 7.5 kW | 9.0 kW | ~78,800 |
 | AI-leaning (20 × 700 W, PUE 1.3) | 14.0 kW | 18.2 kW | ~159,500 |
 
-PUE 1.2 is a realistic planning figure for the air-cooled school-conversion archetype (HIGHRESO's published target for similar deployments is <1.1).
+PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility archetype (HIGHRESO's published target for similar deployments is <1.1).
 
 **Sources & assumptions** (for Phase 1 feasibility study validation):
 
-- HIGHRESO Co., Ltd. — air-cooled data centers in repurposed schools, published PUE target <1.1: https://highreso.jp/sdgs/
+- HIGHRESO Co., Ltd. — air-cooled data centers in repurposed buildings, published PUE target <1.1: https://highreso.jp/sdgs/
 - Mitsue Village forest cover and forestry programme: Grokipedia summary of village policy: https://grokipedia.com/page/mitsue_nara
 - Native broadleaf species suitability for Yoshino-Kumano climate zone: 林野庁 (Forestry Agency) afforestation guidelines
 - Carbon sequestration rates for native broadleaf secondary forest in Japan: Forestry and Forest Products Research Institute (森林総合研究所) reference data
@@ -204,7 +204,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled school-conversion arch
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
 - **Energy**: Biomass CHP from sugi thinnings (primary baseload electricity + heat) + complementary rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
-- **Building**: Renovate one wing of the school for office and small server room
+- **Building**: Renovate one wing of the Koryukan for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
 
@@ -214,7 +214,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled school-conversion arch
 - Creates fundable success story for Phase 4 expansion
 - Lowers risk if a major component proves harder than expected
 
-> **Early visible benefits to the village.** The 25-year horizon applies to forest restoration ecology — concrete community benefits arrive much earlier. Year-by-year tangible outcomes through Phases 0–3 (school reactivation, landowner income, EV charging, blackout resilience, data center jobs) are summarized in the "Early Benefits — Visible Within Five Years" table in [`mitsue_village_government_onepager.md`](mitsue_village_government_onepager.md).
+> **Early visible benefits to the village.** The 25-year horizon applies to forest restoration ecology — concrete community benefits arrive much earlier. Year-by-year tangible outcomes through Phases 0–3 (Koryukan reactivation, landowner income, EV charging, blackout resilience, data center jobs) are summarized in the "Early Benefits — Visible Within Five Years" table in [`mitsue_village_government_onepager.md`](mitsue_village_government_onepager.md).
 
 ---
 
@@ -299,7 +299,7 @@ These are the benefits that funders, the village, and partners can be told about
 - Income stream for private mountain owners through fair sugi harvesting compensation
 - Improved local resilience through distributed energy generation
 - EV charging infrastructure preparing the village for the coming transition
-- Preserved use of the closed school building as a community-anchored facility
+- Preserved use of the Mitsue Taiken Koryukan as a community-anchored facility
 - Long-term reduction in cedar pollen affecting public health
 - Visible signal that Mitsue is investing in its future — supporting in-migration and reducing depopulation pressure
 
@@ -334,7 +334,7 @@ The quantitative case rests on five revenue and savings categories. **The ranges
 To frame the ROI, it helps to articulate what the project *replaces* or *avoids*:
 
 - **Energy import to the village**: Mitsue residents and businesses currently import essentially 100% of their electricity. Local generation displaces approximately ¥40–60M per year of energy imports leaving the village economy.
-- **School maintenance burden**: The closed school costs the village an estimated ¥3–8M per year in basic upkeep with no return. Active use generates value from a previously stranded asset.
+- **Taiken Koryukan maintenance burden**: The Koryukan costs the village an estimated ¥3–8M per year in basic upkeep with no return. Active use generates value from a previously stranded asset.
 - **Forest management deficit**: Untended sugi plantations are a liability — both ecologically (pollen, biodiversity loss) and physically (landslide risk, fire risk). Active forestry management converts this liability into an asset.
 - **Rural broadband gap**: Without intervention, Mitsue's connectivity will continue to lag urban Japan. The project's fiber upgrade benefits all village users, not only the data center.
 
@@ -352,7 +352,7 @@ Based on the illustrative figures above and the phase budgets earlier in this pl
 
 ### How This ROI Story Should Be Used
 
-- **For village government**: Lead with qualitative resident benefits, then show the cost-displacement framing (energy imports leaving the village; the school as stranded asset).
+- **For village government**: Lead with qualitative resident benefits, then show the cost-displacement framing (energy imports leaving the village; the Koryukan as stranded asset).
 - **For private funders / corporate partners**: Lead with the revenue table and payback period, supported by qualitative storytelling.
 - **For government grant applications**: Lead with SDG alignment and rural revitalization metrics (jobs created, depopulation impact, replicability), supported by the quantitative framework.
 Different audiences need different orderings of the same underlying story. The discipline is to always have both available.

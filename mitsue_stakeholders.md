@@ -42,7 +42,7 @@
 | 自治会 Leaders (Sugano + hamlets) | Community associations; trust-building target      |
 | Private Mountain Landowners       | Sugi forest owners; harvesting partnership targets |
 | Local Forestry Group              | Early consultation partner (met early 2026)        |
-| Mitsue Elementary School          | Closed building; central project asset             |
+| Mitsue Taiken Koryukan            | Available community exchange center; Phase 1 datacenter site |
 
 ### Government — Local & Regional
 | Name                      | Role                                           |
@@ -129,7 +129,7 @@ flowchart LR
         JICHIKAI["👥 自治会 Leaders"]
         LANDOWNERS["👥 Landowners"]
         FORESTRY["👥 Local Forestry"]
-        SCHOOL["🏫 Mitsue Elementary\n(closed school)"]
+        SCHOOL["🏫 Mitsue Taiken\nKoryukan"]
     end
 
     subgraph National["National Government"]
@@ -169,7 +169,7 @@ flowchart LR
 
     JOI -.->|"advises"| PROJ
     RAY -.->|"advises"| PROJ
-    VILLAGE -->|"approval + school"| PROJ
+    VILLAGE -->|"approval + Koryukan"| PROJ
     MAYOR --> VILLAGE
     VMAYOR --> MAYOR
     JICHIKAI -->|"community support"| PROJ

@@ -224,7 +224,7 @@ The Japanese government is actively subsidizing exactly the components of the Mi
 
 ## **The Key Argument**
 
-90% of Japan’s data centers are in two metropolitan regions. 90% of Japan’s forests are not. Mitsue has 88% forest cover, an underused elementary school building, existing biomass infrastructure (Mitsue Onsen boiler), and proximity to the Kintetsu Nabari corridor. The convergence is not coincidental — it is a design opportunity.
+90% of Japan’s data centers are in two metropolitan regions. 90% of Japan’s forests are not. Mitsue has 88% forest cover, the available Mitsue Taiken Koryukan (community exchange center), existing biomass infrastructure (Mitsue Onsen boiler), and proximity to the Kintetsu Nabari corridor. The convergence is not coincidental — it is a design opportunity.
 
 ## **Comparable Precedents**
 

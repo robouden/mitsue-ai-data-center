@@ -95,7 +95,7 @@ const nodes = new vis.DataSet([
   n('JICHIKAI', '自治会 Leaders\nSugano + hamlets', 'local', 'Community associations. Critical for trust-building.'),
   n('LANDOWNERS','Private\nLandowners',       'local', 'Sugi forest owners. Target for harvesting partnerships.'),
   n('FORESTRY_L','Local Forestry Group',      'local', 'Early consultation partner. Met early 2026.'),
-  n('SCHOOL',   'Mitsue Elementary\n(closed)','asset', 'Closed school. Central project asset. Repurposed as data center + community hub.', 'square', 16),
+  n('SCHOOL',   'Mitsue Taiken\nKoryukan',    'asset', 'Community exchange center. Phase 1 datacenter site. Phase 2 expands to old factory.', 'square', 16),
 
   // Government
   n('VILLAGE_GOV','Mitsue Village\nGovernment','gov', 'Primary stakeholder. Letter of interest target.'),
@@ -161,7 +161,7 @@ const edges = new vis.DataSet([
   e('MAYOR',      'VILLAGE_GOV','leads'),
   e('VILLAGE_GOV','PROJ',      'letter of interest'),
   e('VILLAGE_GOV','SCHOOL',    'owns'),
-  e('SCHOOL',     'PROJ',      'repurposed\nas hub'),
+  e('SCHOOL',     'PROJ',      'reactivated\nas hub'),
   e('JICHIKAI',   'PROJ',      'community\nbuy-in'),
   e('LANDOWNERS', 'PROJ',      'sugi harvest\npartnership'),
   e('FORESTRY_L', 'PROJ',      'early consultation'),
