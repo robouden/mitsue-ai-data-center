@@ -41,7 +41,7 @@ These ranges are realistic for rural Japan but conservative — actual costs var
 
 ### What NOT to Do in Phase 0
 - No public announcements
-- No website or social media yet
+- No social media yet
 - No press contact
 - No detailed financial commitments
 

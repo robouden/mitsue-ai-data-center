@@ -118,7 +118,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 
 ## 6. Current Status — Phase 0
 
-**Period:** Months 1–3 · **Budget:** Self-funded · **Posture:** No public announcements, no press, no website.
+**Period:** Months 1–3 · **Budget:** Self-funded · **Posture:** No public announcements, no press.
 
 ### Completed
 - Initial meeting with Vice Mayor of Mitsue (late 2025)
