@@ -1,4 +1,4 @@
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -296,14 +296,6 @@ This repository holds the working documents that govern the project's first thre
 | `openproject_backup.sh` / `openproject_restore.sh` | Backup and restore scripts for OpenProject data |
 | `openproject_backup.json` / `openproject_backup.sql` | Most recent OpenProject work-package export and PostgreSQL dump |
 | `README_daily_reporting.md` / `.pdf` | Daily reporting guide for AI agents working on this project |
-
-**`Docs extra/` — background research (confidential)**
-
-| File | Purpose |
-|------|---------|
-| `Docs extra/Koji Morita - Due Diligence Report.md` / `.pdf` | Due diligence on Ao Bara Co., Ltd. representative director (EN; internal use only) |
-| `Docs extra/森田浩次 - デューデリジェンス報告書.md` / `.pdf` | Japanese version of the due diligence report |
-| `Docs extra/Ao Bara Co Ltd - Research Report.md` / `.pdf` | Corporate research report on Ao Bara Co., Ltd. |
 
 Related working folders for forestry research, the Koryukan site, and visual assets sit alongside this repository under the parent `Mitsue/` directory.
 
