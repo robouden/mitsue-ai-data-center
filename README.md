@@ -1,4 +1,4 @@
-<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -133,6 +133,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Mayor meeting talking points prepared, EN and JP (May 2026)
 - Q&A briefing document prepared (May 2026)
 - Research brief prepared, EN and JP (May 2026)
+
 - HIGHRESO outreach email drafted; pending warm introduction via Joi Ito (May 2026)
 
 ### In Progress
