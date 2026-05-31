@@ -133,7 +133,6 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Mayor meeting talking points prepared, EN and JP (May 2026)
 - Q&A briefing document prepared (May 2026)
 - Research brief prepared, EN and JP (May 2026)
-- Due diligence on selected school operator (Ao Bara Co., Ltd. / Koji Morita) completed (May 2026)
 - HIGHRESO outreach email drafted; pending warm introduction via Joi Ito (May 2026)
 
 ### In Progress
