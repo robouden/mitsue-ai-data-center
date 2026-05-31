@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Project — Founding Charter
 ### 御杖プロジェクト設立憲章
@@ -35,7 +35,7 @@ The organization shall pursue the following activities:
 
 - **Forest Restoration**: Gradual replacement of aged sugi (cedar) plantations with native broadleaf species, in cooperation with private landowners and forestry authorities. Thinning the sugi also generates the biomass fuel that powers the village's energy system. Native broadleaf trees provide natural food for deer, wild boar, and bear, reducing wildlife raids on surrounding crop areas.
 - **Sustainable Energy Generation**: Provision of a biomass combined heat and power (CHP) system fuelled by sugi forest thinnings as the village's primary energy source — generating electricity (primary) and heat (secondary) — complemented by solar generation and EV charging infrastructure for village residents and visitors, providing clean local energy and backup power during grid outages. Battery storage to be confirmed by feasibility study.
-- **Digital Infrastructure**: Operation of a small-scale, energy-efficient community-owned AI data center within the repurposed Mitsue Elementary School building — a working model demonstrating that technological progress and ecological sustainability are a single coherent system.
+- **Digital Infrastructure**: Operation of a small-scale, energy-efficient community-owned AI data center within the Mitsue Taiken Koryukan (Phase 1), expanding to an old factory building in Mitsue (Phase 2) — a working model demonstrating that technological progress and ecological sustainability are a single coherent system.
 - **EV Charging Network**: Provision of electric vehicle charging infrastructure for residents and visitors.
 - **Education and Open Knowledge**: Documentation and open publication of all methods, data, and lessons learned.
 - **Community Partnership**: Continuous engagement with Mitsue residents, landowners, and the village government.
@@ -78,8 +78,8 @@ The founding members of the organization are:
 
 ### 9. Advisors
 
-- **Joi Ito** — former Director, MIT Media Lab
-- **Ray Ozzie** — software pioneer; former Microsoft Chief Software Architect
+- **Joi Ito** — President, Chiba Institute of Technology
+- **Ray Ozzie** — Executive Chair, Blues
 - **San Poisson** — Project Manager
 - **[Advisor 4 — TBD]** — [name, title, area of expertise]
 

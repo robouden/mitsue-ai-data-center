@@ -1,4 +1,4 @@
-<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # 御杖プロジェクト
 ### 森と体験交流館、そして自らの力で動く未来
@@ -53,8 +53,8 @@
 
 アドバイザーには以下の方々が加わっております。
 
-- **[伊藤穰一](https://en.wikipedia.org/wiki/Joi_Ito)** ―― MITメディアラボ元所長。オープンネットワークと創造的技術の長年の提唱者
-- **[レイ・オジー](https://en.wikipedia.org/wiki/Ray_Ozzie)** ―― Lotus Notesの開発者であり、マイクロソフト元最高ソフトウェア責任者
+- **[伊藤穰一](https://en.wikipedia.org/wiki/Joi_Ito)** ―― 千葉工業大学学長
+- **[レイ・オジー](https://en.wikipedia.org/wiki/Ray_Ozzie)** ―― Blues エグゼクティブチェア
 
 プロジェクトを調整する **特定非営利活動法人(NPO法人)** を設立する準備を進めており、地域住民、村のリーダー、林業関係者、技術パートナー、研究機関の協力者を結びつける役割を担います。
 

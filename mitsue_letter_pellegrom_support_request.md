@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-05-16</p>
+<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Letter Template — Request for Name Support
 ### To Consul-General Sandra Pellegrom
@@ -55,7 +55,7 @@ Geachte mevrouw Pellegrom, beste Sandra,
 
 Onder verwijzing naar ons gesprek tijdens Koningsdag op 24 april en onze daaropvolgende correspondentie, schrijf ik je hierbij een formeel verzoek om te overwegen of je je naam aan het Mitsue Project zou willen verbinden als blijk van steun.
 
-Het Mitsue Project is een initiatief van 25 jaar dat tot doel heeft een gesloten dorpsschool in Mitsue, prefectuur Nara, te transformeren tot een geïntegreerd centrum voor duurzame ontwikkeling, waarin natuurherstel, lokale schone energieopwekking en kleinschalige digitale infrastructuur samenkomen. Het project werkt nauw samen met het lokale gemeentebestuur, particuliere boseigenaren en de gemeenschap van Mitsue, en wordt geadviseerd door onder meer Joi Ito (voormalig directeur MIT Media Lab) en Ray Ozzie (voormalig Chief Software Architect Microsoft).
+Het Mitsue Project is een initiatief van 25 jaar dat tot doel heeft een gesloten dorpsschool in Mitsue, prefectuur Nara, te transformeren tot een geïntegreerd centrum voor duurzame ontwikkeling, waarin natuurherstel, lokale schone energieopwekking en kleinschalige digitale infrastructuur samenkomen. Het project werkt nauw samen met het lokale gemeentebestuur, particuliere boseigenaren en de gemeenschap van Mitsue, en wordt geadviseerd door onder meer Joi Ito (President, Chiba Institute of Technology) en Ray Ozzie (Executive Chair, Blues).
 
 Het project sluit nauw aan bij de doelen van duurzame ontwikkeling waarvoor jij je in je carrière hebt ingezet — in het bijzonder SDG 17, partnerschappen voor de doelen — en biedt een concreet voorbeeld van hoe Nederlandse expertise op het gebied van duurzaamheid en circulariteit kan bijdragen aan plattelandsrevitalisering in Japan.
 
@@ -104,7 +104,7 @@ Dear Ms. Pellegrom, dear Sandra,
 
 With reference to our conversation during King's Day on April 24th and our subsequent correspondence, I am writing to formally ask whether you would consider lending your name to the Mitsue Project as a gesture of support.
 
-The Mitsue Project is a 25-year initiative to transform a closed village school in Mitsue, Nara Prefecture, into an integrated center for sustainable development, combining native forest restoration, locally generated clean energy, and small-scale digital infrastructure. The project works in close partnership with the local village government, private forest landowners, and the Mitsue community, and is advised by Joi Ito (former Director, MIT Media Lab) and Ray Ozzie (former Chief Software Architect, Microsoft), among others.
+The Mitsue Project is a 25-year initiative to transform a closed village school in Mitsue, Nara Prefecture, into an integrated center for sustainable development, combining native forest restoration, locally generated clean energy, and small-scale digital infrastructure. The project works in close partnership with the local village government, private forest landowners, and the Mitsue community, and is advised by Joi Ito (President, Chiba Institute of Technology) and Ray Ozzie (Executive Chair, Blues), among others.
 
 The project aligns closely with the sustainable development goals you have championed throughout your career — in particular SDG 17, partnerships for the goals — and offers a concrete example of how Dutch expertise in sustainability and the circular economy can contribute to rural revitalization in Japan.
 

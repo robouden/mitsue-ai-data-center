@@ -1,4 +1,4 @@
-<p align="right">Version: v2.2 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
+<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -11,13 +11,13 @@
 | **Horizon** | 25 years |
 | **Current Phase** | Phase 0 — Pre-Foundation (Months 1–3) |
 | **Project Lead** | Rob Oudendijk (YR-Design / Safecast) |
-| **Document Status** | Working draft, May 11, 2026 |
+| **Document Status** | Working draft, June 1, 2026 |
 
 ---
 
 ## 1. Executive Summary
 
-The Mitsue Project is a non-profit initiative to repurpose the closed Mitsue Elementary School and the surrounding forested landscape into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
+The Mitsue Project is a non-profit initiative to repurpose available community facilities — the Mitsue Taiken Koryukan (Phase 1) and an old factory building in Mitsue (Phase 2) — together with the surrounding forested landscape, into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
 
 The project is designed to be **modest in scale, fully transparent, and openly replicable**, so that other depopulating municipalities in Japan and beyond can adapt the model to their own circumstances. The 25-year horizon is intentional: it bridges the period between today's rural energy and digital deficits and the anticipated availability of localized small-scale fusion power generation.
 
@@ -126,6 +126,15 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Drafted founding charter and detailed implementation plan (April 2026)
 - Phase and funding-gate flowchart published (May 2026)
 - Advisory commitments confirmed: Joi Ito and Ray Ozzie (confirmed May 5, 2026)
+- Work Breakdown Structure (WBS) and EVM baseline established — Baseline Rev 1 (May 2026)
+- Bilingual trifold brochures prepared in A3 and A4 formats, EN and JP (May 2026)
+- Two-page A4 project introduction prepared, EN and JP (May 2026)
+- Stakeholder map and interactive graph finalised, EN and JP (May 2026)
+- Mayor meeting talking points prepared, EN and JP (May 2026)
+- Q&A briefing document prepared (May 2026)
+- Research brief prepared, EN and JP (May 2026)
+- Due diligence on selected school operator (Ao Bara Co., Ltd. / Koji Morita) completed (May 2026)
+- HIGHRESO outreach email drafted; pending warm introduction via Joi Ito (May 2026)
 
 ### In Progress
 - Identifying a Japanese co-founder with rural credibility (top priority)
@@ -151,8 +160,10 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 - Additional founding members — to be confirmed (target: 3–5 total)
 
 ### Advisory Board
-- **Joi Ito** — former Director, MIT Media Lab
-- **Ray Ozzie** — software pioneer; former Microsoft Chief Software Architect
+- **Joi Ito** — President, Chiba Institute of Technology
+- **Ray Ozzie** — Executive Chair, Blues
+- **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
+- **San Poisson** — Project Manager
 
 ### Legal Structure
 - **Today:** Pre-incorporation
@@ -198,32 +209,101 @@ These figures are planning targets, not commitments. Actual funding mix will dep
 
 This repository holds the working documents that govern the project's first three years. Key files:
 
+**Project identity & governance**
+
 | File | Purpose |
 |------|---------|
 | `README.md` | This document |
+| `README_jp.md` / `.pdf` | Japanese version of the README |
 | `mitsue_founding_charter.md` / `.pdf` | Bilingual founding charter (EN/JP) |
+| `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
+
+**Introduction & print collateral**
+
+| File | Purpose |
+|------|---------|
+| `mitsue_introduction_a4.md` / `.pdf` | Two-page A4 project introduction (EN) |
+| `mitsue_introduction_a4_jp.md` / `.pdf` | Japanese version of the A4 introduction |
+| `mitsue_brochure_trifold_a3.html` / `.pdf` | A3 trifold brochure (EN) |
+| `mitsue_brochure_trifold_a3_jp.html` / `.pdf` | A3 trifold brochure (Japanese) |
+| `mitsue_brochure_trifold_a4.html` / `.pdf` | A4 trifold brochure (EN) |
+| `mitsue_brochure_trifold_a4_jp.html` / `.pdf` | A4 trifold brochure (Japanese) |
+| `Mitsue Project Presentation.pptx` | PowerPoint presentation (EN) |
+| `Mitsue Project Presentation - 日本語.pptx` | PowerPoint presentation (Japanese) |
+
+**Implementation planning**
+
+| File | Purpose |
+|------|---------|
 | `mitsue_implementation_plan.md` / `.pdf` | Detailed five-phase implementation plan (EN) |
 | `mitsue_implementation_plan_jp.md` / `.pdf` | Japanese translation of the implementation plan |
-| `mitsue_phases_funding_flowchart.md` / `.pdf` | Phase spine and funding-gate diagrams |
-| `mitsue_village_government_onepager.md` / `.pdf` | One-page brief for village government engagement |
+| `mitsue_phases_funding_flowchart.md` / `.pdf` | Phase spine and funding-gate diagrams (EN) |
+| `mitsue_phases_funding_flowchart_jp.md` / `.pdf` | Japanese version of the funding flowchart |
+| `mitsue_wbs.md` / `.pdf` | Work Breakdown Structure — full task and deliverable list (EN) |
+| `mitsue_wbs_jp.md` / `.pdf` | Japanese WBS |
+| `mitsue_evm_plan.md` / `.pdf` | Earned Value Management plan — Baseline Rev 1 (EN) |
+| `mitsue_evm_plan_jp.md` / `.pdf` | Japanese EVM plan |
+
+**Government & community engagement**
+
+| File | Purpose |
+|------|---------|
+| `mitsue_village_government_onepager.md` / `.pdf` | One-page brief for village government engagement (EN) |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | Japanese version of the village government brief |
 | `mitsue_mayor_meeting_talking_points.md` / `.pdf` | Preparation document for the formal mayor meeting (EN) |
-| `mitsue_mayor_meeting_talking_points_ja.md` | Japanese translation of the mayor meeting talking points |
-| `mitsue_qa_briefing.md` | Bilingual Q&A briefing addressing six common questions on biomass CHP energy, EV charging, blackout resilience, data center, solar, and 25-year horizon |
-| `mitsue_founder_agreement_template.md` / `.pdf` | Founder alignment template |
+| `mitsue_mayor_meeting_talking_points_ja.md` / `.pdf` | Japanese version of the mayor meeting talking points |
+| `mitsue_qa_briefing.md` / `.pdf` | Bilingual Q&A briefing addressing common questions on biomass CHP, EV charging, blackout resilience, data center, solar, and 25-year horizon |
+
+**Narrative & founding story**
+
+| File | Purpose |
+|------|---------|
 | `mitsue_project_founding_story.md` / `.pdf` | Narrative founding-story document (EN) |
 | `mitsue_project_founding_story_jp.md` / `.pdf` | Japanese version of the founding story |
-| `mitsue_stakeholders.md` | Stakeholder entity list and relationship map (EN), with Mermaid diagram |
-| `mitsue_stakeholders_jp.md` | Japanese version of the stakeholder list and relationship map |
+
+**Research & outreach**
+
+| File | Purpose |
+|------|---------|
+| `Mitsue_Research_Brief.md` / `.pdf` | Research brief — background data and analysis (EN) |
+| `Mitsue_Research_Brief_jp.md` / `.pdf` | Japanese research brief |
+| `mitsue_project_overview_pellegrom.md` / `.pdf` | Project overview prepared for the Dutch consulate (EN) |
+| `mitsue_letter_pellegrom_support_request.md` / `.pdf` | Support request letter to Pellegrom — Dutch and English |
+| `mitsue_email_highreso_intro.md` | Draft outreach email to HIGHRESO (EN/JP; pending Joi Ito warm introduction) |
+
+**Stakeholders**
+
+| File | Purpose |
+|------|---------|
+| `mitsue_stakeholders.md` / `.pdf` | Stakeholder entity list and relationship map (EN), with Mermaid diagram |
+| `mitsue_stakeholders_jp.md` / `.pdf` | Japanese version of the stakeholder list and relationship map |
 | `mitsue_stakeholder_graph.html` | Interactive stakeholder relationship graph (EN) |
 | `mitsue_stakeholder_graph_jp.html` | Interactive stakeholder relationship graph (JP) |
+
+**Working data**
+
+| File | Purpose |
+|------|---------|
 | `mitsue_todo.xlsx` / `.pdf` | Working task list (English and Japanese PDFs) |
 | `mitsue_finance.xlsx` | Financial planning workbook |
-| `OPENPROJECT.md` | OpenProject project management setup, API reference, and Codeberg document index |
+
+**OpenProject / project management**
+
+| File | Purpose |
+|------|---------|
+| `OPENPROJECT.md` | OpenProject setup, API reference, and Codeberg document index |
 | `openproject_docker-compose.yml` | Docker Compose configuration for the local OpenProject instance |
 | `openproject_backup.sh` / `openproject_restore.sh` | Backup and restore scripts for OpenProject data |
 | `openproject_backup.json` / `openproject_backup.sql` | Most recent OpenProject work-package export and PostgreSQL dump |
-| `openproject_robouden_theme.css` | Custom dark theme for the OpenProject UI (applied via Stylus extension) |
+| `README_daily_reporting.md` / `.pdf` | Daily reporting guide for AI agents working on this project |
+
+**`Docs extra/` — background research (confidential)**
+
+| File | Purpose |
+|------|---------|
+| `Docs extra/Koji Morita - Due Diligence Report.md` / `.pdf` | Due diligence on Ao Bara Co., Ltd. representative director (EN; internal use only) |
+| `Docs extra/森田浩次 - デューデリジェンス報告書.md` / `.pdf` | Japanese version of the due diligence report |
+| `Docs extra/Ao Bara Co Ltd - Research Report.md` / `.pdf` | Corporate research report on Ao Bara Co., Ltd. |
 
 Related working folders for forestry research, the Koryukan site, and visual assets sit alongside this repository under the parent `Mitsue/` directory.
 
@@ -246,4 +326,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: May 11, 2026 · Maintained by Rob Oudendijk*
+*Last updated: June 1, 2026 · Maintained by Rob Oudendijk*

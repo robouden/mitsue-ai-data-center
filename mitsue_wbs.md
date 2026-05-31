@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.4 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-28</p>
+<p align="right">Version: v2.5 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 ---
 
@@ -364,7 +364,7 @@ The most structurally important phase. The feasibility studies produced here det
 
 | Item | Detail |
 |------|--------|
-| Scope | Structural condition survey of Mitsue Elementary School; seismic compliance assessment (新耐震基準); identification of required renovations for data center use; zoning review |
+| Scope | Structural condition survey of the Mitsue Taiken Koryukan and candidate factory building; seismic compliance assessment (新耐震基準); identification of required renovations for data center use; zoning review |
 | Owner | Director — Technology |
 | Budget | ¥0.8M (mid of ¥1–2M range for single-building survey) |
 | Deliverables | Structural survey report; seismic compliance summary; renovation scope outline; zoning confirmation memo |

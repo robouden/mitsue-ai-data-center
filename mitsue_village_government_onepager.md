@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # 御杖村プロジェクト概要 / Mitsue Village Project — Summary
 ### One-Page Briefing for Mitsue Village Government
@@ -105,8 +105,8 @@ A dedicated **non-profit organization (NPO法人)** will be established to coord
 **Rob Oudendijk** — Dutch electrical engineer, Mitsue resident since 2012 (Sugano), core hardware developer for Safecast (the global citizen science radiation monitoring network).
 
 **Advisors:**
-- **Joi Ito** (former Director, MIT Media Lab)
-- **Ray Ozzie** (software pioneer, former Microsoft Chief Software Architect)
+- **Joi Ito** (President, Chiba Institute of Technology)
+- **Ray Ozzie** (Executive Chair, Blues)
 
 ---
 

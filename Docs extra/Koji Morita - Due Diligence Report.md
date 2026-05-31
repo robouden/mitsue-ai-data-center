@@ -662,7 +662,7 @@ Morita personally appears to be a genuine food-service entrepreneur with a legit
    - **東京商工リサーチ (TSR):** https://www.tsr-net.co.jp — similar cost and timeline
    - Specifically request: cross-reference against 反社会的勢力 (anti-social forces) databases, shareholder/director history, capital source history, and any affiliated entities
 
-2. **Request the village's screening documentation** — Mitsue Village's Policy Promotion Division (0745-95-2001 ext. 240–241) is required to have on file the anti-social forces declaration submitted by Ao Bara during the tender. This is a public procurement record and can be requested.
+2. **Request the village's screening documentation** — Mitsue Village's Policy Promotion Division (0745-95-2001 ext. 240–241) is required to have on file the . This is a public procurement record and can be requested.
 
 3. **Identify リネアカンパニー** — ask the village or JPBA directly who this entity is, since it has authority over Japan's national billiards team selection but has no verifiable legal existence.
 

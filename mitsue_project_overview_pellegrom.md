@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.3 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 
@@ -47,8 +47,8 @@ A **non-profit organization (NGO)** will be established to coordinate the projec
 The NGO model also makes it easier to receive **diverse funding** — government grants, private investment, philanthropic support, and corporate partnerships.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCkLfFDZwwIgHRiywEZJWQZeZ2ao9AAD+4lyruzq+ngAA8Nr1AOH0BedHjjlfAAAAAElFTkSuQmCC)  
 **Consultants Already Involved**  
-- [**Joi Ito** — former Director of the MIT Media Lab; advisor on technology, innovation, and sustainability](https://en.wikipedia.org/wiki/Joi_Ito "https://en.wikipedia.org/wiki/Joi_Ito")  
-- [**Ray Ozzie** — software pioneer (Lotus Notes, Microsoft Chief Software Architect); advisor and possible participant](https://en.wikipedia.org/wiki/Ray_Ozzie "https://en.wikipedia.org/wiki/Ray_Ozzie")  
+- [**Joi Ito** — President, Chiba Institute of Technology; advisor on technology, innovation, and sustainability](https://en.wikipedia.org/wiki/Joi_Ito "https://en.wikipedia.org/wiki/Joi_Ito")  
+- [**Ray Ozzie** — Executive Chair, Blues; advisor and possible participant](https://en.wikipedia.org/wiki/Ray_Ozzie "https://en.wikipedia.org/wiki/Ray_Ozzie")  
 Both are already engaged as consultants and potential active participants.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAM0lEQVR4nO3OMQ0AIAwAwZIgBKm1gjSMNCwYYCIkd9OP3zJzRMQMAAB+sfqJeroBAMCN2pTWBSSZVtjzAAAAAElFTkSuQmCC)  
 **Request to the Consul General**  

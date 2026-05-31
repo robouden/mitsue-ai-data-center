@@ -1,4 +1,4 @@
-<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # The Mitsue Project
 ### A Forest, a Community Center, and a Future Powered by Itself
@@ -53,8 +53,8 @@ The project is led by **Rob Oudendijk**, a Dutch electrical engineer who has liv
 
 Advising the project are:
 
-- **[Joi Ito](https://en.wikipedia.org/wiki/Joi_Ito)** — former Director of the MIT Media Lab, long-time advocate for open networks and creative technology
-- **[Ray Ozzie](https://en.wikipedia.org/wiki/Ray_Ozzie)** — software pioneer behind Lotus Notes and former Microsoft Chief Software Architect
+- **[Joi Ito](https://en.wikipedia.org/wiki/Joi_Ito)** — President, Chiba Institute of Technology
+- **[Ray Ozzie](https://en.wikipedia.org/wiki/Ray_Ozzie)** — Executive Chair, Blues
 
 A dedicated **non-profit organization** is being established to coordinate the project, bringing together local residents, village leaders, forestry experts, technology partners, and academic collaborators.
 
