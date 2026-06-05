@@ -1,3 +1,5 @@
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
   h1 { font-size: 14pt; margin: 3pt 0 1pt; }
@@ -11,7 +13,6 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # Mitsue Project — Stakeholders & Relations
 
@@ -32,7 +33,7 @@
 | Joi Ito              | Former MIT Media Lab Director; AI policy advisor to Japanese government; member of METI AI Strategy Council & Digital Agency advisory bodies; deep connections across Japanese tech, government, and philanthropy circles; confirmed May 5 2026 |
 | Ray Ozzie            | Creator of Lotus Notes; former Microsoft CSA; confirmed May 5 2026                                                                                                                                                                              |
 | San Poisson         | Project Manager                                                                                                                                                                                                                                 |
-| [Advisor 4 — TBD]   | [Name, title, area of expertise — to be confirmed]                                                                                                                                                                                              |
+| Takuo Dome          | Professor Emeritus, Osaka University · Director, Inochi Forum; specializes in history of economics and social innovation; confirmed |
 
 ### Local Stakeholders
 | Name                              | Role                                               |

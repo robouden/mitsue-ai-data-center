@@ -1,3 +1,5 @@
+<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+
 <style>
   body { font-size: 9.5pt; line-height: 1.25; font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', sans-serif; }
   h1 { font-size: 14pt; margin: 3pt 0 1pt; }
@@ -11,7 +13,6 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-05-22</p>
 
 # 御杖プロジェクト — ステークホルダーと関係図
 
@@ -32,7 +33,7 @@
 | 伊藤穰一（Joi Ito）       | 元MITメディアラボ所長。AI政策アドバイザー（経済産業省AIストラテジー会議、デジタル庁諮問委員）。日本の技術・政府・財団界に幅広いネットワークを持つ。2026年5月5日確定 |
 | レイ・オジー（Ray Ozzie） | Lotus Notes開発者。元Microsoft最高ソフトウェアアーキテクト。2026年5月5日確定                                                                                        |
 | サン・ポワソン（San Poisson） | プロジェクトマネージャー                                                                                                                                  |
-| ［アドバイザー4 — 未定］  | ［氏名、役職、専門分野 — 確定待ち］                                                                                                                                  |
+| 東面 拓雄（Takuo Dome） | 大阪大学名誉教授・いのちフォーラム代表理事。経済学史・経済思想史を専門とし、社会イノベーションの橋渡しに注力。確定 |
 
 ### 地域ステークホルダー
 | 名前                             | 役割                                                               |

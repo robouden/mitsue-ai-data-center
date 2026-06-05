@@ -42,12 +42,18 @@ function loadTyporaTheme(name) {
 }
 
 // Counter the theme's screen-oriented #write padding (Typora itself bypasses this on export).
-// Table: force full content width (github.css omits width:100%, causing narrow columns on print).
+// Table: force full content width + CJK line breaking to prevent Japanese text overflow.
 const PRINT_OVERRIDE = `
   html, body { margin: 0; padding: 0; }
   #write { max-width: none !important; margin: 0 !important; padding: 0 !important; }
-  table { width: 100% !important; table-layout: auto; border-collapse: collapse !important; border-spacing: 0 !important; }
-  table th, table td { padding: 2px 6px !important; }
+  table { width: 100% !important; table-layout: fixed !important; border-collapse: collapse !important; border-spacing: 0 !important; }
+  table th, table td { 
+    padding: 2px 6px !important; 
+    word-wrap: break-word !important; 
+    overflow-wrap: break-word !important; 
+    line-break: anywhere !important; /* Critical for CJK/Japanese table wrapping */
+    word-break: break-all !important;
+  }
 `;
 
 function buildStyleBlock(themeName) {
@@ -99,6 +105,16 @@ function convertMarkdownToHtml(mdFile, text) {
     return $.html();
   };
 
+  // Render mermaid code blocks as <div class="mermaid"> for the library to pick up
+  const defaultFence = md.renderer.rules.fence;
+  md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    if (token.info.trim() === 'mermaid') {
+      return `<div class="mermaid">\n${token.content}\n</div>\n`;
+    }
+    return defaultFence(tokens, idx, options, env, self);
+  };
+
   return md.render(text);
 }
 
@@ -112,7 +128,19 @@ async function convertToPdf(mdFile, opts = {}) {
   const html = mustache.render(TEMPLATE, {
     title,
     style: buildStyleBlock(opts.theme),
-    mermaid: '',
+    mermaid: `<script src="file://${path.join(__dirname, 'mermaid.min.js')}"></script>
+<script>
+  if (typeof mermaid !== 'undefined') {
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        await mermaid.run();
+      } catch (e) {
+        console.error("Mermaid run failed:", e);
+      }
+    });
+  }
+</script>`,
     content
   });
 
@@ -121,13 +149,16 @@ async function convertToPdf(mdFile, opts = {}) {
 
   const browser = await puppeteer.launch({
     executablePath: puppeteer.executablePath(),
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-web-security']
   });
 
   try {
     const page = await browser.newPage();
     await page.setDefaultTimeout(0);
     await page.goto('file://' + tmpFile, { waitUntil: 'networkidle0' });
+
+    // Wait for Mermaid to finish rendering
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
     const pdfFile = mdFile.replace(/\.md$/, '.pdf');
     await page.pdf({

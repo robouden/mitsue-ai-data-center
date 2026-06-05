@@ -1,3 +1,5 @@
+<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
   h1 { font-size: 14pt; margin: 3pt 0 1pt; }
@@ -11,7 +13,6 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Sustainable Energy & AI Data Center  
 

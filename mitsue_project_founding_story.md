@@ -1,4 +1,4 @@
-<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
 
 # The Mitsue Project
 ### A Forest, a Community Center, and a Future Powered by Itself

@@ -1,4 +1,4 @@
-<p align="right">Version: v2.7 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v2.10 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality

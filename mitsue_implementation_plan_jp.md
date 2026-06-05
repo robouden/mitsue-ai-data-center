@@ -1,4 +1,4 @@
-<p align="right">Version: v2.7 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v2.10 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
 
 **御杖プロジェクト ― 実施計画**  
 **構想から実現へ**  

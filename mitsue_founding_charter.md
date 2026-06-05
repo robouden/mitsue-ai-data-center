@@ -1,3 +1,5 @@
+<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
   h1 { font-size: 14pt; margin: 3pt 0 1pt; }
@@ -11,7 +13,6 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
 
 # Mitsue Project — Founding Charter
 ### 御杖プロジェクト設立憲章
@@ -81,7 +82,7 @@ The founding members of the organization are:
 - **Joi Ito** — President, Chiba Institute of Technology
 - **Ray Ozzie** — Executive Chair, Blues
 - **San Poisson** — Project Manager
-- **[Advisor 4 — TBD]** — [name, title, area of expertise]
+- **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
 
 ### 10. Adoption
 

@@ -1,3 +1,5 @@
+<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
   h1 { font-size: 14pt; margin: 3pt 0 1pt; }
@@ -11,7 +13,6 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-05-28</p>
 
 # Six Questions on the Mitsue Project — Briefing Q&A
 ## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
