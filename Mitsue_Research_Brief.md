@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-05-27</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 ---
 
@@ -221,6 +221,10 @@ Mitsue sits at the intersection of four nationally recognized priorities: rural 
 ## **Policy Tailwind**
 
 The Japanese government is actively subsidizing exactly the components of the Mitsue.it proposal: Regional Cooperation Corps recruitment, native forest restoration and forestry revitalization via forest environment transfer tax, digital infrastructure in rural areas, and decarbonized data center construction. The proposal is not ahead of policy — it is aligned with it.
+
+**Mitsue's own official Renewable Energy Plan.** The strongest evidence of policy alignment is local: in January 2025 the village published its **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant, with citable official figures — 9 kt-CO₂ village emissions (2021), **transport = 46%** (the largest sector), **~90% forest cover**, +2.1°C local warming over 42 years, a **60% reduction target by 2030**, and **carbon neutrality by 2045** (five years ahead of national). The plan explicitly calls for EV charging at public facilities, small-hydro, rooftop/carport and perovskite solar, V2H, VPP, distributed disaster-resilience, and a forest J-Credit system — and sets a target of **one resilient renewable+storage+EV site** in the village (currently zero). Producing the plan completed step 1 of the MoE decarbonization funding ladder, making the village eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2): a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality via public-private partnership. The Mitsue Project is positioned as the operating vehicle for this official plan. (See `mitsue_village_re_plan_alignment.md`.)
+
+*Sources: 御杖村再エネ導入最大化計画（概要版）, Mitsue Village, Jan 2025; MoE 地域脱炭素移行・再エネ推進交付金 https://policies.env.go.jp/policy/roadmap/grants/ · 実施要領 https://www.env.go.jp/content/900470616.pdf*
 
 ## **The Key Argument**
 

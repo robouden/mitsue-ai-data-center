@@ -1,4 +1,4 @@
-<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -101,6 +101,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Server waste heat loop** — data center heat can still warm community spaces or a small greenhouse, closing a useful loop without requiring a separate thermal plant
 - **EV charging network** — install charging stations in Mitsue and neighboring villages from year one, creating immediate visible value to residents  
 **Strategic Positioning**  
+- **Official policy tailwind (de-risking).** Mitsue Village has its own MoE-funded **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画, Jan 2025). The project is positioned as the operating vehicle for that official plan, which puts it on a named national funding ladder: the village's completed planning grant makes it eligible for the 地域脱炭素移行・再エネ推進交付金 (2/3–3/4 subsidy on solar/battery/EV, paid to the village). For the consulate this signals the project is embedded in official Japanese policy, not speculative.  
 - **Make it a model, not a one-off.** Document everything as an open playbook so other Japanese villages can replicate it. This attracts government and philanthropic interest faster.  
 - **Connect to Expo 2025 legacy.** Osaka Expo's sustainability themes are still alive politically — frame the project as carrying that legacy forward into Kansai's rural areas.  
 - **Dutch-Japanese branding.** Position as a flagship of Dutch sustainable innovation in Japan, especially around water management, circular economy, and smart agriculture (areas where the Netherlands genuinely leads globally).  

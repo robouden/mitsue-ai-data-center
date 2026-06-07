@@ -1,4 +1,4 @@
-<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -29,6 +29,20 @@ To repurpose the **Mitsue Taiken Koryukan** (御杖体験交流館) — an avail
 3. House a small, low-impact data center powered by that local energy — a working model of progress and sustainability as a single coherent system
 
 A 25-year initiative built carefully, in close partnership with the village.
+
+---
+
+## This Project Delivers Your Own Renewable Energy Plan
+
+The Mitsue Project is the **implementation and operating vehicle (官民連携 運営体制)** for the village's official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画, Jan 2025) — the MoE-funded strategy the village has already written and committed to. We do not ask the village to adopt a new idea; we offer to execute the plan it already has.
+
+- **The "one resilient site" target.** Your plan sets a target of **one** renewable + storage + EV resilient site in the village by 2045 — currently **zero**. Our data center, with on-site biomass CHP generation and battery backup, can credibly **be** that site, letting the village report progress against its own published indicator.
+- **EV charging priority.** Your plan makes EV chargers at public facilities (town hall, roadside stations) a **priority**, because transport is **46% of village emissions** — the largest source. Our EV charging network anchored to local generation delivers exactly this.
+- **Distributed disaster-resilience.** Your plan calls for an autonomous, distributed energy society that can power public buildings and clinics during outages. Our 24/7 biomass CHP + solar + battery provides this.
+- **Forest carbon / J-Credit mechanism — uniquely ours.** Your plan wants forest CO₂ absorption (0.3 → **2.7 kt/yr** by 2045) and a J-Credit system, but has no operator or offtaker for the thinnings. Our biomass CHP **is** that mechanism: it consumes sugi thinnings, funding faster thinning and native restoration, producing the certified forest carbon the plan calls for.
+- **Funding that flows through the village.** Because the village completed the MoE planning grant (step 1), it is eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2): a **2/3–3/4 subsidy** on solar/battery/EV/private-wire capex (Mitsue qualifies as a 過疎 + low-financial-capacity area). The grant is paid **to the village** via public-private partnership — the village brings the plan and the grant channel; we bring the operator, capital, and anchor offtaker.
+
+*The village's published figures: 9 kt-CO₂ emissions, 46% transport, ~90% forest cover, 60% reduction by 2030, carbon-neutral by 2045. Source: 御杖村再エネ導入最大化計画（概要版）, Jan 2025.*
 
 ---
 

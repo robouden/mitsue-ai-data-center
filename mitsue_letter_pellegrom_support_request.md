@@ -1,4 +1,4 @@
-<p align="right">Version: v1.6 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v1.7 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -58,7 +58,7 @@ Onder verwijzing naar ons gesprek tijdens Koningsdag op 24 april en onze daaropv
 
 Het Mitsue Project is een initiatief van 25 jaar dat tot doel heeft een gesloten dorpsschool in Mitsue, prefectuur Nara, te transformeren tot een geïntegreerd centrum voor duurzame ontwikkeling, waarin natuurherstel, lokale schone energieopwekking en kleinschalige digitale infrastructuur samenkomen. Het project werkt nauw samen met het lokale gemeentebestuur, particuliere boseigenaren en de gemeenschap van Mitsue, en wordt geadviseerd door onder meer Joi Ito (President, Chiba Institute of Technology) en Ray Ozzie (Executive Chair, Blues).
 
-Het project sluit nauw aan bij de doelen van duurzame ontwikkeling waarvoor jij je in je carrière hebt ingezet — in het bijzonder SDG 17, partnerschappen voor de doelen — en biedt een concreet voorbeeld van hoe Nederlandse expertise op het gebied van duurzaamheid en circulariteit kan bijdragen aan plattelandsrevitalisering in Japan.
+Het project sluit nauw aan bij de doelen van duurzame ontwikkeling waarvoor jij je in je carrière hebt ingezet — in het bijzonder SDG 17, partnerschappen voor de doelen — en biedt een concreet voorbeeld van hoe Nederlandse expertise op het gebied van duurzaamheid en circulariteit kan bijdragen aan plattelandsrevitalisering in Japan. Het initiatief is bovendien verankerd in officieel Japans beleid: het project fungeert als uitvoerend vehikel voor het door het Japanse Ministerie van Milieu gefinancierde duurzame-energieplan van de gemeente Mitsue (2025), wat het op een erkende nationale subsidieladder plaatst.
 
 Met dit verzoek vraag ik geen financiële of formele inzet van het Consulaat-Generaal of van jou persoonlijk. Wat ik vraag, is uitsluitend dat je je naam — bij voorkeur in de hoedanigheid van Consul-Generaal — als sympathisant van het project mogen vermelden in onze projectdocumentatie en op onze website. Dit gebaar zou de Nederlands-Japanse dimensie van het initiatief zichtbaar maken en zou voor ons van grote betekenis zijn in de gesprekken met Japanse partners en potentiële financiers.
 
@@ -107,7 +107,7 @@ With reference to our conversation during King's Day on April 24th and our subse
 
 The Mitsue Project is a 25-year initiative to transform a closed village school in Mitsue, Nara Prefecture, into an integrated center for sustainable development, combining native forest restoration, locally generated clean energy, and small-scale digital infrastructure. The project works in close partnership with the local village government, private forest landowners, and the Mitsue community, and is advised by Joi Ito (President, Chiba Institute of Technology) and Ray Ozzie (Executive Chair, Blues), among others.
 
-The project aligns closely with the sustainable development goals you have championed throughout your career — in particular SDG 17, partnerships for the goals — and offers a concrete example of how Dutch expertise in sustainability and the circular economy can contribute to rural revitalization in Japan.
+The project aligns closely with the sustainable development goals you have championed throughout your career — in particular SDG 17, partnerships for the goals — and offers a concrete example of how Dutch expertise in sustainability and the circular economy can contribute to rural revitalization in Japan. The initiative is moreover embedded in official Japanese policy: the project serves as the implementing vehicle for Mitsue Village's Ministry-of-Environment-funded renewable-energy plan (2025), placing it on a recognized national funding ladder.
 
 This request is not for financial or formal commitment from the Consulate-General or from you personally. What I am asking is solely that we be permitted to list your name — preferably in your capacity as Consul-General — as a supporter of the project in our documentation and on our website. This gesture would make the Dutch-Japanese dimension of the initiative visible and would be of significant value in our conversations with Japanese partners and potential funders.
 

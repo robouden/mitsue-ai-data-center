@@ -1,4 +1,4 @@
-<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -161,6 +161,24 @@ This is also the right moment to introduce the 25-year scale, because it changes
 
 The 25-year framing is itself reassuring to a rural mayor — it signals you are not trying to extract value quickly, but to commit for the long term.
 
+### Connect to the Village's Own Renewable Energy Plan
+
+This is a strong, consultative note to strike — the project executes the village's own published strategy, not an outside idea. Keep the tone humble: you are offering to help carry out the plan, not telling the village what to do.
+
+> "御杖村が令和7年にまとめられた『再エネ導入最大化計画』を、私も拝見いたしました。私どもの構想は、村がすでに掲げておられるその計画を、長い時間軸で具体的に実行する一つの形になり得ると考えております。"
+>
+> *("I have read the village's 'Plan for Maximum Introduction of Renewable Energy' (2025). I believe our concept can be one concrete way to carry out, over a long horizon, the plan the village has already set out.")*
+
+> "計画に示されている『村内に1拠点のレジリエントな再エネ設備』、公共施設へのEV充電器の優先整備、そして森林によるCO₂吸収・J-クレジット ―― これらは、私どものデータセンター・バイオマスCHP・森林再生と、ほとんどそのまま重なります。"
+>
+> *("The plan's targets — one resilient renewable-energy site in the village, priority EV chargers at public facilities, and forest CO₂ absorption / J-Credits — overlap almost exactly with our data center, biomass CHP, and forest restoration.")*
+
+> "また、村が計画づくりの段階で環境省の支援を受けられたことで、次の段階である『地域脱炭素移行・再エネ推進交付金』の対象になり得ると伺っております。これは官民連携で村に交付される仕組みで、太陽光や蓄電池などの整備費の3分の2から4分の3が補助され得ると理解しております。私どもは、その運営を担う側としてお役に立てればと考えております。"
+>
+> *("I understand that because the village received MoE support at the planning stage, it may now be eligible for the next step — the Regional Decarbonization Transition & RE Promotion Grant — which is paid to the village through public-private partnership and can subsidize two-thirds to three-quarters of solar/battery costs. We would be glad to serve as the operating partner for that.")*
+
+The mayor will appreciate that you have read the village's own document and that the funding can flow **through the village** rather than around it.
+
 ---
 
 ## Soft Ask (Last 10 Minutes)
@@ -258,6 +276,11 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 > "はい、バイオマスが本プロジェクトの**主たるエネルギー源**でございます。杉林の間伐材を燃料とする小規模なバイオマス熱電併給（CHP）システムが、24時間のベースロード電力（主たる出力）と熱（副次的な出力）を生み出します。これを太陽光発電とEV充電が補完いたします。林業部門は、杉人工林を在来種の広葉樹へ転換する生態的な森林再生でございますが、その過程で生じる間伐材がそのままバイオマス燃料となり、森が村を動かす循環型のエネルギー経済を実現いたします。間伐は森を健全に戻すと同時に燃料を生み出すのでございます。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
 >
 > *(Yes — biomass is the project's primary energy source. A small biomass combined heat and power (CHP) system fuelled by sugi forest thinnings generates 24/7 baseload electricity (primary output) and heat (secondary output), complemented by solar and EV charging. The forestry component is ecological restoration — replacing sugi plantations with native broadleaf species — and the thinnings it produces become the biomass fuel, creating a circular energy economy where the forest powers the village. Thinning heals the forest and generates fuel at the same time. Battery storage to be confirmed by feasibility study.)*
+
+### "How does this relate to the village's renewable-energy plan?"
+> "御杖村の『再エネ導入最大化計画』は、村が環境省の支援を受けて策定された公式の計画でございます。私どものプロジェクトは、その計画を実行・運営する事業体になり得ます。計画が掲げる『村内1拠点のレジリエント設備』、公共施設へのEV充電優先、森林CO₂吸収・J-クレジットは、私どものデータセンター・バイオマスCHP・森林再生とそのまま重なります。さらに、計画づくり支援（第1段）を完了された村は、次の『地域脱炭素移行・再エネ推進交付金』（第2段、補助率2/3〜3/4、官民連携で村に交付）の対象になり得ます。私どもはその運営パートナーとしてお役に立てればと存じます。"
+>
+> *(The village's RE plan is an official, MoE-funded strategy. Our project can be the vehicle that implements and operates it. The plan's targets — one resilient site, priority EV charging, forest CO₂/J-Credits — map directly onto our data center, biomass CHP, and forest restoration. Because the village completed the planning grant (step 1), it is eligible for the 交付金 (step 2): a 2/3–3/4 subsidy paid to the village via public-private partnership. We would serve as the operating partner. See `mitsue_village_re_plan_alignment.md`.)*
 
 ### Positioning under the village's 5-enterprise startup program
 If the conversation turns to village policy or youth retention, signal alignment with the village's own startup-subsidy framework:

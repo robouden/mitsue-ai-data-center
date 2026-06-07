@@ -1,4 +1,4 @@
-<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -37,6 +37,10 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 - **Forest liability conversion.** Aged sugi (cedar) plantations across rural Japan represent an under-managed asset that imposes ecological costs (pollen burden, biodiversity loss) and physical risks (landslide and fire). Active management converts liability into feedstock and timber revenue.
 - **Stranded community assets.** Available community facilities, such as the Mitsue Taiken Koryukan, currently impose net maintenance costs on shrinking municipal budgets. Productive reuse turns these into community-anchored facilities.
 - **Digital infrastructure deficit.** Rural broadband and edge-compute capacity continue to lag urban Japan. A small, energy-aligned data center addresses both the connectivity and the on-site computation gap.
+
+### 3.1 Alignment with the Village's Renewable Energy Plan
+
+In January 2025, Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's statutory decarbonization strategy through 2050. The Mitsue Project is not proposing a competing idea — it is offering to be the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written, funded, and committed to.** The project delivers the plan's explicit targets for a "one resilient distributed-energy site" within the village (currently zero), its priority for EV charging at public facilities (transport = 46% of emissions), its distributed disaster-resilience goals, and the forest-carbon/J-Credit mechanism the plan calls for but cannot deliver alone. Critically, the plan's completion under the MoE planning-support grant (step 1) makes Mitsue eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality through public-private partnership. See [`mitsue_village_re_plan_alignment.md`](mitsue_village_re_plan_alignment.md) for the full analysis.
 
 ---
 
@@ -184,7 +188,7 @@ The project pursues a five-layer funding stack, with each layer unlocked by the 
 | Layer | Source | Year 1 Target | Year 3 Target |
 |-------|--------|---------------|---------------|
 | L1 | Founder / private capital | ¥3M | ¥1M |
-| L2 | Government grants (NEDO, METI, Nara Prefecture, Mitsue village) | ¥5M | ¥80M |
+| L2 | Government grants (NEDO, METI, Nara Prefecture, Mitsue village; **御杖村 地域脱炭素移行・再エネ推進交付金 2/3–3/4 subsidy, via village**) | ¥5M | ¥80M |
 | L3 | Foundations (Nippon Foundation, Japan Fund for Global Environment, Toyota Foundation, others) | ¥3M | ¥20M |
 | L4 | Corporate partnerships (Dutch and Japanese; CSR-aligned) | ¥0 | ¥30M |
 | L5 | Operating revenue (hosting fees, FIT/FIP, EV charging fees, J-Credits) | ¥0 | ¥3M |
@@ -270,6 +274,14 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_project_overview_pellegrom.md` / `.pdf` | Project overview prepared for the Dutch consulate (EN) |
 | `mitsue_letter_pellegrom_support_request.md` / `.pdf` | Support request letter to Pellegrom — Dutch and English |
 | `mitsue_email_highreso_intro.md` | Draft outreach email to HIGHRESO (EN/JP; pending Joi Ito warm introduction) |
+
+**Policy alignment**
+
+| File | Purpose |
+|------|---------|
+| `mitsue_village_re_plan_alignment.md` | Full English analysis: how the project aligns with the village's official RE plan and the 交付金 funding route |
+| `mitsue_village_re_plan_alignment_jp.md` | Japanese version of the RE plan alignment analysis |
+| `Docs extra/mitsue_files from Village hall/mitsue_village_re_plan_clean_translation_en.md` | Clean English translation of the village's official RE plan key pages, with citable figures |
 
 **Stakeholders**
 

@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v1.4 &nbsp;|&nbsp; Last modified: 2026-05-30</p>
+<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 # Introduction Email — HIGHRESO Co., Ltd.
 
@@ -74,6 +74,7 @@ A formal partnership ask should only come after points 1–3 have established mu
 - 奈良県御杖村の体験交流館（御杖体験交流館）を活用した、小規模AI／エッジコンピューティング・データセンター（サーバー10〜20台規模）
 - 個人所有の太陽光発電・EV充電インフラを統合した地産地消型エネルギー設計（蓄電池はフィージビリティスタディで評価）
 - 25年スケールの森林再生と林業再活性化を併せて推進
+- 御杖村が環境省補助で策定した公式の再エネ導入最大化計画（2025年）と整合し、その実行を担う位置づけ（政策的裏付けのある取り組みです）
 - NPO法人格、地域所有モデル、オープンソース運営を予定
 
 つきましては、もし機会がございましたら、**30分程度のオンライン面談**にて貴社の空き施設活用型データセンター運営のご知見を伺えれば誠に幸甚に存じます。本プロジェクトは現在第0段階（地域との対話・設立準備）にあり、貴社のご経験は今後の設計判断において極めて貴重なご示唆となるものと考えております。
@@ -110,6 +111,7 @@ Following Mr. Ito's suggestion I reviewed your SDGs page and was deeply impresse
 - Small AI / edge-compute data center (~10–20 servers) in the Mitsue Taiken Koryukan (community exchange center), Mitsue Village, Nara
 - Integrated locally-generated renewable energy (privately owned solar PV + EV charging; battery storage subject to feasibility study)
 - Paired with a 25-year forest restoration and forestry revitalization programme
+- Aligned with Mitsue Village's official MoE-funded Renewable Energy Plan (2025), with the project positioned as its implementation vehicle (a policy-backed initiative)
 - NPO legal structure, community-owned model, open-source operating playbook
 
 If you would be open to it, I would very much appreciate a **brief 30-minute introductory call** to learn from your experience with repurposed-facility data centers. The project is currently in Phase 0 (community consultation and founding-team formation), and your insights would be extraordinarily valuable as we make design choices over the coming months.

@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.0 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-05-18</p>
+<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 ---
 
@@ -593,7 +593,7 @@ The PMB may be formally revised:
 Each baseline revision is documented with: old baseline, new baseline, reason, approving authority, and date. Revisions are numbered:
 - **Rev 0** (v1.1, Apr 2026) — Original BAC ¥168M, drafted from planning estimates
 - **Rev 1** (v2.0, May 2026) — Current document. BAC ¥220M, reality-checked against real-world Japan benchmarks (solar, EV chargers, school seismic retrofit, forestry). Reason: pre-emptive correction in advance of Phase 1 feasibility studies.
-- **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes.
+- **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes. **Should also fold in any confirmed 地域脱炭素移行・再エネ推進交付金 amount** (2/3–3/4 subsidy on solar/battery/EV/private-wire capex, via village 官民連携) — the primary named path to closing the ¥28M–¥53M gap during Phases 2–3. Sources: https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
 
 ---
 

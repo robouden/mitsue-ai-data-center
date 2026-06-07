@@ -1,4 +1,4 @@
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -160,7 +160,9 @@ flowchart TB
 | **Funding Gap vs BAC** | Additional funding required to meet BAC | **¥28M** |
 | **Funding Gap vs Total Budget** | Additional funding required including MR | **¥53M** |
 
-> **Note:** The ¥28M–¥53M funding gap is to be closed through additional government grants, new corporate partnerships, or bridge financing secured during Phase 2 (M10–M18). The funding stack above reflects commitments and realistic pipeline as of May 2026 — it is not a target to be artificially inflated. The gap is shown explicitly because stakeholders deserve an honest picture.
+> **Note:** The ¥28M–¥53M funding gap is to be closed through additional government grants, new corporate partnerships, or bridge financing secured during Phase 2 (M10–M18). The funding stack above reflects commitments and realistic pipeline as of May 2026 — it is not a target to be artificially inflated. The gap is shown explicitly because stakeholders deserve an honest picture. **A named, concrete path to closing a meaningful part of this gap is the village-led 地域脱炭素移行・再エネ推進交付金 (MoE, step 2 of the national decarbonization funding ladder): 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the village via official 官民連携, targeting Phases 2–3.** L2 (Government grants) in Diagram 2 now includes this route routed through the municipality. Baseline Rev 2 (due M9, Dec 2026) should fold in any confirmed 交付金 amount.
+
+> **Sources:** MoE — 地域脱炭素移行・再エネ推進交付金: https://policies.env.go.jp/policy/roadmap/grants/ · 実施要領（補助率 2/3・3/4 条件）: https://www.env.go.jp/content/900470616.pdf
 
 ---
 

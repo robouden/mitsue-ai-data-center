@@ -1,4 +1,4 @@
-<p align="right">Version: v2.10 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.11 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
@@ -116,6 +116,8 @@ These are the **single most important documents** for unlocking serious funding.
    - **Biomass CHP sizing (primary source)** — gasifier or CHP unit fuelled by sugi forest thinnings, providing 24/7 baseload electricity (primary output) and heat (secondary output); sizing, capex, fuel-supply logistics, and dispatch model
    - Solar PV sizing on Koryukan rooftop and adjacent surfaces (complementary, intermittent supply)
    - EV charging capacity sizing (2–4 stations initially, scalable), powered by the local biomass+solar system
+   - **Small-scale hydropower** from village water-supply intake points (explicitly cited in the village RE plan — Key Initiative 1; evaluate feasibility and output potential)
+   - **V2H (Vehicle-to-Home/Building)** integration — using EV stored energy in buildings during grid outages (village RE plan Basic Policy 2.2)
    - Grid connection and FIT/FIP eligibility
    - Battery storage requirements (data center load + EV charging + 12–48h blackout backup; subject to feasibility study confirmation)
 
@@ -174,6 +176,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 - Legal entity registered
 - Feasibility studies completed
 - Letter of interest from Mitsue village government
+- **Coordinate with the village on its 地域脱炭素移行・再エネ推進交付金 multi-year 事業計画; position the project as the 官民連携 operating partner** (per the MoE funding ladder — village completed step 1 in Jan 2025; this is step 2)
 - Bilingual project website (basic, professional)
 - Initial advisory board formalized
 - Bank account, accounting system in place
@@ -247,6 +250,9 @@ The project should pursue **multiple funding streams in parallel**, never depend
 - **Mitsue village local subsidies** — small but politically meaningful
 - **Mitsue village startup subsidy program** — partial business-cost support for new enterprises; village policy targets **5 new enterprises over 5 years** to retain youth and stem depopulation. The project should be positioned as filling one or more of those slots. *Eligibility for NPOs to be confirmed with the village 募集要項; if the program is restricted to for-profit entities, the NPO can incorporate subsidiary 合同会社 / GKs (forestry operations, EV/energy services) that apply separately.* Politically aligned with stated village policy; coordinate with the mayor before applying.
 - **森林環境譲与税 (Forest Environment Transfer Tax)** — already funding the village's ongoing forestry programme; applies to native forest restoration operations and sugi plantation conversion to native broadleaf species.
+- **御杖村 地域脱炭素移行・再エネ推進交付金 (Regional Decarbonization Transition & RE Promotion Grant, via village)** — Mitsue Village completed the MoE's planning-support grant (step 1 of the national funding ladder) by publishing its RE plan in January 2025. This makes the village eligible for the 交付金 (step 2): a **2/3 subsidy on eligible solar/battery/EV/private-wire capex, rising to 3/4** for batteries and private wire (自営線) because Mitsue qualifies as both a 過疎 area and a low-financial-capacity municipality. The grant is paid **to the village** and explicitly funds building the operating structure for regional RE projects through **official public-private partnership (官民連携)**. The project is positioned as that operating partner: the village brings the plan and the grant channel; we bring the operator, the capital stack, and the anchor offtaker. This is the concrete, named path to closing part of the existing ¥28M–¥53M funding gap during Phases 2–3. The village's RE plan (policy basis), the project's scope (solar + battery + EV + private wire), and the 官民連携 structure all align with this grant's requirements. See `mitsue_village_re_plan_alignment.md` for the full funding ladder analysis. Baseline Rev 2 (due M9, Dec 2026) should fold in any confirmed 交付金 amount.
+
+  *Note: Phase 1 deliverable — coordinate with the village on its multi-year 交付金 事業計画; position the project as the 官民連携 operating partner.*
 
 **Recommendation:** Hire a **行政書士 (administrative scrivener)** experienced in grant applications. Cost: ¥200,000–500,000 per application. Worth every yen — Japanese government grant applications are notoriously demanding.
 

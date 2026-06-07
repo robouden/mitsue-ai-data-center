@@ -1,4 +1,4 @@
-<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.10 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -14,17 +14,17 @@
 </style>
 
 
-# Six Questions on the Mitsue Project — Briefing Q&A
-## 御杖プロジェクトに関する六つのご質問 ―― 簡易Q&A
+# Key Questions on the Mitsue Project — Briefing Q&A
+## 御杖プロジェクトに関する主なご質問 ―― 簡易Q&A
 
 **Working draft, May 2026 · Project Lead: Rob Oudendijk**
 **作成中ドラフト 2026年5月 · 代表: ロブ・アウデンダイク**
 
 ---
 
-This document responds to six questions raised during informal consultation. It is intended as a starting point for further discussion with the village, advisors, and stakeholders — not as a final position. Firm engineering and financial figures will follow the Phase 2 feasibility study (months 10–18).
+This document responds to questions raised during informal consultation. It is intended as a starting point for further discussion with the village, advisors, and stakeholders — not as a final position. Firm engineering and financial figures will follow the Phase 2 feasibility study (months 10–18).
 
-本資料は、有志の方からいただいた六つのご質問に対する回答をまとめたものです。村役場、アドバイザー、関係各位とのさらなる対話の出発点として作成しております。最終見解ではございません。正確な技術・財務数値は、第2段階のフィージビリティスタディ(10〜18か月目)を経て確定いたします。
+本資料は、有志の方からいただいたご質問に対する回答をまとめたものです。村役場、アドバイザー、関係各位とのさらなる対話の出発点として作成しております。最終見解ではございません。正確な技術・財務数値は、第2段階のフィージビリティスタディ(10〜18か月目)を経て確定いたします。
 
 ---
 
@@ -116,6 +116,16 @@ Earlier conversations sometimes described the forestry component as managing sug
 - **Thinnings become energy.** Restoration is not pure extraction, but the sugi removed during conversion is not wasted: it fuels the biomass CHP system that is the project's primary energy source. The forest is both an ecological liability to heal and an energy asset — thinning it does both at once. Solar and EV charging complement this biomass core.
 - **Policy alignment.** The Forestry Agency (林野庁) and the 森林環境譲与税 framework actively support native species conversion and forest restoration projects of exactly this type.
 
+### Q8. How does the project align with Mitsue's official Renewable Energy Plan, and does that help funding?
+
+Yes — strongly, on both counts. In January 2025 Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's decarbonization strategy through 2050. The project is best understood as the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written and committed to**, not a competing idea.
+
+- **Direct mapping.** The plan's targets map onto our design with very little friction: its "one resilient renewable + storage + EV site" indicator (currently zero — our data center can be the "1"); EV chargers at public facilities as a priority (transport = 46% of village emissions); distributed disaster-resilience; and forest CO₂ absorption with J-Credits. The biomass CHP / forest-carbon mechanism is uniquely ours — the plan *wants* it but has no operator or offtaker for the thinnings.
+- **Funding unlock.** Producing the plan completed step 1 of the MoE funding ladder (planning-support grant). That makes Mitsue eligible for step 2 — the **地域脱炭素移行・再エネ推進交付金** — which subsidizes **2/3 (rising to 3/4 for batteries and private wire)** of eligible solar/battery/EV/private-wire capex, because Mitsue qualifies as a 過疎 + low-financial-capacity municipality. The grant is paid **to the village** through public-private partnership; the project is positioned as that operating partner. This is the named, concrete path to closing part of the existing ¥28M–¥53M funding gap during Phases 2–3.
+- **Biomass stays primary.** This alignment does not change our energy hierarchy: biomass CHP remains the primary source (it is the engine of reforestation); solar/battery/EV are complementary and are what the 交付金 chiefly subsidizes.
+
+See `mitsue_village_re_plan_alignment.md` for the full analysis. *Source: 御杖村再エネ導入最大化計画（概要版）, Jan 2025; MoE 交付金 実施要領 https://www.env.go.jp/content/900470616.pdf*
+
 ---
 
 # 日本語
@@ -193,6 +203,16 @@ Earlier conversations sometimes described the forestry component as managing sug
 - **炭素固定による収入。** 在来広葉樹林は定着後、年間約3〜6 tC/haのペースで炭素を蓄積します。50haの再生林でJ-Creditの炭素クレジット収入が見込め、参加する山林所有者に一時的な木材収益より持続的な長期収入をもたらします。
 - **間伐材がエネルギーになる。** 森林再生は単なる資源採取ではありませんが、転換の過程で伐り出される杉は無駄になりません。プロジェクトの主たるエネルギー源であるバイオマスCHPの燃料となります。森は癒すべき生態的負債であると同時にエネルギー資産でもあり、間伐はその両方を同時に果たします。太陽光とEV充電はこのバイオマスの中核を補完します。
 - **政策との整合。** 林野庁および森林環境譲与税の枠組みは、まさにこのような在来種への転換・森林再生事業を積極的に支援しています。
+
+### Q8. 本プロジェクトは御杖村の公式の再エネ計画とどう整合しますか? それは資金面で助けになりますか?
+
+はい、両方の点で強く整合します。2025年1月、御杖村は環境省の補助事業として公式の**「再エネ導入最大化計画」**（御杖村再エネ導入最大化計画）を公表し、2050年までの村の脱炭素戦略として採択しました。本プロジェクトは、対抗する構想ではなく、**村がすでに策定しコミットした計画を実行・運営する事業体（官民連携 運営体制）**として理解するのが最も適切です。
+
+- **直接的な対応関係。** 計画の目標は我々の設計とほとんど摩擦なく重なります：「再エネ＋蓄電池＋EVのレジリエント1拠点」指標（現状ゼロ ―― 我々のデータセンターがその「1」になり得る）、公共施設へのEV充電器の優先設置（運輸が村の排出の46%）、自立分散型の防災、森林CO₂吸収とJ-クレジット。バイオマスCHP／森林炭素の機構は我々固有の貢献です ―― 計画はそれを*望んで*いますが、運営者も間伐材の引き取り手もありません。
+- **資金面の突破口。** 計画の策定は環境省資金ラダーの第1段（計画づくり支援事業）を完了したことを意味します。これにより御杖村は第2段 ―― **地域脱炭素移行・再エネ推進交付金** ―― の対象となります。対象の太陽光・蓄電池・EV・自営線設備費の**2/3（蓄電池・自営線は3/4）**が補助されます（御杖村は過疎＋財政力指数の条件を満たすため）。交付金は官民連携を通じて**村に**交付され、本プロジェクトはその運営パートナーとして位置づけられます。これは、既存の¥28M〜¥53Mの資金ギャップの一部をフェーズ2〜3で埋める、名前のある具体的な道筋です。
+- **バイオマスは主軸のまま。** この整合は我々のエネルギー序列を変えません：バイオマスCHPは主たる電源（再造林の原動力）であり続け、太陽光・蓄電池・EVは補完であり、それらが主に交付金の補助対象となります。
+
+詳細は `mitsue_village_re_plan_alignment_jp.md` 参照。*出典：御杖村再エネ導入最大化計画（概要版）、2025年1月；環境省 交付金 実施要領 https://www.env.go.jp/content/900470616.pdf*
 
 ---
 

@@ -20,7 +20,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.5 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.6 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 ---
 
@@ -64,7 +64,8 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
  │    ├── 3.3  Energy systems feasibility study
  │    ├── 3.4  Building & site assessment
  │    ├── 3.5  Connectivity assessment
- │    └── 3.6  Operations setup
+ │    ├── 3.6  Operations setup
+ │    └── 3.7  Village RE plan alignment & 交付金 事業計画 co-development (官民連携)
  │
  ├── 4.0  Phase 2 — Pilot Design                           ¥22.25M
  │    ├── 4.1  Building & structural design
@@ -390,6 +391,18 @@ The most structurally important phase. The feasibility studies produced here det
 | Deliverables | Signed advisory board letters; live website; grant application calendar for Phase 2 |
 | Acceptance | Website reviewed by board; advisory board confirmed in writing |
 
+#### 3.7 Village RE Plan Alignment & 交付金 事業計画 Co-development (官民連携) — ¥0 (PM overhead)
+
+| Item | Detail |
+|------|--------|
+| Scope | Map project deliverables to the village's official RE plan (御杖村再エネ導入最大化計画) Basic Policies & indicators (incl. the "one resilient site" target); co-develop the village's multi-year 地域脱炭素移行・再エネ推進交付金 事業計画; position the project as the 官民連携 operating partner. Spans into Phase 2 grant writing (see 4.7). |
+| Owner | Representative Director + Japanese co-founder |
+| Budget | ¥0 — absorbed in 1.0 PM & governance / 4.7 grant writing (no new BAC line) |
+| Deliverables | Deliverable-to-plan mapping document; draft 交付金 事業計画 input prepared with the village; 官民連携 role confirmed |
+| Acceptance | Village confirms the project's operating-partner role for its 交付金 application |
+
+> **Note:** The village completed step 1 of the MoE funding ladder (planning-support grant → RE plan, Jan 2025). This task advances step 2 (交付金, 2/3–3/4 subsidy on solar/battery/EV/private-wire, via village). See `mitsue_village_re_plan_alignment.md`.
+
 > **Phase 1 Gate Criterion:** Legal entity registered; all four feasibility studies accepted; ¥3–8M secured; letter of support from Mitsue village government.
 
 ---
@@ -468,10 +481,10 @@ Converts feasibility into engineering reality. The permit applications submitted
 
 | Item | Detail |
 |------|--------|
-| Scope | Prepare and submit applications for major grants: 地方創生関係交付金, 林野庁 subsidies, NEDO, METI green tech, Nara Prefecture, Nippon Foundation, Japan Fund for Global Environment |
+| Scope | Prepare and submit applications for major grants: 地方創生関係交付金, 林野庁 subsidies, NEDO, METI green tech, Nara Prefecture, Nippon Foundation, Japan Fund for Global Environment; **support the village's 地域脱炭素移行・再エネ推進交付金 事業計画 (2/3–3/4 subsidy on solar/battery/EV/private-wire, via village 官民連携 — continues task 3.7)** |
 | Owner | Director — Finance/Operations (supported by specialist 行政書士) |
 | Budget | ¥2.0M (行政書士 fees ¥200–500K each; 4–6 applications) |
-| Deliverables | Minimum 4 grant applications submitted; at least ¥30M in pending applications by end of Phase 2 |
+| Deliverables | Minimum 4 grant applications submitted; at least ¥30M in pending applications by end of Phase 2; village 交付金 事業計画 input contributed |
 | Acceptance | Applications submitted; Gate 3 funding of ¥80–200M confirmed or committed |
 
 #### 4.8 Staff Recruitment & Onboarding — ¥6.0M

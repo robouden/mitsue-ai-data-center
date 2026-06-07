@@ -16,7 +16,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-01</p>
+<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 ---
 
@@ -92,7 +92,7 @@ The 25-year horizon describes full forest restoration — not how long the villa
 
 ## How It Is Financed
 
-The project stacks complementary sources rather than depending on a single funder: **林野庁 grants** (forest restoration) · **METI / NEDO grants** (rural energy resilience and EV infrastructure) · **FIT / FIP** feed-in tariff revenues · **J-Credit** carbon offset income · **data center service revenue** (primary long-term income) · **impact investment and philanthropy** (Phase 0 and early infrastructure).
+The project stacks complementary sources rather than depending on a single funder: **林野庁 grants** (forest restoration) · **METI / NEDO grants** (rural energy resilience and EV infrastructure) · the village-led **地域脱炭素移行・再エネ推進交付金** (2/3–3/4 subsidy on solar/battery/EV, via the village's official 2025 renewable-energy plan) · **FIT / FIP** feed-in tariff revenues · **J-Credit** carbon offset income · **data center service revenue** (primary long-term income) · **impact investment and philanthropy** (Phase 0 and early infrastructure).
 
 All environmental, energy, and forestry data will be published openly — so any village facing the same challenges can learn from what is built here. This ethos comes directly from Safecast, which has published over 250 million measurements openly since 2011.
 

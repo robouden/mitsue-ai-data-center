@@ -98,7 +98,7 @@ const nodes = new vis.DataSet([
   n('SCHOOL',   'Mitsue Taiken\nKoryukan',    'asset', 'Community exchange center. Phase 1 datacenter site. Phase 2 expands to old factory.', 'square', 16),
 
   // Government
-  n('VILLAGE_GOV','Mitsue Village\nGovernment','gov', 'Primary stakeholder. Letter of interest target.'),
+  n('VILLAGE_GOV','Mitsue Village\nGovernment','gov', 'Primary stakeholder. Letter of interest target. Holds the official MoE-funded RE plan (2025); recipient of the 地域脱炭素移行・再エネ推進交付金 (2/3–3/4) — project is the 官民連携 operating partner.'),
   n('NARA',       'Nara Prefecture\n奈良県',  'gov', 'Regional oversight. Potential grant source.'),
   n('METI',       'METI\n経済産業省',         'gov', 'FIT/FIP registration. Green tech subsidies. 電気事業法 licensing. AI Strategy Council (Joi Ito connected).'),
   n('NEDO',       'NEDO',                     'gov', 'Renewable energy R&D grants. Arm of METI.'),
@@ -106,7 +106,7 @@ const nodes = new vis.DataSet([
   n('CABINET',    'Cabinet Office\n地方創生', 'gov', '地方創生 regional revitalization grants. Digital Garden City Nation policy driver.'),
   n('MIC',        '総務省 MIC\nInternal Affairs', 'gov', 'Rural broadband subsidies. Data center regional grants. Telecom regulation. Connected to Digital Garden City strategy.'),
   n('DIGITAL',    'デジタル庁\nDigital Agency', 'gov', 'Digital transformation grants for rural areas. Digital infrastructure standards. Joi Ito has advisory connections here.'),
-  n('ENV',        '環境省\nEnvironment Ministry', 'gov', 'J-Credit certification for forest carbon offsets. Environmental impact assessment (環境アセスメント). Carbon market oversight.'),
+  n('ENV',        '環境省\nEnvironment Ministry', 'gov', 'J-Credit certification for forest carbon offsets. Environmental impact assessment (環境アセスメント). Carbon market oversight. Funded the village RE plan (planning-support grant) and the 地域脱炭素移行・再エネ推進交付金 (2/3–3/4, paid to the village).'),
   n('JST',        'JST\nScience & Technology Agency', 'gov', 'R&D grants for green tech & AI. Potential Phase 2–3 co-funding.', 'dot', 14),
   n('LEGAL_B',    'Legal Affairs\nBureau 法務局','gov','Corporate registration for 一般社団法人.', 'dot', 14),
 
@@ -160,6 +160,7 @@ const edges = new vis.DataSet([
   e('VMAYOR',     'MAYOR',     'gateway to'),
   e('MAYOR',      'VILLAGE_GOV','leads'),
   e('VILLAGE_GOV','PROJ',      'letter of interest'),
+  e('VILLAGE_GOV','PROJ',      'RE plan + 交付金\n(官民連携 operator)'),
   e('VILLAGE_GOV','SCHOOL',    'owns'),
   e('SCHOOL',     'PROJ',      'reactivated\nas hub'),
   e('JICHIKAI',   'PROJ',      'community\nbuy-in'),
@@ -177,6 +178,7 @@ const edges = new vis.DataSet([
   e('MIC',        'PROJ',    'rural broadband\n+ data center grants'),
   e('DIGITAL',    'PROJ',    'rural digital\ngrants'),
   e('ENV',        'PROJ',    'J-Credit\n+ env. permits'),
+  e('ENV',        'VILLAGE_GOV', 'RE plan grant\n+ 交付金 (to village)', true),
   e('JST',        'PROJ',    'R&D grants', true),
   // Joi Ito → Japanese Government AI connections
   e('JOI',        'METI',    'AI Strategy\nCouncil', true),

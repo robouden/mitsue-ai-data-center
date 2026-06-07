@@ -1,4 +1,4 @@
-<p align="right">Version: v2.4 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -61,7 +61,7 @@
 | Cabinet Office (内閣府)                     | 地方創生 regional revitalization grants (¥5–50M)       | —                                                                          | Digital Garden City Nation Initiative policy driver                                 |
 | 総務省 (MIC — Ministry of Internal Affairs) | Rural broadband subsidies; data center regional grants | Telecom regulation; municipal digital policy                               | Funds rural fiber; connected to Digital Garden City strategy                        |
 | デジタル庁 (Digital Agency)                 | Digital transformation grants for rural areas          | Digital infrastructure standards                                           | Joi Ito has advisory connections here; aligned with project's rural digital mission |
-| 環境省 (Ministry of Environment)            | Carbon credit support                                  | J-Credit certification; environmental impact assessment (環境アセスメント) | Governs J-Credit scheme for forest carbon offsets                                   |
+| 環境省 (Ministry of Environment)            | Carbon credit support; **地域脱炭素移行・再エネ推進交付金 (2/3–3/4, via village)**; planning-support grant (funded the village RE plan) | J-Credit certification; environmental impact assessment (環境アセスメント) | Governs J-Credit scheme for forest carbon offsets. **Funds the village's RE plan & 交付金 channel: village = grant recipient, project = 官民連携 operating partner** |
 | JST (Japan Science and Technology Agency)   | R&D grants for green tech & AI                         | —                                                                          | Potential Phase 2–3 R&D co-funding                                                  |
 | 農業委員会 (Agricultural Commission)        | —                                                      | Land use permits if agricultural land involved                             | Local body; Nara Prefecture jurisdiction                                            |
 | Legal Affairs Bureau (法務局)               | —                                                      | Corporate registration (一般社団法人)                                      | One-time registration                                                               |
@@ -171,6 +171,7 @@ flowchart LR
     JOI -.->|"advises"| PROJ
     RAY -.->|"advises"| PROJ
     VILLAGE -->|"approval + Koryukan"| PROJ
+    VILLAGE -->|"RE plan + 交付金 (官民連携 operating partner)"| PROJ
     MAYOR --> VILLAGE
     VMAYOR --> MAYOR
     JICHIKAI -->|"community support"| PROJ
@@ -185,6 +186,7 @@ flowchart LR
     MIC -->|"broadband & DC grants"| PROJ
     DIGITAL -->|"digital grants"| PROJ
     ENV -->|"J-Credit & env. permits"| PROJ
+    ENV -->|"RE plan grant + 交付金 (to village)"| VILLAGE
 
     NIPPON -->|"grants"| PROJ
     JFGE -->|"environmental grants"| PROJ
