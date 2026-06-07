@@ -33,7 +33,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 ## 3. Strategic Rationale
 
-- **Energy transition.** Within roughly ten years, the majority of Japanese passenger vehicles are expected to be electric. This transition will require significant new distributed generation capacity, particularly in rural regions where grid extension is slow and capital-intensive.
+- **Energy transition.** Japan targets 100% electrified new passenger-vehicle sales by 2035 (EVs, PHEVs, FCVs, HEVs) — not pure-EV, but a deliberate mix. This transition will require significant new distributed generation and charging capacity, particularly in rural regions where grid extension is slow and capital-intensive. Japan's FY2024 CEV subsidy scheme (up to ¥850,000 for an EV, ¥550,000 for a PHEV or light EV) now also rewards charging infrastructure and disaster resilience.
 - **Forest liability conversion.** Aged sugi (cedar) plantations across rural Japan represent an under-managed asset that imposes ecological costs (pollen burden, biodiversity loss) and physical risks (landslide and fire). Active management converts liability into feedstock and timber revenue.
 - **Stranded community assets.** Available community facilities, such as the Mitsue Taiken Koryukan, currently impose net maintenance costs on shrinking municipal budgets. Productive reuse turns these into community-anchored facilities.
 - **Digital infrastructure deficit.** Rural broadband and edge-compute capacity continue to lag urban Japan. A small, energy-aligned data center addresses both the connectivity and the on-site computation gap.
