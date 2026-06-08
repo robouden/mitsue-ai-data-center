@@ -80,27 +80,6 @@ There are **three relevant non-profit structures** in Japan, with different trad
 - **Strict requirements** — public donation thresholds, financial transparency
 - **Long-term goal** — apply once track record is established
 
-### 1B. Recommended Path for the Mitsue Project
-
-**Start as 一般社団法人**, plan transition to **NPO法人** after 18–24 months.
-
-### 1C. Setup Requirements (一般社団法人)
-
-- **Minimum 2 founding members** (社員)
-- **Minimum 1 director** (理事), but 3+ is strongly recommended
-- **Articles of incorporation** (定款) — drafted in Japanese, notarized
-- **Registered office address** — can be in Mitsue
-- **Registration with Legal Affairs Bureau** (法務局)
-- **Estimated cost:** ¥110,000 registration tax + ¥50,000 notary + ¥100,000–300,000 if using a 行政書士 (administrative scrivener)
-- **Setup time:** 4–8 weeks
-
-### 1D. Recommended Founding Board Composition
-- **Representative Director** (代表理事): ideally a respected Japanese co-founder
-- **Director — Technology**: Rob (or rotating role)
-- **Director — Forestry/Local**: a local forestry expert or village elder
-- **Director — Finance/Operations**: someone with NPO management experience
-- **Auditor** (監事): an independent person, ideally with accounting knowledge
-
 ### 1E. Feasibility Studies to Commission
 
 These are the **single most important documents** for unlocking serious funding. Get these right.

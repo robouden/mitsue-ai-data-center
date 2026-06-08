@@ -1,0 +1,197 @@
+
+<style>
+  :root { --gap: 12px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .wrap { padding: 1rem 0; font-size: 15px; }
+  h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .subtitle { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 20px; }
+  .phase { margin-bottom: 24px; border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+  .phase-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: var(--color-background-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); cursor: pointer; user-select: none; }
+  .phase-header:hover { background: var(--color-background-tertiary); }
+  .phase-badge { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+  .ph1 { background: #B5D4F4; color: #0C447C; }
+  .ph2 { background: #9FE1CB; color: #085041; }
+  .ph3 { background: #FAC775; color: #633806; }
+  .ph4 { background: #F4C0D1; color: #72243E; }
+  .ph5 { background: #C0DD97; color: #27500A; }
+  .phase-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); flex: 1; }
+  .phase-meta { font-size: 12px; color: var(--color-text-secondary); }
+  .phase-body { padding: 4px 0; }
+  .item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; border-bottom: 0.5px solid var(--color-border-tertiary); cursor: pointer; transition: background 0.1s; }
+  .item:last-child { border-bottom: none; }
+  .item:hover { background: var(--color-background-secondary); }
+  .item.done .label { text-decoration: line-through; color: var(--color-text-tertiary); }
+  .item.done .detail { color: var(--color-text-tertiary); }
+  .cb { width: 18px; height: 18px; border: 1.5px solid var(--color-border-secondary); border-radius: 4px; flex-shrink: 0; margin-top: 1px; display: flex; align-items: center; justify-content: center; transition: background 0.15s, border-color 0.15s; }
+  .item.done .cb { background: var(--color-text-success); border-color: var(--color-text-success); }
+  .cb-check { display: none; }
+  .item.done .cb-check { display: block; }
+  .label { font-size: 13px; font-weight: 500; color: var(--color-text-primary); line-height: 1.4; }
+  .detail { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; line-height: 1.5; }
+  .doc-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .doc-tag { font-size: 11px; padding: 2px 7px; border-radius: 99px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+  .doc-tag.req { border-color: #185FA5; color: #185FA5; background: #E6F1FB; }
+  .doc-tag.form { border-color: #0F6E56; color: #0F6E56; background: #E1F5EE; }
+  .doc-tag.fee { border-color: #854F0B; color: #854F0B; background: #FAEEDA; }
+  .progress-bar { height: 6px; background: var(--color-border-tertiary); border-radius: 3px; margin: 0 16px 12px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 3px; background: var(--color-text-success); transition: width 0.3s; }
+  .summary { display: flex; gap: 16px; padding: 10px 16px 14px; font-size: 12px; color: var(--color-text-secondary); }
+  .sum-num { font-size: 22px; font-weight: 500; color: var(--color-text-primary); display: block; }
+  .chevron { transition: transform 0.2s; font-size: 12px; color: var(--color-text-tertiary); }
+  .phase.collapsed .phase-body { display: none; }
+  .phase.collapsed .chevron { transform: rotate(-90deg); }
+  .reset-btn { font-size: 12px; color: var(--color-text-secondary); background: none; border: 0.5px solid var(--color-border-secondary); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  .reset-btn:hover { color: var(--color-text-primary); }
+</style>
+
+<div class="wrap">
+  <h2>NPO setup — Mitsue Project (御杖村)</h2>
+  <p class="subtitle">特定非営利活動法人 (tokutei hieiri katsudo hojin) — Nara Prefecture jurisdiction &nbsp;·&nbsp; <button class="reset-btn" onclick="resetAll()">Reset all</button></p>
+
+  <div id="checklist"></div>
+
+  <div class="summary">
+    <div><span class="sum-num" id="done-count">0</span>done</div>
+    <div><span class="sum-num" id="remain-count">0</span>remaining</div>
+    <div style="flex:1"></div>
+    <div style="text-align:right"><span class="sum-num" id="pct">0%</span>complete</div>
+  </div>
+</div>
+
+<script>
+const phases = [
+  {
+    id: 1, badge: "ph1", title: "Phase 1 — Founding preparation", meta: "~1–2 months",
+    items: [
+      { label: "Decide on NPO activities category", detail: "Must fall within 1 of 20 approved 特定非営利活動 categories. Mitsue Project likely fits: 'まちづくり推進' (community development), '学術・文化・芸術・スポーツ振興', or '環境保全'. Can list multiple.", docs: [{t:"Article 2 NPO Law",c:"req"}] },
+      { label: "Recruit founding members (社員)", detail: "Minimum 10 members (社員) required. These are voting members — different from directors. Collect name, address, DOB for each.", docs: [{t:"10 members min",c:"req"}] },
+      { label: "Appoint board of directors (理事)", detail: "Minimum 3 理事 (directors). One becomes 代表理事 (representative director). Relatives cannot fill more than 1/3 of positions.", docs: [{t:"3 directors min",c:"req"}, {t:"No family concentration",c:"req"}] },
+      { label: "Appoint auditor (監事)", detail: "At least 1 監事 required. Cannot be a director or employee. Must not be a relative of any director.", docs: [{t:"1 auditor min",c:"req"}] },
+      { label: "Decide on NPO name (名称)", detail: "Must include 特定非営利活動法人 in full in official name. Check for conflicts with existing NPOs in Nara Pref.", docs: [] },
+      { label: "Choose office address (主たる事務所)", detail: "Mitsue Elementary School address can be used if you have consent. Alternatively use a personal address or co-working space. Must be in Japan.", docs: [{t:"Office consent letter",c:"form"}] },
+    ]
+  },
+  {
+    id: 2, badge: "ph2", title: "Phase 2 — Drafting core documents", meta: "~1–2 months",
+    items: [
+      { label: "Draft 定款 (teikan / articles of incorporation)", detail: "The most critical document. Must include: name, purpose, activities, address, membership rules, board structure, fiscal year, dissolution rules. Template available from Nara Pref.", docs: [{t:"定款 (required)",c:"req"}, {t:"Nara Pref. template",c:"form"}] },
+      { label: "Draft 設立趣意書 (establishment purpose statement)", detail: "Free-form narrative explaining why the NPO is being established, background, and vision. This is where the Mitsue Project story goes — forest restoration, school repurposing, data center, community revival.", docs: [{t:"設立趣意書",c:"req"}] },
+      { label: "Draft 事業計画書 (activity plan) — first year", detail: "Concrete list of planned activities for the first fiscal year. Must match the 定款 categories. Include: forest restoration activities, school facility use, community events, etc.", docs: [{t:"事業計画書",c:"req"}] },
+      { label: "Draft 収支予算書 (income/expense budget) — first year", detail: "Budget showing expected revenues (membership fees, donations, grants, project income) and expenses. Must balance.", docs: [{t:"収支予算書",c:"req"}] },
+      { label: "Prepare 役員名簿 (director/auditor list)", detail: "List of all 理事 and 監事 with: full name, address, DOB, occupation. Certified copies of residence certificate (住民票) may be required per prefecture.", docs: [{t:"役員名簿",c:"req"}, {t:"住民票 (each officer)",c:"form"}] },
+      { label: "Prepare 社員名簿 (member list)", detail: "List of all 10+ founding members with name and address.", docs: [{t:"社員名簿",c:"req"}] },
+    ]
+  },
+  {
+    id: 3, badge: "ph3", title: "Phase 3 — Founding assembly (創立総会)", meta: "1 day (formal meeting)",
+    items: [
+      { label: "Hold 創立総会 (founding general assembly)", detail: "All founding members meet formally. Must vote on and approve: 定款, first-year 事業計画書 and 収支予算書, election of all 理事 and 監事. Minutes must be recorded.", docs: [{t:"議事録 (minutes)",c:"req"}] },
+      { label: "Draft 創立総会議事録 (assembly minutes)", detail: "Formal minutes showing: date, attendees, items discussed, voting results (unanimous approval typically expected), signatures of chairperson and recorder.", docs: [{t:"創立総会議事録",c:"req"}] },
+      { label: "Collect 就任承諾書 from each officer", detail: "Written consent from each 理事 and 監事 accepting their appointment.", docs: [{t:"就任承諾書 (each)",c:"form"}] },
+    ]
+  },
+  {
+    id: 4, badge: "ph4", title: "Phase 4 — Application to Nara Prefecture", meta: "~4 months review period",
+    items: [
+      { label: "Prepare application package (認証申請)", detail: "Submit to Nara Prefecture 県民文化部 (or similar window). Application must include all required documents below.", docs: [{t:"No application fee",c:"fee"}] },
+      { label: "Submit: 設立認証申請書", detail: "The cover application form. Nara Pref. has its own format — download from their NPO support page.", docs: [{t:"設立認証申請書",c:"form"}] },
+      { label: "Submit: 定款", detail: "Finalized articles of incorporation (with amendments from 創立総会 if any).", docs: [{t:"定款",c:"req"}] },
+      { label: "Submit: 役員名簿 + 就任承諾書 + 住民票", detail: "Officer list, consent letters, and certified residence certificates for all 理事 and 監事.", docs: [{t:"役員書類",c:"req"}] },
+      { label: "Submit: 社員名簿", detail: "Full list of 10+ founding members.", docs: [{t:"社員名簿",c:"req"}] },
+      { label: "Submit: 設立趣意書", detail: "Narrative statement of purpose.", docs: [{t:"設立趣意書",c:"req"}] },
+      { label: "Submit: 事業計画書 + 収支予算書", detail: "First-year activity plan and budget.", docs: [{t:"事業計画",c:"req"}] },
+      { label: "Submit: 創立総会議事録", detail: "Certified copy of founding assembly minutes.", docs: [{t:"議事録",c:"req"}] },
+      { label: "Public縦覧 period (縦覧)", detail: "Prefecture displays your application publicly for 2 weeks. Citizens may submit opinions. Passive step — just wait.", docs: [] },
+      { label: "Receive 認証書 (certification letter)", detail: "If approved, Nara Pref. issues 認証書 within ~4 months. If rejected, you receive reasons and can re-apply.", docs: [{t:"認証書",c:"req"}] },
+    ]
+  },
+  {
+    id: 5, badge: "ph5", title: "Phase 5 — Registration & post-setup", meta: "~2–3 weeks after certification",
+    items: [
+      { label: "Register with Legal Affairs Bureau (法務局)", detail: "After receiving 認証書, register at Nara District Legal Affairs Bureau (奈良地方法務局) or nearest branch. This makes the NPO a legal entity.", docs: [{t:"Registration fee ¥10,000–¥15,000",c:"fee"}, {t:"法人設立登記申請書",c:"form"}] },
+      { label: "Submit 設立登記申請書 to 法務局", detail: "Required: 認証書 (copy), 定款, 役員名簿, 就任承諾書, 代表理事 印鑑 (seal) registration, registry fee.", docs: [{t:"設立登記申請書",c:"form"}] },
+      { label: "Obtain 登記事項証明書 (corporate registry)", detail: "After registration, obtain certified copy of the corporate registry (like a corporate birth certificate). Needed for bank accounts, contracts, grants.", docs: [{t:"¥600/copy",c:"fee"}] },
+      { label: "Register NPO seal (法人印)", detail: "Register official 代表者印 (representative seal) at the 法務局. Purchase a formal NPO seal first.", docs: [{t:"法人印",c:"form"}] },
+      { label: "Open NPO bank account", detail: "Bring 登記事項証明書 + 定款 + 法人印 + ID of representative. Japan Post Bank (ゆうちょ) or regional bank. Avoid online-only banks at first — they often can't handle NPO accounts.", docs: [{t:"登記事項証明書",c:"req"}, {t:"定款",c:"req"}] },
+      { label: "Register with tax office (税務署)", detail: "File 法人設立届出書 at the local 税務署 within 2 months of registration. Also notify Nara Pref. tax office (県税事務所) and Mitsue village office.", docs: [{t:"法人設立届出書",c:"form"}] },
+      { label: "Submit 事業報告書 annually to Nara Pref.", detail: "Every year by end of June: activity report, financial statements, list of officers and members. This maintains 認証 status. Non-filing = potential revocation.", docs: [{t:"Annual obligation",c:"req"}] },
+      { label: "Consider applying for 認定NPO status (認定・仮認定)", detail: "After 1 year of operation, can apply for 認定NPO法人 status from NTA — donors get tax deductions, making fundraising much more effective. Especially relevant for Mitsue Project's international donor network.", docs: [{t:"After 1 year ops",c:"req"}] },
+    ]
+  }
+];
+
+let state = {};
+try { state = JSON.parse(localStorage.getItem('npo_checklist') || '{}'); } catch(e) {}
+
+function save() { try { localStorage.setItem('npo_checklist', JSON.stringify(state)); } catch(e) {} }
+
+function updateSummary() {
+  const all = document.querySelectorAll('.item');
+  const done = document.querySelectorAll('.item.done');
+  const pct = all.length ? Math.round(done.length/all.length*100) : 0;
+  document.getElementById('done-count').textContent = done.length;
+  document.getElementById('remain-count').textContent = all.length - done.length;
+  document.getElementById('pct').textContent = pct + '%';
+  phases.forEach(p => {
+    const bar = document.getElementById('bar-'+p.id);
+    const phItems = document.querySelectorAll('[data-phase="'+p.id+'"]');
+    const phDone = [...phItems].filter(el => el.classList.contains('done')).length;
+    if (bar) bar.style.width = (phItems.length ? Math.round(phDone/phItems.length*100) : 0) + '%';
+  });
+}
+
+function toggle(id) {
+  state[id] = !state[id];
+  save();
+  const el = document.querySelector('[data-id="'+id+'"]');
+  if (el) el.classList.toggle('done', state[id]);
+  updateSummary();
+}
+
+function resetAll() {
+  state = {};
+  save();
+  document.querySelectorAll('.item').forEach(el => el.classList.remove('done'));
+  updateSummary();
+}
+
+function togglePhase(phId) {
+  const el = document.getElementById('phase-'+phId);
+  el.classList.toggle('collapsed');
+}
+
+const cl = document.getElementById('checklist');
+phases.forEach(p => {
+  const div = document.createElement('div');
+  div.className = 'phase';
+  div.id = 'phase-'+p.id;
+  let itemsHtml = p.items.map((it, i) => {
+    const id = 'p'+p.id+'i'+i;
+    const done = state[id] ? ' done' : '';
+    const tags = it.docs.map(d => `<span class="doc-tag ${d.c}">${d.t}</span>`).join('');
+    return `<div class="item${done}" data-id="${id}" data-phase="${p.id}" onclick="toggle('${id}')">
+      <div class="cb"><svg class="cb-check" width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div>
+        <div class="label">${it.label}</div>
+        <div class="detail">${it.detail}</div>
+        ${tags ? `<div class="doc-tags">${tags}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  div.innerHTML = `
+    <div class="phase-header" onclick="togglePhase(${p.id})">
+      <span class="phase-badge ${p.badge}">Phase ${p.id}</span>
+      <span class="phase-title">${p.title}</span>
+      <span class="phase-meta">${p.meta}</span>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="bar-${p.id}" style="width:0%"></div></div>
+    <div class="phase-body">${itemsHtml}</div>
+  `;
+  cl.appendChild(div);
+});
+
+updateSummary();
+</script>

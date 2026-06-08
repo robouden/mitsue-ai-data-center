@@ -1,0 +1,186 @@
+
+<style>
+  * { box-sizing: border-box; }
+  .wrap { padding: 1rem 0; font-size: 15px; }
+  h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .subtitle { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 20px; }
+  .callout { background: var(--color-background-secondary); border-left: 3px solid #1D9E75; border-radius: 0 8px 8px 0; padding: 10px 14px; margin-bottom: 20px; font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+  .callout strong { color: var(--color-text-primary); font-weight: 500; }
+  .phase { margin-bottom: 20px; border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+  .phase-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: var(--color-background-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); cursor: pointer; user-select: none; }
+  .phase-header:hover { background: var(--color-background-tertiary); }
+  .phase-badge { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+  .ph1 { background: #B5D4F4; color: #0C447C; }
+  .ph2 { background: #9FE1CB; color: #085041; }
+  .ph3 { background: #FAC775; color: #633806; }
+  .ph4 { background: #C0DD97; color: #27500A; }
+  .phase-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); flex: 1; }
+  .phase-meta { font-size: 12px; color: var(--color-text-secondary); }
+  .phase-body { padding: 4px 0; }
+  .item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; border-bottom: 0.5px solid var(--color-border-tertiary); cursor: pointer; transition: background 0.1s; }
+  .item:last-child { border-bottom: none; }
+  .item:hover { background: var(--color-background-secondary); }
+  .item.done .label { text-decoration: line-through; color: var(--color-text-tertiary); }
+  .item.done .detail { color: var(--color-text-tertiary); }
+  .cb { width: 18px; height: 18px; border: 1.5px solid var(--color-border-secondary); border-radius: 4px; flex-shrink: 0; margin-top: 1px; display: flex; align-items: center; justify-content: center; transition: background 0.15s, border-color 0.15s; }
+  .item.done .cb { background: var(--color-text-success); border-color: var(--color-text-success); }
+  .cb-check { display: none; }
+  .item.done .cb-check { display: block; }
+  .label { font-size: 13px; font-weight: 500; color: var(--color-text-primary); line-height: 1.4; }
+  .detail { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; line-height: 1.5; }
+  .doc-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .doc-tag { font-size: 11px; padding: 2px 7px; border-radius: 99px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+  .doc-tag.req { border-color: #185FA5; color: #185FA5; background: #E6F1FB; }
+  .doc-tag.form { border-color: #0F6E56; color: #0F6E56; background: #E1F5EE; }
+  .doc-tag.fee { border-color: #854F0B; color: #854F0B; background: #FAEEDA; }
+  .doc-tag.warn { border-color: #993C1D; color: #993C1D; background: #FAECE7; }
+  .progress-bar { height: 6px; background: var(--color-border-tertiary); border-radius: 3px; margin: 0 16px 12px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 3px; background: var(--color-text-success); transition: width 0.3s; }
+  .summary { display: flex; gap: 16px; padding: 10px 16px 14px; font-size: 12px; color: var(--color-text-secondary); }
+  .sum-num { font-size: 22px; font-weight: 500; color: var(--color-text-primary); display: block; }
+  .chevron { transition: transform 0.2s; font-size: 12px; color: var(--color-text-tertiary); }
+  .phase.collapsed .phase-body { display: none; }
+  .phase.collapsed .chevron { transform: rotate(-90deg); }
+  .reset-btn { font-size: 12px; color: var(--color-text-secondary); background: none; border: 0.5px solid var(--color-border-secondary); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  .reset-btn:hover { color: var(--color-text-primary); }
+</style>
+
+<div class="wrap">
+  <h2>一般社団法人 setup — Mitsue Project</h2>
+  <p class="subtitle">General Incorporated Association &nbsp;·&nbsp; No government approval needed &nbsp;·&nbsp; <button class="reset-btn" onclick="resetAll()">Reset all</button></p>
+
+  <div class="callout">
+    <strong>Key advantages over NPO for Mitsue Project:</strong> Only 2 founding members needed (not 10). No prefecture review period (months → weeks). No activity category restrictions. No annual reporting to prefecture. Can pursue <strong>公益社団法人</strong> status later for donation tax benefits. Total cost approx. <strong>¥112,000–¥120,000</strong> (notary ¥52,000 + registration ¥60,000 + misc).
+  </div>
+
+  <div id="checklist"></div>
+
+  <div class="summary">
+    <div><span class="sum-num" id="done-count">0</span>done</div>
+    <div><span class="sum-num" id="remain-count">0</span>remaining</div>
+    <div style="flex:1"></div>
+    <div style="text-align:right"><span class="sum-num" id="pct">0%</span>complete</div>
+  </div>
+</div>
+
+<script>
+const phases = [
+  {
+    id: 1, badge: "ph1", title: "Phase 1 — Founding decisions", meta: "~1–2 weeks",
+    items: [
+      { label: "Decide on association name (名称)", detail: "Must include 一般社団法人 at the start of the official name — e.g. 一般社団法人御杖プロジェクト. Check for conflicts at the Legal Affairs Bureau online registry (登記情報提供サービス).", docs: [{t:"Name check",c:"form"}] },
+      { label: "Recruit founding members (設立時社員)", detail: "Minimum 2 members (社員) only — you and Yuka qualify. 社員 = voting members who attend general assemblies. Can be increased later.", docs: [{t:"2 members min",c:"req"}] },
+      { label: "Appoint directors (理事)", detail: "Minimum 1 理事 required (no maximum stated in law, but typically 3 for credibility). One becomes 代表理事. For 公益社団法人 upgrade later you'll need at least 3.", docs: [{t:"1 director min",c:"req"}] },
+      { label: "Appoint auditor (監事) — optional but recommended", detail: "Not legally required for 一般社団法人, but strongly recommended for grant applications and credibility. Cannot be a director or employee.", docs: [] },
+      { label: "Choose office address (主たる事務所)", detail: "The closed Mitsue Elementary School address is ideal if you have a consent letter from the village. Alternatively use your home address for now — it can be changed later.", docs: [{t:"Office address consent",c:"form"}] },
+      { label: "Decide fiscal year (事業年度)", detail: "Any 12-month period. April–March (Japanese standard) is common and aligns with municipal grant cycles. Or calendar year Jan–Dec for international donors.", docs: [] },
+    ]
+  },
+  {
+    id: 2, badge: "ph2", title: "Phase 2 — Draft 定款 (Articles of Incorporation)", meta: "~1–2 weeks",
+    items: [
+      { label: "Draft 定款 (teikan)", detail: "The core document — must be notarized. Mandatory clauses: name, purpose, office address, fiscal year, 社員 admission/exit rules, general assembly rules, director rules, dissolution/liquidation. Use a司法書士 or templates from the Nara Legal Affairs Bureau.", docs: [{t:"定款 (required)",c:"req"}, {t:"Notarization required",c:"warn"}] },
+      { label: "Define the association's purpose (目的)", detail: "No category restrictions unlike NPO — write freely. E.g.: 御杖村における里山再生、廃校活用、地域コミュニティの活性化、及び環境・情報技術を活用した持続可能な地域発展の推進. Include forest restoration, school repurposing, biomass, data center, community revival.", docs: [] },
+      { label: "Define 社員 admission rules", detail: "Specify how new members join (application + board approval is standard), any membership fees (会費), and exit/expulsion rules.", docs: [] },
+      { label: "Define general assembly (社員総会) rules", detail: "Quorum, voting method (majority or supermajority), how meetings are convened (written notice period — typically 1 week minimum).", docs: [] },
+      { label: "Define director terms and rules", detail: "Term limits (max 2 years per term, renewable), how directors are elected (by 社員総会), representative director designation method.", docs: [] },
+      { label: "Include dissolution/asset disposition clause", detail: "Required: specify what happens to remaining assets on dissolution. For 一般社団法人 assets CANNOT go to members — must go to another legal entity or national/local government.", docs: [{t:"Asset disposition",c:"req"}] },
+    ]
+  },
+  {
+    id: 3, badge: "ph3", title: "Phase 3 — Founding assembly & notarization", meta: "~1 week",
+    items: [
+      { label: "Hold 設立総会 (founding assembly)", detail: "All founding 社員 meet and formally adopt the 定款, elect directors (and auditor if applicable). Record detailed minutes.", docs: [{t:"設立総会議事録",c:"req"}] },
+      { label: "Collect 就任承諾書 from each director/auditor", detail: "Written consent from each 理事 and 監事 accepting their appointment. Simple one-page document.", docs: [{t:"就任承諾書",c:"req"}] },
+      { label: "Get 定款 notarized by 公証人", detail: "Visit a notary public office (公証人役場) — nearest to Mitsue is likely Nara City or Sakurai. Bring: printed 定款 (3+ copies), founding member IDs, 実印 (registered personal seal), and ¥52,000 fee. Can also use electronic notarization (電子公証) to save time.", docs: [{t:"公証人役場",c:"form"}, {t:"¥52,000",c:"fee"}, {t:"実印 required",c:"warn"}] },
+      { label: "Prepare 設立時社員名簿 (founding member list)", detail: "Name and address of all founding 社員. Signed/sealed.", docs: [{t:"設立時社員名簿",c:"req"}] },
+    ]
+  },
+  {
+    id: 4, badge: "ph4", title: "Phase 4 — Register at 法務局 & post-setup", meta: "~1–2 weeks",
+    items: [
+      { label: "File 設立登記申請書 at Legal Affairs Bureau (法務局)", detail: "Submit to Nara District Legal Affairs Bureau (奈良地方法務局) or nearest branch office. Must be filed within 2 weeks of the founding assembly date.", docs: [{t:"設立登記申請書",c:"form"}, {t:"¥60,000 registration fee",c:"fee"}, {t:"2-week deadline",c:"warn"}] },
+      { label: "Submit: certified 定款 copy", detail: "Certified copy from the notary (公証人役場).", docs: [{t:"定款 (certified)",c:"req"}] },
+      { label: "Submit: 設立時社員名簿", detail: "Founding member list.", docs: [{t:"社員名簿",c:"req"}] },
+      { label: "Submit: 就任承諾書 for each officer", detail: "Consent-to-appoint letters for each 理事 (and 監事 if applicable).", docs: [{t:"就任承諾書",c:"req"}] },
+      { label: "Submit: 印鑑届出書 (seal registration)", detail: "Register the association's official 代表者印 at the 法務局. Purchase a formal 法人印 (association seal) first — budget ¥5,000–¥15,000.", docs: [{t:"法人印",c:"form"}, {t:"印鑑届出書",c:"form"}] },
+      { label: "Obtain 登記事項証明書 (corporate registry certificate)", detail: "After registration is complete (~1 week), obtain certified copies (¥600/copy). Need multiple — for bank, tax office, grants, contracts.", docs: [{t:"¥600/copy",c:"fee"}] },
+      { label: "Open association bank account (法人口座)", detail: "Bring: 登記事項証明書 + 定款 + 法人印 + 代表理事 personal ID. Japan Post Bank (ゆうちょ) or regional bank (南都銀行 in Nara). Budget 2–4 weeks for approval.", docs: [{t:"登記事項証明書",c:"req"}, {t:"定款",c:"req"}] },
+      { label: "File 法人設立届出書 at tax office (税務署)", detail: "Notify local 税務署 within 2 months of registration. Also notify Nara 県税事務所 and Mitsue Village office (村役場). No fee.", docs: [{t:"法人設立届出書",c:"form"}, {t:"2-month deadline",c:"warn"}] },
+      { label: "Register for My Number (法人番号) — automatic", detail: "After registration, the National Tax Agency automatically assigns a 法人番号 (13-digit corporate number). Check at the NTA 法人番号公表サイト ~1 week after registration.", docs: [] },
+      { label: "Optional: apply for 公益社団法人 status later", detail: "After 1+ years of operation, can apply to the 公益認定等委員会 for 公益社団法人 status — makes donations tax-deductible for donors. Very stringent requirements. May be valuable for Joi/Ray's network fundraising.", docs: [{t:"After 1+ year ops",c:"req"}] },
+    ]
+  }
+];
+
+let state = {};
+try { state = JSON.parse(localStorage.getItem('shadan_checklist') || '{}'); } catch(e) {}
+function save() { try { localStorage.setItem('shadan_checklist', JSON.stringify(state)); } catch(e) {} }
+
+function updateSummary() {
+  const all = document.querySelectorAll('.item');
+  const done = document.querySelectorAll('.item.done');
+  const pct = all.length ? Math.round(done.length/all.length*100) : 0;
+  document.getElementById('done-count').textContent = done.length;
+  document.getElementById('remain-count').textContent = all.length - done.length;
+  document.getElementById('pct').textContent = pct + '%';
+  phases.forEach(p => {
+    const bar = document.getElementById('bar-'+p.id);
+    const phItems = document.querySelectorAll('[data-phase="'+p.id+'"]');
+    const phDone = [...phItems].filter(el => el.classList.contains('done')).length;
+    if (bar) bar.style.width = (phItems.length ? Math.round(phDone/phItems.length*100) : 0) + '%';
+  });
+}
+
+function toggle(id) {
+  state[id] = !state[id];
+  save();
+  const el = document.querySelector('[data-id="'+id+'"]');
+  if (el) el.classList.toggle('done', state[id]);
+  updateSummary();
+}
+
+function resetAll() {
+  state = {};
+  save();
+  document.querySelectorAll('.item').forEach(el => el.classList.remove('done'));
+  updateSummary();
+}
+
+function togglePhase(phId) {
+  document.getElementById('phase-'+phId).classList.toggle('collapsed');
+}
+
+const cl = document.getElementById('checklist');
+phases.forEach(p => {
+  const div = document.createElement('div');
+  div.className = 'phase';
+  div.id = 'phase-'+p.id;
+  let itemsHtml = p.items.map((it, i) => {
+    const id = 'p'+p.id+'i'+i;
+    const done = state[id] ? ' done' : '';
+    const tags = it.docs.map(d => `<span class="doc-tag ${d.c}">${d.t}</span>`).join('');
+    return `<div class="item${done}" data-id="${id}" data-phase="${p.id}" onclick="toggle('${id}')">
+      <div class="cb"><svg class="cb-check" width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div>
+        <div class="label">${it.label}</div>
+        <div class="detail">${it.detail}</div>
+        ${tags ? `<div class="doc-tags">${tags}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  div.innerHTML = `
+    <div class="phase-header" onclick="togglePhase(${p.id})">
+      <span class="phase-badge ${p.badge}">Phase ${p.id}</span>
+      <span class="phase-title">${p.title}</span>
+      <span class="phase-meta">${p.meta}</span>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="bar-${p.id}" style="width:0%"></div></div>
+    <div class="phase-body">${itemsHtml}</div>
+  `;
+  cl.appendChild(div);
+});
+updateSummary();
+</script>
