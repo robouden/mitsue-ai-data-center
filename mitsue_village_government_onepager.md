@@ -16,7 +16,7 @@
 
 ## What We Propose
 
-To repurpose the **Mitsue Taiken Koryukan** (御杖体験交流館) — an available community exchange center — as a **community sustainability center** that will:
+To repurpose the **Mitsue Taiken Koryukan** (御杖体験交流館) — an available community exchange center and the leading candidate site (final choice confirmed in Phase 1) — as a **community sustainability center** that will:
 
 1. Restore aging cedar (sugi) plantations to healthy native forest — native broadleaf trees feed local wildlife, reducing crop raids by deer, wild boar, and bear; thinning the sugi also generates biomass fuel for the village energy system
 2. Generate the village's electricity and heat from sugi forest thinnings through a biomass CHP system — a circular energy economy where the forest powers the village, complemented by solar, EV charging, and community backup power (battery storage subject to feasibility study)

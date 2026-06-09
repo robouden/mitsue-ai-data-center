@@ -43,7 +43,7 @@
 | 自治会 Leaders (Sugano + hamlets) | Community associations; trust-building target      |
 | Private Mountain Landowners       | Sugi forest owners; harvesting partnership targets |
 | Local Forestry Group              | Early consultation partner (met early 2026)        |
-| Mitsue Taiken Koryukan            | Available community exchange center; Phase 1 datacenter site |
+| Mitsue Taiken Koryukan            | Available community exchange center; leading candidate Phase 1 datacenter site (final choice confirmed in Phase 1) |
 
 ### Government — Local & Regional
 | Name                      | Role                                           |

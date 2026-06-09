@@ -17,7 +17,7 @@
 
 ## 1. Executive Summary
 
-The Mitsue Project is a non-profit initiative to repurpose available community facilities — the Mitsue Taiken Koryukan (Phase 1) and an old factory building in Mitsue (Phase 2) — together with the surrounding forested landscape, into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
+The Mitsue Project is a non-profit initiative to repurpose available community facilities — the Mitsue Taiken Koryukan (the leading candidate Phase 1 site, confirmed in Phase 1) and an old factory building in Mitsue (Phase 2) — together with the surrounding forested landscape, into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
 
 The project is designed to be **modest in scale, fully transparent, and openly replicable**, so that other depopulating municipalities in Japan and beyond can adapt the model to their own circumstances. The 25-year horizon is intentional: it bridges the period between today's rural energy and digital deficits and the anticipated availability of localized small-scale fusion power generation.
 

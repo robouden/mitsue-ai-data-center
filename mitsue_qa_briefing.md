@@ -34,9 +34,13 @@ The project's **primary energy source is biomass combined heat and power (CHP)**
 
 The forestry programme is focused on **replacing aged sugi (cedar) plantations with native broadleaf species** — ecological restoration that heals land that has been depleted for generations. Thinning the aged sugi serves both purposes: it heals the forest and generates the biomass fuel feedstock. Native broadleaf trees (konara oak, kunugi, chestnut) provide food for deer, wild boar, and bear, reducing wildlife raids on crops, and support long-term carbon sequestration via J-Credit certification.
 
+**Premises note:** the Koryukan is the leading candidate for the Phase-1 site; the final choice — it or another underused village building — is confirmed in Phase 1. The dome school is a *separate* building, in its own bidding process, and is not part of this project.
+
 このプロジェクトの**主たるエネルギー源は、杉（スギ）林の間伐材を燃料とするバイオマス熱電併給（CHP）**であり、電力（主たる出力）と熱（副次的な出力）を生み出します。これを太陽光発電（間欠的・補完的）が補い、EV充電ステーションをはじめとする地域サービスや蓄電池・停電レジリエンスを支えます。蓄電池はフィージビリティスタディで評価します。こうして「森が村を動かす」循環型の地域エネルギー経済が実現します。
 
 林業の方針については：老齢化した杉の人工林を在来種の広葉樹（コナラ・クヌギ・クリなど）へ転換する**生態的な森林再生**を進めます。在来広葉樹はシカ・イノシシ・クマの食料を供給し、野生動物を森に留め、農作物への被害を軽減します。J-Creditによる炭素固定収入も山林所有者の長期的な財源となります。
+
+**拠点について：** 交流館は第1段階の拠点の有力候補で、最終選定（交流館または他の未活用の村の建物）は第1段階で確定します。ドーム校舎は*別の*建物であり、独自の入札プロセスにあり、本プロジェクトの対象外です。
 
 ---
 

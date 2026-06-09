@@ -9,7 +9,7 @@
 
 Mitsue sits deep in the mountains of Nara Prefecture — a quiet village of cedar slopes, clear water, and an aging community. Like hundreds of villages across rural Japan, it has watched its young people leave for the cities, its school close, and its forests grow heavy with sugi cedar planted in a different era.
 
-The **Mitsue Taiken Koryukan** — a community exchange center — stands available: a versatile space with room for a bold new purpose.
+The **Mitsue Taiken Koryukan** — a community exchange center, the leading candidate site (final choice confirmed in Phase 1) — stands available: a versatile space with room for a bold new purpose.
 
 We believe it can become something remarkable.
 

@@ -29,7 +29,7 @@
 
 ## What the Project Is
 
-The Mitsue Project transforms the **Mitsue Taiken Koryukan** — a community exchange center available for reuse — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
+The Mitsue Project transforms the **Mitsue Taiken Koryukan** — a community exchange center available for reuse, the leading candidate site (final choice confirmed in Phase 1) — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades. Thinning the sugi also yields the biomass fuel that powers the village. Native broadleaf trees feed deer, wild boar, and bear — keeping wildlife in the forest and out of crop areas
 - **Biomass CHP energy** — Sugi forest thinnings fuel a combined heat and power (CHP) system generating electricity (primary) and heat (secondary), complemented by solar panels and EV charging for residents and visitors, with battery backup during grid outages. A circular local energy economy where the forest powers the village. Battery storage to be evaluated in feasibility study

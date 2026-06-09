@@ -20,7 +20,7 @@
 **Follow-up to King's Day Meeting — April 24, 2026**  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lieLGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fGBdgoVMwYAAAAAElFTkSuQmCC)  
 **The Idea in Brief**  
-Repurpose the **Mitsue Taiken Koryukan** as a **rural sustainable energy hub** combining:  
+Repurpose an underused village building — the **Mitsue Taiken Koryukan** is the leading candidate, final choice confirmed in Phase 1 — as a **rural sustainable energy hub** combining:  
 
 1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species; native trees provide natural food for deer, wild boar, and bear, keeping wildlife in the forest and out of crop areas  
 2. **EV charging infrastructure & community energy resilience** — privately owned solar and EV charging stations at the Koryukan; battery storage subject to feasibility study  

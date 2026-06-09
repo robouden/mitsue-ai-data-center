@@ -184,7 +184,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
 - **Energy**: Biomass CHP from sugi thinnings (primary baseload electricity + heat) + complementary rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
-- **Building**: Renovate one wing of the Koryukan for office and small server room
+- **Building**: Renovate one wing of the chosen Phase-1 building — the Koryukan is the leading candidate, final site confirmed in Phase 1 — for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
 
