@@ -1,6 +1,37 @@
 #!/usr/bin/env node
 'use strict';
 
+// =============================================================================
+// PDF CONVERSION — ALWAYS USE THIS SCRIPT
+// =============================================================================
+// Command:
+//   node convert_md_to_pdf.js --theme=github <file.md> [file2.md ...]
+//   node convert_md_to_pdf.js --theme=github --all   (all .md files in cwd)
+//
+// Why this script:
+//   Uses puppeteer + Typora github theme (Open Sans font, correct styling).
+//   DO NOT use pandoc, weasyprint, or any other tool — they produce different
+//   fonts and layout that do not match the project's visual standard.
+//
+// Page-size control (for 2-page A4 docs):
+//   Add a <style> block at the top of the .md file:
+//
+//     <style>
+//       html { font-size: 10.5px !important; }
+//       body { line-height: 1.3 !important; }
+//       p, blockquote, ul, ol, dl, table { margin: 5px 0 !important; }
+//       h1, h2, h3, h4, h5, h6 { margin-top: 6px !important; margin-bottom: 3px !important; }
+//       hr { margin: 6px 0 !important; }
+//       .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
+//     </style>
+//
+//   To force a page break at a specific point, insert:
+//     <div class="page-break"></div>
+//
+//   Tune font-size (10–11px range) to hit exactly 2 pages.
+//   10.5px = 2 pages for the current government onepager content.
+// =============================================================================
+
 // Batch markdown-to-PDF converter using the yzane.markdown-pdf extension's own
 // node_modules and bundled Chromium — no extra installs needed.
 
@@ -118,7 +149,32 @@ function convertMarkdownToHtml(mdFile, text) {
   return md.render(text);
 }
 
+// For .html brochures: use system Chrome + modern puppeteer for correct page size
+const SYSTEM_CHROME = '/usr/bin/google-chrome';
+const NEW_PUPPETEER = '/tmp/pup-brochure/node_modules/puppeteer-core';
+
+async function convertHtmlToPdf(htmlFile) {
+  const pup = require(NEW_PUPPETEER);
+  const pdfFile = htmlFile.replace(/\.html$/, '.pdf');
+  const browser = await pup.launch({
+    executablePath: SYSTEM_CHROME,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+  try {
+    const page = await browser.newPage();
+    await page.goto('file://' + htmlFile, { waitUntil: 'networkidle0', timeout: 30000 });
+    await page.pdf({ path: pdfFile, printBackground: true, preferCSSPageSize: true });
+    console.log('  OK:', path.basename(pdfFile));
+    return pdfFile;
+  } finally {
+    await browser.close();
+  }
+}
+
 async function convertToPdf(mdFile, opts = {}) {
+  // Route .html files to the HTML→PDF path
+  if (mdFile.endsWith('.html')) return convertHtmlToPdf(path.resolve(mdFile));
+
   const text = fs.readFileSync(mdFile, 'utf8');
   const title = path.basename(mdFile, '.md');
   const rendered = convertMarkdownToHtml(mdFile, text);
@@ -187,8 +243,8 @@ async function main() {
     else args.push(a);
   }
   if (args.length === 0) {
-    console.error('Usage: node convert_md_to_pdf.js [--theme=<name>] <file.md> [file2.md ...]');
-    console.error('       node convert_md_to_pdf.js [--theme=<name>] --all   (convert all .md in cwd)');
+    console.error('Usage: node convert_md_to_pdf.js [--theme=<name>] <file.md|file.html> [...]');
+    console.error('       node convert_md_to_pdf.js [--theme=<name>] --all   (convert all .md/.html in cwd)');
     console.error('Available Typora themes:', fs.readdirSync(THEMES_DIR).filter(f => f.endsWith('.css')).map(f => f.replace('.css','')).join(', '));
     process.exit(1);
   }
@@ -197,7 +253,7 @@ async function main() {
   if (args[0] === '--all') {
     const dir = process.cwd();
     files = fs.readdirSync(dir)
-      .filter(f => f.endsWith('.md') && !f.startsWith('convert_'))
+      .filter(f => (f.endsWith('.md') || f.endsWith('.html')) && !f.startsWith('convert_'))
       .map(f => path.join(dir, f));
   } else {
     files = args.map(f => path.resolve(f));
