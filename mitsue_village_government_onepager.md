@@ -1,23 +1,17 @@
-<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v3.1 &nbsp;|&nbsp; Last modified: 2026-06-08</p>
 
 <style>
-  body { font-size: 9.5pt; line-height: 1.25; }
-  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
-  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
-  h3 { font-size: 9.5pt; margin: 2pt 0; }
-  p, li { margin: 1pt 0; }
-  ul, ol { margin: 2pt 0; padding-left: 18pt; }
-  blockquote { margin: 3pt 0; }
-  hr { margin: 3pt 0; }
+  html { font-size: 10.5px !important; }
+  body { line-height: 1.3 !important; }
+  p, blockquote, ul, ol, dl, table { margin: 5px 0 !important; }
+  h1, h2, h3, h4, h5, h6 { margin-top: 6px !important; margin-bottom: 3px !important; }
+  hr { margin: 6px 0 !important; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
-  @media print { body { margin: 0; } }
 </style>
 
 
 # 御杖村プロジェクト概要 / Mitsue Village Project — Summary
 ### One-Page Briefing for Mitsue Village Government
-**April 2026**
-
 ---
 
 ## What We Propose
@@ -30,8 +24,6 @@ To repurpose the **Mitsue Taiken Koryukan** (御杖体験交流館) — an avail
 
 A 25-year initiative built carefully, in close partnership with the village.
 
----
-
 ## This Project Delivers Your Own Renewable Energy Plan
 
 The Mitsue Project is the **implementation and operating vehicle (官民連携 運営体制)** for the village's official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画, Jan 2025) — the MoE-funded strategy the village has already written and committed to. We do not ask the village to adopt a new idea; we offer to execute the plan it already has.
@@ -43,8 +35,6 @@ The Mitsue Project is the **implementation and operating vehicle (官民連携 �
 - **Funding that flows through the village.** Because the village completed the MoE planning grant (step 1), it is eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2): a **2/3–3/4 subsidy** on solar/battery/EV/private-wire capex (Mitsue qualifies as a 過疎 + low-financial-capacity area). The grant is paid **to the village** via public-private partnership — the village brings the plan and the grant channel; we bring the operator, capital, and anchor offtaker.
 
 *The village's published figures: 9 kt-CO₂ emissions, 46% transport, ~90% forest cover, 60% reduction by 2030, carbon-neutral by 2045. Source: 御杖村再エネ導入最大化計画（概要版）, Jan 2025.*
-
----
 
 ## Direct Benefits to Mitsue Village
 
@@ -59,7 +49,7 @@ The Mitsue Project is the **implementation and operating vehicle (官民連携 �
 - **Broadband and digital infrastructure** — improved connectivity for residents and businesses
 - **National and international visibility** — Mitsue as a model village for sustainable rural revitalization
 
----
+<div class="page-break"></div>
 
 ## Early Benefits — Visible Within Five Years
 
@@ -88,8 +78,6 @@ Precise figures will come from Phase 1 feasibility studies, but early-stage esti
 
 These ranges are illustrative; the formal numbers will be developed with the village in Phase 1.
 
----
-
 ## What We Are Asking For
 
 At this early stage, we are seeking:
@@ -99,8 +87,6 @@ At this early stage, we are seeking:
 - **A letter of interest** to support our application for initial feasibility study funding
 
 We are **not** asking for village funds at this stage.
-
----
 
 ## How the Project Will Be Organized
 
@@ -113,17 +99,16 @@ A dedicated **non-profit organization (NPO法人)** will be established to coord
 - Nara Prefecture and national agencies (林野庁, METI)
 - Academic and technical partners
 
----
-
 ## Who We Are
 
 **Rob Oudendijk** — Dutch electrical engineer, Mitsue resident since 2012 (Sugano), core hardware developer for Safecast (the global citizen science radiation monitoring network).
 
+**San Poisson** — Project Manager
+
 **Advisors:**
 - **Joi Ito** (President, Chiba Institute of Technology)
 - **Ray Ozzie** (Executive Chair, Blues)
-
----
+- **Takuo Dome** (Professor, Osaka University Graduate School of Economics; Representative Director, Inochi Forum)
 
 ## Our Approach
 
