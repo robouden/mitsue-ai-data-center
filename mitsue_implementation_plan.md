@@ -1,9 +1,7 @@
-<p align="right">Version: v2.11 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.12 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # Mitsue Project — Implementation Plan
 ### From Concept to Reality
-**April 2026**
-
 ---
 
 ## Overview
@@ -202,7 +200,34 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 
 ## Phase 4 — Operation & Scale (Months 31+)
 
-This is when the project transitions from "construction" to "ongoing institution." Topics for this phase include scaling forestry operations, expanding the data center, replicating in other villages, and refining the financial model. Detailed planning for this phase happens in Year 2 once Phase 1 results are in.
+This is when the project transitions from "construction" to "ongoing institution." Detailed planning happens in Year 2 once Phase 1 results are in — the figures below are illustrative operating-model targets.
+
+### Operating Revenue Ramp
+
+The revenue model is built on six streams already visible at pilot scale. A standalone one-page summary is in [`mitsue_revenue_model.md`](mitsue_revenue_model.md).
+
+| Revenue stream | Year 1 (ops) | Year 5 | Year 10 |
+|----------------|-------------|--------|---------|
+| Data center hosting fees | Ramp up | ¥15–30M | ¥40–80M |
+| Electricity sales (FIT/FIP — biomass CHP + solar) | Ramp up | ¥5–15M | ¥10–30M |
+| EV charging fees | Ramp up | ¥1–3M | ¥3–8M |
+| Carbon credits (J-Credit) | — | ¥1–3M | ¥3–10M |
+| Forestry products (timber, lumber) | — | ¥3–8M | ¥10–20M |
+| Education / consulting (playbook) | — | ¥1–3M | ¥3–8M |
+| **Total (illustrative)** | | **¥28–67M** | **¥74–166M** |
+
+*Biomass CHP (fuelled by sugi thinnings) remains the primary energy source; solar, battery storage, and EV charging are complementary. The circular local energy economy — forest powers village — is the core of the operating model.*
+
+### Break-even and Surplus
+
+- **Operating costs by Year 5**: ~¥18–35M/yr (est. 60% of revenue)
+- **Net annual surplus by Year 5**: ¥10–32M
+- **Approximate capital payback period**: 10–18 years (depending on grant vs. loan vs. revenue-financing mix)
+- **Break-even / net-surplus year**: approximately Year 5 at base-case execution
+
+Once the project reaches net surplus, reinvested funds go first to forestry scale-up (additional ha of sugi conversion), then data-center capacity expansion, then replication support for other villages.
+
+*Phase 1 feasibility studies will replace these illustrative figures with vetted projections anchored to real survey data.*
 
 ---
 
@@ -272,6 +297,8 @@ These are illustrative targets, not commitments. Real numbers will depend heavil
 ---
 
 ## Return on Investment — Quantitative and Qualitative
+
+> A standalone revenue & payback summary is in [`mitsue_revenue_model.md`](mitsue_revenue_model.md).
 
 A successful 25-year project must demonstrate clear value to multiple stakeholders. This section presents both the **qualitative benefits** (immediately demonstrable) and the **quantitative ROI framework** (with illustrative ranges; precise figures will come from Phase 1 feasibility studies).
 
@@ -379,8 +406,9 @@ Different audiences need different orderings of the same underlying story. The d
 |------|------------|--------|------------|
 | Local community resistance | Medium | High | Phase 0 trust-building before any announcements |
 | Forestry economics worse than expected | High | High | Independent feasibility study early; sugi thinnings feed the biomass energy system as fuel, adding value to the forestry programme |
-| Funding gaps between phases | Medium | High | Diversified funding, never depend on one source; phase budgets conservatively |
-| Founder dependency on Rob | Medium | High | Strong co-founders, documented processes, succession plan |
+| Funding gaps between phases | Medium | High | Diversified funding, never depend on one source; phase budgets conservatively; Layer-1 founding capital earmarked to cover the Phase 0–1 founder stipend so early runway does not depend on unpaid time |
+| Founder dependency on Rob | Medium | High | Strong co-founders, documented processes, written succession/continuity plan; **funding the Rep. Director role removes the unpaid-time dependency** (see EVM §13); **trigger: no JP co-founder verbal commitment by end of Phase 0 → Gate 1 decision is held** pending recovery assessment |
+| JP co-founder not secured | Medium | High | Active outreach; warm introductions via advisory board; Gate 1 hold trigger (see above) if unresolved by end of Phase 0 |
 | Building unsuitable for data center | Low | High | Early structural assessment in Phase 1 |
 | Fiber connectivity insufficient | Medium | Medium | Early NTT consultation; consider satellite/microwave backup |
 | Regulatory delays | High | Medium | Start permits early; build buffer into timeline |

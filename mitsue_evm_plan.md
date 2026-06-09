@@ -11,7 +11,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.1 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.2 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 ---
 
@@ -26,7 +26,7 @@
 
 This EVM Plan establishes the **Performance Measurement Baseline (PMB)** for the Mitsue Sustainable Energy & AI Data Center project across its four build phases (Phase 0 through Phase 3). It defines how the project will measure schedule and cost performance, report progress to stakeholders, and forecast the cost and date at completion.
 
-The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (Operations & Scale, Month 31+) is not included in the baseline because it is funded differently (operating revenue) and planned in Year 2 once Phase 1 results are confirmed.
+The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (Operations & Scale, Month 31+) is not included in the baseline because it is funded differently (operating revenue) and planned in Year 2 once Phase 1 results are confirmed. *The operating revenue model and capital-payback analysis that fund Phase 4 are set out in `mitsue_revenue_model.md` and the Implementation Plan's expanded Phase 4 section — see those documents; this PMB deliberately stops at the end of Phase 3 (construction).*
 
 **Data Date for current baseline**: 2026-05-18 (end of Month 2)
 
@@ -75,7 +75,8 @@ The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (
 | WBS | Element | Budget (¥M) | Phase |
 |-----|---------|-------------|-------|
 | 1.0 | **Project Management & Governance** | | |
-| 1.1 | Core PM team (Rep. Director + coordinator) | ¥8.0M | All |
+| 1.1a | Representative Director (compensation — phased; see §13) | ¥5.0M | All |
+| 1.1b | Project coordinator / admin | ¥3.0M | All |
 | 1.2 | Legal, accounting, 行政書士 fees | ¥4.0M | All |
 | 1.3 | Communications, website, translation | ¥3.0M | All |
 | | *Sub-total 1.0* | *¥15.0M* | |
@@ -594,6 +595,30 @@ Each baseline revision is documented with: old baseline, new baseline, reason, a
 - **Rev 0** (v1.1, Apr 2026) — Original BAC ¥168M, drafted from planning estimates
 - **Rev 1** (v2.0, May 2026) — Current document. BAC ¥220M, reality-checked against real-world Japan benchmarks (solar, EV chargers, school seismic retrofit, forestry). Reason: pre-emptive correction in advance of Phase 1 feasibility studies.
 - **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes. **Should also fold in any confirmed 地域脱炭素移行・再エネ推進交付金 amount** (2/3–3/4 subsidy on solar/battery/EV/private-wire capex, via village 官民連携) — the primary named path to closing the ¥28M–¥53M gap during Phases 2–3. Sources: https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
+
+---
+
+## 13. Founder Compensation & Sustainability
+
+Early-phase founder time has been **largely unpaid**, representing the project's single most significant hidden dependency and top operational risk (see also the Implementation Plan's Risk Management table).
+
+**Target compensation.** The Representative Director's target is **¥300,000/month (¥3.6M/yr)** — a defensible full-time-equivalent figure for rural Japan. This is a *target and norm*, **not a legal requirement**: a 一般社団法人 director may legally be unpaid; if paid, the amount must be set by **社員総会 (members' meeting) resolution**, not self-determined. For an NPO法人, pay for actual work performed by a director as staff (役員給与) is uncapped and separate from capped 役員報酬 for the role itself; once revenue is earned, salary must comply with 定期同額給与 tax rules.
+
+> **Sources:** https://www.koueki-houjin.net/shadan/hosyu.html · https://www.koueki-houjin.net/shadan/kyuyo.html · https://ashiyakaikei.com/directors-npo/ · https://cliser.co.jp/non-profit/npo/159/
+
+**Phasing plan:**
+
+| Period | Compensation | Funding source |
+|--------|--------------|----------------|
+| Phase 0–1 (M1–M9) | Volunteer / nominal stipend | Founder capital; personal commitment |
+| Phase 2 (M10–M18) | Partial stipend, ramping toward target | Layer-1 founding capital + first grants |
+| Phase 3+ (M19+) | Full ¥300k/mo target | Phase 2 grants (¥30–50M) once confirmed |
+
+WBS 1.1a (¥5.0M over 30 months, ~¥167k/month average) covers the ramp inside the baseline. Reaching the full ¥300k/month run-rate from M10 is contingent on Phase 2 grant funding and will be confirmed at **Baseline Rev 2 (M9, December 2026)**.
+
+Layer-1 founding capital is earmarked to cover the Phase 0–1 founder stipend so that early runway does not depend on entirely unpaid time.
+
+The same phasing logic extends to the JP co-founder if that role is compensated — terms to be agreed and documented in the Founder Agreement before Phase 1.
 
 ---
 

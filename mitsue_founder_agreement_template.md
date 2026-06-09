@@ -1,4 +1,4 @@
-<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v1.6 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -57,6 +57,8 @@ Each Founder agrees to contribute to the Project in the following capacity. Role
 | Founder B | [e.g. Technology Lead] | [hours/week] | [Volunteer / stipend / TBD] |
 | Founder C | [e.g. Forestry Liaison] | [hours/week] | [Volunteer / stipend / TBD] |
 
+**Director compensation note.** The Representative Director's compensation *target* is **¥300,000/month (¥3.6M/yr)** — a defensible full-time-equivalent figure for rural Japan. This is a *target norm, not a legal requirement*: a 一般社団法人 director may legally be unpaid. If and when the Representative Director is paid, the amount must be set by **社員総会 (members' meeting) resolution** after incorporation, and may not be self-determined. Compensation is phased per funding availability: volunteer/nominal during Phase 0–1; partial stipend from Phase 2 once founding capital and first grants are confirmed; full ¥300k/mo target when Phase 2 grants (¥30–50M) land. This phasing is documented in the EVM Plan §13 and will be formally resolved at Baseline Rev 2 (December 2026). See sources: https://www.koueki-houjin.net/shadan/hosyu.html · https://www.koueki-houjin.net/shadan/kyuyo.html
+
 Founders agree to communicate proactively if their availability or commitment changes.
 
 ### Article 3 — Decision-Making
@@ -110,6 +112,18 @@ If a Founder wishes to leave the Project, they shall:
 
 A departing Founder shall not be entitled to any financial compensation beyond what was previously agreed in writing.
 
+### Article 8a — Continuity & Succession
+
+The project's continuity shall not depend on the availability of any single founder.
+
+1. **Incapacity or departure.** On a key founder's incapacity (medical, legal, or extended absence from Japan) or departure, the remaining founders and advisory board shall appoint an **interim Representative Director within 30 days**, selected for their ability to maintain the project's mission and stakeholder relationships.
+
+2. **Documented processes.** The Representative Director shall maintain up-to-date documentation of: (a) all active stakeholder and funder relationships; (b) financial accounts, passwords, and access credentials in a secure shared location accessible to at least one other founder; (c) the EVM baseline, grant pipeline, and open work items. This documentation shall be reviewed at least quarterly.
+
+3. **Project survival test.** The project is considered continuity-capable when: a JP co-founder is in place; processes are documented per (2) above; and a minimum of one other active board or founding member has been briefed on the operational state.
+
+4. **Founding story and IP.** Any project work product (documents, designs, data) already published under open licence by a departing founder remains available to the project. Personal networks introduced to the project by a founder may not be weaponised against the project by that founder after departure.
+
 ### Article 9 — Removal of a Founder
 
 A Founder may be removed from the founding group by unanimous vote of the remaining Founders, only in cases of:
@@ -160,7 +174,7 @@ By signing below, each Founder confirms that they have read this Agreement, had 
 
 These are common founder-agreement issues that benefit from explicit conversation **before** signing. We strongly recommend the founding group discusses each item:
 
-1. **What if Rob has to leave Japan?** — succession planning
+1. **What if Rob has to leave Japan?** — now addressed in Article 8a (Continuity & Succession); confirm the interim Representative Director process and credential-sharing location are in place before Phase 1
 2. **What if a major funder requests changes** that conflict with the Charter?
 3. **How do we handle media requests** — who speaks for the Project?
 4. **What happens to Rob's existing relationships** (Safecast, YR-Design) — are these separate?

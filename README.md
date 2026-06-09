@@ -1,4 +1,4 @@
-<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -247,6 +247,8 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_wbs_jp.md` / `.pdf` | Japanese WBS |
 | `mitsue_evm_plan.md` / `.pdf` | Earned Value Management plan — Baseline Rev 1 (EN) |
 | `mitsue_evm_plan_jp.md` / `.pdf` | Japanese EVM plan |
+| `mitsue_revenue_model.md` / `.pdf` | Revenue streams, cost displacement & payback framework — funder-facing summary (EN) |
+| `mitsue_revenue_model_jp.md` / `.pdf` | Japanese version of the revenue model summary |
 
 **Government & community engagement**
 

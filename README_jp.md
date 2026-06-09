@@ -1,4 +1,4 @@
-<p align="right">バージョン: v2.3 &nbsp;|&nbsp; 最終更新: 2026-06-07</p>
+<p align="right">バージョン: v2.4 &nbsp;|&nbsp; 最終更新: 2026-06-10</p>
 
 # 御杖プロジェクト — Mitsue Project
 
@@ -212,6 +212,8 @@ flowchart LR
 | `mitsue_founding_charter.md` / `.pdf` | バイリンガル設立憲章（英語・日本語） |
 | `mitsue_implementation_plan.md` / `.pdf` | 詳細5フェーズ実施計画（英語） |
 | `mitsue_implementation_plan_jp.md` / `.pdf` | 実施計画の日本語訳 |
+| `mitsue_revenue_model.md` / `.pdf` | 収益ストリーム・コスト代替・回収フレームワーク まとめ（英語） |
+| `mitsue_revenue_model_jp.md` / `.pdf` | 収益モデルまとめ（日本語版） |
 | `mitsue_phases_funding_flowchart.md` / `.pdf` | フェーズ構造と資金調達ゲート図 |
 | `mitsue_village_government_onepager.md` / `.pdf` | 村行政向け1ページブリーフ（英語） |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | 村行政向け1ページブリーフ（日本語） |

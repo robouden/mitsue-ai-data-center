@@ -1,4 +1,4 @@
-<p align="right">Version: v2.5 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.6 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }
@@ -104,6 +104,23 @@
 | 行政書士 (Administrative Scrivener)    | Phase 0–1; permits, NPO setup, grants        |
 | 公認会計士 / 税理士 (Accountant / Tax) | Phase 1; accounting system, tax registration |
 | 弁護士 (Lawyer)                        | Phase 1–2; landowner contracts               |
+
+---
+
+---
+
+## Decisions Required of Each Stakeholder
+
+The following table makes explicit what each key stakeholder must actually decide — and when — for the project to advance.
+
+| Stakeholder | Decision(s) required | When |
+|---|---|---|
+| Village government | Koryukan use / lease terms; endorse project as 官民連携 operating partner for the 交付金; co-apply for 地域脱炭素移行・再エネ推進交付金; issue letter of interest | Phase 0–1 |
+| Mountain landowners | Sugi harvesting terms and fair compensation; participation in restoration programme | Phase 1–2 |
+| Advisory board (Ito, Ozzie, Dome) | Confirm written commitments (even informal); agree on time commitment and engagement scope | Phase 0 |
+| JP co-founder (TBD) | Commit to the project; agree role, time commitment, and compensation terms in Founder Agreement | Phase 0 (Gate 1 trigger if unresolved) |
+| Funders / grantmakers | Award decisions at each gate (G1 ¥3–8M; G2 ¥30–50M; G3 ¥120–290M) | Phase 1–3 |
+| Rob Oudendijk | Confirm continued availability and Japan residency; execute Founder Agreement; trigger Gate 1 hold if JP co-founder not secured | Phase 0 |
 
 ---
 
