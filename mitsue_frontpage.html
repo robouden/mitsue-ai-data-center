@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @font-face {
+      font-family: 'NotoSansCJK';
+      src: url('file:///usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc') format('truetype');
+      font-weight: normal;
+    }
+
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 210mm;
+      height: 297mm;
+      background: #ffffff;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #1c1c1a;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* ── Upper: project name, starts near top ── */
+    .upper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 18mm 20mm 0 20mm;
+    }
+
+    .project-label {
+      font-size: 7.5pt;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      color: #3a7a5a;
+      margin-bottom: 7mm;
+    }
+
+    .project-title {
+      font-size: 34pt;
+      font-weight: 300;
+      line-height: 1.2;
+      color: #1c1c1a;
+      letter-spacing: 0.01em;
+      margin-bottom: 5mm;
+    }
+
+    .project-title strong {
+      font-weight: 700;
+      display: block;
+    }
+
+    .project-subtitle {
+      font-size: 10pt;
+      font-weight: 300;
+      color: #666660;
+      letter-spacing: 0.04em;
+      line-height: 1.9;
+      border-left: 2px solid #3a7a5a;
+      padding-left: 4mm;
+      margin-top: 2mm;
+    }
+
+    /* ── Logo: horizontally centered at 40% ── */
+    .logo-wrap {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+    }
+
+    .logo-kanji {
+      width: 52mm;
+      height: 52mm;
+      display: block;
+    }
+
+    /* ── Lower: version / date / author ── */
+    .lower {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 22%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0 20mm 16mm 20mm;
+    }
+
+    .meta-table {
+      display: flex;
+      flex-direction: column;
+      gap: 2mm;
+    }
+
+    .meta-row {
+      display: flex;
+      align-items: baseline;
+      gap: 5mm;
+      font-size: 8.5pt;
+    }
+
+    .meta-key {
+      font-size: 7pt;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      color: #3a7a5a;
+      min-width: 18mm;
+    }
+
+    .meta-val {
+      font-weight: 300;
+      color: #444440;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="upper">
+    <div class="project-label">Project Document</div>
+    <div class="project-title">
+      Mitsue Village<br>
+      <strong>AI Data Center</strong>
+    </div>
+    <div class="project-subtitle">
+      Forest-Powered Sustainable Computing<br>
+      Mitsue Village · Nara Prefecture · Japan
+    </div>
+  </div>
+
+  <div class="logo-wrap">
+    <img class="logo-kanji" src="assets/logo_go.png" alt="御">
+  </div>
+
+  <div class="lower">
+    <div class="meta-table">
+      <div class="meta-row">
+        <span class="meta-key">Version</span>
+        <span class="meta-val">v1.0</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Date</span>
+        <span class="meta-val">2026-06-10</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Author</span>
+        <span class="meta-val">Rob Oudendijk</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
