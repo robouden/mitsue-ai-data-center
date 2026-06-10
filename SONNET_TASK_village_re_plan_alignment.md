@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # SONNET EXECUTION BRIEF — Roll the Village RE Plan alignment through all project artifacts
 
@@ -25,7 +25,7 @@
 ## 1. GLOBAL RULES (apply to every edit)
 
 1. **Biomass CHP stays PRIMARY.** It is the engine of reforestation (sugi thinnings = fuel → faster thinning → faster native-broadleaf restoration). Solar + battery + EV charging are **complementary**. The village plan leads with solar/EV/small-hydro — do **not** let that invert our hierarchy. Frame it as: *we deliver the plan's solar/battery/EV/resilience targets AND supply the forest-carbon/J-Credit mechanism the plan wants but cannot deliver alone.* (See memory `energy-strategy-biomass-chp-primary-reinstated-may-2026`.)
-2. **Version + date header.** Every `.md`/`.html` you edit: bump the version number and set `Last modified: 2026-06-07` in the existing right-aligned header line (`<p align="right">Version: vX.Y &nbsp;|&nbsp; Last modified: 2026-06-07</p>`), before the first `---`. If a doc lacks one, add it.
+2. **Version + date header.** Every `.md`/`.html` you edit: bump the version number and set `Last modified: 2026-06-10` in the existing right-aligned header line (`<p align="right">Version: vX.Y &nbsp;|&nbsp; Last modified: 2026-06-10</p>`), before the first `---`. If a doc lacks one, add it.
 3. **Preserve sources.** Any externally-researched figure gets its source URL in a Sources / 出典 block. The grant/subsidy facts use the env.go.jp URLs listed in the alignment doc.
 4. **Bilingual parity.** Whatever you change in an EN doc, mirror in its `_jp` / `_ja` counterpart, and vice versa.
 5. **Regenerate PDFs** for every `.md` you edit (procedure in §6). Regenerate brochure PDFs from their HTML.
@@ -198,7 +198,7 @@ Rob asked whether the **Kaya seed poem** and **mayor-meeting card** should chang
 
 ## 13. ACCEPTANCE CHECKLIST
 
-- [ ] Every edited `.md`/`.html` has version bumped + `Last modified: 2026-06-07`.
+- [ ] Every edited `.md`/`.html` has version bumped + `Last modified: 2026-06-10`.
 - [ ] Biomass CHP reads as **primary** everywhere touched (esp. website pillar ii + rationale 02 fixed).
 - [ ] Village 交付金 (2/3–3/4, via village) added to: README, implementation plan, funding flowchart, EVM, brochures "Funded By", website funding, village onepager, mayor points, QA briefing — EN **and** JP.
 - [ ] Citable figures used consistently (9 kt-CO₂, 46% transport, 90% forest, 60%/2030, CN-2045, "1 resilient site").

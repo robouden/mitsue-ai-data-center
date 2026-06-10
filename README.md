@@ -11,7 +11,7 @@
 | **Horizon** | 25 years |
 | **Current Phase** | Phase 0 — Pre-Foundation (Months 1–3) |
 | **Project Lead** | Rob Oudendijk (YR-Design / Safecast) |
-| **Document Status** | Working draft, June 1, 2026 |
+| **Document Status** | Working draft, June 10, 2026 |
 
 ---
 
@@ -332,4 +332,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: June 1, 2026 · Maintained by Rob Oudendijk*
+*Last updated: June 10, 2026 · Maintained by Rob Oudendijk*

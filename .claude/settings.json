@@ -1,5 +1,38 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(pdfinfo /tmp/t1.pdf)",
+      "Bash(pdfinfo /tmp/t2.pdf)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_village_government_onepager_jp.md)",
+      "Bash(grep -iE '\\\\.\\(jpg|jpeg|png|webp|gif\\)$')",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_brochure_trifold_a3.html mitsue_brochure_trifold_a3_jp.html mitsue_brochure_trifold_a4.html mitsue_brochure_trifold_a4_jp.html)",
+      "Bash(node /tmp/html_to_pdf.js)",
+      "Bash(node -e \"const p = require\\('/home/rob/.antigravity/extensions/yzane.markdown-pdf-1.5.0-universal/node_modules/puppeteer-core/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(mkdir -p /tmp/pup-brochure && cd /tmp/pup-brochure && npm install puppeteer-core@latest 2>&1 | tail -5)",
+      "Bash(node -e \"const p = require\\('/tmp/pup-brochure/node_modules/puppeteer-core/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_evm_plan.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_evm_plan_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_implementation_plan.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_implementation_plan_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_stakeholders.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_stakeholders_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_founder_agreement_template.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_revenue_model.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_revenue_model_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github README.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github README_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_business_case.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_business_case_jp.md)",
+      "Bash(node convert_md_to_pdf.js --theme=github mitsue_introduction_a4.md mitsue_introduction_a4_jp.md mitsue_village_government_onepager.md mitsue_village_government_onepager_jp.md mitsue_project_founding_story.md mitsue_project_founding_story_jp.md mitsue_founding_charter.md README.md README_jp.md mitsue_stakeholders.md mitsue_stakeholders_jp.md mitsue_implementation_plan.md mitsue_implementation_plan_jp.md mitsue_project_overview_pellegrom.md Mitsue_Research_Brief.md Mitsue_Research_Brief_jp.md mitsue_qa_briefing.md)",
+      "Bash(node convert_md_to_pdf.js mitsue_frontpage.html mitsue_frontpage_jp.html)",
+      "Bash(fc-list \"Noto Sans CJK JP\")",
+      "Bash(node convert_md_to_pdf.js mitsue_frontpage_jp.html)",
+      "Bash(convert -size 400x400 'xc:#f5f1ea' -font /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc -pointsize 260 -fill '#1c1c1a' -gravity center -annotate 0 御 '/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/assets/logo_go.png')",
+      "Bash(node convert_md_to_pdf.js mitsue_frontpage.html)",
+      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/tsuemi_hime_and_the_seven_dwarfs.md\")",
+      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/つえみ姫と七人の森の精.md\")"
+    ],
     "additionalDirectories": [
       "/tmp/mitsue_pdf"
     ]

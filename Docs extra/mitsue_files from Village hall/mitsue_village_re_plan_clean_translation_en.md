@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # Mitsue Village — Plan for the Maximum Introduction of Renewable Energy
 ### Clean English translation of key pages (Overview edition)

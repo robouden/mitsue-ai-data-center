@@ -1,4 +1,4 @@
-<p align="right">Version: v3.1 &nbsp;|&nbsp; Last modified: 2026-06-08</p>
+<p align="right">Version: v3.1 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 <style>
   html { font-size: 10.5px !important; }

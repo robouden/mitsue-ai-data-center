@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # 論文要約とプロジェクトへの応用
 ## 「日本の劣化した森林問題を解決するための地域活性化の推進」

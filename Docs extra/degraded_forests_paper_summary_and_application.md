@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 # Paper Summary & Project Application
 ## "Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan"

@@ -1,4 +1,4 @@
-<p align="right">Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-05</p>
+<p align="right">Version: v2.7 Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp;|Version: v2.9 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp; Last modified: 2026-06-10</p>
 
 # 御杖プロジェクト
 ### 森と体験交流館、そして自らの力で動く未来

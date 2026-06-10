@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.7 Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp;|Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp; Last modified: 2026-06-10</p>
 
 # 御杖村再エネ導入最大化計画との整合
 ### 御杖プロジェクトは、村自身の公式脱炭素戦略を実行する事業体である

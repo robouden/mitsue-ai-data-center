@@ -1,4 +1,4 @@
-<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 <style>
   body { font-size: 9.5pt; line-height: 1.25; }

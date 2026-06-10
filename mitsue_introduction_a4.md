@@ -16,7 +16,7 @@
   @media print { body { margin: 0; } }
 </style>
 
-<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-07</p>
+<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 ---
 

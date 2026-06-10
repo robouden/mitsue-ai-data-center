@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-02</p>
+<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
 
 **Quantum Mesh株式会社 ― アウトリーチ・評価**
 **2026年6月 アクションアイテム**

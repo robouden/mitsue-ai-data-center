@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
+<p align="right">Version: v2.7 Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp;|Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10nbsp; Last modified: 2026-06-10</p>
 
 # SONNET EXECUTION BRIEF — Address budget-tightness, dependency, revenue-model & director-pay feedback
 
