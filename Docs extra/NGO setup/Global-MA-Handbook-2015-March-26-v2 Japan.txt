@@ -1,0 +1,1435 @@
+Global M&A Handbook                                                                                 Japan
+
+
+
+
+Japan
+1.1      Overview
+Japan is the world’s third largest economy. In the past, specific sectors that have experienced
+significant M&A and investment activity include financial services, including insurance and securities
+brokerage; telecommunications; automotive; retail; and information technology. Historically, the
+volume of mergers and acquisitions has been relatively low in Japan compared to other major
+industrialised markets. However, there have been significant developments in the Japanese M&A
+market over the last several years.
+
+First, the volume of M&A transactions increased enormously in the early part of the decade, peaking
+at over 2,500 transactions in 2006–a five-times increase on volumes seen ten years earlier. In 2013,
+2,048 M&A deals involving Japanese companies were completed. The biggest driver of this
+expansion has been domestic growth, i.e. transactions between Japanese corporations. The volume
+of inbound transactions also rose during the period but fell sharply following the global financial crisis
+(GFC). The GFC did, however, trigger a wave of outbound transactions as Japanese corporations
+took advantage of comparatively robust balance sheets, lower prices and less competition for offshore
+assets to expand in overseas markets. There is strong optimism that this trend will continue in the
+foreseeable future.
+
+Second, Japan witnessed increasing numbers of private equity funds, both domestic and foreign,
+entering the M&A market, driving growth in buy-outs and acquisition finance in Japan and ushering in
+more volumes of public-to-private transactions.
+
+Third, the decade saw a series of major corporate law reforms introduced in 2006 which made it
+possible to implement a range of new M&A vehicles, such as triangular mergers, and prompted
+several high-profile corporate takeover attempts and a wave of ‘poison pill’ plans. Further changes are
+expected to come with the first major amendment to the Companies Act (the Amendment), due to
+come into force in May 2015. The Amendment sets out a number of new rules and regulations
+including a new mechanism for majority shareholders to utilise in ‘squeezing-out’ small minority
+shareholders. The Amendment expressly provides for a new squeeze-out option under which a
+majority shareholder holding a 90% or greater stake in any company (whether public or private) will be
+entitled (with the approval of the board of directors) to compel all other shareholders and option-
+holders to sell their shares and options in the company to the majority shareholder. It is hoped that
+this new scheme will enable a squeeze-out to be completed quickly and efficiently without adverse tax
+consequences.
+
+1.2      General Legal Framework
+The Japanese legal system is a civil law system modelled principally on German and French law.
+Some specialised legislation, such as the Financial Instruments and Exchange Act (FIEA), is
+modelled on US law.
+
+The primary sources of Japanese law are codes and statutes. Key codes and statutes applicable to
+M&A include the Companies Act, the FIEA and the Anti-Monopoly Act. Foreign investment is subject
+to certain mandatory reporting requirements and, in limited instances, approval procedures under the
+Foreign Exchange and Foreign Trade Act (FEFTA).
+
+As in many civil law jurisdictions, in most cases the primary codes and statutes set out only the broad
+legal principles. These are supplemented, to some extent, by case law and subordinate legislation.
+
+However, for cultural and other reasons, litigation in the commercial sphere is relatively rare in Japan,
+and on many issues no extensive body of case law exists.
+
+Subordinate legislation may take the form of cabinet orders, enforcement orders, ministerial orders
+and other rules formulated by government agencies. Although these regulations help articulate the
+law, considerable discretion is often vested in the agency charged with administering them.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                   265Global M&A Handbook                                                                                              Japan
+
+
+
+
+1.3      Corporate Entities
+Two main types of company available in Japan are:
+
+•        a corporation, known in Japan as a ̒Kabushiki Kaisha’ (sometimes translated as ‘joint stock
+         company’) or ̒KK̕ , and
+
+•        a limited liability company, known in Japan as a ̒Gōdō Kaisha̕ or ̒GK̕ .
+
+1.3.1    Corporations
+The most common form used by foreign companies setting up operations in Japan is the KK
+corporation. A KK is similar to a US close corporation or, when listed on a stock exchange, akin to a
+US public corporation. It is also similar to the German AG corporate form. A shareholder’s liability is
+limited to the initial capital contribution made for the shares to which it subscribes.
+
+The Companies Act allows a KK to be incorporated using a range of different corporate governance
+models.
+
+The minimum governance requirement depends on the size and type of a KK. The simplest corporate
+governance model for a private KK (i.e. one that restricts the transfer of shares in its articles of
+                                                             1
+incorporation) involves the appointment of just one director. If a KK has only one director, the sole
+director automatically becomes the representative director. A KK must have at least one
+representative director who must be a resident of Japan (but need not be a Japanese national). 2 For
+KKs that have only one director, major actions are approved either by the representative director or
+the shareholders.
+
+A private KK can further choose whether or not to organise its directors as a board. A KK that
+chooses to organise its directors as a board, fittingly referred to as a ‘Corporation with a Board of
+Directors’ (torishimariyakukai secchi kaisha) in Japanese corporate law terms, must appoint at least
+three directors, of which at least one must be appointed as a ̒representative director.̕ A Corporation
+with a Board of Directors must also have at least one company auditor (or a board of at least three
+company auditors, if a listed company), unless the KK has adopted a committee system of
+governance.
+
+A KK that has adopted the three-committee system of governance, a corporation with committees
+(iinkai secchi kaisha) has the following board level committees: audit committee, nomination
+committee and compensation committee. Each committee must have at least three directors, the
+majority of whom must qualify as outside directors under the Companies Act. Unlike the traditional
+corporation with a board of directors, in a corporation with committees, the board of directors has a
+primarily oversight function, while the day-to-day business is executed by the executive officers
+appointed by the board of directors. The Amendment will add the corporation with an audit and
+supervisory committee (kansa-to-iinkai secchi kaisha) as a further option among the range of
+governance models. This model will feature one board level committee, the audit and supervisory
+           3
+committee which must be comprised at least three directors, a majority of which must qualify as
+outside directors under the Companies Act.
+
+The Companies Act abolished the previous requirement of a minimum share capital of JPY10 million
+for the incorporation of a KK. It is now possible for a KK to incorporate with capital of only one Yen.
+However, a KK must have net assets of at least JPY3 million before it may distribute profits to
+shareholders.
+
+
+1
+  Note however, that a private KK that has stated capital of JPY500 million or more, or total liabilities of JPY20
+billion or more, falls within the definition of a ̒Large KK̕ and becomes the subject of additional duties, including
+being required to appoint at least one company auditor and an accounting auditor.
+2
+  Note however, that discussions are ongoing within the Japanese government to abolish this residency
+requirement.
+3
+  To more clearly distinguish between this model and the Corporation with Committees model, both of which
+embody a committee system, the name of the Corporation with Committees model will be changed to shimei-
+iinkai-to secchi kaisha (loosely translated as ‘corporation with nomination and other committees’, however, the
+official English translation of the new form has yet to be confirmed).
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                                   266Global M&A Handbook                                                                                   Japan
+
+
+
+1.3.2    Limited liability companies
+The Companies Act also introduced a new ̒hybrid’ entity that is a combination of a company and a
+partnership. This is the GK which is modelled along the lines of the US LLC. A GK functions internally
+like a partnership but the members’ liability is limited.
+
+It is possible to incorporate a GK with just one investor, described as a ‘partner’. Each partner has the
+right to manage the GK, but ̒executive partners̕ may be appointed to operate and manage the GK if
+this option is provided for in the articles of incorporation. An executive partner owes fiduciary duties to
+the GK, similar to those that directors owe to a KK. There is no stated minimum number of executive
+partners under the Companies Act. It is possible for a legal entity (i.e. a corporation, including a
+foreign company) to become an executive partner, as long as the legal entity appoints an individual,
+referred to as the ̒executive manager,̕ to represent it. Although not specifically stipulated in the
+Companies Act, it is possible for a foreign company to be the sole partner of a GK. In that scenario, it
+is necessary for the foreign company to appoint an individual as the executive manager to represent
+it. The executive manager representing the foreign company must be a resident of Japan but need
+not be a Japanese national. However, where there is more than one executive manager, only one
+executive manager is required to be a resident of Japan. The executive manager owes fiduciary
+duties to the GK similar to those that a director would owe a KK.
+
+There is no minimum capital requirement upon the incorporation of a GK. Accordingly, it is possible to
+establish a GK with just one Yen. A GK may distribute profits periodically to members to the extent it
+has any distributable surplus.
+
+2.       Acquisition Methods
+In Japan, a private acquisition usually takes the form of either a share acquisition, which involves
+purchasing the shares in the company that owns the business, or a business transfer, which involves
+purchasing the assets and liabilities of the business being acquired. However, mergers and company
+splits are also widely used for business acquisition purposes.
+
+2.1      Acquisition of Shares
+An acquisition of shares in a Japanese private company may be implemented by way of private
+agreement, whereas an acquisition of shares in a company listed on a Japanese stock exchange may
+trigger certain tender offer requirements under the FIEA if an acquirer seeks to acquire more than
+one-third of the company’s voting shares in an off-market transaction. A share purchase agreement
+(SPA) is usually prepared to record the agreement of the parties over their respective rights,
+obligations and liabilities in connection with the transaction.
+
+2.2      Business Transfer
+The Companies Act recognises two types of business transfer: one that involves the transfer of ̒all or
+a substantial part̕ of a Japanese company’s business which requires approval by a special resolution
+of the shareholders (see 3.2.2), and one that does not. The distinction between the two different types
+of transfer is not always clear. For example, a sale by a company of a single manufacturing facility, or
+a single operating division or branch office may be regarded as a transfer of a ̒substantial part̕ of its
+business. However, the question is usually determined on the basis of an objective assessment of the
+relative importance of the business sold compared with the company’s overall business (e.g. as a
+proportion of the company’s total amount of sales, earnings and workforce). The Companies Act
+indicates that a transaction would not be deemed a transfer of a ‘substantial part̕ of a company’s
+business if the book value of the assets being transferred is not more one-fifth of the total assets of
+the seller, and the transaction will therefore be exempted from the special shareholders’ resolution
+requirement if that is the case.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                    267Global M&A Handbook                                                                                      Japan
+
+
+
+
+2.3      Mergers/Other Acquisition Methods
+2.3.1    Mergers
+There are two types of merger available under the Companies Act:
+
+•        merger by absorption, where the acquirer takes over all of the assets and liabilities of the
+         target company and the target company is dissolved, and
+
+•        merger by incorporation, where the assets and liabilities of both parties are acquired by a
+         newly incorporated third party and both parties are dissolved.
+
+Merger by absorption is by far the most common method used in Japan.
+
+A merger will usually proceed by way of an issue of shares in the surviving company to the
+shareholders of the target company. A merger is often used to rationalise the operations of subsidiary
+entities. ‘Cash-out’ mergers, involving mergers by absorption, are also allowed under the Companies
+Act.
+
+The Companies Act does not currently permit mergers directly between foreign corporations and
+Japanese corporations. However, there are provisions under the Companies Act that permit
+acquisitions of Japanese corporations using shares in foreign companies (so-called ‘triangular
+mergers’). Subject to certain Japanese tax law requirements, triangular mergers can take place by
+way of an allocation of the foreign company’s shares owned by its Japanese subsidiary (the surviving
+company) to the shareholders of the target company (the dissolving company).
+
+2.3.2    Company splits
+The Companies Act provides for two types of company split:
+
+•        an incorporation-type company split (shinsetsu bunkatsu) in which a new company is
+         incorporated by operation of law and acquires the assets and liabilities divested by the
+         company undergoing the split, and
+
+•        an absorption-type company split (kyūshū bunkatsu) in which an existing company acquires
+         or ̒absorbs̕ the assets and liabilities divested by the company undergoing the split.
+
+In the context of a company split transaction, the legal term for the divesting company (the company
+undergoing the split) is the ‘splitting company’ and the legal term for the company taking over the
+assets/liabilities from the splitting company is the ‘succeeding company’.
+
+Company splits are often used as an alternative structure to business transfers because they are
+more efficient from a procedural perspective (no need to obtain third-party or employee consents −
+see Employee Issues) and also from a tax perspective (see Transfer Taxes).
+
+3.       Negotiation, Signing and Closing
+3.1      Customary Issues in Negotiating Acquisition Agreements
+The following is a brief overview of certain key provisions in typical Japanese purchase agreements.
+Baker & McKenzie’s fully interactive comparison of these same provisions across the range of
+jurisdictions covered in this Handbook can be accessed by clicking here.
+
+Purchase Price
+
+1       Is a purchase price adjustment                   Purchase price adjustments common. All types seen,
+        common?                                          including working capital adjustment, cash-free debt-
+                                                         free, NAV adjustments.
+        What type is common (e.g. debt-free,
+        cash-free)?
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                       268Global M&A Handbook                                                                                        Japan
+
+
+
+
+2       Is there a collar on the adjustment?             Collars are not common.
+
+3       Who prepares completion balance                  Usually prepared by seller or target company.
+        sheet?
+
+4       Is the balance sheet audited?                    Not necessarily.
+
+5       Is an earn-out common?                           Not common.
+
+6       Is a deposit common?                             Not common.
+
+7       Is an escrow common?                             Not very common, but occasionally requested. Few
+                                                         local escrow service providers. Buyers may also rely
+                                                         on holdback.
+
+8       Is a break fee common?                           Uncommon.
+
+Conditions Precedent
+
+9       Express Material Adverse Event                   Often seen where there is a long period before
+        (MAE) completion condition?                      execution and completion. More common where a
+                                                         Japanese buyer is involved.
+
+10      Is the MAE general or specific?                  Both are seen.
+
+11      Quantification of MAE?                           Not sufficiently widespread to qualify as common.
+
+Covenants, Access
+
+12      Is a non-compete common? Do you                  Common, but not from private equity sellers. Waterfall
+        use waterfall/blue pencil provisions?            provisions uncommon.
+
+13      Non-solicit (of employees)?                      Common (in conjunction with a non-compete).
+
+14      Non-solicit (of customers)?                      Common (in conjunction with a non-compete).
+
+15      Broad access to books, records,                  Generally get this for private deals.
+        management between sign and
+        close?
+
+16      Is it common to update warranty                  Both are seen but more common to notify of possible
+        disclosure or notify of possible                 breach (though notification usually not deemed to
+        breach? What is the consequence?                 constitute exception to applicable warranty).
+                                                         Consequence of breach negotiable: right to terminate
+                                                         or claim damages.
+
+17      Is a separate tax covenant/indemnity             Not sufficiently widespread to qualify as common.
+        or tax deed common?
+
+Representations and Warranties
+
+18      Materiality in representations – how is          Materiality qualifiers commonly seen but are often not
+        it quantified (e.g. by a $ amount)?              quantified (other than specific warranties e.g. contract
+                                                         value).
+
+19      How is knowledge qualified                       Knowledge qualifiers depend on risk-sharing in the
+        (e.g. specific people,                           deal. Often limited to the actual knowledge and due
+        actual/constructive knowledge)?                  enquiry of a specified list of senior management.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                          269Global M&A Handbook                                                                                         Japan
+
+
+
+
+20      Is a warranty that there is no                   Not very common but can be negotiable depending
+        materially misleading/omitted                    on buyer’s bargaining power and extent of disclosed
+        information common?                              information during the course due diligence.
+
+21      Is disclosure of data room common?               Becoming more common where a UK/Australian
+                                                         seller is involved.
+
+Repetition of Representations and Warranties
+
+22      Is it common to repeat warranties at             Repetition at completion common. Bring-down
+        completion/at all times between                  certificates not very common.
+        signing and completion? Is bring-
+        down certificate at completion
+        common?
+
+23      What is the applicable standard? True            Both seen in Japan.
+        in all material respects? Material
+        Adverse Effect standard?
+
+24      Is double materiality common?                    Double materiality usually avoided.
+        e.g. where a materiality qualification
+        is included in the bring-down
+        condition to one party’s obligation to
+        close as well as in one or more
+        representation.
+
+Limitations on Liability
+
+25      What is the common cap amount (as                Buyer will ask for 100% but usually negotiated down.
+        a percentage of purchase price)?                 Range from 10%–100%.
+
+26      Does the cap (and other limitations on           Both are seen regularly.
+        liabilities) apply to the whole
+        agreement or just warranties (or other
+        particular terms)?
+
+27      What are the common exceptions to                Key warranties are often excepted (e.g. title,
+        the cap?                                         capitalisation, authority). Often tax and specific areas
+                                                         of concern, sometimes with specific higher caps.
+                                                         Separate caps can be negotiated.
+
+28      Is a deductible or basket common?                Becoming more accepted in market. Deductible very
+                                                         much case-by-case.
+
+29      Is a de minimis common?                          Becoming more common.
+
+30      How long does liability survive? Are             If tax indemnity included, tax matters usually survive
+        there any common carve-outs (e.g.                until a short period after SOL, i.e. the period in which
+        fraud, tax, key warranties)?                     tax authorities can audit the target.
+
+31      Is warranty insurance common?                    Not so common generally, but has been used (e.g. in
+                                                         private equity exits).
+
+Reliance
+
+32      Do financiers seek to rely on buyer’s            Becoming more common (but many law firms
+        due diligence reports?                           reluctant to agree).
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                           270Global M&A Handbook                                                                                        Japan
+
+
+
+
+Set-offs against Claims
+
+33      Is a set-off against claims for tax              Not very common but seen.
+        benefits common?
+
+34      Insurance proceeds?                              Common for actually received.
+
+35      Third party recoveries?                          Common for actually received.
+
+Damages, Knowledge
+
+36      Obligation to mitigate damages?                  Civil law system, so not required by law, but
+                                                         sometimes express.
+
+37      Exclusion of consequential damages?              Common but often expressed differently as there is
+                                                         no defined concept of ‘consequential damages’ in
+                                                         Japan.
+
+38      Is it common to include provisions               Often silent.
+        that there is no liability if buyer had
+        knowledge or buyer’s knowledge no
+        effect on warranty/indemnity?
+
+Dispute Resolution
+
+39      Does local law allow for a choice of             Yes, if not contrary to public policy. Japanese law
+        governing law? What is the common                often chosen in any event.
+        governing law?
+
+40      Is litigation or arbitration more                Litigation is more common. Forum usually Tokyo
+        common? If arbitration, where?                   district court.
+
+Stamp Duty
+
+41      If stamp duty is payable, is it normally         Stamp duty not levied on share transfers.
+        shared?
+
+3.2      Formalities for Execution of Documents
+3.2.1    Transfers of shares
+Board approval by the target company’s board of directors may be required where a transfer of shares
+is restricted under the target company’s articles of incorporation and the target company has a board
+of directors. Such restrictions are fairly common in closely held Japanese companies. If the target
+company’s articles of incorporation include a restriction on share transfer and the target company
+does not hold a board meeting, then the transfer of shares will require a shareholders’ resolution of
+the target company.
+
+The approval of the seller’s board and the buyer’s board will also be required if the sale/purchase of
+the target’s shares constitutes the disposition/acquisition of ‘important property’. Further, after the
+Amendment, a special resolution of the seller’s shareholders is also required if:
+
+•        the target company is a subsidiary of the seller
+
+•        the seller ceases to hold the majority of shares in the target after the sale, and
+
+•        the book value of the transferred shares in the target constitutes more than one-fifth of the
+         total asset value of the seller.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                           271Global M&A Handbook                                                                                     Japan
+
+
+
+3.2.2    Business transfers
+Disposition/acquisition of ‘important property’ vs ‘all or a substantial part’ of a business
+
+Whether or not the sale is of ‘all or a substantial part’ of the seller’s target business, if the transaction
+involves the disposition or acquisition of ‘important property,’ board approval is required from the
+seller. Whether or not a transaction involves important property will be determined by considering the
+price of the assets, the proportion of assets transferring from the target relative to the target’s total
+assets, the purpose of the transaction, the terms and conditions of the transaction, and past practice.
+Depending on the significance of the acquisition from the buyer’s perspective, board approval may
+also be required from the buyer.
+
+In addition, a business transfer involving ‘all or a substantial part’ of a Japanese company’s business
+will be subject to a special resolution of the seller’s shareholders. A special resolution is adopted by a
+two-thirds majority vote of the shareholders present at a general meeting of shareholders attended by
+shareholders holding more than one-half of the total voting rights of shareholders who are eligible to
+exercise voting rights at a general meeting of shareholders. If the business transfer involves the
+transfer of all of the Japanese company’s business, a special resolution of the buyer’s shareholders
+will also be required.
+
+The distinction between the two different types of business transfer is not always clear. In practice,
+many buyers tend to proceed cautiously when an asset acquisition is involved. It is common for
+buyers to interpret the scope of the business transfer provisions widely and to insist on a special
+shareholders’ resolution by the seller’s shareholders (i.e. interpreting the transaction as involving a
+transfer of ‘a substantial part’ of the seller’s business) to avoid violating the Companies Act when the
+book value of the assets is more than one-fifth of the total assets of the seller.
+
+Asset acquisition by newly incorporated Japanese subsidiary
+
+Foreign investors wishing to acquire Japanese assets via a recently established Japanese subsidiary
+should note that if the acquisition occurs less than two years after the subsidiary’s incorporation, it
+may be subject to the post-incorporation asset purchase rules of the Companies Act.
+
+The general rule is that if a subsidiary that is less than two years old agrees to acquire property:
+
+•        existing before its incorporation
+
+•        intended to be used on a continuing basis for purposes of the company’s business, and
+
+•        at a price equal to more than one-fifth of the company’s net asset value (this threshold may
+         be lowered in the articles of incorporation).
+
+then a shareholders’ resolution is required to approve the asset acquisition in addition to a board
+resolution.
+
+3.3      Formalities for Transferring Title to Shares or Assets
+3.3.1    Transfers of title to shares
+In a share acquisition involving a private company which issues share certificates, transfer of title of
+the shares takes place by the delivery of share certificates to the buyer. If the target company does
+not issue share certificates (private companies have the option not to issue share certificates under
+the Companies Act), transfer of title of shares takes place by agreement between the transferor and
+the transferee. The transfer must be registered in the target company’s shareholders’ register in order
+for the transferee to be able to assert its rights as a shareholder against the company.
+
+3.3.2    Transfers of title to assets
+In an asset sale, it is necessary to separately deal with each category of asset and liability. Contracts
+must be individually assigned to the buyer and, where necessary, third-party consents obtained. Much
+will depend on the type of asset being acquired and what is required to effect a transfer. The seller will
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                       272Global M&A Handbook                                                                                            Japan
+
+
+
+be obliged to obtain the consent of any employees to be transferred to the buyer. In many cases, the
+seller and employees will expect the buyer to provide the same employment conditions that existed
+prior to the sale.
+
+3.4      Formalities for Mergers
+A merger requires the approval of the board of directors and shareholders of both the acquirer and
+the target.
+
+However, if:
+
+•        the total value of the total number of shares issued by the acquiring company upon the
+         merger, multiplied by the net asset value per share of the acquiring company and the total
+         book value of bonds or any other assets 4 issued by the acquiring company upon the merger
+         does not exceed one-fifth 5 of the net asset value of the acquiring company, and
+
+•        there is no objection by any shareholder(s) of the acquiring company holding more than one-
+         sixth of the total voting shares in the acquiring company 6.
+
+then the approval of the acquiring company’s shareholders is not required (known as a ‘simplified
+merger’ (kan i gappei)).
+
+That said, even if the above conditions are met, the approval of the acquiring company’s shareholders
+will be required if:
+
+•        the acquiring company has assumed a net loss as a result of the merger, or
+
+•        the acquiring company’s articles of incorporation include a restriction on share transfer and
+         shares are issued by such company upon the merger 7.
+
+If a party owns 90% or more of the shares in the party to be the surviving party of the merger
+(described as a ‘special controlling relationship’), the approval of the surviving party’s shareholders
+will not be required (known as a ‘short-form merger’ (ryaku shiki gappei)) unless the surviving
+company issues shares upon the merger and any of such shares are subject to share transfer
+restrictions pursuant to the articles of incorporation of the surviving company. Also, if a party owns
+90% or more of the shares in the disappearing party, the approval of the disappearing company’s
+shareholders will not be required.
+
+Both the acquirer and the target must publish public notices regarding the merger to allow creditors
+the opportunity to object to the proposed merger.
+
+3.5      Formalities for Company Splits
+A company split (assuming it is an absorption-type company split in the context of private M&A)
+requires the approval of the board of directors and shareholders of both the seller and the buyer.
+
+However, if the book value of the split assets is not more one-fifth of the total assets of the seller, then
+the approval of the seller’s shareholders is not required (known as a ‘simplified company split’ (kan i
+kaisha bunkatsu) of the seller).
+
+On the other hand, if:
+
+•        the sum of the total number of shares issued by the buyer upon the company split, multiplied
+         by the net asset value per share of the buyer and the total book value of bonds or any other
+
+
+4
+  This includes cash.
+5
+  The 1/5 threshold may be lowered by the articles of incorporation of the acquiring company.
+6
+  The 1/6 threshold may be varied by the articles of incorporation of the acquiring company.
+7
+  The Companies Act requires the approval of the acquiring company’s shareholders for share issuances if such
+company’s articles of incorporation restrict the transfer of shares. Note that this applies throughout this chapter.
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                              273Global M&A Handbook                                                                                     Japan
+
+
+
+         assets 8 issued by the buyer upon the company split does not exceed one-fifth 9 of the net
+         asset value of the buyer, and
+
+•        there is no objection by any shareholder of the buyer holding more than one-sixth of the total
+         voting shares in the buyer 10.
+
+then the approval of the buyer’s shareholders is not required (known as a simplified company split of
+the buyer).
+
+Nonetheless, even if these conditions are met, the approval of the buyer’s shareholders will be
+required if:
+
+•        the buyer assumes a net loss after the company split, or
+
+•        the buyer’s articles of incorporation include a restriction on share transfer and shares are
+         issued by such company upon the company split.
+
+If a party owns 90% or more of the shares in the other party (‘special controlling relationship’),
+approval of the controlled company’s shareholders will not be required unless the controlled company,
+being the buyer, issues shares upon the company split and its articles of incorporation restrict the
+transfer of shares.
+
+The buyer must publish a public notice regarding the company split to allow its creditors the
+opportunity to object to the proposed company split. The seller must also publish a public notice
+regarding the company split except where the seller will be held jointly and severally liable for the
+liabilities transferred to the buyer.
+
+4.       Regulatory Framework
+4.1      Competition Law Considerations
+The Anti-Monopoly Act prohibits mergers and acquisitions if they will substantially restrain competition
+in any particular market, or if the merger or acquisition involves unfair trade practices. To give this
+prohibition teeth, the Anti-Monopoly Act imposes certain reporting and approval requirements in
+relation to certain M&A transactions.
+
+Broadly speaking, transactions involving share acquisitions, business transfers, asset acquisitions,
+mergers and company splits that meet thresholds set out in the Anti-Monopoly Act are subject to prior
+notification to the Fair Trade Commission (FTC).
+
+4.2      Merger Control Overview
+The following is a brief overview of the merger control position (including thresholds and timetables for
+clearance) in a typical Japanese purchase agreement, the latter taken from Baker & McKenzie’s
+Global Merger Analysis Platform (GMAP). GMAP answers 90 detailed questions on merger control
+law in 120 jurisdictions across the globe (see Appendix C for further details).
+
+Filing Obligation
+
+1       Is a filing obligation voluntary or              Mandatory.
+        mandatory (i.e. are there penalties for
+        failure to notify or for implementing a
+        transaction without notification or
+        approval)?
+
+
+
+
+8
+  This includes cash.
+9
+  The 1/5 threshold may be lowered by the articles of incorporation of the acquiring company.
+10
+   The 1/6 threshold may be varied by the articles of incorporation of the acquiring company.
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                      274Global M&A Handbook                                                                                          Japan
+
+
+
+
+Timetable
+
+2         In practice, what is the timetable for         The FTC is prepared to clear a transaction within
+          clearance (in Phase I and Phase II             Phase I (i.e. 30 calendar days) if the transaction does
+          review)?                                       not raise competition issues and in particular where
+                                                         the parties have engaged in an extensive pre-
+                                                         notification process. If, however, the transaction gives
+                                                         rise to serious competition issues, it can be difficult to
+                                                         predict the exact timetable, but previous cases have
+                                                         taken between 6 and 7 months from filing date to
+                                                         achieve clearance.
+
+4.2.1      FTC review
+The FTC may review a direct or indirect acquisition of a Japanese company or business, and has
+power to order the parties to a transaction deemed as substantially restraining competition in a
+particular market to take a range of remedial steps to restore competition, including the divestiture or
+transfer of a business.
+
+FTC guidance 11 outlines the circumstances in which a proposed merger or acquisition may or may not
+be regarded as substantially restraining competition in a particular market. This refers to the
+‘Herfindahl-Herschmann Index’ (HHI) which is calculated as the sum of the squared market share of
+each company in a particular market. If the business combination only involves two parties, the HHI
+increment can be calculated by doubling the sum of the squared market share of each company
+group.
+
+The guidelines specifically state that a share acquisition, asset acquisition (including a business
+transfer) or merger is unlikely to be deemed to have an anti-competitive effect where the following
+occurs in the HHI after the business combination:
+
+           HHI after business combination                                       HHI increment
+
+<1,500                                                        not relevant
+
+>1,500 but <2,500                                             <250
+
+>2,500                                                        <150
+
+Amendments to the guideline which came into force in July 2011 abolished the system of prior
+informal consultation under which the FTC granted informal clearance to difficult transactions before
+the parties formally filed a notification.
+
+Under the amended guidelines, the FTC reviews proposed business combinations within the
+framework of the formal notification system under the Anti-Monopoly Act and no longer grants
+informal clearance in response to a voluntary consultation prior to a filing.
+
+4.2.2      Restrictions on financial institutions
+The Anti-Monopoly Act prohibits banks from owning more than 5%, and insurance companies from
+acquiring more than 10%, of the issued voting shares in any Japanese company. The prohibition
+applies whether the acquirer bank or insurance company is incorporated in Japan or overseas.
+However, this prohibition does not apply where prior permission is obtained from the FTC or where
+the acquisition falls within the scope of certain exemptions (e.g. under the exercise of security rights)
+provided under the Anti-Monopoly Act.
+
+
+
+
+11
+     Guidelines on the Application of the Anti-Monopoly Act to Reviewing Business Combinations.
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                            275Global M&A Handbook                                                                                      Japan
+
+
+
+4.2.3    Reporting and approval requirements under the Anti-Monopoly Act
+Under the Anti-Monopoly Act, a prior notification must be filed with the FTC in relation to mergers,
+asset acquisitions, share acquisitions and certain company splits which meet certain thresholds set
+out in the Act.
+
+The parties to a transaction that requires a prior notification filing are prohibited from effecting the
+transaction for a period of 30 days after the filing. However, the FTC can shorten the waiting period.
+The FTC also has power to ask the parties to submit additional information regarding the transaction.
+
+If the FTC does ask for additional information during the 30-day waiting period, it may still take action
+in relation to the transaction even after the 30-day waiting period (and until either 120 days from the
+date of acceptance of the initial notification, or 90 days from the date of acceptance of the additional
+information, whichever is later).
+
+Share acquisitions
+
+The acquiring company must file prior notification with the FTC no later than 30 days before
+completion of the share acquisition, where:
+
+•        the total amount of domestic sales 12 of the acquiring company (whether a domestic or foreign
+         company) and the other companies in the combined group of companies 13 exceeds JPY20
+         billion
+
+•        the total amount of domestic sales of the target company and its subsidiaries exceeds JPY5
+         billion, and
+
+•        as a result of the acquisition, the aggregate percentage of the total voting shares in the target
+         company held by the acquiring company and the other companies in the combined group of
+         companies exceeds 20% or 50%.
+
+An acquisition of shares on the incorporation of a wholly-owned subsidiary is not subject to this
+reporting requirement.
+
+Business and asset acquisitions
+
+The acquiring company must file prior notification with the FTC at least 30 days before completion of
+the acquisition where:
+
+•        the total amount of domestic sales of the acquiring company (whether domestic or foreign)
+         and the other companies in the combined group of companies exceeds JPY20 billion
+
+•        if the acquisition involves the company’s entire business, the company’s total amount of
+         domestic sales exceeds JPY3 billion, and
+
+•        if the acquisition involves a material part of the company’s business or all or a material part of
+         the fixed assets used in the company’s business, the total amount of domestic sales related
+         to the target business or fixed assets exceeds JPY3 billion.
+
+
+
+
+12
+   The phrase ‘total amount of domestic sales’ means the sum of the domestic sales of all of the companies that
+belong to the combined group of companies.
+13
+   The phrase ‘combined group of companies’ means a group that consists of a company and its subsidiaries and
+the ultimate parent company of the company, if any, and the subsidiaries of the ultimate parent company
+(excluding that company and its subsidiaries).
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                        276Global M&A Handbook                                                                                    Japan
+
+
+
+Mergers
+
+Both parties to a merger must file a prior notification with the FTC at least 30 days before the
+completion of the merger where:
+
+•        the total amount of the domestic sales of the combined group of companies to which one
+         company belongs exceeds JPY20 billion, and
+
+•        the total amount of domestic sales of the combined group of companies to which the other
+         company belongs exceeds JPY5 billion.
+
+A merger between a parent company and a subsidiary or between two or more subsidiaries of the
+same parent is not subject to this prior notification requirement.
+
+Company splits
+
+In company splits involving multiple transferors, all parties (i.e. including the transferee entity), must
+file a prior notification with the FTC at least 30 days before the completion of the company splits
+where certain thresholds are met.
+
+Timetable
+
+The FTC is prepared to clear transactions within Phase I (i.e. 30 calendar days) as long as they do
+not raise competition concerns and in particular where the parties have engaged in an extensive pre-
+notification process. However in cases where the FTC requests the submission by the parties of any
+reports, information or materials during the period, the deadline for the FTC’s action may be extended
+up to either 120 calendar days from the date of acceptance of the notification, or 90 calendar days
+from the date of acceptance of the reports, information or materials that the parties are requested to
+submit, whichever is later. If the transaction gives rise to serious competition issues, it can be difficult
+to predict the exact timetable, but past cases have taken between 6 to 7 months from the filing date to
+achieve clearance.
+
+4.3      Exchange of Competition-Sensitive Information and ‘Gun-Jumping’ Issues
+Although the Anti-Monopoly Act does not expressly provide any rules in relation to the exchange of
+competition-sensitive information, such information exchange should be restricted in accordance with
+the Broad Principles of Information Exchange and ‘Gun-Jumping’ set out at Appendix A when taking
+into consideration the general prohibition of unreasonable restraints of trade in Japan. There have,
+however, been no cases of enforcement in relation to gun-jumping in Japan.
+
+4.4      Anti-Bribery, Corruption and Money Laundering
+4.4.1    Anti-bribery in the public sector
+Penal Code (Act No 45 of 1907)
+
+Bribery of Japanese public officials is criminalised under the Penal Code. Specifically, under the
+Penal Code, a person who gives, offers, or promises to give a bribe (in the form of any benefit,
+including food and drink) to a Public Officer in connection with the official’s duty is guilty of bribery,
+unless such offers or promises are considered necessary as a common courtesy. Under Article 198 of
+the Penal Code, an offender can be imprisoned for a term of up to three years or be subject to a fine
+of up to JPY2.5 million.
+
+Under Article 7 of the Penal Code, a ‘Public Officer’ means, a national or local government official of
+Japan, a member of an assembly or committee of Japan, or other employees engaged in the
+performance of public duties for the government of Japan in accordance with laws and regulations.
+
+Special laws governing certain publicly funded organisations (e.g. public universities and incorporated
+administrative agencies), further expand the application of the anti-bribery provisions of the Penal
+Code to directors and employees of such organisations as ‘quasi-public officials’ (minashi koumuin).
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                     277Global M&A Handbook                                                                                     Japan
+
+
+
+Unfair Competition Prevention Act (Act No 47 of 1993; UCPA)
+
+Japan has ratified and implemented the OECD Anti-Bribery Convention - see Appendix D. The
+implementing legislation is the UCPA. Article 18(1) of UCPA provides that:
+
+‘No person shall give, or offer or promise to give, any money or other benefits to a Foreign Public
+Officer for the purpose of having the Foreign Public Officer act or refrain from acting in a particular
+way in relation to his/her duties, or having the Foreign Public Officer use his/her position to influence
+another Foreign Public Officer to act or refrain from acting in a particular way in relation to that
+officer’s duties, in order to obtain illicit gains in business with regard to international commercial
+transactions.’
+
+Violations are punishable by:
+
+•        imprisonment for a term of up to five years, and/or
+
+•        fine of up to JPY5 million.
+
+The term ‘foreign public officer’ is defined in Article 18(2) as a person who engages in:
+
+•        public services for a foreign, state, or local government
+
+•        services for an entity established under a special foreign law to carry out specific affairs in the
+         public interest
+
+•        the affairs of an enterprise of which the number of voting shares or the amount of capital
+         subscription directly owned by one or more of the foreign, state, or local governments
+         exceeds 50 percent of that enterprise’s total issued voting shares or total amount of
+         subscribed capital, or of which the number of officers (which means directors, auditors,
+         secretaries, and liquidators and other persons engaged in management of the business)
+         appointed or designated by one or more of the foreign, state, or local foreign governments
+         exceeds half of that enterprise’s total number of officers, and to which special rights and
+         interests are granted by the foreign state or local governments for performance of its
+         business, or a person specified by a Cabinet Order as an equivalent person
+
+•        public services for an international organisation (which means an international organisation
+         constituted by governments or intergovernmental international organisations), or
+
+•        the affairs under the authority of a foreign, state, or local government or an international
+         organisation, and which have been delegated by such organisation.
+
+4.4.2    Anti-bribery in the private sector
+In certain limited cases such as those involving former government owned monopolies or fiduciary
+relationships, special laws specifically governing those entities or relationships, may also subject
+private sector individuals to penal sanctions prescribed under those laws for certain acts of bribery.
+
+4.4.3    Money laundering
+The Act on Prevention of Transfer of Criminal Proceeds (Act No. 22, 2007) applies to a broad scope
+of ‘specified business operators’ including lawyers and accountants, banks and other lending
+institutions, and insurance companies, in connection with benefits or money received from drug
+related crimes or organised crime. Such entities have duties to perform ‘know-your-client’ checks to
+confirm the identity of customers when conducting certain specified dealings.
+
+4.5      Exchange Control, Foreign Investment Restrictions and Trade Regulation
+Foreign investment in Japanese companies and businesses is regulated by the FEFTA.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                      278Global M&A Handbook                                                                                             Japan
+
+
+
+Certain reporting or approval requirements may apply to direct inward investments depending on:
+
+•            the jurisdiction in which the investor is located (i.e. whether it is an approved country or not)
+
+•            the industry in which the target company or business operates (i.e. whether it is a regulated or
+             a non-regulated industry), or
+
+•            the nature of the particular asset involved (for asset acquisitions).
+
+4.5.1        Exchange controls
+One of the stated aims of the FEFTA is to liberalise foreign exchange and foreign trade − i.e. subject
+foreign investment to as little regulation and compliance duties as possible. Capital flows relevant to
+mergers and acquisitions in Japan are therefore largely free of government controls.
+
+However, cash remittances of more than JPY30 million into or out of Japan must be reported to the
+Minister of Finance (MoF). This reporting obligation is directed at and applicable to residents only. In
+practice, however, the Japanese bank involved in such remittance usually prepares and files such
+report on behalf of its customer as a service for its customer.
+
+The repatriation of profits and dividends by branches and subsidiary forms is unrestricted in Japan.
+Bond issues, whether overseas by Japanese residents or by foreign residents in Japan, do not
+require government approval. However, issues involving sums of JPY100 million or more may be
+subject to an after-the-fact reporting requirement.
+
+4.5.2        Foreign investment approvals and notifications
+Share acquisitions
+
+General case filing obligation
+
+Foreign investors (usually foreign corporations) must file an ‘after-the-fact’ report with the MoF and
+other relevant ministers through the Bank of Japan (BoJ) by the 15th day of the month following the
+month in which the investor acquires shares in a Japanese company. This filing is generally regarded
+as a mere formality and does not require extensive disclosure of information.
+
+However, no after-the-fact report is required if, as a result of the acquisition, the investor and any
+related companies do not in the aggregate hold 10% or more of the issued shares in a company.
+
+Exceptional case filing obligation
+                                                                                     14
+However, foreign investors purchasing any number of shares in a company                   in Japan must file:
+
+•            at any time during the six months prior to the acquisition, a notification, and
+
+•            within 30 days after the acquisition, an execution report, with the MoF and any other relevant
+             ministers through the BoJ.
+
+if either:
+
+•            the investor is located in a jurisdiction that is not included in the MoF list of designated
+             jurisdictions
+
+•            the target company is engaged in business in a regulated industry, or
+
+
+
+
+14
+  For the exceptional case filing obligation, the 10% threshold of aggregate holdings does not apply, except in
+case of acquisitions of the shares of a listed company (in which case the Exceptional Case Filing Obligation will
+be required only if, as a result of the acquisition, the investor and any related companies in the aggregate hold
+10% or more of the issued shares in the listed company).
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                              279Global M&A Handbook                                                                                  Japan
+
+
+
+•        the investor is Iranian and acquires shares in a company which operates a business in which
+         Iranian investment is prohibited.
+
+Regulated industries include:
+
+•        telecoms (i.e. including telecoms carriers which must be registered under Art. 9,
+         Telecommunications Business Act)
+
+•        electricity
+
+•        agriculture and fisheries
+
+•        marine and air transportation
+
+•        petroleum
+
+•        leather goods
+
+•        aerospace
+
+•        nuclear power, and
+
+•        gunpowder and armaments.
+
+Offshore share acquisitions
+
+Foreign investors who acquire shares in a non-listed company from another foreign investor need not
+file a prior notification or after-the-fact report regarding the acquisition.
+
+If the foreign investor disposing of the shares previously filed a prior notification under the FEFTA, that
+foreign investor will be required to file an after-the-fact report with the MoF.
+
+Asset acquisitions
+
+If a foreign investor acquires assets directly from a Japanese seller, the acquisition will be subject to
+certain reporting requirements under the FEFTA. The reporting requirements differ depending on the
+asset involved. For example, non-residents must report acquisitions of real property located within
+Japan to the MoF (through the BoJ) within 20 days of an acquisition of real estate. Personal property
+is generally exempt from these requirements.
+
+Mergers
+
+The Companies Act does not currently provide for mergers between foreign corporations and
+Japanese companies. A foreign investor can only participate in a merger, as the acquiring party,
+through a wholly-owned or controlled Japanese subsidiary. If a foreign investor proposes to establish
+a new company in Japan with a view to acquiring the assets of a Japanese company through a
+merger, the acquisition of shares in the new company will be subject to the reporting requirements
+and restrictions that apply under the FEFTA to share acquisitions (see above). However, the
+Companies Act does permit some acquisitions of Japanese corporations using shares in foreign
+companies (so-called ‘triangular mergers’).
+
+Changes of business purposes
+
+A change of a foreign-held company’s business purposes will also trigger a FEFTA prior notification
+requirement if that change relates to a regulated industry. A change not relating to a regulated
+industry is not subject to any prior notification or reporting requirement.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                   280Global M&A Handbook                                                                                    Japan
+
+
+
+
+4.6      Industry-Specific Regulation
+Thresholds have been established with respect to foreign ownership in certain industries. The rules
+vary for individual companies within these industries and should be checked at the time an acquisition
+is being contemplated. Foreign individuals and companies may still invest in these companies beyond
+the set caps. However, they cannot be registered as shareholders and will therefore not enjoy the
+usual shareholder rights (e.g. voting rights and dividend rights).
+
+The major industries to which these rules apply include the following.
+
+•        Telecommunications: Foreign investors are permitted to acquire 100% of the shares in all
+         Japanese telecoms companies, except for Nippon Telegraph and Telephone East
+         Corporation (NTT-East); Nippon Telegraph and Telephone West Corporation (NTT-West);
+         and Nippon Telegraph and Telephone Corporation (NTT, being the holding company of NTT-
+         East and NTT-West). Less than one-third of all of the voting rights of NTT may be foreign-
+         owned, and NTT-East and NTT-West must be owned by NTT
+
+•        Airlines: Foreign investors are permitted to acquire 33.3% of all voting rights in Japanese
+         airline companies
+
+•        Broadcasting: Foreign investors are permitted to acquire less than 20% of all voting rights in
+         general broadcasting and communications companies and other similar companies. The
+         regulations relating to broadcasting such as cable, satellite and similar companies are
+         technical; and the restrictions should be confirmed prior to any substantial acquisition in this
+         sector.
+
+In certain industries, the relevant regulator may have to be notified and in some instances its consent
+or approval sought in relation to an acquisition or merger. For example:
+
+•        Telecommunications: where the whole of a telecoms business is transferred or there is a
+         merger or a company split of a telecoms carrier, an after-the-fact notice must be provided
+         without delay to the Minister of Internal Affairs and Communications
+
+•        Stock company-type financial instruments exchange: where 5% or more of the voting rights in
+         a stock company-type financial instruments exchange is acquired, an after-the-fact notice
+         must be made without delay to the Prime Minister through the competent Local Finance
+         Bureau. Where the percentage is 20% or more, the approval of the Prime Minister is also
+         required
+
+•        Banks: M&A involving banks must be approved by the Commissioner of the Financial
+         Services Agency. If more than 5% of the voting rights in a bank are acquired, an after-the-fact
+         notice must be made within 5 business days of the acquisition to the competent local finance
+         bureau; and for 20% or more of the voting rights, approval of the Commissioner of the
+         Financial Services Agency is also necessary.
+
+5.       Transfer Taxes
+5.1      Acquisition of Shares
+Share purchase agreements are not subject to stamp duty in Japan.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                     281Global M&A Handbook                                                                                      Japan
+
+
+
+
+5.2      Acquisition of Assets
+Acquisition of assets is subject to the following taxes:
+
+Tax Type                                 Transaction                        Tax Rate
+
+Real property acquisition tax            Acquisitions of buildings          3% (residential buildings) or 4%
+                                                                            (other buildings) of the
+                                                                            appraisal value based on a
+                                                                            fixed assets tax
+
+                                         Acquisitions of land               3% of appraisal value based on
+                                                                            a fixed assets tax (or half of the
+                                                                            appraisal value based on a
+                                                                            fixed assets tax in the case of
+                                                                            residential land)
+
+Registration and licence tax             Acquisitions of real property,     2% of appraisal value based on
+                                         except land                        a fixed assets tax
+
+                                         Acquisitions of land               1.5% of appraisal value based
+                                                                            on a fixed assets tax until 31
+                                                                            March 2015 (to be extended to
+                                                                            31 March 2017 under 2015 tax
+                                                                            legislation proposals)
+
+                                         Transfer of ownership of any       Registration tax of JPY15,000
+                                         other registrable assets           per patent and JPY30,000 per
+                                         acquired from the transferor,      trademark, etc.
+                                         such as registrable intellectual
+                                         property
+
+Stamp duty                               Agreements for the acquisition
+                                                                            Progressive and are assessed
+                                         of business assets, including
+                                                                            on amount of purchase price
+                                         real property, intellectual
+                                                                            stated in the agreement.
+                                         property rights, etc., that are
+                                         prepared and executed in
+                                                                            Maximum amount of stamp duty
+                                         Japan.
+                                                                            payable is JPY600,000 on an
+                                                                            agreement involving a purchase
+                                                                            price of more than JPY5 billion.
+
+5.3      Mergers and Splits
+Mergers and company splits are subject to the following taxes:
+
+                                                       Mergers
+
+Tax Type                                 Transaction                        Tax Rate
+
+Stamp duty                               Merger agreement                   Flat rate of JPY40,000 per
+                                                                            original agreement
+
+Registration and licence tax             Acquisitions of real property      0.4% of appraisal value based
+                                                                            on a fixed assets tax
+
+                                         Transfer of statutory              Registration tax of JPY3,000
+                                         intangibles, such as patent        per patent and JPY3,000 per
+                                         registrations and trade marks      trade mark, etc.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                       282Global M&A Handbook                                                                                    Japan
+
+
+
+
+                                                  Company Splits
+
+Tax Type                                 Transaction                      Tax Rate
+
+Stamp duty                               Company split agreement/ plan    Flat rate of JPY40,000 per
+                                                                          original agreement
+
+Real property acquisition tax            Acquisitions of buildings        3% (residential buildings) or 4%
+                                                                          (other buildings) of appraisal
+                                                                          value based on a fixed assets
+                                                                          tax
+
+                                         Acquisitions of land             3% of appraisal value based on
+                                                                          a fixed assets tax (or half of the
+                                                                          appraisal value based on a
+                                                                          fixed assets tax in the case of
+                                                                          residential land). If certain
+                                                                          conditions are met, the
+                                                                          company split is not subject to
+                                                                          real estate acquisition tax.
+
+Registration and licence tax             Acquisitions of real property,   2% of appraisal value based on
+                                         except land                      a fixed assets tax
+
+                                         Acquisitions of land             1.8% until 31 March 2015; 2%
+                                                                          of appraisal value based on a
+                                                                          fixed asset tax (on or after
+                                                                          1 April 2015)
+
+                                         Transfer of statutory            Registration tax of JPY15,000
+                                         intangibles, such as patent      per patent and JPY30,000 per
+                                         registrations and trade marks    trademark, etc.
+
+5.4      Value Added Tax
+Consumption tax (similar to VAT) will be imposed at a rate of 8% on the transfer of taxable assets
+(e.g. inventory and fixed assets, both tangible and intangible). The rate will rise to 10% from 1 April
+2017. Acquisitions of shares, mergers and splits are not subject to Japanese consumption tax.
+
+6.       Employee Issues
+6.1      Method of Transfer under Local Law
+6.1.1    Acquisition of shares
+An acquisition of the shares in a corporate employer will not affect its obligations to its employees
+because the employing entity will remain the same. In practice, however, the buyer may need to
+change the working conditions of the employees if the target is moved from one company group to
+another and the buyer wishes to integrate the target’s working conditions with the working conditions
+of the other group companies.
+
+To change working conditions that have been individually agreed with each employee, the consent of
+each employee will generally be required. If those working conditions are provided for under the work
+rules or their ancillary rules, such terms can be changed for the workplace by following the procedures
+set by the Labour Standards Act. However, even if those procedures are followed, certain changes
+may still be challenged on an individual basis by employees who are detrimentally affected by the
+change. Any detrimental change in the working conditions provided under the work rules will be valid
+only when:
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                      283Global M&A Handbook                                                                                  Japan
+
+
+
+•        the employees consent to the change (detrimental changes will not be effective against non-
+         consenting employees), or
+
+•        the change is reasonable considering the circumstances as a whole taking into account
+         various factors including economic factors or business needs (Arts 9 and 10, Labour Contract
+         Act and relevant case precedents).
+
+6.1.2    Acquisition of assets/businesses
+When a business is sold, the seller must obtain the consent of any employee that the buyer proposes
+to employ (Civil Code). Any employee whom the buyer proposes not to employ will remain an
+employee of the seller. If the seller finds it necessary to dismiss any employees who choose to remain
+with it, such dismissal must meet both procedural and substantive requirements, failing which the
+dismissal may be invalidated. (See 6.4 for the substantive requirements.)
+
+A transfer of an employee to the buyer can be effected by either:
+
+•        a resignation by the employee from the seller and re-hire by the buyer, or
+
+•        a transfer of the employment contract from the seller to the buyer.
+
+In general, the resignation and re-hire process is used more frequently where the employees are
+transferred to a company outside the seller’s current group of companies; whereas the transfer of
+contract process is more frequently used where the employees are transferred within group
+companies.
+
+Both methods require the consent and co-operation of the transferring employees. The action plan for
+either method should include a comparison of the original working conditions of the employees with
+those which the buyer is in a position to offer – this will necessarily require the cooperation of both the
+buyer and the seller. The goal of this exercise is to identify the potential impact of the transfer on each
+employee and the appropriate measures to be taken to address those impacts and develop an
+approach for the consent process. To obtain consent from all of the target employees as smoothly as
+possible, it is recommended that the new working conditions offered to the employees are no less
+favourable than their existing conditions.
+
+Termination and re-hire
+
+If an employee resigns from the seller and then is re-hired by the acquirer/employer, that transferring
+employee is entitled to be paid retirement benefits accrued with the seller, upon the transfer.
+However, employees can choose to have accrued retirement benefits and other entitlements (e.g.
+pension benefits) transferred to the buyer rather than have them paid out on the transfer (and usually
+prefer this latter course). The feasibility and procedures for the transfer of such accrued entitlements
+should be carefully assessed at an early stage. Such practical issues may include portability of the
+accrued benefits as well any requirements/consents of third party benefit providers that might apply.
+See 6.3.
+
+Transfer of employment contract
+
+Employment contracts will transfer from the seller to the buyer. As a general rule, the conditions of
+employment of the employee remain unchanged after the transfer, and accrued retirement benefits
+and other entitlements will also be transferred to the buyer. In practice, however, this may result in the
+transferred employees and existing employees having different working conditions, which would not
+be viable for the buyer-employer. It may not even be possible to maintain the same benefit schemes
+for the transferred employees after the transfer due to limitations faced by the buyer. For example,
+where the buyer acquires the business through a newly established special purpose vehicle, such
+entity may not be able to meet a third-party benefit provider’s requirements for corporate enrolment
+(e.g. number of years since incorporation). Replicating the same benefits can also be difficult where
+the buyer’s benefit programs are so structurally different from those provided by the seller to its
+employees that the costs and effort required to do so may be prohibitive. See 6.3.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                    284Global M&A Handbook                                                                                 Japan
+
+
+
+The conditions of employment of the incoming/transferred employees may therefore need to be
+adjusted after the transfer, which requires very careful handling, and must follow the set procedures
+for changing working conditions as discussed in 6.1.1. In practice, the consent to such changes in
+conditions of employment should be obtained from each employee at the same time as they consent
+to the business transfer.
+
+6.1.3    Mergers and splits
+Mergers
+
+In a merger situation, the employees of the target company become employees of the merged entity
+as of the merger date by operation of law. There is no requirement for either the acquirer or target to
+obtain the consent of their respective employees to the merger itself.
+
+However, where there are differences in the employment conditions of the acquirer and the target
+company, harmonisation of the working conditions may become necessary. Working conditions may
+also need to be adjusted after the merger if the same benefit schemes cannot be maintained (see
+6.1.2). The procedures for changing the working conditions as set out in 6.1.1 must be followed in
+these circumstances.
+
+Company splits
+
+Under the company split process, as a general rule, all assets, liabilities and contracts are transferred
+with the transferring business by operation of law. The employment contracts, as with other types of
+contracts, will automatically transfer from the splitting company to the succeeding company, without
+the need to obtain the consent of each employee, under the same terms and conditions. In order to
+protect employees in a company split scenario, the Act on the Succession to Labour Contracts upon
+Company Splits (ASLCCS) sets out certain requirements concerning consultations, notices and
+objection rights as described below.
+
+To transfer employees in a company split, the splitting company must complete two types of
+consultation process:
+
+•        consultation with the labour union/employee representative (under Art. 7, ASLCCS), and
+
+•        consultation with the employees engaged in the transferring business (under Art. 5,
+         Supplementary Provisions of Act Revising a Portion of the Commercial Code etc.).
+
+The Supreme Court has held that failure to consult with the target employees may invalidate the
+transfer of the employees in a company split if:
+
+•        no consultation takes place at all, or
+
+•        the seller’s consultations or communications are insufficient and clearly do not satisfy the
+         underlying purpose behind the consultation requirement.
+
+Once the consultations are undertaken in accordance with the correct procedure and completed, the
+splitting company must send notice to:
+
+•        employees primarily engaged in the business to be succeeded to by the succeeding company
+         (core employees), and
+
+•        the employees covered under the split agreement/plan as those who will be succeeded to by
+         the succeeding company (transferring employees).
+
+Further, the splitting company must send notice to the labour unions with which it has concluded
+collective bargaining agreement(s), if there are any.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                    285Global M&A Handbook                                                                                Japan
+
+
+
+The notice requirement is framed in these two distinct ways because it is not only the Transferring
+Employees who have a right to notice. That is, all Core Employees are also entitled to notice even if
+some may not be among the Transferring Employees agreed between the buyer and the seller. This
+is significant for the purposes of the objection rights discussed below.
+
+After receipt of the above notices, the following groups of employees have a right to object either to
+being transferred, or not being transferred.
+
+•        Non-Core Employees who are included among the Transferring Employees can object to
+         being transferred, and
+
+•        Core Employees who have not been included among the Transferring Employees and are not
+         being transferred can object to not being transferred.
+
+These employees must exercise this right of objection during the period from the date of the notice
+until one day before the date of the shareholder’s resolution relating to the corporate split.
+
+6.2      Approval or Consultation Requirements
+Where a target company’s employees are unionised and a collective bargaining agreement has been
+concluded between the union and the seller, those agreements might require the seller to:
+
+•        notify the union
+
+•        engage in advance consultations with the union, and/or
+
+•        obtain the union’s consent to the proposed acquisition.
+
+Even where no collective bargaining agreement exists or one exists but does not require such
+notification, consultation and consent, it is probably advisable to properly communicate with the
+unions. The individual consent of each employee must be obtained in certain circumstances, so from
+a practical perspective, having the unions on-side can facilitate matters.
+
+Sufficient time for such union consultations should be factored in.
+
+6.3      Transfer of Benefit Schemes
+Because various types of benefit can be offered, and employees will receive different packages from
+company-to-company, it may not always be possible to directly transfer a benefit scheme in any kind
+of company re-organisation. Parties should therefore ascertain the feasibility of, and processes
+required for the transfer of each and every benefit scheme made to employees of the seller at an
+early stage.
+
+For example, take a scenario involving the transfer of pensions. Pension schemes (or retirement
+benefit plans) vary from company to company and their transfer might need the approval/involvement
+of the lead trust bank and/or government.
+
+Another example would be health insurance. Some companies enrol in a health insurance association
+(HIA) scheme. HIA is a private association authorised by the government to provide health insurance
+in the place of government health insurance. In general, HIA policies usually offer better benefits to
+employees (health coverage) than government health insurance. Parties should be aware of the fact
+that transfer of such schemes needs government authorisation.
+
+6.4      Protection against Dismissal
+Dismissal of an employee will be invalid if it is found to have been conducted in a manner which is an
+‘abuse of the employer’s right of dismissal’. A dismissal will be considered an ‘abuse’ and therefore
+null and void if it is not based on objectively reasonable grounds or is ‘not considered to be
+appropriate in general societal terms’. The courts determine whether these standards are met based
+on the circumstances of each case.
+
+
+
+
+Law stated as of 1 March 2015 © Baker & McKenzie all rights reserved                                     286
