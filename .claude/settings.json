@@ -31,7 +31,9 @@
       "Bash(convert -size 400x400 'xc:#f5f1ea' -font /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc -pointsize 260 -fill '#1c1c1a' -gravity center -annotate 0 御 '/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/assets/logo_go.png')",
       "Bash(node convert_md_to_pdf.js mitsue_frontpage.html)",
       "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/tsuemi_hime_and_the_seven_dwarfs.md\")",
-      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/つえみ姫と七人の森の精.md\")"
+      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/つえみ姫と七人の森の精.md\")",
+      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/Fairy Tale Two-Page Summary.md\")",
+      "Bash(pdfinfo \"Fairy Tale Two-Page Summary.pdf\")"
     ],
     "additionalDirectories": [
       "/tmp/mitsue_pdf"
