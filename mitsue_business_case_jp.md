@@ -1,19 +1,17 @@
-<style>
-  body { font-size: 9.5pt; line-height: 1.3; }
-  h1 { font-size: 14pt; margin: 4pt 0 1pt; }
-  h2 { font-size: 11pt; margin: 7pt 0 1pt; border-bottom: 1px solid #ccc; }
-  h3 { font-size: 9.5pt; margin: 4pt 0 1pt; }
-  p, li { margin: 1pt 0; }
-  ul, ol { margin: 2pt 0; padding-left: 18pt; }
-  table { font-size: 8.7pt; border-collapse: collapse; }
-  th, td { border: 1px solid #bbb; padding: 2pt 4pt; vertical-align: top; }
-  blockquote { margin: 3pt 0; }
-  hr { margin: 3pt 0; }
-  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
-  @media print { body { margin: 0; } }
-</style>
+<div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
+<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖プロジェクト ― 事業計画と意思決定フレームワーク</p>
+<img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
+<div style="height:105mm;"></div>
+<table style="width:100%; border-collapse:collapse; font-size:9pt;">
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
+</table>
+</div>
 
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
+<div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 ---
 

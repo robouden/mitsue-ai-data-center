@@ -203,6 +203,14 @@ async function convertToPdf(mdFile, opts = {}) {
   const tmpFile = path.join(os.tmpdir(), title + '_tmp.html');
   fs.writeFileSync(tmpFile, html, 'utf8');
 
+  const versionMatch = text.match(/Version:\s*(v[\d.]+)/) || text.match(/["'>](v\d+\.\d+[\d.]*)</);
+  const dateMatch = text.match(/Last modified:\s*([\d-]+)/) || text.match(/["'>](\d{4}-\d{2}-\d{2})</);
+  const headerText = [
+    path.basename(mdFile),
+    versionMatch ? `Version: ${versionMatch[1]}` : '',
+    dateMatch ? `Last modified: ${dateMatch[1]}` : ''
+  ].filter(Boolean).join(' &nbsp;|&nbsp; ');
+
   const browser = await puppeteer.launch({
     executablePath: puppeteer.executablePath(),
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-web-security']
@@ -221,7 +229,10 @@ async function convertToPdf(mdFile, opts = {}) {
       path: pdfFile,
       format: 'A4',
       printBackground: true,
-      margin: { top: '1.5cm', right: '1.5cm', bottom: '1.5cm', left: '1.5cm' },
+      margin: { top: '1.2cm', right: '1.5cm', bottom: '2cm', left: '1.5cm' },
+      displayHeaderFooter: true,
+      headerTemplate: `<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:8pt; color:#555; padding:0 1.5cm; text-align:right; box-sizing:border-box;">${headerText}</div>`,
+      footerTemplate: '<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:8pt; color:#999; padding:0 1.5cm; text-align:right; box-sizing:border-box;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
       timeout: 0
     });
 

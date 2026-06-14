@@ -1,26 +1,17 @@
-<style>
-  body { font-size: 9.5pt; line-height: 1.35; }
-  h1 { font-size: 15pt; margin: 4pt 0 2pt; }
-  h2 { font-size: 11pt; margin: 8pt 0 3pt; }
-  h3 { font-size: 10pt; margin: 4pt 0 2pt; }
-  h4 { font-size: 9.5pt; margin: 3pt 0 2pt; font-style: italic; }
-  p, li { margin: 2pt 0; }
-  table { font-size: 8.5pt; border-collapse: collapse; width: 100%; }
-  th, td { border: 1px solid #ccc; padding: 3pt 5pt; }
-  th { background: #f0f4ff; font-weight: bold; }
-  tr:nth-child(even) { background: #f9f9f9; }
-  .wbs-l1 { background: #dce7ff; font-weight: bold; }
-  .wbs-l2 { background: #eef3ff; font-weight: bold; }
-  .wbs-l3 { padding-left: 16pt; }
-  .wbs-l4 { padding-left: 28pt; color: #444; }
-  blockquote { margin: 4pt 8pt; padding: 4pt 8pt; background: #f8f8f8; border-left: 3px solid #6796e6; }
-  code { font-size: 8pt; background: #f0f0f0; padding: 1pt 3pt; border-radius: 2px; }
-  hr { margin: 6pt 0; }
-  .page-break { page-break-after: always; break-after: page; }
-  @media print { body { margin: 0; } }
-</style>
+<div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
+<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Work Breakdown Structure</p>
+<img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
+<div style="height:105mm;"></div>
+<table style="width:100%; border-collapse:collapse; font-size:9pt;">
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
+</table>
+</div>
 
-<p align="right">Version: v2.6 (Baseline Rev 1) &nbsp;|&nbsp; Last modified: 2026-06-10</p>
+<div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 ---
 
