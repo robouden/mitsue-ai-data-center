@@ -13,7 +13,7 @@
 ## Email 1 — Yuko Koshiba, Co-CEO, Philanthropy Advisors
 
 **To:** [yuko.koshiba@philanthropy-advisors.jp — confirm address]
-**Subject:** Mitsue Village regenerative AI project — looking forward to meeting at the Morgan Lewis event
+**Subject:** Mitsue Project (御杖プロジェクト) — looking forward to meeting at the Morgan Lewis event
 
 ---
 
@@ -66,7 +66,7 @@ https://mitsue.it
 ## Email 2 — Yuya Kato, Impact Officer, SIIF
 
 **To:** [kato@siif.or.jp — confirm address]
-**Subject:** Mitsue Village forest restoration + biomass energy project — looking forward to meeting at the Morgan Lewis event
+**Subject:** Mitsue Project (御杖プロジェクト) — looking forward to meeting at the Morgan Lewis event
 
 ---
 
