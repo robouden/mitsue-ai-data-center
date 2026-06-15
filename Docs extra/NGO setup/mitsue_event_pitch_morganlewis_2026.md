@@ -23,7 +23,7 @@
 
 ## English
 
-### Mitsue Village Regenerative AI Hub
+### Mitsue Project — 御杖プロジェクト
 *Nara Prefecture, Japan — 御杖村*
 
 **The opportunity**
@@ -60,7 +60,7 @@ The MoE Renewable Energy Promotion Grant (交付金 2/3–3/4 subsidy) opens a n
 
 ## 日本語
 
-### 御杖村 再生型AIハブ
+### 御杖プロジェクト
 *奈良県御杖村*
 
 **プロジェクトの機会**
