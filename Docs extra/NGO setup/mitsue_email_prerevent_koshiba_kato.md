@@ -128,8 +128,8 @@ https://mitsue.it
 
 | Recipient | Attach |
 |---|---|
-| Yuko Koshiba | `mitsue_event_pitch_morganlewis_2026.pdf` |
-| Yuya Kato | `mitsue_pitch_siif_2026.pdf` |
+| Yuko Koshiba | `mitsue_introduction_a4.pdf` + `mitsue_introduction_a4_jp.pdf` |
+| Yuya Kato | `mitsue_introduction_a4.pdf` + `mitsue_introduction_a4_jp.pdf` |
 
 ## Sending notes
 
