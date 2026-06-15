@@ -13,8 +13,6 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-<p align="right">バージョン: v2.5 &nbsp;|&nbsp; 最終更新: 2026-06-07</p>
-
 # 村長との面談 — トーキングポイント
 ### 御杖村長との面談
 **Rob 準備用 — 機密**
