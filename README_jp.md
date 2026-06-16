@@ -1,4 +1,4 @@
-<p align="right">バージョン: v2.4 &nbsp;|&nbsp; 最終更新: 2026-06-10</p>
+<p align="right">バージョン: v2.5 &nbsp;|&nbsp; 最終更新: 2026-06-16</p>
 
 # 御杖プロジェクト — Mitsue Project
 
@@ -160,6 +160,8 @@ flowchart LR
 ### 諮問委員会
 - **伊藤穰一（Joi Ito）** — 元MITメディアラボ所長
 - **Ray Ozzie** — ソフトウェアの先駆者；元Microsoft最高ソフトウェアアーキテクト
+- **エヴィン・ズート** — Transom 共同代表取締役
+- **ヨシコ・ズート鈴木** — Transom 共同代表取締役
 
 ### 法人形態
 - **現在：** 設立前

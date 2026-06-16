@@ -1,4 +1,4 @@
-<p align="right">Version: v2.7 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
+<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-16</p>
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -168,6 +168,8 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 - **Ray Ozzie** — Executive Chair, Blues
 - **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
 - **San Poisson** — Project Manager
+- **Evin Zoet** — Co-Representative Director, Transom
+- **Yoshiko Zoet-Suzuki** — Co-Representative Director, Transom
 
 ### Legal Structure
 - **Today:** Pre-incorporation

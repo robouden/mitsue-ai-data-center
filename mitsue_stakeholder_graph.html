@@ -84,6 +84,8 @@ const nodes = new vis.DataSet([
   // Advisors
   n('JOI',  'Joi Ito\nAI Policy · MIT · Japan Govt', 'advisor', 'Former MIT Media Lab Director. AI policy advisor to Japanese government. Member of METI AI Strategy Council & Digital Agency advisory bodies. Deep connections across Japanese tech, government, and philanthropy. Confirmed May 5 2026.'),
   n('RAY',  'Ray Ozzie\nMicrosoft',    'advisor', 'Creator of Lotus Notes. Former Microsoft CSA. Confirmed May 5 2026.'),
+  n('EVIN', 'Evin Zoet\nTransom', 'advisor', 'Co-Representative Director, Transom. Confirmed 2026-06-16.'),
+  n('YOSHIKO', 'Yoshiko Zoet-Suzuki\nTransom', 'advisor', 'Co-Representative Director, Transom. Confirmed 2026-06-16.'),
 
   // Diplomatic
   n('CONSUL', 'Sandra Pellegrom\nDutch Consul-General', 'diplomatic', 'Consul-General of Netherlands in Osaka. Potential support letter. Dutch-Japan bridge.'),
@@ -148,6 +150,8 @@ const edges = new vis.DataSet([
   // Advisors
   e('JOI', 'PROJ', 'advises'),
   e('RAY', 'PROJ', 'advises'),
+  e('EVIN', 'PROJ', 'advises'),
+  e('YOSHIKO', 'PROJ', 'advises'),
 
   // Diplomatic
   e('NL',     'CONSUL', 'employs'),

@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -54,7 +54,7 @@ These are not three separate ideas. Each one makes the others possible.
 
 **Rob Oudendijk** — Dutch electrical engineer, resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org), the global open citizen science network born after Fukushima.
 
-**Advisors:** Joi Ito (President, Chiba Institute of Technology) · Ray Ozzie (Executive Chair, Blues) · San Poisson (Project Manager) · Takuo Dome (Professor Emeritus, Osaka University) · [Advisor 5 — TBD]
+**Advisors:** Joi Ito (President, Chiba Institute of Technology) · Ray Ozzie (Executive Chair, Blues) · San Poisson (Project Manager) · Takuo Dome (Professor Emeritus, Osaka University) · Evin Zoet (Co-Representative Director, Transom) · Yoshiko Zoet-Suzuki (Co-Representative Director, Transom)
 
 A dedicated **non-profit** is being established with local residents, village leadership, forestry professionals, and academic partners.
 

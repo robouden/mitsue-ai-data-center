@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -47,6 +47,8 @@
 | レイ・オジー（Ray Ozzie） | Lotus Notes開発者。元Microsoft最高ソフトウェアアーキテクト。2026年5月5日確定                                                                                        |
 | サン・ポワソン（San Poisson） | プロジェクトマネージャー                                                                                                                                  |
 | 東面 拓雄（Takuo Dome） | 大阪大学名誉教授・いのちフォーラム代表理事。経済学史・経済思想史を専門とし、社会イノベーションの橋渡しに注力。確定 |
+| エヴィン・ズート（Evin Zoet） | Transom 共同代表取締役。2026年6月16日確定 |
+| ヨシコ・ズート鈴木（Yoshiko Zoet-Suzuki） | Transom 共同代表取締役。2026年6月16日確定 |
 
 ### 地域ステークホルダー
 | 名前                             | 役割                                                               |

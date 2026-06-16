@@ -88,6 +88,8 @@ const nodes = new vis.DataSet([
   // アドバイザー
   n('JOI', '伊藤穰一\nAI政策・MIT・日本政府', 'advisor', '元MITメディアラボ所長。AI政策アドバイザー（経産省AIストラテジー会議、デジタル庁諮問委員）。日本の技術・政府・財団界に幅広いネットワーク。2026年5月5日確定。'),
   n('RAY', 'レイ・オジー\nMicrosoft / Lotus', 'advisor', 'Lotus Notes開発者。元Microsoft最高ソフトウェアアーキテクト。2026年5月5日確定。'),
+  n('EVIN', 'エヴィン・ズート\nTransom', 'advisor', 'Transom 共同代表取締役。2026年6月16日確定。'),
+  n('YOSHIKO', 'ヨシコ・ズート鈴木\nTransom', 'advisor', 'Transom 共同代表取締役。2026年6月16日確定。'),
 
   // 外交
   n('CONSUL', 'サンドラ・ペレグロム\n在大阪オランダ総領事', 'diplomatic', '在大阪オランダ王国総領事。支援書簡の取得対象。オランダ・日本の架け橋。'),
@@ -152,6 +154,8 @@ const edges = new vis.DataSet([
   // アドバイザー
   e('JOI', 'PROJ',    '顧問'),
   e('RAY', 'PROJ',    '顧問'),
+  e('EVIN', 'PROJ',    '顧問'),
+  e('YOSHIKO', 'PROJ',    '顧問'),
   e('JOI', 'METI',    'AI政策顧問', true),
   e('JOI', 'DIGITAL', '諮問委員', true),
 

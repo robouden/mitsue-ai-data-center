@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -68,6 +68,8 @@
 
 - **[伊藤穰一](https://en.wikipedia.org/wiki/Joi_Ito)** ―― 千葉工業大学学長
 - **[レイ・オジー](https://en.wikipedia.org/wiki/Ray_Ozzie)** ―― Blues エグゼクティブチェア
+- **エヴィン・ズート** ―― Transom 共同代表取締役
+- **ヨシコ・ズート鈴木** ―― Transom 共同代表取締役
 
 プロジェクトを調整する **特定非営利活動法人(NPO法人)** を設立する準備を進めており、地域住民、村のリーダー、林業関係者、技術パートナー、研究機関の協力者を結びつける役割を担います。
 
