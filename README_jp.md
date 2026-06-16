@@ -1,3 +1,9 @@
+<style>
+  body { line-height: 1.4 !important; }
+  p, li { margin: 4px 0 !important; }
+  h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
+</style>
+
 <p align="right">バージョン: v2.5 &nbsp;|&nbsp; 最終更新: 2026-06-16</p>
 
 # 御杖プロジェクト — Mitsue Project

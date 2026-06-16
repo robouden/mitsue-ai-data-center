@@ -14,11 +14,11 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 <style>
-  html { font-size: 10.5px !important; }
-  body { line-height: 1.3 !important; }
-  p, blockquote, ul, ol, dl, table { margin: 5px 0 !important; }
-  h1, h2, h3, h4, h5, h6 { margin-top: 6px !important; margin-bottom: 3px !important; }
-  hr { margin: 6px 0 !important; }
+  html { font-size: 10.3px !important; }
+  body { line-height: 1.25 !important; }
+  p, blockquote, ul, ol, dl, table { margin: 4px 0 !important; }
+  h1, h2, h3, h4, h5, h6 { margin-top: 5px !important; margin-bottom: 3px !important; }
+  hr { margin: 5px 0 !important; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
 </style>
 
