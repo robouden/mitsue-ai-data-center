@@ -4,8 +4,6 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
-<p align="right">Version: v2.8 &nbsp;|&nbsp; Last modified: 2026-06-16</p>
-
 # Mitsue Project — 御杖プロジェクト
 
 **A 25-Year Initiative for Forest Restoration, Distributed Renewable Energy, and Community-Owned Digital Infrastructure in Rural Japan.**

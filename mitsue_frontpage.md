@@ -1,5 +1,3 @@
-<p align="right">mitsue_frontpage.md &nbsp;|&nbsp; Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
-
 ---
 
 <div align="center">

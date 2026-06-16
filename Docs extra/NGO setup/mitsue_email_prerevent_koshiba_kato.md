@@ -1,5 +1,3 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-15</p>
-
 ---
 
 # Pre-Event Introduction Emails — Morgan Lewis Impact Investing Event, July 2026

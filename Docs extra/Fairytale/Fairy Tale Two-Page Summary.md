@@ -18,8 +18,6 @@
 # Tsuemi-hime and the Seven Forest Spirits
 ### 御杖の谷の昔話
 
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-11</p>
-
 ---
 
 ### Prologue — The Ancient Gift

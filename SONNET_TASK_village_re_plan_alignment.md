@@ -1,5 +1,3 @@
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-10</p>
-
 # SONNET EXECUTION BRIEF — Roll the Village RE Plan alignment through all project artifacts
 
 **Author:** Opus (planning) · **Executor:** Claude Sonnet · **Date:** 2026-06-07
