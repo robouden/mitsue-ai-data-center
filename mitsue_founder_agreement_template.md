@@ -193,7 +193,7 @@ These are common founder-agreement issues that benefit from explicit conversatio
 4. **What happens to Rob's existing relationships** (Safecast, YR-Design) — are these separate?
 5. **What is the role of the village** in formal governance? Advisory? Veto power?
 6. **How do we add new founders** later?
-7. **What if Joi Ito or Ray Ozzie wishes to become more than an advisor?**
+7. **What if Ray Ozzie wishes to become more than an advisor?**
 8. **At what stage do we start paying salaries**, and to whom first?
 9. **What if a founder's personal financial situation changes** and they need to monetize their contribution?
 10. **How do we handle disagreement** about the pace of public announcements?

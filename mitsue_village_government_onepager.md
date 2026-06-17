@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -119,7 +119,6 @@ A dedicated **non-profit organization (NPO法人)** will be established to coord
 **San Poisson** — Project Manager
 
 **Advisors:**
-- **Joi Ito** (President, Chiba Institute of Technology)
 - **Ray Ozzie** (Executive Chair, Blues)
 - **Takuo Dome** (Professor, Osaka University Graduate School of Economics; Representative Director, Inochi Forum)
 - **Evin Zoet** (Co-Representative Director, Transom)

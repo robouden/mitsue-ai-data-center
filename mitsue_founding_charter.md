@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -92,7 +92,6 @@ The founding members of the organization are:
 
 ### 9. Advisors
 
-- **Joi Ito** — President, Chiba Institute of Technology
 - **Ray Ozzie** — Executive Chair, Blues
 - **San Poisson** — Project Manager
 - **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
@@ -171,7 +170,6 @@ ________________________
 
 ### 9. 顧問
 
-- **伊藤穰一氏** ― 元MITメディアラボ所長
 - **レイ・オジー氏** ― ソフトウェア開発の先駆者、マイクロソフト元最高ソフトウェア責任者
 - **エヴィン・ズート氏** ― Transom 共同代表取締役
 - **ヨシコ・ズート鈴木氏** ― Transom 共同代表取締役

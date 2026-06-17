@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -43,7 +43,6 @@
 ### Advisors
 | Name      | Role                                                                                                                                                                                                                                            |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Joi Ito              | Former MIT Media Lab Director; AI policy advisor to Japanese government; member of METI AI Strategy Council & Digital Agency advisory bodies; deep connections across Japanese tech, government, and philanthropy circles; confirmed May 5 2026 |
 | Ray Ozzie            | Creator of Lotus Notes; former Microsoft CSA; confirmed May 5 2026                                                                                                                                                                              |
 | San Poisson         | Project Manager                                                                                                                                                                                                                                 |
 | Takuo Dome          | Professor Emeritus, Osaka University · Director, Inochi Forum; specializes in history of economics and social innovation; confirmed |
@@ -75,7 +74,7 @@
 | 林野庁 (Forestry Agency)                    | Forestry subsidies; reforestation grants               | 伐採届出 (cutting notification); Forest Act compliance                     | Critical for forest restoration and legal timber sourcing                           |
 | Cabinet Office (内閣府)                     | 地方創生 regional revitalization grants (¥5–50M)       | —                                                                          | Digital Garden City Nation Initiative policy driver                                 |
 | 総務省 (MIC — Ministry of Internal Affairs) | Rural broadband subsidies; data center regional grants | Telecom regulation; municipal digital policy                               | Funds rural fiber; connected to Digital Garden City strategy                        |
-| デジタル庁 (Digital Agency)                 | Digital transformation grants for rural areas          | Digital infrastructure standards                                           | Joi Ito has advisory connections here; aligned with project's rural digital mission |
+| デジタル庁 (Digital Agency)                 | Digital transformation grants for rural areas          | Digital infrastructure standards                                           | Aligned with project's rural digital mission |
 | 環境省 (Ministry of Environment)            | Carbon credit support; **地域脱炭素移行・再エネ推進交付金 (2/3–3/4, via village)**; planning-support grant (funded the village RE plan) | J-Credit certification; environmental impact assessment (環境アセスメント) | Governs J-Credit scheme for forest carbon offsets. **Funds the village's RE plan & 交付金 channel: village = grant recipient, project = 官民連携 operating partner** |
 | JST (Japan Science and Technology Agency)   | R&D grants for green tech & AI                         | —                                                                          | Potential Phase 2–3 R&D co-funding                                                  |
 | 農業委員会 (Agricultural Commission)        | —                                                      | Land use permits if agricultural land involved                             | Local body; Nara Prefecture jurisdiction                                            |
@@ -92,8 +91,8 @@
 | Nippon Foundation (日本財団)      | Primary   | Social challenge grants; Asia's largest grantmaker |
 | Japan Fund for Global Environment | Primary   | Environmental conservation grants                  |
 | Toyota Foundation                 | Secondary | Community & rural projects                         |
-| MacArthur Foundation              | Stretch   | Through Joi Ito network                            |
-| Rockefeller Foundation            | Stretch   | Through Joi Ito network                            |
+| MacArthur Foundation              | Stretch   | International philanthropy alignment               |
+| Rockefeller Foundation            | Stretch   | International philanthropy alignment               |
 
 ### Japanese Corporates (potential partners)
 | Name                         | Angle                                                           |
@@ -132,7 +131,7 @@ The following table makes explicit what each key stakeholder must actually decid
 |---|---|---|
 | Village government | Koryukan use / lease terms; endorse project as 官民連携 operating partner for the 交付金; co-apply for 地域脱炭素移行・再エネ推進交付金; issue letter of interest | Phase 0–1 |
 | Mountain landowners | Sugi harvesting terms and fair compensation; participation in restoration programme | Phase 1–2 |
-| Advisory board (Ito, Ozzie, Dome) | Confirm written commitments (even informal); agree on time commitment and engagement scope | Phase 0 |
+| Advisory board (Ozzie, Dome) | Confirm written commitments (even informal); agree on time commitment and engagement scope | Phase 0 |
 | JP co-founder (TBD) | Commit to the project; agree role, time commitment, and compensation terms in Founder Agreement | Phase 0 (Gate 1 trigger if unresolved) |
 | Funders / grantmakers | Award decisions at each gate (G1 ¥3–8M; G2 ¥30–50M; G3 ¥120–290M) | Phase 1–3 |
 | Rob Oudendijk | Confirm continued availability and Japan residency; execute Founder Agreement; trigger Gate 1 hold if JP co-founder not secured | Phase 0 |
@@ -150,7 +149,6 @@ flowchart LR
     COFOUND["👤 Japanese Co-founder\n(TBD — Priority)"]
 
     subgraph Advisors["Advisors & Diplomacy"]
-        JOI["👤 Joi Ito\nAI Policy"]
         RAY["👤 Ray Ozzie"]
         NL["🇳🇱 Kingdom of Netherlands"]
     end
@@ -200,7 +198,6 @@ flowchart LR
     COFOUND --> PROJ
     SAFECAST -->|"inspires open data model"| PROJ
 
-    JOI -.->|"advises"| PROJ
     RAY -.->|"advises"| PROJ
     VILLAGE -->|"approval + Koryukan"| PROJ
     VILLAGE -->|"RE plan + 交付金 (官民連携 operating partner)"| PROJ

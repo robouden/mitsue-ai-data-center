@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -66,7 +66,6 @@
 
 アドバイザーには以下の方々が加わっております。
 
-- **[伊藤穰一](https://en.wikipedia.org/wiki/Joi_Ito)** ―― 千葉工業大学学長
 - **[レイ・オジー](https://en.wikipedia.org/wiki/Ray_Ozzie)** ―― Blues エグゼクティブチェア
 - **エヴィン・ズート** ―― Transom 共同代表取締役
 - **ヨシコ・ズート鈴木** ―― Transom 共同代表取締役

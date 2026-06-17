@@ -61,7 +61,6 @@ A **non-profit organization (NGO)** will be established to coordinate the projec
 The NGO model also makes it easier to receive **diverse funding** — government grants, private investment, philanthropic support, and corporate partnerships.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OMQ2AABAAsSNBCkLfFDZwwIgHRiywEZJWQZeZ2ao9AAD+4lyruzq+ngAA8Nr1AOH0BedHjjlfAAAAAElFTkSuQmCC)  
 **Consultants Already Involved**  
-- [**Joi Ito** — President, Chiba Institute of Technology; advisor on technology, innovation, and sustainability](https://en.wikipedia.org/wiki/Joi_Ito "https://en.wikipedia.org/wiki/Joi_Ito")  
 - [**Ray Ozzie** — Executive Chair, Blues; advisor and possible participant](https://en.wikipedia.org/wiki/Ray_Ozzie "https://en.wikipedia.org/wiki/Ray_Ozzie")  
 - **Evin Zoet** — Co-Representative Director, Transom; advisor
 - **Yoshiko Zoet-Suzuki** — Co-Representative Director, Transom; advisor

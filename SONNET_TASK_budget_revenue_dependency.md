@@ -96,7 +96,7 @@ A **single-page** funder-facing summary that consolidates content **already in**
 |---|---|---|
 | Village government | Koryukan use/lease terms; endorse project as 官民連携 operating partner; co-apply for 交付金; letter of interest | Phase 0–1 |
 | Mountain landowners | Sugi harvesting terms / compensation; participation in restoration | Phase 1–2 |
-| Advisory board (Ito, Ozzie) | Confirm named commitments in writing | Phase 0 |
+| Advisory board (Ozzie) | Confirm named commitments in writing | Phase 0 |
 | Funders / grantmakers | Award decisions at each gate | Phase 1–3 |
 
 - Mirror to `mitsue_village_government_onepager.md` + `_jp` only if it fits naturally (optional) — primary home is the stakeholders doc.

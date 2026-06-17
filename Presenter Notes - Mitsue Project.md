@@ -52,7 +52,7 @@
 
 ## 9 · Where We Are Today (May 2026)
 - Phase 0, quiet, self-funded
-- Advisors: Joi Ito, Ray Ozzie, Takuo Dome, Evin Zoet, Yoshiko Zoet-Suzuki
+- Advisors: Ray Ozzie, Takuo Dome, Evin Zoet, Yoshiko Zoet-Suzuki
 - Next: Japanese co-founder, meet Mayor, charter
 
 ## 10 · Phases & Gates

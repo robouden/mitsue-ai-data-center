@@ -28,7 +28,7 @@
 
 Hi JL,
 
-I hope you're well. It's been a while since the USJ days — I'm still in Japan, and for the past few years I've been building something quite different here: a rural revitalization project in a small mountain village in Nara called Mitsue, centred on a biomass CHP energy system, forest restoration, and a small AI data center. It has Joi Ito among its advisors, and we're now formalizing the non-profit structure.
+I hope you're well. It's been a while since the USJ days — I'm still in Japan, and for the past few years I've been building something quite different here: a rural revitalization project in a small mountain village in Nara called Mitsue, centred on a biomass CHP energy system, forest restoration, and a small AI data center. We're now formalizing the non-profit structure.
 
 I'm looking for legal guidance on the entity formation and the financing structure, and Baker McKenzie came up as the natural fit — their Tokyo team co-heads renewable energy in Japan and has deep biomass project-finance experience.
 

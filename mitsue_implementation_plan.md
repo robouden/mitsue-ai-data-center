@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.12</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.13</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -276,7 +276,7 @@ The project should pursue **multiple funding streams in parallel**, never depend
 - **Japan Fund for Global Environment (地球環境基金)** — environmental conservation grants
 - **Japan Foundation Global Partnerships grants** — rural revitalization, AI, green tech
 - **Toyota Foundation** — community and rural projects
-- **International foundations**: MacArthur, Rockefeller (less likely but possible given Joi Ito network)
+- **International foundations**: MacArthur, Rockefeller (stretch — international philanthropy alignment)
 
 #### Layer 4 — Corporate Partnerships
 - **Dutch corporates in Japan**: Philips, ASML, Heineken, Royal HaskoningDHV (water expertise), Arcadis
@@ -336,7 +336,7 @@ These are the benefits that funders, the village, and partners can be told about
 - Open data and open methodology — measurable, transparent outcomes
 - Strong storytelling value (Dutch-Japanese, rural-tech, community-driven)
 - Alignment with Digital Garden City Nation initiative and 地方創生 priorities
-- Credible advisory bench (Joi Ito, Ray Ozzie)
+- Credible advisory bench (Ray Ozzie)
 
 ### Quantitative Returns — Framework and Illustrative Ranges
 
@@ -433,7 +433,7 @@ Different audiences need different orderings of the same underlying story. The d
 2. **Schedule informal meeting** with Mitsue village mayor
 3. **Reach out to 1–2 candidate 行政書士** in Nara for initial consultations
 4. **Draft a 2-page charter** in Japanese and English
-5. **Confirm advisory commitments** from Joi Ito and Ray Ozzie in writing (even informal)
+5. **Confirm advisory commitments** from Ray Ozzie in writing (even informal)
 6. **Open a project Slack/Signal/email list** for the founding team
 
 ---

@@ -133,7 +133,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Initial meeting with the local forestry group (early 2026)
 - Drafted founding charter and detailed implementation plan (April 2026)
 - Phase and funding-gate flowchart published (May 2026)
-- Advisory commitments confirmed: Joi Ito and Ray Ozzie (confirmed May 5, 2026)
+- Advisory commitment confirmed: Ray Ozzie (confirmed May 5, 2026)
 - Work Breakdown Structure (WBS) and EVM baseline established — Baseline Rev 1 (May 2026)
 - Bilingual trifold brochures prepared in A3 and A4 formats, EN and JP (May 2026)
 - Two-page A4 project introduction prepared, EN and JP (May 2026)
@@ -142,7 +142,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Q&A briefing document prepared (May 2026)
 - Research brief prepared, EN and JP (May 2026)
 
-- HIGHRESO outreach email drafted; pending warm introduction via Joi Ito (May 2026)
+- HIGHRESO outreach email drafted (May 2026)
 
 ### In Progress
 - Identifying a Japanese co-founder with rural credibility (top priority)
@@ -168,7 +168,6 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 - Additional founding members — to be confirmed (target: 3–5 total)
 
 ### Advisory Board
-- **Joi Ito** — President, Chiba Institute of Technology
 - **Ray Ozzie** — Executive Chair, Blues
 - **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
 - **San Poisson** — Project Manager
@@ -281,7 +280,7 @@ This repository holds the working documents that govern the project's first thre
 | `Mitsue_Research_Brief_jp.md` / `.pdf` | Japanese research brief |
 | `mitsue_project_overview_pellegrom.md` / `.pdf` | Project overview prepared for the Dutch consulate (EN) |
 | `mitsue_letter_pellegrom_support_request.md` / `.pdf` | Support request letter to Pellegrom — Dutch and English |
-| `mitsue_email_highreso_intro.md` | Draft outreach email to HIGHRESO (EN/JP; pending Joi Ito warm introduction) |
+| `mitsue_email_highreso_intro.md` | Draft outreach email to HIGHRESO (EN/JP) |
 
 **Policy alignment**
 

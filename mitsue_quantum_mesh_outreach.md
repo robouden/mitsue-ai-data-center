@@ -38,7 +38,7 @@ They are backed by and operationally tied to **8M Capital** (https://8m.fund/), 
 ### 1. Identify the right contact at Quantum Mesh
 - Find a named contact via the 8M Capital network or via the Takahama Town municipal agreement press release
 - Do **not** use the public contact form as a first approach — a warm intro is strongly preferred
-- Check whether Joi Ito or the HIGHRESO network has a connection into 8M Capital / Quantum Mesh
+- Check whether the HIGHRESO network or any project advisor has a connection into 8M Capital / Quantum Mesh
 
 ### 2. Request KAMUI γ pricing and technical specs
 - Specifically: KAMUI γ (< 1m² all-in-one unit, launched April 2026)

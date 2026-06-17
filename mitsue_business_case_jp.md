@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -105,7 +105,7 @@
 | **財団** | ミッション限定の補助 | 測定可能なSDGs／インパクト成果、強い物語 | オープンな方法論；透明な報告 |
 | **森林組合／山林所有者** | 杉伐採の許諾；再生事業への参加 | 公正な伐採対価；J-Credit収入；獣害軽減 | 第1段階の契約；村の後ろ盾 |
 
-**履行能力の証拠**（「どう確信できるか」への答えを集約）：創業者のSafecastでの実績；著名な顧問陣（伊藤穰一、レイ・オジー）；村が*既に採択済み*の再エネ計画；オープンデータ・オープン方法論の約束；そしてすべてのコミットを条件付き・可逆にするゲート構造。
+**履行能力の証拠**（「どう確信できるか」への答えを集約）：創業者のSafecastでの実績；著名な顧問陣（レイ・オジー）；村が*既に採択済み*の再エネ計画；オープンデータ・オープン方法論の約束；そしてすべてのコミットを条件付き・可逆にするゲート構造。
 
 ## 4. プロジェクト全体のリターン・感応度・Go/No-Go
 

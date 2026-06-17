@@ -26,7 +26,7 @@ Baker & McKenzie runs a firm-wide **pro bono and CSR programme** aligned with th
 Practical realities to keep in mind:
 
 1. **Tokyo office only.** They have no Kansai/Osaka office. Pro bono support would be remote; local Nara/御杖村 administrative filings may still need a Kansai-based 司法書士 / 行政書士 alongside. Frame the ask around the work where a global firm adds most value (structure, contracts, grant/financing terms, governance), not routine local filings.
-2. **No public pro bono application form.** The intake route is the general inquiry form; a **warm introduction is far stronger** than a cold one. If any advisor (e.g. Joi Ito) has a contact at the firm, use it.
+2. **No public pro bono application form.** The intake route is the general inquiry form; a **warm introduction is far stronger** than a cold one. If any advisor or board member has a contact at the firm, use it.
 3. **Be specific and modest in the first ask.** Name a small, well-defined scope (e.g. review of the 一般社団法人 定款 / governance, or one financing/PPA structuring question) — not "represent us." Pro bono teams are capacity-limited and respond best to a clear, bounded request.
 4. **Lead with mission fit.** Non-profit + environment + SDG-aligned + open-source/open-data. Make the public-benefit nature unmistakable in the first lines.
 
@@ -134,4 +134,4 @@ Project: https://mitsue.it
 - **Scope discipline:** Keep the first ask bounded (定款 review / one financing question). Do not request full representation up front.
 - **Don't lead with** funding totals, the gap figure, or commercial-sounding asks — frame as public-benefit / mission fit.
 - **Follow-up:** If no reply in ~21 days, one short polite follow-up, then leave it.
-- **Warm intro:** Before sending cold, check whether Joi Ito or another advisor has a Baker & McKenzie contact — it materially improves the odds.
+- **Warm intro:** Before sending cold, check whether any advisor or board member has a Baker & McKenzie contact — it materially improves the odds.

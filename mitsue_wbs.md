@@ -376,7 +376,7 @@ The most structurally important phase. The feasibility studies produced here det
 
 | Item | Detail |
 |------|--------|
-| Scope | Advisory board formalization (letters of commitment from Joi Ito, Ray Ozzie, others); initial bilingual website live; funding pipeline documentation; grant calendar setup |
+| Scope | Advisory board formalization (letters of commitment from Ray Ozzie and others); initial bilingual website live; funding pipeline documentation; grant calendar setup |
 | Owner | Representative Director |
 | Budget | ¥0.8M |
 | Deliverables | Signed advisory board letters; live website; grant application calendar for Phase 2 |

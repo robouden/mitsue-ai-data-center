@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Websites/Mitsue it/mitsue-v2"
 		}
 	]
 }

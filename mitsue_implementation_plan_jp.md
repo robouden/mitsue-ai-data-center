@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.12</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.13</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -247,7 +247,7 @@ PUE 1.2は空冷・空き施設活用型の現実的な計画値（HIGHRESO社�
 - **地球環境基金** ― 環境保全助成金  
 - **国際交流基金グローバル・パートナーシップ助成金** ― 農村再生、AI、グリーンテック  
 - **トヨタ財団** ― 地域・農村事業  
-- **国際財団**: マッカーサー財団、ロックフェラー財団(可能性は低いが、伊藤穰一氏のネットワーク経由で開ける可能性あり)  
+- **国際財団**: マッカーサー財団、ロックフェラー財団（発展的候補 ― 国際フィランソロピー連携）  
 ***第4層 ― 企業提携***  
 - **日本進出オランダ企業**: フィリップス、ASML、ハイネケン、Royal HaskoningDHV(水管理専門)、Arcadis  
 - **日本のテック企業**: ソフトバンク、NTT(データセンター・通信)、日立  
@@ -297,7 +297,7 @@ PUE 1.2は空冷・空き施設活用型の現実的な計画値（HIGHRESO社�
 - オープンデータとオープンな手法 ― 測定可能で透明性の高い成果  
 - 強い物語性(日蘭、農村×技術、地域主導)  
 - デジタル田園都市国家構想および地方創生施策との整合  
-- 信頼性のある顧問陣(伊藤穰一氏、レイ・オジー氏)  
+- 信頼性のある顧問陣（レイ・オジー氏）  
 **定量的なリターン ― 枠組みと目安となる範囲**  
 定量的な根拠は、5つの収益・節減カテゴリーに基づきます。**以下の数値は初期段階の目安であり**、第1段階のフィージビリティスタディにて精査された数値に置き換えられます。  
 | | | | | |  
@@ -377,7 +377,7 @@ ROIを正しく評価するには、本プロジェクトが何を**代替**ま�
 2. 御杖村長との非公式面談の設定  
 3. 奈良県内の候補となる行政書士1〜2名への初回相談  
 4. 日本語と英語の2ページ憲章草案の作成  
-5. 伊藤穰一氏とレイ・オジー氏からの顧問就任の書面確認(非公式でも可)  
+5. レイ・オジー氏からの顧問就任の書面確認（非公式でも可）  
 6. 創設チーム用のSlack・Signal・メーリングリストの開設  
    
 
