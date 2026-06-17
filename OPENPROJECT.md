@@ -188,25 +188,42 @@ docker compose up -d
 
 ### Patched Image
 
-The official `openproject/openproject:16` image is patched to unlock Gantt PDF export (enterprise feature). The patch is defined in `/opt/openproject/Dockerfile`:
+The official `openproject/openproject:17.5.0` image is patched to unlock Gantt PDF export (enterprise feature). The patch is defined in `/opt/openproject/Dockerfile`:
 
 ```dockerfile
-FROM openproject/openproject:16
+FROM openproject/openproject:17.5.0
 
-RUN sed -i 's/EnterpriseToken.allows_to?(:gantt_pdf_export)/true/' \
-    /app/app/components/work_packages/exports/pdf/export_settings_component.rb && \
-    sed -i 's/render_403 unless EnterpriseToken.allows_to?(:gantt_pdf_export)/# gantt export allowed/' \
-    /app/app/helpers/work_packages_controller_helper.rb
+RUN set -e \
+ && sed -i 's/EnterpriseToken.allows_to?(:gantt_pdf_export)/true/' \
+        /app/app/components/work_packages/exports/pdf/export_settings_component.rb \
+ && if grep -q 'EnterpriseToken.allows_to?(:gantt_pdf_export)' \
+        /app/app/components/work_packages/exports/pdf/export_settings_component.rb; then \
+      echo 'PATCH FAILED: gantt patch 1 did not fully apply'; exit 1; \
+    fi \
+ && sed -i 's/render_403 unless EnterpriseToken.allows_to?(:gantt_pdf_export)/# gantt export allowed/' \
+        /app/app/helpers/work_packages_controller_helper.rb \
+ && if grep -q 'render_403 unless EnterpriseToken.allows_to?(:gantt_pdf_export)' \
+        /app/app/helpers/work_packages_controller_helper.rb; then \
+      echo 'PATCH FAILED: gantt patch 2 did not fully apply'; exit 1; \
+    fi
 ```
+
+The `if grep -q` checks make the build **fail loudly** if a patch doesn't apply (e.g. after an upstream code change), instead of silently deploying a broken image.
 
 To rebuild after an OpenProject version upgrade:
 ```bash
 ssh root@80.208.225.44
 cd /opt/openproject
-# Update version in Dockerfile, then:
-docker build -t openproject-patched:16 .
+# Update version tag in Dockerfile (FROM line), then:
+docker build -t openproject-patched:17 .
 docker compose up -d
 ```
+
+### SECRET_KEY_BASE (required from v17)
+
+v17 enforces a `SECRET_KEY_BASE` environment variable. It is set in `docker-compose.yml` under `x-op-app.environment`. If missing, all app containers exit on startup with an "INSECURE SECRET_KEY_BASE DETECTED" error.
+
+Generate a new value with: `openssl rand -hex 64`
 
 ### Boot Behavior
 
