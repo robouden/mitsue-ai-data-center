@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.10</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -47,13 +47,13 @@ The project's **primary energy source is biomass combined heat and power (CHP)**
 
 The forestry programme is focused on **replacing aged sugi (cedar) plantations with native broadleaf species** — ecological restoration that heals land that has been depleted for generations. Thinning the aged sugi serves both purposes: it heals the forest and generates the biomass fuel feedstock. Native broadleaf trees (konara oak, kunugi, chestnut) provide food for deer, wild boar, and bear, reducing wildlife raids on crops, and support long-term carbon sequestration via J-Credit certification.
 
-**Premises note:** the Koryukan is the leading candidate for the Phase-1 site; the final choice — it or another underused village building — is confirmed in Phase 1. The dome school is a *separate* building, in its own bidding process, and is not part of this project.
+**Premises note:** the former Sugano Elementary School (Koryukan) is the leading candidate for the Phase-1 site; the final choice — it or another underused village building — is confirmed in Phase 1. The dome school is a *separate* building, in its own bidding process, and is not part of this project.
 
 このプロジェクトの**主たるエネルギー源は、杉（スギ）林の間伐材を燃料とするバイオマス熱電併給（CHP）**であり、電力（主たる出力）と熱（副次的な出力）を生み出します。これを太陽光発電（間欠的・補完的）が補い、EV充電ステーションをはじめとする地域サービスや蓄電池・停電レジリエンスを支えます。蓄電池はフィージビリティスタディで評価します。こうして「森が村を動かす」循環型の地域エネルギー経済が実現します。
 
 林業の方針については：老齢化した杉の人工林を在来種の広葉樹（コナラ・クヌギ・クリなど）へ転換する**生態的な森林再生**を進めます。在来広葉樹はシカ・イノシシ・クマの食料を供給し、野生動物を森に留め、農作物への被害を軽減します。J-Creditによる炭素固定収入も山林所有者の長期的な財源となります。
 
-**拠点について：** 交流館は第1段階の拠点の有力候補で、最終選定（交流館または他の未活用の村の建物）は第1段階で確定します。ドーム校舎は*別の*建物であり、独自の入札プロセスにあり、本プロジェクトの対象外です。
+**拠点について：** 旧菅野小学校（体験交流館）は第1段階の拠点の有力候補で、最終選定（旧菅野小学校または他の未活用の村の建物）は第1段階で確定します。ドーム校舎は*別の*建物であり、独自の入札プロセスにあり、本プロジェクトの対象外です。
 
 ---
 
@@ -64,7 +64,7 @@ The forestry programme is focused on **replacing aged sugi (cedar) plantations w
 Yes — and rural EV owners are among the most underserved. Japan's national policy aims for plug-in vehicles to reach 30–40% of new car sales by the mid-2030s, though the total share of EVs on all roads is projected at only around 10–15% by 2036 — a gradual transition, not an overnight switch. Rural areas are at greater disadvantage in this shift: existing charging infrastructure is concentrated in cities, while rural residents who travel long distances need reliable local charging most. Key points:
 
 - Mitsue residents who own EVs currently have no public charging within the village. Home charging requires overnight access and stable power — not always available.
-- The Koryukan site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
+- The former Sugano school (Koryukan) site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
 - EV charging also attracts visitors (hikers, tourism, day-trippers from Nara/Osaka) who will need to charge while visiting.
 - Revenue from charging fees contributes to project sustainability from Year 3 onwards.
 
@@ -72,7 +72,7 @@ Yes — and rural EV owners are among the most underserved. Japan's national pol
 
 Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location makes it vulnerable to outages during typhoons, heavy snowfall, and other weather events. Key points:
 
-- The project's on-site biomass CHP generation provides 24/7 baseload power and, combined with complementary solar and battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the Koryukan and adjacent facilities during a grid outage.
+- The project's on-site biomass CHP generation provides 24/7 baseload power and, combined with complementary solar and battery storage (to be evaluated in Phase 1 and added if confirmed), can be configured to supply the former Sugano school (Koryukan) and adjacent facilities during a grid outage.
 - This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down — and unlike solar alone, biomass CHP runs through the night and through extended bad-weather outages.
 - Battery capacity will be specified during Phase 2 feasibility (months 10–18). Preliminary estimates suggest a system supporting 12–48 hours of critical-load operation during an outage.
 - The data center's uninterruptible power supply (UPS) infrastructure, already required for its own operations, forms the backbone of this community resilience capability at minimal additional cost.
@@ -92,7 +92,7 @@ The data center is what turns an energy project into a development project.
 
 Yes. The 25-year horizon applies to forest restoration ecology, not to community benefit. Tangible benefits arrive much sooner — see the early-benefits table in [mitsue_village_government_onepager.md](mitsue_village_government_onepager.md). Highlights:
 
-- **Year 1**: Taiken Koryukan reactivated as datacenter hub; domestic and international media coverage; first researcher and student visits.
+- **Year 1**: Former Sugano school (Koryukan) reactivated as datacenter hub; domestic and international media coverage; first researcher and student visits.
 - **Year 2**: First forestry contracts → direct cash income to private landowners.
 - **Year 3–4**: EV charging stations operational; battery storage if confirmed by feasibility study.
 - **Year 4–5**: Data center hires local staff; hosting and energy revenue real; village becomes a study-tour destination.
@@ -180,7 +180,7 @@ See `mitsue_village_re_plan_alignment.md` for the full analysis. *Source: 御杖
 
 ございます。25年という時間軸は森林再生の生態的な期間であり、村への効果はもっと早く現れます。
 
-- **1年目**: 体験交流館の活用開始、国内外メディアによる発信、研究者・学生の来訪。
+- **1年目**: 旧菅野小学校（体験交流館）の活用開始、国内外メディアによる発信、研究者・学生の来訪。
 - **2年目**: 最初の林業契約 → 山林所有者への直接的な現金収入。
 - **3〜4年目**: EV充電ステーション稼働開始、停電レジリエンス向けの蓄電池設置。
 - **4〜5年目**: データセンターの地域雇用、ホスティング料・電力販売による実収入。

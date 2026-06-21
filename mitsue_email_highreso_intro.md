@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-14</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -68,10 +68,10 @@ A formal partnership ask should only come after points 1–3 have established mu
 
 オランダ出身で、現在奈良県御杖村において小規模AIデータセンターを核とした地域再生プロジェクトを準備しております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
-貴社のSDGsに関するお取り組みを拝見し、特に**空き施設を活用された空冷型データセンター運営**、ならびに**PUE 1.1未満を実現されている設計思想**に深く感銘を受けました。私どもが御杖村の体験交流館（御杖体験交流館）を活用して目指している方向と、まさに同じ方向性を、より大きなスケールで実現されている貴社のご経験から、ぜひ学ばせていただきたく存じます。
+貴社のSDGsに関するお取り組みを拝見し、特に**空き施設を活用された空冷型データセンター運営**、ならびに**PUE 1.1未満を実現されている設計思想**に深く感銘を受けました。私どもが御杖村の旧菅野小学校（御杖体験交流館）を活用して目指している方向と、まさに同じ方向性を、より大きなスケールで実現されている貴社のご経験から、ぜひ学ばせていただきたく存じます。
 
 **御杖村プロジェクトの概要（簡略）:**
-- 奈良県御杖村の体験交流館（御杖体験交流館）を活用した、小規模AI／エッジコンピューティング・データセンター（サーバー10〜20台規模）
+- 奈良県御杖村の旧菅野小学校（御杖体験交流館）を活用した、小規模AI／エッジコンピューティング・データセンター（サーバー10〜20台規模）
 - 個人所有の太陽光発電・EV充電インフラを統合した地産地消型エネルギー設計（蓄電池はフィージビリティスタディで評価）
 - 25年スケールの森林再生と林業再活性化を併せて推進
 - 御杖村が環境省補助で策定した公式の再エネ導入最大化計画（2025年）と整合し、その実行を担う位置づけ（政策的裏付けのある取り組みです）
@@ -105,10 +105,10 @@ I am writing to introduce the Mitsue Village Project. While researching repurpos
 
 My name is Rob Oudendijk, a Dutch national currently preparing a rural revitalization project in Mitsue Village (御杖村), Nara Prefecture, centered on a small-scale AI data center.
 
-I reviewed your SDGs page and was deeply impressed by your **air-cooled data centers in repurposed buildings** and your **published PUE target of under 1.1**. The direction you are realizing at scale is essentially the same direction we are aiming for at a much smaller scale in Mitsue, repurposing the Mitsue Taiken Koryukan (a community exchange center).
+I reviewed your SDGs page and was deeply impressed by your **air-cooled data centers in repurposed buildings** and your **published PUE target of under 1.1**. The direction you are realizing at scale is essentially the same direction we are aiming for at a much smaller scale in Mitsue, repurposing the former Sugano Elementary School (Mitsue Taiken Koryukan).
 
 **Project at a glance:**
-- Small AI / edge-compute data center (~10–20 servers) in the Mitsue Taiken Koryukan (community exchange center), Mitsue Village, Nara
+- Small AI / edge-compute data center (~10–20 servers) in the former Sugano Elementary School (Mitsue Taiken Koryukan), Mitsue Village, Nara
 - Integrated locally-generated renewable energy (privately owned solar PV + EV charging; battery storage subject to feasibility study)
 - Paired with a 25-year forest restoration and forestry revitalization programme
 - Aligned with Mitsue Village's official MoE-funded Renewable Energy Plan (2025), with the project positioned as its implementation vehicle (a policy-backed initiative)

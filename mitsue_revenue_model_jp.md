@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -45,7 +45,7 @@
 本プロジェクトは既存コストの*代替または回避*をもたらします：
 
 - **エネルギー輸入の代替**：御杖村の住民・事業者は現在、電力のほぼ100%を域外から購入しています。地産電力への転換により、村の経済圏から流出する年間**約4,000万〜6,000万円**のエネルギー支出を代替します。
-- **体験交流館の維持費負担**：交流館は現状、収益ゼロのまま村に年間**約300万〜800万円**の維持費を課しています。データセンター拠点として活用することで、塩漬け資産を価値創出施設に転換します。
+- **旧菅野小学校の維持費負担**：旧菅野小学校（体験交流館）は現状、収益ゼロのまま村に年間**約300万〜800万円**の維持費を課しています。データセンター拠点として活用することで、塩漬け資産を価値創出施設に転換します。
 - **森林管理の負債**：手入れされない杉人工林は生態的（花粉・生物多様性損失）・物理的（土砂崩れ・火災リスク）な負債です。能動的な林業管理により、負債を燃料・木材収入に転換します。
 
 ---

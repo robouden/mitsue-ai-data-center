@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -18,17 +18,17 @@
 # The Mitsue Project
 ### Ecology · Energy · Digital Infrastructure for Rural Japan
 
-*A 25-year initiative to revitalise the Mitsue Taiken Koryukan community center and the forest that surrounds it*
+*A 25-year initiative to revitalise the former Sugano Elementary School and the forest that surrounds it*
 
 ---
 
 ## What the Project Is
 
-The Mitsue Project transforms the **Mitsue Taiken Koryukan** — a community exchange center available for reuse, the leading candidate site (final choice confirmed in Phase 1) — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
+The Mitsue Project transforms the **former Sugano Elementary School (Mitsue Taiken Koryukan)** — a community exchange center available for reuse, the leading candidate site (final choice confirmed in Phase 1) — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades. Thinning the sugi also yields the biomass fuel that powers the village. Native broadleaf trees feed deer, wild boar, and bear — keeping wildlife in the forest and out of crop areas
 - **Biomass CHP energy** — Sugi forest thinnings fuel a combined heat and power (CHP) system generating electricity (primary) and heat (secondary), complemented by solar panels and EV charging for residents and visitors, with battery backup during grid outages. A circular local energy economy where the forest powers the village. Battery storage to be evaluated in feasibility study
-- **Sustainable AI data center** — A small, efficient digital facility starting inside the Mitsue Taiken Koryukan, powered entirely by local energy, providing infrastructure and employment where none existed. Phase 2 expands into a larger old factory building in Mitsue. A working model of progress and sustainability as a single coherent system
+- **Sustainable AI data center** — A small, efficient digital facility starting inside the former Sugano school (Koryukan), powered entirely by local energy, providing infrastructure and employment where none existed. Phase 2 expands into a larger old factory building in Mitsue. A working model of progress and sustainability as a single coherent system
 
 These are not three separate ideas. Each one makes the others possible.
 
@@ -38,7 +38,7 @@ These are not three separate ideas. Each one makes the others possible.
 
 | Challenge | How the Project Responds |
 |---|---|
-| Taiken Koryukan vacant, underused | Repurposed as Phase 1 data center & community anchor; Phase 2 expands to old factory |
+| Former Sugano school vacant, underused | Repurposed as Phase 1 data center & community anchor; Phase 2 expands to old factory |
 | Cedar monoculture — ecologically depleted | Systematic conversion to native mixed forest |
 | Energy system needs reliable round-the-clock demand | Data center provides 24/7 baseload demand that justifies the biomass CHP and solar investment |
 | Rural grid dependency, no local power | Biomass CHP from sugi thinnings (electricity + heat) as the primary supply, complemented by solar, EV charging, and battery storage |
@@ -62,7 +62,7 @@ A dedicated **non-profit** is being established with local residents, village le
 
 ## Why It Can Work Here
 
-Mitsue has what most villages lack: the Mitsue Taiken Koryukan available for reuse, productive cedar forest within reach, a river for water cooling, and a resident with both the technical background and the deep local relationships to bridge these worlds.
+Mitsue has what most villages lack: the former Sugano Elementary School (Koryukan) available for reuse, productive cedar forest within reach, a river for water cooling, and a resident with both the technical background and the deep local relationships to bridge these worlds.
 
 <div class="page-break"></div>
 
@@ -76,7 +76,7 @@ The 25-year horizon describes full forest restoration — not how long the villa
 
 | Timeline | Milestone |
 |---|---|
-| **Year 1** | Taiken Koryukan reactivated as datacenter hub; international media visibility for Mitsue |
+| **Year 1** | Former Sugano school (Koryukan) reactivated as datacenter hub; international media visibility for Mitsue |
 | **Year 2** | Landowners begin receiving income from cedar harvest |
 | **Year 3–4** | EV charging stations operational; battery storage if confirmed by feasibility study |
 | **Year 4–5** | Data center operational; local employment in operations and maintenance |

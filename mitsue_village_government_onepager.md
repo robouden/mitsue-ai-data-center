@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -29,7 +29,7 @@
 
 ## What We Propose
 
-To repurpose the **Mitsue Taiken Koryukan** (御杖体験交流館) — an available community exchange center and the leading candidate site (final choice confirmed in Phase 1) — as a **community sustainability center** that will:
+To repurpose the **former Sugano Elementary School (Mitsue Taiken Koryukan / 御杖体験交流館)** — an available community exchange center and the leading candidate site (final choice confirmed in Phase 1) — as a **community sustainability center** that will:
 
 1. Restore aging cedar (sugi) plantations to healthy native forest — native broadleaf trees feed local wildlife, reducing crop raids by deer, wild boar, and bear; thinning the sugi also generates biomass fuel for the village energy system
 2. Generate the village's electricity and heat from sugi forest thinnings through a biomass CHP system — a circular energy economy where the forest powers the village, complemented by solar, EV charging, and community backup power (battery storage subject to feasibility study)
@@ -56,7 +56,7 @@ The Mitsue Project is the **implementation and operating vehicle (官民連携 �
 - **Lower energy costs** — locally generated biomass and solar power for the village
 - **Circular forest-to-energy economy** — sugi thinnings fuel the village's biomass CHP system, turning a forest liability into local energy
 - **EV charging infrastructure** — Mitsue prepared for the coming shift to electric vehicles, powered by the local energy system
-- **New use for the Taiken Koryukan** — preserving and honoring an important community facility
+- **New use for the former Sugano school (Koryukan)** — preserving and honoring an important community facility
 - **Reduced cedar pollen** — gradual replacement of sugi with native species over decades
 - **Reduced wildlife crop damage** — restored native forest provides natural food for deer, wild boar, and bear, keeping them out of agricultural areas
 - **Broadband and digital infrastructure** — improved connectivity for residents and businesses
@@ -70,7 +70,7 @@ The 25-year horizon applies to forest restoration ecology. Concrete benefits to 
 
 | Year | Tangible benefit to the village |
 |------|--------------------------------|
-| 1 | Taiken Koryukan reactivated as datacenter hub; village named in domestic and international press; first researcher and student visits |
+| 1 | Former Sugano school (Koryukan) reactivated as datacenter hub; village named in domestic and international press; first researcher and student visits |
 | 2 | First forestry contracts → direct cash income to private mountain owners |
 | 2–3 | Reduced sugi pollen and landslide risk in actively managed plots |
 | 3–4 | EV charging stations operational; battery storage if confirmed by feasibility study |
@@ -84,7 +84,7 @@ The 25-year horizon applies to forest restoration ecology. Concrete benefits to 
 Precise figures will come from Phase 1 feasibility studies, but early-stage estimates suggest meaningful local economic value:
 
 - **Energy currently imported**: approximately ¥40–60M per year leaves Mitsue's local economy as electricity payments. Local generation keeps a portion of this value within the village.
-- **Taiken Koryukan maintenance**: currently ¥3–8M per year in upkeep with no return. Active use generates value from a previously stranded asset.
+- **Former Sugano school maintenance**: currently ¥3–8M per year in upkeep with no return. Active use generates value from a previously stranded asset.
 - **Direct employment**: an estimated 8–15 local jobs by Year 5 (forestry, facility operations, EV charging, administration).
 - **Landowner income**: new revenue streams for private mountain owners through sustainable cedar harvesting.
 - **Combined annual economic activity** by Year 5 (estimated): ¥28–67M, with a meaningful share retained locally.

@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-07</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -228,7 +228,7 @@ The Japanese government is actively subsidizing exactly the components of the Mi
 
 ## **The Key Argument**
 
-90% of Japan’s data centers are in two metropolitan regions. 90% of Japan’s forests are not. Mitsue has 88% forest cover, the available Mitsue Taiken Koryukan (community exchange center; leading candidate site, final choice in Phase 1), existing biomass infrastructure (Mitsue Onsen boiler), and proximity to the Kintetsu Nabari corridor. The convergence is not coincidental — it is a design opportunity.
+90% of Japan’s data centers are in two metropolitan regions. 90% of Japan’s forests are not. Mitsue has 88% forest cover, the available former Sugano Elementary School (Mitsue Taiken Koryukan; leading candidate site, final choice in Phase 1), existing biomass infrastructure (Mitsue Onsen boiler), and proximity to the Kintetsu Nabari corridor. The convergence is not coincidental — it is a design opportunity.
 
 ## **Comparable Precedents**
 

@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -228,7 +228,7 @@
 
 ## **核心的な論拠（The Key Argument）**
 
-日本のデータセンターの90%は2つの大都市圏に集中しています。日本の森林の90%はそこにありません。御杖村には、88%の森林率、活用可能な御杖体験交流館（地域交流施設。拠点の有力候補、最終選定は第1段階）、既存のバイオマスインフラ（御杖温泉のボイラー）、そして近鉄名張コリドーへの近接性があります。この収斂は偶然ではなく、設計された機会です。
+日本のデータセンターの90%は2つの大都市圏に集中しています。日本の森林の90%はそこにありません。御杖村には、88%の森林率、活用可能な旧菅野小学校（御杖体験交流館。拠点の有力候補、最終選定は第1段階）、既存のバイオマスインフラ（御杖温泉のボイラー）、そして近鉄名張コリドーへの近接性があります。この収斂は偶然ではなく、設計された機会です。
 
 ## **比較可能な先行事例（Comparable Precedents）**
 

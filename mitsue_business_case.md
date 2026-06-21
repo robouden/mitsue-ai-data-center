@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -64,7 +64,7 @@ Operating surplus accrues in the GK: **net surplus ¥10–32M/yr by Year 5**, pr
 
 ## 2. Alternatives Analysis — what the village is really choosing between
 
-Every decision-maker has a "do nothing" option. For the village it is concrete: **underused space stays underused.** The project will choose its premises from **several candidate sites**, all underused village building stock. One strong candidate is the **Koryukan (みつえ体験交流館 / Mitsue Experience Exchange Center)** — a former wooden elementary school that today operates as a cultural and educational facility but has empty, underused classrooms; here the hub would occupy spare capacity and **complement** the Koryukan's existing crafts-and-experience role rather than replace it. Disused former factory or workshop buildings are other candidates. Final site selection is a Phase 1 decision.
+Every decision-maker has a "do nothing" option. For the village it is concrete: **underused space stays underused.** The project will choose its premises from **several candidate sites**, all underused village building stock. One strong candidate is the **former Sugano Elementary School (Koryukan / みつえ体験交流館)** — a former wooden elementary school that today operates under the name Mitsue Taiken Koryukan as a cultural and educational facility but has empty, underused classrooms; here the hub would occupy spare capacity and **complement** the Koryukan's existing crafts-and-experience role rather than replace it. Disused former factory or workshop buildings are other candidates. Final site selection is a Phase 1 decision.
 
 > **Note on the dome school:** the dome school is a *separate* building, already in its own bidding/selection process to be reused by another party — it is **not** part of this project and should not be confused with the Koryukan.
 
@@ -98,7 +98,7 @@ Each decision-maker needs the same underlying story ordered for *their* question
 
 | Audience | What we ask | What they get | How they can be confident |
 |---|---|---|---|
-| **Village government** | Lease premises (Koryukan classrooms / factory — one of several candidate sites); endorse as 官民連携 partner; co-apply for 交付金 | Depopulation reversal, 8–15 jobs, RE-plan delivered, underused space activated | Staged gates (no lock-in); open data; feasibility studies before any build |
+| **Village government** | Lease premises (former Sugano school / factory — one of several candidate sites); endorse as 官民連携 partner; co-apply for 交付金 | Depopulation reversal, 8–15 jobs, RE-plan delivered, underused space activated | Staged gates (no lock-in); open data; feasibility studies before any build |
 | **MoE / grant bodies** | Award 交付金 / planning grants | Adopted RE plan actually implemented; carbon; a replicable 過疎 model | Plan already adopted (step 1 done); milestone-based disbursement |
 | **Equity investors (Tier 2)** | Minority capital into the GK opco | Contracted share of operating surplus (net ¥10–32M/yr by Y5); green-compute exposure | Two-tier structure; anchor offtaker; payback model; descope safety |
 | **Corporate partners** | Hosting offtake / CSR / equity | Cheap green compute, ESG story, or contracted return | Working pilot before scale; named advisory bench |
@@ -170,7 +170,7 @@ Two linked views: **who decides what (authority)**, and **what each decision-mak
 
 | Decision | Authority | Gate / when | Evidence they need | What they get if yes |
 |---|---|---|---|---|
-| Lease/endorse premises (Koryukan / factory — site TBD Phase 1) | Village council / mayor | Phase 0–1 | Alternatives table; jobs forecast; site survey | Revitalization; RE-plan delivery; idle asset revived |
+| Lease/endorse premises (former Sugano school / factory — site TBD Phase 1) | Village council / mayor | Phase 0–1 | Alternatives table; jobs forecast; site survey | Revitalization; RE-plan delivery; idle asset revived |
 | Award 交付金 | MoE (via village) | Phase 1–2 | RE-plan fit; carbon; 過疎 eligibility | Adopted plan implemented |
 | Commit as JP co-founder | The individual | Phase 0 (G1 trigger) | Charter; role; compensation (funded) | Founding equity + mission role |
 | Invest equity in GK | Investor | Phase 2 (G3) | Two-tier structure; P&L; sensitivity; offtake LOI | Contracted minority return |
@@ -182,7 +182,7 @@ Two linked views: **who decides what (authority)**, and **what each decision-mak
 
 ## Sources & status
 
-Financial ranges consolidate the project's own illustrative estimates from [`mitsue_revenue_model.md`](mitsue_revenue_model.md), [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §ROI, and [`mitsue_evm_plan.md`](mitsue_evm_plan.md) — not externally audited. 交付金 terms: MoE 地域脱炭素移行・再エネ推進交付金, 実施要領 (補助率 2/3・3/4) https://www.env.go.jp/content/900470616.pdf. Entity structure (一般社団法人 + 合同会社 GK) per [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §1A and the NGO-setup checklists. **Items still to confirm:** final site selection from the candidate premises (Koryukan spare classrooms and/or a disused factory — Phase 1; the dome school is a separate building, out of scope); equity entry valuation (Phase 2); positive team profile (post JP co-founder).
+Financial ranges consolidate the project's own illustrative estimates from [`mitsue_revenue_model.md`](mitsue_revenue_model.md), [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §ROI, and [`mitsue_evm_plan.md`](mitsue_evm_plan.md) — not externally audited. 交付金 terms: MoE 地域脱炭素移行・再エネ推進交付金, 実施要領 (補助率 2/3・3/4) https://www.env.go.jp/content/900470616.pdf. Entity structure (一般社団法人 + 合同会社 GK) per [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §1A and the NGO-setup checklists. **Items still to confirm:** final site selection from the candidate premises (former Sugano school spare classrooms and/or a disused factory — Phase 1; the dome school is a separate building, out of scope); equity entry valuation (Phase 2); positive team profile (post JP co-founder).
 
 ---
 

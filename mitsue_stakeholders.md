@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -57,7 +57,7 @@
 | 自治会 Leaders (Sugano + hamlets) | Community associations; trust-building target      |
 | Private Mountain Landowners       | Sugi forest owners; harvesting partnership targets |
 | Local Forestry Group              | Early consultation partner (met early 2026)        |
-| Mitsue Taiken Koryukan            | Available community exchange center; leading candidate Phase 1 datacenter site (final choice confirmed in Phase 1) |
+| Former Sugano Elementary School (Mitsue Taiken Koryukan) | Available community exchange center; leading candidate Phase 1 datacenter site (final choice confirmed in Phase 1) |
 
 ### Government — Local & Regional
 | Name                      | Role                                           |
@@ -129,7 +129,7 @@ The following table makes explicit what each key stakeholder must actually decid
 
 | Stakeholder | Decision(s) required | When |
 |---|---|---|
-| Village government | Koryukan use / lease terms; endorse project as 官民連携 operating partner for the 交付金; co-apply for 地域脱炭素移行・再エネ推進交付金; issue letter of interest | Phase 0–1 |
+| Village government | Former Sugano school (Koryukan) use / lease terms; endorse project as 官民連携 operating partner for the 交付金; co-apply for 地域脱炭素移行・再エネ推進交付金; issue letter of interest | Phase 0–1 |
 | Mountain landowners | Sugi harvesting terms and fair compensation; participation in restoration programme | Phase 1–2 |
 | Advisory board (Ozzie, Dome) | Confirm written commitments (even informal); agree on time commitment and engagement scope | Phase 0 |
 | JP co-founder (TBD) | Commit to the project; agree role, time commitment, and compensation terms in Founder Agreement | Phase 0 (Gate 1 trigger if unresolved) |
@@ -160,7 +160,7 @@ flowchart LR
         JICHIKAI["👥 自治会 Leaders"]
         LANDOWNERS["👥 Landowners"]
         FORESTRY["👥 Local Forestry"]
-        SCHOOL["🏫 Mitsue Taiken\nKoryukan"]
+        SCHOOL["🏫 Former Sugano\nSchool (Koryukan)"]
     end
 
     subgraph National["National Government"]
@@ -199,7 +199,7 @@ flowchart LR
     SAFECAST -->|"inspires open data model"| PROJ
 
     RAY -.->|"advises"| PROJ
-    VILLAGE -->|"approval + Koryukan"| PROJ
+    VILLAGE -->|"approval + Sugano school"| PROJ
     VILLAGE -->|"RE plan + 交付金 (官民連携 operating partner)"| PROJ
     MAYOR --> VILLAGE
     VMAYOR --> MAYOR

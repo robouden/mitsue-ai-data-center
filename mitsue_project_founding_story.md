@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -22,7 +22,7 @@
 
 Mitsue sits deep in the mountains of Nara Prefecture — a quiet village of cedar slopes, clear water, and an aging community. Like hundreds of villages across rural Japan, it has watched its young people leave for the cities, its school close, and its forests grow heavy with sugi cedar planted in a different era.
 
-The **Mitsue Taiken Koryukan** — a community exchange center, the leading candidate site (final choice confirmed in Phase 1) — stands available: a versatile space with room for a bold new purpose.
+The **former Sugano Elementary School (Mitsue Taiken Koryukan)** — a community exchange center, the leading candidate site (final choice confirmed in Phase 1) — stands available: a versatile space with room for a bold new purpose.
 
 We believe it can become something remarkable.
 
@@ -30,13 +30,13 @@ We believe it can become something remarkable.
 
 ## A Simple Idea, Carefully Built
 
-The Mitsue Project is a 25-year initiative to transform the Mitsue Taiken Koryukan — and in Phase 2, an old factory building in Mitsue — into a living example of how rural Japan can power its own future.
+The Mitsue Project is a 25-year initiative to transform the former Sugano Elementary School (Koryukan) — and in Phase 2, an old factory building in Mitsue — into a living example of how rural Japan can power its own future.
 
 We will:
 
 - **Restore native forests** in place of aging sugi monoculture, healing land that has been ecologically depleted for generations. Thinning the overgrown sugi both heals the forest and generates the fuel that powers the village.
 - **Generate electricity and heat from sugi forest thinnings** through a biomass combined heat and power (CHP) system — a circular energy economy where the forest powers the village. Electricity is the primary output and heat the secondary; complementary solar panels and EV charging stations round out a locally owned system that keeps the village powered during blackouts and ready for the coming EV transition. Battery storage to be evaluated in the feasibility study.
-- **Build a small, sustainable AI data center** starting inside the Mitsue Taiken Koryukan — powered entirely by that local energy, providing digital infrastructure where it has never existed before. Phase 2 expands into a larger old factory building in Mitsue.
+- **Build a small, sustainable AI data center** starting inside the former Sugano school (Koryukan) — powered entirely by that local energy, providing digital infrastructure where it has never existed before. Phase 2 expands into a larger old factory building in Mitsue.
 
 Three things, woven together: ecology, energy, and the digital age.
 

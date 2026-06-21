@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -356,7 +356,7 @@ The most structurally important phase. The feasibility studies produced here det
 
 | Item | Detail |
 |------|--------|
-| Scope | Structural condition survey of the Mitsue Taiken Koryukan and candidate factory building; seismic compliance assessment (新耐震基準); identification of required renovations for data center use; zoning review |
+| Scope | Structural condition survey of the former Sugano Elementary School (Mitsue Taiken Koryukan) and candidate factory building; seismic compliance assessment (新耐震基準); identification of required renovations for data center use; zoning review |
 | Owner | Director — Technology |
 | Budget | ¥0.8M (mid of ¥1–2M range for single-building survey) |
 | Deliverables | Structural survey report; seismic compliance summary; renovation scope outline; zoning confirmation memo |

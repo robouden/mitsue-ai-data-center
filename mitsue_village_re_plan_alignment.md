@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-07</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -58,7 +58,7 @@ Critically, the plan already endorses, in its own words, almost every technology
 | **Forest CO₂ absorption**, planned thinning, clarified forest ownership/boundaries, and a **J-Credit** system for forest carbon | Sugi thinning (which fuels our biomass CHP) + native reforestation = the concrete mechanism that produces the absorption and the J-Credits the plan wants | Basic Policy 5.3; Key Initiative 2 |
 | **VPP** (Virtual Power Plant) using IoT/blockchain to stabilize the grid and level demand | A controllable compute load + battery is a natural VPP node | Basic Policy 5.2 |
 | Branding "**eco rural living**" to attract young residents and secure forestry successors; raise civic pride | Local jobs (forestry, facility ops, EV/energy), an open replicable model, and international visibility | Key Initiative 3 |
-| ZEB/ZEH, high-efficiency equipment, energy-saving renovation | The repurposed-facility data center and Koryukan renovation can be specified to these standards | Basic Policy 1 |
+| ZEB/ZEH, high-efficiency equipment, energy-saving renovation | The repurposed-facility data center and former Sugano school (Koryukan) renovation can be specified to these standards | Basic Policy 1 |
 
 **The two highest-value rows** are the resilient-site target and the forest/J-Credit mechanism:
 

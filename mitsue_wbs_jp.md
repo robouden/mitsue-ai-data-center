@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-07</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -318,7 +318,7 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 | 項目 | 内容 |
 |------|------|
-| スコープ | 御杖体験交流館および候補工場建屋の構造状況調査；耐震基準（新耐震基準）適合評価；データセンター利用に必要な改修内容の特定；用途地域確認 |
+| スコープ | 旧菅野小学校（御杖体験交流館）および候補工場建屋の構造状況調査；耐震基準（新耐震基準）適合評価；データセンター利用に必要な改修内容の特定；用途地域確認 |
 | 担当者 | テクノロジー担当理事 |
 | 予算 | ¥0.8M |
 | 成果物 | 構造調査報告書；耐震適合性要約；改修スコープ概要；用途地域確認書 |

@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -22,7 +22,7 @@
 
 Quantum Mesh株式会社（Quantum Mesh Inc.）は、コンテナ型・可搬式のエッジデータセンターおよび液浸冷却システムを開発・販売する企業です。同社のテクノロジーと事業ポジションは、御杖村AIデータセンタープロジェクトと以下4点で直接合致しています。
 
-1. **KAMUI γ** ― 1㎡以下のオールインワン型マイクロデータセンター。廃校舎改修によるデータセンター構築に適合（WP 5.5、予算2,000万円に相当）
+1. **KAMUI γ** ― 1㎡以下のオールインワン型マイクロデータセンター。旧菅野小学校（体験交流館）改修によるデータセンター構築に適合（WP 5.5、予算2,000万円に相当）
 2. **PUE 1.03の冷却効率** ― 業界平均比で消費電力を約30%削減。バイオマスCHPの負荷を軽減し、循環型経済モデルの採算性を強化
 3. **災害対応・BCP（事業継続計画）のポジション** ― 御杖の停電レジリエンス（バイオマス＋太陽光＋蓄電池）と同一の訴求軸。Ledge.aiによる国防・地域レジリエンス分野への選出（2024年1月）で独立した形で実証済み
 4. **高浜町の先行事例** ― Quantum Meshはすでに福井県高浜町と正式な協定を結び、地方DX向けデータセンターを展開。御杖と同じモデルの実績が存在する
@@ -42,7 +42,7 @@ Quantum Mesh株式会社（Quantum Mesh Inc.）は、コンテナ型・可搬式
 
 **2. KAMUI γの価格・技術仕様を入手する**
 - 対象製品：KAMUI γ（2026年4月発売、1㎡以下のオールインワン型ユニット）
-- 共有すべき背景：廃校舎改修、奈良県御杖村、バイオマスCHP一次電源、24時間365日稼働
+- 共有すべき背景：旧菅野小学校（体験交流館）改修、奈良県御杖村、バイオマスCHP一次電源、24時間365日稼働
 - 目標：KAMUI γが2,000万円のデータセンター改修予算（WP 5.5）内に収まるかを確認する
 - 参考：https://prtimes.jp/main/html/rd/p/000000023.000132065.html
 

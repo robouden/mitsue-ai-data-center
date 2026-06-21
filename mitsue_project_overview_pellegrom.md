@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-16</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -33,7 +33,7 @@
 **Follow-up to King's Day Meeting — April 24, 2026**  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lieLGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fGBdgoVMwYAAAAAElFTkSuQmCC)  
 **The Idea in Brief**  
-Repurpose an underused village building — the **Mitsue Taiken Koryukan** is the leading candidate, final choice confirmed in Phase 1 — as a **rural sustainable energy hub** combining:  
+Repurpose an underused village building — the **former Sugano Elementary School (Mitsue Taiken Koryukan)** is the leading candidate, final choice confirmed in Phase 1 — as a **rural sustainable energy hub** combining:  
 
 1. **Native forest restoration** — replacing sugi (cedar) plantations with native broadleaf species; native trees provide natural food for deer, wild boar, and bear, keeping wildlife in the forest and out of crop areas  
 2. **EV charging infrastructure & community energy resilience** — privately owned solar and EV charging stations at the Koryukan; battery storage subject to feasibility study  
@@ -121,7 +121,7 @@ This is not a request for funding or formal endorsement, but a goodwill associat
 - **Dutch-Japanese branding.** Position as a flagship of Dutch sustainable innovation in Japan, especially around water management, circular economy, and smart agriculture (areas where the Netherlands genuinely leads globally).  
 - **Engage Dutch corporates already in Japan** — companies like Philips, ASML, Heineken, and others may be interested in CSR partnership.  
 **Communications Strategy**  
-- **Start with a strong founding story** — Mitsue, Safecast, citizen science, the Mitsue Taiken Koryukan. The narrative is already compelling; tell it well.  
+- **Start with a strong founding story** — Mitsue, Safecast, citizen science, the former Sugano Elementary School (Koryukan). The narrative is already compelling; tell it well.  
 - **Bilingual from day one** — Japanese-language credibility is essential for local trust; English is essential for international partners.  
 - **Modest, credible milestones** — under-promise, over-deliver. Rural projects in Japan that hype too early lose credibility quickly.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OYQ1AABSAwc8mi5wvlAB6CKCAACr4Z7a7BLfMzFYdAQDwF+da3dX+9QQAgNeuB6fWBdZMUxZ2AAAAAElFTkSuQmCC)  
@@ -146,7 +146,7 @@ Phase 1 feasibility studies will produce vetted figures. Early-stage estimates s
 
 **Cost Displacement**  
 - Mitsue currently imports ~~100% of its electricity (~~¥40–60M annually leaves the local economy)  
-- The Koryukan costs the village ¥3–8M/year in upkeep with no return  
+- The former Sugano school (Koryukan) costs the village ¥3–8M/year in upkeep with no return  
 - Untended sugi plantations carry ecological and physical risk costs not currently priced  
 The project converts these standing costs into local value.  
 These figures are illustrative ranges, not forecasts. Phase 1 feasibility studies — forestry, energy systems, building condition, and connectivity — will replace these with vetted numbers within 9 months of project launch.  

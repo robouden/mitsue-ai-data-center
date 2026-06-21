@@ -6,16 +6,12 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-20</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
-
----
-
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-20</p>
 
 ---
 
@@ -53,7 +49,7 @@
   <text x="503" y="76" text-anchor="middle" fill="#bde0f8" font-family="system-ui,sans-serif" font-size="10">Replicable across Japan</text>
 </svg>
 
-Aging cedar forest is thinned and converted to native broadleaf woodland. The thinnings fuel a biomass CHP plant, generating electricity and heat around the clock. That clean, local power runs a small AI data center — which provides the stable demand that makes the whole energy system economically viable — while the forest recovers, the wildlife returns, and the village gains jobs, income, and resilience it did not have before.
+Aging cedar forest is thinned and converted to native broadleaf woodland. The thinnings fuel a biomass CHP plant, generating electricity and heat around the clock. That clean, local power runs a small AI data center starting inside the former Sugano Elementary School (Mitsue Taiken Koryukan) — which provides the stable demand that makes the whole energy system economically viable — while the forest recovers, the wildlife returns, and the village gains jobs, income, and resilience it did not have before.
 
 These three elements are not separate projects. Each one makes the other two possible.
 

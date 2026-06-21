@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -57,7 +57,7 @@
 | 自治会リーダー（菅野・周辺集落） | 地域住民組織。信頼関係構築の重要対象                               |
 | 民間山林地主                     | 杉林所有者。伐採パートナーシップの交渉対象                         |
 | 地元林業グループ                 | 初期協議パートナー（2026年初頭面談済み）                           |
-| 御杖体験交流館                    | 活用可能な地域交流施設。フェーズ1データセンターの有力候補拠点（最終選定は第1段階で確定） |
+| 旧菅野小学校（御杖体験交流館）     | 活用可能な地域交流施設。フェーズ1データセンターの有力候補拠点（最終選定は第1段階で確定） |
 
 ### 行政 — 地域・都道府県
 | 名前       | 役割                                           |
@@ -129,7 +129,7 @@
 
 | ステークホルダー | 必要な意思決定 | 時期 |
 |---|---|---|
-| 村行政 | 体験交流館の使用・賃貸条件の決定；地域脱炭素移行・再エネ推進交付金における官民連携運営パートナーとしての承認；交付金の共同申請；協力意向書の発行 | フェーズ0〜1 |
+| 村行政 | 旧菅野小学校の使用・賃貸条件の決定；地域脱炭素移行・再エネ推進交付金における官民連携運営パートナーとしての承認；交付金の共同申請；協力意向書の発行 | フェーズ0〜1 |
 | 民間山林地主 | 杉伐採条件と公正な補償の合意；森林再生プログラムへの参加 | フェーズ1〜2 |
 | アドバイザリーボード（オジー、東面） | 書面による関与の確認（非公式でも可）；時間的コミットメントと関与範囲の合意 | フェーズ0 |
 | 日本人共同創設者（未定） | プロジェクトへのコミット；役割・時間的貢献・報酬条件を創設者合意書に明記 | フェーズ0（未解決の場合はゲート1保留トリガー） |

@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -22,7 +22,7 @@
 
 Quantum Mesh Inc. (Quantum Mesh 株式会社) builds containerized, portable edge data centers with liquid-immersion cooling. Their technology and positioning align directly with the Mitsue Village AI Data Center on four points:
 
-1. **KAMUI γ** — an all-in-one micro data center under 1m², suitable for a school-conversion data center build-out (relevant to WP 5.5, ¥20M fitout budget)
+1. **KAMUI γ** — an all-in-one micro data center under 1m², suitable for a former-school-conversion data center build-out (relevant to WP 5.5, ¥20M fitout budget)
 2. **PUE of 1.03** — industry-leading cooling efficiency that reduces the biomass CHP load by ~30% vs average data centers, strengthening the circular economy model
 3. **Disaster resilience / BCP positioning** — identical narrative to Mitsue's blackout resilience story; independently validated by Ledge.ai national defense/resilience coverage (Jan 2024)
 4. **Takahama Town precedent** — Quantum Mesh already deployed a rural DX data center in Fukui Prefecture under a formal municipal agreement; Mitsue is the same model
@@ -42,7 +42,7 @@ They are backed by and operationally tied to **8M Capital** (https://8m.fund/), 
 
 ### 2. Request KAMUI γ pricing and technical specs
 - Specifically: KAMUI γ (< 1m² all-in-one unit, launched April 2026)
-- Context to share: school building conversion, rural Nara Prefecture, biomass CHP primary power, 24/7 baseload requirement
+- Context to share: former Sugano Elementary School (Koryukan) conversion, rural Nara Prefecture, biomass CHP primary power, 24/7 baseload requirement
 - Goal: determine whether KAMUI γ fits within the ¥20M data center fitout budget (WP 5.5)
 
 ### 3. Explore IIJ connectivity via Quantum Mesh

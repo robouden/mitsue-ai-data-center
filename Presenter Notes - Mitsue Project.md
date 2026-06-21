@@ -16,14 +16,14 @@
 - Forest · EV power · AI
 
 ## 2 · The Setting
-- Vacant school + tired forest + fragile grid
+- Vacant former Sugano school (Koryukan) + tired forest + fragile grid
 - Pop ≈1,400, forest cover ≈93%
 - If it works here, copy elsewhere
 
 ## 3 · Four Pressures
 - Energy: EVs need rural charging
 - Forest: cedar = liability + fuel
-- Stranded: empty school building
+- Stranded: former Sugano school building
 - Digital: rural compute is thin
 
 ## 4 · The Idea
@@ -41,7 +41,7 @@
 - Keeps school/clinic running in blackouts
 
 ## 7 · Community Data Center
-- Old school → small edge data center
+- Former Sugano school → small edge data center
 - 100% local renewable power
 - Village owns it, heat reused for greenhouses
 

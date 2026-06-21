@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -58,7 +58,7 @@
 | **森林CO₂吸収**、計画的間伐、森林所有・境界の明確化、森林**J-クレジット** | バイオマスCHPの燃料となる杉間伐＋在来種再生＝吸収量とJ-クレジットを生む具体的機構 | 基本方針5-3／重点施策2 |
 | 系統安定・需要平準化のための**VPP**（IoT/ブロックチェーン） | 制御可能な計算負荷＋蓄電池はVPPの自然なノード | 基本方針5-2 |
 | 若者移住・林業後継者確保のための「**エコな田舎暮らし**」ブランディング、シビックプライド向上 | 地元雇用（林業・施設運営・EV/エネルギー）、公開・複製可能なモデル、国際的発信 | 重点施策3 |
-| ZEB/ZEH、高効率機器、省エネ改修 | 廃校活用のデータセンター・交流館改修を当該基準で仕様化可能 | 基本方針1 |
+| ZEB/ZEH、高効率機器、省エネ改修 | 廃校活用のデータセンター・旧菅野小学校（体験交流館）改修を当該基準で仕様化可能 | 基本方針1 |
 
 **最も価値が高い2行**は、レジリエント拠点の指標と、森林／J-クレジットの機構です。
 

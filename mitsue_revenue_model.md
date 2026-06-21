@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -45,7 +45,7 @@ Biomass CHP (fuelled by sugi forest thinnings) is the **primary energy source**,
 The project *replaces or avoids* significant existing costs:
 
 - **Energy imports**: Mitsue residents and businesses currently import ~100% of electricity. Local generation displaces approximately **¥40–60M/yr** of energy spending leaving the village economy.
-- **Koryukan maintenance burden**: The Koryukan costs the village an estimated **¥3–8M/yr** in basic upkeep with no return. Active reuse as a data center hub converts a stranded asset into a productive facility.
+- **Former Sugano school maintenance burden**: The Koryukan costs the village an estimated **¥3–8M/yr** in basic upkeep with no return. Active reuse as a data center hub converts a stranded asset into a productive facility.
 - **Forest management liability**: Untended sugi plantations impose ecological costs (pollen, biodiversity loss) and physical risks (landslide, fire). Active management converts this liability into feedstock and timber revenue.
 
 ---

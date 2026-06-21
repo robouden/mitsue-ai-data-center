@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.13</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -195,7 +195,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 ### Suggested Pilot Scope
 - **Forestry**: First 5–10 hectares of sugi harvested and replanted
 - **Energy**: Biomass CHP from sugi thinnings (primary baseload electricity + heat) + complementary rooftop solar panels + EV charging stations (2–4 chargers initially, scaling with demand); battery storage to be confirmed by feasibility study
-- **Building**: Renovate one wing of the chosen Phase-1 building — the Koryukan is the leading candidate, final site confirmed in Phase 1 — for office and small server room
+- **Building**: Renovate one wing of the chosen Phase-1 building — the former Sugano Elementary School (Koryukan) is the leading candidate, final site confirmed in Phase 1 — for office and small server room
 - **Data center**: ~10–20 servers, edge computing focus
 - **EV charging**: 2–4 charging stations as visible village benefit
 
@@ -322,7 +322,7 @@ These are the benefits that funders, the village, and partners can be told about
 - Income stream for private mountain owners through fair sugi harvesting compensation
 - Improved local resilience through distributed energy generation
 - EV charging infrastructure preparing the village for the coming transition
-- Preserved use of the Mitsue Taiken Koryukan as a community-anchored facility
+- Preserved use of the former Sugano Elementary School (Mitsue Taiken Koryukan) as a community-anchored facility
 - Long-term reduction in cedar pollen affecting public health
 - Visible signal that Mitsue is investing in its future — supporting in-migration and reducing depopulation pressure
 
@@ -357,7 +357,7 @@ The quantitative case rests on five revenue and savings categories. **The ranges
 To frame the ROI, it helps to articulate what the project *replaces* or *avoids*:
 
 - **Energy import to the village**: Mitsue residents and businesses currently import essentially 100% of their electricity. Local generation displaces approximately ¥40–60M per year of energy imports leaving the village economy.
-- **Taiken Koryukan maintenance burden**: The Koryukan costs the village an estimated ¥3–8M per year in basic upkeep with no return. Active use generates value from a previously stranded asset.
+- **Former Sugano school maintenance burden**: The Koryukan costs the village an estimated ¥3–8M per year in basic upkeep with no return. Active use generates value from a previously stranded asset.
 - **Forest management deficit**: Untended sugi plantations are a liability — both ecologically (pollen, biodiversity loss) and physically (landslide risk, fire risk). Active forestry management converts this liability into an asset.
 - **Rural broadband gap**: Without intervention, Mitsue's connectivity will continue to lag urban Japan. The project's fiber upgrade benefits all village users, not only the data center.
 

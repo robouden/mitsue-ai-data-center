@@ -6,7 +6,7 @@
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-14</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -37,7 +37,7 @@
 
 This is **not a first introduction** of either Rob or the project. You are building on:
 
-- An informal meeting with the **Vice Mayor (副村長)** approximately 6 months ago, in which you presented a draft concept of the small-scale AI data center using the closed Mitsue Elementary School. Biomass, biogas, and forestry components were **not** mentioned at that meeting.
+- An informal meeting with the **Vice Mayor (副村長)** approximately 6 months ago, in which you presented a draft concept of the small-scale AI data center using the former Sugano Elementary School (now Mitsue Taiken Koryukan). Biomass, biogas, and forestry components were **not** mentioned at that meeting.
 - An informal meeting with the **local forestry group** approximately 4 months ago, exploring how they work and whether collaboration is possible.
 
 This changes the meeting in three meaningful ways:
@@ -68,7 +68,7 @@ The tone should still be consultative, not promotional, but you can be more subs
 - **Bring a small, thoughtful gift** (お土産)
 - **Wear formal attire** — suit and tie
 - **Bring Yuka or your Japanese co-founder if available** — strongly recommended given the broader scope of the discussion
-- **Bring one simple visual** — a single sheet showing the three integrated elements (forest, energy, school). NOT a full proposal, but a one-page concept that helps explain the broadening picture. Something visual is helpful when you're describing how three things connect.
+- **Bring one simple visual** — a single sheet showing the three integrated elements (forest, energy, former Sugano school). NOT a full proposal, but a one-page concept that helps explain the broadening picture. Something visual is helpful when you're describing how three things connect.
 - **Take notes after the meeting, not during**
 
 ---
@@ -88,7 +88,7 @@ Make clear you understand the proper protocol and that the vice mayor has been y
 
 > "副村長には、御杖小学校の活用について、ささやかな構想をお話しさせていただきました。その後、私自身もう少し考えを深めまして、最初にお話しした内容よりも広がりのある構想になってまいりましたので、村長にも直接ご相談したく存じた次第です。"
 >
-> *("With the Vice Mayor, I shared a modest concept regarding the use of Mitsue Elementary School. Since then, I have developed my thinking further, and the concept has broadened beyond what I first discussed. I therefore wished to consult with you directly, Mayor.")*
+> *("With the Vice Mayor, I shared a modest concept regarding the use of the former Sugano Elementary School (Mitsue Taiken Koryukan). Since then, I have developed my thinking further, and the concept has broadened beyond what I first discussed. I therefore wished to consult with you directly, Mayor.")*
 
 This phrasing accomplishes several things at once: it signals respect for protocol, it admits the picture has changed, and it positions the broader plan as a natural development rather than a sudden pivot.
 
@@ -106,7 +106,7 @@ Even though you have history here, still begin with listening. The mayor's persp
    This lets him reveal what he already knows without you guessing.
 
 2. **"この半年の間に、村として閉校舎の活用について何か動きはございましたでしょうか?"**
-   *("Has there been any movement at the village level regarding use of the closed school in the past six months?")*
+   *("Has there been any movement at the village level regarding use of the former Sugano school (Koryukan) in the past six months?")*
 
    Important — there may be other proposals in play, or a new direction you don't know about.
 
@@ -118,7 +118,7 @@ Even though you have history here, still begin with listening. The mayor's persp
 ### What to Listen For
 
 - **What the vice mayor relayed (or didn't)** — gives you a sense of how the earlier meeting was received
-- **Any other proposals for the school** — competing ideas you need to know about
+- **Any other proposals for the former Sugano school** — competing ideas you need to know about
 - **Existing forestry plans** — your project must align with, not compete against, village forestry direction
 - **The mayor's tone** — engaged? cautious? deferring? Each tells you something
 
@@ -132,7 +132,7 @@ This is the heart of the meeting. You are now connecting the AI data center conc
 
 > "副村長にお話しした際は、閉校舎の活用という一点に絞った構想でした。ですが、その後、地元の林業の方々ともお話をする機会がございまして、考え方が大きく変わってまいりました。"
 >
-> *("When I spoke with the Vice Mayor, the concept was focused only on the use of the closed school. However, since then, I have had the opportunity to speak with the local forestry group, and my thinking has changed significantly.")*
+> *("When I spoke with the Vice Mayor, the concept was focused only on the use of the former Sugano Elementary School. However, since then, I have had the opportunity to speak with the local forestry group, and my thinking has changed significantly.")*
 
 ### Introduce the Three Connected Elements
 
@@ -154,7 +154,7 @@ This framing matters: clearly explaining that the biomass system is a small, vil
 
 > "3つ目は、そのエネルギーを使って、副村長にお話しした閉校舎の活用構想を支える、というつながりでございます。"
 >
-> *(Third, using that energy to support the school-use concept I shared with the Vice Mayor — these elements connecting together.)*
+> *(Third, using that energy to support the former Sugano school-use concept I shared with the Vice Mayor — these elements connecting together.)*
 
 ### Acknowledge the Magnitude of the Shift
 
@@ -258,7 +258,7 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 ### "What is the energy plan? How do biomass CHP, solar, and EV charging work together?"
 > "村の主たる電源は、杉林の間伐材を燃料とするバイオマス熱電併給（CHP）システムで、24時間のベースロード電力と熱を生み出します。これを補完する太陽光発電を校舎の屋根に設置し、EV充電ステーションと組み合わせて稼働させます。バイオマスとソーラーの電力でデータセンターを稼働させ、EV充電ステーションに供給します。蓄電池の設置については第2段階のフィージビリティスタディで判断いたします。"
 >
-> *(The village's primary power is a biomass CHP system fuelled by sugi forest thinnings, providing 24/7 baseload electricity and heat. Complementary solar panels on the school roof and EV charging stations round it out. Together they power the data center and support village EV charging. Battery storage to be confirmed by Phase 2 feasibility study.)*
+> *(The village's primary power is a biomass CHP system fuelled by sugi forest thinnings, providing 24/7 baseload electricity and heat. Complementary solar panels on the former Sugano school roof and EV charging stations round it out. Together they power the data center and support village EV charging. Battery storage to be confirmed by Phase 2 feasibility study.)*
 
 ### "What is the EV charging plan?"
 > "まず2〜4台の充電器から始め、村の住民と来訪者に開放いたします。EV普及に合わせて段階的に増設していく計画でございます。充電料金は施設維持費の一部に充当します。"
@@ -278,7 +278,7 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 ### "Will benefits really take 25 years?"
 > "25年は森林再生の生態的な期間でございます。村への具体的な恩恵はもっと早く現れます。1年目で閉校舎の再活用とメディア発信、2年目で山林所有者への伐採収入、3〜4年目でEV充電ステーション稼働と停電レジリエンス向け蓄電池設置、4〜5年目でデータセンターの地域雇用が始まります."
 >
-> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — school reactivation and media in Year 1, landowner income in Year 2, EV charging stations installed by Year 3–4 (battery storage subject to feasibility study), data center jobs in Year 4–5.)*
+> *(The 25-year horizon applies to forest restoration ecology. Concrete village benefits arrive much earlier — former Sugano school reactivation and media in Year 1, landowner income in Year 2, EV charging stations installed by Year 3–4 (battery storage subject to feasibility study), data center jobs in Year 4–5.)*
 
 ### "How will the energy and EV charging costs be managed?"
 > "複数の収益源を積み重ねます: EV充電料金、FIT/FIP売電、J-クレジット、そしてデータセンターの収益でございます。さらに、農村エネルギーレジリエンスとEVインフラは経産省・NEDO補助制度の優先対象でございます。数値が見合わなければ無理に進めない段階的な構造としております。"
@@ -322,7 +322,7 @@ Because you have history with the vice mayor and the forestry group, this meetin
 
 - **You can be more substantive** — the mayor expects you to have developed thinking, not just an idea
 - **You must acknowledge the prior contacts** — pretending this is fresh would seem dishonest
-- **The "broadening" message is the central insight** — connecting school + forestry + energy is the new information
+- **The "broadening" message is the central insight** — connecting the former Sugano school + forestry + energy is the new information
 - **Your soft ask can be more concrete** — including a question about ongoing communication channels
 - **The protocol of having approached the vice mayor first works in your favor** — let him notice that, but don't oversell it
 
