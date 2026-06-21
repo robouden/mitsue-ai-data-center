@@ -64,9 +64,11 @@ All environmental, energy, and forestry data from the project will be **publishe
 
 The project is led by **Rob Oudendijk**, a Dutch electrical engineer who has lived in Mitsue since 2012 and is a core hardware developer for Safecast.
 
-Advising the project are:
+Advising and supporting the project are:
 
 - **[Ray Ozzie](https://en.wikipedia.org/wiki/Ray_Ozzie)** — Executive Chair, Blues
+- **San Poisson** — Project Manager
+- **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
 - **Evin Zoet** — Co-Representative Director, Transom
 - **Yoshiko Zoet-Suzuki** — Co-Representative Director, Transom
 
