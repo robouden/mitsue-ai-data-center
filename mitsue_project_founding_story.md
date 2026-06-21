@@ -30,13 +30,13 @@ We believe it can become something remarkable.
 
 ## A Simple Idea, Carefully Built
 
-The Mitsue Project is a 25-year initiative to transform the former Sugano Elementary School (Koryukan) — and in Phase 2, an old factory building in Mitsue — into a living example of how rural Japan can power its own future.
+The Mitsue Project is a 25-year initiative to transform the former Sugano Elementary School (Koryukan) or a disused village factory building — the former Sugano school is the leading candidate; final site confirmed in Phase 1 — into a living example of how rural Japan can power its own future.
 
 We will:
 
 - **Restore native forests** in place of aging sugi monoculture, healing land that has been ecologically depleted for generations. Thinning the overgrown sugi both heals the forest and generates the fuel that powers the village.
 - **Generate electricity and heat from sugi forest thinnings** through a biomass combined heat and power (CHP) system — a circular energy economy where the forest powers the village. Electricity is the primary output and heat the secondary; complementary solar panels and EV charging stations round out a locally owned system that keeps the village powered during blackouts and ready for the coming EV transition. Battery storage to be evaluated in the feasibility study.
-- **Build a small, sustainable AI data center** starting inside the former Sugano school (Koryukan) — powered entirely by that local energy, providing digital infrastructure where it has never existed before. Phase 2 expands into a larger old factory building in Mitsue.
+- **Build a small, sustainable AI data center** in the former Sugano school (Koryukan) or a disused village factory — the leading candidate is the former Sugano school; disused factories are the alternative; final site confirmed in Phase 1 — powered entirely by local energy, providing digital infrastructure where it has never existed before.
 
 Three things, woven together: ecology, energy, and the digital age.
 

@@ -49,7 +49,7 @@ The organization shall pursue the following activities:
 
 - **Forest Restoration**: Gradual replacement of aged sugi (cedar) plantations with native broadleaf species, in cooperation with private landowners and forestry authorities. Thinning the sugi also generates the biomass fuel that powers the village's energy system. Native broadleaf trees provide natural food for deer, wild boar, and bear, reducing wildlife raids on surrounding crop areas.
 - **Sustainable Energy Generation**: Provision of a biomass combined heat and power (CHP) system fuelled by sugi forest thinnings as the village's primary energy source — generating electricity (primary) and heat (secondary) — complemented by solar generation and EV charging infrastructure for village residents and visitors, providing clean local energy and backup power during grid outages. Battery storage to be confirmed by feasibility study.
-- **Digital Infrastructure**: Operation of a small-scale, energy-efficient community-owned AI data center within the former Sugano Elementary School (Mitsue Taiken Koryukan) — the leading candidate Phase 1 site, with the final choice confirmed in Phase 1 — expanding to an old factory building in Mitsue (Phase 2) — a working model demonstrating that technological progress and ecological sustainability are a single coherent system.
+- **Digital Infrastructure**: Operation of a small-scale, energy-efficient community-owned AI data center in the former Sugano Elementary School (Mitsue Taiken Koryukan) or a disused village factory building — the former Sugano school is the leading candidate; disused factories are the alternative; final site confirmed in Phase 1 — a working model demonstrating that technological progress and ecological sustainability are a single coherent system.
 - **EV Charging Network**: Provision of electric vehicle charging infrastructure for residents and visitors.
 - **Education and Open Knowledge**: Documentation and open publication of all methods, data, and lessons learned.
 - **Community Partnership**: Continuous engagement with Mitsue residents, landowners, and the village government.
@@ -127,7 +127,7 @@ ________________________
 
 - **森林再生**: 民間山林所有者および林業当局との協力のもと、老齢杉人工林を在来広葉樹へと段階的に転換する。間伐により生じる杉は、村のエネルギーシステムを動かすバイオマス燃料となる。
 - **持続可能なエネルギー生成とレジリエンス**: 杉林の間伐材を燃料とするバイオマス熱電併給（CHP）システムを村の主たるエネルギー源として整備し、電力（主たる出力）と熱（副次的な出力）を生み出す。これを補完する太陽光発電、蓄電池、およびEV充電インフラを村の住民・来訪者のために整備し、クリーンな地域エネルギーと停電時のバックアップ電源を提供する。
-- **デジタル基盤**: 旧菅野小学校（御杖体験交流館）内において、小規模かつ省エネ型のデータセンターを運営する（フェーズ2では村内の空き工場へ拡張）。
+- **デジタル基盤**: 旧菅野小学校（御杖体験交流館）または村内の空き工場において、小規模かつ省エネ型のデータセンターを運営する（有力候補は旧菅野小学校、代替候補は空き工場、最終選定は第1段階で確定）。
 - **EV充電網**: 住民および来訪者向けに電気自動車充電インフラを提供する。
 - **教育と知識の公開**: あらゆる手法、データ、学びを文書化し公開する。
 - **地域との協働**: 御杖村の住民、土地所有者、村役場との継続的な関わりを保つ。

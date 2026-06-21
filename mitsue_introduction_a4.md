@@ -28,7 +28,7 @@ The Mitsue Project transforms the **former Sugano Elementary School (Mitsue Taik
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades. Thinning the sugi also yields the biomass fuel that powers the village. Native broadleaf trees feed deer, wild boar, and bear — keeping wildlife in the forest and out of crop areas
 - **Biomass CHP energy** — Sugi forest thinnings fuel a combined heat and power (CHP) system generating electricity (primary) and heat (secondary), complemented by solar panels and EV charging for residents and visitors, with battery backup during grid outages. A circular local energy economy where the forest powers the village. Battery storage to be evaluated in feasibility study
-- **Sustainable AI data center** — A small, efficient digital facility starting inside the former Sugano school (Koryukan), powered entirely by local energy, providing infrastructure and employment where none existed. Phase 2 expands into a larger old factory building in Mitsue. A working model of progress and sustainability as a single coherent system
+- **Sustainable AI data center** — A small, efficient digital facility housed in the former Sugano Elementary School (Koryukan) or a disused village factory building — the leading candidate is the former Sugano school; final site confirmed in Phase 1 — powered entirely by local energy, providing infrastructure and employment where none existed. A working model of progress and sustainability as a single coherent system
 
 These are not three separate ideas. Each one makes the others possible.
 
@@ -38,7 +38,7 @@ These are not three separate ideas. Each one makes the others possible.
 
 | Challenge | How the Project Responds |
 |---|---|
-| Former Sugano school vacant, underused | Repurposed as Phase 1 data center & community anchor; Phase 2 expands to old factory |
+| Former Sugano school and disused village factories vacant, underused | Leading candidate (former Sugano school) or alternative (disused factory) repurposed as data center & community anchor — site confirmed Phase 1 |
 | Cedar monoculture — ecologically depleted | Systematic conversion to native mixed forest |
 | Energy system needs reliable round-the-clock demand | Data center provides 24/7 baseload demand that justifies the biomass CHP and solar investment |
 | Rural grid dependency, no local power | Biomass CHP from sugi thinnings (electricity + heat) as the primary supply, complemented by solar, EV charging, and battery storage |
