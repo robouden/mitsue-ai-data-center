@@ -209,6 +209,14 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Codeberg Project Board
+
+- **Board URL:** https://codeberg.org/YR-Design/mitsue-ai-data-center/projects/53201
+- **API base:** `https://codeberg.org/api/v1/repos/YR-Design/mitsue-ai-data-center`
+- **Auth:** API token in TOOLS.md
+- **Important:** Issues must be **assigned to the project** to appear on the Kanban board. The Forgejo project boards API returns 404, so project assignment must be done manually in the browser — the API cannot do it.
+- Labels can be managed via API; moving cards on the board cannot.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
