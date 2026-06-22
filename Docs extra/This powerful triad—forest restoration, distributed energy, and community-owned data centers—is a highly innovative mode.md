@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # The Mitsue Model: Forest Restoration, Energy, and Data Centers
 
 > **"The forest our ancestors planted — powering the village they built."**

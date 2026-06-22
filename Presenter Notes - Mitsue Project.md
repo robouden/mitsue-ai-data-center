@@ -9,6 +9,8 @@
   li { margin: 0 !important; }
 </style>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # Mitsue Project — Presenter Notes
 
 > **"The forest our ancestors planted — powering the village they built."**

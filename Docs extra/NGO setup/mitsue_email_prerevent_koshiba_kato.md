@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 ---
 
 # Pre-Event Introduction Emails — Morgan Lewis Impact Investing Event, July 2026

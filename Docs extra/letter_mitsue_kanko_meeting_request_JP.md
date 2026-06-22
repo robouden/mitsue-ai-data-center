@@ -14,6 +14,8 @@
   .note { color: #777; font-size: 7pt; margin-top: 8px !important; border-left: 2px solid #cde; padding-left: 5px; }
 </style>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # 御杖村森林組合　御中
 
 > 先人が植えた森が、今、村に豊かさをもたらす。

@@ -4,6 +4,8 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # 御杖プロジェクト — Mitsue Project
 
 **農村日本における森林再生・分散型再生可能エネルギー・コミュニティ所有のデジタルインフラに向けた25年間の取り組み。**
