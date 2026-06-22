@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # 榧の種 · A seed of kaya
 
 _Rob Oudendijk · 御杖プロジェクト · Mitsue Project · 2026_

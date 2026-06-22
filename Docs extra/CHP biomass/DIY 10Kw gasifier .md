@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 Here is a step-by-step blueprint worksheet to build a classic **"Stratified Downdraft" Gasifier** using your welder, angle grinder, and scrap metal drums. This specific geometry forces the rising resinous smoke from your Sugi wood down through a red-hot charcoal bed, cracking the dangerous tars into clean fuel gas.
 
 ------

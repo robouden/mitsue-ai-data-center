@@ -15,9 +15,7 @@
 
 ---
 
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-06-20</p>
-
----
+<!-- Version: v1.2 | Last modified: 2026-06-20 -->
 
 <svg width="100%" viewBox="0 0 590 105" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:4mm 0 6mm;">
   <defs>

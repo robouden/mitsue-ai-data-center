@@ -19,6 +19,9 @@
 
 ### Ecology · Energy · Digital Infrastructure for Rural Japan
 
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 *A 25-year initiative in Mitsue Village, Nara Prefecture (御杖村)*
 
 ---

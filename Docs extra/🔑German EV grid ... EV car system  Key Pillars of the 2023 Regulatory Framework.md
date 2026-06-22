@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 **Yes, [Japan](https://www.google.com/search?kgmid=/m/03_3d) has a highly advanced bidirectional charging ecosystem**, but it has evolved with a completely different focus than Germany's framework. While Germany built its policy to manage acute grid overload using automated dimming, Japan's framework is heavily driven by **disaster resilience (energy autonomy during earthquakes)** and **Virtual Power Plants (VPPs)**. [1, 2, 3, 4] 
 
 The transition is governed primarily by Japan's [Ministry of Economy, Trade and Industry (METI)](https://www.meti.go.jp/english/) and the automotive sector. [5, 6] 

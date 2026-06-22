@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 A **50 kW electrical (kWel) biomass wood chip CHP (Combined Heat and Power) unit** typically operates via small-scale wood gasification. This highly efficient process converts raw wood chips into a clean, combustible syngas to drive an internal combustion engine coupled to a 50 kW generator. [1, 2, 3, 4, 5] 
 
 ## Typical Technical Specifications

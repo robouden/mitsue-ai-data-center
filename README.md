@@ -8,6 +8,9 @@
 
 **A 25-Year Initiative for Forest Restoration, Distributed Renewable Energy, and Community-Owned Digital Infrastructure in Rural Japan.**
 
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 | | |
 |---|---|
 | **Location** | Mitsue Village, Nara Prefecture, Japan |

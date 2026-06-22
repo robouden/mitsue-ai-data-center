@@ -23,6 +23,9 @@
 
 Compiled May 2026 | For internal project use
 
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 ---
 
  

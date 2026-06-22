@@ -31,6 +31,9 @@
 ### 御杖プロジェクト設立憲章
 **Draft — April 2026 / 草案 ― 2026年4月**
 
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 ---
 
 ## ENGLISH VERSION

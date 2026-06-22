@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 ## General ISH (Ippan Shadan Hojin) Setup Information
 
 ### Establishment Process:

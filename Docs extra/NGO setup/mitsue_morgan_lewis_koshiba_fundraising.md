@@ -1,6 +1,12 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:9pt; line-height:1.4; color:#1a1a1a;">
 
 <h1 style="font-size:20pt; font-weight:700; margin:0 0 1mm; border-bottom:2px solid #3a7a5a; padding-bottom:2mm; color:#1a1a1a;">A Philanthropic Partnership for Rural Japan</h1>
+
+<blockquote style="font-size:9pt; color:#3a7a5a; border-left:3px solid #3a7a5a; padding:3mm 0 3mm 4mm; margin:2mm 0 5mm; font-weight:bold;">
+"The forest our ancestors planted — powering the village they built."<br/>
+先人が植えた森が、今、村に豊かさをもたらす。
+</blockquote>
+
 <p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">御杖プロジェクト · Mitsue Village, Nara Prefecture, Japan</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">The Opportunity</h2>

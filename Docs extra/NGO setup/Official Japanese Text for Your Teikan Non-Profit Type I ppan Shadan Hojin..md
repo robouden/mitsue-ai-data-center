@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 Here is the exact Japanese phrasing you need for the **Business Purposes (目的 - \*Mokuteki\*)** section of your Articles of Incorporation (*Teikan*).
 
 This text is legally optimized for a **Non-Profit Type \*Ippan Shadan Hojin\***. It seamlessly blends your domestic rural green-tech triad with broad, international NGO-style cooperation, allowing you to access both Japanese municipal grants and global environmental funding.

@@ -171,11 +171,39 @@ async function convertHtmlToPdf(htmlFile) {
   }
 }
 
+function todayLocal() {
+  const d = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+// Ensure the .md carries a version/date the running-header regex can read.
+// If absent, inject an invisible HTML comment (v1.0 + today) and write it back
+// to disk — placed after a leading <style> block if present, else at the top.
+// The filename always appears in the running header, so only version+date go here.
+function ensureHeader(mdFile, text) {
+  const hasVersion = /Version:\s*v[\d.]+/.test(text) || /["'>]v\d+\.\d+[\d.]*</.test(text);
+  if (hasVersion) return text;
+
+  const header = `<!-- Version: v1.0 | Last modified: ${todayLocal()} -->`;
+  const styleEnd = text.match(/<\/style>\s*?\n/i);
+  let updated;
+  if (styleEnd) {
+    const idx = styleEnd.index + styleEnd[0].length;
+    updated = text.slice(0, idx) + '\n' + header + '\n' + text.slice(idx);
+  } else {
+    updated = header + '\n\n' + text;
+  }
+  fs.writeFileSync(mdFile, updated, 'utf8');
+  console.log(`  (added header to ${path.basename(mdFile)})`);
+  return updated;
+}
+
 async function convertToPdf(mdFile, opts = {}) {
   // Route .html files to the HTML→PDF path
   if (mdFile.endsWith('.html')) return convertHtmlToPdf(path.resolve(mdFile));
 
-  const text = fs.readFileSync(mdFile, 'utf8');
+  const text = ensureHeader(mdFile, fs.readFileSync(mdFile, 'utf8'));
   const title = path.basename(mdFile, '.md');
   const rendered = convertMarkdownToHtml(mdFile, text);
   // Typora theme styles target #write; wrap content so they apply.

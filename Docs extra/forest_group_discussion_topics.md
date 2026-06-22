@@ -1,8 +1,9 @@
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-06-22</p>
-
----
+<!-- Version: v1.1 | Last modified: 2026-06-22 -->
 
 # Forest Group — Discussion Topics by Project Phase
+
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
 
 This document lists the topics the forest working group needs to address, mapped to the four project phases (Apr 2026 – Sep 2028).
 

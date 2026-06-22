@@ -14,6 +14,9 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # 論文要約とプロジェクトへの応用
+
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 ## 「日本の劣化した森林問題を解決するための地域活性化の推進」
 *大場真・中村昇吾・外川拓哉 — 国立環境研究所 福島支部（2020年）*
 

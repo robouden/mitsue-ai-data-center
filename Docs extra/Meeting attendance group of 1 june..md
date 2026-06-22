@@ -1,6 +1,4 @@
-
-
----
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
 
 Here are short bios for the identifiable people in that list. Note that several entries — `intl-collab@office.osaka-u.ac.jp`, `rxr01160@nifty.com`, `kbe@bio.aau.dk`, `kita@arch.eng.osaka-u.ac.jp`, `tlkbishop22@gmail.com`, and `takayama@knockonthedoor.jp` — couldn't be attributed to specific individuals from public information alone.
 

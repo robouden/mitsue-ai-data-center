@@ -15,6 +15,9 @@
 
 # Pro Bono Inquiry Email — Baker & McKenzie (Tokyo)
 
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 **Purpose:** First-touch inquiry to Baker & McKenzie's Tokyo office about **pro bono legal support** for the Mitsue Project's 一般社団法人 formation and renewable-energy / community-development legal work.
 
 ---

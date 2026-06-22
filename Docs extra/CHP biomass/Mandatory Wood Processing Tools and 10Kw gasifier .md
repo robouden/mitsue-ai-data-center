@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 **Sugi (Japanese Cedar)** is an exceptional feedstock for a 10kW biomass gasifier because of its high calorific value, though its unique moisture traits require careful handling. In its dry state, Sugi wood yields roughly **20.2 MJ/kg**. This puts its energy profile on par with or slightly above many global softwoods. [1, 2, 3] 
 
 The primary challenge and processing requirements for using your Sugi trees to fuel a 10kW generator involve moisture management, consumption scaling, and preparing the raw logs.

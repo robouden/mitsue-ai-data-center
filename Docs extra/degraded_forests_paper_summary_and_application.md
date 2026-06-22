@@ -14,6 +14,10 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # Paper Summary & Project Application
+
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
+
 ## "Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan"
 *Ooba, Nakamura & Togawa — National Institute for Environmental Studies, Fukushima Branch (2020)*
 

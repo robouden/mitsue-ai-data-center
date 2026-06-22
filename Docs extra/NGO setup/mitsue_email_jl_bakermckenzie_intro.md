@@ -13,7 +13,12 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # Note to JL Bonnier — Baker McKenzie Introduction Request
+
+> **"The forest our ancestors planted — powering the village they built."**
+> 先人が植えた森が、今、村に豊かさをもたらす。
 
 **Purpose:** Ask JL Bonnier (NBCUniversal) — a former USJ colleague — whether he has a Baker McKenzie contact who could advise on the Mitsue Project's biomass energy / non-profit legal structure.
 

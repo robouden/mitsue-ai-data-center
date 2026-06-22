@@ -13,6 +13,8 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # 法律相談質問リスト（日本語版）
 
 ---

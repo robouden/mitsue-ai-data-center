@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 Here is a consolidated scientific literature review — papers only, with full citations.
 
 ------

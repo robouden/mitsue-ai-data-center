@@ -13,6 +13,8 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
+<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+
 # Mitsue Project — 一般社団法人 (Ippan Shadan Hojin)
 **Articles of Incorporation Drafting — To-Do List**
 
