@@ -32,8 +32,8 @@
 **Project Overview for Consul General Ms. Sandra Pellegrom**  
 **Follow-up to King's Day Meeting — April 24, 2026**  
 
-> **"The forest our ancestors planted — powering the village they built."**
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> **"The forest our ancestors planted — the power that sustains the village they built"**
+> 先人が植えた森が、今、村を支える力になる。
 
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lieLGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fGBdgoVMwYAAAAAElFTkSuQmCC)  

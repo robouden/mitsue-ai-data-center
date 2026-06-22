@@ -32,8 +32,8 @@
 
 **Working draft, May 2026 · Project Lead: Rob Oudendijk**
 
-> **"The forest our ancestors planted — powering the village they built."**
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> **"The forest our ancestors planted — the power that sustains the village they built"**
+> 先人が植えた森が、今、村を支える力になる。
 **作成中ドラフト 2026年5月 · 代表: ロブ・アウデンダイク**
 
 ---

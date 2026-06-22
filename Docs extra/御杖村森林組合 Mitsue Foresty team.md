@@ -15,7 +15,7 @@
 
 # Mitsue Village Forestry Cooperative (御杖村森林組合)
 
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> 先人が植えた森が、今、村を支える力になる。
 
 Here's what I was able to piece together about 御杖村森林組合 (Mitsue Village Forestry Cooperative). A fair amount is well-documented; the financials are the gap, for reasons I'll explain.
 

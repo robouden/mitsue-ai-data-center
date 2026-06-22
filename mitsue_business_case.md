@@ -19,8 +19,8 @@
 
 ### The "Why Say Yes" Layer
 
-> **"The forest our ancestors planted — powering the village they built."**
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> **"The forest our ancestors planted — the power that sustains the village they built"**
+> 先人が植えた森が、今、村を支える力になる。
 
 *This document sits **above** the [Implementation Plan](mitsue_implementation_plan.md). The implementation plan answers "what we will build and when." This document answers the question every decision-maker actually asks: **"Why should I say yes, and what do I get?"** It consolidates the financial and decision logic scattered across the revenue model, funding flowchart, EVM, and risk register, and fills the three gaps those documents leave open: (1) the entity & financing structure, (2) the alternatives the village is really choosing between, and (3) whole-project return, residual risk, and decision authority.*
 

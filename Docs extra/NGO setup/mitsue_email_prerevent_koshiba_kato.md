@@ -4,8 +4,8 @@
 
 # Pre-Event Introduction Emails — Morgan Lewis Impact Investing Event, July 2026
 
-> **"The forest our ancestors planted — powering the village they built."**
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> **"The forest our ancestors planted — the power that sustains the village they built"**
+> 先人が植えた森が、今、村を支える力になる。
 
 **Recipients:** Yuko Koshiba (Philanthropy Advisors) · Yuya Kato (SIIF)
 **Purpose:** Introduce the Mitsue Project before the event so the in-person meeting has context and is productive.

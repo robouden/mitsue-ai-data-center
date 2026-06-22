@@ -2,8 +2,8 @@
 
 # The Mitsue Model: Forest Restoration, Energy, and Data Centers
 
-> **"The forest our ancestors planted — powering the village they built."**
-> 先人が植えた森が、今、村に豊かさをもたらす。
+> **"The forest our ancestors planted — the power that sustains the village they built"**
+> 先人が植えた森が、今、村を支える力になる。
 
 This powerful triad—**forest restoration**, **distributed energy**, and **community-owned data centers**—is a highly innovative model for revitalizing rural Japan. By aligning local environmental needs with cutting-edge tech infrastructure, depopulated towns can cultivate a circular economy that attracts investment and green jobs. [[1](https://www.eurus-energy.com/en/news/2026/20260114-2609.html), [2](https://airies.wikiplus.net/attach.php/6a6f75726e616c5f32342d32656e67/save/0/0/24_2-12.pdf), [3](https://www.maff.go.jp/e/data/publish/attach/pdf/index-64.pdf)]
 
