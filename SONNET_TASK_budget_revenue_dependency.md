@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-24 -->
+
 # SONNET EXECUTION BRIEF — Address budget-tightness, dependency, revenue-model & director-pay feedback
 
 **Author:** Opus (planning) · **Executor:** Claude Sonnet · **Date:** 2026-06-10

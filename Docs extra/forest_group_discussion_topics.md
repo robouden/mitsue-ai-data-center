@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-06-22 -->
+<!-- Version: v1.4 | Last modified: 2026-06-24 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -6,6 +6,18 @@
 > 先人が植えた森が、今、村を支える力になる。
 
 This document lists the topics the forest working group needs to address, mapped to the four project phases (Apr 2026 – Sep 2028).
+
+---
+
+## 🌳 Guiding Principle — raise this first at the mitsue-kanko meeting (non-negotiable)
+
+The purpose of replanting is **ecosystem restoration — bringing wildlife back to the forest by restoring their food supply** (deer, bear, boar, birds). This is **explicitly NOT a short-term timber-profit operation.**
+
+- **Species must be native broadleaf chosen for wildlife forage** (mast: acorns/nuts/berries — コナラ, クヌギ, etc.). Do **not** default to replanting sugi monoculture.
+- **The NGO owns species selection;** 御杖村森林組合 (mitsue-kanko) operates the physical planting + the critical multi-year tending (下刈り weeding, years 1–5).
+- Restoring animal food *in* the forest also reduces crop-raiding pressure on village farms.
+
+This principle frames every other forestry decision below — state it early and clearly so the co-op understands we are not asking for a conventional replant-sugi-for-timber cycle.
 
 ---
 
@@ -54,10 +66,11 @@ This document lists the topics the forest working group needs to address, mapped
 ### Native Species Reforestation Plan
 This is a multi-generational commitment, not a Phase 3 task. Planning must start in Phase 1.
 
-**Who does the replanting:**
-- mitsue-kanko for physical planting labour (to confirm)
-- Niwamori.org as Miyawaki method specialist / coordinator (to confirm via contact)
-- Village volunteer planting days as community engagement (optional supplement)
+**Who does the replanting — capacity-transfer model:**
+- **Niwamori.org** — Miyawaki method specialist: *trains and mentors* mitsue-kanko crews on native broadleaf planting + tending. The aim is to transfer this skill permanently into the village, not to depend on an outside contractor forever.
+- **mitsue-kanko** — physical planting + multi-year tending. **Early phases (1–3): works alongside Niwamori.org under NGO coordination, learning the method. Later phases: operates native replanting directly, with Niwamori.org as occasional advisor.**
+- **NGO** — owns species selection, coordinates the partnership in the early phases, funds the native-broadleaf premium.
+- Village volunteer planting days as community engagement (optional supplement).
 
 **Method — Miyawaki:**
 - Dense planting of diverse native broadleaf species (30–50 seedlings/m²)
@@ -105,9 +118,16 @@ This is a multi-generational commitment, not a Phase 3 task. Planning must start
 - Any village-owned forest land usable without private contracts?
 
 ### Forestry Co-op Relationship (御杖村森林組合 / mitsue-kanko)
-- Is mitsue-kanko a partner, contractor, or competitor?
-- Co-op capacity: do they have chippers and operators available?
-- Do they have experience with native species replanting, or only sugi?
+**First — ask, don't tell. Understand what they do today before proposing anything:**
+- What forestry work do they currently do? (thinning, afforestation, processing, sales)
+- **Do they already have native broadleaf / Miyawaki-style reforestation expertise, or is their replanting experience sugi-only?**
+- Co-op capacity: chippers, operators, crew availability?
+
+**Then — based on their answer:**
+- If they *already* have native-reforestation capability → partner as equals; they may need little or no Niwamori.org input (and could even co-mentor). 
+- If sugi-only → introduce the Niwamori.org capacity-transfer model (train first under NGO coordination, operate directly later) — framed as *they gain a new skill and new work*, not as a demand.
+- Role: partner, contractor, or hybrid?
+- Are they willing to plant + tend native broadleaf for wildlife forage (not sugi-for-timber), with the NGO choosing the species? *(See Guiding Principle above — the key cultural ask.)*
 - Profit-sharing or service-fee model?
 
 ### Economics & Feasibility *(Gate 2 decision — Dec 2026)*

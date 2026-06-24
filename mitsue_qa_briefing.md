@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.10</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.11</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-24</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -66,8 +66,8 @@ The forestry programme is focused on **replacing aged sugi (cedar) plantations w
 
 Yes — and rural EV owners are among the most underserved. Japan's national policy aims for plug-in vehicles to reach 30–40% of new car sales by the mid-2030s, though the total share of EVs on all roads is projected at only around 10–15% by 2036 — a gradual transition, not an overnight switch. Rural areas are at greater disadvantage in this shift: existing charging infrastructure is concentrated in cities, while rural residents who travel long distances need reliable local charging most. Key points:
 
-- Mitsue residents who own EVs currently have no public charging within the village. Home charging requires overnight access and stable power — not always available.
-- The former Sugano school (Koryukan) site, with its parking area and accessible location, is the natural hub for village charging infrastructure.
+- Mitsue already has public charging — a 50 kW DC fast charger at the roadside station (Michi-no-Eki Ise Honkaidō Mitsue, Terra Charge/Nichicon, 24h, installed 2024) and a slow 200V unit at the village clinic in Sugano. Both are grid-powered and oriented to passing traffic / visitors. What is still thin is **everyday community charging at the places residents actually gather**, and **local-power resilience** when the grid is down.
+- The former Sugano school (Koryukan) site, with its parking area and accessible location, is the natural hub for that community-oriented charging — complementing, not duplicating, the roadside fast charger.
 - EV charging also attracts visitors (hikers, tourism, day-trippers from Nara/Osaka) who will need to charge while visiting.
 - Revenue from charging fees contributes to project sustainability from Year 3 onwards.
 
@@ -79,6 +79,14 @@ Yes. Rural distribution lines in Japan are aging, and Mitsue's mountain location
 - This "island mode" operation keeps the data center, emergency lighting, communications equipment, and EV chargers operational even when the broader grid is down — and unlike solar alone, biomass CHP runs through the night and through extended bad-weather outages.
 - Battery capacity will be specified during Phase 2 feasibility (months 10–18). Preliminary estimates suggest a system supporting 12–48 hours of critical-load operation during an outage.
 - The data center's uninterruptible power supply (UPS) infrastructure, already required for its own operations, forms the backbone of this community resilience capability at minimal additional cost.
+
+### Q2a. Could a facility like Himeishi-no-Yu (Mitsue Onsen) become a disaster-resilience hub / evacuation shelter?
+
+Potentially yes — and it is one of the most compelling versions of this idea. Himeishi-no-Yu is a municipal public facility with hot water, kitchen, toilets, parking, and large indoor space — already most of what a shelter needs. Equipped with a biomass CHP + battery + island-mode (microgrid), it could function as a **防災拠点 (Disaster Resilience Center)** providing emergency power, heating, **hot showers**, food, communications, medicine refrigeration, and phone/medical-device charging — running through the multi-day, night-time outages that landslides, typhoons, and heavy-snow road isolation cause (where biomass CHP outperforms solar-only). Key points:
+
+- **Verify first:** whether Himeishi-no-Yu is an officially designated shelter (指定避難所) is not confirmed in public documents; if not, designation could be pursued with the village.
+- **Funding hook:** a renewable-powered resilience hub stacks two national priorities — decarbonization and 国土強靱化 (national resilience) — and may qualify for 環境省 地域脱炭素移行・再エネ推進交付金 (2/3–3/4), 緊急防災・減災事業債, 防災・安全交付金, and NEDO distributed-energy programmes. Most flow through the village (官民連携).
+- **Technical note:** the onsen's existing wood heater is a combustion boiler (heat only); electricity requires a separate gasification CHP. See `Docs extra/CHP biomass/candidate_chp_sites.md`.
 
 ### Q3. Why a data center? What unique advantage does it provide?
 

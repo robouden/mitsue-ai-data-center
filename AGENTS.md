@@ -1,3 +1,5 @@
+<!-- Version: v1.0 | Last modified: 2026-06-24 -->
+
 # AGENTS.md - Your Workspace
 
 This folder is home. Treat it that way.

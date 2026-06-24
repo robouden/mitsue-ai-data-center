@@ -1,3 +1,5 @@
+<!-- Version: v1.2 | Last modified: 2026-06-24 -->
+
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
@@ -5,8 +7,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-24</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -115,11 +117,23 @@ Even though you have history here, still begin with listening. The mayor's persp
 
    Tests whether your forestry group conversations have circulated, and whether the village has its own forestry initiatives in motion.
 
+4. **"村内のEV充電設備について、現在どなたが管理していらっしゃるのでしょうか? 菅野の国民健康保険診療所に200Vの充電器があるのを拝見しました。"**
+   *("Regarding EV charging facilities in the village — who currently manages them? I noticed there is a 200V charger at the National Health Insurance Clinic in Sugano.")*
+
+   The village already has at least one EV charger (the clinic unit, grid-powered). Find out **who owns/operates it** before proposing more — so the project's charging idea (at the Koryukan, powered by local biomass CHP) is positioned as *complementing* existing infrastructure, never displacing it.
+
+5. **"村の指定避難所について、現在どちらの施設が指定されておりますでしょうか? 姫石の湯のような施設は、災害時の拠点として活用されるお考えはございますか?"**
+   *("Which facilities are currently designated as evacuation shelters? Is there any thought of using a facility like Himeishi-no-Yu (Mitsue Onsen) as a base during disasters?")*
+
+   A gentle discovery question that opens the **disaster-resilience** angle. If the onsen were equipped with biomass CHP + battery + island-mode, it could serve as a 防災拠点 — emergency power, heat, hot showers, food, and device charging through landslide/typhoon/heavy-snow outages. Don't pitch it yet here; just learn the village's shelter setup and priorities, then connect it later if he's receptive.
+
 ### What to Listen For
 
 - **What the vice mayor relayed (or didn't)** — gives you a sense of how the earlier meeting was received
 - **Any other proposals for the former Sugano school** — competing ideas you need to know about
 - **Existing forestry plans** — your project must align with, not compete against, village forestry direction
+- **Who runs existing EV charging** — the clinic's 200V charger is grid-powered; learn who manages it and whether the village wants to expand. Our angle: local CHP-powered charging that keeps working in a blackout — a complement, not a replacement.
+- **Designated shelters & disaster priorities** — is Himeishi-no-Yu (or the Koryukan) a 指定避難所? What worries the village most (landslides, typhoon flooding, snow isolation)? This tells you whether the renewable-powered 防災拠点 angle will resonate — and it's a strong funding hook (decarbonization + 国土強靱化).
 - **The mayor's tone** — engaged? cautious? deferring? Each tells you something
 
 ---
@@ -146,9 +160,9 @@ Now you can be more substantive. Use your one-page visual if helpful.
 >
 > *(First, gradually returning sugi plantations to native species over a long period. From my conversation with the forestry group, I sensed there may be openness to this.)*
 
-> "2つ目は、杉林の間伐材を燃料とする小規模なバイオマス熱電併給（CHP）システムで村の電力と熱を生み出すことでございます。森が村を動かす循環型のエネルギーであり、これを太陽光発電とEV充電ステーションが補完いたします。日本全体でEVへの移行が進む中、村内に充電設備がないことは住民にとって切実な課題です。さらに、バイオマスCHPは24時間稼働する地域電源として停電時のバックアップともなり、村の重要施設を守ります。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
+> "2つ目は、杉林の間伐材を燃料とする小規模なバイオマス熱電併給（CHP）システムで村の電力と熱を生み出すことでございます。森が村を動かす循環型のエネルギーであり、これを太陽光発電とEV充電が補完いたします。村にはすでに道の駅（神末）に急速充電器があり通過交通には対応しておりますが、住民が日常的に集まる場所での充電や、停電時にも使える地産電源による充電は、まだ手薄でございます。私どもはそこを補完したいと考えております。さらに、バイオマスCHPは24時間稼働する地域電源として停電時のバックアップともなり、村の重要施設を守ります。蓄電池の設置についてはフィージビリティスタディで判断いたします。"
 >
-> *(Second, generating the village's electricity and heat from a small biomass combined heat and power (CHP) system fuelled by sugi forest thinnings — a circular energy economy where the forest powers the village, complemented by solar and EV charging stations. As Japan transitions to electric vehicles, the absence of village charging infrastructure is a real issue for residents. The biomass CHP also provides 24/7 on-site backup power during typhoons and heavy snowfall. Battery storage to be confirmed by feasibility study.)*
+> *(Second, generating the village's electricity and heat from a small biomass combined heat and power (CHP) system fuelled by sugi forest thinnings — a circular energy economy where the forest powers the village, complemented by solar and EV charging. The village already has a fast charger at the roadside station (Kozue) for passing traffic; what is still thin is everyday community charging where residents gather, and charging that keeps working in a blackout via local power — that is the gap we would complement. The biomass CHP also provides 24/7 on-site backup power during typhoons and heavy snowfall. Battery storage to be confirmed by feasibility study.)*
 
 This framing matters: clearly explaining that the biomass system is a small, village-scale unit fed by forest thinnings — not a large industrial plant — and that solar and EV charging complement it, is important for setting realistic expectations.
 
@@ -261,9 +275,9 @@ The mayor may probe the practical mechanics. Full bilingual answers live in [`mi
 > *(The village's primary power is a biomass CHP system fuelled by sugi forest thinnings, providing 24/7 baseload electricity and heat. Complementary solar panels on the former Sugano school roof and EV charging stations round it out. Together they power the data center and support village EV charging. Battery storage to be confirmed by Phase 2 feasibility study.)*
 
 ### "What is the EV charging plan?"
-> "まず2〜4台の充電器から始め、村の住民と来訪者に開放いたします。EV普及に合わせて段階的に増設していく計画でございます。充電料金は施設維持費の一部に充当します。"
+> "村にはすでに診療所などに充電器がございますが、いずれも系統電源によるものと存じます。私どもは、旧菅野小学校（体験交流館）に2〜4台から始め、村の住民・保護者・教職員・来訪者に開放いたします。違いは電源でございまして、近隣のバイオマスCHPによる地産電力で動かすため、停電時にも充電が可能でございます。EV普及に合わせて段階的に増設し、充電料金は施設維持費の一部に充当いたします。"
 >
-> *(Starting with 2–4 chargers, open to residents and visitors, scaling up as EV adoption grows. Charging fees contribute to facility operating costs.)*
+> *(The village already has chargers — e.g. at the clinic — but these run on grid power. We would start with 2–4 chargers at the former Sugano school (Koryukan), open to residents, parents, teachers, and visitors. The difference is the power source: ours run on local biomass-CHP electricity, so they keep working during a blackout. Scaling up as EV adoption grows; charging fees contribute to facility operating costs.)*
 
 ### "Why is a data center necessary?"
 > "データセンターは24時間365日稼働するため、同じく連続稼働するバイオマスCHPと自然に整合する安定した需要先となり、バイオマスCHPと太陽光への投資を経済的に成立させます。これがないと、農村のエネルギー事業は財務的に成立しないのが通例でございまして、データセンターはEV充電や停電レジリエンスを可能にするエネルギー設備投資を正当化する鍵でございます."

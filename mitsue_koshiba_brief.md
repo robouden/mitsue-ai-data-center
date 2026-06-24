@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-20</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-24</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -15,7 +15,7 @@
 
 ---
 
-<!-- Version: v1.2 | Last modified: 2026-06-20 -->
+<!-- Version: v1.3 | Last modified: 2026-06-24 -->
 
 <svg width="100%" viewBox="0 0 590 105" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:4mm 0 6mm;">
   <defs>
@@ -96,6 +96,8 @@ Rather than a funding ask, these are the questions this meeting is meant to expl
 2. **Governance** — For a project spanning a non-profit mission entity, a for-profit operating company, a village government partner, and eventual open-source replication, what governance structure would you explore first to give philanthropic partners confidence?
 
 3. **Impact horizon** — What metrics, verification methods, and reporting cadence would philanthropic partners typically expect over a 10–20 year commitment to a project of this kind?
+
+4. **Legal setup & pro bono support** — As we establish the 一般社団法人 (and build toward eventual 公益認定), who would you recommend for incorporation and structuring support? If a US-based firm operational in Japan — such as Morgan Lewis — were to offer pro bono help, could they handle the Japanese-law filing in-house, or would they typically partner with Japanese counsel (司法書士 / 行政書士)? Any introductions you would suggest?
 
 ---
 
