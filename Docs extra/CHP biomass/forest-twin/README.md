@@ -22,8 +22,22 @@ almost all of *rotation*'s profit while scoring far better on both.
   (categorised by `status`, with legend). No manual styling needed.
 - **stands_map.html** — self-contained Leaflet map, opens in any browser.
 
-Geometry is placeholder demo squares around Mitsue until real boundaries arrive
-(Mitsue Kanko / LiDAR survey); attributes are real, from the model.
+More views:
+
+```bash
+python3 gis_map.py --animate mixed   # 50-yr time slider + Play (forest changes)
+python3 gis_map.py --sugano 28       # organic ~28 ha demo area around Sugano Organic
+```
+
+- **stands_timeline.html** — year slider/animation; watch stands get harvested
+  and replanted, with live broadleaf % and biodiversity readout.
+- **sugano_area.geojson / .html** — an *organic-shaped* (not a block) potential
+  demonstration/thinning area centred on Sugano Organic (御杖村菅野2696, GSI-geocoded),
+  right by the village where people can see it.
+
+Everything is anchored on the Sugano/菅野 settlement (close to people), not remote
+mountains. Geometry is still approximate until real boundaries arrive (Mitsue
+Kanko / LiDAR survey); attributes are model-driven.
 
 ## Run
 
