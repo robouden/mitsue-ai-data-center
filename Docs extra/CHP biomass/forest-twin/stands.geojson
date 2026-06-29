@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.16400771380182,
+              34.449039593867056
+            ],
+            [
+              136.16779228619816,
+              34.449039593867056
+            ],
+            [
+              136.16779228619816,
+              34.45216040613295
+            ],
+            [
+              136.16400771380182,
+              34.45216040613295
+            ],
+            [
+              136.16400771380182,
+              34.449039593867056
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stand_id": "S1",
+        "species": "sugi",
+        "area_ha": 12.0,
+        "age": 58,
+        "volume_m3": 7065,
+        "status": "ready to harvest",
+        "recommendation": "harvest within 14 yr",
+        "color": "#e23b3b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.17817258694,
+              34.44917555060353
+            ],
+            [
+              136.18162741306,
+              34.44917555060353
+            ],
+            [
+              136.18162741306,
+              34.452024449396475
+            ],
+            [
+              136.17817258694,
+              34.452024449396475
+            ],
+            [
+              136.17817258694,
+              34.44917555060353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stand_id": "S2",
+        "species": "sugi",
+        "area_ha": 10.0,
+        "age": 52,
+        "volume_m3": 5786,
+        "status": "ready to harvest",
+        "recommendation": "harvest within 8 yr",
+        "color": "#e23b3b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.19235495478907,
+              34.44932593372759
+            ],
+            [
+              136.19544504521096,
+              34.44932593372759
+            ],
+            [
+              136.19544504521096,
+              34.45187406627241
+            ],
+            [
+              136.19235495478907,
+              34.45187406627241
+            ],
+            [
+              136.19235495478907,
+              34.44932593372759
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stand_id": "S3",
+        "species": "sugi",
+        "area_ha": 8.0,
+        "age": 47,
+        "volume_m3": 4511,
+        "status": "ready to harvest",
+        "recommendation": "harvest within 3 yr",
+        "color": "#e23b3b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.16426099655635,
+              34.46124864864865
+            ],
+            [
+              136.16753900344364,
+              34.46124864864865
+            ],
+            [
+              136.16753900344364,
+              34.463951351351355
+            ],
+            [
+              136.16426099655635,
+              34.463951351351355
+            ],
+            [
+              136.16426099655635,
+              34.46124864864865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stand_id": "S4",
+        "species": "sugi",
+        "area_ha": 9.0,
+        "age": 40,
+        "volume_m3": 4744,
+        "status": "ready to thin",
+        "recommendation": "thin this rotation",
+        "color": "#f2c037"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136.17808801351578,
+              34.46110602486921
+            ],
+            [
+              136.18171198648423,
+              34.46110602486921
+            ],
+            [
+              136.18171198648423,
+              34.464093975130794
+            ],
+            [
+              136.17808801351578,
+              34.464093975130794
+            ],
+            [
+              136.17808801351578,
+              34.46110602486921
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stand_id": "S5",
+        "species": "sugi",
+        "area_ha": 11.0,
+        "age": 33,
+        "volume_m3": 5083,
+        "status": "ready to thin",
+        "recommendation": "thin this rotation",
+        "color": "#f2c037"
+      }
+    }
+  ]
+}

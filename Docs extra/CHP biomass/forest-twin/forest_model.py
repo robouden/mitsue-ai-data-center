@@ -120,6 +120,28 @@ def standing_carbon_t(sp, area, age):
     return total_bio * sp["carbon_fraction"]
 
 
+def eco_indices(stands):
+    """APPROXIMATE biodiversity & water-retention indices (0-1). Directional
+    proxies, NOT measured: broadleaf and mixed-age forest score higher than dense
+    sugi monoculture (well-established in the literature; calibrate later).
+      - biodiversity: driven by broadleaf area share + age-class diversity
+      - water:        infiltration / low landslide risk, driven by broadleaf share
+    """
+    live = [s for s in stands if s["area"] > 0]
+    total = sum(s["area"] for s in live) or 1.0
+    bl_frac = sum(s["area"] for s in live if s["species"] != "sugi") / total
+    # age-class diversity: spread of stand ages, normalised 0-1
+    ages = [s["age"] for s in live]
+    age_div = 0.0
+    if len(ages) > 1:
+        mean = sum(ages) / len(ages)
+        sd = (sum((a - mean) ** 2 for a in ages) / len(ages)) ** 0.5
+        age_div = min(1.0, sd / 25.0)
+    biodiversity = min(1.0, 0.25 + 0.55 * bl_frac + 0.20 * age_div)
+    water = min(1.0, 0.30 + 0.70 * bl_frac)
+    return biodiversity, water
+
+
 # ---------------------------------------------------------------------------
 def simulate(species, stands, cfg):
     total_area = sum(s["area"] for s in stands)
@@ -198,6 +220,7 @@ def simulate(species, stands, cfg):
                         if year - p["created"] < p["life"])
         avoided_co2_t = (elec_kwh * cfg["grid_co2_kg_per_kwh"]
                          + heat_gj * cfg["heat_fossil_kg_per_gj"]) / 1000.0
+        biodiversity, water = eco_indices(stands)
 
         # --- economics ---
         revenue = (sawlog_vol * sp_h["log_price_yen_m3"]
@@ -225,6 +248,8 @@ def simulate(species, stands, cfg):
             "elec_kwh": elec_kwh,
             "elec_MWh": elec_kwh / 1000.0,
             "heat_GJ": heat_gj,
+            "biodiversity": biodiversity,
+            "water_index": water,
             "revenue_M_yen": revenue / 1e6,
             "_costs_excl_chp": costs_excl_chp,
         })
@@ -276,19 +301,21 @@ def run_scenario(overrides):
         "profit_M_yen": sum(r["profit_M_yen"] for r in rows),
         "nameplate_kwe": meta["nameplate_kwe"],
         "capex_M_yen": meta["capex_yen"] / 1e6,
+        "biodiversity": rows[-1]["biodiversity"],
+        "water_index": rows[-1]["water_index"],
     }
 
 
 def compare():
     print(f"\nScenario comparison -- {CONFIG['sim_years']} year totals (CHP auto-sized)\n")
-    print(f"  {'scenario':<28} {'kWe':>5} {'capexM':>7} {'avoidCO2':>9}"
-          f" {'prodC':>7} {'elecMWh':>8} {'profit M¥':>10}")
+    print(f"  {'scenario':<28} {'kWe':>5} {'avoidCO2':>9}"
+          f" {'prodC':>7} {'profit M¥':>10} {'biodiv':>7} {'water':>6}")
     for name, ov in SCENARIOS.items():
         s = run_scenario(ov)
-        print(f"  {name:<28} {s['nameplate_kwe']:>5.0f} {s['capex_M_yen']:>7.1f}"
+        print(f"  {name:<28} {s['nameplate_kwe']:>5.0f}"
               f" {s['avoided_CO2_t']:>9,.0f} {s['product_C_t']:>7,.0f}"
-              f" {s['elec_MWh']:>8,.0f} {s['profit_M_yen']:>10,.1f}")
-    print("\n  kWe=auto-sized nameplate  capex=derived  profit=cumulative 50-yr\n")
+              f" {s['profit_M_yen']:>10,.1f} {s['biodiversity']:>7.2f} {s['water_index']:>6.2f}")
+    print("\n  profit=cumulative 50-yr  biodiv/water=approx index 0-1 (end state)\n")
 
 
 def sweep():
@@ -338,6 +365,9 @@ def main():
     print(f"  Carbon in timber/char  : {cum_product:>10,.0f} tC  ({cum_product*CONFIG['co2_per_c']:,.0f} tCO2e)")
     print(f"  Standing forest carbon : {rows[-1]['standing_C_t']:>10,.0f} tC")
     print(f"  Cumulative profit      : {cum_profit:>10,.1f} M¥")
+    print(f"  Biodiversity index*    : {rows[0]['biodiversity']:>10.2f} -> {rows[-1]['biodiversity']:.2f}")
+    print(f"  Water-retention index* : {rows[0]['water_index']:>10.2f} -> {rows[-1]['water_index']:.2f}")
+    print("  (* approximate 0-1 proxy: broadleaf share + age diversity, not measured)")
 
     out = os.path.join(HERE, "results.csv")
     with open(out, "w", newline="") as f:

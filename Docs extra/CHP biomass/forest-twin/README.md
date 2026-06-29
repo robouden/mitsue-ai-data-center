@@ -8,6 +8,19 @@ It runs three loops per year:
 2. **Carbon** – standing forest carbon, carbon locked in timber/biochar, CO₂ avoided vs. fossil fuel.
 3. **Money** – revenue (logs, electricity, heat, biochar, carbon credits) vs. costs (felling, transport, chipping, drying, roads, planting, auto-sized CHP).
 
+It also reports two **approximate** eco indices (0–1, *not measured* — directional
+proxies from broadleaf share + age diversity): **biodiversity** and
+**water-retention**. These reveal the ecology↔energy trade-off: *mixed* keeps
+almost all of *rotation*'s profit while scoring far better on both.
+
+## GIS map
+
+`python3 gis_map.py` writes **stands.geojson** (open in QGIS) and a
+self-contained **stands_map.html** (Leaflet, opens in any browser) — stands
+colour-coded by harvest status. Geometry is placeholder demo squares around
+Mitsue until real boundaries arrive (Mitsue Kanko / LiDAR survey); attributes are
+real, from the model.
+
 ## Run
 
 ```bash

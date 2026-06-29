@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Mitsue Forest Twin — stand map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  html,body,#map{height:100%;margin:0}
+  .legend{background:#fff;padding:8px 10px;border-radius:6px;line-height:1.5;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+  .legend i{display:inline-block;width:12px;height:12px;margin-right:6px;border:1px solid #555}
+</style></head><body><div id="map"></div><script>
+var data = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[136.16400771380182, 34.449039593867056], [136.16779228619816, 34.449039593867056], [136.16779228619816, 34.45216040613295], [136.16400771380182, 34.45216040613295], [136.16400771380182, 34.449039593867056]]]}, "properties": {"stand_id": "S1", "species": "sugi", "area_ha": 12.0, "age": 58, "volume_m3": 7065, "status": "ready to harvest", "recommendation": "harvest within 14 yr", "color": "#e23b3b"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[136.17817258694, 34.44917555060353], [136.18162741306, 34.44917555060353], [136.18162741306, 34.452024449396475], [136.17817258694, 34.452024449396475], [136.17817258694, 34.44917555060353]]]}, "properties": {"stand_id": "S2", "species": "sugi", "area_ha": 10.0, "age": 52, "volume_m3": 5786, "status": "ready to harvest", "recommendation": "harvest within 8 yr", "color": "#e23b3b"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[136.19235495478907, 34.44932593372759], [136.19544504521096, 34.44932593372759], [136.19544504521096, 34.45187406627241], [136.19235495478907, 34.45187406627241], [136.19235495478907, 34.44932593372759]]]}, "properties": {"stand_id": "S3", "species": "sugi", "area_ha": 8.0, "age": 47, "volume_m3": 4511, "status": "ready to harvest", "recommendation": "harvest within 3 yr", "color": "#e23b3b"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[136.16426099655635, 34.46124864864865], [136.16753900344364, 34.46124864864865], [136.16753900344364, 34.463951351351355], [136.16426099655635, 34.463951351351355], [136.16426099655635, 34.46124864864865]]]}, "properties": {"stand_id": "S4", "species": "sugi", "area_ha": 9.0, "age": 40, "volume_m3": 4744, "status": "ready to thin", "recommendation": "thin this rotation", "color": "#f2c037"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[136.17808801351578, 34.46110602486921], [136.18171198648423, 34.46110602486921], [136.18171198648423, 34.464093975130794], [136.17808801351578, 34.464093975130794], [136.17808801351578, 34.46110602486921]]]}, "properties": {"stand_id": "S5", "species": "sugi", "area_ha": 11.0, "age": 33, "volume_m3": 5083, "status": "ready to thin", "recommendation": "thin this rotation", "color": "#f2c037"}}]};
+var map = L.map('map');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {maxZoom:18, attribution:'© OpenStreetMap'}).addTo(map);
+var layer = L.geoJSON(data, {
+  style: f => ({color:'#333', weight:1, fillColor:f.properties.color, fillOpacity:0.6}),
+  onEachFeature: (f,l) => { var p=f.properties;
+    l.bindPopup('<b>'+p.stand_id+'</b> ('+p.species+')<br>'+
+      p.area_ha+' ha · age '+p.age+' · '+p.volume_m3+' m³<br>'+
+      '<b>'+p.status+'</b><br><i>'+p.recommendation+'</i>'); }
+}).addTo(map);
+map.fitBounds(layer.getBounds().pad(0.5));
+var lg = L.control({position:'bottomright'});
+lg.onAdd = function(){ var d=L.DomUtil.create('div','legend');
+  d.innerHTML='<b>Stand status</b><br>'+
+    '<i style="background:#3aa757"></i>growing<br>'+
+    '<i style="background:#f2c037"></i>ready to thin<br>'+
+    '<i style="background:#e23b3b"></i>ready to harvest<br>'+
+    '<i style="background:#2b7bff"></i>replanted broadleaf';
+  return d; };
+lg.addTo(map);
+</script></body></html>
