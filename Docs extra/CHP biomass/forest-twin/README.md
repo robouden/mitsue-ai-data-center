@@ -15,11 +15,15 @@ almost all of *rotation*'s profit while scoring far better on both.
 
 ## GIS map
 
-`python3 gis_map.py` writes **stands.geojson** (open in QGIS) and a
-self-contained **stands_map.html** (Leaflet, opens in any browser) — stands
-colour-coded by harvest status. Geometry is placeholder demo squares around
-Mitsue until real boundaries arrive (Mitsue Kanko / LiDAR survey); attributes are
-real, from the model.
+`python3 gis_map.py` writes three files — stands colour-coded by harvest status:
+
+- **stands.geojson** — vector layer; just drag it into QGIS.
+- **stands.qml** — QGIS style sidecar; auto-applied when you add the geojson
+  (categorised by `status`, with legend). No manual styling needed.
+- **stands_map.html** — self-contained Leaflet map, opens in any browser.
+
+Geometry is placeholder demo squares around Mitsue until real boundaries arrive
+(Mitsue Kanko / LiDAR survey); attributes are real, from the model.
 
 ## Run
 
@@ -32,9 +36,13 @@ Prints a yearly table + summary and writes `results.csv`.
 Compare scenarios or grid-search the levers:
 
 ```bash
-python3 forest_model.py --compare   # named regimes (rotation / convert / mixed / leave)
-python3 forest_model.py --sweep     # harvest rate × CHP capacity factor (CHP auto-sized)
+python3 forest_model.py --compare    # named regimes (rotation / convert / mixed / leave)
+python3 forest_model.py --sweep      # harvest rate × CHP capacity factor (CHP auto-sized)
+python3 forest_model.py --area 320   # scale forest to N ha, print power + economics
 ```
+
+`--area N` scales the sample forest to any total area and reports the CHP size,
+electricity, heat, capex and profit — e.g. ~320 ha → ~46 kWe / ~324 MWh/yr.
 
 Edit the `SCENARIOS` dict in `forest_model.py` to add/change scenarios
 (each is just a set of `CONFIG` overrides).

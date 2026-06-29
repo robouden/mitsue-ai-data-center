@@ -338,6 +338,29 @@ def sweep():
     print(f"\n  best: {best[0]:,.0f} M¥  at harvest {best[1]:.0%}/yr, capacity factor {best[2]:.0%}\n")
 
 
+def area_report(target_ha):
+    """Scale the sample forest to target_ha and report power + economics."""
+    species = load_species(os.path.join(HERE, "data", "species.csv"))
+    stands = load_stands(os.path.join(HERE, "data", "stands.csv"))
+    base = sum(s["area"] for s in stands)
+    for s in stands:
+        s["area"] *= target_ha / base
+    rows, meta = simulate(species, stands, CONFIG)
+    yr = rows[5:45] or rows                       # steady-state window
+    el = sum(r["elec_MWh"] for r in yr) / len(yr)
+    ht = sum(r["heat_GJ"] for r in yr) / len(yr) * 0.2778   # GJ -> MWh-th
+    profit = sum(r["profit_M_yen"] for r in rows)
+    homes = el * 1000 / 4300                       # ~avg JP household kWh/yr
+    print(f"\nForest Twin -- {target_ha:.0f} ha, regime '{CONFIG['regime']}', "
+          f"{CONFIG['sim_years']}-yr run\n")
+    print(f"  CHP nameplate        : {meta['nameplate_kwe']:>8,.0f} kWe")
+    print(f"  Electricity          : {el:>8,.0f} MWh/yr  (~{el*1000/8760:,.0f} kW avg, ~{homes:,.0f} homes)")
+    print(f"  Usable heat          : {ht:>8,.0f} MWh-th/yr")
+    print(f"  Derived CHP capex    : {meta['capex_yen']/1e6:>8,.1f} M¥")
+    print(f"  Cumulative profit    : {profit:>8,.1f} M¥ over {CONFIG['sim_years']} yr")
+    print(f"  Biodiversity index*  : {rows[-1]['biodiversity']:>8.2f}   (* approx 0-1 proxy)\n")
+
+
 # ---------------------------------------------------------------------------
 def main():
     species = load_species(os.path.join(HERE, "data", "species.csv"))
@@ -383,5 +406,7 @@ if __name__ == "__main__":
         compare()
     elif "--sweep" in sys.argv:
         sweep()
+    elif "--area" in sys.argv:
+        area_report(float(sys.argv[sys.argv.index("--area") + 1]))
     else:
         main()

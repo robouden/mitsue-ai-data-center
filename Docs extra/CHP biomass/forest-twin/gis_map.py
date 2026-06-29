@@ -85,7 +85,12 @@ def build():
     with open(html, "w") as f:
         f.write(HTML_TEMPLATE.replace("__GEOJSON__", json.dumps(fc)))
 
+    qml = os.path.join(HERE, "stands.qml")          # QGIS auto-applies this style
+    with open(qml, "w") as f:
+        f.write(QML_STYLE)
+
     print(f"wrote {gj}")
+    print(f"wrote {qml}  (QGIS style — auto-applied when you add stands.geojson)")
     print(f"wrote {html}  (open in a browser)")
     print(f"\n{len(feats)} stands  (rotation age {rot} yr):")
     for ft in feats:
@@ -127,6 +132,31 @@ lg.onAdd = function(){ var d=L.DomUtil.create('div','legend');
 lg.addTo(map);
 </script></body></html>
 """
+
+
+# QGIS style: categorise polygons by the "status" field (auto-applied sidecar)
+def _sym(name, rgb):
+    return (f'<symbol type="fill" name="{name}" alpha="1">'
+            f'<layer class="SimpleFill">'
+            f'<prop k="color" v="{rgb},150"/>'
+            f'<prop k="outline_color" v="51,51,51,255"/>'
+            f'<prop k="outline_width" v="0.3"/>'
+            f'<prop k="style" v="solid"/></layer></symbol>')
+
+QML_STYLE = (
+    "<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>\n"
+    '<qgis version="3.34" styleCategories="Symbology">\n'
+    '<renderer-v2 type="categorizedSymbol" attr="status" forceraster="0" symbollevels="0" enableorderby="0">\n'
+    '<categories>'
+    '<category render="true" value="growing" symbol="0" label="growing"/>'
+    '<category render="true" value="ready to thin" symbol="1" label="ready to thin"/>'
+    '<category render="true" value="ready to harvest" symbol="2" label="ready to harvest"/>'
+    '<category render="true" value="replanted (broadleaf)" symbol="3" label="replanted broadleaf"/>'
+    '</categories>\n<symbols>'
+    + _sym("0", "58,167,87") + _sym("1", "242,192,55")
+    + _sym("2", "226,59,59") + _sym("3", "43,123,255")
+    + '</symbols>\n</renderer-v2>\n<layerGeometryType>2</layerGeometryType>\n</qgis>\n'
+)
 
 
 if __name__ == "__main__":
