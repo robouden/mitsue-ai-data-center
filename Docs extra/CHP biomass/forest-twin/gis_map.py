@@ -39,6 +39,16 @@ def status_of(stand, rotation_age):
     return "growing", "#3aa757", f"~{int(rotation_age-a)} yr to rotation age"
 
 
+def stand_eco(stand):
+    """APPROXIMATE per-stand eco scores (0-1, not measured): broadleaf forest is
+    far better wildlife habitat / water infiltration than dense sugi monoculture.
+    A thinned/older sugi stand scores slightly better than a dense young one."""
+    if stand["species"] != "sugi":
+        return 0.85, 0.90          # broadleaf: high habitat + infiltration
+    age_bonus = min(0.15, stand["age"] / 400.0)   # older sugi: a little more understory
+    return round(0.25 + age_bonus, 2), round(0.30, 2)
+
+
 def square(lat, lon, area_ha):
     """A square polygon of the given area (ha), centred on lat/lon."""
     side_m = math.sqrt(area_ha) * 100.0          # 1 ha = 100 m × 100 m
@@ -65,6 +75,7 @@ def build():
         lon = CENTRE_LON + (col - 1) * 0.014
         vol = fm.volume_per_ha(species[s["species"]], s["age"]) * s["area"]
         status, color, reco = status_of(s, rot)
+        biodiv, water = stand_eco(s)
         feats.append({
             "type": "Feature",
             "geometry": {"type": "Polygon", "coordinates": square(lat, lon, s["area"])},
@@ -72,7 +83,8 @@ def build():
                 "stand_id": s["id"], "species": s["species"],
                 "area_ha": round(s["area"], 1), "age": int(s["age"]),
                 "volume_m3": int(vol), "status": status,
-                "recommendation": reco, "color": color,
+                "recommendation": reco,
+                "biodiversity": biodiv, "water": water, "color": color,
             },
         })
     fc = {"type": "FeatureCollection", "features": feats}
@@ -118,7 +130,8 @@ var layer = L.geoJSON(data, {
   onEachFeature: (f,l) => { var p=f.properties;
     l.bindPopup('<b>'+p.stand_id+'</b> ('+p.species+')<br>'+
       p.area_ha+' ha · age '+p.age+' · '+p.volume_m3+' m³<br>'+
-      '<b>'+p.status+'</b><br><i>'+p.recommendation+'</i>'); }
+      '<b>'+p.status+'</b><br><i>'+p.recommendation+'</i><br>'+
+      '<small>eco (approx 0-1): biodiversity '+p.biodiversity+' · water '+p.water+'</small>'); }
 }).addTo(map);
 map.fitBounds(layer.getBounds().pad(0.5));
 var lg = L.control({position:'bottomright'});

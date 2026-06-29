@@ -38,6 +38,8 @@
         "volume_m3": 7065,
         "status": "ready to harvest",
         "recommendation": "harvest within 14 yr",
+        "biodiversity": 0.4,
+        "water": 0.3,
         "color": "#e23b3b"
       }
     },
@@ -78,6 +80,8 @@
         "volume_m3": 5786,
         "status": "ready to harvest",
         "recommendation": "harvest within 8 yr",
+        "biodiversity": 0.38,
+        "water": 0.3,
         "color": "#e23b3b"
       }
     },
@@ -118,6 +122,8 @@
         "volume_m3": 4511,
         "status": "ready to harvest",
         "recommendation": "harvest within 3 yr",
+        "biodiversity": 0.37,
+        "water": 0.3,
         "color": "#e23b3b"
       }
     },
@@ -158,6 +164,8 @@
         "volume_m3": 4744,
         "status": "ready to thin",
         "recommendation": "thin this rotation",
+        "biodiversity": 0.35,
+        "water": 0.3,
         "color": "#f2c037"
       }
     },
@@ -198,6 +206,8 @@
         "volume_m3": 5083,
         "status": "ready to thin",
         "recommendation": "thin this rotation",
+        "biodiversity": 0.33,
+        "water": 0.3,
         "color": "#f2c037"
       }
     }
