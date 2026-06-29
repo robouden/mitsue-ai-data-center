@@ -4,9 +4,9 @@ A 50-year "what if" simulator for Mitsue's sugi forest. Stdlib Python only.
 
 It runs three loops per year:
 
-1. **Forest** – grow stands, convert X% of area/year from sugi to broadleaf, measure wood harvested.
+1. **Forest** – grow stands, harvest under the chosen `regime` (convert / rotation / mixed), measure wood out.
 2. **Carbon** – standing forest carbon, carbon locked in timber/biochar, CO₂ avoided vs. fossil fuel.
-3. **Money** – revenue (logs, electricity, heat, biochar, carbon credits) vs. costs (logging, planting, CHP).
+3. **Money** – revenue (logs, electricity, heat, biochar, carbon credits) vs. costs (felling, transport, chipping, drying, roads, planting, auto-sized CHP).
 
 ## Run
 
@@ -16,10 +16,11 @@ python3 forest_model.py
 
 Prints a yearly table + summary and writes `results.csv`.
 
-Compare scenarios side by side:
+Compare scenarios or grid-search the levers:
 
 ```bash
-python3 forest_model.py --compare
+python3 forest_model.py --compare   # named regimes (rotation / convert / mixed / leave)
+python3 forest_model.py --sweep     # harvest rate × CHP capacity factor (CHP auto-sized)
 ```
 
 Edit the `SCENARIOS` dict in `forest_model.py` to add/change scenarios
@@ -55,49 +56,32 @@ real Mishima envelope as a function of **managed forest area**:
 independent validation. Mitsue has ~7,051 ha forest, so a Mishima-scale village
 CHP needs only ~4–5% of it under sustained management.
 
-## Earlier (convert-mode) notes
+## How the CHP is sized & calibrated
 
-The earlier "needs ≥95–145 ha to break even" result was an artefact of assuming a
-fixed ¥30–80M gasifier fed by a trickle of wood. The model now **sizes the CHP to
-the fuel flow** (`chp_size_auto`): nameplate kWe = peak annual electricity ÷
-(capacity factor × 8760 h), and capex/O&M follow from ¥/kWe install + O&M rates.
+An earlier version guessed a fixed ¥30–80M gasifier, which made small forests
+look unprofitable. The model now **sizes the CHP to the fuel flow**
+(`chp_size_auto`): nameplate kWe = peak annual electricity ÷ (capacity factor ×
+8760 h), and capex/O&M follow from ¥/kWe install + O&M rates.
 
-> **Calibration note:** `elec_efficiency` is now 0.13 (net), set so the model
+> **Calibration note:** `elec_efficiency` is 0.13 (net), set so the model
 > reproduces the real Mishima Town (Fukushima) anchor: ~750 green t/yr → ~50 kWe
 > at 70% capacity factor. The Sugano/Tokuo figures are *generated estimates*, not
-> real data, and are NOT used for calibration. With this honest efficiency the
-> 50 ha clearcut-conversion baseline is ~break-even (−2 M¥), not +38 M¥. The
-> table below predates this calibration and overstates profit ~2×.
-
-With a *right-sized* unit, even the 50 ha sample is profitable:
-
-| Scenario | Auto kWe | Capex | 50-yr profit |
-|---|---|---|---|
-| A 2%/yr | 11 kWe | ¥7.7M | +38 M¥ |
-| B 4%/yr | 22 kWe | ¥15M | +17 M¥ |
-| C timber-first | 6 kWe | ¥3.9M | +65 M¥ |
-| D leave forest | 0 | 0 | 0 |
+> real data, and are NOT used for calibration.
 
 Lessons: (1) match the machine to the wood — a small forest wants a small
-gasifier, not a ¥30M one; (2) harvesting *faster* hurts, because it depletes the
-sugi and leaves the (larger) CHP idle for decades; (3) selling more high-value
-sawlogs and building a smaller CHP (C) beats burning everything.
+gasifier, not a ¥30M one; (2) one-way *convert* depletes the sugi and leaves the
+CHP idle for decades — use *rotation* for sustained fuel; (3) selling more
+high-value sawlogs and building a smaller CHP beats burning everything.
 
-**Sizing rule of thumb:** a ¥30M gasifier ≈ ~43 kWe nameplate, which needs
-~300 MWh/yr of fuel — roughly 2%/yr from ~250 ha, or 4%/yr from ~125 ha.
-
-Caveat: this models a *one-way* conversion (broadleaf is never re-harvested), so
-the wood is a finite stock, not a sustainable flow — harvesting faster just
-front-loads it. Sustained operation needs either a large enough forest base or a
-rotation that keeps producing fuel.
-
-Modes: `--compare` (named scenarios), `--sweep` (harvest × CHP capex grid).
+**Sizing rule of thumb:** a ¥30M gasifier ≈ ~43 kWe nameplate, needing
+~300 MWh/yr of fuel — roughly the sustained yield of ~250 ha in rotation.
 
 ## Tuning
 
 Open `forest_model.py`, edit `CONFIG`. Useful knobs:
-`harvest_pct_per_year`, the `alloc_*` wood split, `elec_efficiency`,
-`chp_capex_yen`, prices. Re-run to compare scenarios.
+`regime`, `rotation_age`, `convert_fraction`, the `alloc_*` wood split,
+`elec_efficiency`, `chp_capacity_factor`, `chp_install_yen_per_kwe`, prices.
+Re-run with `--compare` / `--sweep` to compare scenarios.
 
 ## Not included yet (Phase 2+)
 
