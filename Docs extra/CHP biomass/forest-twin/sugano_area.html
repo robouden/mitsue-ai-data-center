@@ -11,11 +11,16 @@ var map = L.map('map');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
   {maxZoom:18, attribution:'© OpenStreetMap'}).addTo(map);
 var area = L.geoJSON(data, {style:{color:'#1d7a33', weight:2, fillColor:'#3aa757', fillOpacity:0.4}}).addTo(map);
-L.marker([34.482601, 136.165924]).addTo(map).bindPopup('<b>Sugano Organic</b><br>御杖村菅野2696');
-map.fitBounds(area.getBounds().pad(0.4));
+var sug=[34.482601,136.165924], proc=[34.488995,136.205978];
+L.marker(sug).addTo(map).bindPopup('<b>Sugano Organic</b><br>御杖村菅野2696<br>demonstration thinning area');
+L.marker(proc).addTo(map).bindPopup('<b>森林組合 間伐材加工センター 牛峠工場</b><br>御杖村神末797<br>existing chip / dry processing');
+L.polyline([sug,proc],{color:'#b5651d',weight:3,dashArray:'8,6'}).addTo(map)
+  .bindPopup('haul ~3.7 km straight-line (~5-7 km by road)');
+map.fitBounds(L.latLngBounds([sug,proc]).pad(0.3));
 var cap = L.control({position:'bottomleft'});
 cap.onAdd=function(){var d=L.DomUtil.create('div','cap');
   d.innerHTML='<b>Potential demonstration area</b><br>~28.0 ha around Sugano Organic'+
+    '<br>haul to processing ~3.7 km (straight-line)'+
     '<br><small>approximate organic boundary — refine with LiDAR</small>';return d;};
 cap.addTo(map);
 </script></body></html>

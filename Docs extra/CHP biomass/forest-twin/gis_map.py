@@ -25,6 +25,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Sugano Organic, 御杖村菅野2696 (GSI-geocoded) — anchor for the demonstration area
 SUGANO_LAT, SUGANO_LON = 34.482601, 136.165924
+# 御杖村森林組合 間伐材加工センター 牛峠工場, 御杖村神末797 — existing chip/dry processing
+PROCESS_LAT, PROCESS_LON = 34.488995, 136.205978
+PROCESS_NAME = "森林組合 間伐材加工センター 牛峠工場"
 # Demo stands sit beside the village/Sugano (close to people), not in remote mountains
 CENTRE_LAT, CENTRE_LON = SUGANO_LAT, SUGANO_LON
 M_PER_DEG_LAT = 111_000.0
@@ -375,15 +378,28 @@ def build_sugano_area(area_ha=28.0):
     gj = os.path.join(HERE, "sugano_area.geojson")
     with open(gj, "w") as f:
         json.dump(fc, f, indent=2)
+    # straight-line haul Sugano -> processing center
+    R = 6371000.0
+    p1, p2 = math.radians(SUGANO_LAT), math.radians(PROCESS_LAT)
+    dphi = math.radians(PROCESS_LAT - SUGANO_LAT)
+    dl = math.radians(PROCESS_LON - SUGANO_LON)
+    hav = (math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2)
+    haul_km = 2 * R * math.asin(math.sqrt(hav)) / 1000.0
+
     html = os.path.join(HERE, "sugano_area.html")
     with open(html, "w") as f:
         f.write(SUGANO_HTML.replace("__GEOJSON__", json.dumps(fc))
                 .replace("__LAT__", str(SUGANO_LAT)).replace("__LON__", str(SUGANO_LON))
+                .replace("__PLAT__", str(PROCESS_LAT)).replace("__PLON__", str(PROCESS_LON))
+                .replace("__PNAME__", PROCESS_NAME)
+                .replace("__HAUL__", f"{haul_km:.1f}")
                 .replace("__AREA__", str(area_ha)))
     print(f"wrote {gj}")
     print(f"wrote {html}  (open in a browser)")
     print(f"  organic area ~{area_ha:.0f} ha centred on Sugano Organic "
           f"({SUGANO_LAT}, {SUGANO_LON})")
+    print(f"  haul to {PROCESS_NAME}: {haul_km:.1f} km straight-line "
+          f"(~{haul_km*1.4:.0f}-{haul_km*1.8:.0f} km by road)")
 
 
 SUGANO_HTML = """<!DOCTYPE html>
@@ -399,11 +415,16 @@ var map = L.map('map');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
   {maxZoom:18, attribution:'© OpenStreetMap'}).addTo(map);
 var area = L.geoJSON(data, {style:{color:'#1d7a33', weight:2, fillColor:'#3aa757', fillOpacity:0.4}}).addTo(map);
-L.marker([__LAT__, __LON__]).addTo(map).bindPopup('<b>Sugano Organic</b><br>御杖村菅野2696');
-map.fitBounds(area.getBounds().pad(0.4));
+var sug=[__LAT__,__LON__], proc=[__PLAT__,__PLON__];
+L.marker(sug).addTo(map).bindPopup('<b>Sugano Organic</b><br>御杖村菅野2696<br>demonstration thinning area');
+L.marker(proc).addTo(map).bindPopup('<b>__PNAME__</b><br>御杖村神末797<br>existing chip / dry processing');
+L.polyline([sug,proc],{color:'#b5651d',weight:3,dashArray:'8,6'}).addTo(map)
+  .bindPopup('haul ~__HAUL__ km straight-line (~5-7 km by road)');
+map.fitBounds(L.latLngBounds([sug,proc]).pad(0.3));
 var cap = L.control({position:'bottomleft'});
 cap.onAdd=function(){var d=L.DomUtil.create('div','cap');
   d.innerHTML='<b>Potential demonstration area</b><br>~__AREA__ ha around Sugano Organic'+
+    '<br>haul to processing ~__HAUL__ km (straight-line)'+
     '<br><small>approximate organic boundary — refine with LiDAR</small>';return d;};
 cap.addTo(map);
 </script></body></html>

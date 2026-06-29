@@ -69,7 +69,9 @@ CONFIG = {
     # --- harvest supply-chain costs (素材生産費, JFA cost surveys) ---
     "felling_yarding_yen_m3": 4500.0,   # cut + drag to roadside (labour+machine)
     "transport_yen_m3_km": 150.0,       # truck haul, per m3 per km
-    "transport_distance_km": 5.0,       # forest -> CHP/mill (Mitsue max ~5 km)
+    "transport_distance_km": 6.0,       # Sugano demo area -> existing 牛峠工場 chip/dry
+                                        # processing center (神末797): ~3.7 km straight-line,
+                                        # ~5-7 km by valley road. Uses existing kit = no new capex.
     "chipping_yen_m3": 2000.0,          # only on wood that is chipped (CHP+biochar)
     "drying_yen_m3": 1000.0,            # drying CHP fuel to usable moisture
     "road_maint_yen_year": 800000.0,    # forest road upkeep / yr
