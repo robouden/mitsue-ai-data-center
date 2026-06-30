@@ -580,10 +580,53 @@ def admin_users(request: Request, me: str = Depends(require_admin)):
                                       {"rows": [dict(zip(cols, r)) for r in rows], "me": me})
 
 
+def _active_admin_count():
+    with _lock:
+        return con.execute("SELECT count(*) FROM users WHERE is_admin AND active").fetchone()[0]
+
+
+# NOTE: the literal /edit routes must be registered BEFORE the /{action}
+# catch-all below, otherwise "edit" is swallowed as an (unknown) action.
+@app.get("/admin/users/{username}/edit", response_class=HTMLResponse)
+def admin_user_edit(request: Request, username: str, me: str = Depends(require_admin)):
+    u = get_user(username)
+    if not u:
+        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+    return templates.TemplateResponse(request, "user_edit.html", {"u": u, "me": me})
+
+
+@app.post("/admin/users/{username}/edit")
+def admin_user_edit_save(request: Request, username: str,
+                         display_name: str = Form(""), email: str = Form(""),
+                         new_password: str = Form(""), me: str = Depends(require_admin)):
+    u = get_user(username)
+    if not u:
+        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+    if email and not email_valid(email):
+        raise HTTPException(status_code=400, detail="Invalid email / メール形式が不正")
+    with _lock:
+        con.execute("UPDATE users SET display_name=?, email=? WHERE username=?",
+                    [display_name or username, email or None, username])
+        if new_password:
+            salt, h = hash_pw(new_password)
+            con.execute("UPDATE users SET salt=?, pw_hash=? WHERE username=?", [salt, h, username])
+    if username == me:
+        request.session["display_name"] = display_name or username
+    return RedirectResponse("/admin/users", status_code=303)
+
+
 @app.post("/admin/users/{username}/{action}")
 def admin_user_action(request: Request, username: str, action: str, me: str = Depends(require_admin)):
-    if username == me and action in ("delete", "disable", "demote"):
-        raise HTTPException(status_code=400, detail="You cannot do that to your own account. / 自分のアカウントには行えません。")
+    tgt = get_user(username)
+    if not tgt:
+        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+    if action not in ("delete", "disable", "enable", "promote", "demote", "confirm"):
+        raise HTTPException(status_code=404, detail="Unknown action")
+    # never let the last active admin lock everyone out (applies to self too)
+    if tgt["is_admin"] and tgt["active"] and action in ("delete", "disable", "demote") \
+            and _active_admin_count() <= 1:
+        raise HTTPException(status_code=400,
+                            detail="Cannot remove the last active admin. / 最後の有効な管理者は削除できません。")
     with _lock:
         if action == "delete":
             con.execute("DELETE FROM users WHERE username=?", [username])
@@ -597,6 +640,10 @@ def admin_user_action(request: Request, username: str, action: str, me: str = De
             con.execute("UPDATE users SET is_admin=FALSE WHERE username=?", [username])
         elif action == "confirm":
             con.execute("UPDATE users SET confirmed=TRUE WHERE username=?", [username])
+    # if you just revoked your own access, end the session
+    if username == me and action in ("delete", "disable", "demote"):
+        request.session.clear()
+        return RedirectResponse("/login", status_code=303)
     return RedirectResponse("/admin/users", status_code=303)
 
 

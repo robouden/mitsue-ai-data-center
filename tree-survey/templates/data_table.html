@@ -4,35 +4,130 @@
   <h2>Survey data / 調査データ ({{ total }})</h2>
   <p class="exp">Export / 書き出し:
     <a href="/export.csv">CSV</a> <a href="/export.geojson">GeoJSON</a> <a href="/export.parquet">Parquet</a></p>
+
+  <div class="dtbar">
+    <input type="search" id="dtsearch" placeholder="Search across all fields… / 全項目を検索">
+    <button type="button" class="dtbtn" id="dtclear">Clear / 消去</button>
+    <span class="dtcount" id="dtcount"></span>
+  </div>
+
   <div style="overflow-x:auto">
-  <table class="dt">
+  <table class="dt" id="dt">
+    <thead>
     <tr>
-      <th>Date</th><th>Surveyor</th><th>Species</th><th>GPS</th><th>DBH</th><th>H</th><th>Age</th>
-      <th>Health</th><th>⭐</th><th>📷</th><th>Notes</th><th></th>
+      <th class="nosort"><input type="checkbox" id="dtall" title="Select all / 全選択"></th>
+      <th data-k="date">Date <span class="ar">↕</span></th>
+      <th data-k="surveyor">Surveyor <span class="ar">↕</span></th>
+      <th data-k="species">Species <span class="ar">↕</span></th>
+      <th class="nosort">GPS</th>
+      <th data-k="num">DBH <span class="ar">↕</span></th>
+      <th data-k="num">H <span class="ar">↕</span></th>
+      <th data-k="num">Age <span class="ar">↕</span></th>
+      <th data-k="health">Health <span class="ar">↕</span></th>
+      <th data-k="num">⭐ <span class="ar">↕</span></th>
+      <th class="nosort">📷</th>
+      <th data-k="notes">Notes <span class="ar">↕</span></th>
+      <th class="nosort"></th>
     </tr>
+    </thead>
+    <tbody>
     {% for r in rows %}
     <tr>
+      <td><input type="checkbox" class="dtrow"></td>
       <td><small>{{ r.created_at.strftime('%y-%m-%d %H:%M') if r.created_at else '' }}<br>{{ r.record_id }}</small></td>
       <td><small>{{ r.surveyor }}</small></td>
       <td>{{ r.species_en }}<br><small>{{ r.species_ja }}</small></td>
       <td><small>{% if r.lat %}<a href="https://www.openstreetmap.org/?mlat={{ r.lat }}&mlon={{ r.lon }}#map=17/{{ r.lat }}/{{ r.lon }}" target="_blank">{{ '%.5f'|format(r.lat) }}, {{ '%.5f'|format(r.lon) }}</a>{% else %}—{% endif %}</small></td>
       <td>{{ r.dbh_cm or '' }}</td><td>{{ r.height_m or '' }}</td><td>{{ r.est_age_yr or '' }}</td>
       <td><small>{{ r.health or '' }}</small></td>
-      <td>{% if r.mother_tree %}⭐{% endif %}</td>
+      <td data-v="{% if r.mother_tree %}1{% else %}0{% endif %}">{% if r.mother_tree %}⭐{% endif %}</td>
       <td>{% if r.photo_paths %}{% for p in r.photo_paths.split(',') %}<a href="/photos/{{ p }}" target="_blank">🖼</a>{% endfor %}{% endif %}</td>
       <td><small>{{ (r.notes or '')[:40] }}</small></td>
-      <td><small>
-        <a href="/admin/data/{{ r.record_id }}/edit">✏️</a>
-        <form method="post" action="/admin/data/{{ r.record_id }}/delete" style="display:inline" onsubmit="return confirm('Delete this record? / 削除しますか？')"><button class="mini del">🗑</button></form>
-      </small></td>
+      <td class="acts">
+        <a href="/admin/data/{{ r.record_id }}/edit"><button type="button" class="mini">✏️ Edit/編集</button></a>
+        <form method="post" action="/admin/data/{{ r.record_id }}/delete" style="display:inline" onsubmit="return confirm('Delete this record? / 削除しますか？')"><button class="mini del">🗑 Delete/削除</button></form>
+      </td>
     </tr>
     {% endfor %}
+    </tbody>
   </table>
   </div>
 </div>
 <style>
+  main:has(.dt) { max-width:90vw; }
+  .dt { width:100%; }
   .dt th, .dt td { font-size:12px; padding:5px 7px; white-space:nowrap; }
   .dt td small { white-space:normal; }
-  .mini.del { width:auto; padding:3px 7px; font-size:12px; background:#a23a3a; margin:0; }
+  .dt td.acts { white-space:nowrap; }
+  .mini { width:auto; padding:4px 8px; font-size:12px; margin:1px 2px 1px 0; border-radius:7px;
+          color:#fff; background:var(--green); border:0; }
+  .mini.del { background:#a23a3a; }
+  .acts a { text-decoration:none; }
+  .dt th[data-k] { cursor:pointer; user-select:none; }
+  .dt th[data-k]:hover { background:#dcebd0; background:#d8ecdd; }
+  .dt th .ar { color:#9bb3a3; font-size:11px; }
+  .dt th.asc .ar, .dt th.desc .ar { color:var(--green-d); }
+  .dtbar { display:flex; align-items:center; gap:8px; margin:6px 0 10px; flex-wrap:wrap; }
+  .dtbar input[type=search] { flex:1; min-width:200px; padding:9px 11px; font-size:14px;
+    border:1px solid var(--line); border-radius:9px; }
+  .dtbtn { width:auto; margin:0; padding:9px 14px; font-size:13px; background:#566; }
+  .dtcount { font-size:12px; color:#6a7a6f; }
+  .dt tr.hide { display:none; }
 </style>
+<script>
+(function(){
+  var table = document.getElementById('dt'),
+      tbody = table.tBodies[0],
+      rows  = Array.prototype.slice.call(tbody.rows),
+      search= document.getElementById('dtsearch'),
+      count = document.getElementById('dtcount'),
+      all   = document.getElementById('dtall');
+
+  function visible(){ return rows.filter(function(r){ return !r.classList.contains('hide'); }); }
+  function updateCount(){ count.textContent = visible().length + ' / ' + rows.length; }
+
+  function filter(){
+    var q = search.value.trim().toLowerCase();
+    rows.forEach(function(r){
+      r.classList.toggle('hide', q && r.textContent.toLowerCase().indexOf(q) === -1);
+    });
+    all.checked = false;
+    updateCount();
+  }
+  search.addEventListener('input', filter);
+  document.getElementById('dtclear').addEventListener('click', function(){ search.value=''; filter(); search.focus(); });
+
+  function cellVal(row, idx, kind){
+    var td = row.cells[idx];
+    if (td.dataset.v !== undefined) return parseFloat(td.dataset.v) || 0;
+    var t = td.textContent.trim();
+    if (kind === 'num') return parseFloat(t.replace(/[^0-9.\-]/g,'')) || -Infinity;
+    return t.toLowerCase();
+  }
+
+  Array.prototype.forEach.call(table.tHead.rows[0].cells, function(th, idx){
+    if (!th.dataset.k) return;
+    th.addEventListener('click', function(){
+      var asc = !th.classList.contains('asc');
+      Array.prototype.forEach.call(table.tHead.rows[0].cells, function(h){
+        h.classList.remove('asc','desc'); var a=h.querySelector('.ar'); if(a)a.textContent='↕';
+      });
+      th.classList.add(asc ? 'asc' : 'desc');
+      th.querySelector('.ar').textContent = asc ? '↑' : '↓';
+      var kind = th.dataset.k;
+      rows.sort(function(a,b){
+        var x=cellVal(a,idx,kind), y=cellVal(b,idx,kind);
+        if (x<y) return asc?-1:1; if (x>y) return asc?1:-1; return 0;
+      });
+      rows.forEach(function(r){ tbody.appendChild(r); });
+    });
+  });
+
+  all.addEventListener('change', function(){
+    visible().forEach(function(r){ r.querySelector('.dtrow').checked = all.checked; });
+  });
+
+  updateCount();
+})();
+</script>
 {% endblock %}
