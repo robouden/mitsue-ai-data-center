@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Edit reference photos / 図鑑写真の編集</h2>
+  <p class="hint">Upload one photo + captions per species. Volunteers see these in the Guide tab.<br>
+     樹種ごとに写真とキャプションを登録。利用者は「図鑑」タブで閲覧します。</p>
+</div>
+{% for r in rows %}
+<div class="card">
+  <form method="post" action="/admin/guide/{{ r.species_key }}" enctype="multipart/form-data">
+    <div style="display:flex; gap:12px; align-items:flex-start">
+      <div style="flex:0 0 90px">
+        {% if r.photo_path %}<img src="/guideimg/{{ r.photo_path }}" style="width:90px;height:90px;object-fit:cover;border-radius:8px">
+        {% else %}<div style="width:90px;height:90px;background:#eef3ef;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:26px">🌳</div>{% endif %}
+      </div>
+      <div style="flex:1">
+        <b>{{ r.species_en }}</b> ／ {{ r.species_ja }} <span class="latin">{{ r.latin }}</span>
+        <label>Photo <span class="ja">／ 写真</span></label>
+        <input type="file" name="photo" accept="image/*">
+        <label>Caption EN</label>
+        <input type="text" name="caption_en" value="{{ r.caption_en or '' }}">
+        <label>キャプション 日本語</label>
+        <input type="text" name="caption_ja" value="{{ r.caption_ja or '' }}">
+        <button type="submit">Save / 保存</button>
+      </div>
+    </div>
+  </form>
+</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>{% block title %}Mitsue Mother Tree Survey / 御杖村 母樹調査{% endblock %}</title>
+<style>
+  :root { --green:#2f7a52; --green-d:#235e3f; --bg:#f5f7f4; --line:#cdd8cf; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Hiragino Sans","Noto Sans CJK JP",Helvetica,Arial,sans-serif;
+         background:var(--bg); color:#1e2a22; line-height:1.45; }
+  header { background:var(--green); color:#fff; padding:10px 14px; display:flex; align-items:center;
+           justify-content:space-between; flex-wrap:wrap; gap:6px 0; position:sticky; top:0; z-index:10; }
+  header .t { font-weight:700; font-size:16px; }
+  header .t small { display:block; font-weight:400; font-size:11px; opacity:.85; letter-spacing:.1em; }
+  header nav { display:flex; flex-wrap:wrap; gap:4px 12px; }
+  header a { color:#fff; text-decoration:none; font-size:13px; opacity:.92; white-space:nowrap; }
+  main { max-width:720px; margin:0 auto; padding:14px 14px 60px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:14px; margin:12px 0; }
+  h2 { font-size:15px; margin:0 0 10px; color:var(--green-d); }
+  label { display:block; font-size:13px; font-weight:600; margin:10px 0 3px; }
+  label .ja { font-weight:400; color:#5a6b60; }
+  input[type=text], input[type=number], input[type=password], select, textarea {
+    width:100%; padding:11px 12px; font-size:16px; border:1px solid var(--line);
+    border-radius:9px; background:#fff; }
+  textarea { min-height:64px; }
+  .row { display:flex; gap:10px; } .row > * { flex:1; }
+  .checks { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .chk { display:flex; align-items:center; gap:9px; background:#f0f5f1; border:1px solid var(--line);
+         border-radius:9px; padding:11px; font-size:14px; font-weight:600; }
+  .chk input { width:22px; height:22px; }
+  .chk.big { grid-column:1/-1; background:#fff3d6; border-color:#e8c878; }
+  button { width:100%; padding:15px; font-size:17px; font-weight:700; color:#fff; background:var(--green);
+           border:0; border-radius:11px; margin-top:14px; }
+  button.alt { background:#566; }
+  .gps { font-size:13px; padding:9px 11px; border-radius:9px; background:#eef3ef; margin-top:6px; }
+  .gps.ok { background:#e3f3e8; color:var(--green-d); } .gps.err { background:#fbe6e6; color:#9a2a2a; }
+  .banner { background:#e3f3e8; border:1px solid #b6dcc3; color:var(--green-d); padding:12px;
+            border-radius:10px; font-weight:600; margin-bottom:8px; }
+  .hint { font-size:12px; color:#6a7a6f; margin:2px 0 0; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th,td { border:1px solid var(--line); padding:6px 8px; text-align:left; }
+  th { background:#eaf3ec; }
+  .pill { display:inline-block; background:#fff3d6; border:1px solid #e8c878; border-radius:20px;
+          padding:1px 8px; font-size:11px; }
+  .exp a { display:inline-block; margin-right:10px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="t">🌳 Mitsue Mother Trees<small>御杖村 母樹プロジェクト</small></div>
+  <nav>
+    {% if request.session.get('user') %}
+      <a href="/">Record / 記録</a>
+      <a href="/guide">Guide / 図鑑</a>
+      <a href="/records">List / 一覧</a>
+      {% if request.session.get('is_admin') %}
+        <a href="/admin/data">Data / データ</a>
+        <a href="/admin/users">Users / 利用者</a>
+        <a href="/admin/guide">Photos / 写真</a>
+      {% endif %}
+      <a href="/account">Account / 設定</a>
+      <a href="/logout">Logout / ログアウト</a>
+    {% endif %}
+  </nav>
+</header>
+<main>{% block body %}{% endblock %}</main>
+</body>
+</html>

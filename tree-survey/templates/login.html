@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Sign in / ログイン</h2>
+  {% if error %}<div class="gps err">{{ error }}</div>{% endif %}
+  <form method="post" action="/login">
+    <label>Username <span class="ja">／ ユーザー名</span></label>
+    <input type="text" name="username" autocapitalize="none" autocomplete="username" required>
+    <label>Password <span class="ja">／ パスワード</span></label>
+    <input type="password" name="password" autocomplete="current-password" required>
+    <button type="submit">Sign in / ログイン</button>
+  </form>
+  {% if show_resend %}
+  <p class="hint" style="margin-top:10px"><a href="/resend">Resend confirmation email / 確認メールを再送</a></p>
+  {% endif %}
+  <p class="hint" style="margin-top:12px"><a href="/register">New volunteer? Create an account → / 新規登録はこちら</a></p>
+</div>
+{% endblock %}

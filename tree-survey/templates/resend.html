@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Resend confirmation / 確認メール再送</h2>
+  {% if error %}<div class="gps err">{{ error }}</div>{% endif %}
+  <form method="post" action="/resend">
+    <label>Your email <span class="ja">／ メール</span></label>
+    <input type="email" name="email" autocapitalize="none" autocomplete="email" required>
+    <button type="submit">Send link / リンクを送る</button>
+  </form>
+  <p class="hint" style="margin-top:12px"><a href="/login">← Back to sign in / ログインへ戻る</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Edit record / 記録の編集</h2>
+  <p class="hint">{{ r.record_id }} · {{ r.created_at.strftime('%Y-%m-%d %H:%M') if r.created_at else '' }}</p>
+  <form method="post" action="/admin/data/{{ r.record_id }}/edit">
+    {% for f in text %}
+      <label>{{ f }}</label>
+      {% if f in ('notes','wildlife_text') %}<textarea name="{{ f }}">{{ r[f] or '' }}</textarea>
+      {% else %}<input type="text" name="{{ f }}" value="{{ r[f] or '' }}">{% endif %}
+    {% endfor %}
+    <div class="row">
+      {% for f in num %}<div><label>{{ f }}</label><input type="number" step="any" name="{{ f }}" value="{{ r[f] if r[f] is not none else '' }}"></div>{% endfor %}
+    </div>
+    <div class="row">
+      {% for f in intf %}<div><label>{{ f }}</label><input type="number" name="{{ f }}" value="{{ r[f] if r[f] is not none else '' }}"></div>{% endfor %}
+    </div>
+    <div class="checks" style="margin-top:8px">
+      {% for f in boolf %}
+      <label class="chk"><input type="checkbox" name="{{ f }}" {% if r[f] %}checked{% endif %}> {{ f }}</label>
+      {% endfor %}
+    </div>
+    <button type="submit">Save / 保存</button>
+  </form>
+  <p class="hint" style="margin-top:10px"><a href="/admin/data">← Back to data / データへ戻る</a></p>
+</div>
+{% endblock %}

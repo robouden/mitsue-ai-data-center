@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Survey data / 調査データ ({{ total }})</h2>
+  <p class="exp">Export / 書き出し:
+    <a href="/export.csv">CSV</a> <a href="/export.geojson">GeoJSON</a> <a href="/export.parquet">Parquet</a></p>
+  <div style="overflow-x:auto">
+  <table class="dt">
+    <tr>
+      <th>Date</th><th>Surveyor</th><th>Species</th><th>GPS</th><th>DBH</th><th>H</th><th>Age</th>
+      <th>Health</th><th>⭐</th><th>📷</th><th>Notes</th><th></th>
+    </tr>
+    {% for r in rows %}
+    <tr>
+      <td><small>{{ r.created_at.strftime('%y-%m-%d %H:%M') if r.created_at else '' }}<br>{{ r.record_id }}</small></td>
+      <td><small>{{ r.surveyor }}</small></td>
+      <td>{{ r.species_en }}<br><small>{{ r.species_ja }}</small></td>
+      <td><small>{% if r.lat %}<a href="https://www.openstreetmap.org/?mlat={{ r.lat }}&mlon={{ r.lon }}#map=17/{{ r.lat }}/{{ r.lon }}" target="_blank">{{ '%.5f'|format(r.lat) }}, {{ '%.5f'|format(r.lon) }}</a>{% else %}—{% endif %}</small></td>
+      <td>{{ r.dbh_cm or '' }}</td><td>{{ r.height_m or '' }}</td><td>{{ r.est_age_yr or '' }}</td>
+      <td><small>{{ r.health or '' }}</small></td>
+      <td>{% if r.mother_tree %}⭐{% endif %}</td>
+      <td>{% if r.photo_paths %}{% for p in r.photo_paths.split(',') %}<a href="/photos/{{ p }}" target="_blank">🖼</a>{% endfor %}{% endif %}</td>
+      <td><small>{{ (r.notes or '')[:40] }}</small></td>
+      <td><small>
+        <a href="/admin/data/{{ r.record_id }}/edit">✏️</a>
+        <form method="post" action="/admin/data/{{ r.record_id }}/delete" style="display:inline" onsubmit="return confirm('Delete this record? / 削除しますか？')"><button class="mini del">🗑</button></form>
+      </small></td>
+    </tr>
+    {% endfor %}
+  </table>
+  </div>
+</div>
+<style>
+  .dt th, .dt td { font-size:12px; padding:5px 7px; white-space:nowrap; }
+  .dt td small { white-space:normal; }
+  .mini.del { width:auto; padding:3px 7px; font-size:12px; background:#a23a3a; margin:0; }
+</style>
+{% endblock %}

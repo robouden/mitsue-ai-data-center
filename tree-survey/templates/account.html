@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>My account / アカウント設定</h2>
+  {% if ok %}<div class="banner">{{ ok|safe }}</div>{% endif %}
+  {% if error %}<div class="gps err">{{ error }}</div>{% endif %}
+  <p class="hint">Username / ユーザー名: <b>{{ u.username }}</b>{% if u.is_admin %} · admin{% endif %}
+     {% if u.pending_email %}<br>Pending email change → {{ u.pending_email }} (confirm via the link we emailed) / メール変更確認待ち{% endif %}</p>
+  <form method="post" action="/account">
+    <label>Display name <span class="ja">／ 表示名</span></label>
+    <input type="text" name="display_name" value="{{ u.display_name }}" required>
+    <label>Email <span class="ja">／ メール</span> (changing it re-confirms)</label>
+    <input type="email" name="email" value="{{ u.email or '' }}" autocapitalize="none" required>
+    <hr>
+    <p class="hint">Change password (leave blank to keep) / パスワード変更（変更しない場合は空欄）</p>
+    <label>Current password <span class="ja">／ 現在のパスワード</span></label>
+    <input type="password" name="current_password" autocomplete="current-password">
+    <label>New password <span class="ja">／ 新しいパスワード</span></label>
+    <input type="password" name="new_password" autocomplete="new-password">
+    <button type="submit">Save / 保存</button>
+  </form>
+</div>
+{% endblock %}

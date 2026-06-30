@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>Users / 利用者 ({{ rows|length }})</h2>
+  <table>
+    <tr><th>User / 名前</th><th>Email</th><th>Status / 状態</th><th>Recs</th><th>Actions / 操作</th></tr>
+    {% for r in rows %}
+    <tr>
+      <td>{{ r.display_name }}<br><small>{{ r.username }}{% if r.is_admin %} · <b>admin</b>{% endif %}</small></td>
+      <td><small>{{ r.email or '—' }}</small></td>
+      <td><small>
+        {% if r.active %}<span class="pill" style="background:#e3f3e8;border-color:#b6dcc3">active</span>{% else %}<span class="pill" style="background:#fbe6e6;border-color:#e0a0a0">disabled</span>{% endif %}
+        {% if not r.confirmed %}<br><span class="pill" style="background:#fff3d6;border-color:#e8c878">unconfirmed</span>{% endif %}
+      </small></td>
+      <td>{{ r.n }}</td>
+      <td><small>
+        {% if r.username != me %}
+          {% if r.active %}<form method="post" action="/admin/users/{{ r.username }}/disable" style="display:inline"><button class="mini">Disable/無効</button></form>
+          {% else %}<form method="post" action="/admin/users/{{ r.username }}/enable" style="display:inline"><button class="mini ok">Enable/有効</button></form>{% endif %}
+          {% if r.is_admin %}<form method="post" action="/admin/users/{{ r.username }}/demote" style="display:inline"><button class="mini">−admin</button></form>
+          {% else %}<form method="post" action="/admin/users/{{ r.username }}/promote" style="display:inline"><button class="mini">+admin</button></form>{% endif %}
+          {% if not r.confirmed %}<form method="post" action="/admin/users/{{ r.username }}/confirm" style="display:inline"><button class="mini">Confirm</button></form>{% endif %}
+          <form method="post" action="/admin/users/{{ r.username }}/delete" style="display:inline" onsubmit="return confirm('Delete {{ r.username }}? / 削除しますか？')"><button class="mini del">Delete/削除</button></form>
+        {% else %}<i>you / 自分</i>{% endif %}
+      </small></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+<style>
+  .mini { width:auto; padding:5px 8px; font-size:12px; margin:2px 2px 0 0; border-radius:7px; }
+  .mini.ok { background:#2f7a52; } .mini.del { background:#a23a3a; }
+</style>
+{% endblock %}

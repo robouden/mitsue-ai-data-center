@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% block body %}
+{% if saved %}
+<div class="banner">✅ Saved! Record {{ saved }} added. Thank you! / 記録しました。ありがとうございます！</div>
+{% endif %}
+
+<p style="margin:2px 0 0;font-size:13px;color:#5a6b60;">
+  Surveyor / 調査者: <b>{{ display_name }}</b>
+</p>
+
+<form method="post" action="/submit" enctype="multipart/form-data">
+
+  <div class="card">
+    <h2>1. Tree species / 樹種</h2>
+    <label>Species <span class="ja">／ 樹種</span></label>
+    <select name="species" id="species">
+      {% for en, ja, lat in species %}
+        <option value="{% if en.startswith('Other') %}__other__{% else %}{{ en }}|{{ ja }}|{{ lat }}{% endif %}">
+          {{ en }}{% if ja %} ／ {{ ja }}{% endif %}{% if lat %} ({{ lat }}){% endif %}
+        </option>
+      {% endfor %}
+    </select>
+    <div id="otherbox" style="display:none">
+      <div class="row">
+        <div><label>Other (EN) <span class="ja">／ その他 英語</span></label>
+          <input type="text" name="species_other_en"></div>
+        <div><label>その他 日本語</label><input type="text" name="species_other_ja"></div>
+      </div>
+      <label>Latin name <span class="ja">／ 学名</span></label>
+      <input type="text" name="latin" placeholder="e.g. Quercus serrata">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. Location / 位置</h2>
+    <button type="button" class="alt" id="gpsbtn" style="margin-top:0">📍 Get GPS / 現在地を取得</button>
+    <div class="gps" id="gpsmsg">GPS not captured yet. / まだ取得していません。</div>
+    <div class="row" style="margin-top:8px">
+      <div><label>Latitude <span class="ja">／ 緯度</span></label>
+        <input type="text" name="lat" id="lat" inputmode="decimal"></div>
+      <div><label>Longitude <span class="ja">／ 経度</span></label>
+        <input type="text" name="lon" id="lon" inputmode="decimal"></div>
+    </div>
+    <input type="hidden" name="gps_accuracy_m" id="acc">
+    <div class="row">
+      <div><label>Elevation m <span class="ja">／ 標高</span></label>
+        <input type="number" name="elevation_m" inputmode="decimal"></div>
+      <div><label>Slope / aspect <span class="ja">／ 斜面方位</span></label>
+        <input type="text" name="slope_aspect" placeholder="N / S / ridge / valley"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>3. Measurements / 計測</h2>
+    <div class="row">
+      <div><label>DBH cm <span class="ja">／ 胸高直径</span></label>
+        <input type="number" name="dbh_cm" inputmode="decimal"></div>
+      <div><label>Height m <span class="ja">／ 樹高</span></label>
+        <input type="number" name="height_m" inputmode="decimal"></div>
+      <div><label>Age yr <span class="ja">／ 推定樹齢</span></label>
+        <input type="number" name="est_age_yr" inputmode="numeric"></div>
+    </div>
+    <label>Habitat <span class="ja">／ 生育環境</span></label>
+    <input type="text" name="habitat" placeholder="ridge·slope·valley·streamside / 尾根·斜面·谷·沢">
+    <label>Health <span class="ja">／ 樹勢</span></label>
+    <select name="health">
+      <option value="">—</option>
+      <option value="healthy">Healthy / 健全</option>
+      <option value="minor">Minor damage / 軽微な損傷</option>
+      <option value="diseased">Diseased / dying / 病・枯れ</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <h2>4. Assessment / 評価</h2>
+    <div class="checks">
+      <label class="chk big"><input type="checkbox" name="mother_tree"> ⭐ Mother tree? / 母樹か</label>
+      <label class="chk"><input type="checkbox" name="seeds_present"> Seeds present / 結実あり</label>
+      <label class="chk"><input type="checkbox" name="seeds_collected"> Seeds collected / 種子採取</label>
+      <label class="chk"><input type="checkbox" name="saplings_nearby"> Saplings nearby / 稚樹あり</label>
+      <label class="chk"><input type="checkbox" name="hollow"> Hollow / cavity / 樹洞</label>
+      <label class="chk"><input type="checkbox" name="tagged"> Tagged / 標識設置</label>
+      <label class="chk"><input type="checkbox" name="wildlife_obs"> Wildlife seen / 動物確認</label>
+      <label class="chk"><input type="checkbox" name="cultural_sacred"> Sacred / 神木</label>
+    </div>
+    <label>Wildlife observed <span class="ja">／ 確認した野生動物</span></label>
+    <input type="text" name="wildlife_text" placeholder="bear, boar, deer, birds… / 熊·猪·鹿·鳥…">
+  </div>
+
+  <div class="card">
+    <h2>5. Photos & notes / 写真とメモ</h2>
+    <label>Photos <span class="ja">／ 写真</span> (whole tree, bark, leaf, fruit / 全体·樹皮·葉·実)</label>
+    <input type="file" name="photos" accept="image/*" capture="environment" multiple>
+    <p class="hint">Tip: take a clear leaf and bark shot to help identification. / 同定のため葉と樹皮の写真を撮りましょう。</p>
+    <label>Notes <span class="ja">／ 備考</span></label>
+    <textarea name="notes" placeholder="condition, surroundings, access, owner… / 状態·周辺·進入路·所有者…"></textarea>
+  </div>
+
+  <button type="submit">💾 Save record / 記録を保存</button>
+</form>
+
+<script>
+  document.getElementById('species').addEventListener('change', function () {
+    document.getElementById('otherbox').style.display = this.value === '__other__' ? 'block' : 'none';
+  });
+  const msg = document.getElementById('gpsmsg');
+  document.getElementById('gpsbtn').addEventListener('click', function () {
+    if (!navigator.geolocation) { msg.textContent = 'No GPS support / GPS非対応'; msg.className = 'gps err'; return; }
+    msg.textContent = '⏳ Locating… / 取得中…'; msg.className = 'gps';
+    navigator.geolocation.getCurrentPosition(function (p) {
+      document.getElementById('lat').value = p.coords.latitude.toFixed(6);
+      document.getElementById('lon').value = p.coords.longitude.toFixed(6);
+      document.getElementById('acc').value = Math.round(p.coords.accuracy);
+      if (p.coords.altitude != null) document.querySelector('[name=elevation_m]').value = Math.round(p.coords.altitude);
+      msg.innerHTML = '✅ GPS: ' + p.coords.latitude.toFixed(6) + ', ' + p.coords.longitude.toFixed(6) +
+                      ' (±' + Math.round(p.coords.accuracy) + ' m)';
+      msg.className = 'gps ok';
+    }, function (e) {
+      msg.textContent = '⚠️ ' + e.message + ' / 位置を取得できません'; msg.className = 'gps err';
+    }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
+  });
+</script>
+{% endblock %}
