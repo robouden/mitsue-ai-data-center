@@ -1,21 +1,21 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Create an account / 新規登録</h2>
-  <p class="hint">Join the Mitsue Mother Tree survey. We'll email you a link to confirm your address.<br>
-     御杖村 母樹調査に参加。確認リンクをメールでお送りします。</p>
+  <h2>新規登録 / Create an account</h2>
+  <p class="hint">御杖村 母樹調査に参加。確認リンクをメールでお送りします。<br>
+     Join the Mitsue Mother Tree survey. We'll email you a link to confirm your address.</p>
   {% if error %}<div class="gps err">{{ error }}</div>{% endif %}
   <form method="post" action="/register">
-    <label>Your name <span class="ja">／ お名前</span> (shown on your records)</label>
+    <label>お名前 <span class="ja">／ Your name</span>（記録に表示されます）</label>
     <input type="text" name="display_name" value="{{ display_name or '' }}" required>
-    <label>Username <span class="ja">／ ユーザー名</span> (letters & numbers)</label>
+    <label>ユーザー名 <span class="ja">／ Username</span>（英数字）</label>
     <input type="text" name="username" value="{{ username or '' }}" autocapitalize="none" autocomplete="username" required>
-    <label>Email <span class="ja">／ メール</span></label>
+    <label>メール <span class="ja">／ Email</span></label>
     <input type="email" name="email" value="{{ email or '' }}" autocapitalize="none" autocomplete="email" required>
-    <label>Password <span class="ja">／ パスワード</span> (6+ characters)</label>
+    <label>パスワード <span class="ja">／ Password</span>（6文字以上）</label>
     <input type="password" name="password" autocomplete="new-password" required>
-    <button type="submit">Create account / 登録する</button>
+    <button type="submit">登録する / Create account</button>
   </form>
-  <p class="hint" style="margin-top:12px"><a href="/login">← Already have an account? Sign in / ログインはこちら</a></p>
+  <p class="hint" style="margin-top:12px"><a href="/login">← すでにアカウントをお持ちの方 ログイン / Already have an account? Sign in</a></p>
 </div>
 {% endblock %}

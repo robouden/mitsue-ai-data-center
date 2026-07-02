@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Edit user / 利用者の編集 — {{ u.username }}{% if u.username == me %} <small>(you / 自分)</small>{% endif %}</h2>
+  <h2>利用者の編集 / Edit user — {{ u.username }}{% if u.username == me %} <small>(自分 / you)</small>{% endif %}</h2>
   <form method="post" action="/admin/users/{{ u.username }}/edit">
-    <label title="Name shown on records. Note: existing records keep the old name / 記録に表示される名前。既存記録は旧名のまま">Display name <span class="ja">／ 表示名</span></label>
+    <label title="記録に表示される名前。既存記録は旧名のまま / Name shown on records. Existing records keep the old name">表示名 <span class="ja">／ Display name</span></label>
     <input type="text" name="display_name" value="{{ u.display_name or '' }}">
 
-    <label>Email <span class="ja">／ メール</span></label>
+    <label>メール <span class="ja">／ Email</span></label>
     <input type="text" name="email" value="{{ u.email or '' }}" inputmode="email">
 
-    <label title="Leave blank to keep the current password / 空欄なら現在のパスワードを維持">Reset password <span class="ja">／ パスワード再設定</span></label>
-    <input type="password" name="new_password" placeholder="leave blank = unchanged / 空欄で変更なし" autocomplete="new-password">
-    <p class="hint">Username <span class="ja">／ ユーザー名</span> <b>{{ u.username }}</b> cannot be changed. / 変更不可。</p>
+    <label title="空欄なら現在のパスワードを維持 / Leave blank to keep the current password">パスワード再設定 <span class="ja">／ Reset password</span></label>
+    <input type="password" name="new_password" placeholder="空欄で変更なし / leave blank = unchanged" autocomplete="new-password">
+    <p class="hint">ユーザー名 <span class="ja">／ Username</span> <b>{{ u.username }}</b> は変更できません。 / cannot be changed.</p>
 
-    <button type="submit">💾 Save / 保存</button>
+    <button type="submit">💾 保存 / Save</button>
   </form>
-  <p style="margin-top:10px"><a href="/admin/users">← Back to users / 一覧に戻る</a></p>
+  <p style="margin-top:10px"><a href="/admin/users">← 一覧に戻る / Back to users</a></p>
 </div>
 {% endblock %}

@@ -1,23 +1,23 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>My account / アカウント設定</h2>
+  <h2>アカウント設定 / My account</h2>
   {% if ok %}<div class="banner">{{ ok|safe }}</div>{% endif %}
   {% if error %}<div class="gps err">{{ error }}</div>{% endif %}
-  <p class="hint">Username / ユーザー名: <b>{{ u.username }}</b>{% if u.is_admin %} · admin{% endif %}
-     {% if u.pending_email %}<br>Pending email change → {{ u.pending_email }} (confirm via the link we emailed) / メール変更確認待ち{% endif %}</p>
+  <p class="hint">ユーザー名 / Username: <b>{{ u.username }}</b>{% if u.is_admin %} · admin{% endif %}
+     {% if u.pending_email %}<br>メール変更確認待ち → {{ u.pending_email }}（メールのリンクで確認）/ Pending email change (confirm via the link we emailed){% endif %}</p>
   <form method="post" action="/account">
-    <label>Display name <span class="ja">／ 表示名</span></label>
+    <label>表示名 <span class="ja">／ Display name</span></label>
     <input type="text" name="display_name" value="{{ u.display_name }}" required>
-    <label>Email <span class="ja">／ メール</span> (changing it re-confirms)</label>
+    <label>メール <span class="ja">／ Email</span>（変更すると再確認します）</label>
     <input type="email" name="email" value="{{ u.email or '' }}" autocapitalize="none" required>
     <hr>
-    <p class="hint">Change password (leave blank to keep) / パスワード変更（変更しない場合は空欄）</p>
-    <label>Current password <span class="ja">／ 現在のパスワード</span></label>
+    <p class="hint">パスワード変更（変更しない場合は空欄）/ Change password (leave blank to keep)</p>
+    <label>現在のパスワード <span class="ja">／ Current password</span></label>
     <input type="password" name="current_password" autocomplete="current-password">
-    <label>New password <span class="ja">／ 新しいパスワード</span></label>
+    <label>新しいパスワード <span class="ja">／ New password</span></label>
     <input type="password" name="new_password" autocomplete="new-password">
-    <button type="submit">Save / 保存</button>
+    <button type="submit">保存 / Save</button>
   </form>
 </div>
 {% endblock %}

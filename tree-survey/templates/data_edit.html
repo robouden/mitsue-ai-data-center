@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Edit record / 記録の編集</h2>
+  <h2>記録の編集 / Edit record</h2>
   <p class="hint">{{ r.record_id }} · {{ r.created_at.strftime('%Y-%m-%d %H:%M') if r.created_at else '' }}</p>
   <form method="post" action="/admin/data/{{ r.record_id }}/edit">
     {% for f in text %}
@@ -20,8 +20,8 @@
       <label class="chk"><input type="checkbox" name="{{ f }}" {% if r[f] %}checked{% endif %}> {{ f }}</label>
       {% endfor %}
     </div>
-    <button type="submit">Save / 保存</button>
+    <button type="submit">保存 / Save</button>
   </form>
-  <p class="hint" style="margin-top:10px"><a href="/admin/data">← Back to data / データへ戻る</a></p>
+  <p class="hint" style="margin-top:10px"><a href="/admin/data">← データへ戻る / Back to data</a></p>
 </div>
 {% endblock %}

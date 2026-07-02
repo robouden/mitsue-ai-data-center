@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Survey data / 調査データ ({{ total }})</h2>
-  <p class="exp">Export / 書き出し:
+  <h2>調査データ / Survey data ({{ total }})</h2>
+  <p class="exp">書き出し / Export:
     <a href="/export.csv">CSV</a> <a href="/export.geojson">GeoJSON</a> <a href="/export.parquet">Parquet</a></p>
 
   <div class="dtbar">
-    <input type="search" id="dtsearch" placeholder="Search across all fields… / 全項目を検索">
-    <button type="button" class="dtbtn" id="dtclear">Clear / 消去</button>
+    <input type="search" id="dtsearch" placeholder="全項目を検索 / Search across all fields…">
+    <button type="button" class="dtbtn" id="dtclear">消去 / Clear</button>
     <span class="dtcount" id="dtcount"></span>
   </div>
 
@@ -15,18 +15,18 @@
   <table class="dt" id="dt">
     <thead>
     <tr>
-      <th class="nosort"><input type="checkbox" id="dtall" title="Select all / 全選択"></th>
-      <th data-k="date">Date <span class="ar">↕</span></th>
-      <th data-k="surveyor">Surveyor <span class="ar">↕</span></th>
-      <th data-k="species">Species <span class="ar">↕</span></th>
+      <th class="nosort"><input type="checkbox" id="dtall" title="全選択 / Select all"></th>
+      <th data-k="date">日付 Date <span class="ar">↕</span></th>
+      <th data-k="surveyor">調査者 Surveyor <span class="ar">↕</span></th>
+      <th data-k="species">樹種 Species <span class="ar">↕</span></th>
       <th class="nosort">GPS</th>
-      <th data-k="num">DBH <span class="ar">↕</span></th>
-      <th data-k="num">H <span class="ar">↕</span></th>
-      <th data-k="num">Age <span class="ar">↕</span></th>
-      <th data-k="health">Health <span class="ar">↕</span></th>
+      <th data-k="num">胸高直径 DBH <span class="ar">↕</span></th>
+      <th data-k="num">樹高 H <span class="ar">↕</span></th>
+      <th data-k="num">樹齢 Age <span class="ar">↕</span></th>
+      <th data-k="health">樹勢 Health <span class="ar">↕</span></th>
       <th data-k="num">⭐ <span class="ar">↕</span></th>
       <th class="nosort">📷</th>
-      <th data-k="notes">Notes <span class="ar">↕</span></th>
+      <th data-k="notes">備考 Notes <span class="ar">↕</span></th>
       <th class="nosort"></th>
     </tr>
     </thead>
@@ -36,7 +36,7 @@
       <td><input type="checkbox" class="dtrow"></td>
       <td><small>{{ r.created_at.strftime('%y-%m-%d %H:%M') if r.created_at else '' }}<br>{{ r.record_id }}</small></td>
       <td><small>{{ r.surveyor }}</small></td>
-      <td>{{ r.species_en }}<br><small>{{ r.species_ja }}</small></td>
+      <td>{{ r.species_ja }}<br><small>{{ r.species_en }}</small></td>
       <td><small>{% if r.lat %}<a href="https://www.openstreetmap.org/?mlat={{ r.lat }}&mlon={{ r.lon }}#map=17/{{ r.lat }}/{{ r.lon }}" target="_blank">{{ '%.5f'|format(r.lat) }}, {{ '%.5f'|format(r.lon) }}</a>{% else %}—{% endif %}</small></td>
       <td>{{ r.dbh_cm or '' }}</td><td>{{ r.height_m or '' }}</td><td>{{ r.est_age_yr or '' }}</td>
       <td><small>{{ r.health or '' }}</small></td>
@@ -44,8 +44,8 @@
       <td>{% if r.photo_paths %}{% for p in r.photo_paths.split(',') %}<a href="/photos/{{ p }}" target="_blank">🖼</a>{% endfor %}{% endif %}</td>
       <td><small>{{ (r.notes or '')[:40] }}</small></td>
       <td class="acts">
-        <a href="/admin/data/{{ r.record_id }}/edit"><button type="button" class="mini">✏️ Edit/編集</button></a>
-        <form method="post" action="/admin/data/{{ r.record_id }}/delete" style="display:inline" onsubmit="return confirm('Delete this record? / 削除しますか？')"><button class="mini del">🗑 Delete/削除</button></form>
+        <a href="/admin/data/{{ r.record_id }}/edit"><button type="button" class="mini">✏️ 編集/Edit</button></a>
+        <form method="post" action="/admin/data/{{ r.record_id }}/delete" style="display:inline" onsubmit="return confirm('削除しますか？ / Delete this record?')"><button class="mini del">🗑 削除/Delete</button></form>
       </td>
     </tr>
     {% endfor %}

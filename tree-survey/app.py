@@ -190,13 +190,13 @@ def send_email(to, subject, body):
 
 def send_confirmation(to, username, tok):
     link = f"{BASE_URL}/confirm?token={tok}"
-    send_email(to, "Confirm your Mitsue tree-survey account / メール確認",
-               f"Hello / こんにちは {username},\n\n"
+    send_email(to, "メール確認 / Confirm your Mitsue tree-survey account",
+               f"こんにちは / Hello {username},\n\n"
                f"Confirm your account for the Mitsue Mother Tree survey by opening this link:\n"
                f"下記リンクを開いてアカウントを確認してください:\n\n{link}\n\n"
-               f"This link expires in {TOKEN_TTL_H} hours. / リンクは{TOKEN_TTL_H}時間で失効します。\n\n"
-               f"If you didn't request this, ignore this email. / 心当たりがない場合は無視してください。\n\n"
-               f"Mitsue Mother Tree Project / 御杖村 母樹プロジェクト")
+               f"リンクは{TOKEN_TTL_H}時間で失効します。 / This link expires in {TOKEN_TTL_H} hours.\n\n"
+               f"心当たりがない場合は無視してください。 / If you didn't request this, ignore this email.\n\n"
+               f"御杖村 母樹プロジェクト / Mitsue Mother Tree Project")
 
 
 # simple in-memory rate limiter
@@ -254,11 +254,11 @@ def current_user(request: Request):
 
 def require_admin(request: Request):
     if not request.session.get("is_admin"):
-        raise HTTPException(status_code=403, detail="Admin only / 管理者のみ")
+        raise HTTPException(status_code=403, detail="管理者のみ / Admin only")
     return request.session.get("user")
 
 
-def msg_page(request, title, body, link="/login", link_text="Continue / 続ける", status=200):
+def msg_page(request, title, body, link="/login", link_text="続ける / Continue", status=200):
     return templates.TemplateResponse(request, "message.html",
                                       {"title": title, "body": body, "link": link,
                                        "link_text": link_text}, status_code=status)
@@ -281,14 +281,14 @@ def login(request: Request, username: str = Form(...), password: str = Form(...)
     u = get_user(username.strip().lower())
     if not u or not verify_pw(password, u["salt"], u["pw_hash"]):
         return templates.TemplateResponse(request, "login.html",
-            {"error": "Wrong username or password / ユーザー名かパスワードが違います"}, status_code=401)
+            {"error": "ユーザー名かパスワードが違います / Wrong username or password"}, status_code=401)
     if not u["active"]:
         return templates.TemplateResponse(request, "login.html",
-            {"error": "Account disabled. Contact the coordinator. / アカウントは無効です。担当者にご連絡ください。"},
+            {"error": "アカウントは無効です。担当者にご連絡ください。 / Account disabled. Contact the coordinator."},
             status_code=403)
     if not u["confirmed"]:
         return templates.TemplateResponse(request, "login.html",
-            {"error": "Please confirm your email first. / 先にメール確認をしてください。",
+            {"error": "先にメール確認をしてください。 / Please confirm your email first.",
              "show_resend": True}, status_code=403)
     _login_session(request, u)
     return RedirectResponse("/", status_code=303)
@@ -313,15 +313,15 @@ def register(request: Request, display_name: str = Form(...), username: str = Fo
     email = email.strip()
     err = None
     if not (rate_ok("reg-ip:" + ip, 6, 3600) and rate_ok("reg-em:" + email.lower(), 3, 86400)):
-        err = "Too many attempts. Please try again later. / 試行回数が多すぎます。後でお試しください。"
+        err = "試行回数が多すぎます。後でお試しください。 / Too many attempts. Please try again later."
     elif len(username) < 3 or not username.isascii() or not username.replace("_", "").replace("-", "").isalnum():
-        err = "Username: 3+ letters/numbers, no spaces. / ユーザー名は3文字以上の英数字。"
+        err = "ユーザー名は3文字以上の英数字。 / Username: 3+ letters/numbers, no spaces."
     elif not email_valid(email):
-        err = "Please enter a valid email. / 正しいメールアドレスを入力してください。"
+        err = "正しいメールアドレスを入力してください。 / Please enter a valid email."
     elif len(password) < 6:
-        err = "Password must be at least 6 characters. / パスワードは6文字以上。"
+        err = "パスワードは6文字以上。 / Password must be at least 6 characters."
     elif get_user(username):
-        err = "That username is taken. / そのユーザー名は使われています。"
+        err = "そのユーザー名は使われています。 / That username is taken."
     if err:
         return templates.TemplateResponse(request, "register.html",
                                           {"error": err, "display_name": display_name,
@@ -331,10 +331,10 @@ def register(request: Request, display_name: str = Form(...), username: str = Fo
              is_admin=False, email=email, confirmed=False, active=True)
     tok = set_confirm_token(username)
     send_confirmation(email, username, tok)
-    return msg_page(request, "Check your email / メールを確認",
-                    f"We sent a confirmation link to <b>{email}</b>. Open it to activate your account, "
-                    f"then sign in.<br>確認リンクを <b>{email}</b> に送信しました。リンクを開いて有効化し、ログインしてください。",
-                    link="/login", link_text="Go to sign in / ログインへ")
+    return msg_page(request, "メールを確認 / Check your email",
+                    f"確認リンクを <b>{email}</b> に送信しました。リンクを開いて有効化し、ログインしてください。<br>"
+                    f"We sent a confirmation link to <b>{email}</b>. Open it to activate your account, then sign in.",
+                    link="/login", link_text="ログインへ / Go to sign in")
 
 
 @app.get("/confirm", response_class=HTMLResponse)
@@ -343,14 +343,14 @@ def confirm(request: Request, token: str = ""):
         r = con.execute("SELECT username, confirm_expires, pending_email FROM users WHERE confirm_token=?",
                         [token]).fetchone()
     if not token or not r:
-        return msg_page(request, "Invalid link / 無効なリンク",
-                        "This confirmation link is invalid or already used. / このリンクは無効か使用済みです。",
+        return msg_page(request, "無効なリンク / Invalid link",
+                        "このリンクは無効か使用済みです。 / This confirmation link is invalid or already used.",
                         status=400)
     username, expires, pending = r
     if expires and dt.datetime.now() > expires:
-        return msg_page(request, "Link expired / リンク失効",
-                        "This link has expired. Request a new one. / リンクは失効しました。再送してください。",
-                        link="/resend", link_text="Resend link / 再送", status=400)
+        return msg_page(request, "リンク失効 / Link expired",
+                        "リンクは失効しました。再送してください。 / This link has expired. Request a new one.",
+                        link="/resend", link_text="再送 / Resend link", status=400)
     with _lock:
         if pending:  # email-change confirmation
             con.execute("UPDATE users SET email=?, pending_email=NULL, confirmed=TRUE, confirm_token=NULL, confirm_expires=NULL WHERE username=?",
@@ -360,9 +360,9 @@ def confirm(request: Request, token: str = ""):
                         [username])
     u = get_user(username)
     _login_session(request, u)
-    return msg_page(request, "Confirmed! / 確認完了",
-                    "Your email is confirmed and you're signed in. Happy surveying! / メール確認が完了しました。調査を始めましょう！",
-                    link="/", link_text="Start / はじめる")
+    return msg_page(request, "確認完了 / Confirmed!",
+                    "メール確認が完了しました。調査を始めましょう！ / Your email is confirmed and you're signed in. Happy surveying!",
+                    link="/", link_text="はじめる / Start")
 
 
 @app.get("/resend", response_class=HTMLResponse)
@@ -381,10 +381,10 @@ def resend(request: Request, email: str = Form(...)):
             tok = set_confirm_token(r[0])
             send_confirmation(r[1], r[0], tok)
     # always generic (no account enumeration)
-    return msg_page(request, "Check your email / メールを確認",
-                    f"If an unconfirmed account uses <b>{email}</b>, a new link is on its way.<br>"
-                    f"未確認のアカウントがあれば、新しいリンクを送信しました。",
-                    link="/login", link_text="Go to sign in / ログインへ")
+    return msg_page(request, "メールを確認 / Check your email",
+                    f"未確認のアカウントがあれば、新しいリンクを送信しました。<br>"
+                    f"If an unconfirmed account uses <b>{email}</b>, a new link is on its way.",
+                    link="/login", link_text="ログインへ / Go to sign in")
 
 
 # -------------------- account self-edit --------------------
@@ -407,24 +407,24 @@ def account_save(request: Request, user: str = Depends(current_user),
 
     if new_password:
         if not verify_pw(current_password, u["salt"], u["pw_hash"]):
-            error = "Current password is wrong. / 現在のパスワードが違います。"
+            error = "現在のパスワードが違います。 / Current password is wrong."
         elif len(new_password) < 6:
-            error = "New password must be 6+ characters. / 新しいパスワードは6文字以上。"
+            error = "新しいパスワードは6文字以上。 / New password must be 6+ characters."
         else:
             salt, h = hash_pw(new_password)
             with _lock:
                 con.execute("UPDATE users SET salt=?, pw_hash=? WHERE username=?", [salt, h, user])
-            ok = "Saved. / 保存しました。"
+            ok = "保存しました。 / Saved."
 
     if not error and new_email and new_email.lower() != (u["email"] or "").lower():
         if not email_valid(new_email):
-            error = "Invalid email. / メールアドレスが不正です。"
+            error = "メールアドレスが不正です。 / Invalid email."
         else:
             tok = set_confirm_token(user, pending_email=new_email)
             send_confirmation(new_email, user, tok)
-            ok = "Saved. Check your new email to confirm the change. / 保存しました。新しいメールに確認リンクを送りました。"
+            ok = "保存しました。新しいメールに確認リンクを送りました。 / Saved. Check your new email to confirm the change."
     elif not error:
-        ok = ok or "Saved. / 保存しました。"
+        ok = ok or "保存しました。 / Saved."
 
     u = get_user(user)
     return templates.TemplateResponse(request, "account.html", {"u": u, "ok": ok, "error": error},
@@ -435,7 +435,7 @@ def account_save(request: Request, user: str = Depends(current_user),
 @app.get("/", response_class=HTMLResponse)
 def form(request: Request, user: str = Depends(current_user), saved: str = ""):
     return templates.TemplateResponse(request, "form.html", {
-        "species": [(en, ja, lat) for en, ja, lat in SPECIES] + [("Other / その他", "", "")],
+        "species": [(en, ja, lat) for en, ja, lat in SPECIES] + [("その他 / Other", "", "")],
         "display_name": request.session.get("display_name", user),
         "is_admin": request.session.get("is_admin", False),
         "saved": saved,
@@ -591,7 +591,7 @@ def _active_admin_count():
 def admin_user_edit(request: Request, username: str, me: str = Depends(require_admin)):
     u = get_user(username)
     if not u:
-        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+        raise HTTPException(status_code=404, detail="該当ユーザーなし / No such user")
     return templates.TemplateResponse(request, "user_edit.html", {"u": u, "me": me})
 
 
@@ -601,9 +601,9 @@ def admin_user_edit_save(request: Request, username: str,
                          new_password: str = Form(""), me: str = Depends(require_admin)):
     u = get_user(username)
     if not u:
-        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+        raise HTTPException(status_code=404, detail="該当ユーザーなし / No such user")
     if email and not email_valid(email):
-        raise HTTPException(status_code=400, detail="Invalid email / メール形式が不正")
+        raise HTTPException(status_code=400, detail="メール形式が不正 / Invalid email")
     with _lock:
         con.execute("UPDATE users SET display_name=?, email=? WHERE username=?",
                     [display_name or username, email or None, username])
@@ -619,14 +619,14 @@ def admin_user_edit_save(request: Request, username: str,
 def admin_user_action(request: Request, username: str, action: str, me: str = Depends(require_admin)):
     tgt = get_user(username)
     if not tgt:
-        raise HTTPException(status_code=404, detail="No such user / 該当ユーザーなし")
+        raise HTTPException(status_code=404, detail="該当ユーザーなし / No such user")
     if action not in ("delete", "disable", "enable", "promote", "demote", "confirm"):
         raise HTTPException(status_code=404, detail="Unknown action")
     # never let the last active admin lock everyone out (applies to self too)
     if tgt["is_admin"] and tgt["active"] and action in ("delete", "disable", "demote") \
             and _active_admin_count() <= 1:
         raise HTTPException(status_code=400,
-                            detail="Cannot remove the last active admin. / 最後の有効な管理者は削除できません。")
+                            detail="最後の有効な管理者は削除できません。 / Cannot remove the last active admin.")
     with _lock:
         if action == "delete":
             con.execute("DELETE FROM users WHERE username=?", [username])

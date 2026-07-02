@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Users / 利用者 ({{ rows|length }})</h2>
+  <h2>利用者 / Users ({{ rows|length }})</h2>
   <table>
-    <tr><th>User / 名前</th><th>Email</th><th>Status / 状態</th><th>Recs</th><th>Actions / 操作</th></tr>
+    <tr><th>名前 / User</th><th>メール / Email</th><th>状態 / Status</th><th>記録</th><th>操作 / Actions</th></tr>
     {% for r in rows %}
     <tr>
       <td>{{ r.display_name }}<br><small>{{ r.username }}{% if r.is_admin %} · <b>admin</b>{% endif %}</small></td>
@@ -15,14 +15,14 @@
       <td>{{ r.n }}</td>
       <td><small>
         {% set self = r.username == me %}
-        <a href="/admin/users/{{ r.username }}/edit"><button type="button" class="mini">Edit/編集</button></a>
-        {% if r.active %}<form method="post" action="/admin/users/{{ r.username }}/disable" style="display:inline"{% if self %} onsubmit="return confirm('Disable your OWN account? You will be logged out. / 自分のアカウントを無効化しログアウトします。')"{% endif %}><button class="mini">Disable/無効</button></form>
-        {% else %}<form method="post" action="/admin/users/{{ r.username }}/enable" style="display:inline"><button class="mini ok">Enable/有効</button></form>{% endif %}
-        {% if r.is_admin %}<form method="post" action="/admin/users/{{ r.username }}/demote" style="display:inline"{% if self %} onsubmit="return confirm('Remove your OWN admin rights? You will be logged out. / 自分の管理者権限を外しログアウトします。')"{% endif %}><button class="mini">−admin</button></form>
+        <a href="/admin/users/{{ r.username }}/edit"><button type="button" class="mini">編集/Edit</button></a>
+        {% if r.active %}<form method="post" action="/admin/users/{{ r.username }}/disable" style="display:inline"{% if self %} onsubmit="return confirm('自分のアカウントを無効化しログアウトします。 / Disable your OWN account? You will be logged out.')"{% endif %}><button class="mini">無効/Disable</button></form>
+        {% else %}<form method="post" action="/admin/users/{{ r.username }}/enable" style="display:inline"><button class="mini ok">有効/Enable</button></form>{% endif %}
+        {% if r.is_admin %}<form method="post" action="/admin/users/{{ r.username }}/demote" style="display:inline"{% if self %} onsubmit="return confirm('自分の管理者権限を外しログアウトします。 / Remove your OWN admin rights? You will be logged out.')"{% endif %}><button class="mini">−admin</button></form>
         {% else %}<form method="post" action="/admin/users/{{ r.username }}/promote" style="display:inline"><button class="mini">+admin</button></form>{% endif %}
-        {% if not r.confirmed %}<form method="post" action="/admin/users/{{ r.username }}/confirm" style="display:inline"><button class="mini">Confirm</button></form>{% endif %}
-        <form method="post" action="/admin/users/{{ r.username }}/delete" style="display:inline" onsubmit="return confirm('{% if self %}DELETE your OWN account? You will be logged out. / 自分のアカウントを削除しログアウトします。{% else %}Delete {{ r.username }}? / 削除しますか？{% endif %}')"><button class="mini del">Delete/削除</button></form>
-        {% if self %} <span class="pill">you / 自分</span>{% endif %}
+        {% if not r.confirmed %}<form method="post" action="/admin/users/{{ r.username }}/confirm" style="display:inline"><button class="mini">確認/Confirm</button></form>{% endif %}
+        <form method="post" action="/admin/users/{{ r.username }}/delete" style="display:inline" onsubmit="return confirm('{% if self %}自分のアカウントを削除しログアウトします。 / DELETE your OWN account? You will be logged out.{% else %}{{ r.username }} を削除しますか？ / Delete {{ r.username }}?{% endif %}')"><button class="mini del">削除/Delete</button></form>
+        {% if self %} <span class="pill">自分 / you</span>{% endif %}
       </small></td>
     </tr>
     {% endfor %}

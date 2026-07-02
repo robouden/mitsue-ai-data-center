@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Edit reference photos / 図鑑写真の編集</h2>
-  <p class="hint">Upload one photo + captions per species. Volunteers see these in the Guide tab.<br>
-     樹種ごとに写真とキャプションを登録。利用者は「図鑑」タブで閲覧します。</p>
+  <h2>図鑑写真の編集 / Edit reference photos</h2>
+  <p class="hint">樹種ごとに写真とキャプションを登録。利用者は「図鑑」タブで閲覧します。<br>
+     Upload one photo + captions per species. Volunteers see these in the Guide tab.</p>
 </div>
 {% for r in rows %}
 <div class="card">
@@ -14,14 +14,14 @@
         {% else %}<div style="width:90px;height:90px;background:#eef3ef;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:26px">🌳</div>{% endif %}
       </div>
       <div style="flex:1">
-        <b>{{ r.species_en }}</b> ／ {{ r.species_ja }} <span class="latin">{{ r.latin }}</span>
-        <label>Photo <span class="ja">／ 写真</span></label>
+        <b>{{ r.species_ja }}</b> ／ {{ r.species_en }} <span class="latin">{{ r.latin }}</span>
+        <label>写真 <span class="ja">／ Photo</span></label>
         <input type="file" name="photo" accept="image/*">
+        <label>キャプション 日本語 <span class="ja">／ Caption JA</span></label>
+        <input type="text" name="caption_ja" value="{{ r.caption_ja or '' }}">
         <label>Caption EN</label>
         <input type="text" name="caption_en" value="{{ r.caption_en or '' }}">
-        <label>キャプション 日本語</label>
-        <input type="text" name="caption_ja" value="{{ r.caption_ja or '' }}">
-        <button type="submit">Save / 保存</button>
+        <button type="submit">保存 / Save</button>
       </div>
     </div>
   </form>

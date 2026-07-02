@@ -1,103 +1,104 @@
 {% extends "base.html" %}
 {% block body %}
 {% if saved %}
-<div class="banner">✅ Saved! Record {{ saved }} added. Thank you! / 記録しました。ありがとうございます！</div>
+<div class="banner">✅ 記録しました。ありがとうございます！ Record {{ saved }} added. Thank you!</div>
 {% endif %}
 
 <p style="margin:2px 0 0;font-size:13px;color:#5a6b60;">
-  Surveyor / 調査者: <b>{{ display_name }}</b>
+  調査者 / Surveyor: <b>{{ display_name }}</b>
 </p>
 
 <form method="post" action="/submit" enctype="multipart/form-data">
 
   <div class="card">
-    <h2>1. Tree species / 樹種</h2>
-    <label title="Pick the tree species. Use leaf, bark and fruit to identify; choose Other if unsure / 葉・樹皮・実で同定し、不明なら「その他」を選択">Species <span class="ja">／ 樹種</span></label>
+    <h2>1. 樹種 / Tree species</h2>
+    <label title="葉・樹皮・実で同定し、不明なら「その他」を選択 / Pick the tree species. Use leaf, bark and fruit to identify; choose Other if unsure">樹種 <span class="ja">／ Species</span></label>
     <select name="species" id="species">
       {% for en, ja, lat in species %}
         <option value="{% if en.startswith('Other') %}__other__{% else %}{{ en }}|{{ ja }}|{{ lat }}{% endif %}"
-                title="{{ en }}{% if ja %} ／ {{ ja }}{% endif %}{% if lat %} — {{ lat }}{% endif %}">
-          {{ en }}{% if ja %} ／ {{ ja }}{% endif %}{% if lat %} ({{ lat }}){% endif %}
+                title="{% if ja %}{{ ja }} ／ {% endif %}{{ en }}{% if lat %} — {{ lat }}{% endif %}">
+          {% if ja %}{{ ja }} ／ {% endif %}{{ en }}{% if lat %} ({{ lat }}){% endif %}
         </option>
       {% endfor %}
     </select>
     <div id="otherbox" style="display:none">
       <div class="row">
+        <div><label>その他 日本語 <span class="ja">／ Other (JA)</span></label>
+          <input type="text" name="species_other_ja"></div>
         <div><label>Other (EN) <span class="ja">／ その他 英語</span></label>
           <input type="text" name="species_other_en"></div>
-        <div><label>その他 日本語</label><input type="text" name="species_other_ja"></div>
       </div>
-      <label title="Scientific (Latin) name if you know it / 分かれば学名を入力">Latin name <span class="ja">／ 学名</span></label>
+      <label title="分かれば学名を入力 / Scientific (Latin) name if you know it">学名 <span class="ja">／ Latin name</span></label>
       <input type="text" name="latin" placeholder="e.g. Quercus serrata">
     </div>
   </div>
 
   <div class="card">
-    <h2>2. Location / 位置</h2>
-    <button type="button" class="alt" id="gpsbtn" style="margin-top:0" title="Tap to read your phone's GPS and auto-fill latitude, longitude and elevation / タップでGPSから緯度・経度・標高を自動入力">📍 Get GPS / 現在地を取得</button>
-    <div class="gps" id="gpsmsg">GPS not captured yet. / まだ取得していません。</div>
+    <h2>2. 位置 / Location</h2>
+    <button type="button" class="alt" id="gpsbtn" style="margin-top:0" title="タップでGPSから緯度・経度・標高を自動入力 / Tap to read your phone's GPS and auto-fill latitude, longitude and elevation">📍 現在地を取得 / Get GPS</button>
+    <div class="gps" id="gpsmsg">まだ取得していません。 / GPS not captured yet.</div>
     <div class="row" style="margin-top:8px">
-      <div><label title="North–south position; filled automatically by Get GPS / 南北の位置。GPS取得で自動入力">Latitude <span class="ja">／ 緯度</span></label>
+      <div><label title="南北の位置。GPS取得で自動入力 / North–south position; filled automatically by Get GPS">緯度 <span class="ja">／ Latitude</span></label>
         <input type="text" name="lat" id="lat" inputmode="decimal"></div>
-      <div><label title="East–west position; filled automatically by Get GPS / 東西の位置。GPS取得で自動入力">Longitude <span class="ja">／ 経度</span></label>
+      <div><label title="東西の位置。GPS取得で自動入力 / East–west position; filled automatically by Get GPS">経度 <span class="ja">／ Longitude</span></label>
         <input type="text" name="lon" id="lon" inputmode="decimal"></div>
     </div>
     <input type="hidden" name="gps_accuracy_m" id="acc">
     <div class="row">
-      <div><label title="Height above sea level in metres / 海抜の標高（メートル）">Elevation m <span class="ja">／ 標高</span></label>
+      <div><label title="海抜の標高（メートル） / Height above sea level in metres">標高 m <span class="ja">／ Elevation</span></label>
         <input type="number" name="elevation_m" inputmode="decimal"></div>
-      <div><label title="Which way the slope faces and its position / 斜面の向きと地形上の位置">Slope / aspect <span class="ja">／ 斜面方位</span></label>
-        <input type="text" name="slope_aspect" placeholder="N / S / ridge / valley"></div>
+      <div><label title="斜面の向きと地形上の位置 / Which way the slope faces and its position">斜面方位 <span class="ja">／ Slope / aspect</span></label>
+        <input type="text" name="slope_aspect" placeholder="尾根 / 谷 / N / S"></div>
     </div>
   </div>
 
   <div class="card">
-    <h2>3. Measurements / 計測</h2>
+    <h2>3. 計測 / Measurements</h2>
     <div class="row">
-      <div><label title="Trunk diameter at breast height (~1.3 m), in centimetres / 胸の高さ（約1.3m）での幹の直径（cm）">DBH cm <span class="ja">／ 胸高直径</span></label>
+      <div><label title="胸の高さ（約1.3m）での幹の直径（cm） / Trunk diameter at breast height (~1.3 m), in centimetres">胸高直径 cm <span class="ja">／ DBH</span></label>
         <input type="number" name="dbh_cm" inputmode="decimal"></div>
-      <div><label title="Total tree height in metres (estimate is fine) / 樹高（メートル、目測で可）">Height m <span class="ja">／ 樹高</span></label>
+      <div><label title="樹高（メートル、目測で可） / Total tree height in metres (estimate is fine)">樹高 m <span class="ja">／ Height</span></label>
         <input type="number" name="height_m" inputmode="decimal"></div>
-      <div><label title="Rough estimated age in years / おおよその推定樹齢（年）">Age yr <span class="ja">／ 推定樹齢</span></label>
+      <div><label title="おおよその推定樹齢（年） / Rough estimated age in years">推定樹齢 <span class="ja">／ Age yr</span></label>
         <input type="number" name="est_age_yr" inputmode="numeric"></div>
     </div>
-    <label title="Surrounding terrain where the tree grows / 樹木が生育する周辺の地形・環境">Habitat <span class="ja">／ 生育環境</span></label>
-    <input type="text" name="habitat" placeholder="ridge·slope·valley·streamside / 尾根·斜面·谷·沢">
-    <label title="Overall vigour of the tree / 樹木全体の健康・樹勢">Health <span class="ja">／ 樹勢</span></label>
+    <label title="樹木が生育する周辺の地形・環境 / Surrounding terrain where the tree grows">生育環境 <span class="ja">／ Habitat</span></label>
+    <input type="text" name="habitat" placeholder="尾根·斜面·谷·沢 / ridge·slope·valley·streamside">
+    <label title="樹木全体の健康・樹勢 / Overall vigour of the tree">樹勢 <span class="ja">／ Health</span></label>
     <select name="health">
       <option value="">—</option>
-      <option value="healthy" title="Full canopy, no visible damage / 樹冠充実・損傷なし">Healthy / 健全</option>
-      <option value="minor" title="Some dead branches or wounds, otherwise vigorous / 枯枝や傷あるが概ね健全">Minor damage / 軽微な損傷</option>
-      <option value="diseased" title="Disease, decay or dieback present / 病害・腐朽・枯死進行">Diseased / dying / 病・枯れ</option>
+      <option value="healthy" title="樹冠充実・損傷なし / Full canopy, no visible damage">健全 / Healthy</option>
+      <option value="minor" title="枯枝や傷あるが概ね健全 / Some dead branches or wounds, otherwise vigorous">軽微な損傷 / Minor damage</option>
+      <option value="diseased" title="病害・腐朽・枯死進行 / Disease, decay or dieback present">病・枯れ / Diseased·dying</option>
     </select>
   </div>
 
   <div class="card">
-    <h2>4. Assessment / 評価</h2>
+    <h2>4. 評価 / Assessment</h2>
     <div class="checks">
-      <label class="chk big" title="A large, healthy, seed-producing tree to source native seed for replanting / 在来種の種子供給源となる大径・健全な母樹"><input type="checkbox" name="mother_tree"> ⭐ Mother tree? / 母樹か</label>
-      <label class="chk" title="Fruit, nuts or seeds currently on the tree / 果実・堅果・種子が着いている"><input type="checkbox" name="seeds_present"> Seeds present / 結実あり</label>
-      <label class="chk" title="You collected seed from this tree today / 本日この木から種子を採取した"><input type="checkbox" name="seeds_collected"> Seeds collected / 種子採取</label>
-      <label class="chk" title="Young seedlings or saplings growing nearby / 周囲に実生・稚樹がある"><input type="checkbox" name="saplings_nearby"> Saplings nearby / 稚樹あり</label>
-      <label class="chk" title="Trunk has a hollow or cavity (wildlife habitat) / 幹に樹洞がある（生物の住処）"><input type="checkbox" name="hollow"> Hollow / cavity / 樹洞</label>
-      <label class="chk" title="A physical ID tag has been attached / 識別標識を取り付けた"><input type="checkbox" name="tagged"> Tagged / 標識設置</label>
-      <label class="chk" title="Animals or signs of animals seen at this tree / この木で動物や痕跡を確認した"><input type="checkbox" name="wildlife_obs"> Wildlife seen / 動物確認</label>
-      <label class="chk" title="Tree of religious or cultural significance / 信仰・文化的に重要な御神木"><input type="checkbox" name="cultural_sacred"> Sacred / 神木</label>
+      <label class="chk big" title="在来種の種子供給源となる大径・健全な母樹 / A large, healthy, seed-producing tree to source native seed for replanting"><input type="checkbox" name="mother_tree"> ⭐ 母樹か / Mother tree?</label>
+      <label class="chk" title="果実・堅果・種子が着いている / Fruit, nuts or seeds currently on the tree"><input type="checkbox" name="seeds_present"> 結実あり / Seeds present</label>
+      <label class="chk" title="本日この木から種子を採取した / You collected seed from this tree today"><input type="checkbox" name="seeds_collected"> 種子採取 / Seeds collected</label>
+      <label class="chk" title="周囲に実生・稚樹がある / Young seedlings or saplings growing nearby"><input type="checkbox" name="saplings_nearby"> 稚樹あり / Saplings nearby</label>
+      <label class="chk" title="幹に樹洞がある（生物の住処） / Trunk has a hollow or cavity (wildlife habitat)"><input type="checkbox" name="hollow"> 樹洞 / Hollow·cavity</label>
+      <label class="chk" title="識別標識を取り付けた / A physical ID tag has been attached"><input type="checkbox" name="tagged"> 標識設置 / Tagged</label>
+      <label class="chk" title="この木で動物や痕跡を確認した / Animals or signs of animals seen at this tree"><input type="checkbox" name="wildlife_obs"> 動物確認 / Wildlife seen</label>
+      <label class="chk" title="信仰・文化的に重要な御神木 / Tree of religious or cultural significance"><input type="checkbox" name="cultural_sacred"> 神木 / Sacred</label>
     </div>
-    <label title="List animals or signs (tracks, droppings, nests) seen at the tree / 樹木で見た動物や痕跡（足跡・糞・巣）を記入">Wildlife observed <span class="ja">／ 確認した野生動物</span></label>
-    <input type="text" name="wildlife_text" placeholder="bear, boar, deer, birds… / 熊·猪·鹿·鳥…">
+    <label title="樹木で見た動物や痕跡（足跡・糞・巣）を記入 / List animals or signs (tracks, droppings, nests) seen at the tree">確認した野生動物 <span class="ja">／ Wildlife observed</span></label>
+    <input type="text" name="wildlife_text" placeholder="熊·猪·鹿·鳥… / bear, boar, deer, birds…">
   </div>
 
   <div class="card">
-    <h2>5. Photos & notes / 写真とメモ</h2>
-    <label title="Take several photos: whole tree, bark, leaf and fruit. You can select more than one / 全体・樹皮・葉・実を複数枚撮影。複数選択可">Photos <span class="ja">／ 写真</span> (whole tree, bark, leaf, fruit / 全体·樹皮·葉·実)</label>
+    <h2>5. 写真とメモ / Photos & notes</h2>
+    <label title="全体・樹皮・葉・実を複数枚撮影。複数選択可 / Take several photos: whole tree, bark, leaf and fruit. You can select more than one">写真 <span class="ja">／ Photos</span> (全体·樹皮·葉·実 / whole tree, bark, leaf, fruit)</label>
     <input type="file" name="photos" accept="image/*" capture="environment" multiple>
-    <p class="hint">Tip: take a clear leaf and bark shot to help identification. / 同定のため葉と樹皮の写真を撮りましょう。</p>
-    <label title="Anything else useful: condition, surroundings, access route, landowner / その他の有用な情報：状態・周辺・進入路・所有者">Notes <span class="ja">／ 備考</span></label>
-    <textarea name="notes" placeholder="condition, surroundings, access, owner… / 状態·周辺·進入路·所有者…"></textarea>
+    <p class="hint">同定のため葉と樹皮の写真を撮りましょう。 / Tip: take a clear leaf and bark shot to help identification.</p>
+    <label title="その他の有用な情報：状態・周辺・進入路・所有者 / Anything else useful: condition, surroundings, access route, landowner">備考 <span class="ja">／ Notes</span></label>
+    <textarea name="notes" placeholder="状態·周辺·進入路·所有者… / condition, surroundings, access, owner…"></textarea>
   </div>
 
-  <button type="submit">💾 Save record / 記録を保存</button>
+  <button type="submit">💾 記録を保存 / Save record</button>
 </form>
 
 <script>
@@ -106,8 +107,8 @@
   });
   const msg = document.getElementById('gpsmsg');
   document.getElementById('gpsbtn').addEventListener('click', function () {
-    if (!navigator.geolocation) { msg.textContent = 'No GPS support / GPS非対応'; msg.className = 'gps err'; return; }
-    msg.textContent = '⏳ Locating… / 取得中…'; msg.className = 'gps';
+    if (!navigator.geolocation) { msg.textContent = 'GPS非対応 / No GPS support'; msg.className = 'gps err'; return; }
+    msg.textContent = '⏳ 取得中… / Locating…'; msg.className = 'gps';
     navigator.geolocation.getCurrentPosition(function (p) {
       document.getElementById('lat').value = p.coords.latitude.toFixed(6);
       document.getElementById('lon').value = p.coords.longitude.toFixed(6);
@@ -117,7 +118,7 @@
                       ' (±' + Math.round(p.coords.accuracy) + ' m)';
       msg.className = 'gps ok';
     }, function (e) {
-      msg.textContent = '⚠️ ' + e.message + ' / 位置を取得できません'; msg.className = 'gps err';
+      msg.textContent = '⚠️ 位置を取得できません / ' + e.message; msg.className = 'gps err';
     }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
   });
 </script>

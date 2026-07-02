@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Records / 記録一覧 ({{ total }})</h2>
+  <h2>記録一覧 / Records ({{ total }})</h2>
   {% if is_admin %}
-  <p class="exp">Export / 書き出し:
+  <p class="exp">書き出し / Export:
     <a href="/export.csv">CSV</a>
     <a href="/export.geojson">GeoJSON</a>
     <a href="/export.parquet">Parquet</a>
   </p>
   {% endif %}
   <table>
-    <tr><th>ID / Date</th><th>Species / 樹種</th><th>By / 調査者</th><th>GPS</th><th>📷</th></tr>
+    <tr><th>日付 / Date</th><th>樹種 / Species</th><th>調査者 / By</th><th>GPS</th><th>📷</th></tr>
     {% for r in rows %}
     <tr>
       <td>{{ r.record_id }}<br><small>{{ r.created_at.strftime('%Y-%m-%d %H:%M') if r.created_at else '' }}</small></td>
-      <td>{{ r.species_en }}{% if r.species_ja %}<br>{{ r.species_ja }}{% endif %}
+      <td>{{ r.species_ja or r.species_en }}{% if r.species_ja and r.species_en %}<br>{{ r.species_en }}{% endif %}
           {% if r.mother_tree %}<br><span class="pill">⭐ 母樹</span>{% endif %}</td>
       <td>{{ r.surveyor }}</td>
       <td>{% if r.lat %}<a href="https://www.openstreetmap.org/?mlat={{ r.lat }}&mlon={{ r.lon }}#map=17/{{ r.lat }}/{{ r.lon }}" target="_blank">{{ '%.5f'|format(r.lat) }},<br>{{ '%.5f'|format(r.lon) }}</a>{% else %}—{% endif %}</td>

@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 {% block body %}
 <div class="card">
-  <h2>Tree reference guide / 樹木図鑑</h2>
-  <p class="hint">Quick field reference for Mitsue's native trees. / 御杖村の在来樹種の早見表。
-    {% if is_admin %}<a href="/admin/guide">Edit photos → / 写真を編集</a>{% endif %}</p>
+  <h2>樹木図鑑 / Tree reference guide</h2>
+  <p class="hint">御杖村の在来樹種の早見表。 / Quick field reference for Mitsue's native trees.
+    {% if is_admin %}<a href="/admin/guide">写真を編集 → / Edit photos</a>{% endif %}</p>
 </div>
 <div class="grid">
   {% for r in rows %}
   <div class="gcard">
     {% if r.photo_path %}<img src="/guideimg/{{ r.photo_path }}" alt="{{ r.species_en }}">
-    {% else %}<div class="noimg">🌳<br><small>no photo / 写真なし</small></div>{% endif %}
+    {% else %}<div class="noimg">🌳<br><small>写真なし / no photo</small></div>{% endif %}
     <div class="gbody">
-      <b>{{ r.species_en }}</b><br><span class="ja2">{{ r.species_ja }}</span>
+      <b>{{ r.species_ja }}</b><br><span class="ja2">{{ r.species_en }}</span>
       <div class="latin">{{ r.latin }}</div>
-      {% if r.caption_en %}<p class="cap">{{ r.caption_en }}</p>{% endif %}
       {% if r.caption_ja %}<p class="cap">{{ r.caption_ja }}</p>{% endif %}
+      {% if r.caption_en %}<p class="cap">{{ r.caption_en }}</p>{% endif %}
     </div>
   </div>
   {% endfor %}

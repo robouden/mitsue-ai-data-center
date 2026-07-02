@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232f7a52'/%3E%3Cpath d='M32 12 L46 34 H38 V46 H26 V34 H18 Z' fill='%23fff'/%3E%3Crect x='29' y='44' width='6' height='10' fill='%23eaddc4'/%3E%3C/svg%3E">
-<title>{% block title %}Mitsue Mother Tree Survey / 御杖村 母樹調査{% endblock %}</title>
+<title>{% block title %}御杖村 母樹調査 / Mitsue Mother Tree Survey{% endblock %}</title>
 <style>
   :root { --green:#2f7a52; --green-d:#235e3f; --bg:#f5f7f4; --line:#cdd8cf; }
   * { box-sizing:border-box; }
@@ -49,19 +49,19 @@
 </head>
 <body>
 <header>
-  <div class="t">🌳 Mitsue Mother Trees<small>御杖村 母樹プロジェクト</small></div>
+  <a class="t" href="/" title="ホーム / Home">🌳 御杖村 母樹<small>Mitsue Mother Trees</small></a>
   <nav>
     {% if request.session.get('user') %}
-      <a href="/">Record / 記録</a>
-      <a href="/guide">Guide / 図鑑</a>
-      <a href="/records">List / 一覧</a>
+      <a href="/">記録 / Record</a>
+      <a href="/guide">図鑑 / Guide</a>
+      <a href="/records">一覧 / List</a>
       {% if request.session.get('is_admin') %}
-        <a href="/admin/data">Data / データ</a>
-        <a href="/admin/users">Users / 利用者</a>
-        <a href="/admin/guide">Photos / 写真</a>
+        <a href="/admin/data">データ / Data</a>
+        <a href="/admin/users">利用者 / Users</a>
+        <a href="/admin/guide">写真 / Photos</a>
       {% endif %}
-      <a href="/account">Account / 設定</a>
-      <a href="/logout">Logout / ログアウト</a>
+      <a href="/account">設定 / Account</a>
+      <a href="/logout">ログアウト / Logout</a>
     {% endif %}
   </nav>
 </header>
