@@ -8,7 +8,8 @@
 <div class="grid">
   {% for r in rows %}
   <div class="gcard">
-    {% if r.photo_path %}<img src="/guideimg/{{ r.photo_path }}" alt="{{ r.species_en }}">
+    {% if r.photo_path %}<img class="gimg" src="/guideimg/{{ r.photo_path }}" alt="{{ r.species_en }}"
+         title="クリックで拡大 / Click to enlarge" loading="lazy">
     {% else %}<div class="noimg">🌳<br><small>写真なし / no photo</small></div>{% endif %}
     <div class="gbody">
       <b>{{ r.species_ja }}</b><br><span class="ja2">{{ r.species_en }}</span>
@@ -19,15 +20,70 @@
   </div>
   {% endfor %}
 </div>
+
+<div id="lightbox" class="lb" hidden>
+  <button class="lb-close" id="lbClose" title="閉じる / Close" aria-label="Close">×</button>
+  <figure class="lb-fig" id="lbFig">
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
 <style>
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; }
   .gcard { background:#fff; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
   .gcard img { width:100%; height:120px; object-fit:cover; display:block; }
+  .gcard img.gimg { cursor:zoom-in; }
   .noimg { height:120px; display:flex; flex-direction:column; align-items:center; justify-content:center;
            background:#eef3ef; color:#7a8a7f; font-size:28px; }
   .noimg small { font-size:11px; }
   .gbody { padding:8px 10px; } .ja2 { color:#3a5a47; }
   .gbody .latin { font-style:italic; color:#666; font-size:12px; }
   .cap { font-size:12px; margin:4px 0 0; color:#444; }
+
+  .lb { position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,.85);
+        display:flex; align-items:center; justify-content:center; padding:20px; cursor:zoom-out; }
+  .lb[hidden] { display:none; }
+  .lb-fig { margin:0; max-width:min(900px,95vw); max-height:92vh; display:flex; flex-direction:column;
+            background:#fff; border-radius:12px; overflow:hidden; cursor:default; }
+  .lb-fig img { width:100%; max-height:72vh; object-fit:contain; background:#111; display:block; }
+  .lb-fig figcaption { padding:12px 16px; font-size:14px; color:#1e2a22; overflow:auto; }
+  .lb-fig figcaption b { font-size:16px; }
+  .lb-fig figcaption .latin { font-style:italic; color:#666; }
+  .lb-fig figcaption .cap { font-size:13px; margin:5px 0 0; color:#333; }
+  .lb-close { position:fixed; top:14px; right:18px; width:44px; height:44px; border:0; border-radius:50%;
+              background:#fff; color:#222; font-size:26px; line-height:1; cursor:pointer; }
 </style>
+
+<script>
+  (function () {
+    var lb = document.getElementById('lightbox'),
+        lbImg = document.getElementById('lbImg'),
+        lbCap = document.getElementById('lbCap'),
+        lbFig = document.getElementById('lbFig');
+
+    function open(img) {
+      var card = img.closest('.gcard'),
+          body = card ? card.querySelector('.gbody') : null;
+      lbImg.src = img.getAttribute('src');
+      lbImg.alt = img.alt || '';
+      lbCap.innerHTML = body ? body.innerHTML : '';
+      lb.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+    function close() {
+      lb.hidden = true;
+      lbImg.src = '';
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('img.gimg').forEach(function (img) {
+      img.addEventListener('click', function () { open(img); });
+    });
+    // click backdrop (but not the figure) closes; × closes; Esc closes
+    lb.addEventListener('click', function (e) { if (!lbFig.contains(e.target)) close(); });
+    document.getElementById('lbClose').addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !lb.hidden) close(); });
+  })();
+</script>
 {% endblock %}
