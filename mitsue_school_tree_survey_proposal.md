@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-02 -->
+<!-- Version: v1.3 | Last modified: 2026-07-02 -->
 <style>
   html { font-size: 10.5px !important; }
   body { line-height: 1.3 !important; }
@@ -64,7 +64,7 @@ botany knowledge is needed.
 | Integrated Studies (総合的な学習の時間) | A term-long inquiry into local community & environment |
 | Social / hometown studies | Knowing Mitsue's land, place names, sacred trees |
 | Maths | Real measurement, tallying, simple graphs of the data |
-| ICT (GIGA tablets) | Purposeful device use: GPS, camera, data entry |
+| ICT (GIGA Chromebooks + phones) | Purposeful device use: camera, GPS, data entry, maps |
 | Language | Bilingual labels; writing up findings |
 
 <div class="page-break"></div>
@@ -97,7 +97,11 @@ Either can start small — **one class, one afternoon, five trees.**
 ## 7. What the school provides
 
 - Teacher coordination and class time.
-- Tablets or phones (the school's GIGA devices are ideal).
+- **A few smartphones for the field** — the app needs real GPS + a data signal to pin and
+  save a tree on the mountain, which the GIGA Chromebooks lack (Wi-Fi-only, no GPS). Staff
+  or family phones are fine; only a handful are needed per outing.
+- **GIGA Chromebooks for the classroom** — ideal for reviewing and editing records, viewing
+  the map and preparing presentations on the school Wi-Fi.
 - Consent for outdoor activity and use of children's first names.
 
 ## 8. Safety & privacy
