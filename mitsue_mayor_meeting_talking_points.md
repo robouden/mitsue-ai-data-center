@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-06-24 -->
+<!-- Version: v1.3 | Last modified: 2026-06-30 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -7,8 +7,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-24</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-30</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -205,6 +205,28 @@ This is a strong, consultative note to strike — the project executes the villa
 > *("I understand that because the village received MoE support at the planning stage, it may now be eligible for the next step — the Regional Decarbonization Transition & RE Promotion Grant — which is paid to the village through public-private partnership and can subsidize two-thirds to three-quarters of solar/battery costs. We would be glad to serve as the operating partner for that.")*
 
 The mayor will appreciate that you have read the village's own document and that the funding can flow **through the village** rather than around it.
+
+---
+
+## The Local Supply Chain Already Exists (菅野 cluster)
+
+A quietly powerful point to land — at **vision level only**. The message: this project does **not import a new industry**; it **activates one the village already has**. The forest, the thinnings, the cooperative, and working sawmills are all already here, mostly in 菅野 within walking distance of each other. The project simply connects them into a value chain that currently leaks away.
+
+> "実は、この構想に必要な要素の多くは、すでに村の中、特に菅野に揃っております。森林組合、製材所、そして間伐材そのもの ―― これらを新たに外から持ち込むのではなく、すでにあるものを結び直し、村の中で価値が循環する形にしたいと考えております。"
+>
+> *("In fact, many of the elements this concept needs are already here in the village — especially in Sugano: the forestry cooperative, sawmills, and the thinnings themselves. Rather than importing something from outside, we want to reconnect what already exists so that value circulates within the village.")*
+
+**Why this resonates with a rural mayor:** it frames the project as **endogenous development** (内発的発展) — local people, local materials, local processing, local jobs — not an outside developer extracting value. It also signals that the **fuel and processing capacity are realistic**, because they are visibly present, without committing to any specific company.
+
+**Hold back (do NOT raise yet):** any named business, the idea of jointly setting up a fuel chipper, or specific supply deals. Those are downstream of the mayor connection and belong to a later, village-hall-led conversation. Here, keep it to "the pieces are already in the village."
+
+**Optional gentle listening question** (only if the forestry thread is flowing):
+
+> "村内の製材・木材加工については、現在どのような事業者さんがいらっしゃるのでしょうか? 勉強のために伺えればと存じます。"
+>
+> *("Regarding sawmilling and wood processing within the village — what operators are currently active? I would like to learn, for my own understanding.")*
+
+This lets **the mayor** name the local players, rather than you appearing to have already targeted anyone.
 
 ---
 
