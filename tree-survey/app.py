@@ -5,7 +5,7 @@ tree records from a tablet (auto GPS + photo). Admins manage users, edit the dat
 table, and curate a photo reference guide. Bilingual EN / 日本語.
 御杖村 母樹プロジェクト 野外調査アプリ
 """
-import os, io, re, json, time, hmac, hashlib, secrets, smtplib, threading, datetime as dt
+import os, io, re, json, time, hmac, hashlib, secrets, smtplib, sqlite3, threading, datetime as dt
 from pathlib import Path
 from email.message import EmailMessage
 
@@ -730,7 +730,8 @@ def export_parquet(request: Request, _: str = Depends(require_admin)):
 @app.get("/export.geojson")
 def export_geojson(request: Request, _: str = Depends(require_admin)):
     with _lock:
-        cur = con.execute("SELECT * FROM trees WHERE lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at")
+        cur = con.execute(f"SELECT *, {_LABEL_SQL} FROM trees "
+                          "WHERE lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at")
         cols = [c[0] for c in cur.description]
         rows = cur.fetchall()
     feats = []
@@ -745,10 +746,49 @@ def export_geojson(request: Request, _: str = Depends(require_admin)):
                         headers={"Content-Disposition": 'attachment; filename="mitsue_trees.geojson"'})
 
 
+# extra human-readable columns added to the mapping exports
+_LABEL_SQL = ("strftime(created_at, '%Y-%m-%d') AS date, "
+              "concat_ws(' — ', coalesce(nullif(species_ja,''), species_en), "
+              "strftime(created_at, '%Y-%m-%d'), surveyor) AS label")
+
+# QGIS default style embedded in the GeoPackage: on-hover Map Tip showing
+# tree name / date / uploader, plus the display (identify) name = label.
+_QGIS_MAPTIP_QML = (
+    "<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>\n"
+    "<qgis version=\"3.34.0\" styleCategories=\"MapTips|Symbology\">\n"
+    "  <previewExpression>\"label\"</previewExpression>\n"
+    "  <mapTip>&lt;b&gt;🌳 [% coalesce(\"species_ja\",'') %] [% coalesce(\"species_en\",'') %]&lt;/b&gt;"
+    "&lt;br/&gt;📅 [% \"date\" %]&lt;br/&gt;👤 [% \"surveyor\" %]"
+    "[% CASE WHEN \"mother_tree\" THEN '&lt;br/&gt;⭐ Mother tree / 母樹' ELSE '' END %]</mapTip>\n"
+    "</qgis>\n")
+
+
+def _embed_qgis_maptip(gpkg_path, layer):
+    con2 = sqlite3.connect(str(gpkg_path))
+    try:
+        con2.execute(
+            "CREATE TABLE IF NOT EXISTS layer_styles ("
+            "id INTEGER PRIMARY KEY AUTOINCREMENT, f_table_catalog TEXT, f_table_schema TEXT, "
+            "f_table_name TEXT, f_geometry_column TEXT, styleName TEXT, styleQML TEXT, "
+            "styleSLD TEXT, useAsDefault BOOLEAN, description TEXT, owner TEXT, ui TEXT, "
+            "update_time DATETIME DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')))")
+        con2.execute("DELETE FROM layer_styles WHERE f_table_name=?", [layer])
+        con2.execute(
+            "INSERT INTO layer_styles (f_table_catalog,f_table_schema,f_table_name,"
+            "f_geometry_column,styleName,styleQML,styleSLD,useAsDefault,description,owner,ui) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            ["", "", layer, "geom", layer, _QGIS_MAPTIP_QML, "", 1,
+             "Mitsue tree hover tooltip (name / date / uploader)", "", ""])
+        con2.commit()
+    finally:
+        con2.close()
+
+
 @app.get("/export.gpkg")
 def export_gpkg(request: Request, _: str = Depends(require_admin)):
     """GeoPackage (OGC .gpkg) — the native QGIS format: one file, typed fields,
-    EPSG:4326 point layer 'mitsue_trees'. Built via DuckDB's spatial extension."""
+    EPSG:4326 point layer 'mitsue_trees', with a hover Map Tip pre-configured
+    (tree name / date / uploader). Built via DuckDB's spatial extension."""
     out = DATA / "mitsue_trees.gpkg"  # filename → QGIS layer name
     with _lock:
         con.execute("INSTALL spatial"); con.execute("LOAD spatial")
@@ -757,10 +797,11 @@ def export_gpkg(request: Request, _: str = Depends(require_admin)):
         except FileNotFoundError:
             pass
         con.execute("CREATE OR REPLACE TEMP TABLE mitsue_trees AS "
-                    "SELECT *, ST_Point(lon, lat) AS geom FROM trees "
+                    f"SELECT *, {_LABEL_SQL}, ST_Point(lon, lat) AS geom FROM trees "
                     "WHERE lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at")
         con.execute(f"COPY mitsue_trees TO '{out}' "
                     "WITH (FORMAT GDAL, DRIVER 'GPKG', SRS 'EPSG:4326')")
+    _embed_qgis_maptip(out, "mitsue_trees")
     return FileResponse(out, filename="mitsue_trees.gpkg",
                         media_type="application/geopackage+sqlite3")
 
