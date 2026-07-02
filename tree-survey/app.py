@@ -745,6 +745,26 @@ def export_geojson(request: Request, _: str = Depends(require_admin)):
                         headers={"Content-Disposition": 'attachment; filename="mitsue_trees.geojson"'})
 
 
+@app.get("/export.gpkg")
+def export_gpkg(request: Request, _: str = Depends(require_admin)):
+    """GeoPackage (OGC .gpkg) — the native QGIS format: one file, typed fields,
+    EPSG:4326 point layer 'mitsue_trees'. Built via DuckDB's spatial extension."""
+    out = DATA / "mitsue_trees.gpkg"  # filename → QGIS layer name
+    with _lock:
+        con.execute("INSTALL spatial"); con.execute("LOAD spatial")
+        try:
+            out.unlink()
+        except FileNotFoundError:
+            pass
+        con.execute("CREATE OR REPLACE TEMP TABLE mitsue_trees AS "
+                    "SELECT *, ST_Point(lon, lat) AS geom FROM trees "
+                    "WHERE lat IS NOT NULL AND lon IS NOT NULL ORDER BY created_at")
+        con.execute(f"COPY mitsue_trees TO '{out}' "
+                    "WITH (FORMAT GDAL, DRIVER 'GPKG', SRS 'EPSG:4326')")
+    return FileResponse(out, filename="mitsue_trees.gpkg",
+                        media_type="application/geopackage+sqlite3")
+
+
 @app.get("/healthz")
 def healthz():
     return {"ok": True}
