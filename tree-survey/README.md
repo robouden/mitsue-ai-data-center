@@ -188,3 +188,16 @@ Back up `/opt/tree-survey/data/` regularly (DB + photos).
 
 > nginx instead of Apache? `proxy_pass http://127.0.0.1:8009;` plus
 > `client_max_body_size 25m;`, then `certbot --nginx -d trees.mitsue.it`.
+
+---
+
+## 7. License / ライセンス
+
+- **Code** — MIT (see [LICENSE](LICENSE)). Free to use, modify and redistribute.
+- **Survey data** — CC0 1.0 (public domain). Exports (CSV/GeoJSON/Parquet) are open data.
+  GPS of sacred/vulnerable trees may be coarsened before public release.
+- **Guide photos** — sourced from Wikimedia Commons via `fetch_guide_photos.py`; each keeps
+  its own license, credited in-app.
+
+Repos: [github.com/robouden/mitsue-ai-data-center](https://github.com/robouden/mitsue-ai-data-center)
+· [codeberg.org/YR-Design/mitsue-ai-data-center](https://codeberg.org/YR-Design/mitsue-ai-data-center) (`tree-survey/`).

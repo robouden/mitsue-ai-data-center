@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-02 -->
+<!-- Version: v1.2 | Last modified: 2026-07-02 -->
 <style>
   html { font-size: 10.5px !important; }
   body { line-height: 1.3 !important; }
@@ -88,6 +88,11 @@ Either can start small — **one class, one afternoon, five trees.**
 - An **introductory session** for teachers and a first guided walk.
 - A **map & simple report** of the class's trees each term.
 - Guidance on **safe, low-impact** fieldwork.
+- **Open source & open data** — the whole app is open source (MIT licence) and the
+  collected data is open data (CC0 / public domain) in open formats (CSV, GeoJSON,
+  Parquet). The school, the village or anyone else can freely inspect, reuse and
+  modify it. Repositories: github.com/robouden/mitsue-ai-data-center and
+  codeberg.org/YR-Design/mitsue-ai-data-center (folder `tree-survey/`).
 
 ## 7. What the school provides
 
@@ -101,7 +106,9 @@ Either can start small — **one class, one afternoon, five trees.**
   precautions per season.
 - Accounts use a **display name only** (e.g. first name or class). No home addresses are collected.
 - Tree GPS points can be **coarsened** for any sacred or vulnerable trees before public display.
-- All data stays in the **village project**; nothing is sold or shared commercially.
+- The tree data is released as **open data (CC0)** so anyone can reuse it; only
+  **non-personal** information (species, location, measurements) is published — no home
+  addresses, and accounts use a display name only.
 
 ## 9. Suggested next step
 
