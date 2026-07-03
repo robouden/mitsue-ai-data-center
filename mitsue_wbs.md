@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -163,16 +163,16 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
   <text x="460" y="173" text-anchor="middle" font-size="6.5" fill="#222" font-family="Segoe UI,sans-serif">Start early — NTT lead time 6–9 mo</text>
   <!-- 5.1 Building Reno (M19-M24): x=469 w=5*18.28=91.4 -->
   <rect x="469" y="184" width="91" height="13" rx="2" fill="#d94f4f"/>
-  <text x="515" y="194" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Building Reno  ¥25M</text>
+  <text x="515" y="194" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Building Reno  ¥38M</text>
   <!-- 5.6 Forestry (M19-M27): x=469 w=8*18.28=146.2 -->
   <rect x="469" y="205" width="146" height="13" rx="2" fill="#6aaa50"/>
-  <text x="542" y="215" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Forestry Ops  ¥18M</text>
+  <text x="542" y="215" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Forestry Ops  ¥25M</text>
   <!-- 5.2+5.3 Solar+Battery (M20-M26): x=487.3 w=6*18.28=109.7 -->
   <rect x="487" y="226" width="110" height="13" rx="2" fill="#d94f4f" fill-opacity="0.8"/>
-  <text x="542" y="236" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Solar+Battery  ¥27M</text>
+  <text x="542" y="236" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Solar+Battery  ¥34M</text>
   <!-- 5.4 EV Charging (M22-M27): x=524 w=5*18.28=91.4 -->
   <rect x="524" y="247" width="91" height="13" rx="2" fill="#d94f4f" fill-opacity="0.7"/>
-  <text x="570" y="257" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">EV Charging  ¥8M</text>
+  <text x="570" y="257" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">EV Charging  ¥15M</text>
   <!-- 5.5 Data Center (M23-M29): x=542.3 w=6*18.28=109.7 -->
   <rect x="542" y="268" width="110" height="13" rx="2" fill="#d94f4f" fill-opacity="0.6"/>
   <text x="597" y="278" text-anchor="middle" font-size="7" fill="white" font-family="Segoe UI,sans-serif">Data Center  ¥20M</text>
@@ -492,11 +492,13 @@ Converts feasibility into engineering reality. The permit applications submitted
 
 | Item | Detail |
 |------|--------|
-| Scope | Shortlist and pre-qualify vendors for: building renovation contractor, solar/battery supplier, data center hardware, EV charging equipment; obtain binding budget quotes for Phase 3 procurement |
+| Scope | Shortlist and pre-qualify vendors for: building renovation contractor, solar/battery supplier, data center hardware, EV charging equipment, and the biomass gasification-CHP unit; obtain binding budget quotes for Phase 3 procurement |
 | Owner | Director — Technology |
 | Budget | ¥1.5M |
 | Deliverables | Vendor shortlist per category; budget quotes received; Phase 3 procurement plan |
 | Acceptance | Phase 3 WBS 5.x budgets confirmed within ±15% of EVM baseline before Gate 3 |
+
+> **Biomass CHP — Japanese manufacturer only.** The gasification-CHP unit must be a domestic maker (shortlist: 中外炉工業 lead; 神鋼環境ソリューション / 静岡製機 / ネオナイト) — for domestic service/parts, simpler FIT + 交付金 paperwork, and the local supply-chain story. Imported units (FORTES/Spanner/Burkhardt) are benchmark-only. The full CHP fleet + fuel-prep are **Phase 4 scale** (out of this PMB) — see `mitsue_forest_workforce_energy_plan.md` and EVM §14.
 
 #### 4.10 Phase 2 Contingency — ¥1.75M
 
