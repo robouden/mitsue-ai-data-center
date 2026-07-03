@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -29,6 +29,8 @@
 本計画の対象期間は**2026年4月〜2028年9月（30か月間）**です。フェーズ4（運営・拡大期、31か月目以降）は資金調達方法が異なり（事業収益による）、フェーズ1の結果確認後に翌年計画するため、基準値には含みません。*フェーズ4を支える事業収益モデルおよび資本回収分析は `mitsue_revenue_model_jp.md` および実施計画の拡充されたフェーズ4セクションに記載しています。本PMBは意図的にフェーズ3（建設）終了時点で止めています。*
 
 **現行基準値のデータ日付**：2026年5月18日（第2か月末）
+
+> **スケジュール整合（2026-07-03）** 本PMBは当初の圧縮スケジュール（M1=2026年4月、30か月間・2028年9月まで）に紐づいています。現行の正式スケジュールである**稼働中のOpenProjectガントチャート**は大幅に後ろ倒しです：フェーズ0は2026年10月、フェーズ1は2027年5月、フェーズ2は2028年5月、フェーズ3は2029年11月まで（約44か月）。フェーズ0はガント基準では計画どおりです。以前の遅延感は、この圧縮基準値と比較したことに起因します。以下の月別PV曲線およびCPI/SPIは**ベースラインRev 1**のままで、ガントへの再タイミングは行っていません。PMBの再タイミングは明示的に**ベースラインRev 2**（M9／2026年12月予定）の作業であり、確定した交付金額もそこで反映します。それまでスケジュール差異は、このRev 1曲線ではなく稼働中のガントに照らして読んでください。
 
 ---
 

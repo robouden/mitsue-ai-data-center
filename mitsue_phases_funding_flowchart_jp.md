@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-07</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -14,6 +14,8 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # 三津江プロジェクト — フェーズ・資金調達フローチャート
+
+> **スケジュール注記（2026-07-03）：** フェーズの日付は、現行の正式スケジュールである稼働中のOpenProjectガントチャートを反映しています。当初の2026年4月起点の月次計画（P0 1〜3か月目 … P3 19〜30か月目）より遅れています。コスト基準の再同期はEVMベースラインRev 2（2026年12月予定）の作業です。
 
 
 
@@ -28,11 +30,11 @@
   'fontFamily':'Noto Sans JP, Yu Gothic, sans-serif'
 }}}%%
 flowchart LR
-    P0["フェーズ0<br/>基礎準備<br/>M 1–3"]
-    P1["フェーズ1<br/>基盤構築<br/>M 4–9"]
-    P2["フェーズ2<br/>パイロット設計<br/>M 10–18"]
-    P3["フェーズ3<br/>パイロット建設<br/>M 19–30"]
-    P4["フェーズ4<br/>運用・拡大<br/>M 31+"]
+    P0["フェーズ0<br/>基礎準備<br/>2026年4月〜10月"]
+    P1["フェーズ1<br/>基盤構築<br/>2026年10月〜2027年5月"]
+    P2["フェーズ2<br/>パイロット設計<br/>2027年5月〜2028年5月"]
+    P3["フェーズ3<br/>パイロット建設<br/>2028年5月〜2029年11月"]
+    P4["フェーズ4<br/>運用・拡大<br/>2029年11月以降"]
 
     G1{"ゲート1<br/>¥3–8M"}
     G2{"ゲート2<br/>¥30–50M"}

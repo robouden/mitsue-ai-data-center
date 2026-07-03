@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.13</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.14</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -25,19 +25,21 @@ The 25-year vision remains, but the first 3 years are the make-or-break period. 
 
 ## Phase Overview
 
-| Phase | Timeframe | Focus | Estimated Budget |
+| Phase | Timeframe (operative — live Gantt) | Focus | Estimated Budget |
 |-------|-----------|-------|------------------|
-| 0. Pre-Foundation | Months 1–3 | Local trust, founding team, basic structure | ¥0–500,000 (self-funded) |
-| 1. Foundation | Months 4–9 | NPO incorporation, feasibility studies | ¥3–8 million |
-| 2. Pilot Design | Months 10–18 | Detailed engineering, partnerships, permits | ¥15–30 million |
-| 3. Pilot Build | Months 19–30 | Construction of small first stage | ¥120–290 million |
-| 4. Operation & Scale | Months 31+ | Operations, monitoring, expansion | Variable |
+| 0. Pre-Foundation | Apr–Oct 2026 | Local trust, founding team, basic structure | ¥0–500,000 (self-funded) |
+| 1. Foundation | Oct 2026 – May 2027 | NPO incorporation, feasibility studies | ¥3–8 million |
+| 2. Pilot Design | May 2027 – May 2028 | Detailed engineering, partnerships, permits | ¥15–30 million |
+| 3. Pilot Build | May 2028 – Nov 2029 | Construction of small first stage | ¥120–290 million |
+| 4. Operation & Scale | Nov 2029+ | Operations, monitoring, expansion | Variable |
+
+> **Schedule status (updated 2026-07-03).** The calendar above reflects the **live OpenProject Gantt**, which is the operative schedule. It runs later than the original April-2026 month-relative plan (P0 = M1–3, P1 = M4–9, etc.) because Phase 0 trust-building and co-founder confirmation are taking longer than the compressed first draft assumed. The month-relative durations are retained in the section headings below for continuity. A formal re-baseline (EVM Baseline Rev 2, due Dec 2026) will fold this schedule into the cost baseline; until then the EVM PMB monthly curve remains Rev 1. **Phase 1 formally begins only after Gate 1 clears** (JP co-founder verbal commitment + ¥3–8M) — some Phase 1 legal/NGO prep is already running ahead of the gate as research only.
 
 These ranges are realistic for rural Japan but conservative — actual costs vary widely depending on biomass CHP and solar/EV equipment, battery storage (subject to feasibility study), fiber availability, and building condition.
 
 ---
 
-## Phase 0 — Pre-Foundation (Months 1–3)
+## Phase 0 — Pre-Foundation (Apr–Oct 2026 · orig. Months 1–3)
 
 **Goal:** Establish local trust and a small founding team before any public announcements or formal structures.
 
@@ -62,7 +64,7 @@ These ranges are realistic for rural Japan but conservative — actual costs var
 
 ---
 
-## Phase 1 — Foundation (Months 4–9)
+## Phase 1 — Foundation (Oct 2026 – May 2027 · orig. Months 4–9)
 
 **Goal:** Establish the legal entity and complete feasibility studies that will enable serious funding applications.
 
@@ -171,7 +173,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 
 ---
 
-## Phase 2 — Pilot Design (Months 10–18)
+## Phase 2 — Pilot Design (May 2027 – May 2028 · orig. Months 10–18)
 
 **Goal:** Convert feasibility studies into detailed engineering plans, secure pilot funding, and finalize partnerships.
 
@@ -188,7 +190,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 
 ---
 
-## Phase 3 — Pilot Build (Months 19–30)
+## Phase 3 — Pilot Build (May 2028 – Nov 2029 · orig. Months 19–30)
 
 **Goal:** Build a small but real version of the project — a functioning proof of concept.
 
@@ -209,7 +211,7 @@ PUE 1.2 is a realistic planning figure for the air-cooled repurposed-facility ar
 
 ---
 
-## Phase 4 — Operation & Scale (Months 31+)
+## Phase 4 — Operation & Scale (Nov 2029+ · orig. Months 31+)
 
 This is when the project transitions from "construction" to "ongoing institution." Detailed planning happens in Year 2 once Phase 1 results are in — the figures below are illustrative operating-model targets.
 

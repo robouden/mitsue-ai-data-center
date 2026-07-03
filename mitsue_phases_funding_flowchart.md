@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.5</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-07</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -29,6 +29,8 @@
 
 # Mitsue Project — Phases & Funding Flowchart
 
+> **Schedule note (2026-07-03):** Phase dates reflect the operative live OpenProject Gantt, which runs later than the original April-2026 month-relative plan (P0 M1–3 … P3 M19–30). Cost baseline re-sync is the EVM Baseline Rev 2 deliverable (due Dec 2026).
+
 
 
 ## Diagram 1 — Phase Spine with Funding Gates
@@ -42,11 +44,11 @@
   'fontFamily':'Segoe UI, Helvetica, sans-serif'
 }}}%%
 flowchart LR
-    P0["Phase 0<br/>Pre-Foundation<br/>M 1–3"]
-    P1["Phase 1<br/>Foundation<br/>M 4–9"]
-    P2["Phase 2<br/>Pilot Design<br/>M 10–18"]
-    P3["Phase 3<br/>Pilot Build<br/>M 19–30"]
-    P4["Phase 4<br/>Operate &amp; Scale<br/>M 31+"]
+    P0["Phase 0<br/>Pre-Foundation<br/>Apr–Oct 2026"]
+    P1["Phase 1<br/>Foundation<br/>Oct 26–May 27"]
+    P2["Phase 2<br/>Pilot Design<br/>May 27–May 28"]
+    P3["Phase 3<br/>Pilot Build<br/>May 28–Nov 29"]
+    P4["Phase 4<br/>Operate &amp; Scale<br/>Nov 2029+"]
 
     G1{"Gate 1<br/>¥3–8M"}
     G2{"Gate 2<br/>¥30–50M"}

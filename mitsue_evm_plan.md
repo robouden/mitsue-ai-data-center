@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-10</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.3</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -29,6 +29,8 @@ This EVM Plan establishes the **Performance Measurement Baseline (PMB)** for the
 The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (Operations & Scale, Month 31+) is not included in the baseline because it is funded differently (operating revenue) and planned in Year 2 once Phase 1 results are confirmed. *The operating revenue model and capital-payback analysis that fund Phase 4 are set out in `mitsue_revenue_model.md` and the Implementation Plan's expanded Phase 4 section — see those documents; this PMB deliberately stops at the end of Phase 3 (construction).*
 
 **Data Date for current baseline**: 2026-05-18 (end of Month 2)
+
+> **Schedule reconciliation (2026-07-03).** This PMB is anchored to the original compressed schedule (M1 = Apr 2026, 30 months to Sep 2028). The **live OpenProject Gantt** — now the operative schedule — runs materially later: Phase 0 to Oct 2026, Phase 1 to May 2027, Phase 2 to May 2028, Phase 3 to Nov 2029 (~44 months). Phase 0 is on-track against the Gantt; the earlier sense of slippage came from comparing to this compressed baseline. The monthly PV curve and CPI/SPI figures below remain **Baseline Rev 1** and have **not** been re-timed to the Gantt — re-timing the PMB is the explicit **Baseline Rev 2** deliverable (due M9 / Dec 2026), which will also fold in any confirmed 交付金 amount. Until then, read schedule variance against the live Gantt, not this Rev 1 curve.
 
 ---
 
