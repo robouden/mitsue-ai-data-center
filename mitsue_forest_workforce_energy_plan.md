@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-04 -->
+<!-- Version: v1.2 | Last modified: 2026-07-04 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -74,6 +74,26 @@ Build the plant as **2 × ~0.6 MWe units**, not one 1.2 MWe unit:
 Indicative capex at this scale ≈ ¥0.8 billion (¥700k/kWe installed).
 Electricity → grid or salt-battery thermal store; the recovered heat
 (~27,700 MWh-th/yr) also charges the store or supplies district heat.
+
+### Reference equipment — makers
+
+Small woody-gasification units mostly top out at ~200–500 kWe, so ~0.6 MWe is a
+**cluster of modules** either way. Prefer **domestic makers** where the size fits —
+faster service/parts, simpler FIT + 交付金 paperwork, and it reinforces the local
+supply-chain / endogenous-development story.
+
+| Maker | Origin | Tech / scale | Notes |
+|---|---|---|---|
+| **中外炉工業 (Chugai Ro)** | 🇯🇵 | rotary-kiln gasification cogen | Since 1997, NEDO-backed; tolerates rough fuel (branches/bark) |
+| **神鋼環境ソリューション (Shinko / Kobe Steel)** | 🇯🇵 | ~500 kWe-class up | Confirm gasification vs steam (their big plants are combustion) |
+| **静岡製機 (Shizuoka Seiki)** | 🇯🇵 | small ~200 kWe outdoor unit | METI-funded, aimed at agriculture/forestry — closest in spirit |
+| **ネオナイト (Neonite)** | 🇯🇵 | downdraft two-stage | Recovers charcoal + wood tar (biochar angle) |
+| **Spanner Re² (Spanner KK)** | 🇩🇪/JP | ~45–49 kWe modules, cascaded | Japan cascade installs incl. drying/sieving package |
+| **Burkhardt (agent: Sanyo Trading)** | 🇩🇪/JP | 50/165/180 kWe modules | Running install at Ueno Village, Gunma (上野村) |
+
+The **JWBA list** (`小規模木質バイオマス発電機器の一覧`) catalogues all of these with
+specs and is the single best reference. Vendor/site visits are being pursued —
+see `mitsue_biomass_visit_request_emails.md`.
 
 ## 6. Fuel handling & drying — equipment and cost
 
