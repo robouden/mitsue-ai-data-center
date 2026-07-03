@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-04 -->
+<!-- Version: v1.3 | Last modified: 2026-07-04 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -75,25 +75,28 @@ Indicative capex at this scale ≈ ¥0.8 billion (¥700k/kWe installed).
 Electricity → grid or salt-battery thermal store; the recovered heat
 (~27,700 MWh-th/yr) also charges the store or supplies district heat.
 
-### Reference equipment — makers
+### Reference equipment — makers (domestic only)
 
-Small woody-gasification units mostly top out at ~200–500 kWe, so ~0.6 MWe is a
-**cluster of modules** either way. Prefer **domestic makers** where the size fits —
-faster service/parts, simpler FIT + 交付金 paperwork, and it reinforces the local
-supply-chain / endogenous-development story.
+**Project requirement: the CHP unit must be a Japanese manufacturer** — for domestic
+service/parts, simpler FIT + 交付金 paperwork, and to reinforce the local supply-chain /
+endogenous-development story with the village and 御杖村森林組合. Small woody-gasification
+units mostly top out at ~200–500 kWe, so ~0.6 MWe is a **cluster of modules**.
 
-| Maker | Origin | Tech / scale | Notes |
+| Maker | Tech / scale | Fit | Notes |
 |---|---|---|---|
-| **中外炉工業 (Chugai Ro)** | 🇯🇵 | rotary-kiln gasification cogen | Since 1997, NEDO-backed; tolerates rough fuel (branches/bark) |
-| **神鋼環境ソリューション (Shinko / Kobe Steel)** | 🇯🇵 | ~500 kWe-class up | Confirm gasification vs steam (their big plants are combustion) |
-| **静岡製機 (Shizuoka Seiki)** | 🇯🇵 | small ~200 kWe outdoor unit | METI-funded, aimed at agriculture/forestry — closest in spirit |
-| **ネオナイト (Neonite)** | 🇯🇵 | downdraft two-stage | Recovers charcoal + wood tar (biochar angle) |
-| **Spanner Re² (Spanner KK)** | 🇩🇪/JP | ~45–49 kWe modules, cascaded | Japan cascade installs incl. drying/sieving package |
-| **Burkhardt (agent: Sanyo Trading)** | 🇩🇪/JP | 50/165/180 kWe modules | Running install at Ueno Village, Gunma (上野村) |
+| **中外炉工業 (Chugai Ro)** | rotary-kiln gasification cogen | ✅ **lead** | Since 1997, NEDO-backed; reaches our per-unit size; tolerates rough fuel (branches/bark) |
+| **神鋼環境ソリューション (Shinko / Kobe Steel grp)** | ~500 kWe-class up | backup | ⚠️ confirm **gasification** vs steam (big plants are combustion) |
+| **静岡製機 (Shizuoka Seiki)** | small ~200 kWe outdoor unit | cluster | METI-funded, aimed at agriculture/forestry — closest in spirit |
+| **ネオナイト (Neonite)** | downdraft two-stage | cluster | Recovers charcoal + wood tar (biochar angle) |
 
-The **JWBA list** (`小規模木質バイオマス発電機器の一覧`) catalogues all of these with
+The **JWBA list** (`小規模木質バイオマス発電機器の一覧`) catalogues all domestic units with
 specs and is the single best reference. Vendor/site visits are being pursued —
 see `mitsue_biomass_visit_request_emails.md`.
+
+> **Imported units are benchmark-only, not for procurement.** FORTES Energy (Latvia;
+> 0.14–1.2 MWe gasification CHP, new Tokyo entity), Spanner Re² and Burkhardt (Germany)
+> match the size well and are useful for spec comparison, but do not meet the
+> Japanese-manufacturer requirement.
 
 ## 6. Fuel handling & drying — equipment and cost
 

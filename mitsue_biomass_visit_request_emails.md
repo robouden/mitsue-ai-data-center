@@ -1,11 +1,14 @@
-<!-- Version: v1.1 | Last modified: 2026-07-04 -->
+<!-- Version: v1.2 | Last modified: 2026-07-04 -->
 
 # Biomass Plant Visit-Request Emails — Draft
 
 Targeted requests to find a running **~0.6 MWe-class woody-gasification CHP** we can
-visit. JP (primary, send this) + EN (Rob's reference) for each. §1–3 are the
-association + importers; **§4 is the reusable template for the domestic makers**
-(中外炉 / 神鋼環境ソリューション / 静岡製機 / ネオナイト).
+visit. JP (primary, send this) + EN (Rob's reference) for each.
+
+> **Procurement is Japanese-manufacturer only.** Send **§1 (JWBA)** and **§4 (domestic
+> makers — 中外炉 / 神鋼環境ソリューション / 静岡製機 / ネオナイト)** — these are the
+> priority. **§2 (Spanner) and §3 (Sanyo Trading / Burkhardt) are imported and
+> benchmark-only** — send only if you want a spec/site comparison, not for procurement.
 
 ---
 
