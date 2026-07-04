@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -45,7 +45,7 @@ These are not three separate ideas. Each one makes the others possible.
 | Cedar monoculture — ecologically depleted | Systematic conversion to native mixed forest |
 | Energy system needs reliable round-the-clock demand | Data center provides 24/7 baseload demand that justifies the biomass CHP and solar investment |
 | Rural grid dependency, no local power | Biomass CHP from sugi thinnings (electricity + heat) as the primary supply, complemented by solar, EV charging, and battery storage |
-| Shrinking population, no local jobs | Data center operations, forestry, maintenance roles |
+| Shrinking population, no local jobs | Roughly **doubling the village forestry cooperative (御杖村森林組合) crew** — with national relocation & training subsidies (緑の雇用, 地域おこし協力隊, 移住支援金) — plus data center, energy, and maintenance roles |
 | Blackouts threaten critical services | On-site biomass CHP generation provides 24/7 baseload power, keeping the Koryukan, data center, and key facilities running during outages |
 | Wildlife raiding crop areas | Restored native broadleaf forest provides natural food — acorns, nuts — keeping deer, wild boar, and bear in the forest |
 | No local EV charging for rural residents | Mitsue builds EV-ready charging infrastructure for residents and visitors; the local biomass-and-solar energy system powers it sustainably, independent of the national grid |
@@ -102,6 +102,8 @@ Most rural revitalisation projects in Japan either depend permanently on outside
 
 The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes the village's biomass CHP and solar generation economically viable — and the on-site biomass baseload power extends naturally to the whole community during blackouts. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them. Together they set a working example of how rural communities can integrate technological progress with ecological sustainability — not as opposites, but as a single coherent system.
 
+The engine that drives all three is people. The forest work is carried out by the village's own forestry cooperative (御杖村森林組合), whose crew the project sets out to roughly **double** over time — paid for by energy revenue, so a larger, better-equipped crew restores more forest and powers more of the village. It is a self-reinforcing local loop, and the reason the model can grow without depending permanently on outside subsidy.
+
 ---
 
 ## Current Status
@@ -115,10 +117,13 @@ The project is in **Phase 0** — community consultation, feasibility study, and
 There are several ways to support or participate at this early stage:
 
 - **Village residents & landowners** — Join the consultation process; your land, knowledge, and voice shape the design
+- **Foresters & new residents** — Paid, multi-skill roles as we double the forestry cooperative's crew, with relocation and training grants (緑の雇用, 地域おこし協力隊, 移住支援金)
 - **Forestry & energy professionals** — Feasibility input, technical review, and partnership on implementation
 - **Investors & philanthropists** — Phase 0 funding for feasibility studies, legal structure, and early outreach
 - **Researchers & academics** — Collaborate on open data, carbon measurement, and rural energy modelling
 - **Other rural communities** — Follow the project; everything built here will be documented and shared openly
+
+See all the ways to take part at **[mitsue.it/join](https://mitsue.it/join)**.
 
 ---
 
