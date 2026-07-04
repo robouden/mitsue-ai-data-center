@@ -14,8 +14,4 @@ I am beginning to build a team: an organisation of experts from around the world
 
 My hope for the village is that the billiard cues will be made from the same hinoki as the Sugano Organic desk, and that the billiard tables will be built by Niwa from wood taken from the nearby forest.
 
-I hope the new billiard venue will help educate the children — unlike the earlier events BlueRose held at its venues — and that it will be powered by local finance rather than by shady construction companies.
-
-
-
 I want the old wooden school be be used a what it was intended to serve the comunity. To educate the younger generation for their future. To give them the knowledge and the tools to flourish.

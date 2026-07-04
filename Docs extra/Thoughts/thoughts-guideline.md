@@ -22,14 +22,13 @@ grandchildren?*
    even though the outcome is not the one the elders first imagined.
 
 5. **Local hands, local wood, local finance.** Craft (desks, billiard cues, tables) is made from
-   nearby forest by local makers such as Niwa-san. Fund the work through local finance, not shady
-   outside construction money.
+   the nearby forest by local makers such as Niwa-san. Fund the work through local finance, not
+   shady outside construction money.
 
 6. **The "glue" is a real commercial structure.** Feeling and story are not enough — the vision
    only survives if there is a sound, resilient business and organisational structure underneath it.
 
-7. **Build for decades, not for an event.** Resilience over spectacle. Learn from what went wrong
-   with the earlier BlueRose venue events.
+7. **Build for decades, not for an event.** Resilience over spectacle.
 
 ---
 
@@ -50,10 +49,8 @@ grandchildren?*
 - [ ] Design an education programme that uses the data center as a living teaching tool.
 - [ ] Confirm power, cooling, and safety requirements for a school-adjacent facility.
 
-### D. Local craft & the billiard venue
-- [ ] Commission billiard cues and tables from local hinoki, made by Niwa-san / local makers.
-- [ ] Plan the billiard venue as an educational and community space (not a one-off event space).
-- [ ] Document lessons from the BlueRose events so past mistakes are not repeated.
+### D. Local craft
+- [ ] Commission local craft (desks, billiard cues, tables) from local hinoki, made by Niwa-san / local makers.
 
 ### E. The team & the "glue"
 - [ ] Continue assembling the expert organisation: technology, finance, and human resources.
