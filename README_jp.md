@@ -4,7 +4,7 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
-<!-- Version: v1.1 | Last modified: 2026-07-03 -->
+<!-- Version: v1.2 | Last modified: 2026-07-05 -->
 
 # 御杖プロジェクト — Mitsue Project
 
@@ -139,7 +139,7 @@ flowchart LR
 - 地元林業グループとの初回面談（2026年初頭）
 - 設立憲章と詳細実施計画の草案作成（2026年4月）
 - フェーズ・資金調達ゲートフローチャートの公開（2026年5月）
-- 顧問就任確認：Ray Ozzie（2026年5月5日確認）
+- 諮問委員会の発足 — Ray Ozzie（2026年5月5日確認）、堂目卓生、San Poisson、エヴィン・ズート、ヨシコ・ズート鈴木（2026年5月）
 - 村長面談トーキングポイントの作成（英語・日本語）（2026年5月）
 
 ### 進行中
@@ -166,7 +166,9 @@ flowchart LR
 - 追加創設メンバー — 未定（目標：合計3〜5名）
 
 ### 諮問委員会
-- **Ray Ozzie** — ソフトウェアの先駆者；元Microsoft最高ソフトウェアアーキテクト
+- **Ray Ozzie** — Blues エグゼクティブ・チェア
+- **堂目卓生** — 大阪大学教授・いのち会議 実行委員長
+- **San Poisson** — プロジェクトマネージャー
 - **エヴィン・ズート** — Transom 共同代表取締役
 - **ヨシコ・ズート鈴木** — Transom 共同代表取締役
 
@@ -264,4 +266,4 @@ flowchart LR
 
 ---
 
-*最終更新：2026年7月3日 · 管理者：Rob Oudendijk*
+*最終更新：2026年7月5日 · 管理者：Rob Oudendijk*

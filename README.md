@@ -4,7 +4,7 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
-<!-- Version: v1.1 | Last modified: 2026-07-03 -->
+<!-- Version: v1.2 | Last modified: 2026-07-05 -->
 
 # Mitsue Project — 御杖プロジェクト
 
@@ -138,7 +138,7 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 - Initial meeting with the local forestry group (early 2026)
 - Drafted founding charter and detailed implementation plan (April 2026)
 - Phase and funding-gate flowchart published (May 2026)
-- Advisory commitment confirmed: Ray Ozzie (confirmed May 5, 2026)
+- Advisory Board formed — Ray Ozzie (confirmed May 5, 2026), Takuo Dome, San Poisson, Evin Zoet, and Yoshiko Zoet-Suzuki (May 2026)
 - Work Breakdown Structure (WBS) and EVM baseline established — Baseline Rev 1 (May 2026)
 - Bilingual trifold brochures prepared in A3 and A4 formats, EN and JP (May 2026)
 - Two-page A4 project introduction prepared, EN and JP (May 2026)
@@ -174,7 +174,7 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 
 ### Advisory Board
 - **Ray Ozzie** — Executive Chair, Blues
-- **Takuo Dome** — Professor Emeritus, Osaka University · Director, Inochi Forum
+- **Takuo Dome** — Professor, Osaka University · Chair, Inochi Kaigi Forum (いのち会議)
 - **San Poisson** — Project Manager
 - **Evin Zoet** — Co-Representative Director, Transom
 - **Yoshiko Zoet-Suzuki** — Co-Representative Director, Transom
@@ -342,4 +342,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: July 3, 2026 · Maintained by Rob Oudendijk*
+*Last updated: July 5, 2026 · Maintained by Rob Oudendijk*
