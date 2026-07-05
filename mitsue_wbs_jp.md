@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -448,11 +448,13 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 
 | 項目 | 内容 |
 |------|------|
-| スコープ | 各カテゴリーのベンダー候補絞り込みと事前選定：建設施工業者、太陽光・蓄電池サプライヤー、データセンター機器、EV充電設備；フェーズ3調達向け確定見積取得 |
+| スコープ | 各カテゴリーのベンダー候補絞り込みと事前選定：建設施工業者、太陽光・蓄電池サプライヤー、データセンター機器、EV充電設備、バイオマスガス化CHP設備；フェーズ3調達向け確定見積取得 |
 | 担当者 | テクノロジー担当理事 |
 | 予算 | ¥1.5M |
 | 成果物 | カテゴリー別ベンダー候補リスト；確定見積取得；フェーズ3調達計画 |
 | 受入基準 | ゲート3前にフェーズ3 WBS 5.x予算をEVM基準値の±15%以内で確認 |
+
+> **バイオマスCHPは国産メーカーのみ。** ガス化CHP設備は国産メーカーとする（候補：中外炉工業 本命；神鋼環境ソリューション／静岡製機／ネオナイト）——国内での保守・部品供給、FIT＋交付金手続きの容易さ、地域サプライチェーンの物語のため。輸入機（FORTES／Spanner／Burkhardt）は参考のみ。CHP群＋燃料調製の全体は **フェーズ4規模**（本PMB対象外）——`mitsue_forest_workforce_energy_plan_jp.md` および EVM §14 参照。
 
 #### 4.10 フェーズ2予備費 — ¥1.75M
 

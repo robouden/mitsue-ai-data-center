@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -567,6 +567,32 @@ WBS 1.1a（30か月で¥5.0M、平均月約¥167k）は基準値内のランプ�
 第1層創設者資本はフェーズ0〜1の創設者手当の財源として確保されており、初期の活動期間が完全な無報酬に依存しないよう対処しています。
 
 日本人共同創設者の役割に報酬が伴う場合も、同様の段階化ロジックが適用されます。条件はフェーズ1開始前に創設者合意書に明記します。
+
+## 14. フェーズ4先行資本——バイオマス燃料調製とCHP（PMB対象外）
+
+本節は**参考情報であり、¥220MのPerformanceMeasurementBaselineの明確に外側**です。
+資金提供者が全体の道筋を把握できるようバイオマスエネルギー・ループの拡大資本を
+記載するもので、BACは変更しません。フェーズ4は事業収益＋補助金で賄い
+（`mitsue_revenue_model_jp.md` 参照）、PMBには含めません。
+
+規模はForest Twinの担い手倍増ベースライン（森林の約50%を管理、年間約13,000 dry-t燃料、
+2×0.6 MWe）に準拠。`mitsue_forest_workforce_energy_plan_jp.md` §5〜6参照。
+
+| バケット | 項目 | 先行資本（百万円） | 資金源 |
+|---|---|---|---|
+| F1 | バイオマスCHP本体（2×0.6 MWe ガス化発電） | 約800 | 収益＋FIT＋再エネ交付金 |
+| F2 | 燃料調製——乾燥機、チップ庫、選別、搬送、ヤード | 約75〜215（中央値 約120） | 収益＋補助金；既存牛峠工場で30〜70減 |
+| F3 | 蓄熱（溶融塩／充填層）＋アイランドモード蓄電池 | *検討中（FS）* | 国土強靱化／緊急防災債 |
+| | **フェーズ4先行資本の概算** | **約9〜10億円** | PMB対象外 |
+
+**PMBとの関係：** フェーズ3パイロットには既に小規模な林業ライン（WBS 5.6、¥25M、
+5〜10 ha伐採＋植林）が含まれます。**パイロット規模の乾燥ライン**はこのWBS内に正当に
+収まり、上記の完全な燃料調製チェーンとCHP群はフェーズ4です。フェーズ4を基準化する際
+（翌年、フェーズ1FSで施業可能面積とベンダー見積を確認後）、これらは独自のBACを持つ
+別個のフェーズ4 PMBとなります。
+
+> **F1〜F3を¥245Mの総予算に合算しないこと。** これらは後の、別途資金調達される
+> フェーズに属し、ここでは道筋の透明性のためにのみ示しています。
 
 ---
 

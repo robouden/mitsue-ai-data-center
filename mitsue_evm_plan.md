@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-03</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -621,6 +621,34 @@ WBS 1.1a (¥5.0M over 30 months, ~¥167k/month average) covers the ramp inside t
 Layer-1 founding capital is earmarked to cover the Phase 0–1 founder stipend so that early runway does not depend on entirely unpaid time.
 
 The same phasing logic extends to the JP co-founder if that role is compensated — terms to be agreed and documented in the Founder Agreement before Phase 1.
+
+---
+
+## 14. Phase 4 Forward Capital — Biomass Fuel-Prep & CHP (out of PMB)
+
+This section is **informational and explicitly outside the ¥220M Performance
+Measurement Baseline**. It captures the scale-up capital for the biomass energy loop
+so funders can see the full trajectory; it does **not** alter the BAC. Phase 4 is
+funded by operating revenue + grants (see `mitsue_revenue_model.md`), not the PMB.
+
+Sizing per the Forest Twin doubled-workforce baseline (~50% of forest under management,
+~13,000 dry-t/yr fuel, 2×0.6 MWe). See `mitsue_forest_workforce_energy_plan.md` §5–6.
+
+| Bucket | Item | Forward capital (¥M) | Funding |
+|---|---|---|---|
+| F1 | Biomass CHP gensets (2×0.6 MWe gasifier-genset) | ~800 | Revenue + FIT + 再エネ交付金 |
+| F2 | Fuel-prep — active dryer, chip store, screening, handling, yard | ~75–215 (mid ~120) | Revenue + grants; existing 牛峠工場 offsets ¥30–70 |
+| F3 | Thermal store (molten-salt / packed-bed) + island-mode battery | *TBD (feasibility)* | 国土強靱化 / 緊急防災債 |
+| | **Indicative Phase 4 forward capital** | **~¥0.9–1.0 B** | out-of-PMB |
+
+**Relationship to the PMB:** the Phase 3 pilot already carries a small forestry line
+(WBS 5.6, ¥25M, 5–10 ha harvest + replant). A **pilot-scale drying line** legitimately
+sits within that WBS; the full fuel-prep chain and the CHP fleet above are Phase 4.
+When Phase 4 is baselined (Year 2, after Phase 1 feasibility confirms accessible forest
+area and vendor quotes), these buckets become a separate Phase 4 PMB with its own BAC.
+
+> **Do not sum F1–F3 into the ¥245M total budget.** They belong to a later, separately
+> funded phase and are shown here only for trajectory transparency.
 
 ---
 
