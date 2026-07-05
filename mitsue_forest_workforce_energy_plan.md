@@ -1,4 +1,4 @@
-<!-- Version: v1.3 | Last modified: 2026-07-04 -->
+<!-- Version: v1.4 | Last modified: 2026-07-05 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -134,7 +134,56 @@ a 牛峠工場 inventory audit and a vendor quote once the unit size is fixed.
 > Phase 0–3 EVM Performance Measurement Baseline (BAC ¥220M). A small pilot-scale drying
 > line legitimately sits inside Phase 3 (WBS 5.6 forestry ops). See `mitsue_evm_plan.md` §14.
 
-## 7. Honest caveats
+## 7. Specialty broadleaf revenue — the Tenkawa model
+
+The 25-year plan converts sugi monoculture to native broadleaf (caveat §8.1). That
+replant does **not have to be a cost centre**: the neighbouring Yoshino village of
+**Tenkawa (天川村)**, ~70 km south, has turned the same conversion into a
+**second revenue stream** by replanting *marketable* broadleaf instead of generic forage
+species. This directly answers the "why replant when sugi doesn't pay" problem and is
+more palatable to conservation partners (e.g. more trees) than an energy-only harvest.
+
+**Tenkawa Forest Power Council (天川村フォレストパワー協議会)** — formed Dec 2016 by the
+**village + forest cooperative + chamber of commerce** (the same three-body structure as
+御杖村 + 御杖村森林組合). On clear-cut sugi land they replant high-value natives with
+existing markets:
+
+| Species | Product / market | To harvest |
+|---|---|---|
+| **キハダ Kihada** (Phellodendron amurense) | bark for *Daranisuke* 陀羅尼助, a 1,300-yr-old herbal medicine — currently imported into the prefecture | ~20 yr |
+| **ホオノキ Hoonoki** (Magnolia obovata) | 朴葉 leaves for sushi wrapping | — |
+| **クロモジ Kuromoji** (Lindera umbellata) | aroma / essential oil | — |
+| **ウルシ Urushi** | lacquer | — |
+| maple, mizunara oak, horse chestnut, katsura | timber / craft / biodiversity | — |
+
+**Why this is the same conversion pulse, monetised twice:** the sugi harvest funds the
+crew + CHP (§4); the *replant* — instead of pure forage — is chosen for a downstream product,
+so the 5–20 yr gap before the new forest matures throws off **byproducts and craft income**
+rather than only cost. Kihada bark localises a supply Tenkawa currently buys out-of-prefecture.
+
+**Enablers Tenkawa proves work here (same terrain, same deer pressure):**
+- **Funding:** 農林水産業みらい基金 (Mirai Fund) grant covers nursery, forest roads and
+  deer fencing — a template beyond the MoE 交付金 ladder.
+- **Deer mitigation:** 12 m reinforced-net patch enclosures (3 m triangles failed) — directly
+  reusable for Mitsue's replant.
+- **Nursery + tending labour:** run as corporate/eco-tour volunteer days (more trees ran
+  育林・育苗 days there May 2024 with corporate volunteers) — an income + engagement channel
+  that also feeds the school / eco-tourism programme.
+- **Value-add:** partner Pony no Sato Farm runs bark-stripping, natural-dyeing and woodworking
+  workshops and plans kihada-heartwood furniture — i.e. the products stay local.
+
+**Training route for Mitsue Kanko:** Tenkawa also runs the **天川村森林塾 (Tenkawa Forest
+School)** — an 8-day felling/chainsaw course that has trained **60+ people since 2017,
+explicitly "from inside AND outside the village."** It is the concrete peer-village channel
+for up-skilling the doubled Mitsue Kanko crew (§1). Contact: ten.forestpower@gmail.com /
+0747-63-0321.
+
+> **Action:** open a knowledge-exchange with the Tenkawa Forest Power Council and森林塾, and
+> select **1–2 marketable broadleaf species** (kihada is the obvious lead) to fold into the
+> replant spec so the conversion has a product, not just forage, behind it. The NGO still owns
+> final species choice for wildlife (see reforestation principle).
+
+## 8. Honest caveats
 
 1. **Sustainability depends on the regime.** One-way conversion (clearfell →
    broadleaf) is a finite fuel pulse; a **rotation / mixed** regime keeps the plant
@@ -162,3 +211,9 @@ a 牛峠工場 inventory audit and a vendor quote once the unit size is fixed.
 - Shimokawa Town, MAFF interview — https://www.maff.go.jp/j/shokusan/renewable/energy/interview/shimokawa.html
 - Nishiawakura Village 百年の森林構想 — https://www.vill.nishiawakura.okayama.jp/wp/百年の森林構想/
 - Maniwa biomass (Renewable Energy Institute, 2017) — https://www.renewable-ei.org/activities/column/20170620.html
+- Tenkawa Forest Power Council (キハダ specialty-broadleaf replant, Mirai Fund) —
+  https://www.miraikikin.org/activities/forestry/tenkawa.html
+- more trees 育林・育苗 in Tenkawa (May 2024, corporate volunteers, deer-net enclosures) —
+  https://www.more-trees.org/news/20240529/
+- 天川村森林塾 (Tenkawa Forest School; 60+ trainees since 2017, open to outsiders) —
+  https://tenforestpower.wixsite.com/tenkawajyuku
