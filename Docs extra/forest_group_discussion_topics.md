@@ -1,4 +1,4 @@
-<!-- Version: v1.4 | Last modified: 2026-06-24 -->
+<!-- Version: v1.6 | Last modified: 2026-07-06 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -46,19 +46,22 @@ This principle frames every other forestry decision below — state it early and
 
 ## Phase 1 — Foundation *(M4–M9, Jul–Dec 2026 · ¥1.5M forestry feasibility + reforestation planning)*
 
+### Idea for discussion — Tokuo Aomi's 10 kW living prototype
+Sugano Organic (Tokuo Aomi) is proposed as the project's **first living prototype**: a **10 kW** wood-gasifier CHP unit sized to her house + workshop (~10 kW electrical, ~23 kW winter heat need). Small and low-risk, it proves the forest → power concept at a manageable scale before the village commits to the main 2 × 0.6 MWe plant. Raise with mitsue-kanko as a near-term demonstration they could help fuel (wood cutting/processing) while the main plant's feasibility study runs in parallel. See `meeting_tokuo_aomi.md` and `Docs extra/CHP biomass/sugano_organic_biomass_proposal.md`.
+
 > ⚠️ **Budget note:** The ¥1.5M feasibility budget must cover reforestation planning and coordination costs in addition to chip production feasibility. Native species replanting (Miyawaki method) requires specialist input for site assessment, species selection, and deer-fencing design. This line item should be reviewed upward — recommend ¥2.0–2.5M.
 
 ### Supply Chain: Chip Production
 - Who does the thinning — mitsue-kanko, private contractors, or hybrid?
 - Equipment needed: feller, forwarder, chipper (own vs. rent vs. contract)
 - Chip sizing standard required by the CHP (P31S / P45, ~30–50 mm)
-- Annual volume target — how many ha/year to feed 50 kWel continuously (~40–50 kg/hr)?
-- Benchmark from Mishima Town study: 700–800 tonnes/year for ≤50 kW CHP; chip cost target ≤¥7,000/m³
+- Annual volume target — how many ha/year to feed the recommended **2 × ~0.6 MWe plant (~1.1–1.2 MWe total)**? See `mitsue_forest_workforce_energy_plan.md` §4–5 for the full workforce-to-plant-size model.
+- Benchmark from Mishima Town study: 700–800 tonnes/year for a ≤50 kWe CHP; chip cost target ≤¥7,000/m³. This is our model's **calibration anchor**, not the target plant size — the actual scale is set by how much of the village forest the doubled/tripled Mitsue Kanko crew can harvest.
 - Transport route from forest to processing/storage site
 
 ### Drying & Storage
 - Green chips arrive at ~40–50% moisture; CHP requires ≤15% — who/what dries them?
-- Drying method: passive (shed + airflow), active (waste heat from CHP loop), or kiln
+- Drying method: **active drying using recovered waste heat from the CHP loop** — self-supporting fuel cycle, no separate fuel/energy cost for drying
 - Storage volume: how many weeks of buffer needed?
 - Location: co-located with CHP plant or at a satellite forest site?
 - Fire safety / permitting requirements for chip storage shed
