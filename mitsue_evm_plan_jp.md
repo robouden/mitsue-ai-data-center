@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.4</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.5</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-06</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -543,6 +543,10 @@ PMBは以下の場合に正式に改訂可能：
 - **Rev.0**（v1.1、2026年4月）— 当初BAC ¥168M、計画見積に基づく
 - **Rev.1**（v2.0、2026年5月）— 本書。BAC ¥220M、日本国内の実勢価格（太陽光、EV充電器、学校耐震改修、林業）と照合の上で再評価。フェーズ1フィージビリティスタディに先行する予防的修正。
 - **Rev.2**（計画 M9、2026年12月）— フェーズ1完了後の改訂。フィージビリティスタディ結果とベンダー見積に基づく。**確定した地域脱炭素移行・再エネ推進交付金額も折り込む予定**（太陽光・蓄電池・EV・自営線設備費の補助率2/3〜3/4、村の官民連携経由）——¥28M〜¥53Mの資金ギャップを埋める最も具体的な道筋。出典：https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
+
+**追加FY2026補助金トラック（2026-07-06特定）** — いずれも「バイオマス発電＋データセンター」モデルに直結し、Rev.2で評価予定：
+  - **経産省 GX地域共創補助金（脱炭素電源地域貢献型投資促進事業）** — FY2026予算¥2,100億、*脱炭素電源＋DC／工場*の一体整備を支援。第1回 2026年7〜9月、第2回 秋〜冬、38地域が事前審査通過。バイオマス発電＋計算機の共設という本プロジェクトに最も合致。出典：https://sustainablejapan.jp/2026/05/30/meti-gx-local/126036
+  - **環境省 データセンターのゼロエミッション化・地域共生加速化事業** — DC関連再エネ・蓄電設備に最大¥10億/件。⚠️ FY2026申請期限 **2026-07-03（既に締切）** — FY2027サイクルを目標とする。出典：https://sustainablejapan.jp/2026/06/07/japan-datacenter-renewable-energy/126312
 
 ---
 

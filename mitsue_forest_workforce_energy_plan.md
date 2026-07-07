@@ -1,4 +1,4 @@
-<!-- Version: v1.4 | Last modified: 2026-07-05 -->
+<!-- Version: v1.5 | Last modified: 2026-07-06 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -197,6 +197,13 @@ for up-skilling the doubled Mitsue Kanko crew (§1). Contact: ten.forestpower@gm
 3. **The crew is the constraint, not the trees.** Every figure above scales with
    workforce and mechanisation — the project's central investment.
 
+**Funding pathways for the Phase-4 CHP fleet (beyond the MoE 再エネ交付金 ladder):**
+Two FY2026 national subsidies fit the biomass-power-plus-compute model directly —
+**経産省 GX地域共創補助金** (¥210B pool; funds *decarbonized power + DC/factory* as one
+project; Round 1 Jul–Sep 2026) and **環境省 データセンターのゼロエミッション化・地域共生加速化事業**
+(≤¥1B/project on DC-linked renewables + storage; FY2026 window closed 2026-07-03 — aim for
+FY2027). Both are logged for Baseline Rev 2 in the EVM plan §12.
+
 ---
 
 ## Sources / 出典
@@ -217,3 +224,7 @@ for up-skilling the doubled Mitsue Kanko crew (§1). Contact: ten.forestpower@gm
   https://www.more-trees.org/news/20240529/
 - 天川村森林塾 (Tenkawa Forest School; 60+ trainees since 2017, open to outsiders) —
   https://tenforestpower.wixsite.com/tenkawajyuku
+- 経産省 GX地域共創補助金 (脱炭素電源地域貢献型投資促進事業; ¥210B, DC+電源一体支援) —
+  https://sustainablejapan.jp/2026/05/30/meti-gx-local/126036
+- 環境省 データセンターのゼロエミッション化・地域共生加速化事業 (≤¥1B/件; 締切 2026-07-03) —
+  https://sustainablejapan.jp/2026/06/07/japan-datacenter-renewable-energy/126312

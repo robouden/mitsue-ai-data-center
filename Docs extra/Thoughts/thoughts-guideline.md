@@ -35,35 +35,42 @@ grandchildren?*
 ## Things To Be Done
 
 ### A. Anchor the story (foundation)
+
 - [ ] Adopt [thoughts-clean.md](thoughts-clean.md) as the canonical vision statement for the project.
 - [ ] Write a one-page bilingual (EN/JP) summary of the vision for partners and villagers.
 - [ ] Record the elders' stories and wisdom (audio/video) as the first "memory" the data center holds.
 
 ### B. The forest → power chain
+
 - [ ] Confirm the sustainable wood/thinnings supply from the nearby forest (link to the biomass plan).
 - [ ] Map how forest → energy → compute physically connects (site, boiler/CHP, data center location).
 - [ ] Define the reforestation commitment so the cycle continues for the next generation.
 
 ### C. The school / data center
+
 - [ ] Secure agreement to host the local AI data center at (or beside) the school.
 - [ ] Design an education programme that uses the data center as a living teaching tool.
 - [ ] Confirm power, cooling, and safety requirements for a school-adjacent facility.
 
 ### D. Local craft
-- [ ] Commission local craft (desks, billiard cues, tables) from local hinoki, made by Niwa-san / local makers.
+
+- [ ] Commission local craft  from local hinoki, made by Niwa-san / local makers.
 
 ### E. The team & the "glue"
+
 - [ ] Continue assembling the expert organisation: technology, finance, and human resources.
 - [ ] Bring in educational and economic advisers to design a decades-resilient structure.
 - [ ] Define the commercial/legal structure (who owns, who operates, how revenue returns locally).
 
 ### F. Finance
+
 - [ ] Prioritise local finance sources; avoid dependence on outside construction interests.
 - [ ] Tie the funding plan back to the project's EVM / budget baseline.
 
 ---
 
 ## How to use this document
+
 - Review it whenever a new decision, partner, or spend does not obviously fit.
 - Update the checklist as items are completed; keep the principles stable.
 - If a principle and a practical constraint truly conflict, name the conflict openly and decide

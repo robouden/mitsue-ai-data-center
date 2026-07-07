@@ -68,8 +68,6 @@ If it'd help, I can draft a short bilingual inquiry (to the cooperative, the vil
 
 ----------------------------------------------------------------------------------------------
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # 
 
 Mitsue Village Forest Cooperative is a small forestry cooperative serving Mitsue Village in Nara Prefecture, Japan. It appears to be run as a local member-based cooperative focused on forest management and timber operations, with a very small staff and a practical, field-oriented structure.
@@ -102,17 +100,9 @@ It is based at 1581 Sugano, Mitsue Village, Nara, and is also listed as a certif
 
 In short, this is a very small but active local forestry cooperative that combines forest management, timber work, equipment-related services, and community-linked forestry activity. Its scale is modest, but its role in managing village forests appears substantial.
 
+------------------------------------------------------------------------------------------------------------------------------
 
-
------------------------------------------------------------------------------------------------------------------------------------
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# yes, please do so
-
-Yes — here are the specific sources behind the main facts I mentioned.
-
-## Staff count
+Yes — here are the specific sources behind the main facts I mentioned.## Staff count
 
 The “2 field workers + 2 office staff” figure comes from the RINDO recruitment/company page for 御杖村森林組合, which lists **従業員数, 現場作業者：2名 事務職員：2名**.[^1]
 
@@ -163,13 +153,7 @@ If you want, I can next pull together a **clean fact sheet** with only verified 
 
 [^11]: https://www.jalan.net/kankou/spt_29386ga3550157067/
 
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # Both
 
@@ -186,7 +170,6 @@ Yes — here are **both**: a polished fact sheet and a bit of broader context wi
 - Staff: 2 field workers and 2 office staff.[^1]
 - Representative: Representative Director/Chairman Tanaka Toshihiro.[^2]
 - Legal timber certification: listed on Legal Timber Navi, certificate number 奈森合認10号.[^2]
-
 
 ## Operations
 
@@ -239,13 +222,7 @@ Would you like me to turn this into a **one-page English profile** or a **table 
 
 [^15]: https://eigyo-mfg.com/service/navi/company/EnHEdHo2uyg7
 
-
-
 ---------------------------------------------------------------------------------------------
-
-
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # 
 
@@ -253,12 +230,12 @@ Here are **both**: a side-by-side comparison with Murou Village Forest Cooperati
 
 ## Side-by-side
 
-| Item           | 御杖村森林組合                                               | 室生村森林組合                                               |
-| :------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Location       | Mitsue Village, Nara. [^1][^2]                               | Murou Ono 2439, Uda City, Nara. [^3][^4]                     |
-| Staff          | 2 field workers, 2 office staff. [^5]                        | 6 total employees. [^3][^6]                                  |
-| Capital        | 31,346,000 yen. [^5]                                         | 40,000,000 yen. [^6]                                         |
-| Operating area | Mitsue Village. [^5]                                         | Murou area / “Murou” operations. [^3]                        |
+| Item           | 御杖村森林組合                                                                                                         | 室生村森林組合                                                                                          |
+|:-------------- |:--------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------ |
+| Location       | Mitsue Village, Nara. [^1][^2]                                                                                  | Murou Ono 2439, Uda City, Nara. [^3][^4]                                                         |
+| Staff          | 2 field workers, 2 office staff. [^5]                                                                           | 6 total employees. [^3][^6]                                                                      |
+| Capital        | 31,346,000 yen. [^5]                                                                                            | 40,000,000 yen. [^6]                                                                             |
+| Operating area | Mitsue Village. [^5]                                                                                            | Murou area / “Murou” operations. [^3]                                                            |
 | Main work      | Thinning, afforestation, timber production, forest survey, road maintenance, machinery/material sales. [^5][^7] | Forest management, timber products, woodworking, sales, and building-material-related work. [^3] |
 
 ## What Mitsue does
@@ -309,4 +286,3 @@ If useful, I can next make this into a **clean English briefing document** or a 
 [^13]: https://www.asoview.com/spot/29386ga3550157067/
 
 [^14]: https://www.nikkei.com/compass/company/4VCBEnXWSkkVm83SjikenL
-

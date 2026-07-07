@@ -5,8 +5,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.4</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.5</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-06</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -597,6 +597,10 @@ Each baseline revision is documented with: old baseline, new baseline, reason, a
 - **Rev 0** (v1.1, Apr 2026) — Original BAC ¥168M, drafted from planning estimates
 - **Rev 1** (v2.0, May 2026) — Current document. BAC ¥220M, reality-checked against real-world Japan benchmarks (solar, EV chargers, school seismic retrofit, forestry). Reason: pre-emptive correction in advance of Phase 1 feasibility studies.
 - **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes. **Should also fold in any confirmed 地域脱炭素移行・再エネ推進交付金 amount** (2/3–3/4 subsidy on solar/battery/EV/private-wire capex, via village 官民連携) — the primary named path to closing the ¥28M–¥53M gap during Phases 2–3. Sources: https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
+
+**Two additional FY2026 subsidy tracks (identified 2026-07-06)** — both fund the biomass-power-plus-data-center model directly and should be evaluated at Rev 2:
+  - **経産省 GX地域共創補助金 (脱炭素電源地域貢献型投資促進事業)** — ¥210B FY2026 pool, integrated support for *decarbonized power + DC/factory* build-out; Round 1 Jul–Sep 2026, Round 2 autumn–winter 2026, 38 regions pre-screened. Strongest structural match (biomass power + compute co-located). Source: https://sustainablejapan.jp/2026/05/30/meti-gx-local/126036
+  - **環境省 データセンターのゼロエミッション化・地域共生加速化事業** — up to ¥1B/project on DC-linked renewable + battery equipment. ⚠️ FY2026 application deadline **2026-07-03 (passed)**; target the FY2027 cycle. Source: https://sustainablejapan.jp/2026/06/07/japan-datacenter-renewable-energy/126312
 
 ---
 
