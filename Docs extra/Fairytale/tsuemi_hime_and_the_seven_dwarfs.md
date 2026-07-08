@@ -1,3 +1,11 @@
+<style>
+  .mascot { float: right; width: 130px; margin: 0 0 6px 10px; }
+</style>
+
+<!-- Version: v1.0 | Last modified: 2026-07-09 -->
+
+<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Tsuemi-kun">
+
 # Tsuemi-hime and the Seven Forest Spirits
 ### *A Fairytale of Mitsue Valley*
 

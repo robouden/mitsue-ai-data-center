@@ -13,7 +13,12 @@
   blockquote { padding-left: 8px !important; color: #444; font-style: italic; border-left: 2px solid #cbd; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   .closing { text-align: center; font-style: italic; color: #555; margin-top: 6px !important; }
+  .mascot { float: right; width: 110px; margin: 0 0 6px 10px; }
 </style>
+
+<!-- Version: v1.0 | Last modified: 2026-07-09 -->
+
+<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Tsuemi-kun">
 
 # Tsuemi-hime and the Seven Forest Spirits
 ### 御杖の谷の昔話
