@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Work Breakdown Structure</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -15,7 +15,7 @@
 
 ---
 
-# Mitsue Project — Work Breakdown Structure
+# Mitsue-kun Project — Work Breakdown Structure
 ### Phases 0–3 · April 2026 – September 2028
 
 ---
@@ -37,7 +37,7 @@ The WBS decomposes the entire project scope into discrete, manageable elements. 
 ## 2. WBS Summary Tree
 
 ```
-0.0  MITSUE PROJECT (Phases 0–3)                          ¥220.0M
+0.0  MITSUE-KUN PROJECT (Phases 0–3)                          ¥220.0M
  │
  ├── 1.0  Project Management & Governance                  ¥15.0M
  │    ├── 1.1  Programme direction & reporting

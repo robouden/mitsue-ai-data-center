@@ -1,6 +1,6 @@
 <!-- Version: v1.0 | Last modified: 2026-06-23 -->
 
-## Mitsue Project — Presentation Script
+## Mitsue-kun Project — Presentation Script
 
 ---
 
@@ -14,9 +14,9 @@ Living in this village, I've seen firsthand the challenges facing rural Japan. A
 
 That gap gave me an idea.
 
-### The Mitsue Project
+### The Mitsue-kun Project
 
-The Mitsue Project turns that gap into an opportunity. It connects rural problems with modern energy needs — and solves both at the same time.
+The Mitsue-kun Project turns that gap into an opportunity. It connects rural problems with modern energy needs — and solves both at the same time.
 
 ### The Challenges We're Addressing
 

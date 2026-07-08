@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Stakeholders & Relations</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -27,7 +27,7 @@
 </style>
 
 
-# Mitsue Project — Stakeholders & Relations
+# Mitsue-kun Project — Stakeholders & Relations
 
 ## Entity List
 
@@ -36,7 +36,7 @@
 | --------------------------------- | ------------------------------------------------------------------- |
 | Rob Oudendijk                     | Founder & Project Lead (Dutch, resident Sugano since 2012)          |
 | Japanese Co-founder               | TBD — top priority hire; rural-credible, Japanese-speaking          |
-| Mitsue Project (御杖プロジェクト) | Primary project entity (一般社団法人 → NPO法人)                     |
+| Mitsue-kun Project (御杖くんプロジェクト) | Primary project entity (一般社団法人 → NPO法人)                     |
 | YR-Design                         | Rob's company; project affiliation                                  |
 | Safecast                          | Citizen science network; philosophical foundation & open-data model |
 
@@ -230,7 +230,7 @@ flowchart LR
     BENGOSHI -->|"legal contracts"| PROJ
 
     %% ==================== MAIN PROJECT - RIGHT CENTER ====================
-    PROJ["🏗️ **Mitsue Project**\n御杖プロジェクト"]
+    PROJ["🏗️ **Mitsue-kun Project**\n御杖くんプロジェクト"]
 
     classDef main fill:#bbbbbb, stroke:#202020, stroke-width:3px, rx:3, ry3
     class PROJ main

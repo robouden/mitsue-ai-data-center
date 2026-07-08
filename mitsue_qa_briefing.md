@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Briefing Q&A</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -27,8 +27,8 @@
 </style>
 
 
-# Key Questions on the Mitsue Project — Briefing Q&A
-## 御杖プロジェクトに関する主なご質問 ―― 簡易Q&A
+# Key Questions on the Mitsue-kun Project — Briefing Q&A
+## 御杖くんプロジェクトに関する主なご質問 ―― 簡易Q&A
 
 **Working draft, May 2026 · Project Lead: Rob Oudendijk**
 
@@ -244,4 +244,4 @@ See `mitsue_village_re_plan_alignment.md` for the full analysis. *Source: 御杖
 
 ---
 
-*Working draft / 作成中ドラフト · May 2026 / 2026年5月 · Rob Oudendijk · 御杖プロジェクト*
+*Working draft / 作成中ドラフト · May 2026 / 2026年5月 · Rob Oudendijk · 御杖くんプロジェクト*

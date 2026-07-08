@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Introduction Email — HIGHRESO Co., Ltd.</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -21,7 +21,7 @@
 
 ## How to approach HIGHRESO
 
-HIGHRESO is a close operating analogue to the Mitsue project in Japan: they run air-cooled data centers in repurposed buildings (空き施設活用) and publish a PUE target of under 1.1. They are a company at meaningful scale — Mitsue is small, rural, and earlier-stage — so the first contact should be **respectful, learning-oriented, and short**.
+HIGHRESO is a close operating analogue to the Mitsue-kun project in Japan: they run air-cooled data centers in repurposed buildings (空き施設活用) and publish a PUE target of under 1.1. They are a company at meaningful scale — Mitsue is small, rural, and earlier-stage — so the first contact should be **respectful, learning-oriented, and short**.
 
 **How we found you:** While researching repurposed-facility data centers in Japan, we identified HIGHRESO as the closest operating analogue to what Mitsue is attempting. This is a cold first-touch, so the email must earn attention by being concise, respectful, and clearly informed about HIGHRESO's specific work.
 
@@ -64,7 +64,7 @@ A formal partnership ask should only come after points 1–3 have established mu
 株式会社ハイレゾ
 ご担当者様
 
-このたびは、空き施設を活用したデータセンター運営に関する貴社のお取り組みを拝見し、御杖プロジェクトにとって意義ある参考事例であり、また将来的な協力先となり得る企業と考え、ご連絡を差し上げる次第です。
+このたびは、空き施設を活用したデータセンター運営に関する貴社のお取り組みを拝見し、御杖くんプロジェクトにとって意義ある参考事例であり、また将来的な協力先となり得る企業と考え、ご連絡を差し上げる次第です。
 
 オランダ出身で、現在奈良県御杖村において小規模AIデータセンターを核とした地域再生プロジェクトを準備しております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
@@ -85,7 +85,7 @@ A formal partnership ask should only come after points 1–3 have established mu
 ---
 
 Rob Oudendijk（ロブ・アウデンダイク）
-御杖プロジェクト 創設者
+御杖くんプロジェクト 創設者
 YR-Design 代表 ／ Safecast コア・コントリビューター
 Email: oudendijk.biz@gmail.com
 Project: https://mitsue.it
@@ -121,7 +121,7 @@ I am grateful for any consideration you can give to this request, and I fully un
 With sincere thanks,
 
 Rob Oudendijk
-Founder, Mitsue Project
+Founder, Mitsue-kun Project
 Founder, YR-Design · Core Contributor, Safecast
 Email: oudendijk.biz@gmail.com
 Project: https://mitsue.it

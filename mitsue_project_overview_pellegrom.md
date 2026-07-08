@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Mitsue Sustainable Energy & AI Data Center</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -50,7 +50,7 @@ The project is planned as a **25-year initiative**, designed to bridge the gap u
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OQQmAABRAsad4FCtY9ecwnkms4E2ELcGWmTmrKwAA/uLeqrU6vp4AAPDa/gDzUgM9+S8z3AAAAABJRU5ErkJggg==)  
 **Why Now — The EV Power Demand**  
 Within roughly **10 years, most cars in Japan will be electric vehicles**. This will require dramatically more  **localized electric power generation** — especially in the countryside, where grid extension is expensive and slow.  
-Rural Japan needs distributed, locally generated power. The Mitsue project fits exactly into this future: a small-scale model that can be replicated across other depopulated villages, providing both EV charging capacity and digital infrastructure.  
+Rural Japan needs distributed, locally generated power. The Mitsue-kun project fits exactly into this future: a small-scale model that can be replicated across other depopulated villages, providing both EV charging capacity and digital infrastructure.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSNhwgJe0PYTKpnRgQU2QtIq6DIze3UGAMBf3Gu1VcfXEwAAXrseaIEEMYtKmi4AAAAASUVORK5CYII=)  
 **Project Coordination — A Dedicated NGO**  
 A **non-profit organization (NGO)** will be established to coordinate the project. The NGO will be the neutral hub bringing together a wide range of stakeholders:  

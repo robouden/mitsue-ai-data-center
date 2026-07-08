@@ -2,7 +2,7 @@
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">法人設立書類 — 草案</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">御杖プロジェクト</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">御杖くんプロジェクト</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">設立時必要書類セット（議事録・就任承諾書・社員名簿・提出チェックリスト）</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:95mm;"></div>
@@ -21,7 +21,7 @@
 
 # 書類1 — 設立総会議事録
 
-**一般社団法人御杖プロジェクト　設立総会議事録**
+**一般社団法人御杖くんプロジェクト　設立総会議事録**
 
 1. **日時：** 令和【　】年【　】月【　】日　【　】時【　】分〜
 2. **場所：** 【開催場所】
@@ -45,7 +45,7 @@
 
 議長は以上をもって全ての議案の審議を終了した旨を述べ、閉会を宣言した。上記の決議を明確にするため、議長及び出席社員はこの議事録に記名押印する。
 
-令和【　】年【　】月【　】日　一般社団法人御杖プロジェクト　設立総会
+令和【　】年【　】月【　】日　一般社団法人御杖くんプロジェクト　設立総会
 議長（設立時社員）　【氏名】　㊞
 設立時社員　【氏名】　㊞
 
@@ -58,7 +58,7 @@
 
 **就任承諾書**
 
-私は、令和【　】年【　】月【　】日開催の一般社団法人御杖プロジェクト設立総会において、貴法人の設立時理事に選任されたので、その就任を承諾します。
+私は、令和【　】年【　】月【　】日開催の一般社団法人御杖くんプロジェクト設立総会において、貴法人の設立時理事に選任されたので、その就任を承諾します。
 
 令和【　】年【　】月【　】日
 
@@ -73,7 +73,7 @@
 
 # 書類3 — 設立時社員名簿
 
-**一般社団法人御杖プロジェクト　設立時社員名簿**
+**一般社団法人御杖くんプロジェクト　設立時社員名簿**
 
 | No. | 氏名 | 住所 | 備考 |
 |----|------|------|------|

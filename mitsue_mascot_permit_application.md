@@ -39,18 +39,12 @@
 
 ## 使用予定イラスト見本
 
-以下のキャラクターデザインを使用します。いずれも御杖村の「つえみちゃん」を原則に従い使用するものです。
+以下のキャラクターデザインを使用します。いずれも御杖村の「つえみくん」を原則に従い使用するものです。
 
 <div style="display:flex; gap:3em; align-items:flex-start; justify-content:center; margin:2em 0; flex-wrap:wrap;">
 <div style="text-align:center;">
-<img src="Docs extra/Mayor_vice_mayor_forest_team_gifts/Mitsue line Yubin styleChatGP 2 B and W small.png" style="height:110px;" alt="つえみちゃん（白黒版）"/>
-<p style="font-size:0.85em; margin-top:0.5em;">御杖村の「つえみちゃん」<br/>（広報用白黒バージョン）</p>
-</div>
-
-
-<div style="text-align:center;">
-<img src="/home/rob/Documents/Mitsue/Tsurumi/性別  Tsuemi-chan with solder iron.png" style="height:220px;" alt="つえみちゃん（はんだごて版）"/>
-<p style="font-size:0.85em; margin-top:0.5em;">御杖村の「つえみちゃん」<br/>（ワークショップ・体験活動広報用）</p>
+<img src="Docs extra/Mitsue pictures/Tsuemi-kun.png" style="height:220px;" alt="つえみくん（森林・ワークショップ版）"/>
+<p style="font-size:0.85em; margin-top:0.5em;">御杖村の「つえみくん」<br/>（広報用メインバージョン）</p>
 </div>
 ---
 

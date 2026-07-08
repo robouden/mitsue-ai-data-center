@@ -11,7 +11,7 @@
 
 <!-- Version: v1.0 | Last modified: 2026-06-23 -->
 
-# Mitsue Project — Presenter Notes
+# Mitsue-kun Project — Presenter Notes
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
 > 先人が植えた森が、今、村を支える力になる。

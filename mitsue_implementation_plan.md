@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Implementation Plan</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -455,7 +455,7 @@ Different audiences need different orderings of the same underlying story. The d
 
 This plan is intentionally conservative in pace and ambitious in vision. The biggest mistake similar projects make is moving too fast publicly before securing local social license, then collapsing under the weight of expectations they cannot meet.
 
-The Mitsue Project's strength is its 25-year horizon. There is no rush in year one — there is a long, careful build of trust, structure, and capability that will determine whether year 25 looks like success or failure.
+The Mitsue-kun Project's strength is its 25-year horizon. There is no rush in year one — there is a long, careful build of trust, structure, and capability that will determine whether year 25 looks like success or failure.
 
 **Slow is smooth. Smooth is fast.**
 

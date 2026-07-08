@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Founding Charter</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -27,8 +27,8 @@
 </style>
 
 
-# Mitsue Project — Founding Charter
-### 御杖プロジェクト設立憲章
+# Mitsue-kun Project — Founding Charter
+### 御杖くんプロジェクト設立憲章
 **Draft — April 2026 / 草案 ― 2026年4月**
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
@@ -39,7 +39,7 @@
 ## ENGLISH VERSION
 
 ### 1. Name
-The organization shall be known as the **Mitsue Project** (御杖プロジェクト), with formal incorporation as a 一般社団法人 (General Incorporated Association) planned within the first six months of operation.
+The organization shall be known as the **Mitsue-kun Project** (御杖くんプロジェクト), with formal incorporation as a 一般社団法人 (General Incorporated Association) planned within the first six months of operation.
 
 ### 2. Mission
 To demonstrate that rural Japanese communities can build their own sustainable future by integrating ecological restoration, locally generated clean energy, and modern digital infrastructure — and to share what is learned so that other communities may follow.
@@ -117,7 +117,7 @@ ________________________
 ## 日本語版
 
 ### 1. 名称
-本団体は **御杖プロジェクト** と称する。設立から6か月以内を目途に**一般社団法人**として正式に法人化する予定とする。
+本団体は **御杖くんプロジェクト** と称する。設立から6か月以内を目途に**一般社団法人**として正式に法人化する予定とする。
 
 ### 2. 使命
 日本の農村地域が、生態系の再生、地域で生み出されるクリーンエネルギー、そして現代的なデジタル基盤を統合することにより、自らの持続可能な未来を築き得ることを実証する。さらに、その学びを共有し、他の地域がこの道に続けるようにすることを目指す。

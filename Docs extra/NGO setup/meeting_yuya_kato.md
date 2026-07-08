@@ -22,7 +22,7 @@ Since your objective is **pro bono legal support**, I would avoid making that th
 
 Start with a broad question:
 
-"I've been working on the Mitsue Project, which combines forest restoration, renewable energy, AI infrastructure and regional revitalization. I'm curious—where would SIIF place a project like this within the impact investing landscape?"
+"I've been working on the Mitsue-kun Project, which combines forest restoration, renewable energy, AI infrastructure and regional revitalization. I'm curious—where would SIIF place a project like this within the impact investing landscape?"
 
 This invites him to classify your project rather than defend it.
 
@@ -98,7 +98,7 @@ Notice that you're not asking him to provide legal services. You're asking about
 
 If I could ask only one question, it would be:
 
-"Looking at the Mitsue Project, what would you strengthen first before presenting it to impact investors or philanthropic partners?"
+"Looking at the Mitsue-kun Project, what would you strengthen first before presenting it to impact investors or philanthropic partners?"
 
 That's an invitation for constructive advice, and it signals that you're interested in building a stronger project rather than simply seeking funding or legal assistance.
 

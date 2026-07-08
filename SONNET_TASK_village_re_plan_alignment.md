@@ -14,7 +14,7 @@
 3. `Docs extra/mitsue_files from Village hall/mitsue_village_re_plan_clean_translation_en.md` — clean EN translation of the plan's key pages, with citable figures.
 4. The original plan PDF: `Docs extra/mitsue_files from Village hall/20250130saienekeikakugaiyou_translated_eng-1.pdf`.
 
-**The one-sentence thesis to thread everywhere:** *The Mitsue Project is the implementation and operating vehicle ("官民連携 運営体制") for the renewable-energy plan the village has already written, funded, and committed to.*
+**The one-sentence thesis to thread everywhere:** *The Mitsue-kun Project is the implementation and operating vehicle ("官民連携 運営体制") for the renewable-energy plan the village has already written, funded, and committed to.*
 
 **The funding headline:** The plan was produced under MoE's planning-support grant (step 1, done). That makes the village eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — subsidy **2/3, or 3/4 for batteries/private-wire (蓄電池・自営線)** because Mitsue is 過疎 + low financial-capacity index. The grant is paid **to the village** via public-private partnership, so our solar/battery/EV/private-wire capex (Layer 2) can be largely subsidized **through** the village. This is a named path to close part of the existing **¥28M–¥53M** funding gap.
 
@@ -109,10 +109,10 @@ Files: `mitsue_brochure_trifold_a4.html`, `mitsue_brochure_trifold_a4_jp.html`, 
 
 ## 8. PRESENTATIONS — ⚠ needs special handling
 
-Files: `Mitsue Project Presentation.pptx` (EN), `Mitsue Project Presentation - 日本語.pptx` (JP), and `Mitsue Project Presentation.pdf` (export of EN).
+Files: `Mitsue-kun Project Presentation.pptx` (EN), `Mitsue-kun Project Presentation - 日本語.pptx` (JP), and `Mitsue-kun Project Presentation.pdf` (export of EN).
 
 **These are binary `.pptx` — not editable with text tools.** Options, in order of preference:
-1. **Preferred:** edit with `python-pptx` (`pip install python-pptx`). Add **one new slide** after the funding/rationale slide titled "Alignment with the Village RE Plan" containing: the one-sentence thesis, the mapping highlights (resilient site, EV priority, forest J-Credit mechanism), and the 交付金 2/3–3/4 funding point. Then re-export the EN deck to PDF (LibreOffice headless: `libreoffice --headless --convert-to pdf "Mitsue Project Presentation.pptx"`).
+1. **Preferred:** edit with `python-pptx` (`pip install python-pptx`). Add **one new slide** after the funding/rationale slide titled "Alignment with the Village RE Plan" containing: the one-sentence thesis, the mapping highlights (resilient site, EV priority, forest J-Credit mechanism), and the 交付金 2/3–3/4 funding point. Then re-export the EN deck to PDF (LibreOffice headless: `libreoffice --headless --convert-to pdf "Mitsue-kun Project Presentation.pptx"`).
 2. **If python-pptx edits are unreliable for this deck,** do NOT silently skip: produce a short markdown file `mitsue_presentation_re_plan_slide.md` with the exact slide content (EN + JP) ready for Rob to paste into PowerPoint, and flag it in your summary.
 - Either way, **flag the presentation step explicitly** in your final report so Rob knows whether it was applied programmatically or needs a manual paste.
 

@@ -93,7 +93,7 @@ The Japan Bear and Forest Association actively cuts down conifer plantations and
 | Thinning/restoration of plantations reduces conflict   | Takahata et al. 2017; JBFA |
 | Depopulation + unmanaged plantation = compounding risk | MDPI Laws 2025             |
 
-The literature is remarkably consistent: **sugi plantations are a food desert for bears**, and their spread has both displaced bear habitat and funneled bears toward human areas. This is a strong scientific foundation for the Mitsue Project's native forest restoration case — restoration isn't just ecological idealism, it's a measurable bear-conflict reduction strategy.
+The literature is remarkably consistent: **sugi plantations are a food desert for bears**, and their spread has both displaced bear habitat and funneled bears toward human areas. This is a strong scientific foundation for the Mitsue-kun Project's native forest restoration case — restoration isn't just ecological idealism, it's a measurable bear-conflict reduction strategy.
 
 | #    | Authors & Year                    | Title                                                        | Journal                          | Link                                                         |
 | ---- | --------------------------------- | ------------------------------------------------------------ | -------------------------------- | ------------------------------------------------------------ |

@@ -1,7 +1,7 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">The Mitsue Project</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">The Mitsue-kun Project</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
@@ -13,7 +13,7 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-# The Mitsue Project
+# The Mitsue-kun Project
 ### A Forest, a Community Center, and a Future Powered by Itself
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
@@ -33,7 +33,7 @@ We believe it can become something remarkable.
 
 ## A Simple Idea, Carefully Built
 
-The Mitsue Project is a 25-year initiative to transform the former Sugano Elementary School (Koryukan) or a disused village factory building — the former Sugano school is the leading candidate; final site confirmed in Phase 1 — into a living example of how rural Japan can power its own future.
+The Mitsue-kun Project is a 25-year initiative to transform the former Sugano Elementary School (Koryukan) or a disused village factory building — the former Sugano school is the leading candidate; final site confirmed in Phase 1 — into a living example of how rural Japan can power its own future.
 
 We will:
 
@@ -51,13 +51,13 @@ We are not building for the short term. The forests we plant will mature over de
 
 In the meantime, Japan's vehicle fleet is gradually shifting toward electrification. New plug-in vehicle sales are projected to reach 30–40% by the mid-2030s — but the total share of EVs on the road is expected to remain around 10–15% through 2036. Mitsue is not waiting for EV ownership to become widespread. By building EV-capable charging infrastructure today, the village positions itself as forward-looking and EV-ready: serving the EV owners already here, welcoming visitors, and prepared for the longer transition ahead.
 
-The Mitsue Project is designed for that future.
+The Mitsue-kun Project is designed for that future.
 
 ---
 
 ## Built on Citizen Science and Open Values
 
-The project grows out of more than two decades of work with **Safecast**, the global open citizen science network for environmental monitoring, founded after the 2011 Fukushima disaster. The same values that made Safecast possible — open data, community ownership, and patient long-term commitment — shape everything about the Mitsue Project.
+The project grows out of more than two decades of work with **Safecast**, the global open citizen science network for environmental monitoring, founded after the 2011 Fukushima disaster. The same values that made Safecast possible — open data, community ownership, and patient long-term commitment — shape everything about the Mitsue-kun Project.
 
 All environmental, energy, and forestry data from the project will be **published openly**. Any village, anywhere in the world, will be able to learn from what we do here.
 
@@ -83,7 +83,7 @@ A dedicated **non-profit organization** is being established to coordinate the p
 
 Mitsue is not the only village facing these challenges. Across Japan — and across rural communities worldwide — closed schools, aging forests, and shrinking populations are part of the same story.
 
-By documenting everything we do as an open, replicable playbook, we hope the Mitsue Project becomes a starting point rather than an endpoint. If it works here, it can work elsewhere.
+By documenting everything we do as an open, replicable playbook, we hope the Mitsue-kun Project becomes a starting point rather than an endpoint. If it works here, it can work elsewhere.
 
 ---
 
@@ -95,5 +95,5 @@ We invite anyone who shares this vision to walk with us.
 
 ---
 
-*The Mitsue Project*
+*The Mitsue-kun Project*
 *Mitsue Village, Nara Prefecture, Japan*

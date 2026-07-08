@@ -2,8 +2,8 @@
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT — WORKING DRAFT FOR LEGAL REVIEW</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Articles of Incorporation — Mitsue Project (non-profit type, no board of directors)</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Articles of Incorporation — Mitsue-kun Project (non-profit type, no board of directors)</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:90mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
@@ -26,13 +26,13 @@
 
 ---
 
-# Articles of Incorporation — Mitsue Project General Incorporated Association
+# Articles of Incorporation — Mitsue-kun Project General Incorporated Association
 
 ---
 
 ## Chapter 1 — General Provisions
 
-**Article 1 (Name)** The association is called 一般社団法人御杖プロジェクト, in English "Mitsue Project."
+**Article 1 (Name)** The association is called 一般社団法人御杖くんプロジェクト, in English "Mitsue-kun Project."
 
 **Article 2 (Principal office)** The principal office is at 【address — former Sugano Elementary School / Mitsue Taiken Koryukan, etc.】, Mitsue-mura, Uda-gun, Nara Prefecture. (If the former Sugano school is used, a written consent from the village is required; the Representative Director's address may be used for now.)
 
@@ -141,7 +141,7 @@
 
 ---
 
-The founding members prepare these Articles for the establishment of 一般社団法人御杖プロジェクト and affix their names and seals.
+The founding members prepare these Articles for the establishment of 一般社団法人御杖くんプロジェクト and affix their names and seals.
 
 **Date: 【　】**
 

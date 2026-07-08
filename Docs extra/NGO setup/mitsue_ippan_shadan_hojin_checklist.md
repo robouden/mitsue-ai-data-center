@@ -1,7 +1,7 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">一般社団法人 Setup — Mitsue Project</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">一般社団法人 Setup — Mitsue-kun Project</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
@@ -13,17 +13,17 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-# 一般社団法人 Setup — Mitsue Project
+# 一般社団法人 Setup — Mitsue-kun Project
 General Incorporated Association · No government approval needed
 
-> **Key advantages over NPO for Mitsue Project:** Only 2 founding members needed (not 10). No prefecture review period (months → weeks). No activity category restrictions. No annual reporting to prefecture. Can pursue **公益社団法人** status later for donation tax benefits. Total cost approx. **¥112,000–¥120,000** (notary ¥52,000 + registration ¥60,000 + misc).
+> **Key advantages over NPO for Mitsue-kun Project:** Only 2 founding members needed (not 10). No prefecture review period (months → weeks). No activity category restrictions. No annual reporting to prefecture. Can pursue **公益社団法人** status later for donation tax benefits. Total cost approx. **¥112,000–¥120,000** (notary ¥52,000 + registration ¥60,000 + misc).
 
 ---
 
 ## Phase 1 — Founding decisions (~1–2 weeks)
 
 - [ ] **Decide on association name (名称)**
-  Must include 一般社団法人 at the start of the official name — e.g. 一般社団法人御杖プロジェクト. Check for conflicts at the Legal Affairs Bureau online registry (登記情報提供サービス).
+  Must include 一般社団法人 at the start of the official name — e.g. 一般社団法人御杖くんプロジェクト. Check for conflicts at the Legal Affairs Bureau online registry (登記情報提供サービス).
 
 - [ ] **Recruit founding members (設立時社員)**
   Minimum 2 members (社員) only — you and Yuka qualify. 社員 = voting members who attend general assemblies. Can be increased later. *(2 members min)*

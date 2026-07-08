@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Event Pitch</p>
 <p style="font-style:italic; text-align:center; color:#3a7a5a; margin:4mm 0;">"The forest our ancestors planted — the power that sustains the village they built"<br><span style="font-size:0.9em;">先人が植えた森が、今、村を支える力になる。</span></p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
@@ -24,7 +24,7 @@
 
 ## English
 
-### Mitsue Project — 御杖プロジェクト
+### Mitsue-kun Project — 御杖くんプロジェクト
 *Nara Prefecture, Japan — 御杖村*
 
 **The opportunity**
@@ -61,7 +61,7 @@ The MoE Renewable Energy Promotion Grant (交付金 2/3–3/4 subsidy) opens a n
 
 ## 日本語
 
-### 御杖プロジェクト
+### 御杖くんプロジェクト
 *奈良県御杖村*
 
 **プロジェクトの機会**

@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Founder Agreement Template</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -28,7 +28,7 @@
 
 
 # Founder Agreement Template
-### Mitsue Project — Founding Members
+### Mitsue-kun Project — Founding Members
 **Draft for discussion — not a final legal document**
 
 ---
@@ -43,7 +43,7 @@ This is a **template for an early-stage, informal founder agreement** designed t
 
 ## Founder Agreement
 
-This Agreement is entered into between the founding members of the **Mitsue Project** ("the Project"), an initiative to establish an integrated sustainable energy, forest restoration, and digital infrastructure project in Mitsue Village, Nara Prefecture, Japan.
+This Agreement is entered into between the founding members of the **Mitsue-kun Project** ("the Project"), an initiative to establish an integrated sustainable energy, forest restoration, and digital infrastructure project in Mitsue Village, Nara Prefecture, Japan.
 
 **Founding Members:**
 
@@ -58,7 +58,7 @@ This Agreement is entered into between the founding members of the **Mitsue Proj
 
 ### Article 1 — Purpose and Mission
 
-The Founders share commitment to the mission of the Mitsue Project as set out in the Founding Charter dated ___________________________. Each Founder has read, understood, and supports this Charter.
+The Founders share commitment to the mission of the Mitsue-kun Project as set out in the Founding Charter dated ___________________________. Each Founder has read, understood, and supports this Charter.
 
 ### Article 2 — Roles and Responsibilities
 

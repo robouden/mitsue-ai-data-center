@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">実施計画</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -13,7 +13,7 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-**御杖プロジェクト ― 実施計画**  
+**御杖くんプロジェクト ― 実施計画**  
 **構想から実現へ**  
 
 
@@ -75,7 +75,7 @@
 - **NPO法人設立後5年以上経過後に申請可能**(または特例認定を1回のみ)  
 - **厳格な要件** ― 一定の寄附受入実績、財務透明性  
 - **長期目標** ― 実績を積んだ後に申請  
-**1B. 御杖プロジェクトの推奨経路**  
+**1B. 御杖くんプロジェクトの推奨経路**  
 **一般社団法人として開始**し、 **18〜24か月後にNPO法人へ移行**することを推奨いたします。  
 **1C. 設立要件(一般社団法人)**  
 - **設立社員2名以上**  
@@ -394,7 +394,7 @@ ROIを正しく評価するには、本プロジェクトが何を**代替**ま�
 
 **結びに**  
 本計画は、進度においては意図的に保守的に、ビジョンにおいては野心的に設計いたしました。同種プロジェクトが犯す最大の誤りは、地域の社会的承認を確保する前に公の場で先行しすぎ、応えきれない期待の重みに耐えかねて崩壊することにあります。  
-御杖プロジェクトの強みは、25年という長期視点にあります。1年目に急ぐ必要はありません。25年目が成功となるか失敗となるかを決定づける、信頼、体制、能力を、長く慎重に積み上げていく時間があるのです。  
+御杖くんプロジェクトの強みは、25年という長期視点にあります。1年目に急ぐ必要はありません。25年目が成功となるか失敗となるかを決定づける、信頼、体制、能力を、長く慎重に積み上げていく時間があるのです。  
 **ゆっくりが滑らかに。滑らかが速さに。**  
 
 *ロブ・アウデンダイク ― YR-Design / Safecast*  

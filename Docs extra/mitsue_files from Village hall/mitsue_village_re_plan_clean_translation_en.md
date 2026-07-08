@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Plan for the Maximum Introduction of Renewable Energy</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -19,7 +19,7 @@
 **Source document:** 御杖村再エネ導入最大化計画（概要版）, Mitsue Village (御杖村), Nara Prefecture · January 2025 (Reiwa 7)
 **Publisher:** Mitsue Village Policy Promotion Division (御杖村政策推進課)
 
-> **About this translation.** This is a clean, human-readable English rendering of the key pages of the village's official plan, prepared for the Mitsue Project's outreach and grant work. It corrects the garbled machine translation in `20250130saienekeikakugaiyou_translated_eng-1.pdf`, in which the village name was rendered inconsistently as "Mitsu / Otsuke / Gose / Mikawa / Gozumura" — all of these are **御杖村 (Mitsue-mura)**. Page numbers refer to the source PDF. This is a faithful summary translation of the substantive content, not a certified line-by-line translation.
+> **About this translation.** This is a clean, human-readable English rendering of the key pages of the village's official plan, prepared for the Mitsue-kun Project's outreach and grant work. It corrects the garbled machine translation in `20250130saienekeikakugaiyou_translated_eng-1.pdf`, in which the village name was rendered inconsistently as "Mitsu / Otsuke / Gose / Mikawa / Gozumura" — all of these are **御杖村 (Mitsue-mura)**. Page numbers refer to the source PDF. This is a faithful summary translation of the substantive content, not a certified line-by-line translation.
 
 ---
 
@@ -123,4 +123,4 @@ Achieving the targets requires all actors — **Village government, Businesses, 
 
 ---
 
-*Clean translation prepared by the Mitsue Project — June 7, 2026. For the project's own analysis of how this plan aligns with the project, see `mitsue_village_re_plan_alignment.md`.*
+*Clean translation prepared by the Mitsue-kun Project — June 7, 2026. For the project's own analysis of how this plan aligns with the project, see `mitsue_village_re_plan_alignment.md`.*

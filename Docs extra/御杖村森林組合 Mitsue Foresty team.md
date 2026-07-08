@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">oriented structure.</p>
 <img src="../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -64,7 +64,7 @@ This is the genuine blind spot, and it's structural rather than just me missing 
 
 Where the numbers actually live: every forestry cooperative files an annual 業務報告書 / 決算関係書類 (covering 出資金, 事業別取扱高, balance sheet, P&L by business segment) to the Nara prefectural government and the federation, and the aggregate appears anonymized in the national 森林組合一斉調査 statistics on e-Stat. To get Mitsue's specific出資金, member count, managed forest area, and segment revenues, the realistic routes are: a direct request to the cooperative, the village office (御杖村役場 産業建設課 or similar), or the 奈良県森林組合連合会. Given a 3–4 person operation in a village of roughly 1,500 people, you're almost certainly looking at annual business turnover in the low tens of millions of yen at most, but I won't put a fabricated figure on it.
 
-If it'd help, I can draft a short bilingual inquiry (to the cooperative, the village office, or the prefectural federation) requesting the 業務報告書 / 決算 and 組合員数・経営森林面積 — that would be the fastest way to close the financial and membership gaps, and it slots naturally into the Mitsue Project groundwork. Want me to put that together?
+If it'd help, I can draft a short bilingual inquiry (to the cooperative, the village office, or the prefectural federation) requesting the 業務報告書 / 決算 and 組合員数・経営森林面積 — that would be the fastest way to close the financial and membership gaps, and it slots naturally into the Mitsue-kun Project groundwork. Want me to put that together?
 
 ----------------------------------------------------------------------------------------------
 

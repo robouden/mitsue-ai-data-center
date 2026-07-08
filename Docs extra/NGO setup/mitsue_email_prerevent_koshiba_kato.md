@@ -8,7 +8,7 @@
 > 先人が植えた森が、今、村を支える力になる。
 
 **Recipients:** Yuko Koshiba (Philanthropy Advisors) · Yuya Kato (SIIF)
-**Purpose:** Introduce the Mitsue Project before the event so the in-person meeting has context and is productive.
+**Purpose:** Introduce the Mitsue-kun Project before the event so the in-person meeting has context and is productive.
 **Tone:** Personal, brief, no hard sell — request 10 minutes at the event.
 
 ---
@@ -16,7 +16,7 @@
 ## Email 1 — Yuko Koshiba, Co-CEO, Philanthropy Advisors
 
 **To:** [yuko.koshiba@philanthropy-advisors.jp — confirm address]
-**Subject:** Mitsue Project (御杖プロジェクト) — looking forward to meeting at the Morgan Lewis event
+**Subject:** Mitsue-kun Project (御杖くんプロジェクト) — looking forward to meeting at the Morgan Lewis event
 
 ---
 
@@ -24,7 +24,7 @@
 
 Dear Ms. Koshiba,
 
-My name is Rob Oudendijk. I am the founder of the Mitsue Project, a rural revitalization initiative in Nara Prefecture that combines sugi forest restoration, biomass CHP energy, EV charging infrastructure, and a carbon-neutral AI data center.
+My name is Rob Oudendijk. I am the founder of the Mitsue-kun Project, a rural revitalization initiative in Nara Prefecture that combines sugi forest restoration, biomass CHP energy, EV charging infrastructure, and a carbon-neutral AI data center.
 
 I noticed we are both attending the Morgan Lewis impact investing event in July and wanted to introduce myself beforehand.
 
@@ -37,7 +37,7 @@ I have attached a short bilingual overview of the project.
 With warm regards,
 
 Rob Oudendijk
-Founder, Mitsue Project / YR-Design · Core Contributor, Safecast
+Founder, Mitsue-kun Project / YR-Design · Core Contributor, Safecast
 oudendijk.biz@gmail.com · 080-2260-5966
 https://mitsue.it
 
@@ -47,7 +47,7 @@ https://mitsue.it
 
 小林様
 
-はじめてご連絡申し上げます。奈良県御杖村で、スギ林再生・バイオマスCHP・EV充電インフラ・カーボンニュートラルなAIデータセンターを組み合わせた農村再生プロジェクト「御杖プロジェクト」を立ち上げております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
+はじめてご連絡申し上げます。奈良県御杖村で、スギ林再生・バイオマスCHP・EV充電インフラ・カーボンニュートラルなAIデータセンターを組み合わせた農村再生プロジェクト「御杖くんプロジェクト」を立ち上げております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
 7月のモルガン・ルイス主催インパクト投資イベントで小林様もご登壇されると拝見し、事前にご挨拶させていただきたくご連絡いたしました。
 
@@ -60,7 +60,7 @@ https://mitsue.it
 何卒よろしくお願い申し上げます。
 
 Rob Oudendijk（ロブ・アウデンダイク）
-御杖プロジェクト 創設者 / YR-Design · Safecast コア・コントリビューター
+御杖くんプロジェクト 創設者 / YR-Design · Safecast コア・コントリビューター
 oudendijk.biz@gmail.com · 080-2260-5966
 https://mitsue.it
 
@@ -69,7 +69,7 @@ https://mitsue.it
 ## Email 2 — Yuya Kato, Impact Officer, SIIF
 
 **To:** [kato@siif.or.jp — confirm address]
-**Subject:** Mitsue Project (御杖プロジェクト) — looking forward to meeting at the Morgan Lewis event
+**Subject:** Mitsue-kun Project (御杖くんプロジェクト) — looking forward to meeting at the Morgan Lewis event
 
 ---
 
@@ -77,7 +77,7 @@ https://mitsue.it
 
 Dear Mr. Kato,
 
-My name is Rob Oudendijk. I am the founder of the Mitsue Project — a project in Nara Prefecture that turns abandoned sugi (cedar) plantations into a circular energy and community system: thinnings feed a biomass CHP unit that powers a village microgrid, EV charging stations, and a carbon-neutral AI data center, while accelerating native forest restoration.
+My name is Rob Oudendijk. I am the founder of the Mitsue-kun Project — a project in Nara Prefecture that turns abandoned sugi (cedar) plantations into a circular energy and community system: thinnings feed a biomass CHP unit that powers a village microgrid, EV charging stations, and a carbon-neutral AI data center, while accelerating native forest restoration.
 
 I noticed we are both attending the Morgan Lewis impact investing event in July and wanted to reach out in advance.
 
@@ -93,7 +93,7 @@ I would welcome **10 minutes at the event** to introduce the project properly. I
 With warm regards,
 
 Rob Oudendijk
-Founder, Mitsue Project / YR-Design · Core Contributor, Safecast
+Founder, Mitsue-kun Project / YR-Design · Core Contributor, Safecast
 oudendijk.biz@gmail.com · 080-2260-5966
 https://mitsue.it
 
@@ -103,13 +103,13 @@ https://mitsue.it
 
 加藤様
 
-はじめてご連絡申し上げます。奈良県御杖村で「御杖プロジェクト」を立ち上げております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
+はじめてご連絡申し上げます。奈良県御杖村で「御杖くんプロジェクト」を立ち上げております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
 本プロジェクトは、放置されたスギ人工林をバイオマスCHPの燃料として活用し、村のマイクログリッド・EV充電ステーション・カーボンニュートラルなAIデータセンターに電力を供給しながら、在来樹林の再生を加速させる循環型システムです。
 
 7月のモルガン・ルイス主催イベントで加藤様もご登壇されると拝見し、事前にご挨拶させていただきたくご連絡いたしました。
 
-SIIFの**システム・チェンジ投資**の考え方を拝読し、御杖プロジェクトは貴財団のフレームワークと深く重なると感じております。本プロジェクトが取り組むのは、国内林業の市場失敗・過疎化・電力系統への依存という**構造的な根本原因**であり、システムの各要素が互いを強化し合う設計になっています。
+SIIFの**システム・チェンジ投資**の考え方を拝読し、御杖くんプロジェクトは貴財団のフレームワークと深く重なると感じております。本プロジェクトが取り組むのは、国内林業の市場失敗・過疎化・電力系統への依存という**構造的な根本原因**であり、システムの各要素が互いを強化し合う設計になっています。
 
 現在はPhase 0（事業可能性調査・法人設立準備）の段階です。特に以下の2点についてご意見をいただけますと大変助かります。
 
@@ -121,7 +121,7 @@ SIIFの**システム・チェンジ投資**の考え方を拝読し、御杖プ
 何卒よろしくお願い申し上げます。
 
 Rob Oudendijk（ロブ・アウデンダイク）
-御杖プロジェクト 創設者 / YR-Design · Safecast コア・コントリビューター
+御杖くんプロジェクト 創設者 / YR-Design · Safecast コア・コントリビューター
 oudendijk.biz@gmail.com · 080-2260-5966
 https://mitsue.it
 

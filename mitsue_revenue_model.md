@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Revenue & Payback Summary</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -15,7 +15,7 @@
 
 ---
 
-# Mitsue Project — Revenue & Payback Summary
+# Mitsue-kun Project — Revenue & Payback Summary
 ### One-Page Funder-Facing Overview
 
 *All figures are illustrative early-stage estimates. Phase 1 feasibility studies (due M9, Dec 2026) will replace these with vetted figures anchored to real survey data.*

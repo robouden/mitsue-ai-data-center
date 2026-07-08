@@ -1,7 +1,7 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖プロジェクト — 作業分解構造（WBS）</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖くんプロジェクト — 作業分解構造（WBS）</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
@@ -37,7 +37,7 @@ WBSはプロジェクト全体のスコープを、管理可能な個別要素�
 ## 2. WBS サマリーツリー
 
 ```
-0.0  御杖プロジェクト（フェーズ0〜3）                      ¥220.0M
+0.0  御杖くんプロジェクト（フェーズ0〜3）                      ¥220.0M
  │
  ├── 1.0  プロジェクト管理・ガバナンス                      ¥15.0M
  │    ├── 1.1  事業推進・報告

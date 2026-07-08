@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Paper Summary & Project Application</p>
 <img src="../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
@@ -76,7 +76,7 @@ The project aligns with Japan's **Regional Circular and Ecological Spheres (CES)
 
 ---
 
-## 2. What Is Important for the Mitsue Project
+## 2. What Is Important for the Mitsue-kun Project
 
 Mitsue Village and Mishima Town are **strikingly parallel** in their conditions:
 
@@ -90,7 +90,7 @@ Mitsue Village and Mishima Town are **strikingly parallel** in their conditions:
 | Location | Rural mountain, Fukushima | Rural mountain, Nara |
 | Ownership clarity | Fragmented, unclear | Fragmented, unclear |
 
-This makes the Mishima study one of the **most directly applicable precedents** available for the Mitsue project.
+This makes the Mishima study one of the **most directly applicable precedents** available for the Mitsue-kun project.
 
 ### 2A. Critical Data Points for Mitsue's Feasibility Studies
 
@@ -123,7 +123,7 @@ Mitsue almost certainly shares these exact barriers. The **drone + LiDAR forest 
 
 ### 2C. Governance Model — Proven Structure
 
-The Mishima council structure (supply working group + consumption working group under a coordination council) is a **tested model** for the Mitsue project's stakeholder organization. It:
+The Mishima council structure (supply working group + consumption working group under a coordination council) is a **tested model** for the Mitsue-kun project's stakeholder organization. It:
 - Prevents confusion between forestry/supply decisions and energy/demand decisions
 - Includes both local and external stakeholders
 - Was established with Ministry of Environment subsidy — a funding route Mitsue can pursue
