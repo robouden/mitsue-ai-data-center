@@ -1,8 +1,8 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 # 榧の種 · A seed of kaya
 
-_Rob Oudendijk · 御杖くんプロジェクト · Mitsue-kun Project · 2026_
+_Rob Oudendijk · バイオマスエネルギーとAI · BIOMASS ENERGY & AI project · 2026_
 
 ---
 

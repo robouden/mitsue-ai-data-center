@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Letter Template — Request for Name Support</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-14</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -63,13 +64,13 @@ Consulaat-Generaal Osaka
 Kitahama 1-Chome Heiwa Building 8B
 1-1-14 Kitahama, Chuo-ku, Osaka
 
-Betreft: Verzoek om naamsteun voor het Mitsue-kun Project
+Betreft: Verzoek om naamsteun voor het BIOMASS ENERGY & AI project
 
 Geachte mevrouw Pellegrom, beste Sandra,
 
-Onder verwijzing naar ons gesprek tijdens Koningsdag op 24 april en onze daaropvolgende correspondentie, schrijf ik je hierbij een formeel verzoek om te overwegen of je je naam aan het Mitsue-kun Project zou willen verbinden als blijk van steun.
+Onder verwijzing naar ons gesprek tijdens Koningsdag op 24 april en onze daaropvolgende correspondentie, schrijf ik je hierbij een formeel verzoek om te overwegen of je je naam aan het BIOMASS ENERGY & AI project zou willen verbinden als blijk van steun.
 
-Het Mitsue-kun Project is een initiatief van 25 jaar dat tot doel heeft een gesloten dorpsschool in Mitsue, prefectuur Nara, te transformeren tot een geïntegreerd centrum voor duurzame ontwikkeling, waarin natuurherstel, lokale schone energieopwekking en kleinschalige digitale infrastructuur samenkomen. Het project werkt nauw samen met het lokale gemeentebestuur, particuliere boseigenaren en de gemeenschap van Mitsue, en wordt geadviseerd door onder meer Ray Ozzie (Executive Chair, Blues).
+Het BIOMASS ENERGY & AI project is een initiatief van 25 jaar dat tot doel heeft een gesloten dorpsschool in Mitsue, prefectuur Nara, te transformeren tot een geïntegreerd centrum voor duurzame ontwikkeling, waarin natuurherstel, lokale schone energieopwekking en kleinschalige digitale infrastructuur samenkomen. Het project werkt nauw samen met het lokale gemeentebestuur, particuliere boseigenaren en de gemeenschap van Mitsue, en wordt geadviseerd door onder meer Ray Ozzie (Executive Chair, Blues).
 
 Het project sluit nauw aan bij de doelen van duurzame ontwikkeling waarvoor jij je in je carrière hebt ingezet — in het bijzonder SDG 17, partnerschappen voor de doelen — en biedt een concreet voorbeeld van hoe Nederlandse expertise op het gebied van duurzaamheid en circulariteit kan bijdragen aan plattelandsrevitalisering in Japan. Het initiatief is bovendien verankerd in officieel Japans beleid: het project fungeert als uitvoerend vehikel voor het door het Japanse Ministerie van Milieu gefinancierde duurzame-energieplan van de gemeente Mitsue (2025), wat het op een erkende nationale subsidieladder plaatst.
 
@@ -95,7 +96,7 @@ Sugano, Mitsue, Nara
 [E-mail]
 [Telefoon]
 
-Bijlage: Mitsue-kun Project — Projectoverzicht
+Bijlage: BIOMASS ENERGY & AI project — Projectoverzicht
 
 ---
 
@@ -112,13 +113,13 @@ Consulate-General of the Netherlands in Osaka
 Kitahama 1-Chome Heiwa Building 8B
 1-1-14 Kitahama, Chuo-ku, Osaka
 
-Subject: Request for name support for the Mitsue-kun Project
+Subject: Request for name support for the BIOMASS ENERGY & AI project
 
 Dear Ms. Pellegrom, dear Sandra,
 
-With reference to our conversation during King's Day on April 24th and our subsequent correspondence, I am writing to formally ask whether you would consider lending your name to the Mitsue-kun Project as a gesture of support.
+With reference to our conversation during King's Day on April 24th and our subsequent correspondence, I am writing to formally ask whether you would consider lending your name to the BIOMASS ENERGY & AI project as a gesture of support.
 
-The Mitsue-kun Project is a 25-year initiative to transform a closed village school in Mitsue, Nara Prefecture, into an integrated center for sustainable development, combining native forest restoration, locally generated clean energy, and small-scale digital infrastructure. The project works in close partnership with the local village government, private forest landowners, and the Mitsue community, and is advised by Ray Ozzie (Executive Chair, Blues), among others.
+The BIOMASS ENERGY & AI project is a 25-year initiative to transform a closed village school in Mitsue, Nara Prefecture, into an integrated center for sustainable development, combining native forest restoration, locally generated clean energy, and small-scale digital infrastructure. The project works in close partnership with the local village government, private forest landowners, and the Mitsue community, and is advised by Ray Ozzie (Executive Chair, Blues), among others.
 
 The project aligns closely with the sustainable development goals you have championed throughout your career — in particular SDG 17, partnerships for the goals — and offers a concrete example of how Dutch expertise in sustainability and the circular economy can contribute to rural revitalization in Japan. The initiative is moreover embedded in official Japanese policy: the project serves as the implementing vehicle for Mitsue Village's Ministry-of-Environment-funded renewable-energy plan (2025), placing it on a recognized national funding ladder.
 
@@ -144,7 +145,7 @@ Sugano, Mitsue, Nara
 [Email]
 [Phone]
 
-Enclosure: Mitsue-kun Project — Project Overview
+Enclosure: BIOMASS ENERGY & AI project — Project Overview
 
 ---
 
@@ -158,7 +159,7 @@ Enclosure: Mitsue-kun Project — Project Overview
 
    > "Beste Sandra,
    >
-   > Bijgaand vind je, zoals besproken, een formeel verzoek met betrekking tot het Mitsue-kun Project, evenals het uitgebreidere projectoverzicht.
+   > Bijgaand vind je, zoals besproken, een formeel verzoek met betrekking tot het BIOMASS ENERGY & AI project, evenals het uitgebreidere projectoverzicht.
    >
    > Neem alle tijd die je nodig hebt — er is geen haast bij.
    >

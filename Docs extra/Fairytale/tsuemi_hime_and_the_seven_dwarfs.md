@@ -156,7 +156,7 @@ Tsuemi-kun pulled out his notebook and began to write.
 
 ## Part Seven: The Breaking of the Spell
 
-The breaking of the spell took not a kiss but a stamp — the red stamp of the Legal Affairs Bureau in Nara City, acknowledging the founding of the **一般社団法人御杖くんプロジェクト** — the Mitsue-kun Project General Incorporated Association.
+The breaking of the spell took not a kiss but a stamp — the red stamp of the Legal Affairs Bureau in Nara City, acknowledging the founding of the **一般社団法人バイオマスエネルギーとAI** — the BIOMASS ENERGY & AI project General Incorporated Association.
 
 There were two founding members. Tsuemi-kun. And **Yuka**, his partner and co-founder, who had seen from the beginning what the valley could become, and whose name went on the charter beside his as proof that this was not one person's dream but a shared one.
 
@@ -214,4 +214,4 @@ And the grandmother says: "Because a princess left her staff here, and the valle
 
 **— Based on the repository at [codeberg.org/YR-Design/mitsue-ai-data-center](https://codeberg.org/YR-Design/mitsue-ai-data-center) and the legend of Yamatohime-no-Mikoto**
 
-*The Seven Forest Spirits correspond to the seven operating principles and programme components of the Mitsue-kun Project: forest restoration (Mori), biomass energy (Bio), patient long-term planting (Tane), community-owned digital infrastructure (Deta), EV charging and energy sovereignty (Denki), open knowledge and documentation (Akari), and disciplined funding-gate governance (Gate).*
+*The Seven Forest Spirits correspond to the seven operating principles and programme components of the BIOMASS ENERGY & AI project: forest restoration (Mori), biomass energy (Bio), patient long-term planting (Tane), community-owned digital infrastructure (Deta), EV charging and energy sovereignty (Denki), open knowledge and documentation (Akari), and disciplined funding-gate governance (Gate).*

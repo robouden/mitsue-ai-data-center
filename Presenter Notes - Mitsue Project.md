@@ -9,9 +9,10 @@
   li { margin: 0 !important; }
 </style>
 
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
-# Mitsue-kun Project — Presenter Notes
+# BIOMASS ENERGY & AI — Presenter Notes
+### Reforesting in Mitsue
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
 > 先人が植えた森が、今、村を支える力になる。

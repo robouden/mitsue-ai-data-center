@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖くんプロジェクト — ステークホルダーと関係図</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">バイオマスエネルギーとAI — ステークホルダーと関係図</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -36,7 +37,7 @@
 | ------------------------------------ | ------------------------------------------------------------ |
 | ロブ・アウデンダイク (Rob Oudendijk) | 創設者・プロジェクトリード（オランダ人、2012年より菅野在住） |
 | 日本人共同創設者                     | 未定 — 最優先採用。地域に信頼される日本語話者                |
-| 御杖くんプロジェクト                     | 主体法人（一般社団法人 → NPO法人）                           |
+| バイオマスエネルギーとAI                     | 主体法人（一般社団法人 → NPO法人）                           |
 | YR-Design                            | ロブの会社。プロジェクトの所属母体                           |
 | Safecast                             | 市民科学ネットワーク。オープンデータモデルの哲学的基盤       |
 
@@ -235,7 +236,7 @@ flowchart LR
     BENGOSHI -->|"契約支援"| PROJ
 
     %% ==================== MAIN PROJECT - RIGHT CENTER ====================
-    PROJ["🏗️ **御杖くんプロジェクト**\n一般社団法人 → NPO法人"]
+    PROJ["🏗️ **バイオマスエネルギーとAI**\n一般社団法人 → NPO法人"]
 
   classDef main fill:#bbbbbb, stroke:#202020, stroke-width:3px, rx:3, ry3
     class PROJ main

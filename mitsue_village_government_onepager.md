@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖村プロジェクト概要 / Mitsue Village Project — Summary</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -39,7 +40,7 @@ A 25-year initiative built carefully, in close partnership with the village.
 
 ## This Project Delivers Your Own Renewable Energy Plan
 
-The Mitsue-kun Project is the **implementation and operating vehicle (官民連携 運営体制)** for the village's official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画, Jan 2025) — the MoE-funded strategy the village has already written and committed to. We do not ask the village to adopt a new idea; we offer to execute the plan it already has.
+The BIOMASS ENERGY & AI project is the **implementation and operating vehicle (官民連携 運営体制)** for the village's official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画, Jan 2025) — the MoE-funded strategy the village has already written and committed to. We do not ask the village to adopt a new idea; we offer to execute the plan it already has.
 
 - **The "one resilient site" target.** Your plan sets a target of **one** renewable + storage + EV resilient site in the village by 2045 — currently **zero**. Our data center, with on-site biomass CHP generation and battery backup, can credibly **be** that site, letting the village report progress against its own published indicator.
 - **EV charging priority.** Your plan makes EV chargers at public facilities (town hall, roadside stations) a **priority**, because transport is **46% of village emissions** — the largest source. Our EV charging network anchored to local generation delivers exactly this.

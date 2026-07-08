@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖村プロジェクト概要</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -35,7 +36,7 @@
 
 ## 本プロジェクトは、村ご自身の再エネ計画を実行いたします
 
-御杖くんプロジェクトは、村の公式**「再エネ導入最大化計画」**（御杖村再エネ導入最大化計画、2025年1月＝環境省補助で策定）の**実行・運営を担う事業体（官民連携 運営体制）**でございます。村に新しい構想の採用をお願いするのではなく、村がすでに策定された計画を実行することをお申し出するものです。
+バイオマスエネルギーとAIは、村の公式**「再エネ導入最大化計画」**（御杖村再エネ導入最大化計画、2025年1月＝環境省補助で策定）の**実行・運営を担う事業体（官民連携 運営体制）**でございます。村に新しい構想の採用をお願いするのではなく、村がすでに策定された計画を実行することをお申し出するものです。
 
 - **「村内1拠点」目標。** 計画では、再エネ＋蓄電池＋EVのレジリエント拠点を2045年までに村内に**1拠点**整備すると目標設定されておりますが、現状は**ゼロ**です。自家発電（バイオマスCHP）と蓄電池を備える我々のデータセンターは、その1拠点に**なり得まして**、村が自らの公表指標の進捗を報告できるようになります。
 - **EV充電の優先。** 計画では、運輸部門が村の排出の**46%（最大部門）**を占めることから、公共施設（役場・道の駅）へのEV充電器設置を**優先**と位置づけておられます。地域発電と連動した我々のEV充電網が、まさにこれを実現いたします。

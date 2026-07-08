@@ -1,8 +1,9 @@
-<!-- Version: v2.0 | Last modified: 2026-06-28 -->
+<!-- Version: v2.1 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">法人設立書類</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">御杖くんプロジェクト</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">バイオマスエネルギーとAI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">適法性・登記書類 セルフチェックリスト（弁護士なしで進める）</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:95mm;"></div>

@@ -1,14 +1,15 @@
-<!-- Version: v1.3 | Last modified: 2026-06-24 -->
+<!-- Version: v1.4 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Sugano Organic — Biomass CHP Pilot · Technical Requirements &amp; Proposal</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-24</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -19,7 +20,7 @@
 ## Technical Requirements & Proposal · Phase 1 Functional Prototype
 
 **Prepared for:** Tokuo Aomi (青海 徳生), Sugano Organic  
-**Prepared by:** Rob Oudendijk, Mitsue-kun Project  
+**Prepared by:** Rob Oudendijk, BIOMASS ENERGY & AI project  
 **Date:** 2026-06-23  
 **Status:** Draft for discussion
 
@@ -29,7 +30,7 @@
 
 This document outlines the technical requirements and investment case for installing a small biomass combined heat and power (CHP) system at Sugano Organic, powered entirely by Sugi trees from Tokuo's own mountain forest.
 
-Sugano Organic becomes **Phase 1 of the Mitsue-kun Project's energy programme** — a real, working prototype demonstrating that a rural home and workshop can be fully powered and heated by the forest around it. Every product made at Sugano Organic thereafter carries that proof.
+Sugano Organic becomes **Phase 1 of the BIOMASS ENERGY & AI project's energy programme** — a real, working prototype demonstrating that a rural home and workshop can be fully powered and heated by the forest around it. Every product made at Sugano Organic thereafter carries that proof.
 
 ---
 
@@ -141,7 +142,7 @@ The system requires air-dried wood chips or split logs (15–20% moisture conten
 
 ## Subsidy & Funding Pathways
 
-The Mitsue-kun Project NGO (currently being established) will actively pursue the following grants on behalf of Tokuo:
+The BIOMASS ENERGY & AI project NGO (currently being established) will actively pursue the following grants on behalf of Tokuo:
 
 | Programme | Body | Typical support |
 |-----------|------|----------------|
@@ -181,7 +182,7 @@ The Sugano Organic CHP installation is a ¥5M–¥10.4M capital item — it does
 
 ---
 
-## Prototype Value for the Mitsue-kun Project
+## Prototype Value for the BIOMASS ENERGY & AI project
 
 Tokuo's site is the ideal Phase 1 prototype because:
 
@@ -191,7 +192,7 @@ Tokuo's site is the ideal Phase 1 prototype because:
 4. **Strong story** — natural clothing + nature sounds, powered by the forest. Authentic and communicable worldwide
 5. **Replicable** — dozens of Mitsue households and small businesses face the same situation
 
-Data from this installation (fuel consumption, uptime, costs, CO₂) feeds directly into the larger Mitsue-kun Project energy planning and grant applications.
+Data from this installation (fuel consumption, uptime, costs, CO₂) feeds directly into the larger BIOMASS ENERGY & AI project energy planning and grant applications.
 
 ---
 

@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Alignment with the Mitsue Village Renewable Energy Plan</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -14,7 +15,7 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # Alignment with the Mitsue Village Renewable Energy Plan
-### How the Mitsue-kun Project delivers the village's own official decarbonization strategy
+### How the BIOMASS ENERGY & AI project delivers the village's own official decarbonization strategy
 
 **Prepared for:** internal strategy, grant applications, and village government engagement
 **Status:** Working draft, June 7, 2026
@@ -29,7 +30,7 @@ This is not a think-tank paper or an outside proposal. It is **the village's own
 
 The strategic significance is simple and large:
 
-> **The Mitsue-kun Project is not asking the village to adopt a new idea. It is offering to be the implementation and operating vehicle for the plan the village has already written, funded, and committed to.**
+> **The BIOMASS ENERGY & AI project is not asking the village to adopt a new idea. It is offering to be the implementation and operating vehicle for the plan the village has already written, funded, and committed to.**
 
 That reframing changes how we pitch to the mayor, how we apply for funding, and how we describe ourselves to partners. The rest of this document sets out the alignment, the funding unlock, the citable figures, and the per-audience messaging.
 
@@ -39,15 +40,15 @@ That reframing changes how we pitch to the mayor, how we apply for funding, and 
 
 ## 2. The core thesis: we are the vehicle, not a competing plan
 
-The village plan sets ambitious goals but, as a municipal policy document, it largely lacks concrete delivery mechanisms, capital, and an operator. The Mitsue-kun Project supplies exactly those missing pieces — and our energy logic (biomass CHP **primary**, solar + battery + EV charging complementary) maps onto the plan's stated priorities with very little friction.
+The village plan sets ambitious goals but, as a municipal policy document, it largely lacks concrete delivery mechanisms, capital, and an operator. The BIOMASS ENERGY & AI project supplies exactly those missing pieces — and our energy logic (biomass CHP **primary**, solar + battery + EV charging complementary) maps onto the plan's stated priorities with very little friction.
 
 Critically, the plan already endorses, in its own words, almost every technology in our design: small-scale hydropower, rooftop and carport solar, **perovskite** solar, storage batteries, **EV charging at public facilities as a priority**, **V2H**, **VPP using IoT/blockchain**, off-grid/distributed energy for disaster resilience, wood biomass and wood stoves, and **J-Credits from forest carbon**. We are not introducing unfamiliar technology; we are operationalizing a list the village has already published.
 
 ---
 
-## 3. Mapping — village plan → Mitsue-kun Project
+## 3. Mapping — village plan → BIOMASS ENERGY & AI project
 
-| Village RE plan says it wants… | The Mitsue-kun Project delivers… | Plan reference |
+| Village RE plan says it wants… | The BIOMASS ENERGY & AI project delivers… | Plan reference |
 |---|---|---|
 | An "autonomous & distributed energy society for **disaster preparedness**"; supply power to public buildings/clinics when the grid fails (off-grid capability) | Biomass CHP (24/7 baseload) + solar + battery → blackout resilience for critical village facilities | Basic Policy 2.2 |
 | An explicit indicator target of **"one resilient site within the village"** using renewables + storage + EV — currently **zero** | The data center site **is** that resilient distributed-energy site | Indicators table (p.18) |
@@ -82,7 +83,7 @@ The plan's last page reveals the funding thread that matters most. The plan itse
 ### Why this is a major unlock for our budget
 
 - **Subsidy rate.** The 交付金 covers **2/3** of eligible cost as standard, rising to **3/4** for storage batteries and private-wire (自営線) when the municipality has a low financial-capacity index **and** the installation site is in an underpopulated (過疎) area. **Mitsue qualifies on both counts.** A large share of our solar + battery + private-wire + EV capex could therefore be subsidized at 2/3–3/4.
-- **It routes through the village, by design.** The grant is paid to the **municipality** (地方公共団体), and the planning-support programme explicitly funds "building the implementation and operating structure for regional renewable-energy projects carried out through **public-private partnership (官民連携)**." That is precisely the slot the Mitsue-kun Project fills: **the village brings the plan and the grant channel; we bring the operator, the capital stack, and the anchor offtaker.** This is the concrete, financial reason village partnership is our funding strategy — not merely goodwill.
+- **It routes through the village, by design.** The grant is paid to the **municipality** (地方公共団体), and the planning-support programme explicitly funds "building the implementation and operating structure for regional renewable-energy projects carried out through **public-private partnership (官民連携)**." That is precisely the slot the BIOMASS ENERGY & AI project fills: **the village brings the plan and the grant channel; we bring the operator, the capital stack, and the anchor offtaker.** This is the concrete, financial reason village partnership is our funding strategy — not merely goodwill.
 - **It strengthens, not replaces, our existing stack.** This becomes the backbone of **Layer 2 (Government grants)** in our funding model. It does not change the biomass CHP economics (CHP is funded through forestry/biomass and METI/NEDO routes), but it can substantially de-risk the complementary solar + battery + EV + private-wire investment that the data center and blackout-resilience case depend on.
 
 ### Implication for the EVM / funding gap
@@ -139,4 +140,4 @@ Use these — they are the village's published numbers, which carries more weigh
 
 ---
 
-*Prepared by Rob Oudendijk — Mitsue-kun Project · June 7, 2026*
+*Prepared by Rob Oudendijk — BIOMASS ENERGY & AI project · June 7, 2026*

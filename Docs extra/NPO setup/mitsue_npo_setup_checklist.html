@@ -46,7 +46,7 @@
 </style>
 
 <div class="wrap">
-  <h2>NPO setup — Mitsue-kun Project (御杖村)</h2>
+  <h2>NPO setup — BIOMASS ENERGY & AI (御杖村)</h2>
   <p class="subtitle">特定非営利活動法人 (tokutei hieiri katsudo hojin) — Nara Prefecture jurisdiction &nbsp;·&nbsp; <button class="reset-btn" onclick="resetAll()">Reset all</button></p>
 
   <div id="checklist"></div>
@@ -64,7 +64,7 @@ const phases = [
   {
     id: 1, badge: "ph1", title: "Phase 1 — Founding preparation", meta: "~1–2 months",
     items: [
-      { label: "Decide on NPO activities category", detail: "Must fall within 1 of 20 approved 特定非営利活動 categories. Mitsue-kun Project likely fits: 'まちづくり推進' (community development), '学術・文化・芸術・スポーツ振興', or '環境保全'. Can list multiple.", docs: [{t:"Article 2 NPO Law",c:"req"}] },
+      { label: "Decide on NPO activities category", detail: "Must fall within 1 of 20 approved 特定非営利活動 categories. BIOMASS ENERGY & AI project likely fits: 'まちづくり推進' (community development), '学術・文化・芸術・スポーツ振興', or '環境保全'. Can list multiple.", docs: [{t:"Article 2 NPO Law",c:"req"}] },
       { label: "Recruit founding members (社員)", detail: "Minimum 10 members (社員) required. These are voting members — different from directors. Collect name, address, DOB for each.", docs: [{t:"10 members min",c:"req"}] },
       { label: "Appoint board of directors (理事)", detail: "Minimum 3 理事 (directors). One becomes 代表理事 (representative director). Relatives cannot fill more than 1/3 of positions.", docs: [{t:"3 directors min",c:"req"}, {t:"No family concentration",c:"req"}] },
       { label: "Appoint auditor (監事)", detail: "At least 1 監事 required. Cannot be a director or employee. Must not be a relative of any director.", docs: [{t:"1 auditor min",c:"req"}] },
@@ -76,7 +76,7 @@ const phases = [
     id: 2, badge: "ph2", title: "Phase 2 — Drafting core documents", meta: "~1–2 months",
     items: [
       { label: "Draft 定款 (teikan / articles of incorporation)", detail: "The most critical document. Must include: name, purpose, activities, address, membership rules, board structure, fiscal year, dissolution rules. Template available from Nara Pref.", docs: [{t:"定款 (required)",c:"req"}, {t:"Nara Pref. template",c:"form"}] },
-      { label: "Draft 設立趣意書 (establishment purpose statement)", detail: "Free-form narrative explaining why the NPO is being established, background, and vision. This is where the Mitsue-kun Project story goes — forest restoration, school repurposing, data center, community revival.", docs: [{t:"設立趣意書",c:"req"}] },
+      { label: "Draft 設立趣意書 (establishment purpose statement)", detail: "Free-form narrative explaining why the NPO is being established, background, and vision. This is where the BIOMASS ENERGY & AI project story goes — forest restoration, school repurposing, data center, community revival.", docs: [{t:"設立趣意書",c:"req"}] },
       { label: "Draft 事業計画書 (activity plan) — first year", detail: "Concrete list of planned activities for the first fiscal year. Must match the 定款 categories. Include: forest restoration activities, school facility use, community events, etc.", docs: [{t:"事業計画書",c:"req"}] },
       { label: "Draft 収支予算書 (income/expense budget) — first year", detail: "Budget showing expected revenues (membership fees, donations, grants, project income) and expenses. Must balance.", docs: [{t:"収支予算書",c:"req"}] },
       { label: "Prepare 役員名簿 (director/auditor list)", detail: "List of all 理事 and 監事 with: full name, address, DOB, occupation. Certified copies of residence certificate (住民票) may be required per prefecture.", docs: [{t:"役員名簿",c:"req"}, {t:"住民票 (each officer)",c:"form"}] },
@@ -116,7 +116,7 @@ const phases = [
       { label: "Open NPO bank account", detail: "Bring 登記事項証明書 + 定款 + 法人印 + ID of representative. Japan Post Bank (ゆうちょ) or regional bank. Avoid online-only banks at first — they often can't handle NPO accounts.", docs: [{t:"登記事項証明書",c:"req"}, {t:"定款",c:"req"}] },
       { label: "Register with tax office (税務署)", detail: "File 法人設立届出書 at the local 税務署 within 2 months of registration. Also notify Nara Pref. tax office (県税事務所) and Mitsue village office.", docs: [{t:"法人設立届出書",c:"form"}] },
       { label: "Submit 事業報告書 annually to Nara Pref.", detail: "Every year by end of June: activity report, financial statements, list of officers and members. This maintains 認証 status. Non-filing = potential revocation.", docs: [{t:"Annual obligation",c:"req"}] },
-      { label: "Consider applying for 認定NPO status (認定・仮認定)", detail: "After 1 year of operation, can apply for 認定NPO法人 status from NTA — donors get tax deductions, making fundraising much more effective. Especially relevant for Mitsue-kun Project's international donor network.", docs: [{t:"After 1 year ops",c:"req"}] },
+      { label: "Consider applying for 認定NPO status (認定・仮認定)", detail: "After 1 year of operation, can apply for 認定NPO法人 status from NTA — donors get tax deductions, making fundraising much more effective. Especially relevant for BIOMASS ENERGY & AI project's international donor network.", docs: [{t:"After 1 year ops",c:"req"}] },
     ]
   }
 ];

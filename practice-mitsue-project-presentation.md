@@ -1,6 +1,7 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
-## Mitsue-kun Project — Presentation Script
+## BIOMASS ENERGY & AI — Presentation Script
+*Reforesting in Mitsue*
 
 ---
 
@@ -14,9 +15,9 @@ Living in this village, I've seen firsthand the challenges facing rural Japan. A
 
 That gap gave me an idea.
 
-### The Mitsue-kun Project
+### The BIOMASS ENERGY & AI project
 
-The Mitsue-kun Project turns that gap into an opportunity. It connects rural problems with modern energy needs — and solves both at the same time.
+The BIOMASS ENERGY & AI project turns that gap into an opportunity. It connects rural problems with modern energy needs — and solves both at the same time.
 
 ### The Challenges We're Addressing
 

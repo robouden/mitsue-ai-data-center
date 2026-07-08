@@ -12,7 +12,7 @@
   .note { color: #888; font-size: 9pt; margin-top: 28px !important; border-left: 3px solid #cde; padding-left: 10px; }
 </style>
 
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 <p class="date">2026年6月22日</p>
 
@@ -36,7 +36,7 @@
 
 ロブ・オウデンダイク
 
-御杖くんプロジェクト
+バイオマスエネルギーとAI
 
 oudendijk.biz@gmail.com
 

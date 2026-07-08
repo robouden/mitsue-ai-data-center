@@ -14,7 +14,7 @@
   .note { color: #777; font-size: 7pt; margin-top: 8px !important; border-left: 2px solid #cde; padding-left: 5px; }
 </style>
 
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 # 御杖村森林組合　御中
 
@@ -38,7 +38,7 @@
 
 ロブ・オウデンダイク
 
-御杖くんプロジェクト
+バイオマスエネルギーとAI
 
 oudendijk.biz@gmail.com
 

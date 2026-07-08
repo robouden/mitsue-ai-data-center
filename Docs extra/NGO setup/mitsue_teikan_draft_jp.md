@@ -1,9 +1,10 @@
-<!-- Version: v2.0 | Last modified: 2026-06-28 -->
+<!-- Version: v2.1 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">法人設立書類 — 草案（要 専門家確認）</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">御杖くんプロジェクト</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">一般社団法人御杖くんプロジェクト 定款（非営利型・理事会非設置）</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">バイオマスエネルギーとAI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">一般社団法人バイオマスエネルギーとAI 定款（非営利型・理事会非設置）</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:90mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
@@ -26,13 +27,13 @@
 
 ---
 
-# 一般社団法人御杖くんプロジェクト 定款
+# 一般社団法人バイオマスエネルギーとAI 定款
 
 ---
 
 ## 第1章　総則
 
-**第1条（名称）** 当法人は、一般社団法人御杖くんプロジェクトと称する。英文表記は Mitsue-kun Project とする。
+**第1条（名称）** 当法人は、一般社団法人バイオマスエネルギーとAIと称する。英文表記は BIOMASS ENERGY & AI project とする。
 
 **第2条（主たる事務所）** 当法人は、主たる事務所を奈良県宇陀郡御杖村【番地 — 旧菅野小学校／御杖村体験交流館 等】に置く。（旧菅野小を用いる場合は村の使用承諾書が必要。当面は代表理事の住所も可。）
 
@@ -141,7 +142,7 @@
 
 ---
 
-以上、一般社団法人御杖くんプロジェクトの設立のため、設立時社員が本定款を作成し、これに記名押印する。
+以上、一般社団法人バイオマスエネルギーとAIの設立のため、設立時社員が本定款を作成し、これに記名押印する。
 
 **令和【　】年【　】月【　】日**
 

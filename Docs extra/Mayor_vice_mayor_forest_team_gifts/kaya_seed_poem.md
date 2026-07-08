@@ -1,6 +1,6 @@
 # 榧の種 · A seed of kaya
 
-_Rob Oudendijk · 御杖くんプロジェクト · Mitsue-kun Project · 2026_
+_Rob Oudendijk · バイオマスエネルギーとAI · BIOMASS ENERGY & AI project · 2026_
 
 ---
 

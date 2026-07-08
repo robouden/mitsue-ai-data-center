@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">御杖村再エネ導入最大化計画との整合</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -14,7 +15,7 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # 御杖村再エネ導入最大化計画との整合
-### 御杖くんプロジェクトは、村自身の公式脱炭素戦略を実行する事業体である
+### バイオマスエネルギーとAIは、村自身の公式脱炭素戦略を実行する事業体である
 
 **用途:** 内部戦略・補助金申請・村行政との対話
 **ステータス:** 作業草案、2026年6月7日
@@ -29,7 +30,7 @@
 
 戦略的な意味は単純かつ重大です。
 
-> **御杖くんプロジェクトは、村に新しい構想の採用を求めているのではない。村がすでに策定し、予算をつけ、コミットしている計画を「実行・運営する事業体」になることを申し出ているのである。**
+> **バイオマスエネルギーとAIは、村に新しい構想の採用を求めているのではない。村がすでに策定し、予算をつけ、コミットしている計画を「実行・運営する事業体」になることを申し出ているのである。**
 
 この捉え直しは、村長への提案の仕方、補助金申請の組み立て方、パートナーへの自己紹介の仕方を変えます。
 
@@ -39,15 +40,15 @@
 
 ## 2. 中核命題：我々は「対抗する計画」ではなく「実行する事業体」である
 
-村の計画は野心的な目標を掲げる一方、行政の政策文書として、具体的な実行手段・資本・運営主体を欠いています。御杖くんプロジェクトはまさにその欠落部分を補います。そして我々のエネルギー論理（バイオマスCHPを**主軸**とし、太陽光・蓄電池・EV充電を補完とする）は、計画の掲げる優先事項とほとんど摩擦なく整合します。
+村の計画は野心的な目標を掲げる一方、行政の政策文書として、具体的な実行手段・資本・運営主体を欠いています。バイオマスエネルギーとAIはまさにその欠落部分を補います。そして我々のエネルギー論理（バイオマスCHPを**主軸**とし、太陽光・蓄電池・EV充電を補完とする）は、計画の掲げる優先事項とほとんど摩擦なく整合します。
 
 重要なのは、計画自身が我々の設計のほぼ全技術をすでに明記している点です——小水力、屋根・カーポート太陽光、**ペロブスカイト**太陽光、蓄電池、**公共施設へのEV充電器の優先設置**、**V2H**、**IoT/ブロックチェーンを用いたVPP**、災害時の自立分散型（オフグリッド）電源、木質バイオマス・薪ストーブ、そして**森林J-クレジット**。我々は未知の技術を持ち込むのではなく、村がすでに公表したリストを実装するのです。
 
 ---
 
-## 3. 対応関係 — 村の計画 → 御杖くんプロジェクト
+## 3. 対応関係 — 村の計画 → バイオマスエネルギーとAI
 
-| 村の再エネ計画が求めるもの | 御杖くんプロジェクトが提供するもの | 計画該当箇所 |
+| 村の再エネ計画が求めるもの | バイオマスエネルギーとAIが提供するもの | 計画該当箇所 |
 |---|---|---|
 | 災害時に公共施設・診療所へ給電できる「自立・分散型エネルギー社会」（オフグリッド対応） | バイオマスCHP（24時間ベースロード）＋太陽光＋蓄電池による重要施設の停電対策 | 基本方針2-2 |
 | 再エネ＋蓄電池＋EVを使った「村内1拠点」のレジリエント設備という明示的指標（現状**ゼロ**） | データセンター用地が、その「レジリエント分散型電源拠点」**そのもの**となる | 指標一覧（p.18） |
@@ -82,7 +83,7 @@
 ### なぜ我々の予算にとって大きな突破口か
 
 - **補助率。** 交付金は対象経費の原則**2/3**、蓄電池・自営線等は、自治体の財政力指数が一定未満**かつ**設置場所が過疎地域に該当する場合は**3/4**。**御杖村は両条件を満たします。** したがって太陽光＋蓄電池＋自営線＋EVの設備投資の相当部分が2/3〜3/4で補助され得ます。
-- **設計上、村を経由する。** 交付金は**自治体**（地方公共団体）に交付され、計画づくり支援は「**官民連携**で行う地域再エネ事業の実施・運営体制構築」を明示的に支援します。これこそ御杖くんプロジェクトが担う役割です——**村は計画と交付ルートを、我々は運営者・資本スタック・アンカー需要家を持ち寄る。** 村との連携が「善意」ではなく「資金戦略」である具体的・財務的な理由がここにあります。
+- **設計上、村を経由する。** 交付金は**自治体**（地方公共団体）に交付され、計画づくり支援は「**官民連携**で行う地域再エネ事業の実施・運営体制構築」を明示的に支援します。これこそバイオマスエネルギーとAIが担う役割です——**村は計画と交付ルートを、我々は運営者・資本スタック・アンカー需要家を持ち寄る。** 村との連携が「善意」ではなく「資金戦略」である具体的・財務的な理由がここにあります。
 - **既存スタックを置き換えず強化する。** これは資金モデルの**第2層（政府補助金）**の背骨になります。バイオマスCHPの採算（林業／バイオマス＋経産省/NEDO経由）は変えませんが、データセンターと停電対策が依存する補完的な太陽光＋蓄電池＋EV＋自営線投資を大きく低リスク化できます。
 
 ### EVM／資金ギャップへの含意
@@ -139,4 +140,4 @@
 
 ---
 
-*作成：Rob Oudendijk — 御杖くんプロジェクト・2026年6月7日*
+*作成：Rob Oudendijk — バイオマスエネルギーとAI・2026年6月7日*

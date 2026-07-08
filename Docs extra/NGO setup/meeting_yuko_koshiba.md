@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-29 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 <style>
 body { font-size: 11px; line-height: 1.4; }
@@ -22,7 +22,7 @@ Although brief, this is a positive response. She didn't delegate the conversatio
 
 ## I would change your objective
 
-Rather than trying to *introduce* the Mitsue-kun Project again, your goal should be to learn how **she thinks**.
+Rather than trying to *introduce* the BIOMASS ENERGY & AI project again, your goal should be to learn how **she thinks**.
 
 People in philanthropy receive many project pitches. What they remember are conversations where someone explores ideas with them rather than asking for something.
 
@@ -98,7 +98,7 @@ That subtly shifts the relationship from *founder seeking funding* to *builder s
 
 ## One final observation
 
-From what you've shared over the past months, I think one aspect of the Mitsue-kun Project deserves more emphasis in conversations like this.
+From what you've shared over the past months, I think one aspect of the BIOMASS ENERGY & AI project deserves more emphasis in conversations like this.
 
 Many people will hear "AI data center" and immediately think "technology project."
 

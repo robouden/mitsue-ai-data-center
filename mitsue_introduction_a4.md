@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">The Mitsue-kun Project</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Introduction</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-04</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -15,7 +16,8 @@
 
 ---
 
-# The Mitsue-kun Project
+# BIOMASS ENERGY & AI
+### Reforesting in Mitsue
 ### Ecology · Energy · Digital Infrastructure for Rural Japan
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
@@ -27,7 +29,7 @@
 
 ## What the Project Is
 
-The Mitsue-kun Project transforms the **former Sugano Elementary School (Mitsue Taiken Koryukan)** — a community exchange center available for reuse, the leading candidate site (final choice confirmed in Phase 1) — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
+The BIOMASS ENERGY & AI project transforms the **former Sugano Elementary School (Mitsue Taiken Koryukan)** — a community exchange center available for reuse, the leading candidate site (final choice confirmed in Phase 1) — and the aging cedar forest above it, into a living model of rural self-sufficiency. Three elements work together:
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species, healing land ecologically depleted for decades. Thinning the sugi also yields the biomass fuel that powers the village. Native broadleaf trees feed deer, wild boar, and bear — keeping wildlife in the forest and out of crop areas
 - **Biomass CHP energy** — Sugi forest thinnings fuel a combined heat and power (CHP) system generating electricity (primary) and heat (secondary), complemented by solar panels and EV charging for residents and visitors, with battery backup during grid outages. A circular local energy economy where the forest powers the village. Battery storage to be evaluated in feasibility study
@@ -69,7 +71,7 @@ Mitsue has what most villages lack: the former Sugano Elementary School (Koryuka
 
 <div class="page-break"></div>
 
-# The Mitsue-kun Project — What to Expect, and When
+# BIOMASS ENERGY & AI — What to Expect, and When
 
 ---
 
@@ -98,7 +100,7 @@ All environmental, energy, and forestry data will be published openly — so any
 
 ## What Makes This Different
 
-Most rural revitalisation projects in Japan either depend permanently on outside subsidy or import a use with no connection to the land. The Mitsue-kun Project is built around the village's own resources — its forest, its community facilities, its people — and is designed to become financially self-sustaining within the first decade.
+Most rural revitalisation projects in Japan either depend permanently on outside subsidy or import a use with no connection to the land. The BIOMASS ENERGY & AI project is built around the village's own resources — its forest, its community facilities, its people — and is designed to become financially self-sustaining within the first decade.
 
 The data center element is not incidental. It creates the stable, round-the-clock energy demand that makes the village's biomass CHP and solar generation economically viable — and the on-site biomass baseload power extends naturally to the whole community during blackouts. The three pillars reinforce each other in a way that cannot easily be replicated with only one or two of them. Together they set a working example of how rural communities can integrate technological progress with ecological sustainability — not as opposites, but as a single coherent system.
 
@@ -133,7 +135,7 @@ See all the ways to take part at **[mitsue.it/join](https://mitsue.it/join)**.
 
 <table style="width:100%; border:none; border-collapse:collapse;"><tr>
 <td style="border:none; vertical-align:middle;">
-<em>The Mitsue-kun Project · Mitsue Village, Nara Prefecture, Japan</em><br/>
+<em>The BIOMASS ENERGY & AI project · Mitsue Village, Nara Prefecture, Japan</em><br/>
 <em>Contact: Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:140px;">

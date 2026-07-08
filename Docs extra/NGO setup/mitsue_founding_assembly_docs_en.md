@@ -1,8 +1,9 @@
-<!-- Version: v2.0 | Last modified: 2026-06-28 -->
+<!-- Version: v2.1 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT — WORKING DRAFT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Founding Assembly & Registration Document Set (minutes, consents, member list, filing checklist)</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:95mm;"></div>
@@ -21,7 +22,7 @@
 
 # Doc 1 — Founding Assembly Minutes
 
-**Mitsue-kun Project General Incorporated Association — Founding Assembly Minutes**
+**BIOMASS ENERGY & AI project General Incorporated Association — Founding Assembly Minutes**
 
 1. **Date & time:** 【date】, from 【time】
 2. **Place:** 【venue】
@@ -45,7 +46,7 @@ It was unanimously resolved to locate the principal office at 【address】, Mit
 
 The chair stated that all items had been deliberated and declared the meeting closed. To record the above resolutions, the chair and the members present sign and seal these minutes.
 
-【date】 — Mitsue-kun Project General Incorporated Association, Founding Assembly
+【date】 — BIOMASS ENERGY & AI project General Incorporated Association, Founding Assembly
 Chair (founding member) 【Name】 (seal)
 Founding member 【Name】 (seal)
 
@@ -58,7 +59,7 @@ Founding member 【Name】 (seal)
 
 **Consent to Assume Office**
 
-I accept appointment as a founding director of 一般社団法人御杖くんプロジェクト (Mitsue-kun Project), to which I was elected at the founding assembly held on 【date】.
+I accept appointment as a founding director of 一般社団法人バイオマスエネルギーとAI (BIOMASS ENERGY & AI project), to which I was elected at the founding assembly held on 【date】.
 
 【date】
 
@@ -73,7 +74,7 @@ Name 【　】 (registered seal)
 
 # Doc 3 — Founding Member List
 
-**Mitsue-kun Project General Incorporated Association — Founding Member List**
+**BIOMASS ENERGY & AI project General Incorporated Association — Founding Member List**
 
 | No. | Name | Address | Note |
 |----|------|---------|------|

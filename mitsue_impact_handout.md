@@ -1,12 +1,13 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
 <p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Impact at a Glance — for Philanthropists & Impact Investors</p>
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-21</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -15,7 +16,8 @@
 
 ---
 
-# Mitsue-kun Project — Impact at a Glance
+# BIOMASS ENERGY & AI — Impact at a Glance
+### Reforesting in Mitsue
 
 ### Ecology · Energy · Digital Infrastructure for Rural Japan
 
@@ -159,7 +161,7 @@ These three elements are not separate projects. Each one makes the other two pos
 
 > "Our goal isn't to build one successful project — it's to create an open-source model that other rural communities in Japan can adopt."
 
-By 2036, the Mitsue-kun Project will have demonstrated success if:
+By 2036, the BIOMASS ENERGY & AI project will have demonstrated success if:
 
 - **20+ hectares** of native forest actively established and growing
 - **Data center** operationally self-sustaining, generating net surplus reinvested into the village
@@ -271,7 +273,7 @@ The moment is now because the funding ladder requires an operating partner to qu
 
 <table style="width:100%; border:none; border-collapse:collapse;"><tr>
 <td style="border:none; vertical-align:middle;">
-<em>The Mitsue-kun Project · Mitsue Village (御杖村), Nara Prefecture, Japan</em><br/>
+<em>The BIOMASS ENERGY & AI project · Mitsue Village (御杖村), Nara Prefecture, Japan</em><br/>
 <em>Contact: Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:140px;">

@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:9pt; line-height:1.4; color:#1a1a1a;">
 
@@ -9,10 +9,10 @@
 先人が植えた森が、今、村を支える力になる。
 </blockquote>
 
-<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">御杖くんプロジェクト · Mitsue Village, Nara Prefecture, Japan</p>
+<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">バイオマスエネルギーとAI · Mitsue Village, Nara Prefecture, Japan</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:4mm 0 2mm; color:#3a7a5a;">What We Are Building</h2>
-<p style="margin:0 0 2mm;">Mitsue is a depopulating mountain village in Nara Prefecture. Its cedar forest is ecologically depleted. Its power grid suffers regular blackouts. The Mitsue-kun Project turns these liabilities into a circular system:</p>
+<p style="margin:0 0 2mm;">Mitsue is a depopulating mountain village in Nara Prefecture. Its cedar forest is ecologically depleted. Its power grid suffers regular blackouts. The BIOMASS ENERGY & AI project turns these liabilities into a circular system:</p>
 <ul style="margin:0 0 2mm; padding-left:5mm;">
 <li style="margin-bottom:1mm;"><strong>Forest restoration</strong> — Sugi thinnings clear the way for native broadleaf regrowth and reduce flood risk</li>
 <li style="margin-bottom:1mm;"><strong>Biomass CHP energy</strong> — Thinnings fuel a combined heat-and-power unit providing 24/7 local electricity, ending blackouts</li>
@@ -68,7 +68,7 @@
 
 <table style="width:100%; border:none; border-collapse:collapse; border-top:1px solid #eee; padding-top:3mm;"><tr>
 <td style="border:none; vertical-align:middle; padding-top:3mm;">
-<span style="font-size:8.5pt;"><em>The Mitsue-kun Project · Mitsue Village, Nara Prefecture</em></span><br/>
+<span style="font-size:8.5pt;"><em>The BIOMASS ENERGY & AI project · Mitsue Village, Nara Prefecture</em></span><br/>
 <span style="font-size:8.5pt;"><em>Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em></span>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:110px; padding-top:3mm;">
@@ -84,11 +84,11 @@
 <div style="font-family:-apple-system,'Hiragino Sans','Yu Gothic',sans-serif; font-size:9pt; line-height:1.5; color:#1a1a1a;">
 
 <h1 style="font-size:20pt; font-weight:700; margin:0 0 1mm; border-bottom:2px solid #3a7a5a; padding-bottom:2mm; color:#1a1a1a;">法的基盤を、ともにつくる</h1>
-<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">The Mitsue-kun Project · 奈良県御杖村</p>
+<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">The BIOMASS ENERGY & AI project · 奈良県御杖村</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">村が直面していること</h2>
 <p style="margin:0 0 2mm;">奈良県御杖村は、多くの山村と同じ課題を抱えています。人口減少、放置されたスギ人工林、そして老朽化した送電線による停電。しかし御杖村には、他の村にはないものがあります。活用できる施設、すぐそこにある森、冷却に使える川、そして12年間この地に暮らしながら技術と地域をつなぐ人材。</p>
-<p style="margin:0 0 4mm;">御杖くんプロジェクトは、この村の資源を起点に、森林再生・バイオマス熱電併給・カーボンニュートラルなAIデータセンターを一つの循環型システムとして統合します。間伐材が電力を生み、電力がデータセンターを動かし、その収益が森を守る。それぞれが、他を支えます。</p>
+<p style="margin:0 0 4mm;">バイオマスエネルギーとAIは、この村の資源を起点に、森林再生・バイオマス熱電併給・カーボンニュートラルなAIデータセンターを一つの循環型システムとして統合します。間伐材が電力を生み、電力がデータセンターを動かし、その収益が森を守る。それぞれが、他を支えます。</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">今、法的支援が必要な理由</h2>
 <p style="margin:0 0 2mm;">プロジェクトは現在、<strong>フェーズ0</strong>にあります。法人格を正しく設計するこの段階こそ、長期的な成否を分ける時期です。</p>
@@ -135,7 +135,7 @@
 
 <table style="width:100%; border:none; border-collapse:collapse; border-top:1px solid #eee;"><tr>
 <td style="border:none; vertical-align:middle; padding-top:3mm;">
-<span style="font-size:8.5pt;"><em>御杖くんプロジェクト · 奈良県御杖村</em></span><br/>
+<span style="font-size:8.5pt;"><em>バイオマスエネルギーとAI · 奈良県御杖村</em></span><br/>
 <span style="font-size:8.5pt;"><em>Rob Oudendijk（ロブ・アウデンダイク）· oudendijk.biz@gmail.com · 080-2260-5966</em></span>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:110px; padding-top:3mm;">

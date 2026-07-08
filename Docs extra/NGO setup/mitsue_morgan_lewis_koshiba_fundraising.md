@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:9pt; line-height:1.4; color:#1a1a1a;">
 
@@ -9,7 +9,7 @@
 先人が植えた森が、今、村を支える力になる。
 </blockquote>
 
-<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">御杖くんプロジェクト · Mitsue Village, Nara Prefecture, Japan</p>
+<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">バイオマスエネルギーとAI · Mitsue Village, Nara Prefecture, Japan</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">The Opportunity</h2>
 <p style="margin:0 0 2mm;">Japan's mountain villages are disappearing. Mitsue, in Nara Prefecture, is one of them — but the conditions are in place to turn the village's liabilities into a self-sustaining circular system. Aging sugi plantations become biomass fuel. A CHP unit ends recurring blackouts and powers a carbon-neutral AI data center. The data center funds ongoing forest restoration. Native trees grow back. Wildlife returns. The village has power, jobs, and a reason to stay.</p>
@@ -64,7 +64,7 @@
 
 <table style="width:100%; border:none; border-collapse:collapse; border-top:1px solid #eee;"><tr>
 <td style="border:none; vertical-align:middle; padding-top:3mm;">
-<span style="font-size:8.5pt;"><em>The Mitsue-kun Project · Mitsue Village, Nara Prefecture</em></span><br/>
+<span style="font-size:8.5pt;"><em>The BIOMASS ENERGY & AI project · Mitsue Village, Nara Prefecture</em></span><br/>
 <span style="font-size:8.5pt;"><em>Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em></span>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:110px; padding-top:3mm;">
@@ -80,12 +80,12 @@
 <div style="font-family:-apple-system,'Hiragino Sans','Yu Gothic',sans-serif; font-size:9pt; line-height:1.5; color:#1a1a1a;">
 
 <h1 style="font-size:20pt; font-weight:700; margin:0 0 1mm; border-bottom:2px solid #3a7a5a; padding-bottom:2mm; color:#1a1a1a;">次世代への贈り物として ― フィランソロピーという選択</h1>
-<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">The Mitsue-kun Project · 奈良県御杖村</p>
+<p style="font-size:8.5pt; color:#555; margin:2mm 0 5mm; font-style:italic;">The BIOMASS ENERGY & AI project · 奈良県御杖村</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">村の物語</h2>
 <p style="margin:0 0 2mm;">奈良県の山中に、御杖村という小さな村があります。人口は800人を切り、毎年減り続けています。山の斜面にはスギが密植され、在来の森はその影で育つことができません。老朽化した送電線は、すでに停電を引き起こしています。</p>
 <p style="margin:0 0 2mm;">しかし、この村には他にはないものがあります。活用できる施設、手の届く森、冷却に使える川。そして2012年からこの地に暮らし、技術と地域の両方を深く知る人間がいます。</p>
-<p style="margin:0 0 4mm;">御杖くんプロジェクトは、間伐材が電力を生み、電力がデータセンターを動かし、その収益が森と村に還る ― 一つの循環型システムです。一つひとつが、他を支えます。</p>
+<p style="margin:0 0 4mm;">バイオマスエネルギーとAIは、間伐材が電力を生み、電力がデータセンターを動かし、その収益が森と村に還る ― 一つの循環型システムです。一つひとつが、他を支えます。</p>
 
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">期待されるインパクト</h2>
 <table style="width:100%; border-collapse:collapse; font-size:8.5pt; margin-bottom:4mm;">
@@ -123,7 +123,7 @@
 
 <table style="width:100%; border:none; border-collapse:collapse; border-top:1px solid #eee;"><tr>
 <td style="border:none; vertical-align:middle; padding-top:3mm;">
-<span style="font-size:8.5pt;"><em>御杖くんプロジェクト · 奈良県御杖村</em></span><br/>
+<span style="font-size:8.5pt;"><em>バイオマスエネルギーとAI · 奈良県御杖村</em></span><br/>
 <span style="font-size:8.5pt;"><em>Rob Oudendijk（ロブ・アウデンダイク）· oudendijk.biz@gmail.com · 080-2260-5966</em></span>
 </td>
 <td style="border:none; vertical-align:middle; text-align:right; width:110px; padding-top:3mm;">

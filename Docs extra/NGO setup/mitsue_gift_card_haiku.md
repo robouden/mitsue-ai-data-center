@@ -1,6 +1,6 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; max-width:148mm; margin:0 auto; padding:12mm; border:1px solid #ccc; text-align:center;">
 
-<p style="font-size:7pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 6mm;">御杖くんプロジェクト · The Mitsue-kun Project</p>
+<p style="font-size:7pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 6mm;">バイオマスエネルギーとAI · The BIOMASS ENERGY & AI project</p>
 
 <div style="border-top:1px solid #3a7a5a; border-bottom:1px solid #3a7a5a; padding:8mm 0; margin:0 0 8mm;">
 

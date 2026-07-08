@@ -4,9 +4,10 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
-<!-- Version: v1.2 | Last modified: 2026-07-05 -->
+<!-- Version: v1.3 | Last modified: 2026-07-08 -->
 
-# Mitsue-kun Project — 御杖くんプロジェクト
+# BIOMASS ENERGY & AI — バイオマスエネルギーとAI
+### Reforesting in Mitsue — 御杖村における地域植林
 
 **A 25-Year Initiative for Forest Restoration, Distributed Renewable Energy, and Community-Owned Digital Infrastructure in Rural Japan.**
 
@@ -26,7 +27,7 @@
 
 ## 1. Executive Summary
 
-The Mitsue-kun Project is a non-profit initiative to repurpose available community facilities — the former Sugano Elementary School (Mitsue Taiken Koryukan), the leading candidate site, or a disused village factory building, the alternative candidate (final site confirmed in Phase 1) — together with the surrounding forested landscape, into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
+The BIOMASS ENERGY & AI project is a non-profit initiative to repurpose available community facilities — the former Sugano Elementary School (Mitsue Taiken Koryukan), the leading candidate site, or a disused village factory building, the alternative candidate (final site confirmed in Phase 1) — together with the surrounding forested landscape, into an integrated demonstration of rural revitalization. The project combines three mutually reinforcing activities — native forest restoration, locally generated biomass CHP energy from sugi forest thinnings (complemented by solar, EV charging, and community backup power), and a small-scale community-owned data center — under a single coordinating organization.
 
 The project is designed to be **modest in scale, fully transparent, and openly replicable**, so that other depopulating municipalities in Japan and beyond can adapt the model to their own circumstances. The 25-year horizon is intentional: it bridges the period between today's rural energy and digital deficits and the anticipated availability of localized small-scale fusion power generation.
 
@@ -49,7 +50,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 ### 3.1 Alignment with the Village's Renewable Energy Plan
 
-In January 2025, Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's statutory decarbonization strategy through 2050. The Mitsue-kun Project is not proposing a competing idea — it is offering to be the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written, funded, and committed to.** The project delivers the plan's explicit targets for a "one resilient distributed-energy site" within the village (currently zero), its priority for EV charging at public facilities (transport = 46% of emissions), its distributed disaster-resilience goals, and the forest-carbon/J-Credit mechanism the plan calls for but cannot deliver alone. Critically, the plan's completion under the MoE planning-support grant (step 1) makes Mitsue eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality through public-private partnership. See [`mitsue_village_re_plan_alignment.md`](mitsue_village_re_plan_alignment.md) for the full analysis.
+In January 2025, Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's statutory decarbonization strategy through 2050. The BIOMASS ENERGY & AI project is not proposing a competing idea — it is offering to be the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written, funded, and committed to.** The project delivers the plan's explicit targets for a "one resilient distributed-energy site" within the village (currently zero), its priority for EV charging at public facilities (transport = 46% of emissions), its distributed disaster-resilience goals, and the forest-carbon/J-Credit mechanism the plan calls for but cannot deliver alone. Critically, the plan's completion under the MoE planning-support grant (step 1) makes Mitsue eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality through public-private partnership. See [`mitsue_village_re_plan_alignment.md`](mitsue_village_re_plan_alignment.md) for the full analysis.
 
 ---
 
@@ -242,8 +243,8 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_brochure_trifold_a3_jp.html` / `.pdf` | A3 trifold brochure (Japanese) |
 | `mitsue_brochure_trifold_a4.html` / `.pdf` | A4 trifold brochure (EN) |
 | `mitsue_brochure_trifold_a4_jp.html` / `.pdf` | A4 trifold brochure (Japanese) |
-| `Mitsue-kun Project Presentation.pptx` | PowerPoint presentation (EN) |
-| `Mitsue-kun Project Presentation - 日本語.pptx` | PowerPoint presentation (Japanese) |
+| `Mitsue Project Presentation.pptx` | PowerPoint presentation (EN) |
+| `Mitsue Project Presentation - 日本語.pptx` | PowerPoint presentation (Japanese) |
 
 **Implementation planning**
 

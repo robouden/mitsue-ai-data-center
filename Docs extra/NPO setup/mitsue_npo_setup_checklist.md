@@ -1,19 +1,20 @@
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">Mitsue-kun Project</h1>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">NPO Setup — Mitsue-kun Project (御杖村)</p>
+<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
+<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">NPO Setup — BIOMASS ENERGY & AI project (御杖村)</p>
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-06-14</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-# NPO Setup — Mitsue-kun Project (御杖村)
+# NPO Setup — BIOMASS ENERGY & AI (御杖村)
 
 特定非営利活動法人 (tokutei hieiri katsudo hojin) — Nara Prefecture jurisdiction
 
@@ -22,7 +23,7 @@
 ## Phase 1 — Founding preparation *(~1–2 months)*
 
 - [ ] **Decide on NPO activities category**
-  Must fall within 1 of 20 approved 特定非営利活動 categories. Mitsue-kun Project likely fits: 'まちづくり推進' (community development), '学術・文化・芸術・スポーツ振興', or '環境保全'. Can list multiple.
+  Must fall within 1 of 20 approved 特定非営利活動 categories. BIOMASS ENERGY & AI project likely fits: 'まちづくり推進' (community development), '学術・文化・芸術・スポーツ振興', or '環境保全'. Can list multiple.
   > `Article 2 NPO Law`
 
 - [ ] **Recruit founding members (社員)**
@@ -54,7 +55,7 @@
   > `定款 (required)` · `Nara Pref. template`
 
 - [ ] **Draft 設立趣意書 (establishment purpose statement)**
-  Free-form narrative explaining why the NPO is being established, background, and vision. This is where the Mitsue-kun Project story goes — forest restoration, school repurposing, data center, community revival.
+  Free-form narrative explaining why the NPO is being established, background, and vision. This is where the BIOMASS ENERGY & AI project story goes — forest restoration, school repurposing, data center, community revival.
   > `設立趣意書`
 
 - [ ] **Draft 事業計画書 (activity plan) — first year**
@@ -165,5 +166,5 @@
   > `Annual obligation`
 
 - [ ] **Consider applying for 認定NPO status (認定・仮認定)**
-  After 1 year of operation, can apply for 認定NPO法人 status from NTA — donors get tax deductions, making fundraising much more effective. Especially relevant for Mitsue-kun Project's international donor network.
+  After 1 year of operation, can apply for 認定NPO法人 status from NTA — donors get tax deductions, making fundraising much more effective. Especially relevant for BIOMASS ENERGY & AI project's international donor network.
   > `After 1 year ops`
