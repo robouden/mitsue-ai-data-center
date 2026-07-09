@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-09</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -28,7 +28,7 @@
 
 This EVM Plan establishes the **Performance Measurement Baseline (PMB)** for the Mitsue Sustainable Energy & AI Data Center project across its four build phases (Phase 0 through Phase 3). It defines how the project will measure schedule and cost performance, report progress to stakeholders, and forecast the cost and date at completion.
 
-The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (Operations & Scale, Month 31+) is not included in the baseline because it is funded differently (operating revenue) and planned in Year 2 once Phase 1 results are confirmed. *The operating revenue model and capital-payback analysis that fund Phase 4 are set out in `mitsue_revenue_model.md` and the Implementation Plan's expanded Phase 4 section — see those documents; this PMB deliberately stops at the end of Phase 3 (construction).*
+The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (Operations & Scale, Month 31+) is not included in the baseline because it is funded differently (operating revenue) and planned in Year 2 once Phase 1 results are confirmed. *The operating revenue model and capital-payback analysis that fund Phase 4 are set out in `mitsue_revenue_model.md` and the Implementation Plan's expanded Phase 4 section — see those documents; this PMB deliberately stops at the end of Phase 3 (construction). The month-by-month funding **inflow** that must keep the cash balance positive against this spend baseline is set out in `mitsue_cashflow_model.md`.*
 
 **Data Date for current baseline**: 2026-05-18 (end of Month 2)
 
@@ -540,18 +540,30 @@ EVM metrics trigger review actions at the following levels. Thresholds are inten
 
 **Schedule threshold override**: If SPI < 0.90 at any funding gate checkpoint, the gate decision is automatically deferred pending a recovery assessment, regardless of CPI.
 
+### 8.1 Liquidity control — cash balance is a hard rule
+
+SPI/CPI measure *efficiency*; they do not tell you whether cash is in the bank. Because inflow arrives in lumps while spend is continuous (see `mitsue_cashflow_model.md`), the project separately tracks the **monthly cash balance = cumulative cash-in − cumulative cash-out** against a mandatory floor:
+
+| Liquidity floor | Rule |
+|---|---|
+| **Phases 0–2** | Balance must stay **≥ ¥5M** (≥ ¥3M absolute minimum at the M7 pinch, when founder capital is the only inflow) |
+| **Phase 3** | Balance must stay **≥ one month of planned burn** (≥ ¥25M at the M25–M26 ¥25M/mo peak) |
+| **Breach forecast** | If the 3-month rolling balance forecast projects a floor breach, the Representative Director triggers a tranche pull-forward or bridge draw **before** the breach month |
+
+These floors are **hard rules, not targets**: a projected breach is a stop/act condition equal in weight to a Red SPI/CPI. The monthly report tracks **balance, not just spend** (§9).
+
 ---
 
 ## 9. EVM Reporting Cadence
 
 | Frequency | Report | Recipients | Content |
 |-----------|--------|------------|---------|
-| **Monthly** | EVM Status Update | Board, key funders | PV/EV/AC table; SPI/CPI; SV/CV; EAC update; issues |
+| **Monthly** | EVM Status Update | Board, key funders | PV/EV/AC table; SPI/CPI; SV/CV; EAC update; **cash balance vs §8.1 liquidity floor + 3-month balance forecast**; issues |
 | **At each Gate** | Gate Review Package | Board + major funders | Full EVM review; scenario forecast; go/no-go recommendation |
 | **Quarterly** | Stakeholder Summary | Village government, advisors | High-level cost and schedule status; milestone progress |
 | **Annual** | Year-End Review | All stakeholders | Full financial report; EVM audit; next-year baseline |
 
-Monthly reports are generated from OpenProject time tracking + invoicing. The first formal monthly EVM report is due **2026-06-30** (end of Phase 0).
+Monthly reports are generated from OpenProject time tracking + invoicing. The first formal monthly EVM report is due **2026-06-30** (end of Phase 0). From Phase 1 onward, every monthly report carries the cash-balance line (cum-in − cum-out) against the §8.1 floor — the project tracks **balance, not just spend**.
 
 ---
 
@@ -564,10 +576,14 @@ Monthly reports are generated from OpenProject time tracking + invoicing. The fi
 - Phase 3 construction prices are based on 2026 Nara Prefecture rural construction indices, with a 15–25% rural mobilisation premium applied to commercial benchmarks for solar PV, EV charging, and seismic retrofit work
 - Exchange rate assumptions (for Dutch/international corporate partnerships): ¥150/EUR
 - Forestry operations are weather-dependent; M19–M23 baseline avoids typhoon season
+- **The ¥28M funding gap is closed and disbursable before Gate 3 (M21).** If it is not, the committed-only forecast runs the cash balance negative at **M28 (Jul 2028)**, the shortfall equalling the gap exactly (see `mitsue_cashflow_model.md` §5)
 
 **Constraints**
 - BAC of ¥220M is a **ceiling**; Phase 3 cannot proceed without confirmed funding at Gate 3
 - Management Reserve requires board approval for any drawdown
+- **The §8.1 liquidity floor is binding:** the monthly cash balance may not fall below the floor; funding tranches must be scheduled to land before the spend they cover
+- **Phase-3 funding tranches must be contracted 2–3 months ahead of their planned disbursement month** to absorb grant pay-in-arrears lag
+- **A ~¥25M bridge facility** (bank line, Management Reserve draw, or signed-grant advance) must be arranged before Gate 3 as the working-capital shock absorber for the M22–M28 burn peak
 - EVM data must be reported in JPY; foreign currency transactions converted at transaction-date rate
 - The Phase 1 feasibility studies are the **single largest driver of overall project accuracy** — all EAC figures before M9 carry high uncertainty (±40%)
 
@@ -598,7 +614,7 @@ The PMB may be formally revised:
 Each baseline revision is documented with: old baseline, new baseline, reason, approving authority, and date. Revisions are numbered:
 - **Rev 0** (v1.1, Apr 2026) — Original BAC ¥168M, drafted from planning estimates
 - **Rev 1** (v2.0, May 2026) — Current document. BAC ¥220M, reality-checked against real-world Japan benchmarks (solar, EV chargers, school seismic retrofit, forestry). Reason: pre-emptive correction in advance of Phase 1 feasibility studies.
-- **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes. **Should also fold in any confirmed 地域脱炭素移行・再エネ推進交付金 amount** (2/3–3/4 subsidy on solar/battery/EV/private-wire capex, via village 官民連携) — the primary named path to closing the ¥28M–¥53M gap during Phases 2–3. Sources: https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
+- **Rev 2** (planned M9, Dec 2026) — Post-Phase 1 revision anchored to feasibility study results and vendor quotes. **Should also fold in any confirmed 地域脱炭素移行・再エネ推進交付金 amount** (2/3–3/4 subsidy on solar/battery/EV/private-wire capex, via village 官民連携) — the primary named path to closing the ¥28M–¥53M gap during Phases 2–3, which **must be secured and disbursable before Gate 3 (M21)**, not deferred to end-of-project (see `mitsue_cashflow_model.md` §5). Rev 2 must also **re-time the cashflow model to the live Gantt** in lockstep with the cost re-sync, and fold in confirmed 交付金 disbursement dates and any bridge-loan terms. Sources: https://policies.env.go.jp/policy/roadmap/grants/ · https://www.env.go.jp/content/900470616.pdf
 
 **Two additional FY2026 subsidy tracks (identified 2026-07-06)** — both fund the biomass-power-plus-data-center model directly and should be evaluated at Rev 2:
   - **経産省 GX地域共創補助金 (脱炭素電源地域貢献型投資促進事業)** — ¥210B FY2026 pool, integrated support for *decarbonized power + DC/factory* build-out; Round 1 Jul–Sep 2026, Round 2 autumn–winter 2026, 38 regions pre-screened. Strongest structural match (biomass power + compute co-located). Source: https://sustainablejapan.jp/2026/05/30/meti-gx-local/126036
