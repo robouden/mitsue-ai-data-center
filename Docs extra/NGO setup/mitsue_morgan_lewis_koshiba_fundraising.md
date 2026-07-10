@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-08 -->
+<!-- Version: v1.2 | Last modified: 2026-07-11 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:9pt; line-height:1.4; color:#1a1a1a;">
 
@@ -42,11 +42,11 @@
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">Where Philanthropy Is Needed</h2>
 <table style="width:100%; border-collapse:collapse; font-size:8.5pt; margin-bottom:2mm;">
 <tr style="background:#f0f7f3;"><td style="padding:2mm 3mm; border:1px solid #ccc;">Total project budget</td><td style="padding:2mm 3mm; border:1px solid #ccc; font-weight:bold;">¥245M (~$1.6M)</td></tr>
-<tr><td style="padding:2mm 3mm; border:1px solid #ccc;">Raised / committed</td><td style="padding:2mm 3mm; border:1px solid #ccc;">¥192M</td></tr>
+<tr><td style="padding:2mm 3mm; border:1px solid #ccc;">Funding target (¥0 raised/committed to date)</td><td style="padding:2mm 3mm; border:1px solid #ccc;">¥192M</td></tr>
 <tr style="background:#f0f7f3;"><td style="padding:2mm 3mm; border:1px solid #ccc;">Funding gap</td><td style="padding:2mm 3mm; border:1px solid #ccc; font-weight:bold; color:#c0392b;">¥28M–¥53M</td></tr>
 <tr><td style="padding:2mm 3mm; border:1px solid #ccc;">Phase 3 completion</td><td style="padding:2mm 3mm; border:1px solid #ccc;">September 2028</td></tr>
 </table>
-<p style="margin:0; font-size:8.5pt; color:#444;">This tranche covers Phase 0 feasibility, legal entity formation, and early infrastructure that de-risks the government grant applications. <strong>Philanthropic capital here is catalytic</strong> — it makes the ¥192M already committed actually move.</p>
+<p style="margin:0; font-size:8.5pt; color:#444;">This tranche covers Phase 0 feasibility, legal entity formation, and early infrastructure that de-risks the government grant applications. <strong>Philanthropic capital here is catalytic</strong> — it is what actually lets us begin securing the ¥192M target stack, none of which is committed yet.</p>
 </td>
 <td style="width:50%; vertical-align:top;">
 <h2 style="font-size:11pt; font-weight:700; margin:0 0 2mm; color:#3a7a5a;">What We Are Looking For</h2>

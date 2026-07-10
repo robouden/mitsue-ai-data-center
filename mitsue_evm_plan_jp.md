@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-09</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -524,7 +524,7 @@ SPI/CPIは*効率*を測るものであり、手元資金の有無は示しま�
 - 各調査は単一ベンダーに発注（分割発注なし）
 - フェーズ3建設費は2026年奈良県農村部建設指数に基づく。太陽光発電、EV充電、耐震改修については、商用ベンチマークに15〜25%の農村部動員プレミアムを上乗せ
 - 為替レート前提（蘭系・国際コーポレートパートナー向け）：¥150/EUR
-- **¥28Mの資金ギャップはゲート3（M21）までに確保され、支出可能であること。** そうでない場合、確定済み資金のみの予測では資金残高が**M28（2028年7月）にマイナス**となり、その不足額はギャップとちょうど一致する（`mitsue_cashflow_model_jp.md` §5参照）
+- **¥28Mの資金ギャップはゲート3（M21）までに確保され、支出可能であること。** ¥192Mの目標スタックが計画どおり実現した最良ケース（現時点で未確保）でも、資金残高が**M28（2028年7月）にマイナス**となり、その不足額はギャップとちょうど一致する（`mitsue_cashflow_model_jp.md` §5参照）
 
 **制約条件**
 - BAC ¥220Mは**上限**；ゲート3での確定資金なしにP3は着手不可

@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-09</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -159,27 +159,27 @@ flowchart TB
 
 ---
 
-## Funding Stack — Current Position (Baseline Rev 1, May 2026)
+## Funding Stack — Target / Pipeline (Baseline Rev 1, May 2026) — nothing secured yet
 
-| Funding Layer | Source | Amount (¥M) |
-|---|---|---|
-| L1 — Founders | Founder capital (Rob Oudendijk) | ¥6M |
-| L2 — Government Grants | National + prefectural + municipal grants | ¥115M |
-| L3 — Foundations | Philanthropic foundations | ¥33M |
-| L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M |
-| L5 — Operating Revenue | Early data center, biomass/solar energy, and EV revenue | ¥3M |
-| **Total Raised / Committed** | | **¥192M** |
-| | | |
-| **BAC (PMB)** | Project budget baseline | **¥220M** |
-| **Management Reserve** | Board-controlled reserve | ¥25M |
-| **Total Project Budget** | | **¥245M** |
-| | | |
-| **Funding Gap vs BAC** | Additional funding required to meet BAC | **¥28M** |
-| **Funding Gap vs Total Budget** | Additional funding required including MR | **¥53M** |
+| Funding Layer | Source | Target Amount (¥M) | Secured to date |
+|---|---|---|---|
+| L1 — Founders | Founder capital (Rob Oudendijk) | ¥6M | ¥0 (not yet committed) |
+| L2 — Government Grants | National + prefectural + municipal grants | ¥115M | ¥0 (not applied/awarded) |
+| L3 — Foundations | Philanthropic foundations | ¥33M | ¥0 (not applied/awarded) |
+| L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M | ¥0 (not applied/awarded) |
+| L5 — Operating Revenue | Early data center, biomass/solar energy, and EV revenue | ¥3M | ¥0 (pre-revenue) |
+| **Total Funding Target (unsecured)** | | **¥192M** | **¥0** |
+| | | | |
+| **BAC (PMB)** | Project budget baseline | **¥220M** | |
+| **Management Reserve** | Board-controlled reserve | ¥25M | |
+| **Total Project Budget** | | **¥245M** | |
+| | | | |
+| **Funding Gap vs BAC** | Additional funding required to meet BAC, if target stack fully lands | **¥28M** | |
+| **Funding Gap vs Total Budget** | Additional funding required including MR, if target stack fully lands | **¥53M** | |
 
-> **Note:** The ¥28M–¥53M funding gap is to be closed through additional government grants, new corporate partnerships, or bridge financing secured during Phase 2 (M10–M18). The funding stack above reflects commitments and realistic pipeline as of May 2026 — it is not a target to be artificially inflated. The gap is shown explicitly because stakeholders deserve an honest picture. **A named, concrete path to closing a meaningful part of this gap is the village-led 地域脱炭素移行・再エネ推進交付金 (MoE, step 2 of the national decarbonization funding ladder): 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the village via official 官民連携, targeting Phases 2–3.** L2 (Government grants) in Diagram 2 now includes this route routed through the municipality. Baseline Rev 2 (due M9, Dec 2026) should fold in any confirmed 交付金 amount.
+> **Note — nothing is committed yet.** The table above is a **funding target / pipeline**, not raised or secured money. As of May 2026, ¥0 has actually landed across all five layers — including L1 founder capital. Every figure is a planning assumption to be pursued and replaced with confirmed amounts as agreements land; the ¥28M–¥53M gap figures assume the ¥192M target stack is fully realized — if it is not, the true shortfall is larger. **A named, concrete path to closing a meaningful part of the gap is the village-led 地域脱炭素移行・再エネ推進交付金 (MoE, step 2 of the national decarbonization funding ladder): 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the village via official 官民連携, targeting Phases 2–3.** L2 (Government grants) in Diagram 2 now includes this route routed through the municipality. Baseline Rev 2 (due M9, Dec 2026) should fold in any confirmed 交付金 amount.
 
-> **Timing rule (cashflow model).** The gap is not just a budget shortfall — it is a **cash wall in a specific month.** With only the ¥192M currently committed, the monthly cash balance runs **negative at M28 (Jul 2028)**, bottoming at −¥28M (= the gap exactly). It must therefore be **secured *and disbursable* before Gate 3 (M21)**, not at end-of-project, and a **~¥25M bridge facility** held as the shock absorber for the Phase-3 burn peak. See `mitsue_cashflow_model.md` §5 and EVM plan §8.1 / §10.
+> **Timing rule (cashflow model).** The gap is not just a budget shortfall — it is a **cash wall in a specific month.** Even in the best case where the full ¥192M target stack lands as planned (none of it is secured today), the modeled cash balance runs **negative at M28 (Jul 2028)**, bottoming at −¥28M (= the gap exactly). Funding must therefore be **secured *and disbursable* before Gate 3 (M21)**, not at end-of-project, and a **~¥25M bridge facility** held as the shock absorber for the Phase-3 burn peak. See `mitsue_cashflow_model.md` §5 and EVM plan §8.1 / §10.
 
 > **Sources:** MoE — 地域脱炭素移行・再エネ推進交付金: https://policies.env.go.jp/policy/roadmap/grants/ · 実施要領（補助率 2/3・3/4 条件）: https://www.env.go.jp/content/900470616.pdf
 

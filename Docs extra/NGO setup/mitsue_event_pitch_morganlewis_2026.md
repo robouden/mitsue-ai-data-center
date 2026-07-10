@@ -7,8 +7,8 @@
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -44,8 +44,8 @@ The MoE Renewable Energy Promotion Grant (交付金 2/3–3/4 subsidy) opens a n
 
 **Financials (Baseline Rev 1, May 2026)**
 - Total project budget: ¥245M (~$1.6M USD)
-- Raised / committed: ¥192M
-- Funding gap: **¥28M–¥53M** — the target for philanthropy and impact capital
+- Funding target (unsecured; **¥0 raised or committed to date**): ¥192M
+- Funding gap if the target is fully realized: **¥28M–¥53M** — the target for philanthropy and impact capital
 - Timeline: 30 months, Phase 3 completion Sep 2028
 
 **Legal structure**

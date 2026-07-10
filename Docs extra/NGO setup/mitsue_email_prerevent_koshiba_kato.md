@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-08 -->
+<!-- Version: v1.2 | Last modified: 2026-07-11 -->
 
 ---
 
@@ -28,7 +28,7 @@ My name is Rob Oudendijk. I am the founder of the BIOMASS ENERGY & AI project, a
 
 I noticed we are both attending the Morgan Lewis impact investing event in July and wanted to introduce myself beforehand.
 
-We are currently establishing a **一般社団法人** as the project's operating entity and are exploring the role of philanthropic capital in closing a ¥28M–¥53M funding gap (our total project budget is ¥245M, of which ¥192M is committed). Beyond capital, we are looking for expertise on how to structure our philanthropy relationships as the project scales toward public-interest designation (公益認定).
+We are currently establishing a **一般社団法人** as the project's operating entity and are exploring the role of philanthropic capital in closing a ¥28M–¥53M funding gap (our total project budget is ¥245M; the ¥192M funding stack is a target we are pursuing, not yet secured). Beyond capital, we are looking for expertise on how to structure our philanthropy relationships as the project scales toward public-interest designation (公益認定).
 
 Your work at Philanthropy Advisors sits at exactly this intersection, and I would welcome the chance to exchange ideas for **10 minutes at the event** — or at a time convenient for you.
 

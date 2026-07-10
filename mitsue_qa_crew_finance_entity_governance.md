@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-07-09 -->
+<!-- Version: v1.1 | Last modified: 2026-07-11 -->
 
 # BIOMASS ENERGY & AI — Q&A: Crew, Financial Model, Entity Structure, Governance
 
@@ -39,7 +39,7 @@ Two budget tiers exist — kept separate, not on the same books.
 | **Phase 3 total** | **177** |
 | Management reserve | 25 |
 | **Total project budget** | **245** |
-| Funding raised/committed | 192 (gap: ¥28–53M) |
+| Funding target (unsecured; ¥0 raised/committed to date) | 192 (gap if fully realized: ¥28–53M) |
 
 ### Phase 4 forward capital (outside the PMB, funded by grants + operating revenue)
 

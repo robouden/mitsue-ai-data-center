@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-09 -->
+<!-- Version: v1.2 | Last modified: 2026-07-11 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -24,7 +24,7 @@
 
 Because spending is continuous but funding arrives in lumps, each tranche must **land in or before the month the balance would otherwise breach the floor.** We target a **minimum floor of ~¥3–5M** early (Phases 0–1, when monthly burn is tiny) and a larger absolute buffer through Phase 3 (when burn peaks at ¥25M/month — a single late tranche can blow a ¥25M hole in one month).
 
-All figures are illustrative, consistent with the EVM PMB (BAC ¥220M) and the funding stack (¥192M committed, ¥28M gap). They set the **shape and timing** of inflow, not vetted amounts — Phase 1 feasibility + confirmed grant awards replace them at Baseline Rev 2 (Dec 2026).
+All figures are illustrative, consistent with the EVM PMB (BAC ¥220M) and the funding stack (¥192M target, ¥28M gap if the target is fully realized). **None of the ¥192M is secured yet** — including the ¥6M founder-capital layer. They set the **shape and timing** of inflow, not vetted amounts — Phase 1 feasibility + confirmed grant awards replace them at Baseline Rev 2 (Dec 2026).
 
 ---
 
@@ -103,16 +103,16 @@ The balance stays **positive every month**, with the thinnest point at **M7 (¥3
 | M30 | Sep'28 | 7.25 | 220.00 | 1 | 229 | **9.00** |
 
 **Two binding constraints the schedule is built around:**
-1. **M7 (Oct 2026) — the early pinch.** Founder capital (¥6M) is the *only* money in for the first 7 months. If the M8 planning grant slips, or early spend overruns, the balance breaches zero here. *Mitigant: keep founder/seed capital ≥¥6M, or secure a small Gate-1 bridge by M7.*
+1. **M7 (Oct 2026) — the early pinch.** Planned founder capital (¥6M, not yet committed) is modeled as the *only* money in for the first 7 months. If it is not actually secured by then, or the M8 planning grant slips, or early spend overruns, the balance breaches zero here. *Mitigant: commit founder/seed capital ≥¥6M before Phase 0 spend begins, or secure a small Gate-1 bridge by M7.*
 2. **M21–M27 (Phase 3) — the burn cliff.** At ¥20–25M/month, cash-in timing risk is severe: a one-month grant delay = a ¥25M hole. Every Phase-3 tranche must be **contracted well ahead of its landing month**, because grants often pay *in arrears*. *Mitigant: front-load the 交付金 tranche to M21 (Phase-3 start) and hold the bridge (§5) as the shock absorber.*
 
 ---
 
-## 5. The committed-only reality: where it runs dry
+## 5. The target-stack-only reality: where it runs dry
 
-With **only the ¥192M currently committed** (no gap-closing tranche), the balance goes **negative at M28 (Jul 2028)** and bottoms at **−¥28M at M30** — i.e. the end-of-project shortfall is *exactly* the known ¥28M funding gap.
+This is the **best case**, not a floor: it assumes the full ¥192M target stack lands exactly as planned, with no gap-closing tranche. **None of the ¥192M is secured today.** Even in that best case, the balance goes **negative at M28 (Jul 2028)** and bottoms at **−¥28M at M30** — i.e. the end-of-project shortfall is *exactly* the known ¥28M funding gap. If the target stack itself is not fully realized, the shortfall is larger and arrives sooner.
 
-| Month | Cum-out | Cum-in (committed only) | Balance |
+| Month | Cum-out | Cum-in (target stack only) | Balance |
 |---|---|---|---|
 | M26 | 157.75 | 171 | +13.25 |
 | M27 | 178.25 | 189 | +10.75 |
@@ -139,7 +139,7 @@ As the framing notes, early inflow is **lumpy, not monthly**:
 ## 7. Recommendations
 
 1. **Adopt the ~¥3–5M early floor and the Phase-3 buffer as hard rules** in the monthly EVM report — track *balance*, not just spend.
-2. **Close the ¥28M gap before Gate 3 (M21),** not at end-of-project. Until closed, the committed-only line (§5) is the true forecast and it fails in M28.
+2. **Close the ¥28M gap before Gate 3 (M21),** not at end-of-project. Until the target stack is actually secured, the target-stack-only line (§5) is the *best-case* forecast and it still fails in M28.
 3. **Contract every Phase-3 tranche 2–3 months ahead of its landing month** to absorb grant pay-in-arrears lag.
 4. **Arrange a ~¥25M bridge facility** (bank line, MR draw, or grant advance) as the shock absorber for the burn cliff.
 5. **Re-time this model to the live Gantt at Baseline Rev 2 (Dec 2026)** alongside the cost re-sync, and fold in confirmed 交付金 amounts and any loan terms.
@@ -150,7 +150,7 @@ As the framing notes, early inflow is **lumpy, not monthly**:
 
 ## Sources & status
 
-Cash-out figures: `mitsue_evm_plan.md` §4 (Baseline Rev 1). Funding stack: `mitsue_phases_funding_flowchart.md` (¥192M committed, ¥28M gap). Tranche amounts and months are illustrative planning figures, not committed disbursement dates — to be replaced by confirmed grant/loan schedules at Baseline Rev 2. Operating-revenue onset per `mitsue_revenue_model.md`.
+Cash-out figures: `mitsue_evm_plan.md` §4 (Baseline Rev 1). Funding stack: `mitsue_phases_funding_flowchart.md` (¥192M target, ¥0 secured, ¥28M gap if fully realized). Tranche amounts and months are illustrative planning figures, not committed disbursement dates — to be replaced by confirmed grant/loan schedules at Baseline Rev 2. Operating-revenue onset per `mitsue_revenue_model.md`.
 
 ---
 

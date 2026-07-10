@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.7</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-09</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -576,7 +576,7 @@ Monthly reports are generated from OpenProject time tracking + invoicing. The fi
 - Phase 3 construction prices are based on 2026 Nara Prefecture rural construction indices, with a 15–25% rural mobilisation premium applied to commercial benchmarks for solar PV, EV charging, and seismic retrofit work
 - Exchange rate assumptions (for Dutch/international corporate partnerships): ¥150/EUR
 - Forestry operations are weather-dependent; M19–M23 baseline avoids typhoon season
-- **The ¥28M funding gap is closed and disbursable before Gate 3 (M21).** If it is not, the committed-only forecast runs the cash balance negative at **M28 (Jul 2028)**, the shortfall equalling the gap exactly (see `mitsue_cashflow_model.md` §5)
+- **The ¥28M funding gap is closed and disbursable before Gate 3 (M21).** Even in the best case where the ¥192M target stack lands as planned (none of it secured today), the cash balance runs negative at **M28 (Jul 2028)**, the shortfall equalling the gap exactly (see `mitsue_cashflow_model.md` §5)
 
 **Constraints**
 - BAC of ¥220M is a **ceiling**; Phase 3 cannot proceed without confirmed funding at Gate 3

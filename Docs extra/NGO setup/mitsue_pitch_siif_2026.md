@@ -7,8 +7,8 @@
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -62,7 +62,7 @@ The village currently suffers from blackouts. The microgrid (biomass CHP + solar
 
 ### Project snapshot
 - **Location:** 御杖村, Nara Prefecture
-- **Budget:** ¥245M total | ¥192M committed | ¥28M–¥53M gap
+- **Budget:** ¥245M total | ¥192M funding target (¥0 raised/committed to date) | ¥28M–¥53M gap if target is fully realized
 - **Legal entity:** 一般社団法人 (being established; public-interest designation planned)
 - **Timeline:** 30 months, Phase 3 completion Sep 2028
 - **Primary energy:** Biomass CHP from sugi thinnings (solar + battery + EV charging complementary)
