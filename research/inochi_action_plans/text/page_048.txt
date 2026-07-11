@@ -1,0 +1,76 @@
+48
+Declaration 2-5
+A conceptual model illustrating this integrated
+approach shows how combining healthcare and
+welfare data can lead to better care and support.
+Conventional AI models have focused on quanti-
+tative data such as clinical records and care logs.
+However, these data alone cannot fully grasp
+the experiences and perceptions of patients.
+New models must include qualitative data such
+as patient and caregiver narratives. This richer
+data enables deeper understanding of patients’
+environments and social contexts. This approach
+is called “CHR” (Contextual Health Records)—
+a framework that allows all stakeholders in
+healthcare and caregiving to share insights about
+patients’ lives and needs, enabling more person-
+alized care and preventive interventions. CHR aims to ele-
+vate the quality of both care and support by offering optimal,
+individualized services.
+To advance this initiative, several concrete steps are be-
+ing taken. To begin with, to gain a deeper understanding
+of the experiences of patients and caregivers, the project
+will collect qualitative data such as nursing and caregiving
+records, as well as patient narratives, and integrate them
+with electronic health records (EHRs) and personal health
+records (PHRs) into a unified, large-scale database. Next,
+the project will employ natural language processing (NLP)
+technologies to convert the collected data into formats that
+can be easily interpreted by AI systems. This will allow AI to
+learn from patients’ lifestyles and perspectives, enabling it to
+propose care plans tailored to individual needs.
+Furthermore, the project will develop new AI predictive
+models that combine both quantitative and qualitative data,
+aiming to improve disease prevention and optimize care-
+giving. These models will be tested in real healthcare and
+welfare settings, where their effectiveness will be validat-
+ed by comparing predicted outcomes with actual results,
+thereby enhancing the model’s accuracy. In addition, the
+project plans to host workshops in community spaces such
+as public libraries and civic centers. These workshops will
+not only help gather more qualitative data through people’s
+personal stories but also promote a better understanding of
+the role and value of AI-based models in healthcare.
+Through its participation in these activities, the Inochi
+Forum seeks to improve the quality and sustainability of
+care by offering more personalized, empathetic support to
+patients and caregivers, and by strengthening collaboration
+between science and society.
+[References]
+・BMJ Health & Care Informatics: Roadmap for Developing and
+Evaluating AI Models
+https://informatics.bmj.com/content/30/1/e100784
+・Milliman: AI and Predictive Analytics in Healthcare
+https://www.milliman.com/en/insight/ai-and-predictiveanalyt-
+ics-are-transforming-healthcare-heres-how
+・The University of Osaka SSI: Science and Humanity Core Project
+https://www.ssi.osaka-u.ac.jp/activity/core/sciencehumanity/
+[Action Platform]
+Medical and Welfare
+[SDGs]
+As medical technologies have advanced worldwide, we
+have seen significant progress in the prevention and treat-
+ment of many illnesses, including diseases once consid-
+ered incurable, such as cancer. These developments have
+undoubtedly contributed to increased life expectancy in
+many countries.
+At the same time, advancements in diagnostics have led
+to the identification of a growing number of rare diseases.
+These conditions—often referred to as “rare and intractable
+diseases”—affect relatively small populations and typically
+2-5-5
+Create systems that listen to and engage with the thoughts and voices of those living with
+diseases that still lack effective treatments, working together toward solutions rooted in
+empathy and shared determination.
+Image of the new AI prediction model (CHR)

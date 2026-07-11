@@ -1,0 +1,81 @@
+96
+Declaration 4-4
+hubs are known as “scale-free net-
+works,” characterized by resilience to
+random disruptions and high informa-
+tion transmission efficiency. The inter-
+net is a prime example, where search
+engines like Google serve as hubs,
+enabling users to navigate billions of
+websites in just a few clicks. Similarly,
+the third sector’s social network, by
+virtue of these hubs, allows for the rap-
+id spread of information and efficient
+sharing of knowledge and resources.
+Hubs play a pivotal role in connecting
+people in response to problems, mobi-
+lizing knowledge and assets, clarifying
+issues, and fostering the emergence of
+solutions.
+Too often, efforts—via selection and concentration— focus
+on problems that are well-defined and already have clear
+solutions. As a result, wicked problems that are ambiguous
+and lack obvious solutions tend to be neglected. To contin-
+ue addressing such complex issues effectively, the Inochi
+Forum will collaborate with governments, businesses, and
+third-sector organizations to identify hub individuals, clarify
+the conditions that enable them to thrive, and work to en-
+sure that by 2030, a supportive environment is established
+in which hubs can fully play their roles. We will advocate for
+this to be positioned within national policies, the SDGs, and
+post-SDG goals through engagement with diverse stake-
+holders.
+[References]
+・Networks as a solution to ‘difficult problems’: What are the ‘hubs’
+that hold the key to disaster recovery doing?
+https://ssir-j.org/networks_as_a_way_to_solve_wicked_prob-
+lems/
+・Sugano, Taku (2020). Innovation Birthed by Connection: The
+Third Sector and Emergent Communities, Nakanishiya Publish-
+ing.
+・Sugano, Taku (2022). “Weaving Networks: The Role of People
+Who Connect Others,” in Solving Wicked Problems Together,
+edited by Takao Dome and Goro Yamazaki, Sekai Shisosha.
+[Action Platform]
+SDGs+Beyond
+[SDGs]
+Since 2012, RELEASE; has been working as a non-profit
+organization to create an economy welcomed by the future.
+Inspired by the biodiversity of our blue planet, they seek to
+connect cultural diversity*1
+to the future by discovering, em-
+bodying, and widely sharing businesses, ideas, and meth-
+odologies that create a “beautiful economic landscape.”
+In September 2020, RELEASE; called for the idea of “Com-
+munity Based Economy” together with over 100 volunteers
+both in Japan and abroad*2
+.This movement was influenced
+by the Declaration of Community-based Companies in
+Kyoto, which begins with the statement: “A company must
+have a philosophy”*3
+. In response to this declaration, which
+asserts that companies should prioritize people, nature,
+and local communities, root themselves in their regions,
+and sustain and develop together, Kyoto City enacted the
+Ordinance for the Sustainable Development of Commu-
+nity-based Companies in April 2019*4
+. This ordinance has
+helped promote regional economic development and sup-
+ported business management that values diverse forms of
+capital, including nature and culture.
+RELEASE; was deeply involved in the entire process that led
+to the emergence of this declaration and ordinance, explor-
+ing why Kyoto could be a city where such initiatives were
+proposed by a consensus of private enterprises and unani-
+4-4-3
+Practice business that fulfills the aspirations of communities that nurture cultural diversity,
+and together create a beautiful economic landscape welcomed by the future.
+Diagram: Social Network of Key Third-Sector Figures (June 23, 2016)
+A single circle represents one person; size reflects the number of mentions. Circles are grouped by region, and lines
+between circles indicate social connections.
+(Source: Sugano, 2020)

@@ -1,0 +1,77 @@
+31
+Declaration 2-2
+With the spread of digital society, our lives have become
+increasingly convenient. We now shop, interact, and com-
+municate online as a routine part of daily life. However,
+major social issues have also emerged—such as identity
+fraud, where it is unclear whether we are truly communicat-
+ing with the intended person, and fake news, which makes
+it difficult to verify the accuracy of information.
+In recent years, the relationship between our “digital self”
+and our “real-world self” has undergone major changes. On-
+line harassment and defamation have led some to feel that
+their “digital self” is under threat—sometimes with devas-
+tating real-world consequences, including loss of life. There
+have also been cases where individuals’ digital selves are
+impersonated or have their information harvested without
+consent. These trends reveal a digital imbalance of power,
+creating new forms of social and economic inequality.
+The “digital self” is also referred to as a “digital identity.”
+Across the globe, international standardization organiza-
+tions are working toward the development of a reliable digi-
+tal society where digital identities can be handled securely.
+To build a trustworthy digital society, three elements are
+crucial:
+1. Verifiability: The ability for individuals to confirm that peo-
+ple or data have not been tampered with.
+2. Controllability: The ability for individuals to manage and
+control their own personal data.
+3. Interoperability: The ability for different systems and ser-
+vices to connect and exchange data seamlessly.
+First, regarding verifiability, Japan’s government is ad-
+vancing the “Trusted Web” initiative. This initiative is part
+of efforts to realize the DFFT (Data Free Flow with Trust)
+concept adopted at the 2019 G20 Osaka Summit. DFFT
+aims to promote international, borderless data flows that
+2-2-3
+Create a society where mutual trust is possible both online and offline. To achieve this, we
+must leverage digital technologies that prevent identity fraud and enable secure communi-
+cation.
+access to information
+From the “Bond Inochi” perspective:
+●Building new communities by organically integrating
+online and offline dialogue
+●Creating spaces that foster intergenerational and interre-
+gional conversations
+●Realizing novel collaborations that connect citizens, gov-
+ernments, and multistakeholders
+Looking beyond SDGs, there is a pressing need to create
+cross-regional networks of community-based Inochi wisdom
+on a global scale. Decidim can serve as the digital archive in-
+frastructure for such an initiative. It also supports the United
+Nations’ concept of “Digital Public Goods” and contributes
+to the establishment of digital commons—where intergener-
+ational and interregional knowledge and experience can be
+shared universally through accessible digital tools.
+The Inochi Forum will continue working with diverse or-
+ganizations to expand the potential of civic tech, while
+preserving these collaborative efforts as a living record of
+action toward a more inclusive future.
+[References]
+・Decidim
+https://www.decidim.barcelona/
+・Barcelona Decidim
+https://www.decidim.barcelona/
+・NYC Civic Engagement Commission
+https://www.participate.nyc.gov/
+・Citizen Participatory Consensus Platform, Kakogawa City
+https://kakogawa.diycities.jp/
+・Inochi Forum Decidim
+https://inochi-forum.makeour.city/
+・United Nations Secretary-General’s Roadmap for Digital Coop-
+eration
+https://www.un.org/en/content/digital-cooperation-roadmap/
+[Action Platform]
+SDGs+Beyond
+[SDGs]
+Source: ITOCHU Techno-Solutions Corporation

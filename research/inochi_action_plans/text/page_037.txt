@@ -1,0 +1,81 @@
+37
+Declaration 2-4
+Humanity has spent a long-time shaping today’s living envi-
+ronment. Many cities have experienced development, and
+within these urban spaces, a wide range of services neces-
+sary for human activity are provided. These include housing
+and building structures that offer shelter functions; trans-
+portation systems enabling mobility; energy supply systems
+that drive urban operations; production systems that extract
+resources from nature and convert them into useful forms;
+and waste treatment and resource circulation systems that
+manage waste and recycle materials. Through these various
+systems that support urban life, mechanisms have evolved
+to autonomously enhance functionality, convenience, com-
+fort, efficiency, safety, stability, cost-effectiveness, and envi-
+ronmental sustainability.
+At the same time, it is now clear that, as seen in the tangible
+impact of climate change due to greenhouse gas emissions,
+our environmental burden is increasing beyond the limits
+of Earth’s ability to maintain stability-known as “Planetary
+Boundaries”*1
+. In response to this reality, requirements for
+achieving a sustainable society have been articulated-such
+as “carbon neutrality” in climate change mitigation and
+nature positive in ecosystem conservation. These devel-
+opments call for the formulation of concrete strategies and
+their social implementation. However, the changes required
+are vast and urgent: for instance, to achieve the 1.5°C global
+warming target, carbon neutrality by 2050 demands an
+annual reduction rate of 4%. Therefore, mere improvements
+based on existing system structures are no longer sufficient.
+What is needed is structural change across systems and
+integration between them.
+The Urban Energy Systems Lab of the Graduate School
+of Engineering, (The University of Osaka) has particularly fo-
+cused on modeling energy demand within the housing and
+building stock and conducting scenario analysis toward
+decarbonization. Within this field, conventional measures
+have included introducing various energy-saving tech-
+nologies, shifting energy sources in thermal applications
+like air conditioning and water heating, and promoting the
+use of renewable energy, primarily solar power. However,
+the IPCC’s Sixth Assessment Report*2
+highlights the need
+to go beyond existing measures by adopting digital solu-
+tions, encouraging behavioral and lifestyle changes among
+residents and users, and promoting integrated operation
+between demand and supply sides of services. These broad
+perspectives are necessary to envision system change and
+advance integration across systems and sectors. Likewise,
+such extensive and rapid transformations are also required
+in related domains.
+Furthermore, Osaka Prefecture and City have been selected
+alongside Tsukuba City for the Japanese Cabinet Office’s
+Super City initiative. The Osaka Super City Project is in-
+volved in constructing the Osaka Regional Data Exchange
+Network (ORDEN), which is expected to evolve into a dig-
+ital twin of the city. At The University of Osaka’s D3 Center,
+joint research on digital twins for smart cities and smart
+buildings is being conducted in collaboration with Daikin
+Industries through the D-child initiative. In addition, the cen-
+ter is researching evacuation simulations using digital twins,
+contributing to resilient urban development.
+Given this background, the DX Society Research Division,
+the Institute for Open and Transdisciplinary Research
+Initiative, The University of Osaka and the Urban Energy
+Systems Lab are envisioning an action plan toward 2050
+that includes building a Digital Twin*3
+Platform for system
+integration. This platform will convert and visualize data
+related to housing, urban structures, and infrastructure
+into a 3D urban model. It will comprehensively incorporate
+operational and management data from various systems,
+2-4-1
+Build a shared urban data platform (Digital Twin Platform), and through its utilization and
+system integration, realize decarbonization, zero waste, and disaster resilience—transform-
+ing cities into safe and sustainable environments.
+Declaration 2-4
+Establish sustainable systems for resource recycling and energy circulation to
+protect the Earth’s environment.
+Urban Digital Twin Platform

@@ -1,0 +1,92 @@
+95
+Declaration 4-4
+In recent years, the third sector—comprising non-profit and
+cooperative organizations such as NPOs, NGOs, and coop-
+eratives—has become increasingly involved in addressing
+diverse social challenges. These actors engage in collab-
+orative efforts with businesses and governments to tackle
+so-called “wicked problems,” such as environmental degra-
+dation, refugee support, alternative education, and support
+for the economically disadvantaged—issues that cannot be
+easily resolved through conventional approaches. Follow-
+ing the Great East Japan Earthquake in 2011, such activities
+were also seen in the affected areas. However, the extent
+and effectiveness of these initiatives varied by region. Some
+communities were successful, while others struggled. This
+variation appeared to be strongly influenced by the struc-
+ture of social networks—specifically, the human connections
+within the third sector.
+Taku Sugano from Osaka Metropolitan University conduct-
+ed an interview-based study to analyze these social network
+structures. He asked key figures in the third sector:
+“Please name up to 10 individuals you trusted or relied on
+during the Great East Japan Earthquake. They may be affili-
+ated with government, businesses, or third sector organiza-
+tions. The connections may have existed before or emerged
+after the disaster, and the individuals may reside inside or
+outside of the affected areas.”
+He then interviewed those named—provided they were
+third-sector individuals who had lived in the affected areas
+after the disaster—repeating this process 80 times. In theory,
+this would result in a network of up to 800 key individuals
+(80 people naming up to 10 each). In practice, 459 individ-
+uals were identified. Most respondents named 10 people,
+indicating that many names were mentioned by multiple
+individuals.
+Sugano’s analysis revealed a key feature of this network:
+while most individuals were named only once, a few were
+mentioned repeatedly. These individuals functioned as
+“hubs” with many connections. Networks that include such
+The SDGs illustrate the image of a better world to be
+achieved by 2030. Until now, the SDGs have largely been
+implemented through top-down initiatives led by national
+governments and international cooperation efforts. Going
+forward, it is essential to set original SDG targets and indi-
+cators at the level of local communities—where people can
+see each other’s faces and the surrounding natural environ-
+ment—and to revive community-based collaboration and
+self-governance. Learning from community-level practices, it
+should also be possible to formulate the post-SDGs interna-
+tional development goals through participatory approaches.
+Together with organizations like the JICA Ogata Sadako
+Research Institute for Peace and Development, the Inochi
+Forum will work to realize a society where the dignity of all
+Inochi is secured, starting from the bottom up at the com-
+munity level.
+[References]
+・Research on the Indicator Framework for New International
+Development Goals Beyond 2030
+https://www.jica.go.jp/jica_ri/research/environ-
+ment/1535667_13953.html
+・SDGs and Japan (Japanese and English versions)
+https://www.jica.go.jp/jica_ri/publication/booksandre-
+ports/20201117_01.html
+・SDGs and Local Communities (Japanese and English versions)
+https://www.jica.go.jp/jica_ri/publication/booksandre-
+ports/1531176_21881.html
+・Research Project on the Promotion of Private Sector Engage-
+ment for the Achievement of SDGs (in collaboration with Brook-
+ings Institution)
+https://www.jica.go.jp/jica_ri/research/partner/1515822_24130.
+html
+・Ministry of the Environment, Japan – Regional Circular and
+Ecological Sphere Initiative
+https://chiikijunkan.env.go.jp/
+・Keio University Kawakubo Laboratory – Local SDGs Platform
+https://local-sdgs.jp/?lang=ja
+・Keio University Kawakubo Laboratory – Platform Clover
+https://platform-clover.net/
+・Regional Revitalization SDGs Model Projects (Cabinet Office,
+Japan)
+https://www.chisou.go.jp/tiiki/kankyo/index.html
+・Japan Civil Society Network on SDGs
+https://www.sdgs-japan.net/
+・JICA Ogata Sadako Research Institute for Peace and Develop-
+ment
+https://www.jica.go.jp/jica_ri/index.html
+[Action Platform]
+SDGs+Beyond
+[SDGs]
+4-4-2
+To address complex challenges, identify and empower “hubs” that can connect people be-
+yond their affiliations and disciplines.

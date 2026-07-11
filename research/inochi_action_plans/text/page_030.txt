@@ -1,0 +1,68 @@
+30
+Declaration 2-2
+*2 Forus
+https://www.forus-international.org/en/
+*3 Asia Development Alliance (ADA)
+https://ada2030.org/index.php
+[References]
+・UN 2030 Agenda for Sustainable Development (Japa-
+nese): https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/
+pdf/000101402_2.pdf
+・CIVICUS Monitor 2023: https://monitor.civicus.org/
+[Action Platform]
+Peace and Human Rights
+[SDGs]
+This proposal introduces the evolution and practical ap-
+plication of civic participation in addressing social issues.
+Civic tech—activities that transform the relationship be-
+tween governments and citizens through technology and
+community engagement—includes initiatives utilizing the
+digital democracy platform “Decidim,” —such as Barce-
+lona’s city planning process involving 40,000 citizens,
+New York City’s participatory budgeting for citizens aged
+11 and above, and youth-led policy initiatives in Kakoga-
+wa City, Japan. These initiatives have all yielded tangible
+results, demonstrating how collective citizen intelligence,
+powered by technology, can transform policymaking and
+implementation.
+Such civic tech efforts directly contribute to SDG 16, which
+calls for “effective, accountable, and inclusive institutions.”
+For instance, hybrid models that combine online and offline
+dialogue, cross-generational participation frameworks, and
+youth-led policymaking processes—all powered by open-
+source platforms and community networks—embody this
+goal in practice. In Japan, internet-enabled citizen partic-
+ipation has been evolving since the late 1990s. Interest in
+such initiatives has grown significantly since the COVID-19
+pandemic, which normalized digital communication in daily
+life. Nonetheless, institutional realization aligned with SDGs
+remains an ongoing challenge.
+Decidim, developed in Barcelona in 2016, is now used
+across 450 sites in over 30 countries and regions, engaging
+approximately 3 million users. In Japan, Code for Japan has
+localized the platform and serves as its official Japanese
+partner, promoting its adoption nationwide. Since its imple-
+mentation in Kakogawa City in October 2020, Decidim has
+been utilized by around 30 national and local governments,
+businesses, and organizations.
+At the Inochi Forum, in collaboration with Code for OSAKA
+and Code for Japan, Decidim is actively used to share the
+Inochi Declaration and showcase youth-led initiatives. With-
+in this SDG-aligned movement, Decidim plays a vital role by
+enabling initiatives that integrate the “Know” and “Connect”
+dimensions of Inochi.
+From the “Understand Inochi” perspective:
+●Visualizing diverse voices and wisdom through a digital
+platform
+●Sharing experiences and perspectives across generations,
+from youth to elders
+●Enhancing mutual understanding by ensuring transparen-
+cy in participation processes
+●Fostering collective intelligence through democratized
+2-2-2
+Gather ideas for building a better society by combining online tools with face-to-face di-
+alogues. Together, we can reflect on Inochi with people across the globe and co-create a
+new future.
+Accumulate various ideas in Decidim
+Deepening discussions by referring to Decidim ideas during face-to-face workshops
+(Kakogawa, Hyogo)

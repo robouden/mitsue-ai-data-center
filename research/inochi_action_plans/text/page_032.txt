@@ -1,0 +1,46 @@
+32
+Declaration 2-2
+are trusted and secure—protecting privacy, security, and
+intellectual property while enabling the use of data to solve
+social and business challenges. In line with this concept,
+Keio University and ITOCHU Techno-Solutions Corporation
+have launched joint research to enhance the reliability of
+data circulation through digital verification.
+Next, in terms of controllability, new systems are being
+developed to allow individuals to carry their own data with
+them and decide which data to disclose to service provid-
+ers—giving users greater control over their digital lives.
+Lastly, on the topic of interoperability, global efforts are
+underway, including the work of SIDI Hub (Sustainable and
+Interoperable Digital Identity), a community formed by non-
+profit organizations such as the OpenID Foundation. These
+groups aim to build international frameworks that define
+technologies and cross-border rules for sustainable and
+interoperable digital identities. Their emphasis on commu-
+nity building, not just technical solutions, resonates with the
+Inochi Forum’s vision of empathy and mutual support.
+By embedding these three core elements into online services
+around the world, we can build a safer digital society—one in
+which people can communicate with confidence and where
+every Inochi unleashes its radiant light in the digital age.
+The Inochi Forum will continue to collaborate with orga-
+nizations advancing these efforts, working toward a safe
+digital society by promoting technological development, im-
+plementation, and international cooperation—together with
+diverse stakeholders.
+[References]
+･ Trusted Web Promotion Council
+https://www.digital.go.jp/policies/trust/trustedweb
+･ Digital Agency – DFFT Overview
+https://www.digital.go.jp/policies/dfft
+･ Joint Research by Keio University and ITOCHU Techno-Solu-
+tions Corporation
+https://www.ctc-g.co.jp/company/release/20240802-01772.
+html
+･ OpenID Foundation
+https://openid.net/
+･ SIDI Hub
+https://sidi-hub.community/
+[Action Platform]
+Peace and Human Rights
+[SDGs]

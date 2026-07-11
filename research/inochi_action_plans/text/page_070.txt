@@ -1,0 +1,79 @@
+70
+Declaration 3-4
+Are you familiar with the current state of public housing in
+Japan?
+Public housing provides affordable, high-quality living
+environments for low-income individuals and families who
+struggle to secure housing. National and local governments
+cover construction and other costs. Admissions are typi-
+cally open to the public and are subject to income require-
+ments. Rent is not fixed; it operates under a rent scheme
+that increases proportionally with income, based on the
+ability-to-pay principle. Unlike private rental housing, where
+outsourcing maintenance services incurs additional resi-
+dent costs, public housing is managed on the principle of
+resident self-governance to avoid excessive burdens. This is
+the ideal operation of public housing.
+However, under the ability-to-pay principle, households that
+see an improvement in income tend to move out. Conse-
+quently, new tenants are mostly low-income individuals
+or those facing welfare challenges. As a result, the Minis-
+try of Land, Infrastructure, Transport and Tourism (MLIT)
+disclosed that, in 2015, the elderly population (aged 60 or
+older) in public housing accounted for 60% of residents, and
+80% of households had monthly incomes of 104,000 yen or
+3-4-3
+Create mixed communities where people of diverse generations can live vibrantly, ensuring
+that elderly and low-income residents in areas with a concentration of public housing do
+not become isolated.
+laboration with shopping districts, financial institutions,
+ESG initiatives of businesses, and local government digital
+transformation policies. Then, institutionally, legal definitions
+around digital certification and taxation frameworks for val-
+ue transfers must be clarified in consultation with relevant
+agencies. In addition to these initiatives, the governance of
+the entire system will prioritize openness—both in protocols
+and services—allowing participants to take active owner-
+ship in its development and evolution.
+The initiative begins with basic implementation in commer-
+cial and public facilities, validating the processes of value
+creation based on behavior. Key challenges include (1)
+Maintaining sustained engagement from users, (2) En-
+suring the reliability of data and (3) Establishing objective
+standards for evaluating value. Each of these issues will
+be addressed in turn. Success will be measured through
+indicators such as monthly active users, the volume of value
+created, and the economic impact on the local community.
+Through ongoing evaluation and refinement, the project
+seeks to foster an ecosystem in which community members
+take ownership of the system, supported by natural emer-
+gence of service providers. Each community can adapt
+this foundational model to its own local context, connect-
+ing loosely with others through shared principles, thereby
+co-creating a new, contemporary model of value circulation
+that is inclusive and regenerative.
+The Inochi Forum, together with initiatives such as Contin-
+uum Social and other organizations, will build systems that
+make the creation and circulation of data-driven value more
+democratic and open, and will strive to realize a society
+where the value created by all is shared by all—a society in
+which every Inochi unleashes its radiant light.
+[References]
+・Continuum Social
+https://www.continuum.social/
+・A Novel Framework for Reputation-Based Systems
+https://a16zcrypto.com/posts/article/reputation-based-systems/
+・The Future of Work is Not Corporate — It’s DAOs and Crypto
+Networks
+https://a16zcrypto.com/posts/article/the-future-of-work-daos-
+crypto-networks/
+・Chris Dixon:Read Write Own Buildng the next era of the internet
+Read Write Own - Chris Dixon
+・Jesse Walden : Fund Raising and Deal Structure
+Fundraising and Deal Structure - a16z crypto
+・Scott Kominers:Everything Token
+https://www.hbs.edu/faculty/Pages/profile.aspx?facId=500905
+[Action Platform]
+SDGs+Beyond
+[SDGs]
+A place to belong, a role to play, building connections

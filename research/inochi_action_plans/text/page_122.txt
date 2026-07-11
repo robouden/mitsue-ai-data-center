@@ -1,0 +1,87 @@
+122
+Declaration 5-2
+Hiroshi Ishiguro, the producer of the Signature Pavilion Fu-
+ture of Life at Expo 2025 Osaka, Kansai, Japan, has focused
+intensively on the research, development, and social imple-
+mentation of avatars since accepting the role four years ago.
+He believes that avatars are the very technology that can
+save Japan’s future.
+Avatars refer to remotely operated robots or computer-gen-
+erated (CG) characters. The CG characters used by V-Tu-
+bers are a prime example. Methods of remote operation
+vary from directly transmitting speech and actions to con-
+veying only intentions. In the latter case, AI interprets those
+intentions and generates speech and movements. In other
+words, avatars encompass all entities that act based on
+human intent.
+Professor Ishiguro began his avatar research around 2000.
+Initially, his work in robotics focused on robots that move
+while recognizing their environment with a camera. Around
+that time, he resolved to advance his research further by de-
+veloping robots that assist humans in daily life. He has now
+been pursuing this field for over 25 years.
+Avatars are expected to address critical issues facing Ja-
+pan’s future. Japan’s population is projected to decline by
+30% in the next 50 years, leading to a severe labor shortage.
+Avatars offer a solution: they enable everyone, including
+older people and people with disabilities, to expand their
+physical, cognitive, and perceptual abilities and participate
+in diverse activities with superhuman capabilities. Work and
+education will become possible anytime, anywhere, reduc-
+ing the need for commuting and enabling people to reclaim
+5-2-4
+Unleash humanity from the limitations of the physical body through avatars, and create a
+society where every individual is recognized, connected, and lives together in harmony.
+providing diverse audiences with opportunities to connect
+with the realities of social issues.
+In the field of education, Cross Fields has developed and de-
+livered educational content for junior and senior high school
+students across Japan. They have created ten inquiry-based
+learning modules covering topics such as “Poverty in
+Cambodia” and “Energy Issues in Tanzania,” making these
+materials freely available to teachers nationwide. These vir-
+tual experiences allow students to engage with realities they
+cannot easily access in person. Within two years of launch,
+approximately 1,500 students from around 20 schools have
+participated. Teachers have reported positive feedback, in-
+cluding comments like: “Students discovered new research
+topics through the classes.”
+In recent years, collaboration with corporations has also
+accelerated. Specifically, Cross Fields has developed and
+provided Empathy VR programs aligned with each compa-
+ny’s materiality—namely, issues of particular importance to
+the company and its stakeholders. By helping employees
+internalize social issues, the programs support the advance-
+ment of sustainability management within corporations.
+To date, Cross Fields has collaborated with about 15 com-
+panies and delivered programs to over 10,000 employees.
+Business professionals who have experienced the programs
+have shared feedback such as: “I realized the necessity of
+addressing both profitability and societal sustainability.”
+Building on these achievements, Cross Fields aims to further
+develop the Empathy VR initiative by 2030, striving to cre-
+ate a world where social issues are continuously addressed.
+They plan to scale these activities globally, providing op-
+portunities for people around the world to internalize social
+challenges and inspiring action.
+While it may be difficult to completely eradicate social
+issues as long as humanity exists, it is possible to create a
+world where, whenever social issues arise, individuals who
+are motivated to solve them also emerge, taking meaning-
+ful action toward resolution. The Inochi Forum shares this
+belief and will work with organizations like Cross Fields that
+leverage technology, offering many people the opportunity
+to internalize social issues as their own.
+[References]
+・Example of Empathy VR use in public schools, available for free
+via the STEAM Library:
+https://www.crossfields.jp/pressrelease/steam-library
+・Development of 360-degree experiential sustainability program
+for Mitsui & Co.:
+https://www.crossfields.jp/pressrelease/mitsui-program
+・Launch of Empathy VR (interactive e-learning) for promoting
+corporate sustainability management:
+https://www.crossfields.jp/pressrelease/vr-e-learning
+[Action Platform]
+SDGs+Beyond
+[SDGs]

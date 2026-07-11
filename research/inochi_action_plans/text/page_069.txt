@@ -1,0 +1,71 @@
+69
+Declaration 3-4
+We now live in an era where our everyday
+actions generate value as data. Each individ-
+ual instance—be it a purchase, time spent at
+a local shop, or participation in a community
+event—may seem trivial on its own. Yet, when
+aggregated and connected, such data can
+drive value creation in the form of behavioral
+prediction, demand generation, and regional
+revitalization.
+The value of this data grows exponentially as
+the number of users increases, serving as the
+core revenue source for platform-based enter-
+prises. The joint-stock company model, born
+in the era of industrialization, distributes value
+according to contributions of labor and capital.
+However, it is not designed to accommodate
+the new kinds of value produced through data. Crucially,
+those who generate the data—individuals—rarely receive
+a fair share of that value. Instead, it is concentrated among
+capital providers in the form of shareholders. Moreover, vital
+contributions to society—such as community cleaning or
+helping others—often go unrecognized in existing systems.
+In response to this challenge, Continuum Social Inc., in col-
+laboration with The University of Osaka and the Senri Plat-
+form, has launched a test case in the Senri region. Utilizing
+“CyberTrophy”, a virtual system deployed across commer-
+cial facilities and public spaces, the project aims to tokenize
+(digitize) the value generated through people’s daily actions,
+making it visible and circulating it fairly within the commu-
+nity. This initiative connects diverse forms of social capital—
+ranging from everyday activities to disaster preparedness
+and cultural engagement—and explores new models of
+community building. Through the gradual implementation of
+value distribution and governance frameworks, the project
+in Senri is being developed as a template model that can be
+scaled horizontally to other communities (see diagram).
+Unlike conventional centralized platforms, this initiative
+allows communities themselves to govern how value is
+assessed and distributed. Realizing such a system requires
+careful examination from three perspectives: technology,
+economics, and institutional frameworks. Technologically,
+the system will build upon existing blockchain and smart
+contract technologies, enabling customization according
+to local characteristics. Next, economically, the initiative
+prioritizes harmony with local economies, working in col-
+3-4-2
+Create a society in which people engage in healthy dialogue—transcending isolation and
+fragmentation—by building a new cultural foundation for communication in the age of digi-
+tal hyper-connectivity and algorithmic influence.
+economic rationality and efficiency, and revitalizing Japan’s
+regional communities.
+Empathy for society begins with listening to small voices,
+turning attention toward diverse societies different from our
+own and allowing ourselves to be moved by their hopes and
+aspirations. Ultimately, this leads to gaining support from
+society and becomes the driving force behind activities sus-
+tained and cherished by empathy. It is precisely because we
+are all different that we can create a truly wonderful society.
+The Inochi Forum, together with organizations like Com-
+mon Beat that promote social business, will work to create a
+future sustained by empathy—where differences are em-
+braced and aspirations are shared.
+[References]
+・Common Beat:
+https://commonbeat.org/
+[Action Platform]
+Economy, Employment and Poverty / Diversity and Inclusion
+[SDGs]
+Diagram: Value sharing via CyberTrophy

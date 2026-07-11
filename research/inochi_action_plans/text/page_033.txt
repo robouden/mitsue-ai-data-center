@@ -1,0 +1,77 @@
+33
+Declaration 2-3
+Among the various social challenges
+we face, disasters have a distinct nature.
+Issues such as environmental degrada-
+tion, poverty, and an aging society are
+ever-present across different regions,
+thus encouraging ongoing action and
+generating public opinion that drives
+legal reform. Disasters, on the other hand,
+occur only occasionally and in limited
+regions, which causes interest and action
+to remain confined to a small group of
+individuals or communities. And yet, Ja-
+pan—often referred to as a disaster-prone
+nation—frequently faces such regionally
+rare yet devastating events.
+Given this, one might assume that Japa-
+nese society excels in disaster response.
+This is partially true. Japan performs well
+in infrastructure-related preparedness. Roads, rivers, and
+schools are built to withstand damage and are generally
+restored efficiently after disasters. However, Japan cannot be
+said to excel in supporting disaster victims. For instance, con-
+ditions in evacuation centers often fall far below international
+humanitarian standards, resulting in prolonged disorder.
+The reason behind Japan’s strength in infrastructure pre-
+paredness is straightforward: disaster-related infrastructure
+measures are largely an extension of everyday public works,
+such as road construction or school building projects by
+national and local governments. There are pre-existing legal
+frameworks that prompt authorities to prepare for disasters
+through such infrastructure development, and when a di-
+saster strikes, these same systems are rapidly mobilized by
+professionals to enable recovery.
+Conversely, Japan’s weakness in providing victim support
+stems from a completely different structural logic. In normal
+times, goods and services that support everyday life are pri-
+marily supplied by for-profit enterprises through the market,
+or by non-governmental organizations through quasi-mar-
+kets supported by public funding (see diagram).
+In times of disaster, however, local governments become the
+primary actors in support provision. For many local govern-
+ment employees, responding to a major disaster is a once-
+in-a-lifetime experience, meaning that responses are often
+unskilled and ineffective. This is one major reason disaster
+victim support in Japan remains disorganized despite the
+country’s frequency of disasters. Since disasters—though
+infrequent—impact every aspect of daily life, it is critical to
+involve the very organizations that supply goods and ser-
+vices during ordinary times in disaster preparedness and
+response. It is also essential that existing legal frameworks,
+with which people are already familiar, preemptively incor-
+porate provisions for disaster scenarios. Doing so allows
+society to leverage well-practiced systems in the event of a
+crisis.
+The concept of designing products and services for useful-
+ness not only during normal times but also during disasters
+is called “phase-free.” In Japan, the Phase Free Association
+was established in 2018, promoting the idea of transcending
+the binary between normalcy and disaster. It is not enough
+to prepare only for emergencies—we must also embed di-
+saster preparedness into our everyday legal systems, there-
+by establishing phase-free legal frameworks.
+Recognizing that disaster response mechanisms are essen-
+2-3-1
+Rather than preparing solely for emergencies, transform our legal systems into “phase-free
+legal frameworks” by integrating disaster preparedness into ordinary-time regulations.
+Declaration 2-3
+Develop disaster-prevention systems that function effectively in both normal
+times and emergencies.
+Diagram: Structural reasons for disorganized disaster victim support — based on Sugano, 2021
+In May 2025, the Act Partially Amending the Basic Act on Disaster Management and Related Legislation was enacted.
+This law introduced a registration system for “Disaster Victim Assistance Support Organizations,” enabling specialized
+civil organizations to autonomously participate in disaster response. Furthermore, in order to strengthen support for
+older persons and persons with disabilities, the provision of welfare services was formally integrated into the disaster
+response framework. Through this amendment, the government has begun addressing Challenges 1 and 2.

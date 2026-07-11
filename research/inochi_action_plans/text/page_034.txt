@@ -1,0 +1,64 @@
+34
+Declaration 2-3
+In recent years, Japan and many other parts of the world
+have experienced an increasing frequency of natural disas-
+ters, including earthquakes and torrential rains. One of the
+most pressing issues during such events is the shortage of
+evacuation shelters. In many areas, designated shelters alone
+are insufficient to accommodate evacuees. In response to
+this challenge, there has been growing attention to the role
+of religious institutions as alternative evacuation shelters.
+During the Great East Japan Earthquake and the Kumamoto
+Earthquake, temples, shrines, and other religious facilities
+served as shelters and volunteer centers. These institutions
+worked in collaboration with local governments and social
+welfare councils to provide essential support. Likewise,
+during the Noto Peninsula Earthquake, over 35 religious
+institutions functioned as shelters and welcomed numer-
+ous evacuees. Because they are trusted by the local com-
+munities, religious institutions can also enhance the “soft”
+elements of disaster preparedness, including information
+dissemination, safety confirmation, and mental health care
+during emergencies.
+Recognizing these possibilities, the Social Solution Initiative
+(SSI) at The University of Osaka, together with the Region-
+al Information Co-Creation Center (RICCC), has launched
+a project titled “Construction of a Disaster Prevention /
+Watching System with Community Resources and Informa-
+tion Technology.” The project is led by Professor Keishin
+Inaba of the Graduate School of Human Sciences.
+To fully utilize religious institutions during disasters, it is
+crucial to establish stronger coordination with local govern-
+ments. This includes designating religious sites as official
+shelters or emergency assembly points and entering into
+agreements to develop evacuation plans and operational
+structures in advance. Although there is a growing move-
+ment toward such cooperation, as of now, only 24.0% of
+local governments in Japan have established formal cooper-
+ation frameworks with religious institutions—leaving signif-
+icant room for expansion. Additionally, there are challenges
+such as seismic resilience and location suitability of religious
+facilities, which must be addressed through initiatives like
+hazard map-based planning and structural reinforcement.
+On the other hand, science and technology—including ICT
+(Information and Communication Technology), AI, and IoT
+(Internet of Things)—offer new tools for enhancing disaster
+preparedness and response. Social innovation that inte-
+grates local resources with technology is essential. Exam-
+2-3-2
+Build a resilient and inclusive society through diversity-driven innovation by bridging the
+blind spots of disaster resilience—religious institutions, science and technology, and local
+governments.
+tial for building communities of mutual support, The Inochi
+Forum will work with diverse organizations, including pri-
+vate enterprises and third-sector organizations, to establish
+and promote phase-free systems nationwide by 2030.
+[References]
+・Phase Free Association
+https://phasefree.or.jp
+・Sugano, Taku (2021). Disaster Response Governance: Stopping
+the Chaos in Victim Support. Nakanishiya Publishing
+[Action Platform]
+Urban Development and Disaster Prevention
+[SDGs]
+Respect-Relief Map https://map.respect-relief.net/

@@ -1,0 +1,91 @@
+38
+Declaration 2-4
+enabling real-time understanding of current conditions and
+future projections within cities, while also supporting analy-
+ses based on transformation scenarios.
+The platform will allow policymakers, planners, managers,
+and urban residents to intuitively understand and communi-
+cate with each other, facilitating policy decisions and mu-
+nicipal planning. Moreover, by integrating synthetic models
+simulating people’s locations, daily behaviors, mobility, and
+corresponding service demands, the platform will recon-
+struct inter-system relationships with high spatiotemporal
+resolution and enable real-time responsiveness, which will
+be useful for disaster response. Designed for scalability
+beyond Japan, the platform will be adaptable to rapidly de-
+veloping cities across Asia and contribute to solving urban
+challenges around the world.
+In collaboration with the DX Social Research Division, the
+D3 Center, the Urban Energy Systems Lab, the Smart City
+Strategy Department of Osaka Prefecture, and the Social
+Solution Initiative (SSI), the Inochi Forum will continue its
+efforts to build a shared urban data platform (Digital Twin
+Platform). Through this, it seeks to realize decarbonization,
+zero waste, and disaster resilience, thereby transforming
+cities into safe and sustainable environments where every
+Inochi unleashes its radiant light.
+[Notes]
+*1 The 2023 update to the Planetary boundaries. Azote for
+Stockholm Resilience Centre, based on analysis in Richard-
+son et al 2023
+https://www.stockholmresilience.org/research/plane-
+tary-boundaries.html
+*2 IPCC, 2023: Climate Change 2023: Synthesis Report. Contri-
+bution of Working Groups I, II and III to the Sixth Assessment
+Report of the Intergovernmental Panel on Climate Change
+[Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC,
+Geneva, Switzerland, 184 pp., doi: 10.59327/IPCC/AR6-
+9789291691647.
+*3 Alvi, M., Dutta, H., Minerva, R., Crespi, N., Raza, S. M., &
+Herath, M. (2025). Global perspectives on digital twin smart
+cities: Innovations, challenges, and pathways to a sustainable
+urban future. Sustainable Cities and Society, 126, 106356.
+https://doi.org/10.1016/j.scs.2025.106356
+[References]
+・ORDEN
+https://www.pref.osaka.lg.jp/o060020/tokku_suishin2/orden/
+index.html
+・D-child
+https://otri.osaka-u.ac.jp/dichild/
+・Architectural Morphology Cyber Community
+http://www.comy.cmc.osaka-u.ac.jp/
+・Urban Energy System Lab, The University of Osaka: Publica-
+tions
+https://see.eng.osaka-u.ac.jp/seeue/seeue/paper
+・Cross-ministerial Strategic Innovation Promotion Program:
+Building a smart energy management system
+https://www.jst.go.jp/sip/sems/
+[Action Platform]
+Energy and Climate Change / Resource Recycling
+[SDGs]
+How much water do we actually need each day?
+To simply avoid thirst, 2 to 3 liters of drinking water per
+day is sufficient. However, in Japan, we use between 200
+and 300 liters of tap water daily for bathing, flushing toi-
+lets, cooking, laundry, washing our faces, and brushing our
+teeth. This amounts—over a hundred times what we need
+for survival—enables us to live healthy, cultural lives with
+dignity and self-respect. Moreover, water is essential not
+only for our daily lives but also for food production, which
+in turn sustains life. On average, we consume food that
+requires 2,000 to 3,000 liters of water per person per day to
+produce—about one million liters per year.
+Given how much water is necessary to nurture and sustain
+our lives, one might think Japan is rich in water. While the
+country does receive about twice the global land average
+in rainfall and snowfall, the availability of water per capita is
+only half the world average due to high population density
+within limited land space. Additionally, as an island nation
+with steep terrain, most rainfall quickly runs off into the sea.
+In fact, during years of low rainfall, Japan has frequently ex-
+perienced droughts leading to poor rice harvests and water
+supply disruptions. In some regions, such situations contin-
+ued until recently.
+The reason we can now enjoy a stable water supply without
+concern is thanks to infrastructure that has been developed
+over many years to minimize water-related disasters while
+maximizing the benefits of water—despite the environmen-
+2-4-2
+Protect everyone’s “Inochi Water” together, for the benefit of all. Let us pass on to the future
+the traditional systems and infrastructure that skillfully utilize nature’s blessings—rainwater
+that permeates the soil and flows through rivers and underground channels.

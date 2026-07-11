@@ -1,0 +1,87 @@
+47
+Declaration 2-5
+Current approaches to medical and welfare care and preven-
+tion largely rely on quantitative data—such as age, weight,
+and blood pressure—while often overlooking the qualitative
+aspects of individuals’ lives, such as their daily routines, emo-
+tional states, and subjective experiences. As a result, there
+are significant limitations in the ability to design care and
+prevention strategies that truly reflect individual needs.
+Qualitative data—such as people’s feelings, experiences of
+hardship, or personal narratives—capture vital, non-numeric
+insights. With recent advancements in artificial intelligence,
+it has become possible to incorporate these qualitative
+data into predictive models, allowing for more tailored care
+and preventive strategies. AI can now analyze lifestyle and
+psychological patterns to estimate health risks and provide
+personalized health recommendations.
+The Inochi Forum, in collaboration with the Social Solu-
+tion Initiative (SSI) of The University of Osaka and its core
+project “Science and Humanity for Fostering a Super-aged
+Society that Respects Individual’s Views on Life and Death
+and Their Autonomy” (PI: Assoc. Prof. Miyae Yamakawa,
+Graduate School of Medicine), is building a data science
+platform that integrates healthcare and welfare data. The
+initiative aims to use qualitative data within AI-based pre-
+dictive models to enhance health and well-being outcomes.
+This approach enables care and prevention to be custom-
+ized for each individual and contributes to broader commu-
+nity health promotion.
+While AI and predictive analytics have recently made signifi-
+cant inroads into the fields of medicine and welfare, existing
+AI models are still primarily based on quantitative data. As
+such, they are insufficient for capturing people’s lived real-
+ities and perspectives. To further improve these technolo-
+gies, it is essential to incorporate qualitative data that reflect
+patients’ real-life conditions, enabling more empathetic and
+customized disease prevention and eldercare prediction.
+Such integration can enhance patient satisfaction and re-
+duce medical costs.
+2-5-4
+By integrating healthcare and welfare data and leveraging technologies such as AI, we can
+deliver personalized care and preventive solutions tailored to each individual’s way of life,
+needs, and values.
+staff, and students make use of these services. For example,
+a researcher who was generally well-adjusted but tended to
+give up when facing difficult problems came to the center
+for counseling. As a result, they were able to confront those
+challenges without hesitation. Similarly, students who had
+struggled to attend university because of trauma were able
+to overcome school refusal after engaging with counseling
+services at the center.
+The impact of trauma-healing counseling can be summa-
+rized in two main effects:
+1. Improved communication skills
+2. A renewed sense of confidence
+These outcomes raise self-esteem and enable individuals to
+express their latent abilities, thereby enhancing their ca-
+pacity to generate innovation. In order to expand the use of
+such psychological approaches and reinvigorate society, it
+is essential to cultivate counselors with advanced skills.
+To this end, The University of Osaka launched a project in
+FY2024 exploring whether counseling skills can be en-
+hanced using AI and image-based diagnostics. The project
+begins with analyzing what constitutes advanced counsel-
+ing techniques. This includes recording counseling sessions
+while simultaneously monitoring body temperature, heart
+rate, and brainwave activity to gather data for analyzing
+trauma healing processes. By using machine learning to
+study dialogue content, the project seeks to identify pat-
+terns and cues for trauma recovery—and possibly develop
+AI-based counseling methods. All of these measurements
+and AI capabilities are made possible by advances in semi-
+conductor technology.
+The Inochi Forum will collaborate in these kinds of projects
+and promote the use of psychological approaches to heal
+trauma and awaken latent potential—while also supporting
+advancements in semiconductor technologies.
+[References]
+・The University of Osaka, Faculty/Graduate School of Engineer-
+ing – Resilience Support & Training Center
+http://www.juf.eng.osaka-u.ac.jp/resilience/index.htm
+・Activating Creativity through Psychological Approaches
+https://www.eng.osaka-u.ac.jp/prospective/introduction-re-
+search/550/
+[Action Platform]
+Education and Children
+[SDGs]
