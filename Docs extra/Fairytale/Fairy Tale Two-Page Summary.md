@@ -9,16 +9,16 @@
   h1 + h3 { text-align: center; font-weight: 400 !important; color: #555; margin: 0 0 6px !important; font-size: 1.05em !important; }
   h2 { font-size: 1.05em !important; font-weight: 700 !important; margin: 8px 0 2px !important; border: none !important; padding: 0 !important; color: #1a3a2a; }
   h3 { font-size: 1.02em !important; font-weight: 700 !important; margin: 9px 0 2px !important; color: #1a3a2a; }
-  hr { margin: 5px 0 !important; border: none; border-top: 1px solid #ddd; }
+  hr { margin: 5px 0 !important; border: none; border-top: 1px solid #ddd; clear: right; }
   blockquote { padding-left: 8px !important; color: #444; font-style: italic; border-left: 2px solid #cbd; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   .closing { text-align: center; font-style: italic; color: #555; margin-top: 6px !important; }
-  .mascot { float: right; width: 110px; margin: 0 0 6px 10px; }
+  .mascot { float: right; width: 112px; margin: 0 0 6px 10px; }
 </style>
 
-<!-- Version: v1.0 | Last modified: 2026-07-09 -->
+<!-- Version: v1.1 | Last modified: 2026-07-15 -->
 
-<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Tsuemi-kun">
+<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Mitsue-kun">
 
 # Tsuemi-hime and the Seven Forest Spirits
 ### 御杖の谷の昔話
@@ -35,7 +35,7 @@ Centuries later, **Tsuemi-hime** lived in that same valley—not as a princess o
 The Witch did not look like a witch—she looked like a spreadsheet. She was the spirit of short-term economics: planting one profitable tree in every direction and calling it a forest. Each morning she asked her mirror: *"Which Japanese village shall never rise? Which shall never see the light?"* The mirror answered: *Mitsue. Population 1,393 and falling. School closed. Young people: gone.* But one spring morning, the mirror flickered. Something was moving in the valley that had no place in her numbers.
 
 ### Chapter 3 — The Wanderer from the Sea
-There came to Mitsue a man from a distant northern country—**Tsuemi-kun**—who had arrived in Japan as a young man and was shaped by radiation-counting work after Fukushima. He had come not to visit but to **stay**—on a floating house by a mountain stream. After watching the valley for years, he spoke to Tsuemi-hime: *"Your valley is not dying. It is sleeping under a spell. And I think I know how to break it—but I cannot do it alone."* "Then we will look for help," said Tsuemi-hime, tapping her staff. "Together we will find the Seven."
+There came to Mitsue a man from a distant northern country—**Mitsue-kun**—who had arrived in Japan as a young man and was shaped by radiation-counting work after Fukushima. He had come not to visit but to **stay**—on a floating house by a mountain stream. After watching the valley for years, he spoke to Tsuemi-hime: *"Your valley is not dying. It is sleeping under a spell. And I think I know how to break it—but I cannot do it alone."* "Then we will look for help," said Tsuemi-hime, tapping her staff. "Together we will find the Seven."
 
 ### Chapter 4 — The Seven Forest Spirits
 Deep in the mountains, seven spirits lived and worked—each the guardian of one piece of what the valley needed:
@@ -54,10 +54,10 @@ Deep in the mountains, seven spirits lived and worked—each the guardian of one
 Before beginning, they sought counsel from two great sages—**Joi** (former head of a great technology institute) and **Ray** (architect of invisible digital systems). "Advisory commitments confirmed. Phase 0 may proceed," said Gate.
 
 ### Chapter 6 — The Poisoned School
-The Sugi Witch, watching from her mirror, cast the spell of **accumulated neglect** on the old school—maintenance costs, asbestos inspections, permits, insurance, institutional hesitation. When Tsuemi-hime and Tsuemi-kun came to the grey school, they found a door swollen in its frame, windows clouded with grime, lights that wouldn't switch on. Tsuemi-hime pressed her hand to the cold wall and felt faintly the warmth of children who had once run these corridors. "It is not dead," she said. "It is waiting."
+The Sugi Witch, watching from her mirror, cast the spell of **accumulated neglect** on the old school—maintenance costs, asbestos inspections, permits, insurance, institutional hesitation. When Tsuemi-hime and Mitsue-kun came to the grey school, they found a door swollen in its frame, windows clouded with grime, lights that wouldn't switch on. Tsuemi-hime pressed her hand to the cold wall and felt faintly the warmth of children who had once run these corridors. "It is not dead," she said. "It is waiting."
 
 ### Chapter 7 — The Breaking of the Spell
-The spell broke not with a kiss but with a stamp—the red stamp of the Legal Affairs Bureau acknowledging the founding of the **BIOMASS ENERGY & AI project General Incorporated Association**. Founding members: Tsuemi-kun and Yuka, his partner who saw from the beginning what the valley could become. When the stamp came down, something shifted in the cedar forest. The spell thinned. Mori planted three more oaks. Bio felt steadier flame. Deta powered on the first server. Gate opened his ledger to a new page. And at Mitsue Shrine, cherry blossoms opened ten days before forecast.
+The spell broke not with a kiss but with a stamp—the red stamp of the Legal Affairs Bureau acknowledging the founding of the **BIOMASS ENERGY & AI project General Incorporated Association**. Founding members: Mitsue-kun and Yuka, his partner who saw from the beginning what the valley could become. When the stamp came down, something shifted in the cedar forest. The spell thinned. Mori planted three more oaks. Bio felt steadier flame. Deta powered on the first server. Gate opened his ledger to a new page. And at Mitsue Shrine, cherry blossoms opened ten days before forecast.
 
 ### Chapter 8 — The Long Work
 The witch was not gone. Spells of economic neglect do not break in a single stamp. "Then we will have planted trees, trained people, documented what we learned, and left the school better than we found it," said Tsuemi-hime. "That is not failure. That is Phase 0."

@@ -259,7 +259,7 @@ async function convertToPdf(mdFile, opts = {}) {
       printBackground: true,
       margin: { top: '1.2cm', right: '1.5cm', bottom: '2cm', left: '1.5cm' },
       displayHeaderFooter: true,
-      headerTemplate: `<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:8pt; color:#555; padding:0 1.5cm; text-align:right; box-sizing:border-box;">${headerText}</div>`,
+      headerTemplate: `<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:7pt; line-height:1.1; color:#555; padding:0 1.5cm; text-align:right; box-sizing:border-box;">${headerText}</div>`,
       footerTemplate: '<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:8pt; color:#999; padding:0 1.5cm; text-align:right; box-sizing:border-box;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
       timeout: 0
     });

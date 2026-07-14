@@ -1,10 +1,12 @@
 <style>
-  .mascot { float: right; width: 130px; margin: 0 0 6px 10px; }
+  .mascot { float: right; width: 112px; margin: 0 0 6px 10px; }
+  h1 { border-bottom: none !important; }
+  hr { clear: right; }
 </style>
 
-<!-- Version: v1.0 | Last modified: 2026-07-09 -->
+<!-- Version: v1.1 | Last modified: 2026-07-15 -->
 
-<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Tsuemi-kun">
+<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Mitsue-kun">
 
 # Tsuemi-hime and the Seven Forest Spirits
 ### *A Fairytale of Mitsue Valley*
@@ -64,7 +66,7 @@ But one spring morning, the mirror flickered. An anomaly. Something was moving i
 
 There had come to Mitsue a man from very far away — from a distant northern country of windmills and flat lands, though he had lived in Japan for so long that he knew its mountains better than most. He had arrived on the shore of Japan as a young man, been shaped by the radiation-counting work of citizen scientists after the great disaster at Fukushima, and spent decades building small devices that measured invisible things: small boards with circuit traces fine as spider-thread, sensors that could feel what human senses could not.
 
-His name was **Tsuemi-kun**, and he had come to Mitsue not to visit but to *stay* — on a floating house on a mountain stream, surrounded by sugi pollen every spring and fireflies every summer. He had watched the valley for years before he spoke. And when he finally spoke, it was to Tsuemi-hime.
+His name was **Mitsue-kun**, and he had come to Mitsue not to visit but to *stay* — on a floating house on a mountain stream, surrounded by sugi pollen every spring and fireflies every summer. He had watched the valley for years before he spoke. And when he finally spoke, it was to Tsuemi-hime.
 
 "Your valley is not dying," he said. "It is sleeping under a spell. And I think I know how to break it — but I cannot do it alone."
 
@@ -128,7 +130,7 @@ Gate was the most feared and the most necessary. He stood at the door between ea
 
 ## Part Five: Two Sages at the Edge of the Wood
 
-Before Tsuemi-hime and Tsuemi-kun could begin, they needed the wisdom of those who had seen the wider world.
+Before Tsuemi-hime and Mitsue-kun could begin, they needed the wisdom of those who had seen the wider world.
 
 They traveled — not by foot, but by message and by trust — to seek two great sages who had agreed to lend their counsel.
 
@@ -152,13 +154,13 @@ She knew the project's heart: the old school building, standing empty at the cen
 
 So she cast her oldest spell on the school: the spell of **accumulated neglect** — the slow poison of a building that has been closed for long enough that no one believes it can be opened again. Maintenance costs. Asbestos inspections. Permits. Insurance. The accumulated weight of institutional hesitation.
 
-When Tsuemi-hime and Tsuemi-kun came to the school on a grey morning in early spring, they found the door swollen in its frame. The windows were filmed with years of mountain grime. Inside, the light switches did nothing.
+When Tsuemi-hime and Mitsue-kun came to the school on a grey morning in early spring, they found the door swollen in its frame. The windows were filmed with years of mountain grime. Inside, the light switches did nothing.
 
 Tsuemi-hime pressed her hand against the school's cold wall and felt, faintly, the warmth of children who had once run these corridors.
 
 "It is not dead," she said. "It is waiting."
 
-Tsuemi-kun pulled out his notebook and began to write.
+Mitsue-kun pulled out his notebook and began to write.
 
 ---
 
@@ -166,7 +168,7 @@ Tsuemi-kun pulled out his notebook and began to write.
 
 The breaking of the spell took not a kiss but a stamp — the red stamp of the Legal Affairs Bureau in Nara City, acknowledging the founding of the **一般社団法人バイオマスエネルギーとAI** — the BIOMASS ENERGY & AI project General Incorporated Association.
 
-There were two founding members. Tsuemi-kun. And **Yuka**, his partner and co-founder, who had seen from the beginning what the valley could become, and whose name went on the charter beside his as proof that this was not one person's dream but a shared one.
+There were two founding members. Mitsue-kun. And **Yuka**, his partner and co-founder, who had seen from the beginning what the valley could become, and whose name went on the charter beside his as proof that this was not one person's dream but a shared one.
 
 When the stamp came down, something shifted in the cedar forest.
 
@@ -208,7 +210,7 @@ Below, at the old school, the lights are on. The building has been carefully ren
 
 The EV charging stations dot the valley road, quiet and busy.
 
-At the roadside station, you can still buy a staff-shaped churro in honor of Tsuemi-kun, the village mascot — the little figure with the wand-like curl of hair, the nod to Yamatohime's ancient promise.
+At the roadside station, you can still buy a staff-shaped churro in honor of Mitsue-kun, the village mascot — the little figure with the wand-like curl of hair, the nod to Yamatohime's ancient promise.
 
 And at Mitsue Shrine, when the autumn festival comes, the men carry the great taikodai through the grounds, and their voices echo off the mountain slopes, and somewhere in the crowd a child asks her grandmother: "Why is the village called Mitsue?"
 
