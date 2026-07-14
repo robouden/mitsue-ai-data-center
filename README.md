@@ -5,7 +5,7 @@
 </style>
 <!-- Version: v1.4 | Last modified: 2026-07-14 -->
 
-# <img src="assets/Tsuemi-kun 16.jpg" alt="Tsuemi-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;">BIOMASS ENERGY & AI — バイオマスエネルギーとAI
+# <img src="assets/Tsuemi-kun 16a.jpg" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;">BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
 ### Reforesting in Mitsue — 御杖村における地域植林
 
