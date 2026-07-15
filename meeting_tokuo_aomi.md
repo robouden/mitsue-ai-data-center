@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-07-16 -->
 
 # Meeting Notes — Tokuo Aomi (青海 徳生) · Sugano Organic
 
@@ -20,7 +20,7 @@
 A classic Japanese moral teaching, often displayed in schools and homes:
 
 1. **ハイという 素直の心** — The honest heart that says "Yes"
-2. **すみませんという 友省の心** — The reflective heart that says "I'm sorry"
+2. **すみませんという 反省の心** — The reflective heart that says "I'm sorry"
 3. **わたしがしますという 奉仕の心** — The serving heart that says "Let me do it"
 4. **おかげさまでという 合掌の心** — The grateful heart that says "Thanks to you" (hands together)
 5. **ありがとうという 感謝の心** — The thankful heart that says "Thank you"

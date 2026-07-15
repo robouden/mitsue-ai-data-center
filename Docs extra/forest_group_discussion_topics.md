@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-07-06 -->
+<!-- Version: v1.8 | Last modified: 2026-07-15 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -26,7 +26,7 @@ This principle frames every other forestry decision below — state it early and
 | Organisation | Role | Contact status | Notes |
 |---|---|---|---|
 | **御杖村森林組合 (mitsue-kanko)** | Primary thinning & chip production partner | ✅ Initial contact done (2026-06-22) | Clarify role: partner, contractor, or hybrid |
-| **More Trees / Carbontribe — Tenkawa** | Native reforestation model + J-Credit | ❌ Not yet contacted | Active project next village over; Ryuichi Sakamoto NGO; may let us join their J-Credit registration |
+| **More Trees / Carbontribe — Tenkawa** | Native reforestation model + J-Credit | ✅ Initial contact done (2026-07-14) | Contacts: Kishi Takuya (kishi@more-trees.org), Miyazaki Yu (miyazaki@more-trees.org); Ryuichi Sakamoto / Kengo Kuma NGO; may let us join their J-Credit registration |
 | **Niwamori.org — Nara** | Miyawaki reforestation expertise + food forest | ❌ Not yet contacted | Contact: Jérôme Floerke; uses Miyawaki method (native canopy in 20–30 yrs); active in Nara |
 | **奈良県森林環境課** | Prefectural grants + 林野庁 subsidy gateway | ❌ Not yet contacted | Administers national broadleaf promotion subsidies locally |
 | **林野庁 (Forestry Agency)** | National thinning subsidies + broadleaf programme | ❌ Not yet contacted | Dedicated 広葉樹 programme; apply via prefecture |
@@ -125,6 +125,7 @@ This is a multi-generational commitment, not a Phase 3 task. Planning must start
 - What forestry work do they currently do? (thinning, afforestation, processing, sales)
 - **Do they already have native broadleaf / Miyawaki-style reforestation expertise, or is their replanting experience sugi-only?**
 - Co-op capacity: chippers, operators, crew availability?
+- **Does the village government already have its own reforestation/forest-use plan in motion that doesn't involve us or More Trees?** Raised at More Trees' (Kishi-san's) request — More Trees' participation is contingent on village-government go-ahead, so we need to confirm there isn't an existing separate plan before proceeding.
 
 **Then — based on their answer:**
 - If they *already* have native-reforestation capability → partner as equals; they may need little or no Niwamori.org input (and could even co-mentor). 

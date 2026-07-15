@@ -1,4 +1,4 @@
-<!-- Version: v1.5 | Last modified: 2026-07-06 -->
+<!-- Version: v1.6 | Last modified: 2026-07-14 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -204,6 +204,46 @@ project; Round 1 Jul–Sep 2026) and **環境省 データセンターのゼロ�
 (≤¥1B/project on DC-linked renewables + storage; FY2026 window closed 2026-07-03 — aim for
 FY2027). Both are logged for Baseline Rev 2 in the EVM plan §12.
 
+## 9. Our reforestation values — the more trees model
+
+The replant is not just fuel logistics or byproduct revenue (§7); it is where the
+project earns its ecological legitimacy. We adopt the practices of **more trees**
+(the forest-conservation NGO founded 2007 by Ryuichi Sakamoto with Kengo Kuma as
+representative director) as our explicit model — the same NGO already active in
+**Tenkawa** and in **Odai/Miyagawa** (§7), so its methods are proven on our terrain,
+deer pressure, and cooperative structure. Five values carry directly into the
+Mitsue replant spec:
+
+1. **Local-provenance seedlings (地域性苗木).** Collect seed from trees native to
+   Mitsue's own slopes, raise them, and replant them *on the same land* — never
+   generic or out-of-region nursery stock. This protects the local gene pool and is
+   more trees' flagship 2025 practice. It also makes the nursery itself a
+   school / eco-tour activity (feeds the tree-survey programme).
+2. **"Diverse forest-building" (多様な森づくり).** Design for biodiversity — a mix of
+   native species *and* the animals that live in them — not another single-species
+   plantation. No universal recipe: the species mix and method are chosen per site
+   with 御杖村森林組合's field knowledge plus expert advice.
+3. **Assisted natural regeneration + 自然配植 (natural planting-arrangement).** Where
+   native saplings already exist, nurture them (release-cutting, ground scarification,
+   sasa control) instead of clearing and replanting — cheaper and better suited to
+   steep, roadless stands (§8.2). Arrange the diverse mix using the surrounding
+   vegetation as the guide, so the result reads as a natural forest that stabilises
+   soil and restores biodiversity. Miyagawa Forestry Cooperative (Odai) has honed this
+   technique since 2007 with ~130 local-provenance species and teaches it across regions.
+4. **Livelihoods first, city ↔ forest circulation.** Method choices must keep the local
+   crew economically sustained. Value flows *back* to the forest through Corporate-Forest
+   sponsorships, tours, office seedling kits (JUBAKO), wood products, and
+   **forest-derived carbon offsets (J-Credit)** — a funding channel we should open
+   alongside the energy revenue (§4) and Phase-4 subsidies (§8).
+5. **People and time carry the cycle.** "Plant, raise, use, plant again" is carried by
+   the hands and time of people who live here — with schools (seed→tend→plant by grade)
+   and residents as participants, not spectators.
+
+> **Governance:** the NGO retains final species choice for wildlife and ecosystem value
+> (see reforestation principle); §7's marketable-broadleaf list (kihada etc.) sits
+> *inside* these values, not against them — a diverse, native, local-provenance forest
+> that also happens to yield craft and medicine byproducts.
+
 ---
 
 ## Sources / 出典
@@ -222,6 +262,9 @@ FY2027). Both are logged for Baseline Rev 2 in the EVM plan §12.
   https://www.miraikikin.org/activities/forestry/tenkawa.html
 - more trees 育林・育苗 in Tenkawa (May 2024, corporate volunteers, deer-net enclosures) —
   https://www.more-trees.org/news/20240529/
+- more trees Annual Report 2025 (local-provenance seedlings, diverse forest-building,
+  assisted natural regeneration, 自然配植, J-Credit offsets; Odai/Miyagawa ~130 species) —
+  `Docs extra/more_trees_annual_report_2025_EN.docx` · https://www.more-trees.org
 - 天川村森林塾 (Tenkawa Forest School; 60+ trainees since 2017, open to outsiders) —
   https://tenforestpower.wixsite.com/tenkawajyuku
 - 経産省 GX地域共創補助金 (脱炭素電源地域貢献型投資促進事業; ¥210B, DC+電源一体支援) —
