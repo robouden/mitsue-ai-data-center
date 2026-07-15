@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-16 -->
+<!-- Version: v1.3 | Last modified: 2026-07-16 -->
 
 # Mitsue-Kanko (Forest Co-op) Meeting — 5 Aug 2026
 ## Question list (Phase 0–1 only)
@@ -26,6 +26,7 @@ Purpose of replanting is ecosystem restoration (restore wildlife food supply), n
 
 - **Does the village government already have its own reforestation/forest-use plan in motion that doesn't involve us or More Trees?**
   More Trees' participation is contingent on village-government go-ahead — need to confirm there isn't an existing separate plan.
+  *Checked council minutes archive (2017/18–2026, 100 files): no standalone reforestation plan found — only 森林環境譲与税-funded thinning administration and one private operator's small cherry-tree pilot in Kozue. Absence in the public record isn't confirmation; still ask directly.*
 
 ## Chip production (supply chain)
 
