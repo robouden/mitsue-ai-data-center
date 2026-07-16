@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 import re, os, sys
 
-DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
+DOCS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root (script in tools/)
+
+def _resolve(filename):
+    """Docs moved into docs/<theme>/ — find by basename if not at repo root."""
+    direct = os.path.join(DOCS_DIR, filename)
+    if os.path.exists(direct):
+        return direct
+    for root, _dirs, files in os.walk(os.path.join(DOCS_DIR, 'docs')):
+        if filename in files:
+            return os.path.join(root, filename)
+    return direct
 
 TARGETS = [
     "mitsue_business_case.md", "mitsue_business_case_jp.md",
@@ -78,7 +88,7 @@ PROJECT DOCUMENT
 """
 
 for filename in TARGETS:
-    path = os.path.join(DOCS_DIR, filename)
+    path = _resolve(filename)
     if not os.path.exists(path):
         print(f"SKIP (not found): {filename}")
         continue

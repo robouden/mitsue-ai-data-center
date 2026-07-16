@@ -2,7 +2,7 @@
 """Replace old front pages with new HTML design across all project docs."""
 import re, os
 
-DOCS_DIR = os.path.dirname(os.path.abspath(__file__))
+DOCS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root (script in tools/)
 
 SKIP_FILES = {
     'mitsue_frontpage.md', 'mitsue_implementation_plan.md',
