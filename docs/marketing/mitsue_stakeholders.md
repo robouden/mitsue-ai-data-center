@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-16</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -50,6 +50,7 @@
 | Takuo Dome          | Professor Emeritus, Osaka University · Director, Inochi Forum; specializes in history of economics and social innovation; confirmed |
 | Evin Zoet           | Co-Representative Director, Transom; confirmed 2026-06-16 |
 | Yoshiko Zoet-Suzuki | Co-Representative Director, Transom; confirmed 2026-06-16 |
+| Henry (Seiichi) Takata | Rep. Director, SynTech Japan; Japan Board, U.S.-Japan Council; former operator of a Mie-ken biomass plant. Biomass-CHP + biz-dev/funding advisor; confirmed 2026-07-16 |
 
 ### Local Stakeholders
 | Name                              | Role                                               |
@@ -152,6 +153,7 @@ flowchart LR
 
     subgraph Advisors["Advisors & Diplomacy"]
         RAY["👤 Ray Ozzie"]
+        HENRY["👤 Henry Takata"]
         NL["🇳🇱 Kingdom of Netherlands"]
     end
 
