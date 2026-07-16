@@ -37,6 +37,8 @@ files=(
 
 # Update version headers and last modified dates
 for file in "${files[@]}"; do
+  # Docs moved into docs/<theme>/ — resolve by basename if not at the listed path.
+  [[ -f "$file" ]] || file=$(find . -path ./.git -prune -o -name "$(basename "$file")" -print | head -1)
   if [[ -f "$file" ]]; then
     echo "Updating: $file"
     # Update version headers that contain "Last modified: YYYY-MM-DD"
@@ -56,6 +58,8 @@ cd "$CURRENT_DIR"
 
 # Update specific version patterns
 for file in "${files[@]}"; do
+  # Docs moved into docs/<theme>/ — resolve by basename if not at the listed path.
+  [[ -f "$file" ]] || file=$(find . -path ./.git -prune -o -name "$(basename "$file")" -print | head -1)
   if [[ -f "$file" ]]; then
     # Look for patterns like "Version: vX.Y &nbsp;|&nbsp; Last modified: YYYY-MM-DD"
     # and update the date part

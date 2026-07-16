@@ -111,13 +111,24 @@ function convertMarkdownToHtml(mdFile, text) {
     }
   });
 
+  // Resolve a relative asset ref against the md file's own dir first, then fall
+  // back to the repo root (cwd). Lets docs live in nested folders (docs/<theme>/)
+  // while still referencing shared root-anchored paths like assets/… .
+  const resolveAsset = (href) => {
+    const local = path.resolve(path.dirname(mdFile), href);
+    if (fs.existsSync(local)) return local;
+    const fromRoot = path.resolve(process.cwd(), href);
+    if (fs.existsSync(fromRoot)) return fromRoot;
+    return local; // keep original resolution if neither exists
+  };
+
   // Fix image paths to absolute file:// URLs
   const defaultRender = md.renderer.rules.image;
   md.renderer.rules.image = (tokens, idx, options, env, self) => {
     const token = tokens[idx];
     let href = token.attrs[token.attrIndex('src')][1];
     if (href && !href.startsWith('http') && !href.startsWith('data:')) {
-      href = 'file://' + path.resolve(path.dirname(mdFile), href);
+      href = 'file://' + resolveAsset(href);
       token.attrs[token.attrIndex('src')][1] = href;
     }
     return defaultRender(tokens, idx, options, env, self);
@@ -130,7 +141,7 @@ function convertMarkdownToHtml(mdFile, text) {
     $('img').each(function () {
       const src = $(this).attr('src');
       if (src && !src.startsWith('http') && !src.startsWith('data:')) {
-        $(this).attr('src', 'file://' + path.resolve(path.dirname(mdFile), src));
+        $(this).attr('src', 'file://' + resolveAsset(src));
       }
     });
     return $.html();

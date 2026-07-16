@@ -50,7 +50,7 @@ The project is designed to be **modest in scale, fully transparent, and openly r
 
 ### 3.1 Alignment with the Village's Renewable Energy Plan
 
-In January 2025, Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's statutory decarbonization strategy through 2050. The BIOMASS ENERGY & AI project is not proposing a competing idea — it is offering to be the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written, funded, and committed to.** The project delivers the plan's explicit targets for a "one resilient distributed-energy site" within the village (currently zero), its priority for EV charging at public facilities (transport = 46% of emissions), its distributed disaster-resilience goals, and the forest-carbon/J-Credit mechanism the plan calls for but cannot deliver alone. Critically, the plan's completion under the MoE planning-support grant (step 1) makes Mitsue eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality through public-private partnership. See [`mitsue_village_re_plan_alignment.md`](mitsue_village_re_plan_alignment.md) for the full analysis.
+In January 2025, Mitsue Village published its official **"Plan for Maximum Introduction of Renewable Energy"** (御杖村再エネ導入最大化計画), funded by a Ministry of the Environment grant and adopted as the village's statutory decarbonization strategy through 2050. The BIOMASS ENERGY & AI project is not proposing a competing idea — it is offering to be the **implementation and operating vehicle (官民連携 運営体制) for the plan the village has already written, funded, and committed to.** The project delivers the plan's explicit targets for a "one resilient distributed-energy site" within the village (currently zero), its priority for EV charging at public facilities (transport = 46% of emissions), its distributed disaster-resilience goals, and the forest-carbon/J-Credit mechanism the plan calls for but cannot deliver alone. Critically, the plan's completion under the MoE planning-support grant (step 1) makes Mitsue eligible for the **地域脱炭素移行・再エネ推進交付金** (step 2) — a 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the municipality through public-private partnership. See [`mitsue_village_re_plan_alignment.md`](docs/energy-forest/mitsue_village_re_plan_alignment.md) for the full analysis.
 
 ---
 
@@ -80,7 +80,7 @@ All methods, data, financial records, and lessons learned are published under op
 
 ## 5. Phased Implementation
 
-The first three years are organised into five phases, each gated by an explicit funding checkpoint. The full phase logic, including hold/descope branches and the funding-source map, is documented in [`mitsue_phases_funding_flowchart.md`](mitsue_phases_funding_flowchart.md).
+The first three years are organised into five phases, each gated by an explicit funding checkpoint. The full phase logic, including hold/descope branches and the funding-source map, is documented in [`mitsue_phases_funding_flowchart.md`](docs/strategy/mitsue_phases_funding_flowchart.md).
 
 ```mermaid
 flowchart LR
@@ -131,7 +131,7 @@ flowchart LR
 
 Funding gates between phases are: **G1 ¥3–8M · G2 ¥30–50M · G3 ¥120–290M · G4 Operating revenue online**. Failure to clear a gate triggers a hold-and-re-pitch cycle rather than acceleration into an under-resourced phase.
 
-A more detailed plan, including phase-by-phase deliverables, ROI framework, and risk register, is in [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md).
+A more detailed plan, including phase-by-phase deliverables, ROI framework, and risk register, is in [`mitsue_implementation_plan.md`](docs/strategy/mitsue_implementation_plan.md).
 
 ---
 
@@ -210,8 +210,8 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 
 ### Founding Documents
 
-- [`mitsue_founding_charter.md`](mitsue_founding_charter.md) — bilingual (EN/JP) founding charter
-- [`mitsue_founder_agreement_template.md`](mitsue_founder_agreement_template.md) — founder alignment template
+- [`mitsue_founding_charter.md`](docs/strategy/mitsue_founding_charter.md) — bilingual (EN/JP) founding charter
+- [`mitsue_founder_agreement_template.md`](docs/strategy/mitsue_founder_agreement_template.md) — founder alignment template
 
 ---
 

@@ -49,7 +49,7 @@
 
 ### 3.1 村の再エネ導入最大化計画との整合
 
-2025年1月、御杖村は環境省補助事業として**「再エネ導入最大化計画（概要版）」**を公表した。これは2050年までを対象とする村の法定脱炭素戦略である。バイオマスエネルギーとAIは新しい構想の採用を村に求めているのではない——村がすでに策定し、予算をつけ、コミットしている計画を**実行・運営する事業体（官民連携 運営体制）**になることを申し出ているのである。本プロジェクトは、村内の「再エネ＋蓄電池＋EVのレジリエント1拠点」指標（現状ゼロ）、役場・道の駅等へのEV充電器優先整備（運輸部門が排出の46%）、自立分散型エネルギーの防災目標、そして計画が求めながら単独では実現できない森林炭素／J-クレジット機構を提供する。計画が環境省の計画づくり支援事業（第1段階）で完成したことにより、御杖村は**地域脱炭素移行・再エネ推進交付金**（第2段階）の対象となった——太陽光・蓄電池・EV・自営線設備費の2/3〜3/4が、官民連携を通じて村へ交付される。詳細な分析は [`mitsue_village_re_plan_alignment_jp.md`](mitsue_village_re_plan_alignment_jp.md) 参照。
+2025年1月、御杖村は環境省補助事業として**「再エネ導入最大化計画（概要版）」**を公表した。これは2050年までを対象とする村の法定脱炭素戦略である。バイオマスエネルギーとAIは新しい構想の採用を村に求めているのではない——村がすでに策定し、予算をつけ、コミットしている計画を**実行・運営する事業体（官民連携 運営体制）**になることを申し出ているのである。本プロジェクトは、村内の「再エネ＋蓄電池＋EVのレジリエント1拠点」指標（現状ゼロ）、役場・道の駅等へのEV充電器優先整備（運輸部門が排出の46%）、自立分散型エネルギーの防災目標、そして計画が求めながら単独では実現できない森林炭素／J-クレジット機構を提供する。計画が環境省の計画づくり支援事業（第1段階）で完成したことにより、御杖村は**地域脱炭素移行・再エネ推進交付金**（第2段階）の対象となった——太陽光・蓄電池・EV・自営線設備費の2/3〜3/4が、官民連携を通じて村へ交付される。詳細な分析は [`mitsue_village_re_plan_alignment_jp.md`](docs/energy-forest/mitsue_village_re_plan_alignment_jp.md) 参照。
 
 ---
 
@@ -76,7 +76,7 @@
 
 ## 5. 段階的実施計画
 
-最初の3年間は5つのフェーズに整理され、各フェーズには明確な資金調達チェックポイントが設けられている。保留・縮小分岐と資金調達源マップを含む完全なフェーズロジックは [`mitsue_phases_funding_flowchart.md`](mitsue_phases_funding_flowchart.md) に記載されている。
+最初の3年間は5つのフェーズに整理され、各フェーズには明確な資金調達チェックポイントが設けられている。保留・縮小分岐と資金調達源マップを含む完全なフェーズロジックは [`mitsue_phases_funding_flowchart.md`](docs/strategy/mitsue_phases_funding_flowchart.md) に記載されている。
 
 ```mermaid
 flowchart LR
@@ -127,7 +127,7 @@ flowchart LR
 
 フェーズ間の資金調達ゲート：**G1 ¥3〜8M · G2 ¥30〜50M · G3 ¥120〜290M · G4 運営収益稼働**。ゲートを通過できない場合は、不十分なリソースで次フェーズに進むのではなく、保留・再提案サイクルに入る。
 
-フェーズごとの成果物・ROIフレームワーク・リスク登録簿を含む詳細な計画は [`mitsue_implementation_plan_jp.md`](mitsue_implementation_plan_jp.md) に記載されている。
+フェーズごとの成果物・ROIフレームワーク・リスク登録簿を含む詳細な計画は [`mitsue_implementation_plan_jp.md`](docs/strategy/mitsue_implementation_plan_jp.md) に記載されている。
 
 ---
 
@@ -180,8 +180,8 @@ flowchart LR
 - **長期：** 税控除対象寄付のための認定NPO法人の取得を目指す
 
 ### 設立文書
-- [`mitsue_founding_charter.md`](mitsue_founding_charter.md) — バイリンガル設立憲章（英語・日本語）
-- [`mitsue_founder_agreement_template.md`](mitsue_founder_agreement_template.md) — 創設者合意テンプレート
+- [`mitsue_founding_charter.md`](docs/strategy/mitsue_founding_charter.md) — バイリンガル設立憲章（英語・日本語）
+- [`mitsue_founder_agreement_template.md`](docs/strategy/mitsue_founder_agreement_template.md) — 創設者合意テンプレート
 
 ---
 

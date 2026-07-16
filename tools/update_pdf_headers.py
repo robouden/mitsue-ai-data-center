@@ -71,12 +71,12 @@ def apply_envelope(pdf_path: Path):
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-base = Path(__file__).parent
+base = Path(__file__).resolve().parent.parent  # repo root (script lives in tools/)
 
 if len(sys.argv) > 1:
     targets = [Path(a) for a in sys.argv[1:]]
 else:
-    targets = sorted(base.glob('*.pdf'))
+    targets = sorted(base.glob('docs/**/*.pdf'))
 
 for path in targets:
     if not path.is_absolute():

@@ -74,12 +74,14 @@ def process(filepath: Path):
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-base = Path(__file__).parent
+base = Path(__file__).resolve().parent.parent  # repo root (script lives in tools/)
 
 if len(sys.argv) > 1:
     targets = [Path(a) for a in sys.argv[1:]]
 else:
-    targets = [base / doc for doc in PROJECT_DOCS]
+    # Docs moved into docs/<theme>/ subfolders — resolve curated list by basename.
+    by_name = {p.name: p for p in base.glob('docs/**/*.md')}
+    targets = [by_name[doc] for doc in PROJECT_DOCS if doc in by_name]
 
 for path in targets:
     if not path.is_absolute():
