@@ -4,7 +4,7 @@
   h1, h2, h3 { margin-top: 10px !important; margin-bottom: 4px !important; }
 </style>
 
-<!-- Version: v1.3 | Last modified: 2026-07-08 -->
+<!-- Version: v1.4 | Last modified: 2026-07-17 -->
 
 # バイオマスエネルギーとAI — BIOMASS ENERGY & AI
 ### 御杖村における地域植林 — Reforesting in Mitsue
@@ -20,7 +20,7 @@
 | **期間** | 25年 |
 | **現在のフェーズ** | フェーズ0 — 設立準備期（2026年4月〜10月） |
 | **プロジェクトリード** | Rob Oudendijk（YR-Design / Safecast） |
-| **文書ステータス** | 作業中草稿、2026年7月3日 |
+| **文書ステータス** | 作業中草稿、2026年7月17日 |
 
 ---
 
@@ -142,6 +142,11 @@ flowchart LR
 - フェーズ・資金調達ゲートフローチャートの公開（2026年5月）
 - 諮問委員会の発足 — Ray Ozzie（2026年5月5日確認）、堂目卓生、San Poisson、エヴィン・ズート、ヨシコ・ズート鈴木（2026年5月）
 - 村長面談トーキングポイントの作成（英語・日本語）（2026年5月）
+- ヘンリー・誠一・高田（SynTech Japan）がバイオマスCHP顧問として参加（2026年6月）
+- 菅野の燃料供給パートナー（丹羽製材）を特定し、林業従事者主導のエネルギー計画を作成（2026年6〜7月）
+- more treesとの初回パートナーシップ面談を実施；収穫益による再植林の分担方針で基本合意（2026年7月14日）
+- 国産CHPメーカー候補リスト、FIT/FIP系統接続チェック、森林→コンピュート資金・原料フロー図を作成（2026年7月）
+- みずほ証券とのエンティティ構造面談に向けてビジネスケース・収益モデル・キャッシュフローモデル・EVM計画を更新（2026年8月5日）
 
 ### 進行中
 - 農村での信頼性を持つ日本人共同創業者の特定（最優先）
@@ -172,6 +177,7 @@ flowchart LR
 - **San Poisson** — プロジェクトマネージャー
 - **エヴィン・ズート** — Transom 共同代表取締役
 - **ヨシコ・ズート鈴木** — Transom 共同代表取締役
+- **ヘンリー・誠一・高田（Henry Seiichi Takata）** — SynTech Japan；バイオマスCHP顧問（三重県プラント運営経験）
 
 ### 法人形態
 - **現在：** 設立前
@@ -226,6 +232,12 @@ flowchart LR
 | `mitsue_implementation_plan_jp.md` / `.pdf` | 実施計画の日本語訳 |
 | `mitsue_revenue_model.md` / `.pdf` | 収益ストリーム・コスト代替・回収フレームワーク まとめ（英語） |
 | `mitsue_revenue_model_jp.md` / `.pdf` | 収益モデルまとめ（日本語版） |
+| `mitsue_business_case.md` / `.pdf` | ビジネスケース（英語） |
+| `mitsue_cashflow_model.md` / `.pdf` | キャッシュフローモデル（英語） |
+| `mitsue_forest_workforce_energy_plan.md` | 林業従事者主導の25年森林→エネルギー計画 |
+| `mitsue_chp_maker_shortlist.md` / `.pdf` | 国産バイオマスCHPメーカー候補リスト |
+| `mitsue_fit_grid_check.md` / `.pdf` | FIT/FIP・系統接続チェック（御杖観光サイト） |
+| `mitsue_forest_power_compute_loop.html` / `.pdf` | 森林→CHP→コンピュートの原料・資金フロー図 |
 | `mitsue_phases_funding_flowchart.md` / `.pdf` | フェーズ構造と資金調達ゲート図 |
 | `mitsue_village_government_onepager.md` / `.pdf` | 村行政向け1ページブリーフ（英語） |
 | `mitsue_village_government_onepager_jp.md` / `.pdf` | 村行政向け1ページブリーフ（日本語） |
@@ -267,4 +279,4 @@ flowchart LR
 
 ---
 
-*最終更新：2026年7月5日 · 管理者：Rob Oudendijk*
+*最終更新：2026年7月17日 · 管理者：Rob Oudendijk*

@@ -3,7 +3,7 @@
   p, li { margin: 4px 0 !important; }
   h1, h2, h3 { margin-top: 20px !important; margin-bottom: 4px !important; }
 </style>
-<!-- Version: v1.4 | Last modified: 2026-07-14 -->
+<!-- Version: v1.5 | Last modified: 2026-07-17 -->
 
 # <img src="assets/Tsuemi-kun 16a.jpg" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;">BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
@@ -21,7 +21,7 @@
 | **Horizon**         | 25 years                                |
 | **Current Phase**   | Phase 0 — Pre-Foundation (Apr–Oct 2026) |
 | **Project Lead**    | Rob Oudendijk (YR-Design / Safecast)    |
-| **Document Status** | Working draft, July 3, 2026             |
+| **Document Status** | Working draft, July 17, 2026             |
 
 ---
 
@@ -167,6 +167,16 @@ A more detailed plan, including phase-by-phase deliverables, ROI framework, and 
 
 - HIGHRESO outreach email drafted (May 2026)
 
+- Henry Seiichi Takata (SynTech Japan) joined as biomass-CHP advisor (June 2026)
+
+- Sugano fuel-supply partner identified (丹羽製材) and Forest Workforce Energy Plan drafted (June–July 2026)
+
+- more trees first partnership meeting held; harvest-funds-replant split agreed in principle (July 14, 2026)
+
+- Domestic CHP maker shortlist, FIT/FIP grid-connection check, and forest-to-compute material/money flow diagram drafted (July 2026)
+
+- Business case, revenue model, cashflow model, and EVM plan updated for the Mizuho Securities entity-structure meeting (August 5, 2026)
+
 ### In Progress
 
 - Identifying a Japanese co-founder with rural credibility (top priority)
@@ -200,6 +210,7 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 - **San Poisson** — Project Manager
 - **Evin Zoet** — Co-Representative Director, Transom
 - **Yoshiko Zoet-Suzuki** — Co-Representative Director, Transom
+- **Henry Seiichi Takata** — SynTech Japan; biomass CHP advisor (Mie-ken plant operating experience)
 
 ### Legal Structure
 
@@ -283,6 +294,12 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_evm_plan_jp.md` / `.pdf`                 | Japanese EVM plan                                                                   |
 | `mitsue_revenue_model.md` / `.pdf`               | Revenue streams, cost displacement & payback framework — funder-facing summary (EN) |
 | `mitsue_revenue_model_jp.md` / `.pdf`            | Japanese version of the revenue model summary                                       |
+| `mitsue_business_case.md` / `.pdf`               | Business case (EN)                                                                  |
+| `mitsue_cashflow_model.md` / `.pdf`              | Cashflow model (EN)                                                                 |
+| `mitsue_forest_workforce_energy_plan.md`         | Workforce-led 25-year forest→energy plan                                            |
+| `mitsue_chp_maker_shortlist.md` / `.pdf`         | Domestic biomass-CHP manufacturer shortlist                                         |
+| `mitsue_fit_grid_check.md` / `.pdf`              | FIT/FIP & grid-connection check, Mitsue Kanko site                                  |
+| `mitsue_forest_power_compute_loop.html` / `.pdf` | Forest → CHP → compute material & money flow diagram                                |
 
 **Government & community engagement**
 
@@ -366,4 +383,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: July 5, 2026 · Maintained by Rob Oudendijk*
+*Last updated: July 17, 2026 · Maintained by Rob Oudendijk*
