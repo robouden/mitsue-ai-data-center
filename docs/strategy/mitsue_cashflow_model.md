@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-11 -->
+<!-- Version: v1.4 | Last modified: 2026-07-17 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -130,7 +130,7 @@ As the framing notes, early inflow is **lumpy, not monthly**:
 
 - **Phases 0–2 (M1–M18):** 100% of inflow is founder capital + grants + subsidies + corporate/loan tranches. **Zero operating revenue.** Six lumps totalling ¥91M carry the project to the start of construction.
 - **Phase 3 (M19–M30):** still dominated by lumps (¥135M across four tranches), with the **first trickle of operating revenue (¥1M/month) only from M28** as the pilot energises.
-- **Phase 4 (M31+, out of this baseline):** the model flips — operating revenue (FIT electricity, heat, DC hosting, EV, broadleaf/J-Credit) becomes the primary monthly inflow and funds the CHP scale-up. See `mitsue_revenue_model.md` and EVM §14.
+- **Phase 4 (M31+, out of this baseline):** the model flips — operating revenue (DC hosting, heat, EV, broadleaf/J-Credit, plus **grid-export electricity — likely FIP**, the plant being an exporter >1,000 kW) becomes the primary monthly inflow and funds the CHP scale-up. The co-located anchor DC is only a small behind-the-meter baseload (~2% of the CHP's own output); most of the *plant's* generation is village + export, so grid capacity is a real dependency. That 2% is not a ceiling on DC hosting revenue, though — the larger showcase DC (old school) runs on grid/green power, and compute earns ~6–20× more per kWh than FIP either way, so hosting fill-rate — not CHP export share — drives the DC hosting line. See `mitsue_revenue_model.md` and EVM §14.
 
 **Loans/bridge financing** matter precisely at the seams between lumps. Because grants commonly pay *on milestone completion* (arrears), a **bridge facility** sized to ~1 month of peak burn (**~¥25M**) lets the project spend against a *committed-but-not-yet-disbursed* grant without the balance dipping. The M26 tranche in §3 plays this role; it can be a bank bridge loan, a draw on the ¥25M Management Reserve, or an advance against a signed 交付金.
 

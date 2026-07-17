@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.6</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -56,6 +56,101 @@ The mission entity owns and controls the operating company. Grant money (which l
 | L4 | Corporate partners | 35 | **Choice of:** CSR grant · minority GK equity · prepaid hosting (revenue advance) · energy-share offtake | Green-compute capacity, ESG story, or contracted return depending on instrument chosen |
 | L5 | Operating revenue | 3+ | Reinvested surplus | — |
 | **Gap** | To close ¥28–53M | 28–53 | Additional 交付金 + corporate GK equity + revenue-financing | As per L2/L4 above |
+
+### 1.2a How money and goods actually move between the two tiers
+
+(Added 2026-07-17.) The tables above describe *what each layer gets*; this shows *how it flows* —
+goods/services (green, solid) vs. money (gold, dashed) vs. governance (grey, dotted) — between
+the two real legal entities.
+
+<div style="page-break-inside:avoid; margin: 10pt 0">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" style="width:100%;display:block">
+  <defs>
+    <marker id="bgood" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f7d4f"/>
+    </marker>
+    <marker id="bmoney" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8860b"/>
+    </marker>
+    <marker id="bgov" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a949a"/>
+    </marker>
+  </defs>
+  <!-- legend -->
+  <line x1="0" y1="6" x2="22" y2="6" stroke="#2f7d4f" stroke-width="2"/>
+  <text x="27" y="9" font-size="9.5" fill="#3d4a52">Goods / services</text>
+  <line x1="150" y1="6" x2="172" y2="6" stroke="#b8860b" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="177" y="9" font-size="9.5" fill="#3d4a52">Money</text>
+  <line x1="255" y1="6" x2="277" y2="6" stroke="#8a949a" stroke-width="1.8" stroke-dasharray="1.5 2.5"/>
+  <text x="282" y="9" font-size="9.5" fill="#3d4a52">Governance / advisory</text>
+  <!-- External funders row -->
+  <rect x="10" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="85" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">Founders (L1)</text>
+  <text x="85" y="58" text-anchor="middle" font-size="8" fill="#7a868d">¥6M · sweat + capital</text>
+  <text x="85" y="68" text-anchor="middle" font-size="8" fill="#7a868d">Rob + JP co-founder</text>
+  <rect x="183" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="258" y="41" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">Government grants (L2)</text>
+  <text x="258" y="54" text-anchor="middle" font-size="8" fill="#7a868d">via village 官民連携</text>
+  <text x="258" y="65" text-anchor="middle" font-size="8" fill="#7a868d">¥115M · 交付金 2/3–3/4</text>
+  <rect x="356" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="431" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">Foundations (L3)</text>
+  <text x="431" y="58" text-anchor="middle" font-size="8" fill="#7a868d">¥33M · mission-restricted</text>
+  <text x="431" y="68" text-anchor="middle" font-size="8" fill="#7a868d">grant</text>
+  <rect x="529" y="26" width="161" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="609" y="41" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">Corporate partners (L4)</text>
+  <text x="609" y="54" text-anchor="middle" font-size="8" fill="#7a868d">¥35M · CSR grant / equity /</text>
+  <text x="609" y="65" text-anchor="middle" font-size="8" fill="#7a868d">prepaid hosting / offtake</text>
+  <!-- Tier boxes -->
+  <rect x="20" y="120" width="300" height="150" rx="4" fill="#fff" stroke="#bfe0cc" stroke-width="1.4"/>
+  <rect x="20" y="120" width="300" height="22" rx="4" fill="#2f7d4f"/>
+  <text x="170" y="135" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.03em">TIER 1 · MISSION ENTITY</text>
+  <text x="170" y="153" text-anchor="middle" font-size="8.5" fill="#7a868d">一般社団法人 (or NPO法人)</text>
+  <text x="34" y="170" font-size="8.3" fill="#3d4a52">Charter · 官民連携 relationship · brand / IP</text>
+  <text x="34" y="182" font-size="8.3" fill="#3d4a52">"playbook" · forest-restoration programme ·</text>
+  <text x="34" y="194" font-size="8.3" fill="#3d4a52">J-Credit registration.</text>
+  <text x="34" y="211" font-size="8.3" font-weight="700" fill="#2f7d4f">Owns majority of GK + mission-lock clause.</text>
+  <text x="34" y="228" font-size="8" font-weight="700" fill="#16323d">Receives:</text>
+  <text x="34" y="240" font-size="8" fill="#3d4a52">founder capital, government grants, foundation</text>
+  <text x="34" y="251" font-size="8" fill="#3d4a52">grants (all non-distributing) + GK dividends</text>
+  <rect x="380" y="120" width="300" height="150" rx="4" fill="#fff" stroke="#c7cdf0" stroke-width="1.4"/>
+  <rect x="380" y="120" width="300" height="22" rx="4" fill="#3a55c4"/>
+  <text x="530" y="135" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.03em">TIER 2 · OPERATING COMPANY</text>
+  <text x="530" y="153" text-anchor="middle" font-size="8.5" fill="#7a868d">合同会社 (GK)</text>
+  <text x="394" y="170" font-size="8.3" fill="#3d4a52">Data-center assets · biomass CHP + solar +</text>
+  <text x="394" y="182" font-size="8.3" fill="#3d4a52">battery · grid / FIT contracts · hosting</text>
+  <text x="394" y="194" font-size="8.3" fill="#3d4a52">contracts · staff.</text>
+  <text x="394" y="211" font-size="8.3" font-weight="700" fill="#3a55c4">Operated under contract to the mission entity.</text>
+  <text x="394" y="228" font-size="8" font-weight="700" fill="#16323d">Receives:</text>
+  <text x="394" y="240" font-size="8" fill="#3d4a52">founder + corporate equity, revenue/energy-</text>
+  <text x="394" y="251" font-size="8" fill="#3d4a52">share contracts, operating revenue</text>
+  <!-- Founders -> Tier1 / Tier2 -->
+  <path d="M60,72 C 70,95 100,108 130,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="62" y="100" font-size="7.6" fill="#b8860b">founder capital + sweat</text>
+  <path d="M130,72 C 250,100 350,105 400,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="243" y="111" font-size="7.6" fill="#b8860b">minority equity (GK)</text>
+  <!-- Govt grants -> Tier1 -->
+  <path d="M258,72 L 220,118" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="222" y="91" font-size="7.6" fill="#b8860b">交付金 (non-distributing)</text>
+  <!-- Foundations -> Tier1 -->
+  <path d="M420,72 C 380,95 320,105 260,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="330" y="112" font-size="7.6" fill="#b8860b">mission-restricted grant</text>
+  <!-- Corporate -> Tier2 (equity/hosting) -->
+  <path d="M600,72 L 570,118" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="522" y="100" font-size="7.6" fill="#b8860b">equity / prepaid hosting / offtake</text>
+  <!-- Corporate -> Tier1 (CSR grant alt) -->
+  <path d="M560,72 C 460,105 350,120 322,132" fill="none" stroke="#b8860b" stroke-width="1.3" stroke-dasharray="2 3" marker-end="url(#bmoney)" opacity="0.75"/>
+  <text x="418" y="112" font-size="7.2" fill="#b8860b" opacity="0.85">or: CSR grant direct to Tier 1</text>
+  <!-- Tier1 <-> Tier2 core loop -->
+  <path d="M322,148 L 378,148" fill="none" stroke="#8a949a" stroke-width="1.5" stroke-dasharray="1.5 2.5" marker-end="url(#bgov)"/>
+  <text x="325" y="151" font-size="7.2" fill="#8a949a">owns majority + mission-lock</text>
+  <path d="M378,168 L 322,168" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney)"/>
+  <text x="327" y="165" font-size="7.4" font-weight="700" fill="#b8860b">dividends</text>
+</svg>
+
+</div>
+
+<p style="font-size:8.5pt; color:#666; margin-top:2mm;"><i>Reading it: every money line into Tier 1 is non-distributing by law — it funds mission activity, not investor return. Every money line into Tier 2 is a real financial instrument (equity, revenue-share) because Tier 2 is where legal profit distribution is possible at all. The only money flowing back <b>out</b> of Tier 2 is to Tier 1 (dividends, since Tier 1 owns the majority) — there is no path for grant money to leak into a private return, and no path for investor capital to bypass Tier 2's contractual bounds.</i></p>
 
 ### 1.3 Mission-lock — why investors cannot capture the project
 
@@ -129,7 +224,32 @@ The return is most sensitive to three figures, all resolved in Phase 1–2 feasi
 
 1. **Data-center occupancy / hosting price** — the anchor. If hosting demand is weak, the whole stack thins. *Mitigant: secure a corporate offtake LOI before Gate 3 build.*
 2. **Biomass CHP feedstock cost & sizing** — if thinning logistics cost more than modelled, energy margin erodes. *Mitigant: independent feasibility early; forestry programme supplies fuel at internal cost.*
-3. **FIT/FIP tariff outcome** — sets surplus-energy value. *Mitigant: revenue is not dependent on FIT alone; it is one of six streams.*
+3. **FIT/FIP tariff outcome** — sets *surplus*-energy value only. *Mitigant: revenue is not FIT-dependent — it is one of six streams. But note the plant is an **exporter** (~1.15 MW, sized to the forest); the co-located data center is only a small behind-the-meter baseload (~2% of output). Most of the CHP's *own* output goes to the village + grid export, so at >1,000 kW that energy revenue is likely **FIP**, not the 40 円 FIT (confirm). Grid interconnection capacity (Henry's 事前相談) is therefore a real dependency. This is the plant's electrons only, though — it doesn't cap total hosting revenue, since the larger showcase DC at the old school runs on grid/green power, not CHP output (compute is worth ~6–20× more per kWh than FIP either way). Figures provisional — see `../energy-forest/mitsue_fit_grid_check.md`.* **Net of real GPU capex, that 6–20× gross figure only converts to net profit above a breakeven fill-rate (~45–70% depending on price tier/depreciation life) — see `mitsue_revenue_model.md` §1a. The swing variable is therefore GPU utilization (the HIGHRESO offtake pipeline), not the FIT/FIP outcome itself.*
+
+### 4.2a GPU server net profit — 3-tier utilization scenario
+
+(Added 2026-07-17.) Point 3 above nets real GPU capex against the gross ~6–20× compute-vs-FIP
+figure — the result is fill-rate-gated, not a free multiple (full breakeven math in
+`mitsue_revenue_model.md` §1a). Rather than one number, here is the same **Low / Base / High**
+framing as §4.1, applied to a single 8×H200 anchor server (~¥53M capex, ~10 kW draw, list
+pricing ¥2.53M/mo, 20% opex — see §1a for sources):
+
+| | Low | Base | High |
+|---|---|---|---|
+| Utilization (fill-rate) | 50% | 65% | 85% |
+| Depreciation life | 4 yr | 4 yr | 6 yr |
+| Server revenue (at utilization) | ¥15.2M | ¥19.7M | ¥25.8M |
+| Opex (~20%) | ¥3.0M | ¥3.9M | ¥5.2M |
+| Depreciation | ¥13.25M | ¥13.25M | ¥8.83M |
+| **Net profit per server/yr** | **−¥1.1M** | **+¥2.5M** | **+¥11.8M** |
+| vs. FIP-equivalent (~¥3.1M/yr, same kWh, ~zero capex) | worse by ¥4.2M | worse by ¥0.5M | **~3.8× FIP** |
+
+**Reading it:** below ~65% fill-rate at list pricing, a GPU server is *no better than* simply
+exporting the same power via FIP — sometimes worse, once its own capex is serviced. The project
+only clears a clear win at the **High** tier, which needs both strong utilization *and* the
+6-year hyperscaler depreciation standard. **The swing variable is fill-rate, and that number is
+not yet known** — it depends on what the HIGHRESO offtake relationship can actually underwrite.
+Treat anchor-compute sizing as gated by that answer, not by available CHP output.
 
 ### 4.3 Go/no-go is already built in
 

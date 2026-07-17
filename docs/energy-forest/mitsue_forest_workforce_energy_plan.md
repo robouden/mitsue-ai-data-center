@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-07-14 -->
+<!-- Version: v1.7 | Last modified: 2026-07-17 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -66,14 +66,47 @@ wood is routed to fuel; conversion runs over 25 years.
 Build the plant as **2 × ~0.6 MWe units**, not one 1.2 MWe unit:
 
 - **Redundancy / maintenance** — one unit can be serviced while the other runs.
-- **FIT** — both stay under the 2 MW unused-material (未利用材) band, capturing the
-  higher tariff (~¥40/kWh vs ~¥32/kWh for ≥2 MW).
 - **Phased growth** — install unit 1 as the crew doubles, unit 2 as it approaches
   triple. The plant grows in step with the workforce.
 
 Indicative capex at this scale ≈ ¥0.8 billion (¥700k/kWe installed).
-Electricity → grid or salt-battery thermal store; the recovered heat
-(~27,700 MWh-th/yr) also charges the store or supplies district heat.
+The recovered heat (~27,700 MWh-th/yr) charges a salt-battery thermal store or supplies
+district heat.
+
+> ⚠️ **Do not build the revenue case on grid-export FIT.** (Corrected 2026-07-17 — see
+> `mitsue_fit_grid_check.md`.) Two rules bind: (1) FY2025–26 **new FIT certification is
+> capped at <1,000 kW** per plant; (2) **分割禁止** — 2×0.6 MWe on one site (same operator)
+> is *deemed a single 1.2 MW facility*, so it **cannot** be split under the cap. A 1.2 MW
+> plant is therefore **not eligible for new FIT** — only FIP, or (better) self-consumption.
+> **This plant is an *exporter*, sized to the forest — not to on-site load.** ~1.15 MWe /
+> ~8,000 MWh/yr, while the loads we can put behind-the-meter are small. Be precise about who is
+> behind the meter:
+> - **Data center (co-located):** runs behind-the-meter (self-wired, no grid, no cap, no 分割
+>   issue) — but it is a **small ~18 kW ≈ ~2% of output** load. Its value is a **stable 24/7
+>   baseload for the CHP + avoided-retail price per kWh**, *not* volume. It does **not** by itself
+>   reach the 地域活用 10%-self-consumption threshold (~90 kW continuous); reaching it needs more
+>   on-site load (electric drying, EV, battery) **or** the 地域消費 route — **not yet resolved.**
+> - **Village houses:** dispersed on Kansai T&D's grid → reached only by **grid export** (FIP, or
+>   再エネ特定卸供給 to a prefecture retailer) or a costly private microgrid (自営線). Grid
+>   interconnection required.
+> - **The remaining bulk → grid export via FIP.** **Confirmed:** for FY2026 new certification,
+>   biomass **≥1,000 kW is FIP-only** — our ~1.15 MW plant **cannot** get the 40 円 FIT; it sells
+>   at **JEPX market price + FIP premium** (variable, not a fixed 20-yr tariff). FIP isn't subject
+>   to 地域活用要件, so that self-consumption test is moot for the main plant. **Henry's grid
+>   事前相談 is therefore central** — the plant needs real export capacity.
+> - Village islanding onto the CHP = **防災/blackout** only.
+>
+> Order of dispatch: **co-located DC baseload (behind-the-meter) → village + grid export (FIP;
+> optional ≤1,000 kW FIT slice @~40 円) → salt-battery / heat store.**
+>
+> **Co-locate the *anchor* compute with the CHP — but the school showcase DC is fine on grid power.**
+> (Refined 2026-07-17.) Because **compute is worth ~6–20× more per kWh than power**, a GPU's power
+> *source* is only ~1–5 % of its revenue — so a DC is highly profitable even on grid/green retail, and
+> co-location is **not** a hard profitability prerequisite. What co-locating *anchor* compute at 神末
+> buys is a **high-value home for the CHP's own electrons** (compute ~¥190–650/kWh vs FIP ~¥30–40).
+> Decision: **compute in both places** — anchor/back-end at 神末 (with the CHP), and a flagship
+> **showcase + experience DC at the old school** (grid/green-powered) for village lease income +
+> exposure. See `mitsue_fit_grid_check.md` for the full three-node siting.
 
 ### Reference equipment — makers (domestic only)
 

@@ -1,0 +1,275 @@
+<!-- Version: v1.1 | Last modified: 2026-07-17 -->
+<!doctype html><html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mitsue — Forest to Compute: Material &amp; Money Flow</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  @page { size: A3 landscape; margin: 12mm; }
+  :root {
+    --bg: #f4f6f1; --surface: #ffffff; --ink: #19200f; --muted: #5b6552;
+    --line: #dfe4d7; --green: #2f7d4f; --green-soft: #dff0e2;
+    --ember: #cf6a24; --gold: #b8860b;
+    --teal: #157f76; --indigo: #3a55c4;
+    --artboard: #faf9f4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1560px; margin: 0 auto; padding: 1.6rem 1.6rem 3rem; }
+
+  .eyebrow { font-size: .72rem; letter-spacing: .22em; text-transform: uppercase; color: var(--green); font-weight: 700; margin: 0 0 .6rem; }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: 700; font-size: 2.4rem; line-height: 1.06;
+    letter-spacing: -.01em; margin: 0 0 .5rem;
+  }
+  .lede { color: var(--muted); font-size: 1.05rem; max-width: 66ch; margin: 0 0 .4rem; }
+  .stamp { color: var(--muted); font-size: .8rem; margin-top: .8rem; }
+
+  h2 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 1.4rem; font-weight: 700; letter-spacing: -.01em;
+    margin: 2rem 0 .3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+  }
+  h2 .n { color: var(--green); font-size: .85em; margin-right: .5rem; font-variant-numeric: tabular-nums; }
+  .sub { color: var(--muted); margin: 0 0 1.1rem; max-width: 70ch; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: 1.2rem 0 0; }
+  .chip { display: inline-flex; align-items: center; gap: .45rem; font-size: .82rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .28rem .7rem; }
+  .dot { width: .72rem; height: .72rem; border-radius: 3px; flex: none; }
+  .d-green { background: #2f7d4f; } .d-gold { background: #b8860b; } .d-ember { background: #cf6a24; }
+  .d-teal { background: #157f76; } .d-indigo { background: #3a55c4; }
+
+  .artboard {
+    background: var(--artboard); border: 1px solid var(--line); border-radius: 14px;
+    padding: 1rem; margin: 1.3rem 0 .4rem;
+  }
+  .artboard svg { max-width: 100% !important; height: auto !important; display: block; margin: 0 auto; }
+  .artnote { color: var(--muted); font-size: .78rem; margin: .5rem .2rem 0; }
+
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.3rem; margin-top: 1.2rem; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.1rem 1.2rem 1.3rem; }
+  .card h3 { margin: 0 0 .1rem; font-size: 1rem; display: flex; align-items: center; gap: .5rem; }
+  .card .cap { color: var(--muted); font-size: .8rem; margin: 0 0 .7rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  th, td { text-align: left; padding: .42rem .3rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 700; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  .tot td { font-weight: 700; border-top: 2px solid var(--line); border-bottom: none; }
+
+  .callout { background: var(--green-soft); color: #14331f; border-radius: 12px; padding: 1rem 1.2rem; margin: 1.3rem 0 0; font-size: .92rem; }
+  .callout b { color: #123; }
+
+  .foot { color: var(--muted); font-size: .78rem; margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+  a { color: var(--green); }
+</style>
+</head><body>
+<div class="wrap">
+  <p class="eyebrow">御杖村 · Biomass Energy &amp; AI</p>
+  <h1>Forest → Power → Compute: the material and money loop</h1>
+  <p class="lede">One map of the whole system — how wood, heat and labour move through it (green track), and where money is invested and returned (money track) — for the doubled-crew baseline (~1.15&nbsp;MWe).</p>
+  <p class="stamp">Planning-grade / illustrative · 2026-07-17 · figures from the project's own docs, to be firmed in Phase&nbsp;1 feasibility. No funding committed yet.</p>
+
+  <div class="legend">
+    <span class="chip"><span class="dot d-green"></span>Materials &amp; labour</span>
+    <span class="chip"><span class="dot d-gold"></span>Electricity</span>
+    <span class="chip"><span class="dot d-ember"></span>Heat</span>
+    <span class="chip"><span class="dot d-teal"></span>Compute</span>
+    <span class="chip"><span class="dot d-indigo"></span>Money in (investment)</span>
+    <span class="chip"><span class="dot d-gold"></span>Money out (revenue &amp; returns)</span>
+  </div>
+
+  <h2><span class="n">01</span>The whole loop, one graph</h2>
+  <p class="sub">Solid arrows are physical flows and money flows; dotted arrows couple the two — an asset to the money that builds it, a use to the revenue it earns, and the reinvestment that closes the loop back into the forest.</p>
+
+  <div class="artboard">
+<pre class="mermaid">
+%%{init: {"theme":"base","flowchart":{"htmlLabels":false,"padding":22,"nodeSpacing":65,"rankSpacing":75,"wrappingWidth":220},"themeVariables":{"fontFamily":"Noto Sans CJK JP, Arial, sans-serif","fontSize":"15px","lineColor":"#8f998c","clusterBkg":"#ffffff00","clusterBorder":"#cdd4c6"}}}%%
+flowchart LR
+
+  subgraph MAT["MATERIALS + LABOUR  ·  the forest loop"]
+    direction LR
+    F["🌲 Village forest<br/>7,051 ha"]
+    H["Harvest / clear-cut<br/>~140 ha/yr · doubled co-op crew"]
+    CD["Chip + dry<br/>牛峠工場 · on CHP heat"]
+    P["CHP plant<br/>~1.15 MWe (2×0.6)"]
+    E["Electricity<br/>~8,000 MWh/yr"]
+    HT["Heat<br/>~27,700 MWh-th/yr"]
+    RP["Replant<br/>native broadleaf"]
+    AC["Anchor compute<br/>@ 神末 (with CHP)"]
+    SC["Showcase DC<br/>@ old school"]
+    VG["Village +<br/>grid / FIP export"]
+    DH["Salt-battery<br/>heat store"]
+  end
+
+  F -->|"harvest ~140 ha/yr"| H
+  H -->|"logs ~13,000 dry t/yr"| CD
+  CD -->|"dry chips 10–15% MC"| P
+  P -->|"elec"| E
+  P -->|"heat"| HT
+  HT -->|"~9,000 MWh-th → dryers"| CD
+  E --> AC
+  E --> SC
+  E --> VG
+  HT --> DH
+  H -->|"cleared land"| RP
+  RP -->|"20–25 yr growth"| F
+
+  subgraph MON["MONEY  ·  invested → returned"]
+    direction LR
+    IN["💴 Investment in<br/>Founder ¥6M · 交付金 2/3–3/4<br/>Foundations · Corporate/GK equity"]
+    CX["Capex<br/>CHP ~¥800M · Fuel-prep ~¥120M<br/>GPUs + DC fit-out"]
+    OX["Opex<br/>Crew labour · maintenance<br/>fuel prep"]
+    REV["Compute hosting revenue<br/>¥15–80M/yr · ¥190–650/kWh"]
+    FIPr["Power export (FIP)<br/>¥5–30M/yr · ¥30–40/kWh"]
+    OTH["Timber + broadleaf · J-Credit<br/>EV · playbook"]
+    RET["Returns to village<br/>Energy savings ¥40–60M/yr<br/>lease income · GK dividends"]
+    RE["Reinvest →<br/>crew + forest"]
+  end
+
+  IN --> CX
+  IN --> OX
+  CX --> REV
+  OX --> REV
+  CX --> FIPr
+  REV --> RET
+  FIPr --> RET
+  OTH --> RET
+  RET --> RE
+
+  %% couplers between the two tracks
+  CX -.->|"builds"| P
+  AC -.->|"sells compute"| REV
+  SC -.->|"sells compute"| REV
+  VG -.->|"sells power"| FIPr
+  H -.->|"timber"| OTH
+  RE -.->|"funds crew"| H
+
+  classDef mat fill:#dff0e2,stroke:#2f7d4f,color:#12331e,stroke-width:1px;
+  classDef elec fill:#f6ecc6,stroke:#a9790a,color:#3d2c02,stroke-width:1px;
+  classDef heat fill:#f6ddca,stroke:#c05f1f,color:#3d1e08,stroke-width:1px;
+  classDef comp fill:#d3ece9,stroke:#137068,color:#0a2f2b,stroke-width:1px;
+  classDef mon_in fill:#dde2f7,stroke:#3a55c4,color:#101b45,stroke-width:1px;
+  classDef mon_out fill:#f3e8c8,stroke:#a9790a,color:#3d2c02,stroke-width:1px;
+  classDef ret fill:#dff0e2,stroke:#2f7d4f,color:#12331e,stroke-width:1.5px;
+
+  class F,H,CD,P,RP mat;
+  class E elec;
+  class HT,DH heat;
+  class AC,SC comp;
+  class VG elec;
+  class IN,CX,OX mon_in;
+  class REV,FIPr,OTH mon_out;
+  class RET,RE ret;
+</pre>
+  </div>
+  <p class="artnote">Static render for print/PDF — the interactive zoom/pan version lives in the project's Claude artifact.</p>
+
+  <div class="callout">
+    <b>The one number that drives the shape:</b> a kWh is worth <b>~6–20× more as AI compute (¥190–650) than as exported power (¥30–40 FIP)</b>. So the CHP's best customer is an on-site GPU data centre, not the grid — compute is the offtake, FIP export is the overflow valve, and reinvested surplus grows the crew that grows the harvest.
+  </div>
+
+  <h2><span class="n">02</span>Same flows, widths to scale (Sankey)</h2>
+  <p class="sub">Two Sankey diagrams where band thickness = magnitude. Left: energy in MWh/yr. Right: money in ¥M/yr (Year-10 midpoints). The electricity split is an <b>illustrative</b> allocation — the compute share is the design lever we're still sizing.</p>
+
+  <div class="grid2" style="align-items:start;">
+    <div class="card" style="padding:.7rem;">
+      <h3 style="padding:.4rem .5rem 0;"><span class="dot d-ember"></span>Energy · MWh/yr</h3>
+      <div class="artboard" style="margin:.5rem 0 0;">
+<pre class="mermaid">
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Noto Sans CJK JP, Arial, sans-serif"}}}%%
+sankey-beta
+
+Dry chips,CHP plant,35700
+CHP plant,Electricity,8000
+CHP plant,Heat,27700
+Heat,Chip drying,9000
+Heat,Salt-battery store,7000
+Heat,Unused / losses,11700
+Electricity,Anchor compute site,2500
+Electricity,Showcase DC school,700
+Electricity,Village supply,1800
+Electricity,Grid export (FIP),3000
+</pre>
+      </div>
+      <p class="cap" style="padding:0 .5rem;">Chips→CHP→elec+heat is measured; the four electricity uses are an illustrative split of the ~8,000 MWh.</p>
+    </div>
+
+    <div class="card" style="padding:.7rem;">
+      <h3 style="padding:.4rem .5rem 0;"><span class="dot d-gold"></span>Money · ¥M/yr (Yr 10)</h3>
+      <div class="artboard" style="margin:.5rem 0 0;">
+<pre class="mermaid">
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Noto Sans CJK JP, Arial, sans-serif"}}}%%
+sankey-beta
+
+Compute hosting,Gross revenue,60
+Power export FIP,Gross revenue,20
+Timber & broadleaf,Gross revenue,15
+J-Credit,Gross revenue,6
+EV charging,Gross revenue,5
+Playbook,Gross revenue,5
+Gross revenue,Operating costs,45
+Gross revenue,Net surplus,66
+Net surplus,Reinvest crew & forest,33
+Net surplus,GK dividends,18
+Net surplus,Village / community,15
+</pre>
+      </div>
+      <p class="cap" style="padding:0 .5rem;">Year-10 midpoints; opex ≈ 40% of revenue; surplus split illustrative.</p>
+    </div>
+  </div>
+
+  <h2><span class="n">03</span>The numbers behind the arrows</h2>
+  <p class="sub">Authoritative figures for the two tracks. Material balance is the doubled-crew baseline; money is illustrative Year-5→Year-10 framework, not a forecast.</p>
+
+  <div class="grid2">
+    <div class="card">
+      <h3><span class="dot d-green"></span>Material &amp; energy balance</h3>
+      <p class="cap">Doubled-crew baseline · annual · from the forest-workforce plan</p>
+      <table>
+        <tr><th>Stage</th><th class="num">Quantity</th></tr>
+        <tr><td>Village forest (total)</td><td class="num">7,051 ha</td></tr>
+        <tr><td>Harvest / clear-cut rate</td><td class="num">~140 ha/yr</td></tr>
+        <tr><td>Forest worked over 25 yr</td><td class="num">~3,526 ha (50%)</td></tr>
+        <tr><td>Fuel to plant</td><td class="num">~13,000 dry t/yr</td></tr>
+        <tr><td>CHP capacity</td><td class="num">~1.15 MWe</td></tr>
+        <tr><td>Electricity</td><td class="num">~8,000 MWh/yr</td></tr>
+        <tr><td>Heat (total)</td><td class="num">~27,700 MWh-th/yr</td></tr>
+        <tr><td>— of which to drying</td><td class="num">~9,000 MWh-th/yr</td></tr>
+        <tr><td>Replant</td><td class="num">native broadleaf</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3><span class="dot d-indigo"></span>Money in &nbsp;·&nbsp; <span class="dot d-gold"></span>Money out</h3>
+      <p class="cap">Investment (one-off) vs annual revenue · illustrative</p>
+      <table>
+        <tr><th>In — capital</th><th class="num">¥</th></tr>
+        <tr><td>Programme target (Ph 0–3, BAC ¥220M)</td><td class="num">~192M</td></tr>
+        <tr><td>CHP gensets 2×0.6 MWe (Ph 4)</td><td class="num">~800M</td></tr>
+        <tr><td>Fuel-prep line (Ph 4)</td><td class="num">~75–215M</td></tr>
+        <tr><td>GPUs + DC fit-out</td><td class="num">demand-led</td></tr>
+        <tr><th>Out — revenue (Yr 5 → Yr 10)</th><th class="num">¥/yr</th></tr>
+        <tr><td>Compute hosting</td><td class="num">15–30M → 40–80M</td></tr>
+        <tr><td>Power export (FIP)</td><td class="num">5–15M → 10–30M</td></tr>
+        <tr><td>Timber / broadleaf</td><td class="num">3–8M → 10–20M</td></tr>
+        <tr><td>J-Credit · EV · playbook</td><td class="num">3–9M → 9–26M</td></tr>
+        <tr class="tot"><td>Total revenue</td><td class="num">28–67M → 74–166M</td></tr>
+        <tr><td>+ Village energy savings</td><td class="num">40–60M/yr</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <p class="foot">
+    Sources: <code>docs/energy-forest/mitsue_forest_workforce_energy_plan.md</code> (material/energy, capex), <code>docs/strategy/mitsue_revenue_model.md</code> (revenue &amp; displacement), <code>docs/energy-forest/mitsue_fit_grid_check.md</code> (FIP vs compute, siting), <code>docs/strategy/mitsue_evm_plan.md</code> (BAC ¥220M). GPU pricing: GPUSOROBAN / HIGHRESO. All figures are the project's own planning-grade estimates — Phase&nbsp;1 feasibility (Dec&nbsp;2026) replaces them with vetted numbers. Nothing is committed funding.
+  </p>
+</div>
+
+<script>
+  mermaid.initialize({ startOnLoad: true, securityLevel: "loose" });
+</script>
+</body></html>

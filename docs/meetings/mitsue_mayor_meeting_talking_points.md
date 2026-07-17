@@ -1,4 +1,4 @@
-<!-- Version: v1.4 | Last modified: 2026-07-08 -->
+<!-- Version: v1.5 | Last modified: 2026-07-17 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -8,8 +8,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.4</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.5</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -241,6 +241,18 @@ Because of the prior groundwork, your ask can be slightly more concrete than in 
 2. **Guidance on whom to consult next** — which 自治会 leaders, council members, prefectural contacts
 3. **An indication** of whether the village would be open to formal collaboration in due course (NOT a commitment, just openness)
 4. **Whether he prefers** further communication to go through the vice mayor or directly to him
+5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Kanko)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with the NGO directing species selection and site priority
+
+### Citing the Village's Own Record (use if he's receptive)
+
+The council's own minutes (Dec 2020) already state the constraint this project addresses — the mayor said it himself, independent of this project:
+
+> 「本村においてはその受皿となる林業経営体が少なく、また携わる林業従事者も不足しており、森林所有者の意向に対して受皿が追い付いていないのが現状です」
+> *("...few forestry operators to serve as the receiving body, and forestry workers are also in short supply — the receiving capacity is not keeping up with what forest owners want.")*
+
+And: everything the village currently funds (森林環境整備基金, 施業放置林整備事業) pays for **thinning** of existing plantations — none of it funds **new planting**. Frame the ask as a second, distinct funding stream for a gap the village has no current mechanism for, delivered by the same co-op the village already trusts and contracts — not a competing or replacement program:
+
+> "村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている御杖村森林組合に担っていただき、樹種選定と優先箇所についてはNGO側が方向性を示す形を考えております。"
 
 ### Suggested Phrasing
 

@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.8</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -174,6 +174,17 @@
 2. **次に相談すべき相手のご助言** — どの自治会役員、議員、県の担当者か
 3. **正式な連携への開放性**の確認（コミットメントではなく、可能性の確認）
 4. **今後の連絡窓口**についてのご意向 — 副村長を通じるべきか、村長に直接連絡してよいか
+5. **御杖村森林組合への、別枠の追加資金**についてのご意向 — 新規機材と作業員拡充により、施業放置林整備事業ですでに賄われている間伐とは別に、在来広葉樹の**植林（再造林）**を組合に担っていただく構想。樹種選定と優先箇所についてはNGO側が方向性を示す
+
+### 村の議事録がすでに示していること（反応が良ければ使用）
+
+村議会の議事録（2020年12月）には、本プロジェクトが取り組む課題そのものが、村長ご自身の発言としてすでに記録されている:
+
+> 「本村においてはその受皿となる林業経営体が少なく、また携わる林業従事者も不足しており、森林所有者の意向に対して受皿が追い付いていないのが現状です」
+
+また、村が現在資金を投じている森林環境整備基金・施業放置林整備事業はいずれも既存の杉・檜林の**間伐**を支えるものであり、**新規の植林**には充てられていない。この点を踏まえ、既存事業を置き換えるのではなく、村がすでに信頼し契約している森林組合が実施する、別枠の資金の流れとして提案する:
+
+> 「村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている御杖村森林組合に担っていただき、樹種選定と優先箇所についてはNGO側が方向性を示す形を考えております。」
 
 ### 推奨フレーズ
 

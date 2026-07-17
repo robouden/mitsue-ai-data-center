@@ -1,4 +1,4 @@
-<!-- Version: v1.3 | Last modified: 2026-07-16 -->
+<!-- Version: v1.6 | Last modified: 2026-07-17 -->
 
 # Mitsue-Kanko (Forest Co-op) Meeting — 5 Aug 2026
 ## Question list (Phase 0–1 only)
@@ -52,6 +52,22 @@ Purpose of replanting is ecosystem restoration (restore wildlife food supply), n
 
 - Can they help inventory landowners for the parcels involved?
 - Any village-owned forest land usable without private contracts?
+- Would they support setting up a formal association (landowner liaison body) to manage contact and agreements between parcel landowners and Mitsue Kanko for this project?
+- They're already the village's contractor for 施業放置林整備事業 (neglected-forest thinning, financed by 森林環境譲与税, run at a 40% thinning rate) — how much of their current crew/equipment capacity is absorbed by that work, and how much could be freed up or added for our reforestation work?
+- Council record (Jan 2024) puts village-wide neglected forest (放置林) at ~2,600 ha — does that match their own internal figures, and is any of it already earmarked for our target areas?
+- On recent clear-cut sites where there's no binding replanting requirement (village can only "encourage" it) — would they be open to a standing practice of native-broadleaf replanting on clear-cuts they handle, even without a legal mandate?
+
+## AI data center & biomass — the workforce pull (newly attracted crew)
+
+Context: the CHP biomass fuel demand and the AI-data-center mission are the "pull" behind our workforce & relocation strategy (`mitsue_workforce_relocation_strategy.md`) to double/triple the co-op crew.
+
+- Does the co-op see **year-round CHP fuel demand** (vs. seasonal thinning) as a basis for offering stable, full-time forestry jobs?
+- Would a **guaranteed biomass chip offtake** (fixed volume + price) give them the confidence to hire and train new crew?
+- How many additional crew could they realistically absorb and train per year?
+- Openness to the energy project **funding mechanization** (harvesters, chippers) to raise per-worker output?
+- Would they employ **relocated / newly-recruited workers** directly under the co-op, or prefer a joint arrangement / secondment?
+- Does the "reforest → power AI compute → revive the village" mission story help *them* recruit and retain (the known 3-year retention problem of relocation schemes)?
+- Any concern that outside-funded growth changes the co-op's character or member control?
 
 ---
 
