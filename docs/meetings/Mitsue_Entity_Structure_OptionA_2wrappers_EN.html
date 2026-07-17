@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Version: v0.1 | Last modified: 2026-07-17 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'NotoSansCJK';
+    src: url('file:///usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc') format('truetype');
+    font-weight: normal;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 210mm; background: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'NotoSansCJK', sans-serif;
+    color: #1c2b33; padding: 8mm 18mm;
+  }
+  .cjk { font-family: 'NotoSansCJK', 'Helvetica Neue', sans-serif; }
+  .eyebrow { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.18em; color: #2f6d54; margin-bottom: 3mm; }
+  .meta { float: right; text-align: right; font-size: 8pt; color: #55636b; line-height: 1.5; }
+  h1 { font-size: 21pt; font-weight: 700; color: #16323d; margin-bottom: 2mm; }
+  .optiontag { display: inline-block; background: #2f6d54; color: #fff; font-size: 7.5pt; font-weight: 700; letter-spacing: 0.1em; padding: 1mm 3mm; border-radius: 2px; margin-bottom: 3mm; }
+  .lede { font-size: 9.5pt; color: #3d4a52; line-height: 1.4; max-width: 165mm; margin-bottom: 2.5mm; }
+  .seclabel { font-size: 10pt; font-weight: 700; letter-spacing: 0.12em; color: #16323d; margin: 3mm 0 2mm; border-bottom: 1px solid #e6e9eb; padding-bottom: 1.5mm; }
+  .seclabel span { font-weight: 400; color: #7a868d; letter-spacing: 0; margin-left: 4mm; font-size: 9pt; }
+  .cols { display: flex; gap: 5mm; }
+  .col { flex: 1; border: 1px solid #d5dbde; border-radius: 3px; padding: 3.3mm; }
+  .badge { display: inline-block; background: #16323d; color: #fff; font-size: 7pt; font-weight: 700; letter-spacing: 0.1em; padding: 1mm 2.5mm; border-radius: 2px; vertical-align: middle; }
+  .badgetitle { display: inline-block; font-size: 11pt; font-weight: 700; color: #16323d; margin-left: 2mm; }
+  .badgesub { font-size: 8pt; color: #7a868d; margin: 1.5mm 0 3mm; }
+  .subbox { background: #f4f7f8; border: 1px solid #e2e7e9; border-radius: 2px; padding: 3mm; margin-top: 2.5mm; }
+  .subbox b { font-size: 9pt; color: #16323d; }
+  .subbox p { font-size: 8pt; color: #55636b; margin-top: 0.5mm; }
+  .leaf { display: flex; gap: 3mm; margin-top: 2.5mm; }
+  .leaf > div { flex: 1; border: 1px solid #e2e7e9; border-radius: 2px; padding: 2.5mm; }
+  .leaf b { font-size: 8.5pt; color: #16323d; }
+  .leaf p { font-size: 7.5pt; color: #7a868d; margin-top: 0.5mm; }
+  .loopbar { background: #eef4f2; border: 1px solid #d3e2db; border-radius: 3px; padding: 2.5mm 4mm; margin-top: 3mm; font-size: 8.5pt; color: #2f4a41; text-align: center; }
+  .loopbar b { color: #16323d; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+  th { text-align: left; font-size: 7.5pt; letter-spacing: 0.1em; color: #7a868d; font-weight: 700; padding: 1.3mm 3mm; border-bottom: 1px solid #d5dbde; }
+  td { font-size: 8.5pt; padding: 1.2mm 3mm; border-bottom: 1px solid #edf0f1; vertical-align: top; line-height: 1.45; }
+  td.flow { font-weight: 700; color: #2f6d54; white-space: nowrap; width: 34mm; }
+  td b { color: #16323d; }
+  .naobox { background: #16323d; color: #e8eef0; border-radius: 4px; padding: 3.5mm; margin-top: 2.5mm; }
+  .naobox .lab { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.14em; color: #8fb3a6; margin-bottom: 3mm; }
+  .naobox .q { font-size: 9.5pt; font-style: italic; line-height: 1.55; color: #fff; }
+  .naobox .note { font-size: 8pt; color: #a9bcc3; margin-top: 3mm; line-height: 1.5; }
+  .foot { font-size: 7pt; color: #97a2a8; margin-top: 2mm; line-height: 1.4; border-top: 1px solid #e6e9eb; padding-top: 2.5mm; }
+</style>
+</head>
+<body>
+  <div class="meta">
+    Meeting: <b>Aug 5, 11:00–12:00</b><br>
+    Counterpart: <b>Nao Uesaka</b>, Mizuho Securities<br>
+    Status: <b>Draft for discussion</b> · v0.1
+  </div>
+  <div class="eyebrow cjk">御杖村 AI DATA CENTER PROJECT · MIZUHO SECURITIES CONSULTATION</div>
+  <h1>Entity Structure — Option A</h1>
+  <div class="optiontag">OPTION A · TWO WRAPPERS</div>
+  <div class="lede">A financeable for-profit core beside a mission arm it cannot dilute. Two legal wrappers, one project: an operating company that carries the revenue assets Mizuho can finance, and a non-profit that owns the forest, the species choice, and the community mandate. <b>(See Option B for a three-wrapper variant that adds a member-owned cooperative supply layer.)</b></div>
+
+  <div class="seclabel">STRUCTURE <span class="cjk">二つの法人格</span></div>
+  <div class="cols">
+    <div class="col">
+      <span class="badge">NON-PROFIT</span><span class="badgetitle">Mission arm</span>
+      <div class="badgesub cjk">NPO法人 / 一般社団法人 — keeps mission control</div>
+      <div class="subbox">
+        <b>Reforestation &amp; community entity</b>
+        <p>Owns species choice, replanting, eco-tourism &amp; MRV</p>
+      </div>
+      <div class="leaf">
+        <div><b>more trees</b><p>Partner NGO — harvest→replant model</p></div>
+        <div><b class="cjk">御杖村森林組合</b><p>Mitsue Kanko — plant, tend &amp; process fuel</p></div>
+      </div>
+    </div>
+    <div class="col">
+      <span class="badge">FOR-PROFIT</span><span class="badgetitle">Operating company</span>
+      <div class="badgesub cjk">株式会社 / 合同会社 — the vehicle Mizuho can finance</div>
+      <div class="subbox">
+        <b>Operating company (revenue assets)</b>
+        <p>Balance sheet &amp; repayment capacity → debt, bonds, SLL, equity</p>
+      </div>
+      <div class="leaf">
+        <div><b class="cjk">Biomass CHP 熱電併給</b><p>Heat + power from thinnings</p></div>
+        <div><b>AI data center</b><p>Compute / PPA power sales</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="loopbar"><b>Harvest-funds-replant loop</b> — operating surplus → mission arm (the more trees split), kept explicit so the for-profit side cannot starve the forest</div>
+
+  <div class="seclabel">HOW VALUE MOVES <span class="cjk">資金の流れ</span></div>
+  <table>
+    <tr><th>FLOW</th><th>MOVEMENT</th></tr>
+    <tr>
+      <td class="flow">Forest → fuel</td>
+      <td>Village thinnings (<span class="cjk">間伐材</span>) are chipped and dried at the co-op's existing <b class="cjk">牛峠工場</b> processing center (<span class="cjk">御杖村森林組合</span>) — leaning on existing yard, crew and drying to keep net new capex low. A <b>fuel-grade chipper</b> (P31S–P45, &lt;20% moisture) is the likely new item, targeted at a forestry/biomass subsidy and co-op-owned. <i>Chipper spec &amp; drying moisture to confirm with the co-op.</i></td>
+    </tr>
+    <tr>
+      <td class="flow">CHP → compute</td>
+      <td>Heat + power run the data center; surplus power can PPA to the onsen / village.</td>
+    </tr>
+    <tr>
+      <td class="flow">Revenue → mission</td>
+      <td>Operating surplus flows to the non-profit as the <b>harvest-funds-replant loop</b>.</td>
+    </tr>
+    <tr>
+      <td class="flow">Carbon (J-Credit)</td>
+      <td>Forest-sequestration credits sit in the <b>non-profit</b>; fuel-switch credits in the <b>operating company</b>; both monetized via the J-Credit market.</td>
+    </tr>
+    <tr>
+      <td class="flow cjk">Subsidies 補助金</td>
+      <td>Each track routes to the entity it legally requires — <b>DC / power</b> (METI GX<span class="cjk">地域共創</span>, MoE zero-emission) to the operating company; <b>forest / RE <span class="cjk">交付金</span></b> and the <b>fuel-chipper grant</b> to the non-profit / co-op.</td>
+    </tr>
+    <tr>
+      <td class="flow">Mizuho finance</td>
+      <td>Bond / SLL / equity to the operating company; grant &amp; impact advisory to the non-profit.</td>
+    </tr>
+  </table>
+
+  <div class="naobox">
+    <div class="lab">WHAT TO PUT TO NAO-SAN</div>
+    <div class="q">"We're choosing the entity structure now. Given the instruments you can bring, how would you split the revenue vehicle from the nonprofit forest arm so the project is financeable — without the for-profit side diluting the reforestation mandate?"</div>
+    <div class="note">Her advice will lean toward a financeable for-profit core — that is her product. Useful, but weigh it against the mission; the more trees harvest-funds-replant split is the reference for keeping the non-profit in control. Simpler than Option B — two entities, fewer inter-entity contracts.</div>
+  </div>
+
+  <div class="foot">Draft for discussion — not a committed structure. Funding is pipeline / target; ¥0 committed as of 2026-07. Entity form (NPO / <span class="cjk">一般社団</span> / KK / hybrid) open — confirm tax &amp; subsidy eligibility with a Japanese <span class="cjk">税理士 / 司法書士</span> before filing. <span class="cjk">牛峠工場</span> chipper spec &amp; drying unverified — confirm with <span class="cjk">御杖村森林組合</span> (0745-95-2410).</div>
+</body>
+</html>

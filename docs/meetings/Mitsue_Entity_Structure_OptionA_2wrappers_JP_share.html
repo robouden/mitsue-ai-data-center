@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Version: v0.1 | Last modified: 2026-07-17 -->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'NotoSansCJK';
+    src: url('file:///usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc') format('truetype');
+    font-weight: normal;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 210mm; background: #fff;
+    font-family: 'NotoSansCJK', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1c2b33; padding: 8mm 18mm;
+  }
+  .eyebrow { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.08em; color: #2f6d54; margin-bottom: 3mm; }
+  .meta { float: right; text-align: right; font-size: 8pt; color: #55636b; line-height: 1.5; }
+  h1 { font-size: 21pt; font-weight: 700; color: #16323d; margin-bottom: 2mm; }
+  .optiontag { display: inline-block; background: #2f6d54; color: #fff; font-size: 7.5pt; font-weight: 700; letter-spacing: 0.05em; padding: 1mm 3mm; border-radius: 2px; margin-bottom: 3mm; }
+  .lede { font-size: 9.5pt; color: #3d4a52; line-height: 1.55; max-width: 168mm; margin-bottom: 2.5mm; }
+  .seclabel { font-size: 10pt; font-weight: 700; letter-spacing: 0.06em; color: #16323d; margin: 3mm 0 2mm; border-bottom: 1px solid #e6e9eb; padding-bottom: 1.5mm; }
+  .seclabel span { font-weight: 400; color: #7a868d; margin-left: 4mm; font-size: 9pt; }
+  .cols { display: flex; gap: 5mm; }
+  .col { flex: 1; border: 1px solid #d5dbde; border-radius: 3px; padding: 3.3mm; }
+  .badge { display: inline-block; background: #16323d; color: #fff; font-size: 7pt; font-weight: 700; letter-spacing: 0.05em; padding: 1mm 2.5mm; border-radius: 2px; vertical-align: middle; }
+  .badgetitle { display: inline-block; font-size: 11pt; font-weight: 700; color: #16323d; margin-left: 2mm; }
+  .badgesub { font-size: 8pt; color: #7a868d; margin: 1.5mm 0 3mm; }
+  .subbox { background: #f4f7f8; border: 1px solid #e2e7e9; border-radius: 2px; padding: 3mm; margin-top: 2.5mm; }
+  .subbox b { font-size: 9pt; color: #16323d; }
+  .subbox p { font-size: 8pt; color: #55636b; margin-top: 0.5mm; line-height: 1.5; }
+  .leaf { display: flex; gap: 3mm; margin-top: 2.5mm; }
+  .leaf > div { flex: 1; border: 1px solid #e2e7e9; border-radius: 2px; padding: 2.5mm; }
+  .leaf b { font-size: 8.5pt; color: #16323d; }
+  .leaf p { font-size: 7.5pt; color: #7a868d; margin-top: 0.5mm; line-height: 1.45; }
+  .loopbar { background: #eef4f2; border: 1px solid #d3e2db; border-radius: 3px; padding: 2.5mm 4mm; margin-top: 3mm; font-size: 8.5pt; color: #2f4a41; text-align: center; }
+  .loopbar b { color: #16323d; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+  th { text-align: left; font-size: 7.5pt; letter-spacing: 0.05em; color: #7a868d; font-weight: 700; padding: 1.3mm 3mm; border-bottom: 1px solid #d5dbde; }
+  td { font-size: 8.5pt; padding: 1.2mm 3mm; border-bottom: 1px solid #edf0f1; vertical-align: top; line-height: 1.55; }
+  td.flow { font-weight: 700; color: #2f6d54; white-space: nowrap; width: 30mm; }
+  td b { color: #16323d; }
+  .naobox { background: #16323d; color: #e8eef0; border-radius: 4px; padding: 3.5mm; margin-top: 2.5mm; }
+  .naobox .lab { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.08em; color: #8fb3a6; margin-bottom: 3mm; }
+  .naobox .q { font-size: 9.5pt; line-height: 1.7; color: #fff; }
+  .naobox .note { font-size: 8pt; color: #a9bcc3; margin-top: 3mm; line-height: 1.6; }
+  .foot { font-size: 7pt; color: #97a2a8; margin-top: 2mm; line-height: 1.55; border-top: 1px solid #e6e9eb; padding-top: 2.5mm; }
+</style>
+</head>
+<body>
+  <div class="meta">
+    会議: <b>8月5日 11:00–12:00</b><br>
+    相手方: <b>上坂 奈央 様</b>（みずほ証券）<br>
+    状態: <b>討議用ドラフト</b> · v0.1
+  </div>
+  <div class="eyebrow">御杖村 AIデータセンター事業 · みずほ証券 相談資料</div>
+  <h1>事業体スキーム — 案A</h1>
+  <div class="optiontag">案A · 2法人構成</div>
+  <div class="lede">使命を毀損されない非営利部門と、資金調達可能な営利中核を並置。1つの事業を2つの法人格で担う——みずほが融資できる収益資産を保有する事業会社と、森林・樹種選定・地域使命を保有する非営利法人。<b>（案Bは、組合員所有の協同組合を燃料供給層として加えた3法人構成の変形です。）</b></div>
+
+  <div class="seclabel">法人構成 <span>二つの法人格</span></div>
+  <div class="cols">
+    <div class="col">
+      <span class="badge">非営利</span><span class="badgetitle">使命部門</span>
+      <div class="badgesub">NPO法人 / 一般社団法人 — 使命の統制を保持</div>
+      <div class="subbox">
+        <b>再造林・地域法人</b>
+        <p>樹種選定・再植林・エコツーリズム・MRVを保有</p>
+      </div>
+      <div class="leaf">
+        <div><b>more trees</b><p>パートナーNGO — 収穫→再植林モデル</p></div>
+        <div><b>御杖村森林組合</b><p>植林・保育・燃料加工</p></div>
+      </div>
+    </div>
+    <div class="col">
+      <span class="badge">営利</span><span class="badgetitle">事業会社</span>
+      <div class="badgesub">株式会社 / 合同会社 — みずほが融資できる器</div>
+      <div class="subbox">
+        <b>事業会社（収益資産）</b>
+        <p>バランスシートと返済能力 → 融資・社債・SLL・出資</p>
+      </div>
+      <div class="leaf">
+        <div><b>バイオマスCHP 熱電併給</b><p>間伐材による熱・電力</p></div>
+        <div><b>AIデータセンター</b><p>計算処理 / 電力PPA販売</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="loopbar"><b>収穫が再植林を賄う循環</b> — 営業余剰 → 使命部門（more treesの分配）。営利側が森林を痩せさせないよう明示</div>
+
+  <div class="seclabel">資金の流れ <span>How value moves</span></div>
+  <table>
+    <tr><th>流れ</th><th>内容</th></tr>
+    <tr>
+      <td class="flow">森林 → 燃料</td>
+      <td>間伐材は森林組合の既存 <b>牛峠工場</b>（御杖村森林組合）で破砕・乾燥。既存の土場・人員・乾燥設備を活かし、新規設備投資を最小化。<b>燃料規格チッパー</b>（P31S–P45、含水率20%未満）が新規となる可能性が高く、林業／バイオマス補助金を活用し組合所有とする。<i>チッパー規格・乾燥は組合に要確認。</i></td>
+    </tr>
+    <tr>
+      <td class="flow">CHP → 計算</td>
+      <td>熱・電力でデータセンターを稼働。余剰電力は温泉／村へPPA可能。</td>
+    </tr>
+    <tr>
+      <td class="flow">収益 → 使命</td>
+      <td>営業余剰は<b>「収穫が再植林を賄う循環」</b>として非営利へ還流。</td>
+    </tr>
+    <tr>
+      <td class="flow">カーボン（Jクレジット）</td>
+      <td>森林吸収クレジットは<b>非営利</b>、燃料転換クレジットは<b>事業会社</b>に帰属。両者ともJクレジット市場で収益化。</td>
+    </tr>
+    <tr>
+      <td class="flow">補助金</td>
+      <td>各制度は法的に必要な法人へ — <b>DC／電力</b>（METI GX地域共創、環境省ゼロエミッション）は事業会社、<b>森林／RE交付金</b>とチッパー補助は非営利／組合へ。</td>
+    </tr>
+    <tr>
+      <td class="flow">みずほの金融</td>
+      <td>社債／SLL／出資は事業会社へ、助成・インパクト助言は非営利へ。</td>
+    </tr>
+  </table>
+
+  <div class="foot">討議用のたたき台であり、確定した構成ではありません。記載の資金は見込み／目標であり、2026年7月時点で確約は0円です。法人形態（NPO／一般社団／株式会社／ハイブリッド）は未定——提出前に日本の税理士／司法書士に税・補助適格を確認のこと。牛峠工場のチッパー規格・乾燥能力は未確認——御杖村森林組合（0745-95-2410）に要確認。</div>
+</body>
+</html>

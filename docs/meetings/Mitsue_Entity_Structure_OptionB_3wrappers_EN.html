@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Version: v0.1 | Last modified: 2026-07-17 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'NotoSansCJK';
+    src: url('file:///usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc') format('truetype');
+    font-weight: normal;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 210mm; background: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'NotoSansCJK', sans-serif;
+    color: #1c2b33; padding: 8mm 18mm;
+  }
+  .cjk { font-family: 'NotoSansCJK', 'Helvetica Neue', sans-serif; }
+  .eyebrow { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.18em; color: #2f6d54; margin-bottom: 3mm; }
+  .meta { float: right; text-align: right; font-size: 8pt; color: #55636b; line-height: 1.5; }
+  h1 { font-size: 21pt; font-weight: 700; color: #16323d; margin-bottom: 2mm; }
+  .optiontag { display: inline-block; background: #7a5a2f; color: #fff; font-size: 7.5pt; font-weight: 700; letter-spacing: 0.1em; padding: 1mm 3mm; border-radius: 2px; margin-bottom: 3mm; }
+  .lede { font-size: 9.5pt; color: #3d4a52; line-height: 1.4; max-width: 165mm; margin-bottom: 2.5mm; }
+  .seclabel { font-size: 10pt; font-weight: 700; letter-spacing: 0.12em; color: #16323d; margin: 3mm 0 2mm; border-bottom: 1px solid #e6e9eb; padding-bottom: 1.5mm; }
+  .seclabel span { font-weight: 400; color: #7a868d; letter-spacing: 0; margin-left: 4mm; font-size: 9pt; }
+  .cols { display: flex; gap: 4mm; }
+  .col { flex: 1; border: 1px solid #d5dbde; border-radius: 3px; padding: 3mm; }
+  .col.coop { border-color: #cdb894; background: #fdfaf4; }
+  .badge { display: inline-block; background: #16323d; color: #fff; font-size: 6.5pt; font-weight: 700; letter-spacing: 0.08em; padding: 1mm 2mm; border-radius: 2px; }
+  .badge.coopb { background: #7a5a2f; }
+  .badgetitle { display: block; font-size: 10.5pt; font-weight: 700; color: #16323d; margin-top: 1.5mm; }
+  .badgesub { font-size: 7.5pt; color: #7a868d; margin: 1mm 0 2.5mm; }
+  .subbox { background: #f4f7f8; border: 1px solid #e2e7e9; border-radius: 2px; padding: 2.5mm; margin-top: 2mm; }
+  .col.coop .subbox { background: #f7f1e4; border-color: #e6d9bf; }
+  .subbox b { font-size: 8.5pt; color: #16323d; }
+  .subbox p { font-size: 7.5pt; color: #55636b; margin-top: 0.5mm; line-height: 1.4; }
+  .loopbar { background: #eef4f2; border: 1px solid #d3e2db; border-radius: 3px; padding: 2.5mm 4mm; margin-top: 3mm; font-size: 8.5pt; color: #2f4a41; text-align: center; }
+  .loopbar b { color: #16323d; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+  th { text-align: left; font-size: 7.5pt; letter-spacing: 0.1em; color: #7a868d; font-weight: 700; padding: 1.3mm 3mm; border-bottom: 1px solid #d5dbde; }
+  td { font-size: 8.5pt; padding: 1.1mm 3mm; border-bottom: 1px solid #edf0f1; vertical-align: top; line-height: 1.42; }
+  td.flow { font-weight: 700; color: #2f6d54; white-space: nowrap; width: 34mm; }
+  td.flow.coopf { color: #7a5a2f; }
+  td b { color: #16323d; }
+  .naobox { background: #16323d; color: #e8eef0; border-radius: 4px; padding: 3.5mm; margin-top: 2.5mm; }
+  .naobox .lab { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.14em; color: #c9a86f; margin-bottom: 2.5mm; }
+  .naobox .q { font-size: 9pt; font-style: italic; line-height: 1.5; color: #fff; }
+  .naobox .note { font-size: 7.5pt; color: #a9bcc3; margin-top: 2.5mm; line-height: 1.45; }
+  .foot { font-size: 7pt; color: #97a2a8; margin-top: 2mm; line-height: 1.38; border-top: 1px solid #e6e9eb; padding-top: 2.5mm; }
+</style>
+</head>
+<body>
+  <div class="meta">
+    Meeting: <b>Aug 5, 11:00–12:00</b><br>
+    Counterpart: <b>Nao Uesaka</b>, Mizuho Securities<br>
+    Status: <b>Draft for discussion</b> · v0.1
+  </div>
+  <div class="eyebrow cjk">御杖村 AI DATA CENTER PROJECT · MIZUHO SECURITIES CONSULTATION</div>
+  <h1>Entity Structure — Option B</h1>
+  <div class="optiontag">OPTION B · THREE PILLARS</div>
+  <div class="lede">Option A's non-profit + for-profit, plus a <b>member-owned cooperative</b> as a third pillar. Since much of the forest is privately owned (not a commons), a cooperative pools the fragmented parcels, gives owner-members a revenue stake, and becomes the fuel-supply layer — solving ownership and supply security in one entity.</div>
+
+  <div class="seclabel">STRUCTURE <span class="cjk">三つの法人格</span></div>
+  <div class="cols">
+    <div class="col">
+      <span class="badge">NON-PROFIT</span>
+      <span class="badgetitle">Mission arm</span>
+      <div class="badgesub cjk">NPO法人 / 一般社団法人</div>
+      <div class="subbox">
+        <b>Reforestation &amp; community</b>
+        <p>Owns species choice, replanting, eco-tourism, MRV &amp; forest J-Credit. Partner: <b>more trees</b>.</p>
+      </div>
+    </div>
+    <div class="col coop">
+      <span class="badge coopb">COOPERATIVE</span>
+      <span class="badgetitle">Supply arm</span>
+      <div class="badgesub cjk">生産森林組合 / 農事組合法人</div>
+      <div class="subbox">
+        <b>Owner-member forest co-op</b>
+        <p>Pools private parcels; plants &amp; tends (per non-profit's species choice); owns + runs the <span class="cjk">牛峠工場</span> fuel chipper; supplies fuel-wood; <b>members share revenue pro-rata</b>. Sub-variant: formalize <span class="cjk">御杖村森林組合</span> vs. a new co-op.</p>
+      </div>
+    </div>
+    <div class="col">
+      <span class="badge">FOR-PROFIT</span>
+      <span class="badgetitle">Operating company</span>
+      <div class="badgesub cjk">株式会社 / 合同会社</div>
+      <div class="subbox">
+        <b>Revenue assets</b>
+        <p>Biomass CHP + AI data center. Balance sheet &amp; repayment capacity → the vehicle Mizuho finances (debt, bonds, SLL, equity).</p>
+      </div>
+    </div>
+  </div>
+  <div class="loopbar"><b>Harvest-funds-replant loop</b> — operating surplus → non-profit (the more trees split); the co-op is paid for fuel-wood, so the for-profit side cannot starve the forest</div>
+
+  <div class="seclabel">HOW VALUE MOVES <span class="cjk">資金の流れ</span></div>
+  <table>
+    <tr><th>FLOW</th><th>MOVEMENT</th></tr>
+    <tr>
+      <td class="flow coopf">Owners → co-op</td>
+      <td>Private forest owners join the <b>cooperative</b>, pooling fragmented parcels into one negotiable supply block; owner-members <b>share fuel-wood &amp; land-lease revenue pro-rata</b> — a profit stake the non-profit legally can't offer them.</td>
+    </tr>
+    <tr>
+      <td class="flow coopf">Co-op → fuel</td>
+      <td>The co-op chips and dries thinnings (<span class="cjk">間伐材</span>) at its existing <b class="cjk">牛峠工場</b>; a <b>subsidy-funded fuel-grade chipper</b> (P31S–P45, &lt;20%) is co-op-owned. <i>Chipper spec &amp; drying moisture to confirm.</i></td>
+    </tr>
+    <tr>
+      <td class="flow">Co-op → operating co.</td>
+      <td>Fuel-wood sold to the operating company on a <b>long-term offtake contract</b> (fixed volume + price) — the supply security behind the CHP's repayment capacity.</td>
+    </tr>
+    <tr>
+      <td class="flow">CHP → compute</td>
+      <td>Heat + power run the data center; surplus power can PPA to the onsen / village.</td>
+    </tr>
+    <tr>
+      <td class="flow">Revenue → mission</td>
+      <td>Operating surplus flows to the non-profit as the <b>harvest-funds-replant loop</b>.</td>
+    </tr>
+    <tr>
+      <td class="flow cjk">Subsidies 補助金</td>
+      <td><b>DC / power</b> (METI GX<span class="cjk">地域共創</span>, MoE zero-emission) → operating company; <b>forest / RE <span class="cjk">交付金</span></b> → non-profit; <b>fuel-chipper &amp; forestry grants</b> → the co-op.</td>
+    </tr>
+    <tr>
+      <td class="flow">Mizuho finance</td>
+      <td>Bond / SLL / equity to the operating company; grant &amp; impact advisory to the non-profit; the co-op locks supply.</td>
+    </tr>
+  </table>
+
+  <div class="naobox">
+    <div class="lab">WHAT TO PUT TO NAO-SAN</div>
+    <div class="q">"Much of the forest is privately owned, so we're weighing a member-owned cooperative that pools parcels and contracts fuel-wood to the operating company. From a financing view — does a cooperative supply layer strengthen or complicate the operating company's fuel-supply security, collateral, and J-Credit ownership when you structure debt / SLL? Would you rather see supply locked by long-term offtake contracts than by a membership tie?"</div>
+    <div class="note">Trade-off: a third legal entity solves the ownership problem (private land ≠ commons) but adds inter-entity contracts lenders discount. Expect her to favour contractual offtake over a new wrapper — in which case Option A + a supply contract may beat Option B.</div>
+  </div>
+
+  <div class="foot">Draft for discussion — not a committed structure. Funding is pipeline / target; ¥0 committed as of 2026-07. Confirm co-op form, tax &amp; subsidy eligibility with a Japanese <span class="cjk">税理士 / 司法書士</span> before filing. <span class="cjk">牛峠工場</span> chipper spec &amp; drying unverified — confirm with <span class="cjk">御杖村森林組合</span> (0745-95-2410).</div>
+</body>
+</html>
