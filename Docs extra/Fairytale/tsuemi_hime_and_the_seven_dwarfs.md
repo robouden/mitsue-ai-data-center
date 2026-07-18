@@ -6,7 +6,7 @@
 
 <!-- Version: v1.1 | Last modified: 2026-07-15 -->
 
-<img class="mascot" src="assets/tsuemi-kun-18.jpg" alt="Mitsue-kun">
+<img class="mascot" src="assets/mitsue-kun-18.jpg" alt="Mitsue-kun">
 
 # Tsuemi-hime and the Seven Forest Spirits
 ### *A Fairytale of Mitsue Valley*

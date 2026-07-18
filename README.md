@@ -3,9 +3,9 @@
   p, li { margin: 4px 0 !important; }
   h1, h2, h3 { margin-top: 20px !important; margin-bottom: 4px !important; }
 </style>
-<!-- Version: v1.5 | Last modified: 2026-07-17 -->
+<!-- Version: v1.6 | Last modified: 2026-07-18 -->
 
-# <img src="assets/Tsuemi-kun 16a.jpg" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;">BIOMASS ENERGY & AI — バイオマスエネルギーとAI
+# <a href="mitsue_kun_mascot_explainer.md#english"><img src="assets/Mitsue-kun 16a.jpg" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
 ### Reforesting in Mitsue — 御杖村における地域植林
 

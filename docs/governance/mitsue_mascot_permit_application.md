@@ -39,12 +39,12 @@
 
 ## 使用予定イラスト見本
 
-以下のキャラクターデザインを使用します。いずれも御杖村の「つえみくん」を原則に従い使用するものです。
+以下のキャラクターデザインを使用します。いずれも御杖村の「みつえくん」を原則に従い使用するものです。
 
 <div style="display:flex; gap:3em; align-items:flex-start; justify-content:center; margin:2em 0; flex-wrap:wrap;">
 <div style="text-align:center;">
-<img src="Docs extra/Mitsue pictures/Tsuemi-kun.png" style="height:220px;" alt="つえみくん（森林・ワークショップ版）"/>
-<p style="font-size:0.85em; margin-top:0.5em;">御杖村の「つえみくん」<br/>（広報用メインバージョン）</p>
+<img src="Docs extra/Mitsue pictures/Mitsue-kun.png" style="height:220px;" alt="みつえくん（森林・ワークショップ版）"/>
+<p style="font-size:0.85em; margin-top:0.5em;">御杖村の「みつえくん」<br/>（広報用メインバージョン）</p>
 </div>
 ---
 
