@@ -1,9 +1,4 @@
-<style>
-  body { line-height: 1.4 !important; }
-  p, li { margin: 4px 0 !important; }
-  h1, h2, h3 { margin-top: 20px !important; margin-bottom: 4px !important; }
-</style>
-<!-- Version: v1.6 | Last modified: 2026-07-18 -->
+<!-- Version: v1.7 | Last modified: 2026-07-18 -->
 
 # <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_kun_mascot_explainer.md#english"><img src="assets/Mitsue-kun_16-removebg-preview.png" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
