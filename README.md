@@ -1,5 +1,7 @@
 <!-- Version: v1.7 | Last modified: 2026-07-18 -->
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/robouden/mitsue-ai-data-center)
+
 # <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_kun_mascot_explainer.md#english"><img src="assets/Mitsue-kun_16-removebg-preview.png" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
 ### Reforesting in Mitsue — 御杖村における地域植林
@@ -16,7 +18,7 @@
 | **Horizon**         | 25 years                                |
 | **Current Phase**   | Phase 0 — Pre-Foundation (Apr–Oct 2026) |
 | **Project Lead**    | Rob Oudendijk (YR-Design / Safecast)    |
-| **Document Status** | Working draft, July 17, 2026             |
+| **Document Status** | Working draft, July 17, 2026            |
 
 ---
 
@@ -225,14 +227,14 @@ A live working list is maintained in [`mitsue_todo.xlsx`](mitsue_todo.xlsx) (PDF
 
 The project pursues a five-layer funding stack, with each layer unlocked by the deliverables of the prior phase. This staged structure protects against early dependence on any single source.
 
-| Layer                    | Source                                                                                                                 | Year 1 Target | Year 3 Target |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- |
-| L1                       | Founder / private capital                                                                                              | ¥3M           | ¥1M           |
+| Layer                    | Source                                                                                                                                    | Year 1 Target | Year 3 Target |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- |
+| L1                       | Founder / private capital                                                                                                                 | ¥3M           | ¥1M           |
 | L2                       | Government grants (NEDO, METI, Nara Prefecture, Mitsue village; **御杖村 地域脱炭素移行・再エネ推進交付金 2/3–3/4 subsidy, via village**) | ¥5M           | ¥80M          |
-| L3                       | Foundations (Nippon Foundation, Japan Fund for Global Environment, Toyota Foundation, others)                          | ¥3M           | ¥20M          |
-| L4                       | Corporate partnerships (Dutch and Japanese; CSR-aligned)                                                               | ¥0            | ¥30M          |
-| L5                       | Operating revenue (hosting fees, FIT/FIP, EV charging fees, J-Credits)                                                 | ¥0            | ¥3M           |
-| **Total (illustrative)** |                                                                                                                        | **¥11M**      | **¥134M**     |
+| L3                       | Foundations (Nippon Foundation, Japan Fund for Global Environment, Toyota Foundation, others)                                             | ¥3M           | ¥20M          |
+| L4                       | Corporate partnerships (Dutch and Japanese; CSR-aligned)                                                                                  | ¥0            | ¥30M          |
+| L5                       | Operating revenue (hosting fees, FIT/FIP, EV charging fees, J-Credits)                                                                    | ¥0            | ¥3M           |
+| **Total (illustrative)** |                                                                                                                                           | **¥11M**      | **¥134M**     |
 
 These figures are planning targets, not commitments. Actual funding mix will depend on grant outcomes and partnership negotiations during Phases 1 and 2.
 
@@ -273,7 +275,7 @@ This repository holds the working documents that govern the project's first thre
 | `mitsue_brochure_trifold_a4.html` / `.pdf`    | A4 trifold brochure (EN)                |
 | `mitsue_brochure_trifold_a4_jp.html` / `.pdf` | A4 trifold brochure (Japanese)          |
 | `Mitsue Project Presentation.pptx`            | PowerPoint presentation (EN)            |
-| `Mitsue Project Presentation - 日本語.pptx`      | PowerPoint presentation (Japanese)      |
+| `Mitsue Project Presentation - 日本語.pptx`   | PowerPoint presentation (Japanese)      |
 
 **Implementation planning**
 
@@ -325,11 +327,11 @@ This repository holds the working documents that govern the project's first thre
 
 **Policy alignment**
 
-| File                                                                                       | Purpose                                                                                                     |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| File                                                                                       | Purpose                                                                                                        |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | `mitsue_village_re_plan_alignment.md`                                                      | Full English analysis: how the project aligns with the village's official RE plan and the 交付金 funding route |
-| `mitsue_village_re_plan_alignment_jp.md`                                                   | Japanese version of the RE plan alignment analysis                                                          |
-| `Docs extra/mitsue_files from Village hall/mitsue_village_re_plan_clean_translation_en.md` | Clean English translation of the village's official RE plan key pages, with citable figures                 |
+| `mitsue_village_re_plan_alignment_jp.md`                                                   | Japanese version of the RE plan alignment analysis                                                             |
+| `Docs extra/mitsue_files from Village hall/mitsue_village_re_plan_clean_translation_en.md` | Clean English translation of the village's official RE plan key pages, with citable figures                    |
 
 **Stakeholders**
 
@@ -378,4 +380,4 @@ All project documentation, environmental data, and methodologies will be release
 
 ---
 
-*Last updated: July 17, 2026 · Maintained by Rob Oudendijk*
+_Last updated: July 17, 2026 · Maintained by Rob Oudendijk_

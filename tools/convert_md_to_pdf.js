@@ -266,7 +266,9 @@ async function convertToPdf(mdFile, opts = {}) {
     const pdfFile = mdFile.replace(/\.md$/, '.pdf');
     await page.pdf({
       path: pdfFile,
-      format: 'A4',
+      format: opts.pageSize || 'A4',
+      landscape: !!opts.landscape,
+      scale: opts.scale || 1,
       printBackground: true,
       margin: { top: '1.2cm', right: '1.5cm', bottom: '2cm', left: '1.5cm' },
       displayHeaderFooter: true,
@@ -289,7 +291,12 @@ async function main() {
   const args = [];
   for (const a of raw) {
     const m = a.match(/^--theme=(.+)$/);
+    const ps = a.match(/^--page-size=(.+)$/);
+    const sc = a.match(/^--scale=(.+)$/);
     if (m) opts.theme = m[1];
+    else if (ps) opts.pageSize = ps[1];
+    else if (sc) opts.scale = parseFloat(sc[1]);
+    else if (a === '--landscape') opts.landscape = true;
     else args.push(a);
   }
   if (args.length === 0) {
