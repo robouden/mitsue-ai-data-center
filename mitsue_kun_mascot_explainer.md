@@ -1,9 +1,9 @@
-<!-- Version: v1.6 | Last modified: 2026-07-18 -->
+<!-- Version: v1.7 | Last modified: 2026-07-18 -->
 
 # Who is Mitsue-kun? / みつえくんとは？
 
 <div style="display:flex; gap:2em; align-items:flex-start; justify-content:center; margin:1.5em 0; flex-wrap:wrap;">
-<img src="assets/Mitsue-kun%2016.jpg" style="height:200px;" alt="Mitsue-kun 16"/>
+<img src="assets/Mitsue-kun_16-removebg-preview.png" style="height:200px;" alt="Mitsue-kun 16"/>
 </div>
 
 ## English
@@ -15,7 +15,7 @@
 - **The wooden staff (杖)** he carries is a direct reference to the village's own name, 御杖村 (Mitsue-mura), which means "Honorable Staff Village" — from a legend about a staff planted in the area.
 - **The chisel/tool** in his other hand represents hands-on forestry and woodworking — signaling that he's a village worker, not a passive symbol.
 - **His work clothes** are styled after traditional forestry wear, showing him ready to head into the mountains to work — echoing this project's actual focus: thinning and tending Mitsue's forests to fuel a biomass power plant.
-- **A small tulip motif** is a quiet nod to this project's founder, Rob Oudendijk, who is from the Netherlands (the Netherlands' national flower). It's a personal touch specific to this project design.
+- **A small tulip motif** is a quiet nod to this project's founder, Rob Oudendijk, who is from the Netherlands (the Netherlands' national flower) — born in the same country that is home to ASML, a place where innovation is natural. It's a personal touch specific to this project design.
 
 **Why he matters to this project:** the project is about turning neglected village forest into renewable energy (biomass CHP) and, longer-term, an AI data center that uses that power. Mitsue-kun (in all his versions) gives that technical, unfamiliar idea a warm, local identity — a character walking into the same mountains the project is trying to restore and put to work.
 
@@ -30,6 +30,6 @@
 - 手にしている**杖**は、村名「御杖村（みつえむら）」そのものへの直接的な参照です。杖が立てられたという伝説に由来しています。
 - もう一方の手に持つ**のみ（工具）**は、森林・木工の実作業を表しており、彼が単なる象徴ではなく、働く村人であることを示しています。
 - **作業着**は伝統的な林業の装いを模しており、これから山へ働きに行く姿を表現しています。これはこのプロジェクトの実際の活動——御杖村の森林を間伐・整備しバイオマス発電の燃料にする——と重なります。
-- `16.jpg`版に見られる**チューリップの意匠**は、このプロジェクトの発起人であるロブ・アウデンダイク（オランダ出身、チューリップはオランダの国花）への小さなオマージュです。このコンパニオンデザイン固有の遊び心であり、村の公式キャラクターの要素ではありません。
+- 上のイラストに見られる**チューリップの意匠**は、このプロジェクトの発起人であるロブ・アウデンダイク（オランダ出身、チューリップはオランダの国花——ASMLの本拠地でもある国、イノベーションが当たり前に生まれる土地）への小さなオマージュです。このコンパニオンデザイン固有の遊び心であり、村の公式キャラクターの要素ではありません。
 
 **このプロジェクトにとっての意味:** 本プロジェクトは、放置された村の森林を再生可能エネルギー（バイオマスCHP）に、そして将来的にはその電力を使うAIデータセンターへとつなげる構想です。みつえくん（各バージョン共通で）は、この技術的で馴染みのない構想に、身近で親しみやすいアイデンティティを与えてくれます——プロジェクトが再生し、活用しようとしているまさにその山へ歩いていくキャラクターとして。

@@ -67,7 +67,7 @@ All environmental, energy, and forestry data from the project will be **publishe
 
 ## The People Involved
 
-The project is led by **Rob Oudendijk**, a Dutch electrical engineer who has lived in Mitsue since 2012 and is a core hardware developer for Safecast.
+The project is led by **Rob Oudendijk**, a Dutch electrical engineer born in the Netherlands — the same country that is home to ASML, where innovation is natural — who has lived in Mitsue since 2012 and is a core hardware developer for Safecast.
 
 Advising and supporting the project are:
 

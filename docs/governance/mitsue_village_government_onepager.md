@@ -115,7 +115,7 @@ A dedicated **non-profit organization (NPO法人)** will be established to coord
 
 ## Who We Are
 
-**Rob Oudendijk** — Dutch electrical engineer, Mitsue resident since 2012 (Sugano), core hardware developer for Safecast (the global citizen science radiation monitoring network).
+**Rob Oudendijk** — Dutch electrical engineer born in the Netherlands (the same country that is home to ASML, where innovation is natural), Mitsue resident since 2012 (Sugano), core hardware developer for Safecast (the global citizen science radiation monitoring network).
 
 **San Poisson** — Project Manager
 

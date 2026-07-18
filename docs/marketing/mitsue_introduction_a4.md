@@ -57,7 +57,7 @@ These are not three separate ideas. Each one makes the others possible.
 
 ## Who Is Behind It
 
-**Rob Oudendijk** — Dutch electrical engineer, resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org), the global open citizen science network born after Fukushima.
+**Rob Oudendijk** — Dutch electrical engineer born in the Netherlands (the same country that is home to ASML — a place where innovation is natural), resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org), the global open citizen science network born after Fukushima.
 
 **Advisors:** Ray Ozzie (Executive Chair, Blues) · San Poisson (Project Manager) · Takuo Dome (Professor Emeritus, Osaka University) · Evin Zoet (Co-Representative Director, Transom) · Yoshiko Zoet-Suzuki (Co-Representative Director, Transom)
 
