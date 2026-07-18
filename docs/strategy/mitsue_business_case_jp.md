@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.6</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -55,6 +55,99 @@
 | L4 | 法人パートナー | 35 | **選択制：** CSR補助 ・ GK少数エクイティ ・ ホスティング前払（収益前受）・ エネルギーシェア | グリーン計算資源、ESGストーリー、または選択した手段に応じた契約リターン |
 | L5 | 事業収益 | 3+ | 余剰の再投資 | ― |
 | **ギャップ** | ¥28〜53M を埋める | 28〜53 | 追加交付金 ＋ 法人GKエクイティ ＋ 収益ファイナンス | 上記 L2／L4 に準ずる |
+
+### 1.2a 資金と価値は二つの層の間をどう実際に流れるか
+
+（2026年7月17日追加。）上記の表は*各層が何を得るか*を示す。ここでは*どう流れるか*を示す ―― 財・サービス（緑・実線）／資金（金・破線）／統制・助言（灰・点線）―― 二つの実在する法人の間で。
+
+<div style="page-break-inside:avoid; margin: 10pt 0">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" style="width:100%;display:block">
+  <defs>
+    <marker id="bgood_jp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f7d4f"/>
+    </marker>
+    <marker id="bmoney_jp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8860b"/>
+    </marker>
+    <marker id="bgov_jp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a949a"/>
+    </marker>
+  </defs>
+  <!-- legend -->
+  <line x1="0" y1="6" x2="22" y2="6" stroke="#2f7d4f" stroke-width="2"/>
+  <text x="27" y="9" font-size="9.5" fill="#3d4a52">財・サービス</text>
+  <line x1="120" y1="6" x2="142" y2="6" stroke="#b8860b" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="147" y="9" font-size="9.5" fill="#3d4a52">資金</text>
+  <line x1="200" y1="6" x2="222" y2="6" stroke="#8a949a" stroke-width="1.8" stroke-dasharray="1.5 2.5"/>
+  <text x="227" y="9" font-size="9.5" fill="#3d4a52">統制／助言</text>
+  <!-- External funders row -->
+  <rect x="10" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="85" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">創業者 (L1)</text>
+  <text x="85" y="58" text-anchor="middle" font-size="8" fill="#7a868d">¥6M・労務＋資本</text>
+  <text x="85" y="68" text-anchor="middle" font-size="8" fill="#7a868d">ロブ＋日本人共同創業者</text>
+  <rect x="183" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="258" y="41" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">政府補助金 (L2)</text>
+  <text x="258" y="54" text-anchor="middle" font-size="8" fill="#7a868d">村の官民連携経由</text>
+  <text x="258" y="65" text-anchor="middle" font-size="8" fill="#7a868d">¥115M・交付金 2/3〜3/4</text>
+  <rect x="356" y="26" width="150" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="431" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">財団 (L3)</text>
+  <text x="431" y="58" text-anchor="middle" font-size="8" fill="#7a868d">¥33M・ミッション限定</text>
+  <text x="431" y="68" text-anchor="middle" font-size="8" fill="#7a868d">補助金</text>
+  <rect x="529" y="26" width="161" height="46" rx="3" fill="#f4f7f8" stroke="#d5dbde"/>
+  <text x="609" y="41" text-anchor="middle" font-size="10" font-weight="700" fill="#16323d">法人パートナー (L4)</text>
+  <text x="609" y="54" text-anchor="middle" font-size="8" fill="#7a868d">¥35M・CSR補助／エクイティ／</text>
+  <text x="609" y="65" text-anchor="middle" font-size="8" fill="#7a868d">前払ホスティング／引取</text>
+  <!-- Tier boxes -->
+  <rect x="20" y="120" width="300" height="150" rx="4" fill="#fff" stroke="#bfe0cc" stroke-width="1.4"/>
+  <rect x="20" y="120" width="300" height="22" rx="4" fill="#2f7d4f"/>
+  <text x="170" y="135" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.03em">第1層・ミッション主体</text>
+  <text x="170" y="153" text-anchor="middle" font-size="8.5" fill="#7a868d">一般社団法人（またはNPO法人）</text>
+  <text x="34" y="170" font-size="8.3" fill="#3d4a52">定款・村との官民連携・ブランド／知財</text>
+  <text x="34" y="182" font-size="8.3" fill="#3d4a52">「プレイブック」・森林再生事業・</text>
+  <text x="34" y="194" font-size="8.3" fill="#3d4a52">J-Credit登録。</text>
+  <text x="34" y="211" font-size="8.3" font-weight="700" fill="#2f7d4f">GKの過半数保有＋ミッションロック条項。</text>
+  <text x="34" y="228" font-size="8" font-weight="700" fill="#16323d">受領：</text>
+  <text x="34" y="240" font-size="8" fill="#3d4a52">創業者資本、政府補助金、財団補助金</text>
+  <text x="34" y="251" font-size="8" fill="#3d4a52">（すべて非分配）＋GK配当</text>
+  <rect x="380" y="120" width="300" height="150" rx="4" fill="#fff" stroke="#c7cdf0" stroke-width="1.4"/>
+  <rect x="380" y="120" width="300" height="22" rx="4" fill="#3a55c4"/>
+  <text x="530" y="135" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.03em">第2層・事業会社</text>
+  <text x="530" y="153" text-anchor="middle" font-size="8.5" fill="#7a868d">合同会社（GK）</text>
+  <text x="394" y="170" font-size="8.3" fill="#3d4a52">データセンター資産・バイオマスCHP＋太陽光＋</text>
+  <text x="394" y="182" font-size="8.3" fill="#3d4a52">蓄電池・系統／FIT契約・ホスティング</text>
+  <text x="394" y="194" font-size="8.3" fill="#3d4a52">契約・従業員。</text>
+  <text x="394" y="211" font-size="8.3" font-weight="700" fill="#3a55c4">ミッション主体との契約に基づき運営。</text>
+  <text x="394" y="228" font-size="8" font-weight="700" fill="#16323d">受領：</text>
+  <text x="394" y="240" font-size="8" fill="#3d4a52">創業者＋法人エクイティ、収益／エネルギー</text>
+  <text x="394" y="251" font-size="8" fill="#3d4a52">シェア契約、事業収益</text>
+  <!-- Founders -> Tier1 / Tier2 -->
+  <path d="M60,72 C 70,95 100,108 130,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="62" y="100" font-size="7.6" fill="#b8860b">創業者資本＋労務</text>
+  <path d="M130,72 C 250,100 350,105 400,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="243" y="111" font-size="7.6" fill="#b8860b">少数エクイティ (GK)</text>
+  <!-- Govt grants -> Tier1 -->
+  <path d="M258,72 L 220,118" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="222" y="91" font-size="7.6" fill="#b8860b">交付金（非分配）</text>
+  <!-- Foundations -> Tier1 -->
+  <path d="M420,72 C 380,95 320,105 260,118" fill="none" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="330" y="112" font-size="7.6" fill="#b8860b">ミッション限定補助金</text>
+  <!-- Corporate -> Tier2 (equity/hosting) -->
+  <path d="M600,72 L 570,118" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="522" y="100" font-size="7.6" fill="#b8860b">エクイティ／前払ホスティング／引取</text>
+  <!-- Corporate -> Tier1 (CSR grant alt) -->
+  <path d="M560,72 C 460,105 350,120 322,132" fill="none" stroke="#b8860b" stroke-width="1.3" stroke-dasharray="2 3" marker-end="url(#bmoney_jp)" opacity="0.75"/>
+  <text x="418" y="112" font-size="7.2" fill="#b8860b" opacity="0.85">または：第1層への直接CSR補助</text>
+  <!-- Tier1 <-> Tier2 core loop -->
+  <path d="M322,148 L 378,148" fill="none" stroke="#8a949a" stroke-width="1.5" stroke-dasharray="1.5 2.5" marker-end="url(#bgov_jp)"/>
+  <text x="325" y="151" font-size="7.2" fill="#8a949a">過半数保有＋ミッションロック</text>
+  <path d="M378,168 L 322,168" fill="none" stroke="#b8860b" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#bmoney_jp)"/>
+  <text x="327" y="165" font-size="7.4" font-weight="700" fill="#b8860b">配当</text>
+</svg>
+
+</div>
+
+<p style="font-size:8.5pt; color:#666; margin-top:2mm;"><i>読み方：第1層へのすべての資金線は法律上非分配であり、投資家リターンではなくミッション活動を賄う。第2層へのすべての資金線は、そこでのみ利益分配が法的に可能なため、実際の金融商品（エクイティ、収益シェア）である。第2層から**外部へ**戻る資金は第1層への配当のみ（第1層が過半数を保有するため）―― 補助金が私的リターンへ漏出する経路も、投資資本が第2層の契約上の制約を迂回する経路も存在しない。</i></p>
 
 ### 1.3 ミッションロック ―― なぜ投資家がプロジェクトを乗っ取れないか
 
@@ -128,7 +221,23 @@
 
 1. **データセンター稼働率／ホスティング価格** ―― アンカー。需要が弱いとスタック全体が痩せる。*緩和：Gate 3 建設前に法人引取のLOIを確保。*
 2. **バイオマスCHP燃料費・サイジング** ―― 間伐の物流費が想定超なら、エネルギー利幅が侵食される。*緩和：早期の独立フィージビリティ；林業事業が内部原価で燃料供給。*
-3. **FIT/FIP価格の帰結** ―― 余剰電力の価値を決める。*緩和：収益はFITのみに依存せず、六つの流れの一つ。*
+3. **FIT/FIP価格の帰結** ―― *余剰*電力の価値のみを決める。*緩和：収益はFIT依存ではなく、六つの流れの一つ。* ただし、プラントは**輸出型**（〜1.15MW、森林規模に合わせて設計）であり、併設データセンターはメーター内側の小規模ベースロード（出力の約2%）に過ぎない点に注意。CHPの*自身の*出力の大半は村＋系統輸出へ向かうため、1,000kW超では、そのエネルギー収益は40円FITではなく**FIP**となる可能性が高い（要確認）。したがって系統連系容量（ヘンリー氏の事前相談）は現実の依存関係である。ただしこれはプラント自身の電力量の話に過ぎず、総ホスティング収益には上限を課さない ―― 旧小学校の大規模ショーケースDCはCHP出力ではなく系統／グリーン電力で稼働するため（計算資源はkWhあたりFIPの約6〜20倍の価値がある、いずれにせよ）。数値は暫定 ―― `../energy-forest/mitsue_fit_grid_check.md` 参照。**実際のGPU設備費を差し引くと、その6〜20倍という粗数値が純利益に転じるのは損益分岐稼働率（価格帯・減価償却年数により約45〜70%）を超えた場合のみ ―― `mitsue_revenue_model_jp.md` §1a参照。したがって振れ幅を左右する変数はFIT/FIPの帰結そのものではなく、GPU稼働率（HIGHRESO引取パイプライン）である。**
+
+### 4.2a GPUサーバー純利益 ―― 3段階稼働率シナリオ
+
+（2026年7月17日追加。）上記の点3は、計算資源対FIPの粗〜6〜20倍という数値から実際のGPU設備費を差し引く（損益分岐の全計算は`mitsue_revenue_model_jp.md`§1aに記載）―― 結果は稼働率に律速され、無条件の倍率ではない。単一の数値の代わりに、§4.1と同じ**低・基準・高**の枠組みを、単一の8×H200アンカーサーバー（設備費約¥53M、消費電力約10kW、定価月¥2.53M、運営費20% ―― 出典は§1a参照）に当てはめる：
+
+| | 低 | 基準 | 高 |
+|---|---|---|---|
+| 稼働率 | 50% | 65% | 85% |
+| 減価償却年数 | 4年 | 4年 | 6年 |
+| サーバー収益（稼働率換算） | ¥15.2M | ¥19.7M | ¥25.8M |
+| 運営費（約20%） | ¥3.0M | ¥3.9M | ¥5.2M |
+| 減価償却 | ¥13.25M | ¥13.25M | ¥8.83M |
+| **サーバー1台あたり純利益／年** | **−¥1.1M** | **+¥2.5M** | **+¥11.8M** |
+| FIP相当（同kWh、設備費ほぼゼロ、年¥3.1M）比 | ¥4.2M劣後 | ¥0.5M劣後 | **FIPの約3.8倍** |
+
+**読み方：** 定価稼働率が約65%を下回ると、GPUサーバーはその設備費を賄った時点で、同じ電力を単純にFIPで輸出するのと*変わらない*――時にそれより悪い。プロジェクトが明確に勝るのは**高**位のみで、これには強い稼働率*と*6年のハイパースケーラー型減価償却基準の両方が必要となる。**振れ幅を左右する変数は稼働率であり、その数値はまだ分からない**――HIGHRESO引取関係が実際に何を引き受けられるかに懸かっている。アンカー計算資源の規模設定は、利用可能なCHP出力ではなく、この答えに律速されるものとして扱うべきである。
 
 ### 4.3 Go/No-Go は既に組み込まれている
 
