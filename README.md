@@ -1,5 +1,5 @@
 <!-- Version: v1.7 | Last modified: 2026-07-18 -->
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/robouden/mitsue-ai-data-center)
 # <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_kun_mascot_explainer.md#english"><img src="assets/Mitsue-kun_16-removebg-preview.png" alt="Mitsue-kun" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>BIOMASS ENERGY & AI — バイオマスエネルギーとAI
 
 ### Reforesting in Mitsue — 御杖村における地域植林
