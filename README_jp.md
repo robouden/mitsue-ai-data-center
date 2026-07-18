@@ -6,7 +6,7 @@
 
 <!-- Version: v1.5 | Last modified: 2026-07-18 -->
 
-# <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_kun_mascot_explainer.md#日本語"><img src="assets/Mitsue-kun 16a.jpg" alt="みつえくん" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>バイオマスエネルギーとAI — BIOMASS ENERGY & AI
+# <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/mitsue_kun_mascot_explainer.md#日本語"><img src="assets/Mitsue-kun_16-removebg-preview.png" alt="みつえくん" align="right" style="width:120px; max-width:150px; margin-top:5px;"></a>バイオマスエネルギーとAI — BIOMASS ENERGY & AI
 ### 御杖村における地域植林 — Reforesting in Mitsue
 
 **農村日本における森林再生・分散型再生可能エネルギー・コミュニティ所有のデジタルインフラに向けた25年間の取り組み。**
