@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-07-18 -->
+<!-- Version: v1.1 | Last modified: 2026-07-21 -->
 
 # Mitsue Kanko (Forest Co-op) — Meeting 5 Aug 2026
 ### Advance questions sent to the co-op, for their preparation
@@ -67,7 +67,13 @@ The CHP's biomass fuel demand and the AI data center concept are meant to act as
 - Would you be open to the energy project funding mechanization (harvesters, chippers) to raise per-worker output?
 - Would you prefer to employ relocated/newly-recruited workers directly under the co-op, or a joint arrangement / secondment?
 - Do you think the "reforest → power AI compute → revive the village" story would help with your own recruitment and retention?
+- **An idea to explore together:** would you (Kinjo-san) be open to *co-presenting the project with us* — you as the employer, us on the vision — to the three forestry recruit channels, to attract new crew? (1) the **Nara Forester Academy** in Yoshino (students); (2) the **林業就業支援講習** run by the 奈良県林業機械化推進センター (career-changers exploring forestry); and (3) a **森林の仕事ガイダンス / ならウッドジョブ** slot. As a member co-op of the 奈良県森林組合連合会, you'd have a natural way into the last two.
 - Any concerns that outside-funded growth might change the co-op's character or members' control over it?
+
+## 7. Coordination with the Village Hall & land use
+
+- How are you kept informed of Village Hall events and initiatives related to reforestation — is there a regular channel between the hall and the co-op, or is it ad hoc? Which reforestation activities or plots are currently active, and who leads them?
+- Looking ahead, would the co-op be open to discussing new uses for the land next to your existing workplace that could bring jobs and revenue to the village? *(We have one idea we'd like to explore with you — a renewable-powered facility whose waste heat could feed back into forestry work such as chip drying — but we'd rather hear your thinking on the land first before getting into specifics.)*
 
 ---
 

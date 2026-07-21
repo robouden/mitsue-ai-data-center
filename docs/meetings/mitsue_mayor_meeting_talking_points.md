@@ -1,4 +1,4 @@
-<!-- Version: v1.5 | Last modified: 2026-07-17 -->
+<!-- Version: v2.1 | Last modified: 2026-07-21 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -8,8 +8,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.5</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -17,14 +17,14 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 <style>
-  body { font-size: 9.5pt; line-height: 1.25; }
-  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
-  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
-  h3 { font-size: 9.5pt; margin: 2pt 0; }
-  p, li { margin: 1pt 0; }
-  ul, ol { margin: 2pt 0; padding-left: 18pt; }
-  blockquote { margin: 3pt 0; }
-  hr { margin: 3pt 0; }
+  body { font-size: 11pt; line-height: 1.5; }
+  h1 { font-size: 16pt; margin: 10pt 0 3pt; }
+  h2 { font-size: 13pt; margin: 9pt 0 3pt; }
+  h3 { font-size: 11pt; margin: 6pt 0 2pt; }
+  p, li { margin: 3pt 0; }
+  ul, ol { margin: 5pt 0; padding-left: 22pt; }
+  blockquote { margin: 6pt 0; padding-left: 10pt; border-left: 2px solid #ddd; color: #333; }
+  hr { margin: 8pt 0; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   @media print { body { margin: 0; } }
 </style>
@@ -40,8 +40,14 @@
 
 This is **not a first introduction** of either Rob or the project. You are building on:
 
-- An informal meeting with the **Vice Mayor (副村長)** approximately 6 months ago, in which you presented a draft concept of the small-scale AI data center using the former Sugano Elementary School (now Mitsue Taiken Koryukan). Biomass, biogas, and forestry components were **not** mentioned at that meeting.
-- An informal meeting with the **local forestry group** approximately 4 months ago, exploring how they work and whether collaboration is possible.
+- An earlier informal meeting with the **Vice Mayor (副村長)**, in which you presented a draft concept of the small-scale AI data center using the former Sugano Elementary School (now Mitsue Taiken Koryukan). Biomass, biogas, and forestry components were **not** mentioned at that first meeting.
+- Earlier informal meetings with the **local forestry group (御杖村森林組合)**, exploring how they work and whether collaboration is possible — a relationship that has since continued.
+
+### Current knowledge state (as of July 2026) — read carefully before the meeting
+
+- **The Vice Mayor knows more than the mayor:** he is now aware of **both the AI data center and the reforestation plans**. He is your most-informed ally in the village hall.
+- **The Mayor officially knows none of the recent developments** — not the 2026-07-08 village-hall meeting, and not the items below. The staged reveal in this script (data center → then forest + energy) still holds for *him*.
+- **Neither the Mayor nor the Vice Mayor knows about (a) the active partnership with an outside reforestation NGO, or (b) the ongoing meetings with the forestry co-op.** Do **not** name the NGO or describe the co-op relationship as advanced — in writing or unprompted. Keep to "conversations with the local forestry group" and "our expert reforestation partners." Surfacing these too early risks the overstatement/leak problem you have guarded against.
 
 This changes the meeting in three meaningful ways:
 
@@ -231,6 +237,30 @@ This lets **the mayor** name the local players, rather than you appearing to hav
 
 ---
 
+## The Koryukan — Lead With the Village's Finances, Not Our Data Center
+
+**Do NOT open this topic with "we want to put a data center in the Koryukan."** The 2026-07-08 village-hall meeting already classified an earlier Koryukan use as a private initiative — so the persuasive order is to start from the *village's* interest, then let the data center appear as the solution. Sequence:
+
+1. **Raise the cost problem gently.** Our analysis suggests the Koryukan (former Sugano school) may currently be running at a cost to the village. Offer the written calculation if he wants to see it — **bring `koryukan_datacenter_financial_case.md`** but do not push it; only show it if he's interested.
+
+   > "差し出がましいのですが、体験交流館の運営について私どもなりに試算をしてみましたところ、現状では村の御負担になっている可能性があるように見受けられました。もしご関心がございましたら、計算の資料をお持ちしております。"
+
+2. **Ask about the ECC exception precedent.** You understand the ECC (グローバル人材育成塾) obtained an exception from the 9:00–17:00 rule via a village ordinance (議案第2号, March 2019). Ask how that was done, and whether a similar route could apply to a small data-center room.
+
+   > "以前、グローバル人材育成塾さんが9時から17時までの利用時間の例外を、条例という形で認められたと伺っております。小さなデータセンターの部屋についても、同様の形をご検討いただくことは可能でしょうか。"
+
+3. **Show the turnaround — and stress the small footprint.** We need only **one classroom out of the many** in the building; the rest stays fully available for the village's existing uses. That single room, run as a small 24-hour/365-day data center, could make the facility net-positive — room-rental income, waste-heat reuse (avoided kerosene heating), and use of otherwise-idle hours, without competing with existing daytime use.
+
+   > "必要なのは、たくさんある教室のうちの**一室だけ**でございます。他の部屋はこれまで通り村の御利用にそのまま残ります。その一室を、24時間365日稼働する小さなデータセンターとして活用できれば、賃料収入、排熱の再利用による暖房費の削減、そして現在使われていない時間帯の活用により、むしろ収支をプラスに転じられる可能性があると考えております。"
+
+4. **Only then, condition the site on the exception.** If such an exception is possible, say you would like to consider the Koryukan as a candidate site for the small data center — framed as conditional, not assumed.
+
+5. **Signal you are not fixated on the Koryukan.** You are also exploring **other sites — unused factory buildings near the biomass production area** — and profits from those would be **shared with the forestry team (御杖村森林組合)**. This shows flexibility and that the village's building is one option, not a demand.
+
+   > "なお、私どもは体験交流館だけにこだわっているわけではございません。バイオマスの生産地に近い、使われていない工場なども候補として検討しており、そこで得られる収益は御杖村森林組合さんと分け合う形を考えております。"
+
+---
+
 ## Soft Ask (Last 10 Minutes)
 
 Because of the prior groundwork, your ask can be slightly more concrete than in a true first meeting.
@@ -241,7 +271,8 @@ Because of the prior groundwork, your ask can be slightly more concrete than in 
 2. **Guidance on whom to consult next** — which 自治会 leaders, council members, prefectural contacts
 3. **An indication** of whether the village would be open to formal collaboration in due course (NOT a commitment, just openness)
 4. **Whether he prefers** further communication to go through the vice mayor or directly to him
-5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Kanko)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with the NGO directing species selection and site priority
+5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Kanko)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with species selection and site priority guided by our expert reforestation partners
+6. **Whether the village would back — or co-present in — forestry recruitment outreach** as a direct answer to the worker-shortage he named (see record below). Concretely: presenting the project as a *reason to enter forestry here* to three channels — ①奈良県フォレスターアカデミー（吉野）, ②奈良県林業機械化推進センターの林業就業支援講習, ③森林の仕事ガイダンス／ならウッドジョブ — with 近処里英さん（御杖村森林組合）と我々が共同で説明（雇用主＋構想）. The co-op is a member of the 奈良県森林組合連合会, so ②③ are a natural insider route. Ties to his own 協力隊「応募ほぼゼロが2年連続」remark — a concrete fix, not just a complaint
 
 ### Citing the Village's Own Record (use if he's receptive)
 
@@ -252,7 +283,7 @@ The council's own minutes (Dec 2020) already state the constraint this project a
 
 And: everything the village currently funds (森林環境整備基金, 施業放置林整備事業) pays for **thinning** of existing plantations — none of it funds **new planting**. Frame the ask as a second, distinct funding stream for a gap the village has no current mechanism for, delivered by the same co-op the village already trusts and contracts — not a competing or replacement program:
 
-> "村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている御杖村森林組合に担っていただき、樹種選定と優先箇所についてはNGO側が方向性を示す形を考えております。"
+> "村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている御杖村森林組合に担っていただき、樹種選定と優先箇所については、専門の再造林パートナーの知見を踏まえて進める形を考えております。"
 
 ### Suggested Phrasing
 
@@ -355,6 +386,28 @@ If the mayor asks something not on this list, it is better to say *"村長、そ
 
 ---
 
+## Closing — Confirm the Information Disclosure Request (情報公開請求)
+
+At the **very end** of the meeting, as a brief, polite housekeeping point, confirm receipt: on **2026-07-13** you sent, via Furitani-san, an **Information Disclosure Request addressed to the Mayor of Mitsue Village**. Simply ask whether it reached him — do not press on content; this is only to confirm it arrived and is in process.
+
+> "最後に一点、恐れ入ります。7月13日に、古谷様を通じて、村長宛ての情報公開請求をメールにてお送りいたしました。村長のお手元に届いておりますでしょうか。もしまだでしたら、改めてお送りいたします。"
+>
+> *("One last small point, if I may. On July 13th I sent, via Furitani-san, an information disclosure request addressed to you, Mayor. Has it reached you? If not, I would be glad to resend it.")*
+
+> **Confirm before the meeting:** the recipient's exact name/kanji — our records show **古谷 (Furuya), General Affairs Chief (総務課長)**, which is where disclosure requests are handled; you referred to "Furitani." Verify which is correct and adjust the name above.
+
+---
+
+## Closing — Confirm the Information Disclosure Request (情報公開請求)
+
+At the **very end** of the meeting, as a brief, polite housekeeping point, confirm receipt: on **2026-07-13** you sent, via 古谷 匡敏様 (Furutani; t-furutani@vill.mitsue.lg.jp), an **Information Disclosure Request addressed to the Mayor of Mitsue Village**. Simply ask whether it reached him — do not press on content; this is only to confirm it arrived and is in process.
+
+> "最後に一点、恐れ入ります。7月13日に、古谷様を通じて、村長宛ての情報公開請求をメールにてお送りいたしました。村長のお手元に届いておりますでしょうか。もしまだでしたら、改めてお送りいたします。"
+>
+> *("One last small point, if I may. On July 13th I sent, via Furutani-san, an information disclosure request addressed to you, Mayor. Has it reached you? If not, I would be glad to resend it.")*
+
+---
+
 ## After the Meeting
 
 - **Send a thank-you note within 48 hours** — handwritten if possible, formal Japanese
@@ -387,4 +440,4 @@ Because you have history with the vice mayor and the forestry group, this meetin
 
 ---
 
-*Prepared April 2026 — For Rob's preparation only.*
+*Prepared April 2026; revised July 2026 — For Rob's preparation only.*
