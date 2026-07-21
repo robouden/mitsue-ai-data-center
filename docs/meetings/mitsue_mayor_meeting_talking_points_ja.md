@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v3.0</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-21</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -175,6 +175,7 @@
 3. **正式な連携への開放性**の確認（コミットメントではなく、可能性の確認）
 4. **今後の連絡窓口**についてのご意向 — 副村長を通じるべきか、村長に直接連絡してよいか
 5. **御杖村森林組合への、別枠の追加資金**についてのご意向 — 新規機材と作業員拡充により、施業放置林整備事業ですでに賄われている間伐とは別に、在来広葉樹の**植林（再造林）**を組合に担っていただく構想。樹種選定と優先箇所についてはNGO側が方向性を示す
+6. **担い手不足への具体策として、林業人材募集の働きかけを村としても後押し（あるいは共同で）していただけるか**（下記の議事録参照）。具体的には、本プロジェクトを「ここで林業に就く理由」として3つの入口に提示する構想 — ①奈良県フォレスターアカデミー（吉野）、②奈良県林業機械化推進センターの林業就業支援講習、③森林の仕事ガイダンス／ならウッドジョブ — を、近処里英さん（御杖村森林組合）と我々が共同で説明（雇用主＋構想）。組合は奈良県森林組合連合会の会員のため、②③は自然な入口。村長ご自身の「協力隊の応募が2年連続でほぼゼロ」というご発言への、不満ではなく具体的な回答として
 
 ### 村の議事録がすでに示していること（反応が良ければ使用）
 
