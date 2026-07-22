@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-07-21 -->
+<!-- Version: v1.1 | Last modified: 2026-07-22 -->
 
 # Mayor / Vice-Mayor — Advance Questions (for their preparation)
 ### English reference copy of `mitsue_mayor_meeting_prep_questions_jp.md` (the version actually sent)
@@ -27,6 +27,7 @@ To make the most of our time, we've listed the topics we'd like to raise. There'
 - Are there any recent village-level discussions about cedar plantations or forest management?
 - We envisage reforestation that gradually returns neglected sugi to **native broadleaf** over a long horizon — as a **distinct, additional planting effort** separate from the thinning the village already funds (施業放置林整備事業), carried out by 御杖村森林組合. Would the village have interest in that direction?
 - The Mayor himself has named the **forestry-worker shortage** as a challenge in council (Dec 2020; June 2026). As a concrete response, we'd like to explore — in cooperation with the forestry cooperative (御杖村森林組合) — presenting the project to three recruit channels: ①Nara Forester Academy, ②林業就業支援講習, ③森林の仕事ガイダンス. Would the village be willing to back, or join us in, that outreach?
+- We also noticed the village's own **地域おこし協力隊（林業）recruitment** (posted 2026-04-24; sangyo_koyo/2542), which lists **"development of new wood-use methods, including woody biomass" (木質バイオマス等、新たな木材利用方法の開発)** among the duties — but leaves the end-use open. Our mitsue.it concept — using thinnings for biomass CHP to supply heat and power, including to an AI data center — is one concrete answer to exactly that line. **Could the project, together with the cooperative, serve as the vehicle to develop that biomass use, rather than the village carrying it alone?**
 
 ## 3. Energy & EV charging
 
