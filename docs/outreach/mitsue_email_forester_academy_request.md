@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-07-22 -->
+<!-- Version: v1.1 | Last modified: 2026-07-22 -->
 
 # Nara Forester Academy — reply to Dome-sensei + Academy request draft
 
@@ -23,8 +23,39 @@ Rob
 
 *(Ms. Kinjo = Kinjo Rie, 近処里英, 代表理事組合長 of the Mitsue Village Forest Cooperative.)*
 
-*(Draft endorsement — Dome-sensei to edit):*
-> I have reviewed the Mitsue project and support it as a genuine example of regional revitalization: forestry work that rebuilds living forest for the next century while creating durable local employment and social value. I am pleased to introduce Mr. van Oudendijk and Ms. Kinjo to the Academy, and I hope the students will have the opportunity to hear about it.
+**Dome-sensei's APPROVED endorsement** (his own final wording, received 2026-07-22 — use verbatim, do not edit):
+> I believe the Mitsue project offers an inspiring example of how sustainable forestry can contribute to regional revitalization and the long-term well-being of local communities.
+>
+> I am pleased to introduce Mr. Rob van Oudendijk and Ms. Rie Kinjo to the Academy, and I hope your students will have an opportunity to hear about their initiative.
+>
+> Takuo Dome
+> Specially Appointed Professor, The University of Osaka
+> Representative Director, Inochi Forum
+
+---
+
+## 1b. Quick reply to Dome — confirm the Japanese wording
+
+Subject: Re: Nara Forester Academy — thank you (one small check)
+
+Dear Takuo,
+
+Thank you — your wording is perfect, and I will use it exactly as you wrote it.
+
+Since the Academy is a prefectural institution, the letter to them will be in Japanese, so I have prepared a Japanese rendering of your endorsement for the students to read. Would you kindly confirm it says what you intend? I especially want to be sure of the Japanese form of your title.
+
+> 御杖プロジェクトは、持続可能な林業が地域の再生と地域社会の長期的なウェルビーイングにどのように貢献しうるかを示す、示唆に富んだ一例であると考えております。
+>
+> ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介できることを嬉しく思うとともに、学生の皆様が彼らの取り組みについて聞く機会を持たれることを願っております。
+>
+> 堂目卓生
+> 大阪大学 特任教授
+> いのちの未来フォーラム 代表理事
+
+Please correct anything — the English original will of course also be included. Once you confirm, I will send it to the Academy.
+
+With warm thanks,
+Rob
 
 ---
 
@@ -52,6 +83,19 @@ Rob
 ロブ・ファン・アウデンダイク
 （連絡先）
 
+─────────────────────
+**堂目先生からの推薦（末尾）**
+
+御杖プロジェクトは、持続可能な林業が地域の再生と地域社会の長期的なウェルビーイングにどのように貢献しうるかを示す、示唆に富んだ一例であると考えております。
+
+ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介できることを嬉しく思うとともに、学生の皆様が彼らの取り組みについて聞く機会を持たれることを願っております。
+
+堂目卓生
+大阪大学 特任教授
+いのちの未来フォーラム 代表理事
+
+*（※上記は堂目先生の英文推薦文の和訳です。送付前に先生に和訳の文言をご確認いただくのが安全です。）*
+
 ---
 
 ### English (reference / not for sending unless requested)
@@ -74,10 +118,22 @@ A one-page summary is attached. Thank you for considering this request.
 
 Rob van Oudendijk
 
+─────────────────────
+**Endorsement from Professor Dome (appended):**
+
+> I believe the Mitsue project offers an inspiring example of how sustainable forestry can contribute to regional revitalization and the long-term well-being of local communities.
+>
+> I am pleased to introduce Mr. Rob van Oudendijk and Ms. Rie Kinjo to the Academy, and I hope your students will have an opportunity to hear about their initiative.
+>
+> Takuo Dome
+> Specially Appointed Professor, The University of Osaka
+> Representative Director, Inochi Forum
+
 ---
 
 ## Notes
 - Honest-framing rules applied: no funding committed; only Dome cited as advisor (Shiozaki/NAIST NOT cited).
 - Attach: `mitsue_forester_academy_recruit_summary_a4.pdf`.
-- Hold the Academy email until Dome approves his endorsement wording.
-- Confirm Kinjo Rie kanji (近処里英) before sending.
+- ✅ Dome approved his endorsement (2026-07-22); wording embedded verbatim. Cleared to send.
+- Kinjo Rie kanji (近処里英) confirmed correct.
+- ⚠️ One open item: the JP endorsement is our translation of Dome's English — send it to Dome to OK the Japanese wording (and confirm the JP form of "Inochi Forum" / いのちの未来フォーラム) before mailing the Academy.
