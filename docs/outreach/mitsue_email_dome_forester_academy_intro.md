@@ -1,4 +1,4 @@
-In 2020 the current mayor was<!-- Version: v1.1 | Last modified: 2026-07-21 -->
+<!-- Version: v1.2 | Last modified: 2026-07-22 -->
 
 # Dome-sensei — request to introduce the project to the Nara Forester Academy
 
