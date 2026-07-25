@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-22 -->
+<!-- Version: v1.3 | Last modified: 2026-07-22 -->
 
 # Nara Forester Academy — reply to Dome-sensei + Academy request draft
 
@@ -34,28 +34,26 @@ Rob
 
 ---
 
-## 1b. Quick reply to Dome — confirm the Japanese wording
+## 1b. Reply to Dome — thank you (Japanese wording received)
 
-Subject: Re: Nara Forester Academy — thank you (one small check)
+Subject: Re: Nara Forester Academy — thank you
 
 Dear Takuo,
 
-Thank you — your wording is perfect, and I will use it exactly as you wrote it.
+Thank you very much for the Japanese wording — it is perfect, and I will use it exactly as you have written it, together with your title as 大阪大学 特任教授 / 一般社団法人いのち会議 代表理事. The English original will also be included alongside it.
 
-Since the Academy is a prefectural institution, the letter to them will be in Japanese, so I have prepared a Japanese rendering of your endorsement for the students to read. Would you kindly confirm it says what you intend? I especially want to be sure of the Japanese form of your title.
-
-> 御杖プロジェクトは、持続可能な林業が地域の再生と地域社会の長期的なウェルビーイングにどのように貢献しうるかを示す、示唆に富んだ一例であると考えております。
->
-> ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介できることを嬉しく思うとともに、学生の皆様が彼らの取り組みについて聞く機会を持たれることを願っております。
->
-> 堂目卓生
-> 大阪大学 特任教授
-> いのちの未来フォーラム 代表理事
-
-Please correct anything — the English original will of course also be included. Once you confirm, I will send it to the Academy.
+I will now send the request to the Academy. I am very grateful for your support.
 
 With warm thanks,
 Rob
+
+**Dome's confirmed Japanese endorsement** (received 2026-07-22 — use verbatim):
+
+> 御杖プロジェクトは、持続可能な林業を通じて、森を再生するとともに、地域社会の未来を支えていこうとする、示唆に富んだ取組であると考えています。ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介させていただくことを嬉しく思います。学生の皆様が、この取組について直接話を聞くことによって、これからの林業と地域のあり方を考える機会となることを願っております。
+>
+> 堂目卓生
+> 大阪大学 特任教授
+> 一般社団法人いのち会議 代表理事
 
 ---
 
@@ -86,15 +84,13 @@ Rob
 ─────────────────────
 **堂目先生からの推薦（末尾）**
 
-御杖プロジェクトは、持続可能な林業が地域の再生と地域社会の長期的なウェルビーイングにどのように貢献しうるかを示す、示唆に富んだ一例であると考えております。
-
-ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介できることを嬉しく思うとともに、学生の皆様が彼らの取り組みについて聞く機会を持たれることを願っております。
+御杖プロジェクトは、持続可能な林業を通じて、森を再生するとともに、地域社会の未来を支えていこうとする、示唆に富んだ取組であると考えています。ロブ・ファン・アウデンダイク氏と近処里英氏を貴アカデミーにご紹介させていただくことを嬉しく思います。学生の皆様が、この取組について直接話を聞くことによって、これからの林業と地域のあり方を考える機会となることを願っております。
 
 堂目卓生
 大阪大学 特任教授
-いのちの未来フォーラム 代表理事
+一般社団法人いのち会議 代表理事
 
-*（※上記は堂目先生の英文推薦文の和訳です。送付前に先生に和訳の文言をご確認いただくのが安全です。）*
+*（※堂目先生ご本人による確定文言。2026-07-22 にご確認済み、そのまま使用。）*
 
 ---
 
@@ -131,9 +127,30 @@ Rob van Oudendijk
 
 ---
 
+## 3. Web form version (https://nfa.ac.jp/contact/ — paste into 本文)
+
+**カテゴリ：** その他（または「学校に関するお問い合わせ」）
+
+**本文：**
+
+奈良県フォレスターアカデミー ご担当者様
+
+突然のご連絡失礼いたします。奈良県御杖村で、放置された杉林を在来の広葉樹へ再生し、間伐材のバイオマスで地域の電力とAI計算基盤を動かす取り組みを進めております、ロブ・ファン・アウデンダイクと申します。本プロジェクトの学術アドバイザー・堂目卓生先生（大阪大学特任教授）よりご紹介をいただきました。
+
+御杖での最大の制約は土地でも資金でもなく「人」です。実際の雇用主である御杖村森林組合（代表理事組合長・近処里英）とともに、貴アカデミーの学生の皆様へ、本プロジェクトを「一つの新しい林業の仕事」として20〜30分ほどご紹介する機会をいただけないでしょうか。日時は貴アカデミーのご都合に合わせます。
+
+なお本プロジェクトは外部資金が確定した段階ではなく、地域と共に一歩ずつ育てている取り組みであることを正直に申し添えます。
+
+つきましては、ご検討にあたり校長先生またはご担当者様のご連絡先（メールアドレス）をお教えいただけますと幸いです。概要資料（A4・1枚）を別途お送りいたします。何卒よろしくお願い申し上げます。
+
+ロブ・ファン・アウデンダイク
+（電話・メール）
+
+---
+
 ## Notes
 - Honest-framing rules applied: no funding committed; only Dome cited as advisor (Shiozaki/NAIST NOT cited).
 - Attach: `mitsue_forester_academy_recruit_summary_a4.pdf`.
-- ✅ Dome approved his endorsement (2026-07-22); wording embedded verbatim. Cleared to send.
+- ✅ Dome approved his EN endorsement (2026-07-22); wording embedded verbatim.
+- ✅ Dome supplied his own final JP endorsement (2026-07-22) — his wording, not our translation; affiliation confirmed as 一般社団法人いのち会議 代表理事 (not "Inochi Forum"). Embedded verbatim. **Cleared to send to the Academy.**
 - Kinjo Rie kanji (近処里英) confirmed correct.
-- ⚠️ One open item: the JP endorsement is our translation of Dome's English — send it to Dome to OK the Japanese wording (and confirm the JP form of "Inochi Forum" / いのちの未来フォーラム) before mailing the Academy.
