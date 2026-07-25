@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-22 -->
+<!-- Version: v1.2 | Last modified: 2026-07-25 -->
 
 # Mayor / Vice-Mayor — Advance Questions (for their preparation)
 ### English reference copy of `mitsue_mayor_meeting_prep_questions_jp.md` (the version actually sent)
@@ -40,7 +40,13 @@ To make the most of our time, we've listed the topics we'd like to raise. There'
 - Which facilities are currently designated as evacuation shelters?
 - Is there any thought of using a facility like Himeishi-no-Yu (Mitsue Onsen) as a base during power outages or disasters (防災拠点)?
 
-## 5. How to proceed
+## 5. AI use in the village office
+
+- As part of the data-center concept, we are exploring a **local AI service** that could run on village-generated power, with data never leaving the village. To judge whether it would be useful, may we ask: does the village office currently use any AI tools (for drafting, translation, summarizing documents, etc.)?
+- If so, roughly what does the village pay for them (subscriptions or per-use fees)? And are there any concerns about where the entered data is sent?
+- No exact figures are needed — a general sense is enough. It simply helps us judge whether a locally-run, no-per-use-fee option would be worth designing.
+
+## 6. How to proceed
 
 - We'd welcome your current thinking on whether the village might take a more active role in this concept.
 - We'd also like to discuss alignment with the village's "5 new enterprises in 5 years" policy.
