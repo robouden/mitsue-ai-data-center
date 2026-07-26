@@ -56,3 +56,4 @@ Name one or two office tasks where this would help, and we can scope a small pil
 - Open-weight model example, Kimi K3 (Modified MIT license): https://kimi-k2.org/blog/31-kimi-k3-open-weights-july-27
 - License terms explained: https://miraflow.ai/blog/kimi-k2-6-explained-moonshot-ai-open-source-model-ties-gpt-5-5-coding
 - Full configuration & sizing analysis: [local_llm_serving_options.md](../strategy/local_llm_serving_options.md)
+ok
