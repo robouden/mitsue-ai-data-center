@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-21 -->
+<!-- Version: v1.2 | Last modified: 2026-07-27 -->
 
 # Mitsue Kanko (Forest Co-op) — Meeting 5 Aug 2026
 ### Advance questions sent to the co-op, for their preparation
@@ -56,6 +56,7 @@ The purpose of replanting is ecosystem restoration — restoring the forest as a
 - We understand the co-op is already contracted by the village for the 施業放置林整備事業 (neglected-forest thinning programme, financed by the Forest Environment Transfer Tax, run at a 40% thinning rate). How much of your current crew/equipment capacity is tied up in that work, and how much could be freed up — or added — for our reforestation work?
 - Village council records put village-wide neglected forest (放置林) at approximately 2,600 ha. Does that match your own internal figures? Is any of it already in the areas we're targeting?
 - On recent clear-cut sites, there's currently no legal requirement to replant, and the village can only "encourage" it. Even without a legal mandate, would the co-op be open to making native-broadleaf replanting a standard practice on the clear-cuts you handle?
+- We saw that the village already runs a subsidy (via the Forest Environment Transfer Tax) paying village-resident forest owners/foresters to supply firewood to the Himeishi-no-yu onsen boiler. Who currently arranges contact with the participating landowners for that program — is there already a landowner association or list we could build on, or does the co-op (or the village) coordinate it case by case?
 
 ## 6. AI data center & biomass — the new-workforce angle
 
