@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mitsue AI Data Center - Entity, Money &amp; Labor Overview</title>
+    <script src="../../tools/mermaid.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
+        color: #1a202c;
+        background: #f7f8fa;
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 28px 36px 70px;
+      }
+      .header {
+        border-bottom: 2px solid #1a365d;
+        padding-bottom: 10px;
+        margin-bottom: 6px;
+      }
+      h1 {
+        font-size: 22px;
+        color: #1a365d;
+        font-weight: 700;
+      }
+      .sub {
+        color: #4a5568;
+        font-size: 13px;
+        margin-top: 4px;
+      }
+      .banner {
+        background: #fff5f5;
+        border: 1px solid #feb2b2;
+        color: #742a2a;
+        font-size: 13px;
+        padding: 10px 14px;
+        border-radius: 6px;
+        margin: 14px 0 6px;
+      }
+      .banner b {
+        color: #c53030;
+      }
+      .legend {
+        font-size: 12px;
+        color: #4a5568;
+        margin: 16px 0 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: center;
+      }
+      .sw {
+        display: inline-block;
+        width: 14px;
+        height: 9px;
+        margin-right: 5px;
+        vertical-align: middle;
+        border-radius: 2px;
+      }
+      .sw.dash {
+        background: repeating-linear-gradient(
+          90deg,
+          #718096 0 4px,
+          transparent 4px 7px
+        );
+      }
+
+      h2 {
+        font-size: 16px;
+        color: #1a365d;
+        font-weight: 700;
+        margin: 36px 0 4px;
+      }
+      .h2sub {
+        font-size: 12px;
+        color: #718096;
+        margin-bottom: 12px;
+      }
+      .diagram {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        overflow-x: auto;
+      }
+
+      .notes {
+        margin-top: 40px;
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 18px 22px;
+      }
+      .notes h2 {
+        margin-top: 0;
+      }
+      .notes ul {
+        font-size: 13px;
+        color: #2d3748;
+        line-height: 1.9;
+        padding-left: 20px;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 11px;
+        color: #a0aec0;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      /* darker, thicker edges for readability on white background */
+      .diagram .edgePath .path {
+        stroke: #4a5568 !important;
+        stroke-width: 1.6px !important;
+      }
+      .diagram marker path {
+        fill: #4a5568 !important;
+        stroke: #4a5568 !important;
+      }
+
+      /* consistent text size across all four diagrams */
+      .diagram .node text,
+      .diagram .nodeLabel {
+        font-size: 15px !important;
+      }
+      .diagram .edgeLabel {
+        font-size: 13px !important;
+        background-color: #f7f8fa !important;
+        color: #2d3748 !important;
+      }
+      .diagram .cluster-label,
+      .diagram .cluster text {
+        font-size: 13px !important;
+        font-weight: 700;
+        fill: #2d3748 !important;
+      }
+
+      /* subgraph/cluster background: light grey instead of default yellow (sections 2 & 4) */
+      .diagram .cluster rect {
+        fill: #f1f5f9 !important;
+        stroke: #cbd5e0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Mitsue AI Data Center - Entity, Money &amp; Labor Overview</h1>
+      <div class="sub">
+        Discussion draft for the Mitsue Kanko meeting · legal structure, money
+        flow, labor flow, full stakeholder network
+      </div>
+    </div>
+
+    <div class="banner">
+      <b>Very early draft - concept only.</b> Nothing here is decided or agreed.
+      This is a starting point for discussion, not a proposal to sign.
+    </div>
+
+    <div class="legend">
+      <span
+        ><span class="sw" style="background: #2b6cb0"></span>Government</span
+      >
+      <span><span class="sw" style="background: #276749"></span>NGO / NPO</span>
+      <span><span class="sw" style="background: #975a16"></span>Company</span>
+      <span
+        ><span class="sw" style="background: #6b46c1"></span>Cooperative</span
+      >
+      <span><span class="sw" style="background: #b83280"></span>Academia</span>
+      <span
+        ><span class="sw dash"></span>Solid = documented &nbsp;·&nbsp; Dashed =
+        tentative / no signed agreement</span
+      >
+    </div>
+
+    <h2>1. Legal / Governance Structure</h2>
+    <div class="h2sub">
+      Tier plan from <code>mitsue_qa_crew_finance_entity_governance.md</code>
+    </div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    VILLAGE["御杖村 Village Government"]
+    NGO["一般社団法人 (Ippan Shadan Hojin)<br/>Tier 1 - mission, IP,<br/>village relationship, J-Credit<br/>non-distributing"]
+    GK["合同会社 (GK) / KK<br/>Tier 2 - operating company<br/>CHP + AI Data Center + solar/FIT assets"]
+    COOP["御杖村森林組合 (Mitsue Kanko)<br/>existing forest cooperative"]
+    MORETREES["more trees (NGO)"]
+
+    VILLAGE -.->|land lease candidate, permits, letter of interest| GK
+    VILLAGE -->|community liaison| NGO
+    NGO -->|majority owns| GK
+    GK -.->|operating surplus - harvest-funds-replant loop| NGO
+    NGO -.->|species selection partner - tentative| MORETREES
+    NGO -.->|early consultation, no MOU - tentative| COOP
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    class VILLAGE gov
+    class NGO ngo
+    class GK co
+    class COOP,MORETREES coop
+</pre>
+    </div>
+
+    <h2>2. Money Flow</h2>
+    <div class="h2sub">Funding sources → entities → downstream use</div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    subgraph Sources["Money Sources"]
+        direction LR
+        L1["L1 Founders<br/>¥6M target"]
+        FOUND["Foundations<br/>¥33M target"]
+        GRANTS["Gov Grants<br/>METI GX / MoE / village re-energy<br/>2/3–3/4 rate"]
+        CORP["Corporate partners<br/>¥35M target - unconfirmed"]
+        MIZUHO["Mizuho debt/bonds/SLL<br/>structure undecided"]
+    end
+
+    NGO["一般社団法人 NGO<br/>(non-distributing)"]
+    GK["Operating Company GK/KK<br/>(CHP + AI DC)"]
+    REV["Operating revenue<br/>DC hosting + PPA/FIT power sales"]
+    COOP["Mitsue Kanko<br/>(forest co-op)"]
+    VILLAGE["御杖村 Village Gov<br/>(grant pass-through)"]
+
+    L1 --> NGO
+    FOUND --> NGO
+    CORP -.->|unconfirmed CSR| NGO
+    GRANTS -->|forest/RE-type| NGO
+    GRANTS --> VILLAGE
+    VILLAGE -->|DC/power-type, 官民連携| GK
+    MIZUHO -.->|option A/B undecided| GK
+    REV --> GK
+
+    NGO -->|majority owns| GK
+    GK -.->|operating surplus| NGO
+    GK -.->|Phase-1 fuel-wood contracts - not yet signed| COOP
+
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef tentativeMoney fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    class L1,GRANTS,FOUND,REV,GK,NGO,VILLAGE money
+    class CORP,MIZUHO,COOP tentativeMoney
+</pre>
+    </div>
+
+    <h2>3. Labor / Work Flow</h2>
+    <div class="h2sub">Who does what, for whom</div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    COOP["Mitsue Kanko<br/>~3-4 crew now, plan to double/triple"]
+    NGO["NGO - species choice, mission oversight"]
+    MORETREES["more trees - replanting method expertise"]
+    GK["Operating Co - runs CHP + DC"]
+    VILLAGE["Village Gov - permits, land, liaison"]
+    ADVISORS["Advisors: Dome (economics), Takata (biomass biz-dev),<br/>Ozzie, Poisson (PM), Linklaters (legal)"]
+    NAIST["NAIST (Shiozaki, Kubo/CDG)"]
+    SUGANO["Sugano Organic (Tokuo Aomi)"]
+
+    COOP -->|plant, tend, harvest, chip, dry wood| GK
+    NGO -->|sets species/ecosystem criteria| COOP
+    MORETREES -.->|advises replanting method - tentative| NGO
+    GK -->|CHP heat/power + DC hosting| VILLAGE
+    VILLAGE -->|permitting, community endorsement| GK
+    ADVISORS -.->|informal advisory, no written commitments| GK
+    ADVISORS -.->|informal advisory| NGO
+    NAIST -.->|proposed living-lab research, student program - Phase 0| NGO
+    SUGANO -.->|prospective Phase-1 pilot CHP site, own forest as fuel - exploratory| GK
+
+    classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
+    classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
+    class COOP,NGO,GK,VILLAGE confirmed
+    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+</pre>
+    </div>
+
+    <h2>4. Overall Stakeholder Network</h2>
+    <div class="h2sub">All entities, grouped by type</div>
+    <div class="diagram diagram-wide" id="diagram4">
+      <pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 60, 'rankSpacing': 110, 'padding': 12, 'useMaxWidth': false}}}%%
+graph LR
+    subgraph Government["GOVERNMENT"]
+        direction TB
+        VILLAGE["御杖村<br/>Village Gov"]
+        NARA["Nara Prefecture<br/>land permits, unnamed subsidy"]
+        NATIONAL["METI / MoE / 林野庁<br/>NEDO / JST"]
+    end
+    subgraph NGO_NPO["NGO / NPO"]
+        direction TB
+        NGO["Project NGO<br/>(一般社団法人)"]
+        MORETREES["more trees"]
+        FOUND["Foundations"]
+    end
+    subgraph Cooperative["COOPERATIVE"]
+        direction TB
+        COOP["Mitsue Kanko<br/>forest co-op"]
+    end
+    subgraph Companies["COMPANIES"]
+        direction TB
+        GK["Operating Co<br/>(GK/KK)<br/>CHP + AI DC"]
+        MIZUHO["Mizuho Securities"]
+        CORP["Corporate partners<br/>unconfirmed"]
+        SUGANO["Sugano Organic"]
+        LINKLATERS["Linklaters<br/>(legal)"]
+    end
+    subgraph Academia["ACADEMIA"]
+        direction TB
+        NAIST["NAIST"]
+    end
+
+    NATIONAL -->|subsidies| NGO
+    NATIONAL -->|subsidies, routed via village| GK
+    VILLAGE -->|land, permits, liaison| GK
+    NARA -.->|land-use permits| GK
+    NGO -->|majority owns, surplus flows back| GK
+    GK -.->|fuel contracts - tentative| COOP
+    NGO -.->|species partner - tentative| MORETREES
+    FOUND -->|grants| NGO
+    MIZUHO -.->|financing - undecided structure| GK
+    CORP -.->|CSR - unconfirmed| NGO
+    SUGANO -.->|pilot site - exploratory| GK
+    LINKLATERS -.->|incorporation advice - no signed engagement| NGO
+    NAIST -.->|living lab - Phase 0| NGO
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class VILLAGE,NARA,NATIONAL gov
+    class NGO,MORETREES,FOUND ngo
+    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class COOP coop
+    class NAIST acad
+</pre>
+    </div>
+
+    <div class="notes">
+      <h2 style="margin-top: 0">
+        Discussion points for the Mitsue Kanko meeting
+      </h2>
+      <ul>
+        <li>
+          What would a fair fuel-wood offtake contract look like - price basis,
+          volume, term?
+        </li>
+        <li>
+          Does the current crew size (~3-4) support Phase-1 volumes, or does
+          mechanization/hiring need to come first?
+        </li>
+        <li>
+          Species/replanting method - how much say does Mitsue Kanko want vs.
+          NGO/more trees?
+        </li>
+        <li>
+          Chipper/drying equipment - subsidy-funded, but who owns/operates it?
+        </li>
+        <li>
+          What formal relationship (MOU, board seat, co-op membership) would
+          Mitsue Kanko want before committing?
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <span
+        >Mitsue Village AI Data Center Project - internal working draft, not for
+        external distribution</span
+      >
+      <span
+        >Source: repo docs (funding flowchart, entity-structure decks,
+        stakeholder map, meeting notes) · 2026-08-01</span
+      >
+    </div>
+
+    <script>
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "default",
+        flowchart: {
+          curve: "basis",
+          nodeSpacing: 45,
+          rankSpacing: 60,
+          useMaxWidth: false,
+        },
+      });
+    </script>
+  </body>
+</html>

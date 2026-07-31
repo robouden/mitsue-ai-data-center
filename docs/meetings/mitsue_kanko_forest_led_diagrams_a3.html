@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitsue AI Data Center - Forest-Team-Led Model (A3)</title>
+<script src="../../tools/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; margin: 0; padding: 0; }
+  body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
+    color: #1a202c; background: #fff;
+  }
+
+  .page {
+    width: 420mm; height: 297mm; padding: 7mm 10mm 5mm;
+    display: flex; flex-direction: column;
+  }
+
+  .header { border-bottom: 2px solid #1a365d; padding-bottom: 3mm; margin-bottom: 2mm; display: flex; justify-content: space-between; align-items: flex-end; }
+  h1 { font-size: 15px; color: #1a365d; font-weight: 700; }
+  .sub { color: #4a5568; font-size: 9px; margin-top: 1mm; }
+  .meta { font-size: 8px; color: #a0aec0; text-align: right; }
+
+  .toprow { display: flex; gap: 6mm; align-items: center; margin-bottom: 2mm; }
+  .banner {
+    background: #fff5f5; border: 1px solid #feb2b2; color: #742a2a;
+    font-size: 8.5px; padding: 2mm 3mm; border-radius: 3px; flex: 0 0 auto;
+  }
+  .banner b { color: #c53030; }
+  .compare {
+    background: #f0fff4; border: 1px solid #9ae6b4; color: #22543d;
+    font-size: 8.5px; padding: 2mm 3mm; border-radius: 3px; flex: 1 1 auto;
+  }
+  .compare b { color: #276749; }
+  .legend { font-size: 8px; color: #4a5568; display: flex; flex-wrap: wrap; gap: 6mm; align-items: center; }
+  .sw { display:inline-block; width:9px; height:6px; margin-right:3px; vertical-align:middle; border-radius:1px; }
+  .sw.dash { background: repeating-linear-gradient(90deg,#718096 0 3px,transparent 3px 5px); }
+
+  .grid {
+    flex: 1; display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "d1 d2" "d3 d4";
+    gap: 4mm; min-height: 0;
+  }
+  .cell.d1 { grid-area: d1; }
+  .cell.d2 { grid-area: d2; }
+  .cell.d3 { grid-area: d3; }
+  .cell.d4 { grid-area: d4; }
+  .cell {
+    border: 1px solid #e2e8f0; border-radius: 5px; padding: 2.5mm 3mm 2mm;
+    display: flex; flex-direction: column; min-height: 0; min-width: 0;
+  }
+  .cell h2 { font-size: 11px; color: #1a365d; font-weight: 700; margin: 0; }
+  .cell .h2sub { font-size: 7.5px; color: #718096; margin-bottom: 1mm; }
+  .diagram { flex: 1; min-height: 0; min-width: 0; text-align: center; overflow: hidden; }
+
+  .footer { font-size: 7px; color: #a0aec0; border-top: 1px solid #e2e8f0; padding-top: 1.5mm; margin-top: 2mm; display:flex; justify-content: space-between; }
+
+  /* darker, thicker edges for readability */
+  .diagram .edgePath .path { stroke: #4a5568 !important; stroke-width: 1.3px !important; }
+  .diagram marker path { fill: #4a5568 !important; stroke: #4a5568 !important; }
+  .diagram .node text, .diagram .nodeLabel { font-size: 15px !important; }
+  .diagram .edgeLabel { font-size: 13px !important; background-color: #ffffff !important; color: #2d3748 !important; }
+  .diagram .cluster-label, .diagram .cluster text { font-size: 13px !important; font-weight: 700; fill: #2d3748 !important; }
+  .diagram .cluster rect { fill: #f1f5f9 !important; stroke: #cbd5e0 !important; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="header">
+    <div>
+      <h1>Mitsue AI Data Center - Forest-Team-Led Model (Alternative)</h1>
+      <div class="sub">Discussion draft - Mitsue Kanko as the operational hub for logging, replanting &amp; processing</div>
+    </div>
+    <div class="meta">Working draft &middot; 2026-08-01</div>
+  </div>
+
+  <div class="toprow">
+    <div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign.</div>
+    <div class="compare"><b>What's different:</b> Mitsue Kanko (8 crew) coordinates directly with Village Hall, more trees &amp; NAIST - not brokered through the NGO. NGO narrows to a legal/financing wrapper.</div>
+    <div class="legend">
+      <span><span class="sw" style="background:#2b6cb0"></span>Gov</span>
+      <span><span class="sw" style="background:#276749"></span>NGO</span>
+      <span><span class="sw" style="background:#975a16"></span>Co.</span>
+      <span><span class="sw" style="background:#6b46c1"></span>Forest Team</span>
+      <span><span class="sw" style="background:#b83280"></span>Academia</span>
+      <span><span class="sw dash"></span>Dashed = tentative</span>
+    </div>
+  </div>
+
+  <div class="grid">
+
+    <div class="cell d1">
+      <h2>1. Forest Team as Coordination Hub</h2>
+      <div class="h2sub">Mitsue Kanko (8 crew) leads and coordinates directly</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    NAIST["NAIST<br/>research support - logging and processing methods"]
+    VILLAGE["御杖村 Village Hall<br/>land, permits, forest coordination"]
+    MORETREES["more trees<br/>species selection, replanting method"]
+    COOP["御杖村森林組合 - Mitsue Kanko<br/>FOREST TEAM - 8 crew<br/>LEADS: logging, replanting, processing"]
+    GK["Operating Co (GK/KK)<br/>CHP + AI Data Center"]
+    NGO["一般社団法人 NGO<br/>legal / IP / financing wrapper only"]
+
+    VILLAGE <-->|land, permits, forest-mgmt coordination| COOP
+    MORETREES <-->|species choice, replanting method - direct| COOP
+    NAIST <-->|logging and processing research, methods| COOP
+    COOP -->|organizes fuel-wood supply| GK
+    COOP -.->|status reports - minimal oversight| NGO
+    NGO -.->|majority owner, legal/financing wrapper| GK
+
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class COOP coop
+    class VILLAGE gov
+    class MORETREES,NGO ngo
+    class GK co
+    class NAIST acad
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d2">
+      <h2>2. Labor / Work Flow - Forest-Led</h2>
+      <div class="h2sub">Who reports to whom, who decides what</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    COOP["Mitsue Kanko - Forest Team<br/>8 crew - plant, tend, harvest, chip, dry, process"]
+    VILLAGE["Village Hall - land, permits, forest-mgmt liaison"]
+    MORETREES["more trees - replanting method, species advisory"]
+    NAIST["NAIST - logging/processing research"]
+    GK["Operating Co - runs CHP + DC"]
+    NGO["NGO - legal/IP wrapper, light oversight only"]
+
+    COOP -->|decides and executes: plant, tend, harvest, chip, dry, process| GK
+    VILLAGE -->|coordinates land use and permits directly with| COOP
+    MORETREES -->|advises replanting method directly to| COOP
+    NAIST -->|shares logging/processing research directly with| COOP
+    GK -->|CHP heat/power + DC hosting| VILLAGE
+    COOP -.->|periodic reporting only| NGO
+
+    classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
+    class VILLAGE,GK confirmed
+    class COOP coop
+    class MORETREES,NAIST,NGO tentative
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d3">
+      <h2>3. Money Flow - Forest-Led</h2>
+      <div class="h2sub">Equipment/fuel-wood money reaches Mitsue Kanko directly</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    subgraph Sources["Money Sources"]
+        direction LR
+        L1["L1 Founders<br/>¥6M target"]
+        FOUND["Foundations<br/>¥33M target"]
+        GRANTS["Gov Grants<br/>METI/MoE/re-energy<br/>2/3-3/4"]
+        CORP["Corporate partners<br/>¥35M - unconfirmed"]
+        MIZUHO["Mizuho debt/bonds<br/>undecided"]
+    end
+
+    NGO["一般社団法人 NGO<br/>legal/financing wrapper only"]
+    GK["Operating Company GK/KK<br/>CHP + AI DC"]
+    REV["Operating revenue<br/>DC hosting + power sales"]
+    COOP["Mitsue Kanko - Forest Team<br/>8 crew"]
+    VILLAGE["Village Hall<br/>grant pass-through"]
+
+    L1 --> NGO
+    FOUND --> NGO
+    CORP -.->|unconfirmed CSR| NGO
+    GRANTS -->|forest/RE-type| NGO
+    GRANTS --> VILLAGE
+    GRANTS -.->|equipment, chipper - direct| COOP
+    VILLAGE -->|DC/power-type| GK
+    MIZUHO -.->|option A/B undecided| GK
+    REV --> GK
+
+    NGO -->|majority owns| GK
+    GK -->|fuel-wood payment - direct| COOP
+    GK -.->|residual surplus| NGO
+
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef tentativeMoney fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    class L1,GRANTS,FOUND,REV,GK,NGO,VILLAGE money
+    class CORP,MIZUHO tentativeMoney
+    class COOP coop
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d4">
+      <h2>4. Overall Stakeholder Network - Forest-Led</h2>
+      <div class="h2sub">Mitsue Kanko as hub, connected directly to Village Hall, more trees, NAIST</div>
+      <div class="diagram">
+<pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 6, 'rankSpacing': 22, 'padding': 3, 'useMaxWidth': false}}}%%
+graph LR
+    subgraph Government["GOVERNMENT"]
+        direction TB
+        VILLAGE["Village Hall"]
+        NARA["Nara Prefecture<br/>land permits, subsidy TBD"]
+        NATIONAL["METI / MoE / forestry agency<br/>NEDO / JST"]
+    end
+    subgraph NGO_NPO["NGO / NPO"]
+        direction TB
+        NGO["Project NGO<br/>legal/financing wrapper"]
+        MORETREES["more trees"]
+        FOUND["Foundations"]
+    end
+    subgraph Cooperative["FOREST TEAM"]
+        direction TB
+        COOP["Mitsue Kanko<br/>8 crew - hub"]
+    end
+    subgraph Companies["COMPANIES"]
+        direction TB
+        GK["Operating Co<br/>GK/KK<br/>CHP + AI DC"]
+        MIZUHO["Mizuho Securities"]
+        SUGANO["Sugano Organic"]
+        CORP["Corporate partners<br/>unconfirmed"]
+        LINKLATERS["Linklaters<br/>legal"]
+    end
+    subgraph Academia["ACADEMIA"]
+        direction TB
+        NAIST["NAIST"]
+    end
+
+    VILLAGE -->|land, permits, forest coordination - direct| COOP
+    MORETREES -->|species, replanting method - direct| COOP
+    NAIST -->|logging/processing research - direct| COOP
+    COOP -->|fuel-wood supply| GK
+    COOP -.->|status reports - minimal| NGO
+    NATIONAL -->|subsidies, via village| GK
+    NATIONAL -.->|equipment grants - direct| COOP
+    NARA -.->|land-use permits| GK
+    NGO -->|majority owns| GK
+    FOUND -->|grants| NGO
+    MIZUHO -.->|financing - undecided| GK
+    CORP -.->|CSR - unconfirmed| NGO
+    SUGANO -.->|pilot site - exploratory| GK
+    LINKLATERS -.->|legal advice - informal| NGO
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class VILLAGE,NARA,NATIONAL gov
+    class NGO,MORETREES,FOUND ngo
+    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class COOP coop
+    class NAIST acad
+</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>Mitsue Village AI Data Center Project - internal working draft, not for external distribution</span>
+    <span>Alternative model - forest-team-led coordination &middot; 2026-08-01</span>
+  </div>
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'default',
+    flowchart: { curve: 'basis', nodeSpacing: 45, rankSpacing: 60 }
+  });
+  mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
+
+  // use ONE shared scale for all four diagrams, so boxes/text render at the
+  // same physical size everywhere
+  (function () {
+    var items = [];
+    document.querySelectorAll('.diagram').forEach(function (container) {
+      var svg = container.querySelector('svg');
+      if (!svg) return;
+      var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
+      if (vb.length < 4 || !vb[2] || !vb[3]) return;
+      items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
+    });
+    if (!items.length) return;
+    var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+    items.forEach(function (it) {
+      it.svg.style.width = (it.vbW * scale) + 'px';
+      it.svg.style.height = (it.vbH * scale) + 'px';
+      it.svg.style.maxWidth = 'none';
+      it.svg.style.display = 'block';
+      it.svg.style.margin = '0 auto';
+    });
+  })();
+</script>
+</body>
+</html>

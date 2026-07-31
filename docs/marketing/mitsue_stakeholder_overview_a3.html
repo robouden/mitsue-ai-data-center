@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitsue AI Data Center — Stakeholder & Fund Flow Overview (A3 Draft)</title>
+<style>
+  @page { size: 420mm 297mm; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 420mm; height: 297mm;
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
+    color: #1a202c;
+    background: #ffffff;
+  }
+  .page { width: 420mm; height: 297mm; padding: 10mm 12mm 8mm; position: relative; }
+
+  /* Header */
+  .header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 2pt solid #1a365d; padding-bottom: 3mm; margin-bottom: 5mm;
+  }
+  .header h1 { font-size: 17pt; color: #1a365d; font-weight: 700; letter-spacing: 0.2pt; }
+  .header .sub { font-size: 8.5pt; color: #4a5568; margin-top: 1mm; }
+  .header .meta { text-align: right; font-size: 7.5pt; color: #718096; line-height: 1.5; }
+  .draft-badge {
+    display: inline-block; background: #c53030; color: #fff; font-size: 7pt; font-weight: 700;
+    padding: 0.5mm 2.5mm; border-radius: 2pt; letter-spacing: 0.5pt; margin-left: 3mm;
+  }
+
+  /* Legend */
+  .legend { display: flex; gap: 6mm; font-size: 7pt; color: #4a5568; margin-bottom: 4mm; align-items: center; }
+  .legend .sw { display: inline-block; width: 6mm; height: 2.2mm; margin-right: 1.5mm; vertical-align: middle; border-radius: 1pt; }
+  .legend .dash { background: repeating-linear-gradient(90deg, #718096 0 2mm, transparent 2mm 3mm); }
+
+  /* Main grid: 3 columns */
+  .grid { display: grid; grid-template-columns: 1.05fr 1.15fr 0.85fr; gap: 6mm; height: 218mm; }
+  .panel {
+    border: 0.75pt solid #cbd5e0; border-radius: 3pt; padding: 4mm 4.5mm;
+    display: flex; flex-direction: column;
+  }
+  .panel h2 {
+    font-size: 10pt; color: #1a365d; font-weight: 700; margin-bottom: 3mm;
+    padding-bottom: 1.5mm; border-bottom: 0.5pt solid #e2e8f0;
+  }
+
+  /* Boxes */
+  .box {
+    border-radius: 2.5pt; padding: 2.2mm 3mm; font-size: 7.6pt; color: #fff;
+    line-height: 1.35; position: relative;
+  }
+  .box .t { font-weight: 700; font-size: 8.2pt; display: block; margin-bottom: 0.5mm; }
+  .box .d { font-weight: 400; opacity: 0.92; font-size: 6.9pt; }
+  .box.gov { background: #2b6cb0; }
+  .box.ngo { background: #276749; }
+  .box.co   { background: #975a16; }
+  .box.coop { background: #6b46c1; }
+  .box.acad { background: #b83280; }
+  .box.tent { opacity: 0.55; border: 0.75pt dashed #718096; color: #2d3748; background: #edf2f7; }
+  .box.tent .t { color: #2d3748; }
+
+  .arrow-label {
+    font-size: 6.4pt; color: #4a5568; text-align: center; padding: 0.8mm 0;
+    display: flex; align-items: center; gap: 1.5mm;
+  }
+  .arrow-label::before, .arrow-label::after { content: ""; flex: 1; height: 0; border-top: 0.75pt solid #a0aec0; }
+  .arrow-label.tentative::before, .arrow-label.tentative::after { border-top: 0.75pt dashed #a0aec0; }
+  .arrow-down { text-align: center; font-size: 9pt; color: #a0aec0; line-height: 1; }
+
+  /* Column 1: Legal Structure */
+  .col1 .stack { display: flex; flex-direction: column; gap: 1mm; flex: 1; justify-content: flex-start; }
+  .tier-row { display: flex; gap: 3mm; }
+  .tier-row .box { flex: 1; }
+
+  /* Column 2: Money + Labor split top/bottom */
+  .col2 { gap: 0; }
+  .subsec { flex: 1; display: flex; flex-direction: column; }
+  .subsec + .subsec { margin-top: 3mm; padding-top: 3mm; border-top: 0.5pt dashed #e2e8f0; }
+  .subsec h3 { font-size: 8.5pt; color: #2d3748; font-weight: 700; margin-bottom: 2mm; }
+  .flow-row { display: flex; align-items: center; gap: 2mm; margin-bottom: 1.6mm; }
+  .flow-row .box { flex: 1; }
+  .flow-row .mid-arrow { font-size: 9pt; color: #a0aec0; white-space: nowrap; }
+  .src-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm; margin-bottom: 2mm; }
+
+  /* Column 3: Key figures + notes */
+  .col3 .figure { margin-bottom: 3.5mm; }
+  .col3 .figure .num { font-size: 15pt; font-weight: 700; color: #1a365d; line-height: 1; }
+  .col3 .figure .lbl { font-size: 7pt; color: #4a5568; margin-top: 0.8mm; }
+  .col3 .barwrap { background: #edf2f7; border-radius: 2pt; height: 3.2mm; overflow: hidden; margin-top: 1.5mm; }
+  .col3 .bar { height: 100%; background: #276749; }
+  .notes { margin-top: auto; }
+  .notes h3 { font-size: 8.5pt; color: #c53030; font-weight: 700; margin-bottom: 1.5mm; }
+  .notes ul { font-size: 6.9pt; color: #4a5568; line-height: 1.55; padding-left: 3.5mm; }
+  .notes li { margin-bottom: 1mm; }
+
+  .footer {
+    position: absolute; bottom: 6mm; left: 12mm; right: 12mm;
+    display: flex; justify-content: space-between; font-size: 6.5pt; color: #a0aec0;
+    border-top: 0.5pt solid #e2e8f0; padding-top: 2mm;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div>
+      <h1>Mitsue AI Data Center — Stakeholder &amp; Fund Flow Overview <span class="draft-badge">DRAFT — NOT FINAL</span></h1>
+      <div class="sub">Governance structure · money flow · labor flow — as currently documented, Phase 0</div>
+    </div>
+    <div class="meta">
+      Mitsue Village AI Data Center Project<br>
+      Version 0.1 &nbsp;|&nbsp; 2026-08-01
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="sw" style="background:#2b6cb0"></span>Government</span>
+    <span><span class="sw" style="background:#276749"></span>NGO / NPO</span>
+    <span><span class="sw" style="background:#975a16"></span>Company</span>
+    <span><span class="sw" style="background:#6b46c1"></span>Cooperative</span>
+    <span><span class="sw" style="background:#b83280"></span>Academia</span>
+    <span><span class="sw dash"></span>Tentative / unconfirmed — no signed agreement</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- COLUMN 1: LEGAL STRUCTURE -->
+    <div class="panel col1">
+      <h2>1 · Legal Structure</h2>
+      <div class="stack">
+        <div class="box gov"><span class="t">御杖村 Village Government</span><span class="d">Land lease candidate, permits, community liaison</span></div>
+        <div class="arrow-label tentative">permits, letter of interest</div>
+        <div class="arrow-down">↓</div>
+        <div class="box ngo"><span class="t">一般社団法人 NGO — Tier 1</span><span class="d">Mission, IP, J-Credit, village relationship · non-distributing</span></div>
+        <div class="arrow-label">majority owns</div>
+        <div class="arrow-down">↓</div>
+        <div class="box co"><span class="t">合同会社 (GK) / KK — Tier 2</span><span class="d">Operating company: CHP + AI Data Center + solar/FIT assets</span></div>
+        <div class="arrow-label tentative">operating surplus ↑ (harvest-funds-replant loop)</div>
+        <div class="tier-row" style="margin-top:2mm;">
+          <div class="box tent"><span class="t">Mitsue Kanko</span><span class="d">Forest co-op · early consultation, no MOU yet</span></div>
+          <div class="box tent"><span class="t">more trees</span><span class="d">Species selection partner · 1st mtg only</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUMN 2: MONEY + LABOR -->
+    <div class="panel col2">
+      <h2>2 · Money &amp; Labor Flow</h2>
+
+      <div class="subsec">
+        <h3>Money in →</h3>
+        <div class="src-grid">
+          <div class="box ngo" style="font-size:7pt;"><span class="t" style="font-size:7.6pt;">L1 Founders</span><span class="d">¥6M target</span></div>
+          <div class="box ngo" style="font-size:7pt;"><span class="t" style="font-size:7.6pt;">Foundations</span><span class="d">¥33M target</span></div>
+          <div class="box gov" style="font-size:7pt;"><span class="t" style="font-size:7.6pt;">Gov Grants</span><span class="d">METI GX / MoE, 2/3–3/4 rate</span></div>
+          <div class="box tent" style="font-size:7pt;"><span class="t" style="font-size:7.6pt;">Corporate Partners</span><span class="d">¥35M target — unconfirmed</span></div>
+        </div>
+        <div class="flow-row">
+          <div class="box ngo">一般社団法人 NGO</div>
+          <div class="mid-arrow">→</div>
+          <div class="box co">Operating Co (GK/KK)</div>
+        </div>
+        <div class="flow-row">
+          <div class="box tent">Mizuho debt/bonds/SLL — structure undecided</div>
+          <div class="mid-arrow">→</div>
+          <div class="box co">Operating revenue: DC hosting + PPA/FIT</div>
+        </div>
+      </div>
+
+      <div class="subsec">
+        <h3>Labor / work →</h3>
+        <div class="flow-row">
+          <div class="box coop">Mitsue Kanko — plant, tend, harvest, chip, dry wood (~3–4 crew now)</div>
+          <div class="mid-arrow">→</div>
+          <div class="box co">Operating Co — CHP + DC</div>
+        </div>
+        <div class="flow-row">
+          <div class="box co">Operating Co — heat + power + DC hosting</div>
+          <div class="mid-arrow">→</div>
+          <div class="box gov">Village Gov</div>
+        </div>
+        <div class="flow-row">
+          <div class="box gov">Village Gov — permitting, endorsement</div>
+          <div class="mid-arrow">→</div>
+          <div class="box co">Operating Co</div>
+        </div>
+        <div class="flow-row">
+          <div class="box tent">Advisors: Dome, Takata, Ozzie, Poisson, Linklaters — informal, unwritten</div>
+        </div>
+        <div class="flow-row">
+          <div class="box tent">NAIST (Shiozaki, Kubo) — proposed living-lab / student program, Phase 0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUMN 3: KEY FIGURES + FLAGS -->
+    <div class="panel col3">
+      <h2>3 · Key Figures &amp; Status</h2>
+
+      <div class="figure">
+        <div class="num">¥245M</div>
+        <div class="lbl">Total project budget (¥220M BAC + ¥25M reserve)</div>
+      </div>
+      <div class="figure">
+        <div class="num">¥192M</div>
+        <div class="lbl">Funding target across L1–L5 layers</div>
+        <div class="barwrap"><div class="bar" style="width:0%"></div></div>
+        <div class="lbl" style="margin-top:0.8mm; color:#c53030; font-weight:700;">¥0 secured / committed as of 2026-08-01</div>
+      </div>
+      <div class="figure">
+        <div class="num">2</div>
+        <div class="lbl">Competing entity-structure drafts (Mizuho Option A / Option B) — undecided, discussed 2026-08-05</div>
+      </div>
+
+      <div class="notes">
+        <h3>Not yet confirmed</h3>
+        <ul>
+          <li>Mizuho financing structure (Option A vs B) — draft only</li>
+          <li>Mitsue Kanko relationship — no MOU, no board seat, no signed fuel contract</li>
+          <li>more trees, Sugano Organic, NAIST — exploratory, no written commitment</li>
+          <li>Nara Prefecture subsidy — program not named in docs</li>
+          <li>All advisors — informal, no signed engagement</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>Mitsue Village AI Data Center Project — internal working draft, not for external distribution</span>
+    <span>Source: repo docs (funding flowchart, entity-structure decks, stakeholder map, meeting notes) — v0.1 · 2026-08-01</span>
+  </div>
+
+</div>
+</body>
+</html>

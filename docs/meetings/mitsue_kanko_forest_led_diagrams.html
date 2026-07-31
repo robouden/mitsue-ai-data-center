@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitsue AI Data Center - Forest-Team-Led Model (Alternative)</title>
+<script src="../../tools/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
+    color: #1a202c; background: #f7f8fa;
+    max-width: 1180px; margin: 0 auto; padding: 28px 36px 70px;
+  }
+  .header { border-bottom: 2px solid #1a365d; padding-bottom: 10px; margin-bottom: 6px; }
+  h1 { font-size: 22px; color: #1a365d; font-weight: 700; }
+  .sub { color: #4a5568; font-size: 13px; margin-top: 4px; }
+  .banner {
+    background: #fff5f5; border: 1px solid #feb2b2; color: #742a2a;
+    font-size: 13px; padding: 10px 14px; border-radius: 6px; margin: 14px 0 6px;
+  }
+  .banner b { color: #c53030; }
+  .compare {
+    background: #f0fff4; border: 1px solid #9ae6b4; color: #22543d;
+    font-size: 13px; padding: 10px 14px; border-radius: 6px; margin: 10px 0 6px;
+  }
+  .compare b { color: #276749; }
+  .legend { font-size: 12px; color: #4a5568; margin: 16px 0 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+  .sw { display:inline-block; width:14px; height:9px; margin-right:5px; vertical-align:middle; border-radius:2px; }
+  .sw.dash { background: repeating-linear-gradient(90deg,#718096 0 4px,transparent 4px 7px); }
+
+  h2 { font-size: 16px; color: #1a365d; font-weight: 700; margin: 36px 0 4px; }
+  .h2sub { font-size: 12px; color: #718096; margin-bottom: 12px; }
+  .diagram {
+    background: #fff; border: 1px solid #e2e8f0; border-radius: 8px;
+    padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); overflow-x: auto;
+  }
+
+  .notes { margin-top: 40px; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 18px 22px; }
+  .notes h2 { margin-top: 0; }
+  .notes ul { font-size: 13px; color: #2d3748; line-height: 1.9; padding-left: 20px; }
+
+  .footer { margin-top: 40px; font-size: 11px; color: #a0aec0; border-top: 1px solid #e2e8f0; padding-top: 10px; display:flex; justify-content: space-between; }
+
+  .diagram .edgePath .path { stroke: #4a5568 !important; stroke-width: 1.6px !important; }
+  .diagram marker path { fill: #4a5568 !important; stroke: #4a5568 !important; }
+  .diagram .node text, .diagram .nodeLabel { font-size: 15px !important; }
+  .diagram .edgeLabel { font-size: 13px !important; background-color: #f7f8fa !important; color: #2d3748 !important; }
+  .diagram .cluster-label, .diagram .cluster text { font-size: 13px !important; font-weight: 700; fill: #2d3748 !important; }
+  .diagram .cluster rect { fill: #f1f5f9 !important; stroke: #cbd5e0 !important; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mitsue AI Data Center - Forest-Team-Led Model (Alternative)</h1>
+  <div class="sub">Discussion draft - Mitsue Kanko as the operational hub for logging, replanting &amp; processing</div>
+</div>
+
+<div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. This is a starting point for discussion, not a proposal to sign.</div>
+
+<div class="compare"><b>What's different from the NGO-centered version:</b> Mitsue Kanko (grown to 8 crew) sits at the center and coordinates directly with Village Hall, more trees, and NAIST to organize logging, processing, and replanting - instead of those relationships being brokered through the NGO. The NGO's role narrows to a legal/IP/financing wrapper in the background, not the operational coordinator.</div>
+
+<div class="legend">
+  <span><span class="sw" style="background:#2b6cb0"></span>Government</span>
+  <span><span class="sw" style="background:#276749"></span>NGO / NPO</span>
+  <span><span class="sw" style="background:#975a16"></span>Company</span>
+  <span><span class="sw" style="background:#6b46c1"></span>Cooperative (Forest Team)</span>
+  <span><span class="sw" style="background:#b83280"></span>Academia</span>
+  <span><span class="sw dash"></span>Solid = documented &nbsp;·&nbsp; Dashed = tentative / no signed agreement</span>
+</div>
+
+<h2>1. Forest Team as Coordination Hub</h2>
+<div class="h2sub">Mitsue Kanko (8 crew) leads and coordinates directly - NGO moves to the background</div>
+<div class="diagram">
+<pre class="mermaid">
+graph TD
+    NAIST["NAIST<br/>research support - logging and processing methods"]
+    VILLAGE["御杖村 Village Hall<br/>land, permits, forest coordination"]
+    MORETREES["more trees<br/>species selection, replanting method"]
+    COOP["御杖村森林組合 - Mitsue Kanko<br/>FOREST TEAM - 8 crew<br/>LEADS: logging, replanting, processing"]
+    GK["Operating Co (GK/KK)<br/>CHP + AI Data Center"]
+    NGO["一般社団法人 NGO<br/>legal / IP / financing wrapper only"]
+
+    VILLAGE <-->|land, permits, forest-mgmt coordination| COOP
+    MORETREES <-->|species choice, replanting method - direct| COOP
+    NAIST <-->|logging and processing research, methods| COOP
+    COOP -->|organizes fuel-wood supply| GK
+    COOP -.->|status reports - minimal oversight| NGO
+    NGO -.->|majority owner, legal/financing wrapper| GK
+
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class COOP coop
+    class VILLAGE gov
+    class MORETREES,NGO ngo
+    class GK co
+    class NAIST acad
+</pre>
+</div>
+
+<h2>2. Labor / Work Flow - Forest-Led</h2>
+<div class="h2sub">Who reports to whom, who decides what</div>
+<div class="diagram">
+<pre class="mermaid">
+graph TD
+    COOP["Mitsue Kanko - Forest Team<br/>8 crew - plant, tend, harvest, chip, dry, process"]
+    VILLAGE["Village Hall - land, permits, forest-mgmt liaison"]
+    MORETREES["more trees - replanting method, species advisory"]
+    NAIST["NAIST - logging/processing research"]
+    GK["Operating Co - runs CHP + DC"]
+    NGO["NGO - legal/IP wrapper, light oversight only"]
+
+    COOP -->|decides and executes: plant, tend, harvest, chip, dry, process| GK
+    VILLAGE -->|coordinates land use and permits directly with| COOP
+    MORETREES -->|advises replanting method directly to| COOP
+    NAIST -->|shares logging/processing research directly with| COOP
+    GK -->|CHP heat/power + DC hosting| VILLAGE
+    COOP -.->|periodic reporting only| NGO
+
+    classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
+    class VILLAGE,GK confirmed
+    class COOP coop
+    class MORETREES,NAIST,NGO tentative
+</pre>
+</div>
+
+<h2>3. Money Flow - Forest-Led</h2>
+<div class="h2sub">Equipment/fuel-wood money reaches Mitsue Kanko directly, not routed through the NGO</div>
+<div class="diagram">
+<pre class="mermaid">
+graph TD
+    subgraph Sources["Money Sources"]
+        direction LR
+        L1["L1 Founders<br/>¥6M target"]
+        FOUND["Foundations<br/>¥33M target"]
+        GRANTS["Gov Grants<br/>METI/MoE/re-energy<br/>2/3-3/4"]
+        CORP["Corporate partners<br/>¥35M - unconfirmed"]
+        MIZUHO["Mizuho debt/bonds<br/>undecided"]
+    end
+
+    NGO["一般社団法人 NGO<br/>legal/financing wrapper only"]
+    GK["Operating Company GK/KK<br/>CHP + AI DC"]
+    REV["Operating revenue<br/>DC hosting + power sales"]
+    COOP["Mitsue Kanko - Forest Team<br/>8 crew"]
+    VILLAGE["Village Hall<br/>grant pass-through"]
+
+    L1 --> NGO
+    FOUND --> NGO
+    CORP -.->|unconfirmed CSR| NGO
+    GRANTS -->|forest/RE-type| NGO
+    GRANTS --> VILLAGE
+    GRANTS -.->|equipment, chipper - direct| COOP
+    VILLAGE -->|DC/power-type| GK
+    MIZUHO -.->|option A/B undecided| GK
+    REV --> GK
+
+    NGO -->|majority owns| GK
+    GK -->|fuel-wood payment - direct| COOP
+    GK -.->|residual surplus| NGO
+
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef tentativeMoney fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    class L1,GRANTS,FOUND,REV,GK,NGO,VILLAGE money
+    class CORP,MIZUHO tentativeMoney
+    class COOP coop
+</pre>
+</div>
+
+<h2>4. Overall Stakeholder Network - Forest-Led</h2>
+<div class="h2sub">Mitsue Kanko as hub, connected directly to Village Hall, more trees, NAIST and the Operating Co</div>
+<div class="diagram">
+<pre class="mermaid">
+graph LR
+    subgraph Government["GOVERNMENT"]
+        direction TB
+        VILLAGE["Village Hall"]
+        NARA["Nara Prefecture<br/>land permits, subsidy TBD"]
+        NATIONAL["METI / MoE / forestry agency<br/>NEDO / JST"]
+    end
+    subgraph NGO_NPO["NGO / NPO"]
+        direction TB
+        NGO["Project NGO<br/>legal/financing wrapper"]
+        MORETREES["more trees"]
+        FOUND["Foundations"]
+    end
+    subgraph Cooperative["FOREST TEAM"]
+        direction TB
+        COOP["Mitsue Kanko<br/>8 crew - hub"]
+    end
+    subgraph Companies["COMPANIES"]
+        direction TB
+        GK["Operating Co<br/>GK/KK<br/>CHP + AI DC"]
+        MIZUHO["Mizuho Securities"]
+        SUGANO["Sugano Organic"]
+        CORP["Corporate partners<br/>unconfirmed"]
+        LINKLATERS["Linklaters<br/>legal"]
+    end
+    subgraph Academia["ACADEMIA"]
+        direction TB
+        NAIST["NAIST"]
+    end
+
+    VILLAGE -->|land, permits, forest coordination - direct| COOP
+    MORETREES -->|species, replanting method - direct| COOP
+    NAIST -->|logging/processing research - direct| COOP
+    COOP -->|fuel-wood supply| GK
+    COOP -.->|status reports - minimal| NGO
+    NATIONAL -->|subsidies, via village| GK
+    NATIONAL -.->|equipment grants - direct| COOP
+    NARA -.->|land-use permits| GK
+    NGO -->|majority owns| GK
+    FOUND -->|grants| NGO
+    MIZUHO -.->|financing - undecided| GK
+    CORP -.->|CSR - unconfirmed| NGO
+    SUGANO -.->|pilot site - exploratory| GK
+    LINKLATERS -.->|legal advice - informal| NGO
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class VILLAGE,NARA,NATIONAL gov
+    class NGO,MORETREES,FOUND ngo
+    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class COOP coop
+    class NAIST acad
+</pre>
+</div>
+
+<div class="notes">
+  <h2 style="margin-top:0;">Discussion points for the Mitsue Kanko meeting</h2>
+  <ul>
+    <li>Does 8 crew (up from ~3-4) match the pace Mitsue Kanko wants to grow at, and on what timeline?</li>
+    <li>If Mitsue Kanko coordinates directly with Village Hall, more trees, and NAIST, what does the NGO still need to approve vs. just be informed of?</li>
+    <li>Who owns the logging/processing schedule day-to-day - Mitsue Kanko alone, or jointly with the Operating Co?</li>
+    <li>Does more trees want a direct relationship with Mitsue Kanko, or does it still want NGO involvement on species/ecosystem decisions?</li>
+    <li>What would Mitsue Kanko want in writing (MOU, board seat, co-op membership) to formalize this more central role?</li>
+  </ul>
+</div>
+
+<div class="footer">
+  <span>Mitsue Village AI Data Center Project - internal working draft, not for external distribution</span>
+  <span>Alternative model - forest-team-led coordination &middot; 2026-08-01</span>
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'default',
+    flowchart: { curve: 'basis', nodeSpacing: 45, rankSpacing: 60 }
+  });
+</script>
+</body>
+</html>
