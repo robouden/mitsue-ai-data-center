@@ -1,8 +1,18 @@
-<!-- Version: v1.1 | Last modified: 2026-07-16 -->
+<!-- Version: v1.2 | Last modified: 2026-07-29 -->
 
 # Meeting Notes — Tokuo Aomi (青海 徳生) · Sugano Organic
 
 **Meeting:** After the Tokyo meeting (July 1, 2026) — exact date TBD, in Mitsue
+
+---
+
+## Meeting held 2026-07-29
+
+Only questions 1–3 (from `tokuo_aomi_meeting_prep_questions_en.md`) were asked — how Sugano Organic works and what they exactly do. Question 4 ("what we could actually offer") was not reached; save for a future meeting.
+
+Got a tour of the workshop with detailed explanations. Yuka Ishimura-san and San Poison were present and made communication much easier.
+
+**Invitation:** Tokuo invited Rob to a business event at the Sugano Organic site, **Aug 21, 10:00–12:00**.
 
 ---
 
