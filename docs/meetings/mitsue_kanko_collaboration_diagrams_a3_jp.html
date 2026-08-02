@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>御杖AIデータセンター - 組織・資金・労務体制概要 (A3)</title>
+<script src="../../tools/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans JP', 'Yu Gothic', 'Hiragino Sans', 'Meiryo', sans-serif;
+    color: #1a202c; background: #fff;
+  }
+
+  .page {
+    width: 420mm; height: 297mm; padding: 7mm 10mm 5mm;
+    display: flex; flex-direction: column;
+  }
+
+  .header { border-bottom: 2px solid #1a365d; padding-bottom: 3mm; margin-bottom: 2mm; display: flex; justify-content: space-between; align-items: flex-end; }
+  h1 { font-size: 15px; color: #1a365d; font-weight: 700; }
+  .sub { color: #4a5568; font-size: 9px; margin-top: 1mm; }
+  .meta { font-size: 8px; color: #a0aec0; text-align: right; }
+
+  .toprow { display: flex; gap: 6mm; align-items: center; margin-bottom: 2mm; }
+  .banner {
+    background: #fff5f5; border: 1px solid #feb2b2; color: #742a2a;
+    font-size: 8.5px; padding: 2mm 3mm; border-radius: 3px; flex: 0 0 auto;
+  }
+  .banner b { color: #c53030; }
+  .legend { font-size: 8px; color: #4a5568; display: flex; flex-wrap: wrap; gap: 6mm; align-items: center; }
+  .sw { display:inline-block; width:9px; height:6px; margin-right:3px; vertical-align:middle; border-radius:1px; }
+  .sw.dash { background: repeating-linear-gradient(90deg,#718096 0 3px,transparent 3px 5px); }
+
+  .grid {
+    flex: 1; display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "d1 d2" "d3 d4";
+    gap: 4mm; min-height: 0;
+  }
+  .cell.d1 { grid-area: d1; }
+  .cell.d2 { grid-area: d2; }
+  .cell.d3 { grid-area: d3; }
+  .cell.d4 { grid-area: d4; }
+  .cell {
+    border: 1px solid #e2e8f0; border-radius: 5px; padding: 2.5mm 3mm 2mm;
+    display: flex; flex-direction: column; min-height: 0; min-width: 0;
+  }
+  .cell h2 { font-size: 11px; color: #1a365d; font-weight: 700; margin: 0; }
+  .cell .h2sub { font-size: 7.5px; color: #718096; margin-bottom: 1mm; }
+  .diagram { flex: 1; min-height: 0; min-width: 0; text-align: center; overflow: hidden; }
+
+  .footer { font-size: 7px; color: #a0aec0; border-top: 1px solid #e2e8f0; padding-top: 1.5mm; margin-top: 2mm; display:flex; justify-content: space-between; }
+
+  /* darker, thicker edges for readability */
+  .diagram .edgePath .path { stroke: #4a5568 !important; stroke-width: 1.3px !important; }
+  .diagram marker path { fill: #4a5568 !important; stroke: #4a5568 !important; }
+  .diagram .node text, .diagram .nodeLabel { font-size: 15px !important; }
+  .diagram .edgeLabel { font-size: 13px !important; background-color: #ffffff !important; color: #2d3748 !important; }
+  .diagram .cluster-label, .diagram .cluster text { font-size: 13px !important; font-weight: 700; fill: #2d3748 !important; }
+  .diagram .cluster rect { fill: #f1f5f9 !important; stroke: #cbd5e0 !important; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="header">
+    <div>
+      <h1>御杖AIデータセンター - 組織・資金・労務体制概要</h1>
+      <div class="sub">御杖観光ミーティング用ディスカッション草案</div>
+    </div>
+    <div class="meta">作業中草案 &middot; 2026-08-01</div>
+  </div>
+
+  <div class="toprow">
+    <div class="banner"><b>非常に初期段階の草案 - 概念のみ。</b> ここに記載の内容は何も決定・合意されていません。署名を前提とした提案ではなく、議論の出発点です。</div>
+    <div class="legend">
+      <span><span class="sw" style="background:#2b6cb0"></span>政府</span>
+      <span><span class="sw" style="background:#276749"></span>NGO・NPO</span>
+      <span><span class="sw" style="background:#975a16"></span>企業</span>
+      <span><span class="sw" style="background:#6b46c1"></span>組合</span>
+      <span><span class="sw" style="background:#b83280"></span>学術機関</span>
+      <span><span class="sw dash"></span>実線＝記録済み &nbsp;&middot;&nbsp; 点線＝未確定・未締結</span>
+    </div>
+  </div>
+
+  <div class="grid">
+
+    <div class="cell d1">
+      <h2>1. 法的・ガバナンス構造</h2>
+      <div class="h2sub">mitsue_qa_crew_finance_entity_governance.md による階層案</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    VILLAGE["御杖村 村役場"]
+    NGO["一般社団法人<br/>Tier1 - ミッション・IP・<br/>村との関係・J-クレジット<br/>非分配型"]
+    GK["合同会社(GK)／株式会社<br/>Tier2 - 運営会社<br/>CHP + AIデータセンター + 太陽光/FIT資産"]
+    COOP["御杖村森林組合(御杖観光)<br/>既存の森林組合"]
+    MORETREES["more trees (NGO)"]
+
+    VILLAGE -.->|土地 許可 意向表明書| GK
+    VILLAGE -->|地域連携| NGO
+    NGO -->|過半数出資| GK
+    GK -.->|運営余剰 - 植林循環| NGO
+    NGO -.->|樹種パートナー - 未確定| MORETREES
+    NGO -.->|初期協議 - MOU未締結| COOP
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    class VILLAGE gov
+    class NGO ngo
+    class GK co
+    class COOP,MORETREES coop
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d2">
+      <h2>2. 資金の流れ</h2>
+      <div class="h2sub">資金源 &rarr; 事業体 &rarr; 使途</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    subgraph Sources["資金源"]
+        direction LR
+        L1["L1創業者<br/>目標 ¥6M"]
+        FOUND["財団<br/>目標 ¥33M"]
+        GRANTS["政府補助金<br/>経産省/環境省/再エネ<br/>2/3～3/4"]
+        CORP["企業パートナー<br/>¥35M - 未確定"]
+        MIZUHO["みずほ 融資/債券<br/>未定"]
+    end
+
+    NGO["一般社団法人 NGO<br/>(非分配型)"]
+    GK["運営会社 GK/KK<br/>(CHP + AI DC)"]
+    REV["運営収益<br/>DCホスティング + 売電"]
+    COOP["御杖観光<br/>(森林組合)"]
+    VILLAGE["御杖村 村役場<br/>(補助金中継)"]
+
+    L1 --> NGO
+    FOUND --> NGO
+    CORP -.->|CSR - 未確定| NGO
+    GRANTS -->|森林/再エネ型| NGO
+    GRANTS --> VILLAGE
+    VILLAGE -->|DC/電力型| GK
+    MIZUHO -.->|案A/B - 未定| GK
+    REV --> GK
+
+    NGO -->|過半数出資| GK
+    GK -.->|運営余剰| NGO
+    GK -.->|燃料材契約 - 未締結| COOP
+
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef tentativeMoney fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    class L1,GRANTS,FOUND,REV,GK,NGO,VILLAGE money
+    class CORP,MIZUHO,COOP tentativeMoney
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d3">
+      <h2>3. 労務・作業の流れ</h2>
+      <div class="h2sub">誰が誰のために何をするか</div>
+      <div class="diagram">
+<pre class="mermaid">
+graph TD
+    COOP["御杖観光<br/>現在約3-4名、倍増～3倍化予定"]
+    NGO["NGO - 樹種選定・ミッション監督"]
+    MORETREES["more trees - 植林手法の専門知識"]
+    GK["運営会社 - CHP+DC運営"]
+    VILLAGE["村役場 - 許可・土地・連携"]
+    ADVISORS["顧問: Dome、Takata、<br/>Ozzie、Poisson、Linklaters"]
+    NAIST["NAIST (塩崎・久保/CDG)"]
+    SUGANO["菅野オーガニック (青見徳雄)"]
+
+    COOP -->|植林 保育 伐採 チップ化 乾燥| GK
+    NGO -->|樹種/生態基準を設定| COOP
+    MORETREES -.->|手法助言 - 未確定| NGO
+    GK -->|CHP熱/電力 + DCホスティング| VILLAGE
+    VILLAGE -->|許可 承認| GK
+    ADVISORS -.->|非公式 未文書化| GK
+    ADVISORS -.->|非公式助言| NGO
+    NAIST -.->|リビングラボ 学生プログラム - フェーズ0| NGO
+    SUGANO -.->|CHP試験地 - 検討中| GK
+
+    classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
+    classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
+    class COOP,NGO,GK,VILLAGE confirmed
+    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d4">
+      <h2>4. ステークホルダー全体図</h2>
+      <div class="h2sub">全事業体（種別ごとに分類）</div>
+      <div class="diagram">
+<pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 6, 'rankSpacing': 22, 'padding': 3, 'useMaxWidth': false}}}%%
+graph LR
+    subgraph Government["政府"]
+        direction TB
+        VILLAGE["御杖村<br/>村役場"]
+        NARA["奈良県<br/>土地許可・補助金未定"]
+        NATIONAL["経産省/環境省/林野庁<br/>NEDO/JST"]
+    end
+    subgraph NGO_NPO["NGO・NPO"]
+        direction TB
+        NGO["プロジェクトNGO<br/>(一般社団法人)"]
+        MORETREES["more trees"]
+        FOUND["財団"]
+    end
+    subgraph Cooperative["組合"]
+        direction TB
+        COOP["御杖観光<br/>森林組合"]
+    end
+    subgraph Companies["企業"]
+        direction TB
+        GK["運営会社<br/>(GK/KK)<br/>CHP + AI DC"]
+        MIZUHO["みずほ証券"]
+        SUGANO["菅野オーガニック"]
+        CORP["企業パートナー<br/>未確定"]
+        LINKLATERS["リンクレーターズ<br/>(法律)"]
+    end
+    subgraph Academia["学術機関"]
+        direction TB
+        NAIST["NAIST"]
+    end
+
+    NATIONAL -->|補助金| NGO
+    NATIONAL -->|補助金 村経由| GK
+    VILLAGE -->|土地 許可| GK
+    NARA -.->|土地利用許可| GK
+    NGO -->|過半数出資| GK
+    GK -.->|燃料契約 - 未確定| COOP
+    NGO -.->|樹種パートナー - 未確定| MORETREES
+    FOUND -->|助成金| NGO
+    MIZUHO -.->|資金調達 - 未定| GK
+    CORP -.->|CSR - 未確定| NGO
+    SUGANO -.->|試験地 - 検討中| GK
+    LINKLATERS -.->|法律助言 - 非公式| NGO
+    NAIST -.->|リビングラボ - フェーズ0| NGO
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class VILLAGE,NARA,NATIONAL gov
+    class NGO,MORETREES,FOUND ngo
+    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class COOP coop
+    class NAIST acad
+</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>御杖村AIデータセンタープロジェクト - 内部作業草案、外部配布不可</span>
+    <span>出典: リポジトリ資料（資金フロー図、組織構造資料、ステークホルダーマップ、議事録）&middot; 2026-08-01</span>
+  </div>
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'default',
+    flowchart: { curve: 'basis', nodeSpacing: 45, rankSpacing: 60 }
+  });
+  mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
+
+  // use ONE shared scale for all four diagrams, so boxes/text render at the
+  // same physical size everywhere (the tightest-fitting diagram sets the scale;
+  // diagrams with more room just get extra whitespace instead of extra zoom)
+  (function () {
+    var items = [];
+    document.querySelectorAll('.diagram').forEach(function (container) {
+      var svg = container.querySelector('svg');
+      if (!svg) return;
+      var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
+      if (vb.length < 4 || !vb[2] || !vb[3]) return;
+      items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
+    });
+    if (!items.length) return;
+    var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+    items.forEach(function (it) {
+      it.svg.style.width = (it.vbW * scale) + 'px';
+      it.svg.style.height = (it.vbH * scale) + 'px';
+      it.svg.style.maxWidth = 'none';
+      it.svg.style.display = 'block';
+      it.svg.style.margin = '0 auto';
+    });
+  })();
+</script>
+</body>
+</html>
