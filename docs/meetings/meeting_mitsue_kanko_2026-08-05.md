@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-07-17 -->
+<!-- Version: v1.7 | Last modified: 2026-08-02 -->
 
 # Mitsue-Kanko (Forest Co-op) Meeting — 5 Aug 2026
 ## Question list (Phase 0–1 only)
@@ -74,6 +74,13 @@ Context: the CHP biomass fuel demand and the AI-data-center mission are the "pul
 ## Precedent to cite: Tenkawa × more trees
 
 Tenkawa Village + Dorogawa Property Ward (洞川財産区) signed a formal cooperation agreement with more trees on 2021-06-07 (Sakamoto Ryuichi himself), still active through 2025 — Kii Peninsula's first more trees village agreement. ~6 ha of clear-cut former ski-resort land replanted with native broadleaf (キハダ), 3,000+ trees over 3 years, funded by rotating corporate sponsors (UGG/Deckers Japan, 三井住友カード, 三井住友銀行, 株式会社ウォーターネット via the GFP carbon-offset scheme). Useful as concrete proof that this exact co-op-plants/NGO-funds model already works in a comparable Nara mountain village — worth mentioning if the co-op is skeptical of the arrangement.
+
+---
+
+## Follow-up / next steps (after the meeting)
+
+- If Kinjo agrees: fill in the Nara Forester Academy (奈良県フォレスターアカデミー) form, including Dome's reply/endorsement for the seminar request.
+- Ask Kinjo whether she's willing to help with the NAIST presentation.
 
 ---
 

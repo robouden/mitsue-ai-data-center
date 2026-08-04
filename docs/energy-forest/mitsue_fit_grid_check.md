@@ -1,4 +1,4 @@
-<!-- Version: v0.5 | Last modified: 2026-07-17 -->
+<!-- Version: v0.8 | Last modified: 2026-08-04 -->
 
 # FIT / FIP & Grid-Connection Check — Mitsue Kanko Working Site
 
@@ -118,10 +118,39 @@ Magnitudes matter: plant ~1.15 MWe / ~8,000 MWh/yr, sized to the **forest**, not
   available 空き容量, and any reinforcement cost/lead-time (can be multi-year if the local
   bank is full — the exact risk Henry flagged).
 
+### ✅ Serving substations — pinned (2026-08-03)
+From Kansai T&D's public 154kV-未満 mapping (`kansai_td_nara_grid_map_2026-07-29.pdf`, 2 pages)
++ 空き容量一覧 (`154kv_less_space.pdf`, 36pp, both dated 2026-07-29/31): 御杖村 sits at the far
+end of a 22kV loop off the **奈AD hub** (Tenri/Sakurai side) via 大野(室生)→赤瀬→**室生→長野→掛**
+(奈CL→CM→CN→CO→CP, lines 奈96 東宇陀線 / 奈97 南宇陀線). **掛 (奈CP)** and **長野 (奈CO)** are the
+substations physically closest to 御杖村/神末. See crop: `kansai_td_mitsue_area_grid_crop.png`.
+
+**Capacity — bad news, confirms Henry's warning:** every substation on this loop shows **0 MW
+available once the upstream network (上位系) is considered**, even where the local transformer
+itself has a few MW nameplate headroom:
+
+| 変電所 | 電圧 | 設備容量(MW) | 空容量 当該設備 | 空容量 上位系考慮 |
+|---|---|---|---|---|
+| 大野 (室生, 奈CL) | 22/6.6kV | 2 | 0 | **0** |
+| 赤瀬 (奈CM) | 22/6.6kV | 2 | 1 | **0** |
+| 室生 (奈CN) | 22/6.6kV | 2 | 2 | **0** |
+| 長野 (奈CO) | 22/6.6kV | 2 | 2 | **0** |
+| 掛 (奈CP, closest to 御杖村) | 22/6.6kV | 5 | 3 | **0** |
+| 榛原 (奈AE, 77/22kV) | — | 42 | ー (予想潮流 **-20**, already over) | N-1電制不可 |
+| 大宇陀 (奈AC, 22/6.6kV) | — | 11 | 0 | 0 |
+
+➡️ **The whole eastern Uda→Soni→Mitsue 22kV branch is already saturated** (likely prior solar
+interconnections, matching Henry's "solar ate the capacity" warning). A 1.2 MW export at 神末
+will almost certainly need either (a) grid reinforcement (cost/lead-time TBD via 事前相談,
+plausibly multi-year) or (b) a **ノンファーム型接続** (non-firm connection — allowed without
+reinforcement, but subject to curtailment at congestion times, which cuts into FIP revenue
+unpredictably). This raises the value of the on-site DC load (Node 1, §1) — every kWh consumed
+behind-the-meter is a kWh that doesn't need this constrained export path.
+
 ### What we still need (open items)
-1. Identify the **配電用変電所 serving 神末797** from the Nara mapping PDF (not yet pinned;
-   candidates are the Haibara / Nabari-side feeders — confirm).
-2. File the **事前相談** for the site → get real 空き容量 + reinforcement cost/time.
+1. ~~Identify the 配電用変電所 serving 神末797~~ — **done above.**
+2. File the **事前相談** for the site → get real 空き容量 + reinforcement cost/time, and ask
+   specifically about ノンファーム接続 terms for this feeder.
 3. ≥1,000 kW = **FIP-only** — **confirmed** (資源エネルギー庁 santeii materials). Still worth
    pinning to the primary 調達価格等算定委員会 PDF (`santeii/pdf/101_02_00.pdf`) for the file.
 4. **★ Get FIP economics** — the plant's revenue now rides on FIP: what is the FY2026 biomass FIP
@@ -148,20 +177,73 @@ school's fiber build. Logged as **Phase-4 bucket F4** in `mitsue_evm_plan.md` §
 **TBD-pending-feasibility** (same status as F3, the thermal store), rather than guessing
 a number now.
 
+### ✅ NTT flets — CONFIRMED unavailable at 神末797 (2026-08-04)
+Rob ran the NTT West flets-w.com/cart area checker directly for 〒633-1301 奈良県宇陀郡御杖村
+大字神末797: result = **「未提供エリアです」(not a service-provided area) — フレッツ光を
+ご利用いただけません.** This is a definitive negative, not an estimate. Since 御杖村's
+village-wide FTTH coverage is 95% (below) but NTT's own network doesn't reach this address,
+**Komadori Cable must be running independent fiber plant, not reselling NTT's.** NTT direct is
+now ruled out for 神末797 — Komadori is the only remaining fiber candidate to confirm (call
+them directly for this exact address, their web servicearea pages 404 for outside lookups). If
+Komadori also comes back negative, the realistic options narrow to **Starlink as primary** or
+an NTT dedicated-line/新設 build (likely a worse lead-time than the school's 6–9mo, since this
+address is confirmed outside their standard footprint).
+
+### FTTH coverage rate — village-wide, sourced (2026-08-03)
+No public NTT fiber-route map exists (unlike Kansai T&D's grid map — telecom route maps aren't
+published; only an address-by-address availability checker is). But 総務省's per-municipality
+FTTH household coverage dataset (令和5年度末, i.e. as of 2024-03) gives a real number:
+**御杖村 = 95% FTTH household coverage.** Better news than the Komadori price-list ambiguity
+alone suggested — though it's village-wide household coverage, not confirmed for 神末797
+specifically or for business-grade service. Source: 総務省 `main_content/001026064.xlsx`
+("令和５年度末ＦＴＴＨ世帯カバー率（市区町村別）"), https://www.soumu.go.jp/main_sosiki/joho_tsusin/broadband/index.html.
+Next step unchanged: run 神末797's exact address through NTT West's checker (flets-w.com/cart).
+
+### First-pass desk check (2026-08-03)
+- **Village ISP is not NTT — it's こまどりケーブル (Komadori Cable)**, a 3rd-sector CATV company
+  (shareholders: KCN/近鉄ケーブルネットワーク as parent, 奈良県, and 16 municipalities incl.
+  御杖村) serving NE + southern Nara. 御杖村 is a listed service area. Residential-grade plans:
+  **光1G (¥6,050/mo, ~1 Gbps FTTH)**, 光100Mプレミアム (¥4,950/mo), and a **legacy コアキシャル
+  Kブロード 1Mbps tier still on the price list** — the coax tier's survival implies FTTH may not
+  yet reach every hamlet. **No business/dedicated-line/static-IP tier is publicly listed** — this
+  is a consumer CATV ISP, not an enterprise carrier.
+- **神末797 specifically — unconfirmed.** Komadori's public site doesn't break out coverage by
+  chiku/hamlet; whether 牛峠工場 itself is on their FTTH footprint or still coax-only needs a
+  direct call to Komadori (0745-xx, via their servicearea/mitsue page) or NTT West's area
+  checker (flets-w.com/cart, or ☎0120-116-116) for the exact address.
+- **NTT flets availability at 神末797 — not found via public search**; must query NTT West's
+  area tool directly by address (can't infer from web).
+- **★ Satellite (Starlink) — the strongest lead for a remote/CHP site.** Independent of local
+  telco buildout and rural-grid fragility already documented in §2; SpaceX now offers a
+  Business/Priority tier (higher-throughput, ~100–220+ Mbps, low latency) sized for exactly this
+  kind of unmanned or lightly-staffed remote industrial site. Worth pricing as **primary or hot
+  backup** ahead of chasing NTT leased-line/dark-fiber lead times.
+
 ### What we still need (open items)
-1. Current fiber/broadband reach at 神末797 — NTT consultation (same NTT engagement as
-   the school's 5.7, but a separate site survey).
-2. Leased-line vs dark-fiber options and indicative lead time (the school's 5.7 saw a
-   6–9 month NTT lead time — 神末 may be longer given remoteness).
-3. Microwave/wireless backup link feasibility, given the site already needs a resilient
-   comms path for remote CHP monitoring, not just compute traffic.
-4. Bandwidth requirement driven by the anchor compute's actual workload (training vs
-   inference vs hosting) — not yet sized, since the GPU cluster spec itself is still
-   demand-led (`mitsue_evm_plan.md` §14, GPUs + DC fit-out).
-5. Cost this alongside the grid **事前相談** already underway for 神末 (§2) — two
-   separate utility surveys for the same site, worth scheduling together.
+1. Confirm FTTH vs coax at 神末797 specifically (call Komadori + NTT West area checker).
+2. If FTTH doesn't reach it: leased-line vs dark-fiber cost/lead-time from NTT (school's 5.7 saw
+   6–9 months; 神末 likely longer, more remote) vs. **Starlink Business as a faster-to-deploy
+   alternative** — price both.
+3. Microwave/wireless backup link feasibility — mountainous terrain, line-of-sight to a relay
+   tower unassessed; the site needs a resilient comms path for remote CHP monitoring regardless
+   of compute traffic.
+4. Bandwidth requirement driven by the anchor compute's actual workload (training vs inference
+   vs hosting) — not yet sized, GPU cluster spec still demand-led (`mitsue_evm_plan.md` §14).
+   ⚠️ Do NOT assume the Koryukan/village-center node (Node 2) has better connectivity than 神末
+   just because it's more central — unverified (2026-08-03). No published Wi-Fi/fiber data for
+   the Koryukan itself; `mitsue_wbs.md` §5.7 already budgets ¥10M / 6–9mo NTT fiber build there,
+   implying the PMB's own working assumption is it does NOT yet have an adequate pipe either.
+   Confirm both addresses (Komadori + NTT West area checker) before routing workloads by node.
+5. Cost this alongside the grid **事前相談** already underway for 神末 (§2) — two separate
+   utility surveys for the same site, worth scheduling together.
 
 ---
+
+## Sources (connectivity, added 2026-08-03)
+- こまどりケーブル 提供サービス — https://komadori.ne.jp/service/internet/
+- こまどりケーブル 御杖村サービスエリア — https://www.komadori.ne.jp/servicearea/mitsue/mitsue_price.html
+- こまどりケーブル会社概要 (Wikipedia) — https://ja.wikipedia.org/wiki/こまどりケーブル
+- NTT西日本 フレッツ光 エリア確認 — https://flets-w.com/cart/
 
 ## Sources
 - 2026年度以降の買取価格等 (METI press, 2026-03-19) — https://www.meti.go.jp/press/2025/03/20260319004/20260319004.html
