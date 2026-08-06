@@ -1,3 +1,4 @@
+<!-- Version: v1.1 | Last modified: 2026-08-06 (added WBS 5.6a prototype CHP/chipper gap flag) -->
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
@@ -116,11 +117,22 @@ The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (
 | 5.4 | EV charging infrastructure (4 stations) | ¥15.0M | P3 |
 | 5.5 | Data center fitout (10–20 servers) | ¥20.0M | P3 |
 | 5.6 | Forestry operations (5–10 ha harvest + replant) | ¥25.0M | P3 |
+| 5.6a | ⚠️ Prototype CHP + fuel chipper (10–20 kWe, Sugano site) — **NOT YET IN THE ¥25.0M ABOVE, pending vendor RFQ** | *placeholder ¥7–13M* | P3 |
 | 5.7 | Fiber connectivity upgrade | ¥10.0M | P3 |
 | 5.8 | Testing, commissioning, and startup | ¥8.0M | P3 |
 | 5.9 | Phase 3 contingency (18%) | ¥27.0M | P3 |
-| | *Sub-total 5.0* | *¥177.0M* | |
-| | **TOTAL BAC** | **¥220.0M** | |
+| | *Sub-total 5.0 (excl. 5.6a placeholder)* | *¥177.0M* | |
+| | **TOTAL BAC (excl. 5.6a placeholder)** | **¥220.0M** | |
+
+> **5.6a is a gap, not a committed cost.** The Sugano prototype CHP + chipper (see
+> `mitsue_chp_maker_shortlist.md`) was **sited** 2026-07-17 but never costed into any WBS —
+> it falls outside Phase 4's commercial-scale table (§14, sized for the 2×0.6 MWe fleet,
+> not the 10–20 kWe pilot). The ¥7–13M placeholder = domestic 巴商会 Stirling unit or
+> import-exception micro-gasifier (~¥6–7.5M, unconfirmed) + a small chipper (¥0.4–3M, see
+> `mitsue_email_fujitex_chipper_rfq.md` / `mitsue_chipper_rfq_form_drafts.md`). **Not summed
+> into Sub-total 5.0 or the ¥220M BAC yet** — do it once the RFQs return real quotes, then
+> decide whether it raises the BAC or is absorbed by the existing ¥27M Phase 3 contingency /
+> ¥25M Management Reserve.
 
 ---
 

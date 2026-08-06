@@ -1,3 +1,4 @@
+<!-- Version: v1.1 | Last modified: 2026-08-06 (added WBS 5.6a prototype CHP/chipper gap flag) -->
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
@@ -115,11 +116,21 @@
 | 5.4 | EV充電インフラ（4基） | ¥15.0M | P3 |
 | 5.5 | データセンター設備（サーバー10〜20台） | ¥20.0M | P3 |
 | 5.6 | 林業作業（5〜10ha伐採・植替） | ¥25.0M | P3 |
+| 5.6a | ⚠️ 実証機CHP＋燃料チッパー（10〜20 kWe、菅野サイト）— **上記¥25.0Mに未計上、ベンダー見積り待ち** | *仮置き ¥7〜13M* | P3 |
 | 5.7 | 光ファイバー接続強化 | ¥10.0M | P3 |
 | 5.8 | 試験・調整・稼働開始 | ¥8.0M | P3 |
 | 5.9 | フェーズ3予備費（18%） | ¥27.0M | P3 |
-| | *小計 5.0* | *¥177.0M* | |
-| | **合計 BAC** | **¥220.0M** | |
+| | *小計 5.0（5.6a仮置きを除く）* | *¥177.0M* | |
+| | **合計 BAC（5.6a仮置きを除く）** | **¥220.0M** | |
+
+> **5.6aは未確定のギャップであり、確定コストではありません。** 菅野の実証機CHP＋チッパー
+> （`mitsue_chp_maker_shortlist.md`参照）は2026-07-17に設置場所が決定しましたが、
+> どのWBSにも未計上です。フェーズ4の商用規模テーブル（§14、2×0.6 MWeフリート向け）
+> にも含まれません。¥7〜13Mの仮置きは、国産巴商会スターリングユニットまたは輸入
+> 例外的マイクロガス化装置（~¥6〜7.5M、未確認）＋小型チッパー（¥0.4〜3M、
+> `mitsue_email_fujitex_chipper_rfq.md` / `mitsue_chipper_rfq_form_drafts.md`参照）の合計。
+> **小計5.0や¥220M BACには未算入** — RFQから実見積りが戻り次第計上し、BACを引き上げるか
+> 既存のフェーズ3予備費¥27M／マネジメント予備費¥25Mで吸収するかを判断すること。
 
 ---
 

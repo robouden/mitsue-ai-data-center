@@ -16,8 +16,8 @@
 
 **How they work:**
 
-- [ ] Can you tell us more about what your team normally does day to day? What kind of projects do you usually work on?
-- [ ] When a project like ours comes to you, what's the typical process from here — what are the usual next steps?
+- [x] Can you tell us more about what your team normally does day to day? What kind of projects do you usually work on?
+- [x] When a project like ours comes to you, what's the typical process from here — what are the usual next steps?
 - [ ] How does your team make decisions internally — is it just the two of you, or does this go through others at Mizuho before you can commit to anything?
 - [ ] At what point would this move from "getting to know the project" to something more formal, like an internal proposal or mandate on your side?
 
@@ -32,3 +32,38 @@
 ## Notes during meeting
 
 (space for answers / follow-ups)
+
+
+
+Reply to Nao-san and 
+
+- List of trees replanting. Check Moretrees.
+
+- Information about current busnis structure
+
+- before forest/after forest trees amount area converted
+
+- Students impact send screenshot app
+
+- ![image-20260805122458590](/home/rob/.config/Typora/typora-user-images/image-20260805122458590.png)
+
+- ![image-20260805122526757](/home/rob/.config/Typora/typora-user-images/image-20260805122526757.png)
+
+- Safecast info at https://safecast.org
+
+- haiku present
+
+- Ryokichi Hirono  https://www.apic.or.jp/english/projects/interview015-eng.html
+
+  
+
+- ![image-20260805121915096](/home/rob/.config/Typora/typora-user-images/image-20260805121915096.png)
+
+
+
+
+
+
+
+
+
