@@ -71,7 +71,7 @@
       <h1>御杖AIデータセンター - 組織・資金・労務体制概要</h1>
       <div class="sub">御杖観光ミーティング用ディスカッション草案</div>
     </div>
-    <div class="meta">作業中草案 &middot; 2026-08-01</div>
+    <div class="meta">作業中草案 &middot; v1.1 &middot; 2026-08-08</div>
   </div>
 
   <div class="toprow">
@@ -101,11 +101,11 @@ graph TD
     MORETREES["more trees (NGO)"]
 
     VILLAGE -.->|土地 許可 意向表明書| GK
-    VILLAGE -->|地域連携| NGO
+    VILLAGE -->|地域連携| MORETREES
+    MORETREES -->|NGOに代わり村と連携| NGO
     NGO -->|過半数出資| GK
     GK -.->|運営余剰 - 植林循環| NGO
-    NGO -.->|樹種パートナー - 未確定| MORETREES
-    NGO -.->|初期協議 - MOU未締結| COOP
+    NGO -.->|森林組合と連携 - MOU未締結| COOP
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
     classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
@@ -172,7 +172,7 @@ graph TD
     MORETREES["more trees - 植林手法の専門知識"]
     GK["運営会社 - CHP+DC運営"]
     VILLAGE["村役場 - 許可・土地・連携"]
-    ADVISORS["顧問: Dome、Takata、<br/>Ozzie、Poisson、Linklaters"]
+    ADVISORS["顧問: Dome、Takata、<br/>Ozzie、Poisson、法務・無償(Linklaters、TMI、堀田)"]
     NAIST["NAIST (塩崎・久保/CDG)"]
     SUGANO["菅野オーガニック (青見徳雄)"]
 
@@ -223,7 +223,7 @@ graph LR
         MIZUHO["みずほ証券"]
         SUGANO["菅野オーガニック"]
         CORP["企業パートナー<br/>未確定"]
-        LINKLATERS["リンクレーターズ<br/>(法律)"]
+        LEGAL["法務アドバイザー - 無償<br/>リンクレーターズ、TMI、堀田"]
     end
     subgraph Academia["学術機関"]
         direction TB
@@ -233,15 +233,17 @@ graph LR
     NATIONAL -->|補助金| NGO
     NATIONAL -->|補助金 村経由| GK
     VILLAGE -->|土地 許可| GK
+    VILLAGE -->|連携| MORETREES
+    MORETREES -->|村と連携 樹種パートナー| NGO
     NARA -.->|土地利用許可| GK
     NGO -->|過半数出資| GK
+    NGO -.->|森林組合と連携| COOP
     GK -.->|燃料契約 - 未確定| COOP
-    NGO -.->|樹種パートナー - 未確定| MORETREES
     FOUND -->|助成金| NGO
     MIZUHO -.->|資金調達 - 未定| GK
     CORP -.->|CSR - 未確定| NGO
     SUGANO -.->|試験地 - 検討中| GK
-    LINKLATERS -.->|法律助言 - 非公式| NGO
+    LEGAL -.->|法律助言 - 無償協力確定| NGO
     NAIST -.->|リビングラボ - フェーズ0| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
@@ -251,7 +253,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
 </pre>

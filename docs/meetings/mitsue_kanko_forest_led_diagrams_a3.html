@@ -76,12 +76,12 @@
       <h1>Mitsue AI Data Center - Forest-Team-Led Model (Alternative)</h1>
       <div class="sub">Discussion draft - Mitsue Kanko as the operational hub for logging, replanting &amp; processing</div>
     </div>
-    <div class="meta">Working draft &middot; 2026-08-01</div>
+    <div class="meta">Working draft &middot; v1.1 &middot; 2026-08-08</div>
   </div>
 
   <div class="toprow">
     <div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign.</div>
-    <div class="compare"><b>What's different:</b> Mitsue Kanko (8 crew) coordinates directly with Village Hall, more trees &amp; NAIST - not brokered through the NGO. NGO narrows to a legal/financing wrapper.</div>
+    <div class="compare"><b>What's different:</b> Mitsue Kanko (8 crew) leads execution. Village Hall &harr; more trees &harr; NGO handles formal liaison; NGO delegates day-to-day coordination to Mitsue Kanko. NAIST stays direct.</div>
     <div class="legend">
       <span><span class="sw" style="background:#2b6cb0"></span>Gov</span>
       <span><span class="sw" style="background:#276749"></span>NGO</span>
@@ -96,7 +96,7 @@
 
     <div class="cell d1">
       <h2>1. Forest Team as Coordination Hub</h2>
-      <div class="h2sub">Mitsue Kanko (8 crew) leads and coordinates directly</div>
+      <div class="h2sub">Mitsue Kanko (8 crew) leads execution; more trees liaises Village Hall &harr; NGO</div>
       <div class="diagram">
 <pre class="mermaid">
 graph TD
@@ -107,11 +107,11 @@ graph TD
     GK["Operating Co (GK/KK)<br/>CHP + AI Data Center"]
     NGO["一般社団法人 NGO<br/>legal / IP / financing wrapper only"]
 
-    VILLAGE <-->|land, permits, forest-mgmt coordination| COOP
-    MORETREES <-->|species choice, replanting method - direct| COOP
+    VILLAGE <-->|land, permits, liaison| MORETREES
+    MORETREES <-->|species, replanting method, liaises with village| NGO
+    NGO <-->|forest-mgmt coordination, delegates ops| COOP
     NAIST <-->|logging and processing research, methods| COOP
     COOP -->|organizes fuel-wood supply| GK
-    COOP -.->|status reports - minimal oversight| NGO
     NGO -.->|majority owner, legal/financing wrapper| GK
 
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -142,11 +142,11 @@ graph TD
     NGO["NGO - legal/IP wrapper, light oversight only"]
 
     COOP -->|decides and executes: plant, tend, harvest, chip, dry, process| GK
-    VILLAGE -->|coordinates land use and permits directly with| COOP
-    MORETREES -->|advises replanting method directly to| COOP
+    VILLAGE -->|liaises with| MORETREES
+    MORETREES -->|liaises with village, advises NGO| NGO
+    NGO -->|coordinates land use, permits with| COOP
     NAIST -->|shares logging/processing research directly with| COOP
     GK -->|CHP heat/power + DC hosting| VILLAGE
-    COOP -.->|periodic reporting only| NGO
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -205,7 +205,7 @@ graph TD
 
     <div class="cell d4">
       <h2>4. Overall Stakeholder Network - Forest-Led</h2>
-      <div class="h2sub">Mitsue Kanko as hub, connected directly to Village Hall, more trees, NAIST</div>
+      <div class="h2sub">Village Hall &harr; more trees &harr; NGO liaison chain; NGO coordinates Mitsue Kanko, NAIST stays direct</div>
       <div class="diagram">
 <pre class="mermaid">
 %%{init: {'flowchart': {'nodeSpacing': 6, 'rankSpacing': 22, 'padding': 3, 'useMaxWidth': false}}}%%
@@ -232,18 +232,18 @@ graph LR
         MIZUHO["Mizuho Securities"]
         SUGANO["Sugano Organic"]
         CORP["Corporate partners<br/>unconfirmed"]
-        LINKLATERS["Linklaters<br/>legal"]
+        LEGAL["Legal (pro bono)<br/>Linklaters, TMI, Hotta"]
     end
     subgraph Academia["ACADEMIA"]
         direction TB
         NAIST["NAIST"]
     end
 
-    VILLAGE -->|land, permits, forest coordination - direct| COOP
-    MORETREES -->|species, replanting method - direct| COOP
+    VILLAGE -->|liaison| MORETREES
+    MORETREES -->|liaison, species/method| NGO
+    NGO -->|coordinates, delegates ops| COOP
     NAIST -->|logging/processing research - direct| COOP
     COOP -->|fuel-wood supply| GK
-    COOP -.->|status reports - minimal| NGO
     NATIONAL -->|subsidies, via village| GK
     NATIONAL -.->|equipment grants - direct| COOP
     NARA -.->|land-use permits| GK
@@ -252,7 +252,7 @@ graph LR
     MIZUHO -.->|financing - undecided| GK
     CORP -.->|CSR - unconfirmed| NGO
     SUGANO -.->|pilot site - exploratory| GK
-    LINKLATERS -.->|legal advice - informal| NGO
+    LEGAL -.->|pro bono legal advice| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
     classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
@@ -261,7 +261,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
 </pre>

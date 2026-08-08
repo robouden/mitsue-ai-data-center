@@ -76,12 +76,12 @@
       <h1>御杖AIデータセンター - 森林チーム主導モデル（代替案）</h1>
       <div class="sub">ディスカッション草案 - 伐採・植林・加工の運営拠点としての御杖観光</div>
     </div>
-    <div class="meta">作業中草案 &middot; 2026-08-01</div>
+    <div class="meta">作業中草案 &middot; v1.1 &middot; 2026-08-08</div>
   </div>
 
   <div class="toprow">
     <div class="banner"><b>非常に初期段階の草案 - 概念のみ。</b> ここに記載の内容は何も決定・合意されていません。署名を前提とした提案ではなく、議論の出発点です。</div>
-    <div class="compare"><b>従来案との違い：</b> 御杖観光（8名）が村役場・more trees・NAISTと直接連携し、NGOを介さない。NGOの役割は法務・財務のラッパーに縮小。</div>
+    <div class="compare"><b>従来案との違い：</b> 御杖観光（8名）が現場の実務を主導。正式な連携は 村役場 &harr; more trees &harr; NGO の順で流れ、NGOが日常調整を御杖観光に委任する。NAISTとの連携は直接のまま。</div>
     <div class="legend">
       <span><span class="sw" style="background:#2b6cb0"></span>政府</span>
       <span><span class="sw" style="background:#276749"></span>NGO</span>
@@ -96,7 +96,7 @@
 
     <div class="cell d1">
       <h2>1. 調整拠点としての森林チーム</h2>
-      <div class="h2sub">御杖観光（8名）が直接主導・調整</div>
+      <div class="h2sub">御杖観光（8名）が実務主導、more trees が村役場↔NGOを連携</div>
       <div class="diagram">
 <pre class="mermaid">
 graph TD
@@ -107,11 +107,11 @@ graph TD
     GK["運営会社(GK/KK)<br/>CHP + AIデータセンター"]
     NGO["一般社団法人 NGO<br/>法務/IP/財務のラッパーのみ"]
 
-    VILLAGE <-->|土地 許可 森林管理調整| COOP
-    MORETREES <-->|樹種選定 植林手法 - 直接| COOP
+    VILLAGE <-->|土地 許可 連携| MORETREES
+    MORETREES <-->|樹種選定 植林手法 村と連携| NGO
+    NGO <-->|森林管理調整 実務を委任| COOP
     NAIST <-->|伐採 加工の研究 手法| COOP
     COOP -->|燃料材供給を組織| GK
-    COOP -.->|状況報告 - 最小限の監督| NGO
     NGO -.->|過半数出資 法務/財務ラッパー| GK
 
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -142,11 +142,11 @@ graph TD
     NGO["NGO - 法務/IPラッパー、軽微な監督のみ"]
 
     COOP -->|決定 実行: 植林 保育 伐採 チップ化 乾燥 加工| GK
-    VILLAGE -->|土地利用 許可を直接調整| COOP
-    MORETREES -->|植林手法を直接助言| COOP
+    VILLAGE -->|連携| MORETREES
+    MORETREES -->|村と連携 NGOへ助言| NGO
+    NGO -->|土地利用 許可を調整| COOP
     NAIST -->|伐採/加工研究を直接共有| COOP
     GK -->|CHP熱/電力 + DCホスティング| VILLAGE
-    COOP -.->|定期報告のみ| NGO
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -205,7 +205,7 @@ graph TD
 
     <div class="cell d4">
       <h2>4. ステークホルダー全体図 - 森林主導</h2>
-      <div class="h2sub">御杖観光を拠点に、村役場・more trees・NAISTと直結</div>
+      <div class="h2sub">村役場↔more trees↔NGOが正式連携、NGOが御杖観光を調整、NAISTは直結のまま</div>
       <div class="diagram">
 <pre class="mermaid">
 %%{init: {'flowchart': {'nodeSpacing': 6, 'rankSpacing': 22, 'padding': 3, 'useMaxWidth': false}}}%%
@@ -232,18 +232,18 @@ graph LR
         MIZUHO["みずほ証券"]
         SUGANO["菅野オーガニック"]
         CORP["企業パートナー<br/>未確定"]
-        LINKLATERS["リンクレーターズ<br/>法律"]
+        LEGAL["法務アドバイザー - 無償<br/>リンクレーターズ、TMI、堀田"]
     end
     subgraph Academia["学術機関"]
         direction TB
         NAIST["NAIST"]
     end
 
-    VILLAGE -->|土地 許可 森林調整 - 直接| COOP
-    MORETREES -->|樹種 植林手法 - 直接| COOP
+    VILLAGE -->|連携| MORETREES
+    MORETREES -->|村と連携 樹種/手法| NGO
+    NGO -->|森林調整 実務を委任| COOP
     NAIST -->|伐採/加工研究 - 直接| COOP
     COOP -->|燃料材供給| GK
-    COOP -.->|状況報告 - 最小限| NGO
     NATIONAL -->|補助金 村経由| GK
     NATIONAL -.->|設備助成 - 直接| COOP
     NARA -.->|土地利用許可| GK
@@ -252,7 +252,7 @@ graph LR
     MIZUHO -.->|資金調達 - 未定| GK
     CORP -.->|CSR - 未確定| NGO
     SUGANO -.->|試験地 - 検討中| GK
-    LINKLATERS -.->|法律助言 - 非公式| NGO
+    LEGAL -.->|法律助言 - 無償協力確定| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
     classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
@@ -261,7 +261,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
 </pre>
