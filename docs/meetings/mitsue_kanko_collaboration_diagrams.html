@@ -193,11 +193,11 @@ graph TD
     MORETREES["more trees (NGO)"]
 
     VILLAGE -.->|land lease candidate, permits, letter of interest| GK
-    VILLAGE -->|community liaison| NGO
+    VILLAGE -->|community liaison| MORETREES
+    MORETREES -->|liaises with village on NGO's behalf| NGO
     NGO -->|majority owns| GK
     GK -.->|operating surplus - harvest-funds-replant loop| NGO
-    NGO -.->|species selection partner - tentative| MORETREES
-    NGO -.->|early consultation, no MOU - tentative| COOP
+    NGO -.->|coordinates with forest group - early consultation, no MOU| COOP
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
     classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
@@ -260,7 +260,7 @@ graph TD
     MORETREES["more trees - replanting method expertise"]
     GK["Operating Co - runs CHP + DC"]
     VILLAGE["Village Gov - permits, land, liaison"]
-    ADVISORS["Advisors: Dome (economics), Takata (biomass biz-dev),<br/>Ozzie, Poisson (PM), Linklaters (legal)"]
+    ADVISORS["Advisors: Dome (economics), Takata (biomass biz-dev),<br/>Ozzie, Poisson (PM), legal pro bono (Linklaters, TMI-Nakano, Hotta)"]
     NAIST["NAIST (Shiozaki, Kubo/CDG)"]
     SUGANO["Sugano Organic (Tokuo Aomi)"]
 
@@ -309,7 +309,7 @@ graph LR
         MIZUHO["Mizuho Securities"]
         CORP["Corporate partners<br/>unconfirmed"]
         SUGANO["Sugano Organic"]
-        LINKLATERS["Linklaters<br/>(legal)"]
+        LEGAL["Legal advisors - pro bono<br/>Linklaters (Watanabe), TMI (Nakano), Hotta"]
     end
     subgraph Academia["ACADEMIA"]
         direction TB
@@ -318,16 +318,18 @@ graph LR
 
     NATIONAL -->|subsidies| NGO
     NATIONAL -->|subsidies, routed via village| GK
-    VILLAGE -->|land, permits, liaison| GK
+    VILLAGE -->|land, permits| GK
+    VILLAGE -->|liaison| MORETREES
+    MORETREES -->|liaises with village, species partner| NGO
     NARA -.->|land-use permits| GK
     NGO -->|majority owns, surplus flows back| GK
+    NGO -.->|coordinates with forest group| COOP
     GK -.->|fuel contracts - tentative| COOP
-    NGO -.->|species partner - tentative| MORETREES
     FOUND -->|grants| NGO
     MIZUHO -.->|financing - undecided structure| GK
     CORP -.->|CSR - unconfirmed| NGO
     SUGANO -.->|pilot site - exploratory| GK
-    LINKLATERS -.->|incorporation advice - no signed engagement| NGO
+    LEGAL -.->|incorporation advice - pro bono confirmed| NGO
     NAIST -.->|living lab - Phase 0| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
@@ -337,7 +339,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
 </pre>

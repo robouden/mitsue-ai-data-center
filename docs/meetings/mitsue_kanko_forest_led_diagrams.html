@@ -58,7 +58,7 @@
 
 <div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. This is a starting point for discussion, not a proposal to sign.</div>
 
-<div class="compare"><b>What's different from the NGO-centered version:</b> Mitsue Kanko (grown to 8 crew) sits at the center and coordinates directly with Village Hall, more trees, and NAIST to organize logging, processing, and replanting - instead of those relationships being brokered through the NGO. The NGO's role narrows to a legal/IP/financing wrapper in the background, not the operational coordinator.</div>
+<div class="compare"><b>What's different from the NGO-centered version:</b> Mitsue Kanko (grown to 8 crew) sits at the center and leads day-to-day logging, processing, and replanting work. Formal liaison still flows Village Hall &rarr; more trees &rarr; NGO &rarr; Mitsue Kanko, but the NGO delegates operational coordination to Mitsue Kanko rather than directing it closely. NAIST research support stays direct with Mitsue Kanko.</div>
 
 <div class="legend">
   <span><span class="sw" style="background:#2b6cb0"></span>Government</span>
@@ -70,7 +70,7 @@
 </div>
 
 <h2>1. Forest Team as Coordination Hub</h2>
-<div class="h2sub">Mitsue Kanko (8 crew) leads and coordinates directly - NGO moves to the background</div>
+<div class="h2sub">Mitsue Kanko (8 crew) leads forest execution; more trees liaises Village Hall &harr; NGO, NGO coordinates with Mitsue Kanko</div>
 <div class="diagram">
 <pre class="mermaid">
 graph TD
@@ -81,11 +81,11 @@ graph TD
     GK["Operating Co (GK/KK)<br/>CHP + AI Data Center"]
     NGO["一般社団法人 NGO<br/>legal / IP / financing wrapper only"]
 
-    VILLAGE <-->|land, permits, forest-mgmt coordination| COOP
-    MORETREES <-->|species choice, replanting method - direct| COOP
+    VILLAGE <-->|land, permits, liaison| MORETREES
+    MORETREES <-->|species choice, replanting method, liaises with village| NGO
+    NGO <-->|forest-mgmt coordination, delegates ops| COOP
     NAIST <-->|logging and processing research, methods| COOP
     COOP -->|organizes fuel-wood supply| GK
-    COOP -.->|status reports - minimal oversight| NGO
     NGO -.->|majority owner, legal/financing wrapper| GK
 
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -114,11 +114,11 @@ graph TD
     NGO["NGO - legal/IP wrapper, light oversight only"]
 
     COOP -->|decides and executes: plant, tend, harvest, chip, dry, process| GK
-    VILLAGE -->|coordinates land use and permits directly with| COOP
-    MORETREES -->|advises replanting method directly to| COOP
+    VILLAGE -->|liaises with| MORETREES
+    MORETREES -->|liaises with village, advises NGO on replanting method| NGO
+    NGO -->|coordinates land use, permits, forest-mgmt with| COOP
     NAIST -->|shares logging/processing research directly with| COOP
     GK -->|CHP heat/power + DC hosting| VILLAGE
-    COOP -.->|periodic reporting only| NGO
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:3px
@@ -173,7 +173,7 @@ graph TD
 </div>
 
 <h2>4. Overall Stakeholder Network - Forest-Led</h2>
-<div class="h2sub">Mitsue Kanko as hub, connected directly to Village Hall, more trees, NAIST and the Operating Co</div>
+<div class="h2sub">Mitsue Kanko leads forest execution; Village Hall &harr; more trees &harr; NGO handles the formal liaison chain, NAIST stays direct</div>
 <div class="diagram">
 <pre class="mermaid">
 graph LR
@@ -199,18 +199,18 @@ graph LR
         MIZUHO["Mizuho Securities"]
         SUGANO["Sugano Organic"]
         CORP["Corporate partners<br/>unconfirmed"]
-        LINKLATERS["Linklaters<br/>legal"]
+        LEGAL["Legal advisors - pro bono<br/>Linklaters, TMI, Hotta"]
     end
     subgraph Academia["ACADEMIA"]
         direction TB
         NAIST["NAIST"]
     end
 
-    VILLAGE -->|land, permits, forest coordination - direct| COOP
-    MORETREES -->|species, replanting method - direct| COOP
+    VILLAGE -->|liaison| MORETREES
+    MORETREES -->|liaises with village, species/method| NGO
+    NGO -->|forest coordination, delegates ops| COOP
     NAIST -->|logging/processing research - direct| COOP
     COOP -->|fuel-wood supply| GK
-    COOP -.->|status reports - minimal| NGO
     NATIONAL -->|subsidies, via village| GK
     NATIONAL -.->|equipment grants - direct| COOP
     NARA -.->|land-use permits| GK
@@ -219,7 +219,7 @@ graph LR
     MIZUHO -.->|financing - undecided| GK
     CORP -.->|CSR - unconfirmed| NGO
     SUGANO -.->|pilot site - exploratory| GK
-    LINKLATERS -.->|legal advice - informal| NGO
+    LEGAL -.->|legal advice - pro bono confirmed| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
     classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
@@ -228,7 +228,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LINKLATERS co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
 </pre>
@@ -238,9 +238,9 @@ graph LR
   <h2 style="margin-top:0;">Discussion points for the Mitsue Kanko meeting</h2>
   <ul>
     <li>Does 8 crew (up from ~3-4) match the pace Mitsue Kanko wants to grow at, and on what timeline?</li>
-    <li>If Mitsue Kanko coordinates directly with Village Hall, more trees, and NAIST, what does the NGO still need to approve vs. just be informed of?</li>
+    <li>With more trees liaising Village Hall &harr; NGO, and NGO coordinating with Mitsue Kanko, what does the NGO still need to approve day-to-day vs. delegate outright?</li>
     <li>Who owns the logging/processing schedule day-to-day - Mitsue Kanko alone, or jointly with the Operating Co?</li>
-    <li>Does more trees want a direct relationship with Mitsue Kanko, or does it still want NGO involvement on species/ecosystem decisions?</li>
+    <li>Does more trees want to advise species/ecosystem decisions through the NGO, or have any direct touchpoint with Mitsue Kanko as well?</li>
     <li>What would Mitsue Kanko want in writing (MOU, board seat, co-op membership) to formalize this more central role?</li>
   </ul>
 </div>

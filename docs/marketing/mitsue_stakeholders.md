@@ -51,6 +51,9 @@
 | Evin Zoet           | Co-Representative Director, Transom; confirmed 2026-06-16 |
 | Yoshiko Zoet-Suzuki | Co-Representative Director, Transom; confirmed 2026-06-16 |
 | Henry (Seiichi) Takata | Rep. Director, SynTech Japan; Japan Board, U.S.-Japan Council; former operator of a Mie-ken biomass plant. Biomass-CHP + biz-dev/funding advisor; confirmed 2026-07-16 |
+| Takahisa Watanabe | Managing Associate, Linklaters Tokyo; pro bono legal advisor on entity structure; confirmed pro bono support 2026-07-24 |
+| Yuji Nakano | Attorney, TMI Associates (tmi.gr.jp); pro bono legal advisor on entity structure (NPO/一般社団法人 comparison); confirmed pro bono support, engaged since 2026-06-09 |
+| Sotaro Hotta | Attorney, believed Nishimura & Asahi (via nishimura.zoom.us); pro bono legal advisor, met 2026-07-08; confirmed pro bono support |
 
 ### Local Stakeholders
 | Name                              | Role                                               |
@@ -120,7 +123,7 @@
 | -------------------------------------- | -------------------------------------------- |
 | 行政書士 (Administrative Scrivener)    | Phase 0–1; permits, NPO setup, grants        |
 | 公認会計士 / 税理士 (Accountant / Tax) | Phase 1; accounting system, tax registration |
-| 弁護士 (Lawyer)                        | Phase 1–2; landowner contracts               |
+| 弁護士 (Lawyer)                        | Phase 1–2; landowner contracts (Watanabe/Linklaters, Nakano, Hotta all confirmed pro bono for entity-structure advice — see Advisors) |
 
 ---
 

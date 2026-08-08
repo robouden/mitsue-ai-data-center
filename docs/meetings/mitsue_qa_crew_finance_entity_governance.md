@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-07-11 -->
+<!-- Version: v1.4 | Last modified: 2026-08-07 -->
 
 # BIOMASS ENERGY & AI — Q&A: Crew, Financial Model, Entity Structure, Governance
 
@@ -75,7 +75,7 @@ The "social enterprise with capped/rededicated profit written into the articles"
 
 ## 4. How is Mitsue Kanko governed, and what's the future relationship? Who holds decision power? Does the plan assume their full agreement? Should the project plan be formulated autonomously?
 
-**Governance of Mitsue Kanko itself:** a member-owned 森林組合 under the Forestry Cooperative Act — forest-owning members (組合員) hold shares (出資金, ¥31.3M capital), elect a board (理事会) led by a representative director (代表理事組合長 — one source names Tanaka Toshihiro, unconfirmed on the public registry), with a general meeting of members as the top decision body. It belongs to the 奈良県森林組合連合会 (prefectural federation). Financials aren't public — a structural blind spot, not something either party is missing.
+**Governance of Mitsue Kanko itself:** a member-owned 森林組合 under the Forestry Cooperative Act — forest-owning members (組合員) hold shares (出資金, ¥31.3M capital), elect a board (理事会) led by a representative director (代表理事組合長 — **植山勝彦 (Ueyama Katsuhiko)**, verified via a village committee roster and the 合法木材供給事業者認定 registry, in the role since ~Jan 2025 (succeeding 古谷善輝). Kinjo Rie, the project's day-to-day meeting contact, holds an as-yet-unconfirmed different title, not this one), with a general meeting of members as the top decision body. It belongs to the 奈良県森林組合連合会 (prefectural federation). Financials aren't public — a structural blind spot, not something either party is missing.
 
 **Relationship to the project entity:** currently informal. The stakeholders doc lists "Local Forestry Group" as an **"Early consultation partner (met early 2026)"** — not a signed MOU, not a board seat, not a formal agreement. Mitsue Kanko is separately envisioned as the **sole operator** of planting/tending work.
 
