@@ -1,4 +1,4 @@
-<!-- Version: v0.8 | Last modified: 2026-08-04 -->
+<!-- Version: v0.9 | Last modified: 2026-08-09 -->
 
 # FIT / FIP & Grid-Connection Check — Mitsue Kanko Working Site
 
@@ -147,10 +147,34 @@ reinforcement, but subject to curtailment at congestion times, which cuts into F
 unpredictably). This raises the value of the on-site DC load (Node 1, §1) — every kWh consumed
 behind-the-meter is a kWh that doesn't need this constrained export path.
 
+### ✅ 事前相談 — how to file (2026-08-09)
+- **Application portal:** https://www.kansai-td.co.jp/application/preliminary-consultation/index.html
+  — download the Excel form (PDF no longer accepted as of 2025-12-16), fill it in, attach a
+  location map, and submit to the **ネットワークサービスセンター** (☎ 06-7501-0695,
+  Mon–Fri 9:00–12:00/13:00–17:00). **No fee. Reply within ~1 month.**
+- **Two form variants** — 高圧 (6.6kV, `application-prior-consultation-6-6.xlsx`) vs 特別高圧
+  (22–77kV, `application-prior-consultation.xlsx`). The form's own logic recommends voltage by
+  capacity: **<2,000kW → 6.6kV** — so our ~1,150kW plant defaults to the **高圧 (6.6kV) form**,
+  though a free-text override field (希望受電電圧, non-standard) lets us explicitly request 22kV
+  instead, given the 6.6kV-side saturation found above.
+- **Draft started:** `kansai_td_prior_consultation_DRAFT_2026-08-09.xlsx` (this folder) — site
+  coords, plant type/capacity, and a note requesting 掛(奈CP)/長野(奈CO) pre-filled. Still needs:
+  applicant legal entity name (Mitsue-it isn't incorporated yet — confirm with the Network Service
+  Center whether pre-incorporation applicants are accepted), address, phone, self-consumption kW,
+  and the location-map image paste-in.
+- **Related applications surfaced (not yet needed at this stage):**
+  - 供給側接続事前検討申込 (wheeling pre-study, once export volume is being formalized) —
+    https://www.kansai-td.co.jp/application/consignment/low-pressure-supply-side.html
+  - 申込様式一覧 (all KEPCO application form templates) —
+    https://www.kansai-td.co.jp/application/documents.html
+  - OCCTO 接続検討申込書 (broader-scope study, only if Kansai T&D's own study escalates there) —
+    https://www.occto.or.jp/access/kentou/youshiki.html#kentou
+
 ### What we still need (open items)
 1. ~~Identify the 配電用変電所 serving 神末797~~ — **done above.**
-2. File the **事前相談** for the site → get real 空き容量 + reinforcement cost/time, and ask
-   specifically about ノンファーム接続 terms for this feeder.
+2. ~~File the 事前相談~~ — **portal + form identified, draft started** (above). Next: fill
+   remaining fields and confirm applicant-entity question with the Network Service Center, then
+   submit and ask specifically about ノンファーム接続 terms for this feeder.
 3. ≥1,000 kW = **FIP-only** — **confirmed** (資源エネルギー庁 santeii materials). Still worth
    pinning to the primary 調達価格等算定委員会 PDF (`santeii/pdf/101_02_00.pdf`) for the file.
 4. **★ Get FIP economics** — the plant's revenue now rides on FIP: what is the FY2026 biomass FIP
@@ -238,6 +262,16 @@ Next step unchanged: run 神末797's exact address through NTT West's checker (f
    utility surveys for the same site, worth scheduling together.
 
 ---
+
+## Sources (事前相談 application, added 2026-08-09)
+- 事前相談・高圧系統連系 お申込み — https://www.kansai-td.co.jp/application/preliminary-consultation/index.html
+- ネットワークサービスセンターのご案内 — https://www.kansai-td.co.jp/consignment/service-center.html
+- 申込様式一覧 — https://www.kansai-td.co.jp/application/documents.html
+- 供給側接続事前検討申込（託送供給） — https://www.kansai-td.co.jp/application/consignment/low-pressure-supply-side.html
+- OCCTO 接続検討申込書 — https://www.occto.or.jp/access/kentou/youshiki.html#kentou
+- OCCTO ノンファーム型接続の取組 — https://www.occto.or.jp/assets/grid/business/documents/NF_setsuzokuriyou_20240701.pdf
+- 各一般送配電事業者の空き容量マップについて（資源エネルギー庁） — https://www.enecho.meti.go.jp/category/saving_and_new/saiene/grid/07_map.html
+- 一般送配電事業者の出力制御見通しマッピング情報リンク集（OCCTO） — https://www.occto.or.jp/access/link/mapping.html
 
 ## Sources (connectivity, added 2026-08-03)
 - こまどりケーブル 提供サービス — https://komadori.ne.jp/service/internet/
