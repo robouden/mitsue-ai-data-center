@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kansai T&D Nara Grid Map (English) — 2026-07-29</title>
+<style>
+  @page { size: A4 landscape; margin: 12mm; }
+  body { font-family: Arial, Helvetica, sans-serif; color: #111; margin: 0; }
+  .page { page-break-after: always; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  h2 { font-size: 14px; margin: 0 0 10px; }
+  table { border-collapse: collapse; width: 100%; max-width: 700px; }
+  th, td { border: 1px solid #333; padding: 6px 8px; font-size: 11px; text-align: center; vertical-align: middle; }
+  th.hdr { background: #ffff00; }
+  td.rowlabel { text-align: left; font-weight: bold; background: #f5f5f5; }
+  .footer { margin-top: 14px; text-align: right; font-size: 10px; color: #333; }
+  .symbol-circle { display:inline-block; width:14px; height:14px; border-radius:50%; border:1.5px solid #000; }
+  .symbol-circle.red { background:#e02020; border-color:#e02020; }
+  .symbol-circle.blue { background:#4472c4; border-color:#4472c4; }
+  .symbol-tri { display:inline-block; width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-bottom:14px solid #000; }
+  .symbol-tri.red { border-bottom-color:#e02020; }
+  .symbol-tri.blue { border-bottom-color:#4472c4; }
+  .symbol-rect { display:inline-block; width:22px; height:12px; border:1.5px solid #000; }
+  .symbol-rect.green { border-color:#2e9e4e; }
+  .symbol-rect.red { background:#e02020; border-color:#e02020; }
+  .symbol-rect.blue { background:#4472c4; border-color:#4472c4; }
+  .line { display:inline-block; width:36px; border-top:1.5px solid #000; }
+  .line.red { border-top-color:#e02020; }
+  .line.blue { border-top-color:#4472c4; }
+  .line.dash { border-top-style:dashed; }
+  .line.dot { border-top-style:dotted; }
+  .other { font-size:10px; color:#555; }
+  .map-wrap { display:flex; gap:16px; align-items:flex-start; }
+  .map-img { max-width: 620px; }
+  .map-img img { width:100%; display:block; border:1px solid #ccc; }
+  .placekey { font-size:10px; line-height:1.5; }
+  .placekey b { display:block; font-size:12px; margin-bottom:4px; }
+  .note { font-size:9px; color:#555; margin-top:6px; max-width:250px; line-height:1.35; }
+  a.link { color:#1155cc; font-size:11px; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <h1>Legend for "Sub-154kV Grid Mapping"</h1>
+  <h2>&lt;Legend&gt;</h2>
+  <table>
+    <tr>
+      <th rowspan="2" style="background:#fff;border:none;"></th>
+      <th class="hdr" colspan="3">Symbol</th>
+    </tr>
+    <tr>
+      <th class="hdr">Low near-term likelihood of routine output curtailment</th>
+      <th class="hdr">No spare capacity / batch generator-interconnection review in progress / capacity-upgrade construction in progress</th>
+      <th class="hdr">Possible routine output curtailment</th>
+    </tr>
+    <tr>
+      <td class="rowlabel" rowspan="4">Electrical<br>facilities</td>
+      <td class="rowlabel">Substation</td>
+      <td><span class="symbol-circle"></span></td>
+      <td><span class="symbol-circle red"></span></td>
+      <td><span class="symbol-circle blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">Switching station</td>
+      <td><span class="symbol-tri"></span></td>
+      <td><span class="symbol-tri red"></span></td>
+      <td><span class="symbol-tri blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">Power plant<br><span class="other">(data provided to improve simulation accuracy)</span></td>
+      <td><span class="symbol-rect green"></span></td>
+      <td><span class="symbol-rect red"></span></td>
+      <td><span class="symbol-rect blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">Power plant<br><span class="other">(all others)</span></td>
+      <td><span class="symbol-rect green"></span></td>
+      <td><span class="symbol-rect red"></span></td>
+      <td><span class="symbol-rect blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel" rowspan="4">Transmission<br>lines —<br>overhead</td>
+      <td class="rowlabel">77kV, own company</td>
+      <td><span class="line"></span></td>
+      <td><span class="line red"></span></td>
+      <td><span class="line blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">77kV, other company</td>
+      <td><span class="line"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line red"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line blue"></span> <span class="other">(other co.)</span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">22/33kV, own company</td>
+      <td><span class="line"></span></td>
+      <td><span class="line red"></span></td>
+      <td><span class="line blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">22/33kV, other company</td>
+      <td><span class="line"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line red"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line blue"></span> <span class="other">(other co.)</span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel" rowspan="4">Transmission<br>lines —<br>underground</td>
+      <td class="rowlabel">77kV, own company</td>
+      <td><span class="line dash"></span></td>
+      <td><span class="line dash red"></span></td>
+      <td><span class="line dash blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">77kV, other company</td>
+      <td><span class="line dash"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line dash red"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line dash blue"></span> <span class="other">(other co.)</span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">22/33kV, own company</td>
+      <td><span class="line dot"></span></td>
+      <td><span class="line dot red"></span></td>
+      <td><span class="line dot blue"></span></td>
+    </tr>
+    <tr>
+      <td class="rowlabel">22/33kV, other company</td>
+      <td><span class="line dot"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line dot red"></span> <span class="other">(other co.)</span></td>
+      <td><span class="line dot blue"></span> <span class="other">(other co.)</span></td>
+    </tr>
+  </table>
+  <div class="footer">Reproduction prohibited — Kansai Transmission and Distribution Co., Inc.<br>(Unofficial English translation)</div>
+</div>
+
+<div class="page">
+  <h1>Nara-area sub-154kV grid map</h1>
+  <a class="link" href="#">Click here to view the spare-capacity list for each facility (sub-154kV).</a>
+  <div class="map-wrap" style="margin-top:10px;">
+    <div class="map-img">
+      <img src="kansai_td_nara_grid_map_2026-07-29-2.jpg" alt="Original Kansai T&D Nara grid map">
+    </div>
+    <div class="placekey">
+      <b>Municipality key (original map, Japanese labels kept as-is)</b>
+      奈良市 = Nara City<br>
+      生駒市 = Ikoma City<br>
+      平群町 = Heguri Town<br>
+      安堵町 = Ando Town<br>
+      川西町 = Kawanishi Town<br>
+      河合町 = Kawai Town<br>
+      三宅町 = Miyake Town<br>
+      上牧町 = Kanmaki Town<br>
+      王寺町 = Oji Town<br>
+      斑鳩町 = Ikaruga Town<br>
+      大和郡山市 = Yamatokoriyama City<br>
+      大和高田市 = Yamatotakada City<br>
+      香芝市 = Kashiba City<br>
+      広陵町 = Koryo Town<br>
+      田原本町 = Tawaramoto Town<br>
+      葛城市 = Katsuragi City<br>
+      橿原市 = Kashihara City<br>
+      御所市 = Gose City<br>
+      明日香村 = Asuka Village<br>
+      高取町 = Takatori Town<br>
+      桜井市 = Sakurai City<br>
+      天理市 = Tenri City<br>
+      山添村 = Yamazoe Village<br>
+      宇陀市 = Uda City<br>
+      曽爾村 = Soni Village<br>
+      <b style="color:#b00;">御杖村 = Mitsue Village</b>
+      <div class="note">
+        Facility/line codes (奈1, 奈A, 京DK, etc.) are Kansai T&D's internal IDs, not place names — left untranslated. Symbol colors follow the translated legend on the previous page (white/black = low curtailment risk, red = no spare capacity / under review, blue = possible curtailment).<br><br>
+        Mitsue Village (bottom right, unshaded) has no substations, switching stations, or lines inside its boundary on this map — nearest infrastructure is node 奈AC / 奈38 near Uda City to its west.
+      </div>
+    </div>
+  </div>
+  <div class="footer">Reproduction prohibited — Kansai Transmission and Distribution Co., Inc. (As of July 29, 2026)<br>(Unofficial English translation — map graphic reproduced from original; text overlay translated)</div>
+</div>
+
+</body>
+</html>
