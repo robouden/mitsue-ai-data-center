@@ -264,9 +264,12 @@ async function convertToPdf(mdFile, opts = {}) {
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     const pdfFile = mdFile.replace(/\.md$/, '.pdf');
+    const sizeOpts = opts.width && opts.height
+      ? { width: opts.width, height: opts.height }
+      : { format: opts.pageSize || 'A4' };
     await page.pdf({
       path: pdfFile,
-      format: opts.pageSize || 'A4',
+      ...sizeOpts,
       landscape: !!opts.landscape,
       scale: opts.scale || 1,
       printBackground: true,
@@ -293,8 +296,15 @@ async function main() {
     const m = a.match(/^--theme=(.+)$/);
     const ps = a.match(/^--page-size=(.+)$/);
     const sc = a.match(/^--scale=(.+)$/);
+    const w = a.match(/^--width=(.+)$/);
+    const h = a.match(/^--height=(.+)$/);
     if (m) opts.theme = m[1];
-    else if (ps) opts.pageSize = ps[1];
+    else if (ps) {
+      if (ps[1].toUpperCase() === 'B5') { opts.width = '182mm'; opts.height = '257mm'; }
+      else opts.pageSize = ps[1];
+    }
+    else if (w) opts.width = w[1];
+    else if (h) opts.height = h[1];
     else if (sc) opts.scale = parseFloat(sc[1]);
     else if (a === '--landscape') opts.landscape = true;
     else args.push(a);
