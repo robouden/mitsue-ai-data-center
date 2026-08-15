@@ -1,188 +1,100 @@
-<div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
-<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
-<p style="font-style:italic; color:#666; margin:1mm 0 0;">Reforesting in Mitsue</p>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">Phases & Funding Flowchart</p>
-<img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
-<div style="height:105mm;"></div>
-<table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.9</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
-</table>
-</div>
-
-<div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
+<!-- Version: v3.0 | Last modified: 2026-08-14 -->
 
 <style>
-  body { font-size: 9.5pt; line-height: 1.25; }
-  h1 { font-size: 14pt; margin: 3pt 0 1pt; }
-  h2 { font-size: 10pt; margin: 5pt 0 1pt; }
-  h3 { font-size: 9.5pt; margin: 2pt 0; }
-  p, li { margin: 1pt 0; }
-  ul, ol { margin: 2pt 0; padding-left: 18pt; }
-  blockquote { margin: 3pt 0; }
-  hr { margin: 3pt 0; }
+  html { font-size: 10.5px !important; }
+  body { line-height: 1.3 !important; }
+  p, blockquote, ul, ol, dl, table { margin: 4px 0 !important; }
+  h1, h2, h3, h4, h5, h6 { margin-top: 5px !important; margin-bottom: 2px !important; }
+  hr { margin: 5px 0 !important; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
-  @media print { body { margin: 0; } }
+  .mermaid .edgeLabel text, .mermaid .edgeLabel tspan { fill: #1A1A1A !important; }
 </style>
 
+<div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
+<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
+<h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">BIOMASS ENERGY & AI</h1>
+<p style="font-size:10pt; color:#666; margin:0 0 1mm;">Phases &amp; Funding Flowchart</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v3.0 · 2026-08-14 · Rob Oudendijk</p>
+</div>
 
-# BIOMASS ENERGY & AI — Phases & Funding Flowchart
-### Reforesting in Mitsue
+> **Nothing is secured yet.** This is a target/pipeline funding stack, not raised money — see table on page 2.
 
-> **Schedule note (2026-07-03):** Phase dates reflect the operative live OpenProject Gantt, which runs later than the original April-2026 month-relative plan (P0 M1–3 … P3 M19–30). Cost baseline re-sync is the EVM Baseline Rev 2 deliverable (due Dec 2026).
-
-
-
-## Diagram 1 — Phase Spine with Funding Gates
+## Phase Spine &amp; Funding Stack
 
 ```mermaid
-%%{init: {'theme':'base','flowchart':{'htmlLabels':true},'themeVariables':{
+%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
   'background':'#404040',
   'primaryColor':'#6796e6','primaryTextColor':'#FFFFFF','primaryBorderColor':'#3655b5',
-  'lineColor':'#A8A8A8','textColor':'#DEDEDE',
+  'lineColor':'#A8A8A8','textColor':'#1A1A1A',
   'edgeLabelBackground':'#FCEB6C',
-  'fontFamily':'Segoe UI, Helvetica, sans-serif'
+  'fontFamily':'Segoe UI, Helvetica, sans-serif',
+  'fontSize':'30px'
 }}}%%
 flowchart LR
-    P0["Phase 0<br/>Pre-Foundation<br/>Apr–Oct 2026"]
-    P1["Phase 1<br/>Foundation<br/>Oct 26–May 27"]
-    P2["Phase 2<br/>Pilot Design<br/>May 27–May 28"]
-    P3["Phase 3<br/>Pilot Build<br/>May 28–Nov 29"]
-    P4["Phase 4<br/>Operate &amp; Scale<br/>Nov 2029+"]
-
-    G1{"Gate 1<br/>¥3–8M"}
-    G2{"Gate 2<br/>¥30–50M"}
-    G3{"Gate 3<br/>¥120–290M"}
-    G4{"Gate 4<br/>Revenue<br/>online?"}
-
-    H1["Hold &amp; Re-pitch"]
-    H2["Hold / Descope"]
-    H3["Stage Build"]
-
-    P0 --> G1
-    G1 -->|Pass| P1
-    P1 --> G2
-    G2 -->|Pass| P2
-    P2 --> G3
-    G3 -->|Pass| P3
-    P3 --> G4
-    G4 -->|Yes| P4
-
-    G1 -->|Short| H1 -.-> G1
-    G2 -->|Short| H2 -.-> G2
-    G3 -->|Short| H3 -.-> G3
-    G4 -->|Partial| P3
-
-    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef hold  fill:#353535,stroke:#FCEB6C,stroke-width:1px,color:#DEDEDE,stroke-dasharray:4 3
-    class P0,P1,P2,P3,P4 phase
-    class G1,G2,G3,G4 gate
-    class H1,H2,H3 hold
-
-    linkStyle default stroke:#A8A8A8,stroke-width:1.4px,color:#000000
-    linkStyle 1,3,5,7 stroke:#FCEB6C,stroke-width:2.5px,color:#000000
-```
-
----
-
-## Diagram 2 — Funding Sources Feeding Each Gate
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{
-  'background':'#404040',
-  'primaryColor':'#6796e6','primaryTextColor':'#FFFFFF','primaryBorderColor':'#3655b5',
-  'lineColor':'#A8A8A8','textColor':'#DEDEDE',
-  'fontFamily':'Segoe UI, Helvetica, sans-serif',
-  'edgeLabelBackground':'#FCEB6C'
-}}}%%
-flowchart TB
     P0["Phase 0<br/>Pre-Foundation"] --> G1{"Gate 1<br/>¥3–8M"}
     G1 --> P1["Phase 1<br/>Foundation"] --> G2{"Gate 2<br/>¥30–50M"}
-    G2 --> P2["Phase 2<br/>Pilot Design"] --> G3{"Gate 3<br/>¥80–200M"}
-    G3 --> P3["Phase 3<br/>Pilot Build"] --> G4{"Gate 4<br/>Revenue"}
-    G4 --> P4["Phase 4<br/>Operate &amp; Scale"]
+    G2 --> P2["Phase 2<br/>Pilot Design"] --> G3{"Gate 3<br/>¥120–290M"}
+    G3 --> P3["Phase 3<br/>Pilot Build"] --> G4{"Gate 4<br/>Revenue?"}
+    G4 --> P4["Phase 4<br/>Operate / Scale"]
 
-    F1["L1 — Founders<br/>¥3M"]
-    F2["L2 — Government<br/>Grants"]
-    F3["L3 — Foundations"]
-    F4["L4 — Corporate<br/>Partners"]
-    F5["L5 — Operating<br/>Revenue"]
-
-    F1 --> G1
-    F2 --> G2
-    F3 --> G2
+    F1["L1 Founders<br/>¥6M"] --> G1
+    F2["L2 Gov Grants<br/>¥115M"] --> G2
+    F3["L3 Foundations<br/>¥33M"] --> G2
     F2 --> G3
     F3 --> G3
-    F4 --> G3
-    F5 --> G4
+    F4["L4 Corporate<br/>¥35M"] --> G3
+    F5["L5 Revenue<br/>¥3M"] --> G4
 
-    P1 -.->|Feasibility studies<br/>unlock grants| F2
+    P1 -.->|Feasibility study<br/>unlocks grants| F2
     P1 -.->|Legal entity<br/>unlocks foundations| F3
     P3 -.->|Working pilot<br/>unlocks corporates| F4
     P3 -.->|Operations begin<br/>generate revenue| F5
 
-    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef fund  fill:#505050,stroke:#6796e6,stroke-width:1.4px,color:#DEDEDE
+    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#000000,font-weight:bold
+    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#000000,font-weight:bold
+    classDef fund  fill:#D9D9D9,stroke:#6796e6,stroke-width:1.4px,color:#000000
     class P0,P1,P2,P3,P4 phase
     class G1,G2,G3,G4 gate
     class F1,F2,F3,F4,F5 fund
 
     linkStyle default stroke:#A8A8A8,stroke-width:1.4px,color:#000000
-    linkStyle 1,3,5,7 stroke:#FCEB6C,stroke-width:2.5px,color:#000000
 ```
 
----
+**How to read it:** Follow the main spine left to right — the five project phases. Orange diamonds are funding gates: each asks "have we secured enough to proceed?" A gate that falls short holds the project and triggers a re-pitch, rather than advancing. The grey boxes (L1–L5) are the five funding layers feeding each gate. Dotted arrows are the feedback loop — finishing a phase produces deliverables (feasibility study, legal entity, working pilot) that unlock the *next* funding layer. That loop is the engine that lets the project grow without permanent outside subsidy.
 
-## Legend
+## Funding Stack — Target / Pipeline (Baseline Rev 1) — nothing secured yet
 
-| Shape / Colour | Meaning |
-|---|---|
-| **Light-blue box** (`#6796e6`) | Project phase — what gets done |
-| **Orange diamond** (`#e58520`) | Funding gate — checkpoint between phases |
-| **Slate box, light-blue border** (`#505050` / `#6796e6`) | Funding source / layer |
-| **Dark dashed box, yellow border** | Hold or descope action when a gate fails |
-| **Solid arrow** | Sequential flow / funding inflow |
-| **Dotted arrow** | Feedback loop — phase deliverables unlock the next funding layer |
-
-## How to read it
-
-1. **Read the top row left-to-right** — that is the project's forward path through the five phases.
-2. **Yellow diamonds are decision gates.** Each one asks: *"Have we secured enough funding to begin the next phase?"* If yes → proceed; if short → loop into a grey hold/descope box and re-pitch.
-3. **The bottom row is the funding stack.** Arrows go *upward* into the gate that each funding source unlocks.
-4. **Dotted arrows close the loop.** Completing a phase produces deliverables (feasibility studies, legal entity, working pilot) that themselves *unlock the next layer* of funding. This is the engine of the project.
-
----
-
----
-
-## Funding Stack — Target / Pipeline (Baseline Rev 1, May 2026) — nothing secured yet
-
-| Funding Layer | Source | Target Amount (¥M) | Secured to date |
+| Layer | Source | Target | Secured to date |
 |---|---|---|---|
-| L1 — Founders | Founder capital (Rob Oudendijk) | ¥6M | ¥0 (not yet committed) |
-| L2 — Government Grants | National + prefectural + municipal grants | ¥115M | ¥0 (not applied/awarded) |
-| L3 — Foundations | Philanthropic foundations | ¥33M | ¥0 (not applied/awarded) |
-| L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M | ¥0 (not applied/awarded) |
-| L5 — Operating Revenue | Early data center, biomass/solar energy, and EV revenue | ¥3M | ¥0 (pre-revenue) |
-| **Total Funding Target (unsecured)** | | **¥192M** | **¥0** |
-| | | | |
-| **BAC (PMB)** | Project budget baseline | **¥220M** | |
-| **Management Reserve** | Board-controlled reserve | ¥25M | |
+| L1 — Founders | Founder capital (Rob Oudendijk) | ¥6M | ¥0 |
+| L2 — Government Grants | National / prefectural / municipal | ¥115M | ¥0 |
+| L3 — Foundations | Philanthropic foundations | ¥33M | ¥0 |
+| L4 — Corporate Partners | Corporate sustainability / CSR | ¥35M | ¥0 |
+| L5 — Operating Revenue | Early data center / energy / EV revenue | ¥3M | ¥0 |
+| **Total Funding Target** | | **¥192M** | **¥0** |
+| **BAC (project budget baseline)** | | **¥220M** | |
+| **+ Management Reserve** | | ¥25M | |
 | **Total Project Budget** | | **¥245M** | |
-| | | | |
-| **Funding Gap vs BAC** | Additional funding required to meet BAC, if target stack fully lands | **¥28M** | |
-| **Funding Gap vs Total Budget** | Additional funding required including MR, if target stack fully lands | **¥53M** | |
+| **Funding Gap vs BAC** (if target stack fully lands) | | **¥28M** | |
+| **Funding Gap vs Total Budget** (if target stack fully lands) | | **¥53M** | |
 
-> **Note — nothing is committed yet.** The table above is a **funding target / pipeline**, not raised or secured money. As of May 2026, ¥0 has actually landed across all five layers — including L1 founder capital. Every figure is a planning assumption to be pursued and replaced with confirmed amounts as agreements land; the ¥28M–¥53M gap figures assume the ¥192M target stack is fully realized — if it is not, the true shortfall is larger. **A named, concrete path to closing a meaningful part of the gap is the village-led 地域脱炭素移行・再エネ推進交付金 (MoE, step 2 of the national decarbonization funding ladder): 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the village via official 官民連携, targeting Phases 2–3.** L2 (Government grants) in Diagram 2 now includes this route routed through the municipality. Baseline Rev 2 (due M9, Dec 2026) should fold in any confirmed 交付金 amount.
-
-> **Timing rule (cashflow model).** The gap is not just a budget shortfall — it is a **cash wall in a specific month.** Even in the best case where the full ¥192M target stack lands as planned (none of it is secured today), the modeled cash balance runs **negative at M28 (Jul 2028)**, bottoming at −¥28M (= the gap exactly). Funding must therefore be **secured *and disbursable* before Gate 3 (M21)**, not at end-of-project, and a **~¥25M bridge facility** held as the shock absorber for the Phase-3 burn peak. See `mitsue_cashflow_model.md` §5 and EVM plan §8.1 / §10.
-
-> **Sources:** MoE — 地域脱炭素移行・再エネ推進交付金: https://policies.env.go.jp/policy/roadmap/grants/ · 実施要領（補助率 2/3・3/4 条件）: https://www.env.go.jp/content/900470616.pdf
+> **Nothing is committed yet.** As of 2026, ¥0 has actually landed across all five layers — including L1 founder capital. Every figure above is a planning target, to be replaced with confirmed amounts as agreements land. If the ¥192M target stack is not fully realized, the true shortfall is larger than ¥28–53M.
+>
+> **Named path for part of the gap:** the village-led 地域脱炭素移行・再エネ推進交付金 (MoE) — 2/3–3/4 subsidy on solar/battery/EV/private-wire capex, paid to the village via 官民連携, targeting Phases 2–3.
+>
+> **Cashflow timing matters as much as the total.** Even in the best case where the full ¥192M lands as planned, the modeled cash balance goes negative around Phase 3 (bottoming near −¥28M) — so funding must be secured and *disbursable* before Gate 3, not at project end. A ~¥25M bridge facility is the planned shock absorber for that peak.
 
 ---
 
-*Derived from `mitsue_implementation_plan.md` — May 2026*
+*Sources: MoE 地域脱炭素移行・再エネ推進交付金 — https://policies.env.go.jp/policy/roadmap/grants/*
+
+<table style="width:100%; border:none; border-collapse:collapse; margin-top:2mm;"><tr>
+<td style="border:none; vertical-align:middle;">
+<em>The BIOMASS ENERGY & AI project · Mitsue Village, Nara Prefecture, Japan</em><br/>
+<em>Contact: Rob Oudendijk · oudendijk.biz@gmail.com · 080-2260-5966</em>
+</td>
+<td style="border:none; vertical-align:middle; text-align:right; width:100px;">
+<a href="https://mitsue.it"><strong>mitsue.it</strong></a><br/>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://mitsue.it" alt="QR code for mitsue.it" width="90" height="90"/>
+</td>
+</tr></table>

@@ -1,173 +1,100 @@
+<!-- Version: v3.0 | Last modified: 2026-08-14 -->
+
+<style>
+  html { font-size: 10.5px !important; }
+  body { line-height: 1.3 !important; }
+  p, blockquote, ul, ol, dl, table { margin: 4px 0 !important; }
+  h1, h2, h3, h4, h5, h6 { margin-top: 5px !important; margin-bottom: 2px !important; }
+  hr { margin: 5px 0 !important; }
+  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
+  .mermaid .edgeLabel text, .mermaid .edgeLabel tspan { fill: #1A1A1A !important; }
+</style>
+
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
-<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
-<h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
-<p style="font-style:italic; color:#666; margin:1mm 0 0;">御杖村における地域植林</p>
-<p style="font-style:italic; color:#666; margin:2mm 0 8mm;">三津江プロジェクト — フェーズ・資金調達フローチャート</p>
-<img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
-<div style="height:105mm;"></div>
-<table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-11</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
-</table>
+<p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
+<h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">バイオマスエネルギーとAI</h1>
+<p style="font-size:10pt; color:#666; margin:0 0 1mm;">フェーズ・資金調達フローチャート</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v3.0 · 2026-08-14 · ロブ・アウデンダイク</p>
 </div>
 
-<div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
+> **現時点で確保済みの資金はありません。** 下表（2ページ目）のとおり、目標・パイプラインであり、確保済みの資金ではありません。
 
-# 三津江プロジェクト — フェーズ・資金調達フローチャート
-
-> **スケジュール注記（2026-07-03）：** フェーズの日付は、現行の正式スケジュールである稼働中のOpenProjectガントチャートを反映しています。当初の2026年4月起点の月次計画（P0 1〜3か月目 … P3 19〜30か月目）より遅れています。コスト基準の再同期はEVMベースラインRev 2（2026年12月予定）の作業です。
-
-
-
-## 図1 — フェーズ構造と資金調達ゲート
+## フェーズと資金調達スタック
 
 ```mermaid
-%%{init: {'theme':'base','flowchart':{'htmlLabels':true},'themeVariables':{
+%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
   'background':'#404040',
   'primaryColor':'#6796e6','primaryTextColor':'#FFFFFF','primaryBorderColor':'#3655b5',
-  'lineColor':'#A8A8A8','textColor':'#DEDEDE',
+  'lineColor':'#A8A8A8','textColor':'#1A1A1A',
   'edgeLabelBackground':'#FCEB6C',
-  'fontFamily':'Noto Sans JP, Yu Gothic, sans-serif'
+  'fontFamily':'Noto Sans JP, Yu Gothic, sans-serif',
+  'fontSize':'30px'
 }}}%%
 flowchart LR
-    P0["フェーズ0<br/>基礎準備<br/>2026年4月〜10月"]
-    P1["フェーズ1<br/>基盤構築<br/>2026年10月〜2027年5月"]
-    P2["フェーズ2<br/>パイロット設計<br/>2027年5月〜2028年5月"]
-    P3["フェーズ3<br/>パイロット建設<br/>2028年5月〜2029年11月"]
-    P4["フェーズ4<br/>運用・拡大<br/>2029年11月以降"]
-
-    G1{"ゲート1<br/>¥3–8M"}
-    G2{"ゲート2<br/>¥30–50M"}
-    G3{"ゲート3<br/>¥120–290M"}
-    G4{"ゲート4<br/>収益<br/>開始?"}
-
-    H1["保留・再提案"]
-    H2["保留・縮小"]
-    H3["段階的建設"]
-
-    P0 --> G1
-    G1 -->|通過| P1
-    P1 --> G2
-    G2 -->|通過| P2
-    P2 --> G3
-    G3 -->|通過| P3
-    P3 --> G4
-    G4 -->|はい| P4
-
-    G1 -->|資金不足| H1 -.-> G1
-    G2 -->|資金不足| H2 -.-> G2
-    G3 -->|資金不足| H3 -.-> G3
-    G4 -->|一部開始| P3
-
-    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef hold  fill:#353535,stroke:#FCEB6C,stroke-width:1px,color:#DEDEDE,stroke-dasharray:4 3
-    class P0,P1,P2,P3,P4 phase
-    class G1,G2,G3,G4 gate
-    class H1,H2,H3 hold
-
-    linkStyle default stroke:#A8A8A8,stroke-width:1.4px,color:#000000
-    linkStyle 1,3,5,7 stroke:#FCEB6C,stroke-width:2.5px,color:#000000
-```
-
----
-
-## 図2 — 各ゲートへの資金調達ソース
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{
-  'background':'#404040',
-  'primaryColor':'#6796e6','primaryTextColor':'#FFFFFF','primaryBorderColor':'#3655b5',
-  'lineColor':'#A8A8A8','textColor':'#DEDEDE',
-  'fontFamily':'Noto Sans JP, Yu Gothic, sans-serif',
-  'edgeLabelBackground':'#FCEB6C'
-}}}%%
-flowchart TB
     P0["フェーズ0<br/>基礎準備"] --> G1{"ゲート1<br/>¥3–8M"}
     G1 --> P1["フェーズ1<br/>基盤構築"] --> G2{"ゲート2<br/>¥30–50M"}
-    G2 --> P2["フェーズ2<br/>パイロット設計"] --> G3{"ゲート3<br/>¥80–200M"}
-    G3 --> P3["フェーズ3<br/>パイロット建設"] --> G4{"ゲート4<br/>収益"}
+    G2 --> P2["フェーズ2<br/>パイロット設計"] --> G3{"ゲート3<br/>¥120–290M"}
+    G3 --> P3["フェーズ3<br/>パイロット建設"] --> G4{"ゲート4<br/>収益化?"}
     G4 --> P4["フェーズ4<br/>運用・拡大"]
 
-    F1["L1 — 創設者<br/>¥3M"]
-    F2["L2 — 政府<br/>補助金"]
-    F3["L3 — 財団"]
-    F4["L4 — 企業<br/>パートナー"]
-    F5["L5 — 運営<br/>収益"]
-
-    F1 --> G1
-    F2 --> G2
-    F3 --> G2
+    F1["L1 設立者<br/>¥6M"] --> G1
+    F2["L2 政府補助金<br/>¥115M"] --> G2
+    F3["L3 財団<br/>¥33M"] --> G2
     F2 --> G3
     F3 --> G3
-    F4 --> G3
-    F5 --> G4
+    F4["L4 企業<br/>¥35M"] --> G3
+    F5["L5 事業収益<br/>¥3M"] --> G4
 
-    P1 -.->|実現可能性調査が<br/>補助金を解放| F2
-    P1 -.->|法人設立が<br/>財団を解放| F3
-    P3 -.->|動作パイロットが<br/>企業を解放| F4
+    P1 -.->|調査完了で<br/>補助金解放| F2
+    P1 -.->|法人設立で<br/>財団解放| F3
+    P3 -.->|動作パイロットで<br/>企業解放| F4
     P3 -.->|運営開始で<br/>収益創出| F5
 
-    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#FFFFFF,font-weight:bold
-    classDef fund  fill:#505050,stroke:#6796e6,stroke-width:1.4px,color:#DEDEDE
+    classDef phase fill:#6796e6,stroke:#3655b5,stroke-width:1px,color:#000000,font-weight:bold
+    classDef gate  fill:#e58520,stroke:#A85C10,stroke-width:1px,color:#000000,font-weight:bold
+    classDef fund  fill:#D9D9D9,stroke:#6796e6,stroke-width:1.4px,color:#000000
     class P0,P1,P2,P3,P4 phase
     class G1,G2,G3,G4 gate
     class F1,F2,F3,F4,F5 fund
 
     linkStyle default stroke:#A8A8A8,stroke-width:1.4px,color:#000000
-    linkStyle 1,3,5,7 stroke:#FCEB6C,stroke-width:2.5px,color:#000000
 ```
 
----
+**読み方：** 中心の流れを左から右へ — 5つのフェーズです。オレンジのひし形が資金調達ゲート：それぞれ「次に進むための資金は確保できたか」を問います。不足すれば前進せず、保留・再提案となります。グレーの箱（L1〜L5）は各ゲートに資金を供給する5つの層です。点線矢印はフィードバックループ — フェーズの完了が生む成果物（調査結果・法人設立・動作パイロット）が次の資金層を解放します。このループこそが、外部補助金に恒久的に依存せず成長できるプロジェクトのエンジンです。
 
-## 凡例
+## 資金調達スタック — 目標・パイプライン（Baseline Rev 1）— 現時点で確保済みの資金はゼロ
 
-| 形状・色 | 意味 |
-|---|---|
-| **水色ボックス** (`#6796e6`) | プロジェクトフェーズ — 実施内容 |
-| **オレンジ色ひし形** (`#e58520`) | 資金調達ゲート — フェーズ間のチェックポイント |
-| **スレートボックス・水色ボーダー** (`#505050` / `#6796e6`) | 資金調達ソース・レイヤー |
-| **暗いダッシュボックス・黄色ボーダー** | ゲート不通過時の保留・縮小アクション |
-| **実線矢印** | 順次フロー / 資金流入 |
-| **点線矢印** | フィードバックループ — フェーズ成果物が次の資金レイヤーを解放 |
-
-## 読み方
-
-1. **上段を左から右へ読む** — これがプロジェクトの5フェーズを通じた前進パスです。
-2. **黄色ひし形は判断ゲートです。** 各ゲートは「次のフェーズを開始するのに十分な資金を確保できたか？」を問います。通過 → 前進。資金不足 → 灰色の保留・縮小ボックスに入り、再提案します。
-3. **下段は資金調達スタックです。** 矢印は各資金ソースが解放するゲートに向かって上方向に伸びます。
-4. **点線矢印がループを閉じます。** フェーズを完了すると成果物（実現可能性調査、法人設立、動作パイロット）が生まれ、それ自体が次の資金レイヤーを解放します。これがプロジェクトのエンジンです。
-
----
-
----
-
-## 資金調達スタック — 目標・パイプライン（Baseline Rev 1、2026年5月）— 現時点で確保済みの資金はゼロ
-
-| 資金レイヤー | 調達元 | 目標金額（¥M） | 現時点の確保額 |
+| レイヤー | 調達元 | 目標額 | 現時点の確保額 |
 |---|---|---|---|
-| L1 — 設立者 | 設立者出資（Rob Oudendijk） | ¥6M | ¥0（未確約） |
-| L2 — 政府補助金 | 国・県・市町村補助金 | ¥115M | ¥0（未申請・未採択） |
-| L3 — 財団 | 慈善財団 | ¥33M | ¥0（未申請・未採択） |
-| L4 — 企業パートナー | 企業サステナビリティ・CSR | ¥35M | ¥0（未申請・未採択） |
-| L5 — 事業収益 | データセンター・バイオマス/太陽光エネルギー・EV充電の初期収益 | ¥3M | ¥0（収益発生前） |
-| **資金調達目標合計（未確保）** | | **¥192M** | **¥0** |
-| | | | |
-| **BAC（PMB）** | プロジェクト予算ベースライン | **¥220M** | |
-| **マネジメント予備費** | 理事会管理予備費 | ¥25M | |
+| L1 — 設立者 | 設立者出資（ロブ・アウデンダイク） | ¥6M | ¥0 |
+| L2 — 政府補助金 | 国・県・市町村 | ¥115M | ¥0 |
+| L3 — 財団 | 慈善財団 | ¥33M | ¥0 |
+| L4 — 企業パートナー | 企業サステナビリティ・CSR | ¥35M | ¥0 |
+| L5 — 事業収益 | データセンター・エネルギー・EVの初期収益 | ¥3M | ¥0 |
+| **資金調達目標合計** | | **¥192M** | **¥0** |
+| **BAC（予算ベースライン）** | | **¥220M** | |
+| **＋マネジメント予備費** | | ¥25M | |
 | **総プロジェクト予算** | | **¥245M** | |
-| | | | |
-| **BAC対資金不足額** | 目標スタックが全額実現した場合にBAC充足に必要な追加調達額 | **¥28M** | |
-| **総予算対資金不足額** | 目標スタックが全額実現した場合に予備費含む充足に必要な追加調達額 | **¥53M** | |
+| **BAC対資金不足額**（目標スタック全額実現時） | | **¥28M** | |
+| **総予算対資金不足額**（目標スタック全額実現時） | | **¥53M** | |
 
-> **注記 — 現時点で確保済みの資金はありません。** 上表は**資金調達の目標・パイプライン**であり、確保済み・受領済みの資金ではありません。2026年5月時点で、L1の設立者出資を含む5層すべてで実際に確保された金額は¥0です。すべての数字は今後追求し、合意成立とともに確定額へ置き換えていく計画上の前提です。¥28M〜¥53Mの不足額は¥192Mの目標スタックが全額実現することを前提とした数字であり、実現しない場合の実際の不足はより大きくなります。**このギャップを埋める具体的かつ名前のある道筋が、村主導の地域脱炭素移行・再エネ推進交付金（環境省、国の脱炭素資金ラダー第2段）である。補助率：太陽光・蓄電池・EV・自営線設備費の2/3〜3/4、官民連携を通じて村へ交付。フェーズ2〜3を対象とする。** 図2のL2（政府補助金）は、この自治体経由のルートを含む。ベースラインRev 2（M9、2026年12月予定）に確定交付金額を反映する。
-
-> **タイミング・ルール（キャッシュフローモデル）。** このギャップは単なる予算上の不足ではなく、**特定の月に現れる資金の壁**である。¥192Mの目標スタックが計画どおり全額実現した最良ケース（現時点でその一部も確保されていない）でも、月次資金残高は**M28（2028年7月）にマイナス**となり、底値は−¥28M（ギャップとちょうど一致）に達する。したがって資金は事業終了時ではなく**ゲート3（M21）までに確保・支出可能とする**必要があり、フェーズ3のバーンピークに対するショックアブソーバーとして**約¥25Mのブリッジ枠**を用意すること。`mitsue_cashflow_model_jp.md` §5およびEVM計画 §8.1／§10参照。
-
-> **出典：** 環境省 — 地域脱炭素移行・再エネ推進交付金: https://policies.env.go.jp/policy/roadmap/grants/ · 実施要領（補助率2/3・3/4の条件）: https://www.env.go.jp/content/900470616.pdf
+> **現時点で確保済みの資金はありません。** 2026年時点で、L1設立者出資を含む5層すべてで実際に確保された金額は¥0です。すべての数字は計画上の目標であり、合意成立とともに確定額へ置き換えます。¥192Mの目標スタックが全額実現しない場合、実際の不足は¥28M〜¥53Mより大きくなります。
+>
+> **不足の一部を埋める具体的な道筋：** 村主導の地域脱炭素移行・再エネ推進交付金（環境省）— 太陽光・蓄電池・EV・自営線設備費の2/3〜3/4補助、官民連携を通じて村へ交付、フェーズ2〜3が対象。
+>
+> **資金確保のタイミングも総額と同じくらい重要です。** ¥192M全額が計画どおり実現する最良ケースでも、モデル上の資金残高はフェーズ3付近でマイナスとなり（底値は約−¥28M）、資金はプロジェクト終了時ではなく**ゲート3までに確保・支出可能**である必要があります。そのピークの緩衝材として約¥25Mのブリッジ枠を計画しています。
 
 ---
 
-*`mitsue_implementation_plan_jp.md` より引用 — 2026年5月*
+*出典：環境省 地域脱炭素移行・再エネ推進交付金 — https://policies.env.go.jp/policy/roadmap/grants/*
+
+<table style="width:100%; border:none; border-collapse:collapse; margin-top:2mm;"><tr>
+<td style="border:none; vertical-align:middle;">
+<em>バイオマスエネルギーとAI · 奈良県御杖村</em><br/>
+<em>連絡先：ロブ・アウデンダイク · oudendijk.biz@gmail.com · 080-2260-5966</em>
+</td>
+<td style="border:none; vertical-align:middle; text-align:right; width:100px;">
+<a href="https://mitsue.it"><strong>mitsue.it</strong></a><br/>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://mitsue.it" alt="mitsue.it QRコード" width="90" height="90"/>
+</td>
+</tr></table>
