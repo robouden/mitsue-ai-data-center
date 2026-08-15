@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-08-05 -->
+<!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
 # Mitsue Village — Forest Area: Before / After (25-Year Projection)
 
@@ -47,6 +47,6 @@ Biomass-CHP revenue from harvested sugi thinnings pays for a larger, mechanized 
 
 ## Sources
 - Mitsue Forest Workforce & Energy Plan (project document, v1.7, 2026-07-17)
-- 御杖村森林組合 (Mitsue Kanko) cooperative report
+- 御杖村森林組合 (Mitsue Village Forest Association) cooperative report
 - NIES 2020 — Mishima, Fukushima biomass CHP case study
 - Shimokawa Town / Nishiawakura Village public forestry data

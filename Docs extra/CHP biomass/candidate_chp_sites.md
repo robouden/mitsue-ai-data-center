@@ -1,4 +1,4 @@
-<!-- Version: v1.3 | Last modified: 2026-07-08 -->
+<!-- Version: v1.4 | Last modified: 2026-08-14 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -8,8 +8,8 @@
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.3</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.4</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-08-14</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -79,7 +79,7 @@ An idle forestry property in central 菅野/Sugano (~34.4883°N, 136.1673°E), o
 ### Why it's appealing (Rob's observation)
 - **Existing building + open yard** — shelter for a CHP/gasifier, a **covered dry-chip store** (moisture <20% is mandatory for gasification — see onsen note), workshop, log deck. Reuse > new build.
 - **High visibility** — heavy through-traffic on 国道369/伊勢本街道. A working "forest → power" demonstrator here is **free, continuous promotion** ("a village powered by its own forest").
-- **Institutional cluster** — next to the **Mitsue Kanko head office** (菅野1581), the **village hall**, 御杖村社会福祉協議会, and the **active private sawmill 丹羽製材 (Niwa Seizai)** — 御杖村大字菅野400-5, on 伊勢本街道/国道369; owner (丹羽/Niwa family) known to Rob, owner + wife already informed about the project. Forestry-industrial context, likely existing truck access and possibly 3-phase grid.
+- **Institutional cluster** — next to the **Mitsue Village Forest Association head office** (神末797), the **village hall**, 御杖村社会福祉協議会, and the **active private sawmill 丹羽製材 (Niwa Seizai)** — 御杖村大字菅野400-5, on 伊勢本街道/国道369; owner (丹羽/Niwa family) known to Rob, owner + wife already informed about the project. Forestry-industrial context, likely existing truck access and possibly 3-phase grid.
 
 > **Note on the active mill's chipper (Rob checked, 2026-06-30):** it HAS a chipper, but the chips are made for **paper/pulp** → **NG as CHP fuel**. The output is a *sold product* committed to a paper mill (not surplus), and pulp-chip spec ≠ gasifier fuel-chip spec. So their *existing* chipper is **not a drop-in fuel source**.
 

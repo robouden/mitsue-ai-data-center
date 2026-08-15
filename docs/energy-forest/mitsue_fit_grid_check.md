@@ -1,10 +1,10 @@
-<!-- Version: v0.9 | Last modified: 2026-08-09 -->
+<!-- Version: v1.0 | Last modified: 2026-08-14 -->
 
-# FIT / FIP & Grid-Connection Check — Mitsue Kanko Working Site
+# FIT / FIP & Grid-Connection Check — Mitsue Village Forest Association Working Site
 
 Following Henry Takata's advice (check the grid *before* the plant — solar has eaten the
 FIT export capacity in many rural areas), this is the first-pass desk check for the
-**Mitsue Kanko forest co-op working site** — the 牛峠工場 chip/dry yard at
+**Mitsue Village Forest Association forest co-op working site** — the 牛峠工場 chip/dry yard at
 **神末797, 御杖村 (≈34.489, 136.206)** — as the candidate biomass-CHP location.
 This is **not** the village office. Everything below is a desk estimate; the binding
 answers come from a Kansai T&D 事前相談.

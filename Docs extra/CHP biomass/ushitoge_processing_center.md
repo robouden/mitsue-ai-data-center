@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-30 -->
+<!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
 # 御杖村森林組合 牛峠工場 — Reference Sheet
 **Ushitoge Thinning-Timber Processing Center**
@@ -9,12 +9,12 @@ Reference notes on the cooperative's sawmill/processing facility and its relevan
 
 ## Two sites, one cooperative
 
-The 御杖村森林組合 (Mitsue Village Forestry Cooperative, "Mitsue Kanko") operates from **two separate locations** in the village:
+The 御杖村森林組合 (Mitsue Village Forestry Cooperative, "Mitsue Village Forest Association") operates from **two separate locations** in the village:
 
 | | **Head office (本所)** | **Processing facility (牛峠工場)** |
 |---|---|---|
 | District | 菅野 / Sugano (central village) | 神末 / Kōzue (up the valley) |
-| Address | 〒633-1302 奈良県宇陀郡御杖村大字菅野1581 | 奈良県宇陀郡御杖村神末797 |
+| Address | 〒633-1301 奈良県宇陀郡御杖村神末797 | 奈良県宇陀郡御杖村神末797 |
 | Tel | 0745-95-2010 | 0745-95-2410 |
 | Role | Admin, membership, forestry planning | Sawmilling + timber processing |
 | Coords | (central village) | ~34.4890°N, 136.2060°E |

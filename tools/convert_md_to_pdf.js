@@ -80,10 +80,11 @@ const PRINT_OVERRIDE = `
   table { width: 100% !important; table-layout: fixed !important; border-collapse: collapse !important; border-spacing: 0 !important; }
   table th, table td { 
     padding: 2px 6px !important; 
-    word-wrap: break-word !important; 
-    overflow-wrap: break-word !important; 
-    line-break: anywhere !important; /* Critical for CJK/Japanese table wrapping */
-    word-break: break-all !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; /* only break a word if it can't fit on its own line */
+    word-break: normal !important; /* keep Latin words intact; wrap at spaces, not mid-word */
+    /* no line-break:anywhere — it forces arbitrary breaks even inside Latin words;
+       CJK wraps fine between characters by default under Unicode line-breaking rules */
   }
 `;
 

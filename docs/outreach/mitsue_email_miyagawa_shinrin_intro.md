@@ -22,7 +22,7 @@
 
 ## How to approach Miyagawa Forest Cooperative
 
-Unlike more trees (a Tokyo-based NGO connecting urban supporters to forests) or HIGHRESO (a company), Miyagawa Forest Cooperative is a **working forestry cooperative** — the same kind of organization as 御杖村森林組合 (Mitsue Kanko), just further along a very similar path:
+Unlike more trees (a Tokyo-based NGO connecting urban supporters to forests) or HIGHRESO (a company), Miyagawa Forest Cooperative is a **working forestry cooperative** — the same kind of organization as 御杖村森林組合 (Mitsue Village Forest Association), just further along a very similar path:
 
 - Since a November 2022 agreement with more trees, they've run **native mixed-species planting** (broadleaf alongside conifer, not monoculture cedar/cypress)
 - They established the **Odai-cho Seedling Production Council** with residents — producing ~130 native species from locally-sourced seed

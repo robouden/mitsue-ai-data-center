@@ -1,4 +1,4 @@
-<!-- Version: v1.3 | Last modified: 2026-07-21 -->
+<!-- Version: v1.4 | Last modified: 2026-08-14 -->
 
 <!--
 INTERNAL NOTES — recruit channels (not for the student-facing print). Three-lane map:
@@ -6,8 +6,8 @@ INTERNAL NOTES — recruit channels (not for the student-facing print). Three-la
      Outsider approach → use Dome-sensei (advisor, Osaka U Emeritus) as introducer. NAIST/Shiozaki NOT yet an advisor — don't cite as endorser.
   2. 林業就業支援講習 — run by 奈良県林業機械化推進センター (parent: 奈良県森林組合連合会). Career-changers exploring forestry (with Hello Work / 奈良労働局). Genuine recruit pool. Good for crew hires.
      NOTE: the Center's OTHER function, FW 緑の雇用 training, is for people ALREADY hired — a place to train our own new hires, NOT a recruit source.
-  3. 森林の仕事ガイダンス / ならウッドジョブ — prefectural forestry job fair; Mitsue Kanko listing already appears there. Volume channel; concrete move = get a booth/slot.
-  Insider advantage: Mitsue Kanko is a MEMBER co-op of the 奈良県森林組合連合会 → channels 2 & 3 = direct approach via Kinjo Rie, no outside introducer needed.
+  3. 森林の仕事ガイダンス / ならウッドジョブ — prefectural forestry job fair; Mitsue Village Forest Association listing already appears there. Volume channel; concrete move = get a booth/slot.
+  Insider advantage: Mitsue Village Forest Association is a MEMBER co-op of the 奈良県森林組合連合会 → channels 2 & 3 = direct approach via Kinjo Rie, no outside introducer needed.
   Idea raised for Meeting 5 (2026-08-05): Kinjo + Rob co-present the project to all three channels (Kinjo = employer, Rob = vision). Added to §6 of mitsue_kanko_meeting_prep_questions_en/jp.md.
 -->
 

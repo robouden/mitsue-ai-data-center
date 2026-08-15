@@ -1,9 +1,9 @@
-<!-- Version: v1.2 | Last modified: 2026-07-25 -->
+<!-- Version: v1.3 | Last modified: 2026-08-14 -->
 
 # Mayor / Vice-Mayor — Advance Questions (for their preparation)
 ### English reference copy of `mitsue_mayor_meeting_prep_questions_jp.md` (the version actually sent)
 
-*Register mirrors the Mitsue Kanko prep sheet: courteous, "no firm answers needed — a general sense of direction is enough." Tactics from the confidential talking-points script are deliberately excluded.*
+*Register mirrors the Mitsue Village Forest Association prep sheet: courteous, "no firm answers needed — a general sense of direction is enough." Tactics from the confidential talking-points script are deliberately excluded.*
 
 ---
 

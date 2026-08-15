@@ -22,7 +22,7 @@ Here's what I was able to piece together about 御杖村森林組合 (Mitsue Vil
 
 ### Basics
 
-It's a forestry cooperative (森林組合) headquartered at 奈良県宇陀郡御杖村大字菅野1581番地, the same Sugano area where you are. Its corporate number is 2150005004376, registered as an "other incorporated-by-registration legal entity" (the standard legal form for a 森林組合 under the Forestry Cooperative Act). Phone is 0745-95-2010, hours 8:30–17:00, closed weekends and holidays. The official site is mitsuemori.org (somewhat dated/under construction in places). [gBizINFO](https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2150005004376)[Jalan](https://www.jalan.net/kankou/spt_29386ga3550157067/)
+It's a forestry cooperative (森林組合) headquartered at 〒633-1301 奈良県宇陀郡御杖村神末797 (office relocated 2026; see internal note), near the Sugano area where you are. Its corporate number is 2150005004376, registered as an "other incorporated-by-registration legal entity" (the standard legal form for a 森林組合 under the Forestry Cooperative Act). Phone is 0745-95-2010, hours 8:30–17:00, closed weekends and holidays. The official site is mitsuemori.org (somewhat dated/under construction in places). [gBizINFO](https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2150005004376)[Jalan](https://www.jalan.net/kankou/spt_29386ga3550157067/)
 
 It was founded in January 1952 (昭和27年1月) — so over 70 years old, dating to the early postwar afforestation era when sugi/hinoki plantation forestry was being established across rural Japan. [Wixsite](https://narawoodjob.wixsite.com/narawoodjob/blank-6)
 
@@ -95,7 +95,7 @@ Publicly listed recent activity includes about 65.98 hectares of thinning and 12
 
 ## Other details
 
-It is based at 1581 Sugano, Mitsue Village, Nara, and is also listed as a certified legal timber supplier. The village’s own materials mention that the cooperative also carries out its own forestry training and hands-on learning activities.
+It is based at 797 Kozue, Mitsue, Uda District, Nara 633-1301 (office relocated 2026; see internal note), and is also listed as a certified legal timber supplier. The village’s own materials mention that the cooperative also carries out its own forestry training and hands-on learning activities.
 
 ## Overall picture
 
@@ -163,7 +163,7 @@ Yes — here are **both**: a polished fact sheet and a bit of broader context wi
 ## Fact sheet
 
 - Name: 御杖村森林組合 (Mitsue Village Forest Cooperative).[^1][^2]
-- Address: 1581 Sugano, Mitsue Village, Uda District, Nara 633-1302.[^2][^3][^4]
+- Address: 797 Kozue, Mitsue, Uda District, Nara 633-1301 (office relocated 2026; see internal note).[^2][^3][^4]
 - Phone/FAX: 0745-95-2010 / 0745-95-3388.[^3][^2]
 - Established: January 12, 1952.[^1]
 - Capital contribution: 31,346,000 yen.[^1]

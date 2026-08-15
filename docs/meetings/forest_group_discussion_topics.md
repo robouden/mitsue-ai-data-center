@@ -1,4 +1,4 @@
-<!-- Version: v1.8 | Last modified: 2026-07-15 -->
+<!-- Version: v1.9 | Last modified: 2026-08-14 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -56,7 +56,7 @@ Sugano Organic (Tokuo Aomi) is proposed as the project's **first living prototyp
 - Equipment needed: feller, forwarder, chipper (own vs. rent vs. contract)
 - Chip sizing standard required by the CHP (P31S / P45, ~30–50 mm)
 - Annual volume target — how many ha/year to feed the recommended **2 × ~0.6 MWe plant (~1.1–1.2 MWe total)**? See `mitsue_forest_workforce_energy_plan.md` §4–5 for the full workforce-to-plant-size model.
-- Benchmark from Mishima Town study: 700–800 tonnes/year for a ≤50 kWe CHP; chip cost target ≤¥7,000/m³. This is our model's **calibration anchor**, not the target plant size — the actual scale is set by how much of the village forest the doubled/tripled Mitsue Kanko crew can harvest.
+- Benchmark from Mishima Town study: 700–800 tonnes/year for a ≤50 kWe CHP; chip cost target ≤¥7,000/m³. This is our model's **calibration anchor**, not the target plant size — the actual scale is set by how much of the village forest the doubled/tripled Mitsue Village Forest Association crew can harvest.
 - Transport route from forest to processing/storage site
 
 ### Drying & Storage

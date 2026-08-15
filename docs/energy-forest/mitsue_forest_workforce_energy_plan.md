@@ -1,4 +1,4 @@
-<!-- Version: v1.7 | Last modified: 2026-07-17 -->
+<!-- Version: v1.8 | Last modified: 2026-08-14 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -8,7 +8,7 @@
 ## 1. The core idea
 
 The bottleneck in Mitsue's forest is **not the trees — it is the crew and the machines**.
-御杖村森林組合 (Mitsue Kanko) today manages only a fraction of the village's
+御杖村森林組合 (Mitsue Village Forest Association) today manages only a fraction of the village's
 **7,051 ha** of forest, most of it as subsidised thinning rather than full harvest.
 
 This project's purpose is to **double — and over time triple — the cooperative's
@@ -41,7 +41,7 @@ gap the project closes.
 
 **Shimokawa** is the closest sustained-cycle model: a whole town forest run on
 **~50 ha/yr by a professional, mechanised crew**. It shows what a scaled-up
-Mitsue Kanko can look like.
+Mitsue Village Forest Association can look like.
 
 ## 4. What the workforce can realistically deliver
 
@@ -133,7 +133,7 @@ see `mitsue_biomass_visit_request_emails.md`.
 
 ## 6. Fuel handling & drying — equipment and cost
 
-Site the plant at the existing **Mitsue Kanko processing centre (牛峠工場, 神末797)**,
+Site the plant at the existing **Mitsue Village Forest Association processing centre (牛峠工場, 神末797)**,
 which already chips and dries wood, so the CHP's heat feeds the dryers directly
 (no heat transport) and closes the loop **CHP heat → dry chips → CHP fuel**.
 
@@ -205,10 +205,10 @@ rather than only cost. Kihada bark localises a supply Tenkawa currently buys out
 - **Value-add:** partner Pony no Sato Farm runs bark-stripping, natural-dyeing and woodworking
   workshops and plans kihada-heartwood furniture — i.e. the products stay local.
 
-**Training route for Mitsue Kanko:** Tenkawa also runs the **天川村森林塾 (Tenkawa Forest
+**Training route for Mitsue Village Forest Association:** Tenkawa also runs the **天川村森林塾 (Tenkawa Forest
 School)** — an 8-day felling/chainsaw course that has trained **60+ people since 2017,
 explicitly "from inside AND outside the village."** It is the concrete peer-village channel
-for up-skilling the doubled Mitsue Kanko crew (§1). Contact: ten.forestpower@gmail.com /
+for up-skilling the doubled Mitsue Village Forest Association crew (§1). Contact: ten.forestpower@gmail.com /
 0747-63-0321.
 
 > **Action:** open a knowledge-exchange with the Tenkawa Forest Power Council and森林塾, and

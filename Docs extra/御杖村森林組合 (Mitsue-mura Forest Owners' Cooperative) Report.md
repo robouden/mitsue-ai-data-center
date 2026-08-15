@@ -28,7 +28,7 @@ This report provides a comprehensive overview of the 御杖村森林組合 (Mits
 | Detail           | Information                                                                                                | Source |
 | :--------------- | :--------------------------------------------------------------------------------------------------------- | :----- |
 | **Name**         | 御杖村森林組合 (Mitsue-mura Forest Owners' Cooperative)                                                    | [2]    |
-| **Location**     | 1581 Sugano, Mitsue-mura, Uda-gun, Nara Prefecture, 633-1302, Japan                                        | [2]    |
+| **Location**     | 797 Kozue, Mitsue, Uda District, Nara 633-1301, Japan (office relocated 2026; see internal note)          | [2]    |
 | **Established**  | January 1952                                                                                               | [2]    |
 | **Capital**      | 31,346,000 JPY                                                                                             | [2]    |
 | **Business Area**| Mitsue Village                                                                                             | [2]    |

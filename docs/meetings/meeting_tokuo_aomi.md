@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-29 -->
+<!-- Version: v1.3 | Last modified: 2026-08-14 -->
 
 # Meeting Notes — Tokuo Aomi (青海 徳生) · Sugano Organic
 
@@ -68,7 +68,7 @@ Make Sugano Organic completely powered and heated by nature — using the Sugi t
 
 **Key insight:** His overgrown Sugi forest needs thinning anyway. The initial clearance alone fuels the first 9 years. Long-term, a small top-up from Mitsue community forest covers the gap — strengthening the community angle.
 
-Mitsue Kanko could help arrange the wood cutting and processing.
+Mitsue Village Forest Association could help arrange the wood cutting and processing.
 
 ### + CHP Heat Recovery (recommended add-on)
 | Item | Value |
@@ -103,7 +103,7 @@ Mitsue Kanko could help arrange the wood cutting and processing.
 >
 > I have an idea that could make Sugano Organic completely powered and heated by nature — using the Sugi trees on your own mountain. Nothing from distant power plants, nothing artificial.
 >
-> I would love to see your place become the first living proof of this in Mitsue — a prototype that others can follow. Mitsue Kanko could help with the wood cutting and processing, and the NGO I am setting up could arrange the logistics and funding.
+> I would love to see your place become the first living proof of this in Mitsue — a prototype that others can follow. Mitsue Village Forest Association could help with the wood cutting and processing, and the NGO I am setting up could arrange the logistics and funding.
 >
 > I would love to share the details with you soon.
 >

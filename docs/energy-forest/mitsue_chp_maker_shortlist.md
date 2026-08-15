@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-08-06 -->
+<!-- Version: v1.3 | Last modified: 2026-08-14 -->
 
 # Biomass CHP — Maker Shortlist
 
@@ -88,7 +88,7 @@ as a placeholder.
 
 ## Prototype siting (decided 2026-07-17)
 Site the Tier-A prototype on the **grounds of Sugano Organic (菅野, Tokuo Aomi; near 丹羽製材)**,
-fed by **wood chips trucked a short haul (~2 km straight-line; road distance to confirm) from the Mitsue Kanko worksite (牛峠工場, 神末797)**. Rationale:
+fed by **wood chips trucked a short haul (~2 km straight-line; road distance to confirm) from the Mitsue Village Forest Association worksite (牛峠工場, 神末797)**. Rationale:
 it de-risks the gasification tech *and* builds the Sugano Organic / 丹羽製材 fuel partnership on a
 real-fuel test, at a volume where the short chip haul is acceptable. (The later **commercial** CHP
 sits *at* 神末 to avoid haul and use waste heat for drying; the **GPU compute** co-locates there

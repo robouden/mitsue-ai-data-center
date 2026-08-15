@@ -1,4 +1,4 @@
-<!-- Version: v2.1 | Last modified: 2026-07-21 -->
+<!-- Version: v2.2 | Last modified: 2026-08-14 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -271,7 +271,7 @@ Because of the prior groundwork, your ask can be slightly more concrete than in 
 2. **Guidance on whom to consult next** — which 自治会 leaders, council members, prefectural contacts
 3. **An indication** of whether the village would be open to formal collaboration in due course (NOT a commitment, just openness)
 4. **Whether he prefers** further communication to go through the vice mayor or directly to him
-5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Kanko)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with species selection and site priority guided by our expert reforestation partners
+5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Village Forest Association)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with species selection and site priority guided by our expert reforestation partners
 6. **Whether the village would back — or co-present in — forestry recruitment outreach** as a direct answer to the worker-shortage he named (see record below). Concretely: presenting the project as a *reason to enter forestry here* to three channels — ①奈良県フォレスターアカデミー（吉野）, ②奈良県林業機械化推進センターの林業就業支援講習, ③森林の仕事ガイダンス／ならウッドジョブ — with 近処里英さん（御杖村森林組合）と我々が共同で説明（雇用主＋構想）. The co-op is a member of the 奈良県森林組合連合会, so ②③ are a natural insider route. Ties to his own 協力隊「応募ほぼゼロが2年連続」remark — a concrete fix, not just a complaint
 
 ### Citing the Village's Own Record (use if he's receptive)

@@ -1,11 +1,11 @@
-<!-- Version: v1.0 | Last modified: 2026-07-04 -->
+<!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
-# Mitsue Kanko — Workforce & Relocation Strategy
+# Mitsue Village Forest Association — Workforce & Relocation Strategy
 
 > **"Rewild a mountain, power an AI data center, and rebuild a village —
 > one job, one place, one 25-year story."**
 
-Doubling (and eventually tripling) the 御杖村森林組合 (Mitsue Kanko) crew is the single
+Doubling (and eventually tripling) the 御杖村森林組合 (Mitsue Village Forest Association) crew is the single
 lever that unlocks the whole forest→energy plan (see
 `mitsue_forest_workforce_energy_plan.md`). This document sets out how to attract the
 right people — **mission first, money as the enabler** — using Japan's existing
@@ -82,13 +82,13 @@ communities and media.
 **地域おこし協力隊 (~¥520万/yr × 3 yrs)** *or* **direct co-op hire + 緑の雇用 training
 subsidy** → **plus 移住支援金 ¥100万 + ¥100万/child** → **plus akiya housing + project
 top-up.** A genuinely competitive package — and after the 協力隊 term, a permanent
-Mitsue Kanko job is waiting (the retention fix most villages lack).
+Mitsue Village Forest Association job is waiting (the retention fix most villages lack).
 
 ---
 
 ## 4. What has to happen — setup actions (Phase 0–1)
 
-1. **Mitsue Kanko registers as a 緑の雇用 実施事業体** and posts jobs on Nara's matching
+1. **Mitsue Village Forest Association registers as a 緑の雇用 実施事業体** and posts jobs on Nara's matching
    site. *Unlocks both 緑の雇用 and 移住支援金 eligibility.* — Owner: co-op + project.
 2. **御杖村 creates 地域おこし協力隊 posts** framed around the forest→energy project
    (forestry + CHP/chip ops + tree-survey/eco-tourism). *A mayor/village decision — ties

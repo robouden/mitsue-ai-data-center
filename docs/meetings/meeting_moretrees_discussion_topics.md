@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-07-15 -->
+<!-- Version: v1.3 | Last modified: 2026-08-14 -->
 
 # more trees — Discussion Topics & Open Questions
 
@@ -76,7 +76,7 @@ in `mitsue_forest_workforce_energy_plan.md` §9.
 
 ## Related docs
 - `mitsue_forest_workforce_energy_plan.md` §9 — adopted more trees reforestation values
-- `Docs extra/forest_group_discussion_topics_jp.md` — Mitsue Kanko meeting questions
+- `Docs extra/forest_group_discussion_topics_jp.md` — Mitsue Village Forest Association meeting questions
 - `Docs extra/more_trees_annual_report_2025_EN.docx` — more trees 2025 annual report
 - Memory: `project_moretrees_partnership.md`
 - Japanese version: `meeting_moretrees_discussion_topics_jp.md`

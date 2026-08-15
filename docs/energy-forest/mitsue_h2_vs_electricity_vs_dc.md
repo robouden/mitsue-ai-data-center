@@ -1,4 +1,4 @@
-<!-- Version: v0.2 | Last modified: 2026-08-09 -->
+<!-- Version: v0.3 | Last modified: 2026-08-14 -->
 
 # Biomass → Hydrogen vs Electricity-sale vs DC-compute — Pathway Comparison
 
@@ -90,7 +90,7 @@ Conditions to verify:
   service area — 関電 here, so this is satisfied).
 - Off-takers need a **"close relationship" (密接な関係)** with the generator —
   typically same corporate group or affiliated entity. Village Office and Kozure
-  are separate legal entities from Mitsue Kanko / the project NGO — **this is the
+  are separate legal entities from Mitsue Village Forest Association / the project NGO — **this is the
   open question to check with 関電 / 経産省 early**, since it determines whether
   自己託送 is even available for those two off-takers.
 - Supply and demand must be matched in **30-minute blocks**, with financial

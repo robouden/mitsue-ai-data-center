@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-07-20 -->
+<!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
 # FAQ: Community Participation in Data Center Compute (not just forest/energy)
 
@@ -23,4 +23,4 @@ Questions from a friend, 2026-07-20.
 ## Q4: How will you tie data-center metrics (energy, workloads, uptime) back to things villagers care about day-to-day? And manage these requests?
 
 - Translate kWh/uptime into felt terms: "ran X hours of school computer time," "powered the onsen's heat pump," "covered village hall for a day" — same instinct as the CHP framing (dispatchable baseload beats the abstract "renewable" label).
-- Route project requests through 御杖村森林組合/Mitsue Kanko or the village office (existing 請願/陳情 channel) rather than an ad hoc queue — gives proposals legitimacy and keeps them inside a process officials already recognize.
+- Route project requests through 御杖村森林組合/Mitsue Village Forest Association or the village office (existing 請願/陳情 channel) rather than an ad hoc queue — gives proposals legitimacy and keeps them inside a process officials already recognize.

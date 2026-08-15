@@ -1,6 +1,6 @@
 # Forest Twin Model — Findings
 
-<p align="right">Version: v1.0 &nbsp;|&nbsp; Last modified: 2026-06-30</p>
+<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-08-14</p>
 
 ---
 
@@ -64,7 +64,7 @@ study.
 - At that scale it is both clearly profitable (~+200 M¥ / 50 yr) **and**
   carbon-stable, unlike one-way conversion.
 
-## Open question — for Mitsue Kanko (御杖村森林組合)
+## Open question — for Mitsue Village Forest Association (御杖村森林組合)
 
 The model gives the *target* (~320 ha sustainably managed). How much of the
 7,051 ha is **actually accessible and harvestable** is a question only the forest

@@ -1,4 +1,4 @@
-<!-- Version: v1.4 | Last modified: 2026-07-08 -->
+<!-- Version: v1.5 | Last modified: 2026-08-14 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
@@ -8,8 +8,8 @@
 <img src="../../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.4</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.5</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-08-14</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -95,7 +95,7 @@ The engine produces far more heat than electricity. Capturing this waste heat ra
 
 **Key point:** Mitsue's Sugi plantations are heavily overgrown and actively need thinning for forest health. The initial clearance is not a cost — it is forest restoration work that also produces the first 9 years of fuel for free.
 
-Long-term (after year 9), a supplementary ~16 tonnes/year can be sourced from Mitsue Village community forest — a small volume easily arranged through Mitsue Kanko or the village forest cooperative.
+Long-term (after year 9), a supplementary ~16 tonnes/year can be sourced from Mitsue Village community forest — a small volume easily arranged through Mitsue Village Forest Association or the village forest cooperative.
 
 ### Wood Processing Requirements
 The system requires air-dried wood chips or split logs (15–20% moisture content).
@@ -103,10 +103,10 @@ The system requires air-dried wood chips or split logs (15–20% moisture conten
 | Equipment needed | Note |
 |------------------|------|
 | Chainsaw + log splitter | For initial thinning — may already be owned |
-| Wood chipper (if chips preferred) | Rental or shared with Mitsue Kanko |
+| Wood chipper (if chips preferred) | Rental or shared with Mitsue Village Forest Association |
 | Covered wood drying storage | ~50 m² shed, 3–6 months drying time |
 
-**Mitsue Kanko** can potentially coordinate the annual thinning and processing as a service, supporting multiple village landowners over time.
+**Mitsue Village Forest Association** can potentially coordinate the annual thinning and processing as a service, supporting multiple village landowners over time.
 
 ---
 
@@ -164,7 +164,7 @@ Partnering with the Forest Cooperative does **not** block our energy grants — 
 
 **Watch-out — J-Credit double-counting:** Each tonne of CO₂ can be claimed once, by one entity. Our J-Credit angle is **fossil-fuel displacement** (kerosene + grid avoided by the CHP), a different methodology from forest-carbon *absorption* — so they can coexist if scoped separately. **Verify before assuming both:** confirm the cooperative's / landowner's current J-Credit registration status for Tokuo's parcels, and confirm the same-parcel thinning subsidy is not double-claimed in one period.
 
-*(Note: 御杖村森林組合 — also referred to locally as Mitsue Kanko — is the village's sole forestry operator, handling cutting, forest care, and the wood cutting/processing logistics named earlier in this proposal.)*
+*(Note: 御杖村森林組合 — also referred to locally as Mitsue Village Forest Association — is the village's sole forestry operator, handling cutting, forest care, and the wood cutting/processing logistics named earlier in this proposal.)*
 
 ---
 
