@@ -1,0 +1,81 @@
+<p align="right">Version: v1.0 | Last modified: 2026-08-18</p>
+
+---
+
+# People Register — Mitsue Village AI Data Center Project
+
+Local text mirror of the "Mitsue Project — People Register" artifact. Everyone currently in contact or engaged with the project — advisors, local partners, government contacts, and prospective collaborators.
+
+## Core Team
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Rob Oudendijk | Founder & Project Lead, YR-Design | 080-2260-5966 / oudendijk.biz@gmail.com | 2026-08-06 — Ongoing daily project work |
+| Yuka Hayashi (石村ゆか) | Colleague / co-presenter | yuuka1213@hotmail.com | 2026-07-29 — Sugano Organic meeting |
+| San Poisson | Project Manager | sanpoisson@gmail.com | 2026-07-29 — Sugano Organic meeting |
+
+## Advisors
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Takuo Dome (堂目卓生) | Specially Appointed Professor, Osaka Univ.; Rep. Director, 一般社団法人いのち会議 | t-dome@econ.osaka-u.ac.jp | 2026-08-06 — Forester Academy endorsement finalized & submitted |
+| Ray Ozzie | Creator of Lotus Notes; former Microsoft CSA | — | 2026-05-05 — Confirmed as advisor |
+| Henry Takata (高田誠一) | Rep. Director, SynTech Japan; Japan Board, U.S.-Japan Council | — | 2026-07-16 — Confirmed; biomass CHP + biz-dev advice |
+| Evin Zoet | Co-Representative Director, Transom | elvinzoet@transom.jp | 2026-06-16 — Confirmed as advisor |
+| Yoshiko Zoet-Suzuki | Co-Representative Director, Transom | yoshikozoetsuzuki@transom.jp | 2026-06-16 — Confirmed as advisor |
+| Yuko Koshiba | Philanthropy Advisor, PA-Inc | yuko.koshiba@philanthropy-advisors.jp | 2026-07-20 — 3 questions + 公益法人 support offer outstanding |
+| Takahisa Watanabe (渡邉貴久) | Managing Associate — Legal Advisor, Linklaters Tokyo | takahisa.watanabe@linklaters.com | 2026-07-24 — Confirmed pro bono support; advised keeping entity structure open in Phase 0 |
+| Yuji Nakano (中野雄司) | Attorney — Legal Advisor, TMI Associates | Yuji_Nakano@tmi.gr.jp | 2026-06-14 — Confirmed pro bono support; sent entity-structure (NPO/一般社団法人) comparison |
+| Sotaro Hotta (堀田総太郎) | Attorney — Legal Advisor, likely Nishimura & Asahi (unconfirmed) | — | 2026-07-08 — Confirmed pro bono support |
+| Karsten Klein | CEO & Founder, KLEIN K.K. Advisory Services Japan (Tokyo) — AI data centre consultant: AI governance (ISO 42001), cybersecurity/infosec (ISO 27001), data privacy (GDPR); ex-Nomura/Lehman/UBS/NN Life risk & control infra; PhD electronic engineering, Cambridge | https://www.kleinkk.co.jp/ | 2026-08-18 — First online meeting; discussed how the AI data center should be run: hardware, software, layers, and security |
+
+## Local Partners / Contacts
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | — | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
+| Tokuo Aomi (青見) | CHP prototype partner, Sugano Organic | — | 2026-06-23 — Outreach email sent |
+| Niwa-san (丹羽) | Fuel-supply partner (sawmill), 丹羽製材, Sugano | — | 2026-07-29 — Joint fuel-chipper discussion ongoing |
+| Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
+| Nishimura Yuki (西村) | Local contact ("Carp guy from Mitsue") | nishimura2099@gmail.com | 2026-05-06 — Project Q&A exchange |
+
+## Government
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Nakajima Hideki (中島秀樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
+| Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
+| Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
+
+## Partner Orgs / Contacts
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Mizutani Shinkichi (水谷伸吉) | 事務局長 (Secretary-General), more trees | — | 2026-07-14 — Key decision-maker; Miyazaki reports to him |
+| Kishi (岸) | Staff, more trees | kishi@more-trees.org | 2026-08-05 — Live thread, reply owed |
+| Miyazaki (宮﨑) | Staff, more trees | miyazaki@more-trees.org | 2026-08-05 — Live thread, reply owed |
+| Michael Goldberg | Thread participant, more trees | ivw@gol.com | 2026-07-24 — CC'd on live more trees thread |
+| Kaz Shiozaki (塩崎) | President, NAIST | — | 2026-07-22 — Connected Rob to Kubo; not yet an advisor |
+| Minoru Kubo (久保) | Assoc. Professor, Center for Digital Green Innovation, NAIST | — | 2026-07-22 — Outreach sent; living lab / SDGs program hooks |
+| James Hill | JSPS Postdoctoral Fellow — paleoecology of Japanese sacred groves, Osaka Metropolitan Univ. (host: Jun Inoue) | — | 2026-08-07 — Identified as prospect; not yet contacted |
+
+## Financial / Funder Contacts
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Nao Uesaka (上坂奈央) | Representative, Mizuho Securities | nao.uesaka@mizuho-sc.com | 2026-08-05 — Meeting went well; deck + broadleaf list promised |
+| You Li | Representative, Mizuho Securities | you.li@mizuho-sc.com | 2026-07-01 — No public profile found; unconfirmed contact |
+| Yuya Kato (加藤祐也) | Impact Officer, SIIF (Social Impact Investment Foundation) | kato@siif.or.jp | 2026-07-08 — Morgan Lewis event; outcome-financing discussion |
+
+## Vendors / Prospects
+
+| Name | Role / Org | Contact | Last Activity |
+|---|---|---|---|
+| Fujitex | Chipper supplier — RFQ contact | fjenergy@fjtex.co.jp | 2026-08-01 — RFQ drafted, not yet sent |
+| Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | — | Identified as potential partner; not yet contacted |
+
+---
+
+## Notes
+
+- 2026-08-18: First online meeting with Karsten Klein. Discussed how the AI data center should be run — hardware, software, layers, and security.

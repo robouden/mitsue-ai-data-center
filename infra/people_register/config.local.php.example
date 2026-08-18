@@ -1,0 +1,4 @@
+<?php
+// Copy to config.local.php (gitignored) and fill in the real password.
+// Read by people.php.
+$pass = 'REPLACE_WITH_AGENTMESH_DB_PASSWORD';

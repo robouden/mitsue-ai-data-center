@@ -7,3 +7,4 @@ research/tenkawa_koho/raw/
 
 .entire/
 infra/.env
+infra/people_register/config.local.php
