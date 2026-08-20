@@ -86,6 +86,7 @@ const PRINT_OVERRIDE = `
     /* no line-break:anywhere — it forces arbitrary breaks even inside Latin words;
        CJK wraps fine between characters by default under Unicode line-breaking rules */
   }
+  .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
 `;
 
 function buildStyleBlock(themeName) {

@@ -1,0 +1,16 @@
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L2] User: what model are you?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L5] Assistant: I am Gemma 4, a Large Language Model developed by Google DeepMind.
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L6] User: can you calculate how many token per minutesI can use running with you?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L7] User: [Queued user message from a previous active turn; preserved as context only. Continue with the active prompt below.] can you calculate how many token per minutesI can use running with you?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L8] Assistant: I do not have real-time, per-minute token usage statistics for this session. Token consumption is typically tracked by the API calls made to the underlying model. As an assistant, I operate based on the prompts and context provided to me, and I do not have access to th
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L10] Assistant: I apologize, but as I mentioned previously, I do not have access to real-time, per-minute token usage statistics for our interaction. This information is usually managed by the service provider and is not exposed to me directly in this session. I can only process the i
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L11] User: You have internet access?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L12] User: [Queued user message from a previous active turn; preserved as context only. Continue with the active prompt below.] You have internet access?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L13] Assistant: No
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L15] Assistant: I do not have real-time, per-minute token usage statistics for this session. Token consumption is typically tracked by the API calls made to the underlying model. Therefore, I cannot provide a precise "tokens per minute" rate.
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L16] User: New question, you have internet access?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L17] User: [Queued user message from a previous active turn; preserved as context only. Continue with the active prompt below.] New question, you have internet access?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L18] Assistant: I do not have access to real-time, external internet access unless a specific tool is provided and invoked for that purpose. Based on the tools available to me, I do not have a built-in, general web browsing capability in this session context.
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L20] Assistant: No
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L21] User: can you calculate how many token per minutesI can use running with you?
+[main/sessions/main/7c5f3b29-3665-4966-a2da-2c9873463271#L23] Assistant: I do not have access to the real-time metering, rate limits, or the specific billing tier of the service provider you are using to interact with me. Therefore, I cannot calculate or provide a precise "tokens per minute" (TPM) limit for your account. Token limits are ty

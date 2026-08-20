@@ -1,10 +1,10 @@
-<!-- Version: v4.0 | Last modified: 2026-08-14 -->
+<!-- Version: v4.2 | Last modified: 2026-08-20 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">バイオマスエネルギーとAI</h1>
 <p style="font-size:10pt; color:#666; margin:0 0 1mm;">御杖村における地域植林 ― 生態系・エネルギー・デジタルインフラ</p>
-<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.0 · 2026-08-14 · ロブ・アウデンダイク</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.2 · 2026-08-20 · ロブ・アウデンダイク</p>
 </div>
 
 > 先人が植えた森が、今、村を支える力になる。
@@ -35,13 +35,15 @@
 
 **ロブ・アウデンダイク** ― オランダ出身の電気エンジニア。2012年より御杖村在住。市民科学ネットワーク [Safecast](https://safecast.org) のコアハードウェア開発者。
 
-**アドバイザー：** レイ・オジー（Blues）· サン・プアッソン · 堂目卓生（大阪大学名誉教授）· エヴィン・ズート／ヨシコ・ズート鈴木（Transom）
+**アドバイザー：** レイ・オジー（Blues）· サン・プアッソン · 堂目卓生（大阪大学名誉教授）· エヴィン・ズート／ヨシコ・ズート鈴木（Transom）· ヘンリー・タカタ（バイオマスプラント運営）
 
 地域住民・村の指導者・林業専門家・学術パートナーとともに、専任の**非営利法人**を設立中です。
 
 <div class="page-break"></div>
 
 ## 恩恵は25年を待たずに訪れます
+
+<div style="page-break-inside: avoid; break-inside: avoid;">
 
 | 時期 | マイルストーン |
 |---|---|
@@ -51,6 +53,8 @@
 | 4〜5年目 | データセンター稼働・地域雇用開始 |
 | 5〜10年目 | データ収益を村と森林プログラムへ再投資 |
 | 25年目 | 在来混交林が完成、モデルを世界へ公開 |
+
+</div>
 
 ## 資金調達 ― シードマネーを求めています
 

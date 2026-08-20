@@ -1,10 +1,10 @@
-<!-- Version: v4.0 | Last modified: 2026-08-14 -->
+<!-- Version: v4.2 | Last modified: 2026-08-20 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">BIOMASS ENERGY & AI</h1>
 <p style="font-size:10pt; color:#666; margin:0 0 1mm;">Reforesting in Mitsue ― Ecology · Energy · Digital Infrastructure</p>
-<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.0 · 2026-08-14 · Rob Oudendijk</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.2 · 2026-08-20 · Rob Oudendijk</p>
 </div>
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
@@ -35,13 +35,15 @@ These are not three separate ideas — each one makes the others possible.
 
 **Rob Oudendijk** — Dutch electrical engineer, resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org).
 
-**Advisors:** Ray Ozzie (Blues) · San Poisson · Takuo Dome (Prof. Emeritus, Osaka University) · Evin Zoet / Yoshiko Zoet-Suzuki (Transom)
+**Advisors:** Ray Ozzie (Blues) · San Poisson · Takuo Dome (Prof. Emeritus, Osaka University) · Evin Zoet / Yoshiko Zoet-Suzuki (Transom) · Henry Takata (biomass plant operations)
 
 A dedicated **non-profit** is being established with local residents, village leadership, forestry professionals, and academic partners.
 
 <div class="page-break"></div>
 
 ## Benefits Arrive Well Before Year 25
+
+<div style="page-break-inside: avoid; break-inside: avoid;">
 
 | Timeline | Milestone |
 |---|---|
@@ -51,6 +53,8 @@ A dedicated **non-profit** is being established with local residents, village le
 | Year 4–5 | Data center operational; local jobs begin |
 | Year 5–10 | Data revenue reinvested into village and forest programmes |
 | Year 25 | Native forest established; model published worldwide |
+
+</div>
 
 ## Financing — Seeking Seed Money
 

@@ -1,4 +1,4 @@
-Please do a<!-- Version: v1.1 | Last modified: 2026-08-14 -->
+Please do aWe have a teams <!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
 # Meeting Prep — Yuko Koshiba & Michael Goldberg (2026-08-13)
 
