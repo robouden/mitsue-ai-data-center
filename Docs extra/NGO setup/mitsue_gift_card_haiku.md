@@ -1,3 +1,4 @@
+<!-- File: mitsue_gift_card_haiku.md | Version: v1.0 | Last modified: 2026-08-20 -->
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif; max-width:148mm; margin:0 auto; padding:12mm; border:1px solid #ccc; text-align:center;">
 
 <p style="font-size:7pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 6mm;">バイオマスエネルギーとAI · The BIOMASS ENERGY & AI project</p>

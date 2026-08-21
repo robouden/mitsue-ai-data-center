@@ -1,3 +1,4 @@
+<!-- File: mitsue_mascot_permit_application.md | Version: v1.0 | Last modified: 2026-08-20 -->
 <div style="text-align:right; font-size:0.9em;">様式第１号（第３条関係）</div>
 
 <div style="text-align:right; margin-top:1em;">令和８年６月２３日</div>

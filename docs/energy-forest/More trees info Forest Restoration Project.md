@@ -1,3 +1,4 @@
+<!-- File: More trees info Forest Restoration Project.md | Version: v1.0 | Last modified: 2026-08-20 -->
 Tenkawa Village in Nara Prefecture partners with the [more trees](https://www.more-trees.org/category/forests/project14/) conservation organization to restore harvested cedar and cypress plantation lands into biodiverse broadleaf forests, notably through corporate-backed initiatives like the "UGG Forest" project. [1, 2, 3, 4] 
 
 ## Forest Restoration Project

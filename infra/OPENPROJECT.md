@@ -1,3 +1,4 @@
+<!-- File: OPENPROJECT.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # OpenProject — Mitsue Village Project
 
 OpenProject is hosted on a VPS and accessible from any browser at **https://openproject.mitsue.it**.

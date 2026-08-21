@@ -1,3 +1,4 @@
+<!-- File: Sugi (Japanese cedar) vs. broadleaf trees.md | Version: v1.0 | Last modified: 2026-08-20 -->
 If by **carbon footprint** you mean **how much carbon a tree removes from the atmosphere and stores**, the answer is a little nuanced. It depends on age, growth rate, wood density, and how the forest is managed.
 
 ## Sugi (Japanese cedar) vs. broadleaf trees

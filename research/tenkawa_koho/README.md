@@ -1,3 +1,4 @@
+<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Tenkawa Village (天川村) Council Research — from 広報てんかわ
 
 **Read this first: this is NOT a minutes archive.** Tenkawa Village does not publish full council meeting minutes (議事録) online — no kaigiroku.net-style system, no minutes PDFs. The only digitized public archive of council activity is **広報てんかわ**, the monthly public-relations bulletin, which includes a "**議会だより**" (council news) section each issue that *summarizes* that month's/quarter's council session — agenda items, budget votes, ordinance changes, appointment consents. Every finding in this folder traces back to that summary, written by village staff, not to a verbatim transcript. This mirrors `research/council_minutes/` (the Mitsue full-minutes archive) in structure and CSV schema, but the underlying source material is fundamentally thinner — treat the two archives' findings as not directly comparable in depth.

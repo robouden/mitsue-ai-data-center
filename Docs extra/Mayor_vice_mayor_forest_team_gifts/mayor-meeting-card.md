@@ -1,3 +1,4 @@
+<!-- File: mayor-meeting-card.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mayor & Vice Mayor — Kaya Seed Presentation Card
 
 **Occasion:** Presentation of hand-collected kaya (榧) seeds in a self-made

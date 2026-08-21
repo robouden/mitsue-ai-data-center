@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 | Last modified: 2026-08-18</p>
+<p align="right">Version: v1.1 | Last modified: 2026-08-21</p>
 
 ---
 
@@ -28,6 +28,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Yuji Nakano (中野雄司) | Attorney — Legal Advisor, TMI Associates | Yuji_Nakano@tmi.gr.jp | 2026-06-14 — Confirmed pro bono support; sent entity-structure (NPO/一般社団法人) comparison |
 | Sotaro Hotta (堀田総太郎) | Attorney — Legal Advisor, likely Nishimura & Asahi (unconfirmed) | — | 2026-07-08 — Confirmed pro bono support |
 | Karsten Klein | CEO & Founder, KLEIN K.K. Advisory Services Japan (Tokyo) — AI data centre consultant: AI governance (ISO 42001), cybersecurity/infosec (ISO 27001), data privacy (GDPR); ex-Nomura/Lehman/UBS/NN Life risk & control infra; PhD electronic engineering, Cambridge | https://www.kleinkk.co.jp/ | 2026-08-18 — First online meeting; discussed how the AI data center should be run: hardware, software, layers, and security |
+| Minoru Kubo (久保), Ph.D. | Assoc. Professor, Center for Digital Green-innovation (CDG), NAIST, 8916-5 Takayama-cho, Ikoma, Nara 630-0192 | +81-743-72-6082 (ex.3037) / m.kubo@bs.naist.jp / https://cdgw3.naist.jp/ | 2026-08-21 — Contact info added; connected via Shiozaki (NAIST President) |
 
 ## Local Partners / Contacts
 
@@ -56,7 +57,6 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Miyazaki (宮﨑) | Staff, more trees | miyazaki@more-trees.org | 2026-08-05 — Live thread, reply owed |
 | Michael Goldberg | Thread participant, more trees | ivw@gol.com | 2026-07-24 — CC'd on live more trees thread |
 | Kaz Shiozaki (塩崎) | President, NAIST | — | 2026-07-22 — Connected Rob to Kubo; not yet an advisor |
-| Minoru Kubo (久保) | Assoc. Professor, Center for Digital Green Innovation, NAIST | — | 2026-07-22 — Outreach sent; living lab / SDGs program hooks |
 | James Hill | JSPS Postdoctoral Fellow — paleoecology of Japanese sacred groves, Osaka Metropolitan Univ. (host: Jun Inoue) | — | 2026-08-07 — Identified as prospect; not yet contacted |
 
 ## Financial / Funder Contacts

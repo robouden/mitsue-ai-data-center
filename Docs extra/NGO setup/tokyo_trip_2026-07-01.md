@@ -1,3 +1,4 @@
+<!-- File: tokyo_trip_2026-07-01.md | Version: v1.0 | Last modified: 2026-08-20 -->
 <style>
   html { font-size: 12px !important; }
   body { line-height: 1.4 !important; }

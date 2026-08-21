@@ -1,3 +1,4 @@
+<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mitsue Forest Twin (simple version)
 
 A 50-year "what if" simulator for Mitsue's sugi forest. Stdlib Python only.

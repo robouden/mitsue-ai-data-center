@@ -1,3 +1,4 @@
+<!-- File: mitsue_impact_handout_jp.md | Version: v1.0 | Last modified: 2026-08-20 -->
 <div style="font-family:-apple-system,'Hiragino Sans','Yu Gothic UI',Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">バイオマスエネルギーとAI</h1>

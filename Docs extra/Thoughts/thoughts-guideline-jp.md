@@ -1,3 +1,4 @@
+<!-- File: thoughts-guideline-jp.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # プロジェクト指針 — 理念と実務の整合
 
 この文書は、[thoughts-clean.md](thoughts-clean.md) に記した思いを、指針（原則）と具体的な

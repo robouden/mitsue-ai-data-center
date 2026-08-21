@@ -1,3 +1,4 @@
+<!-- File: Community Development Promotion Division information request jp.md | Version: v1.0 | Last modified: 2026-08-20 -->
 御杖村役場  
 むらづくり振興課　ご担当者様
 

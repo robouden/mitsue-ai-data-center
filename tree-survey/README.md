@@ -1,3 +1,4 @@
+<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mitsue Mother Tree Survey 🌳 / 御杖村 母樹調査アプリ
 
 A tablet/phone web app for cataloguing Mitsue's native **"mother trees"** — old,

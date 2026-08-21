@@ -1,3 +1,4 @@
+<!-- File: README1.md | Version: v1.0 | Last modified: 2026-08-20 -->
    
 **BIOMASS ENERGY & AI — バイオマスエネルギーとAI**  
 **Reforesting in Mitsue — 御杖村における地域植林**  

@@ -1,3 +1,4 @@
+<!-- File: PDF_CONVERSION_GUIDE.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # PDF Conversion Guide
 
 This document outlines the standardized process for converting Markdown (`.md`) files to PDF in the Mitsue Village Project AI Data Center.

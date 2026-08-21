@@ -1,3 +1,4 @@
+<!-- File: report-recovery.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Reporting Recovery Protocol
 
 When the automated Daily Activity Report is empty or missing usage times despite the user being active:

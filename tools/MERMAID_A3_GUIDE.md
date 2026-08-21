@@ -1,3 +1,4 @@
+<!-- File: MERMAID_A3_GUIDE.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mermaid A3 One-Pager Guide
 
 How to build a one-page A3 landscape PDF with 4 mermaid diagrams in a 2x2

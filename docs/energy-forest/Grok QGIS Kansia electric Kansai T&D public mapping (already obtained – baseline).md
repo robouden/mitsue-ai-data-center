@@ -1,3 +1,4 @@
+<!-- File: Grok QGIS Kansia electric Kansai T&D public mapping (already obtained – baseline).md | Version: v1.0 | Last modified: 2026-08-20 -->
 **Reconstructing the real 6.6 kV distribution network in Mitsue Village (御杖村) is feasible and high-value for the biomass CHP + edge data center project**, especially for blackout resilience, interconnection studies, and siting. Official Kansai Transmission & Distribution (関西電力送配電) maps stop at higher voltages or aggregate levels; the 6.6 kV feeder network is denser, more local, and largely overhead in this mountainous rural area.
 
 Your five source categories are solid. Here is a practical prioritization and how to extract usable geometry, topology, and attributes from each.

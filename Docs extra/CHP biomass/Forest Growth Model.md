@@ -1,3 +1,4 @@
+<!-- File: Forest Growth Model.md | Version: v1.0 | Last modified: 2026-08-20 -->
 I think this is exactly the kind of project that deserves to be done properly rather than as a toy spreadsheet. A good model could become the basis of a feasibility study for Mitsue Village or even a grant application.
 
 I would split it into **six interacting models**.

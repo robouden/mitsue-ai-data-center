@@ -1,3 +1,4 @@
+<!-- File: thoughts.md | Version: v1.0 | Last modified: 2026-08-20 -->
 I see the forest that the older people planted becoming the power for their grandchildren. In the same way, the hinoki from Aomi at Sugano Organic — planted by his grandfather — became, through the help of Niwa-san, the beautiful desk in this office.
 
 I want the older people to feel that the trees they sowed will become the power that stores their memories, and the memories of the whole world, in an AI data center. Their knowledge and wisdom power the newest generation.

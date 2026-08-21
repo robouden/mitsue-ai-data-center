@@ -1,3 +1,4 @@
+<!-- File: thoughts-guideline.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Project Guideline — Aligning the Work with the Vision
 
 This document turns the reflections in [thoughts-clean.md](thoughts-clean.md) into a set of guiding

@@ -1,3 +1,4 @@
+<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mitsue Village Council Minutes — Research Summary
 
 Source: 100 PDFs from the village council minutes archive (https://www.vill.mitsue.nara.jp/kurashi/annai/gikaijimukyoku/1/1/336.html), covering H29/2017 through R8/2026 (this is a superset of the H31/2019-R8/2026 range originally scoped — 22 extra Heisei-era files from 2017-2018 were also present in the link list and were processed for free).

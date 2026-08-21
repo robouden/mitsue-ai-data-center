@@ -1,3 +1,4 @@
+<!-- File: timeline.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Mitsue Village Council — Major Project Timeline (>Y10,000,000)
 
 Chronological milestones for projects exceeding Y10M discussed in the council minutes archive (2017-2026 coverage). Amounts are the contract/award figures actually quoted in the transcripts where located; see `projects.csv` for funding source and contractor detail, and `master_spreadsheet.csv` / `keyword_hits.csv` for the full raw keyword scan this was drawn from.

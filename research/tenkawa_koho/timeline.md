@@ -1,3 +1,4 @@
+<!-- File: timeline.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Tenkawa Village (天川村) Council Timeline — from 広報てんかわ 議会だより
 
 **Source note (read first):** Tenkawa does not publish full council minutes (議事録) online. Everything below is derived from the "議会だより" (council news) section of 広報てんかわ, the monthly public-relations bulletin — a **summary** written by village staff, typically covering: session dates, agenda items voted on (認定/可決/同意 — approved/passed/consented), budget figures, and occasionally a one-paragraph 一般質問 (general-question) exchange. It is **not a verbatim transcript** and does not consistently name bid amounts, bidder counts, or contractors the way Mitsue's full 議事録 archive does. Treat every claim below as bounded by what this specific bulletin chose to report.

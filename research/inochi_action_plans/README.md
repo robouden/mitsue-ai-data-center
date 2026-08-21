@@ -1,3 +1,4 @@
+<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # Inochi Forum — Action Plans Reference Database
 
 Source: `Action Plans.pdf` ("Action Plans to Realize the *Inochi* Declaration", *Inochi* Forum, Oct 11, 2025), originally in `~/Downloads/Action.pdf` / `Action Plans.pdf`. Copied here at `pdf/Action Plans.pdf`.

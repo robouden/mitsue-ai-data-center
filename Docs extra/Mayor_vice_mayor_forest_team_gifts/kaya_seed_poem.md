@@ -1,3 +1,4 @@
+<!-- File: kaya_seed_poem.md | Version: v1.0 | Last modified: 2026-08-20 -->
 # 榧の種 · A seed of kaya
 
 _Rob Oudendijk · バイオマスエネルギーとAI · BIOMASS ENERGY & AI project · 2026_
