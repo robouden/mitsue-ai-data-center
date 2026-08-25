@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 | Last modified: 2026-08-21</p>
+<p align="right">Version: v1.3 | Last modified: 2026-08-26</p>
 
 ---
 
@@ -58,6 +58,10 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Michael Goldberg | Thread participant, more trees | ivw@gol.com | 2026-07-24 — CC'd on live more trees thread |
 | Kaz Shiozaki (塩崎) | President, NAIST | — | 2026-07-22 — Connected Rob to Kubo; not yet an advisor |
 | James Hill | JSPS Postdoctoral Fellow — paleoecology of Japanese sacred groves, Osaka Metropolitan Univ. (host: Jun Inoue) | — | 2026-08-07 — Identified as prospect; not yet contacted |
+| Sugimoto Kazuya (杉本和也) | 森林総合監理士 (Certified Forest General Manager), 天川村地域林政アドバイザー / 洞川財産区森林アドバイザー, 奈良県森林整備普及協会事務局長 — 杉本森林総合監理士事務所 (Forstwald), Tenkawa Village | 090-6050-0752 / forstwald2019@gmail.com / https://forstwald2019.wixsite.com/forstwald | 2026-08-25 — Met during Tenkawa visit with 3 more trees staff; impressed by project, wants Tenkawa in the AI mesh; sent explanatory PDF |
+| Sugiura Kiminori (杉浦公則) | External Affairs (渉外), more trees | 03-5770-3969 / sugiura@more-trees.org | 2026-08-25 — Met during Tenkawa visit alongside Sugimoto Kazuya |
+| Kishi Takuya (岸卓弥) | External Affairs Director (渉外ディレクター), more trees | — | 2026-08-25 — Met during Tenkawa visit alongside Sugimoto Kazuya |
+| Endo Satoshi (遠藤智史, reading unconfirmed) | External Affairs (渉外), more trees | — | 2026-08-25 — Met during Tenkawa visit alongside Sugimoto Kazuya |
 
 ## Financial / Funder Contacts
 

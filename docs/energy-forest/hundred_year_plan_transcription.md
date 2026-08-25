@@ -161,6 +161,123 @@ Thinking about health must be positioned as a central pillar of the 100-Year Pla
 
 ---
 
+## Pages No.2–No.8 — Health Plan, continued (260824_1307_001.pdf)
+
+*Handwritten continuation of the 保健計画 (Health Plan) essay above. Cursive manuscript; transcription is best-effort — some characters uncertain.*
+
+### Page No.2
+
+**Japanese (paraphrase-transcription)**
+
+…この計画実践の教典となる事業であります。ところでこの施設は、病気を発見し治療する所ではありません。また、人間ドックの施設でもありません。ライフ・スタイル・デザインすることが役目であります。デザインするとは、個々の実態に即した適切な処方（栄養等）により健康増進させ、常の生活状況及び心身の状態を正しく把握し、適切なる処方、即ち栄養・運動・休養を図ることであります。いのちのふるさと保健計画の目的は、地域住民とこの施設を利用する人達、特に高齢者、健康に不安をかかえる人達に対して、どのようにして自分自身の健康を維持したらよいか、過度の精神的ストレスなど健康に悪い習慣をやめるにはどうしたらよいか、ということを話をすすめたいと思います。ここでは、健康と治癒の二点に的を絞ります。
+
+一、生涯にわたる教育
+・生涯にわたる健康
+・生涯にわたる福祉
+
+今日よりも明日、明日よりも未来へと、少しでもより良き生活をすると考え、感じ、行動する教育の場でもあります。
+
+**English**
+
+…this is the guiding work for putting the plan into practice. This facility, however, is not a place to detect and treat illness, nor is it a "human dock" (comprehensive health-screening) facility. Its role is to design *lifestyle*. To "design" means to grasp each person's actual daily and mind-body condition accurately, and to prescribe appropriately — i.e., nutrition, exercise, and rest — suited to their individual situation, so as to promote health. The purpose of the Homeland-of-Life Health Plan is to address local residents and users of this facility, especially the elderly and those anxious about their health: how should one maintain one's own health, and how does one break bad habits — excessive mental stress, and the like — that harm health. Here we will focus on two points: health and healing.
+
+1. Lifelong education
+- Lifelong health
+- Lifelong welfare
+
+This is also a place of education for thinking, feeling, and acting so as to live a little better today than yesterday, and a little better tomorrow than today.
+
+---
+
+### Page No.3
+
+*Cursive handwriting on this page is harder to resolve than No.2/No.8 — Japanese below is a best-effort reading, not a certified transcript.*
+
+**Japanese (best-effort)**
+
+を教え学ぶところであります。この目的を達成するために、宇宙のいのち、命全体で、東洋医学・仏教医学を土台とした「生命医学」に立脚する完全なる医学専門家グループの指導のもとに、第一段階は、体力検査・生活状態の細かい調査を行います。次に、体育、栄養の観点から各人にとって最も適切な生活習慣について専門的な助言を与えます。そして、この保健討論会の基本的な考え方は「安心感」を施設利用者に与えることであります。健康は単にハードの面だけでなく精神面から考えることも必要でありますが、この施設（近代的重装備の病院、福祉施設）も必要であります。同時に精神的な福祉施設も必要であると考えることが大切であります。健康生活を実現するには、ハード面からの健康管理とメンタル面の健康、精神的な生き甲斐のほかに、宗教的な深い安心感というものが非常に大切であると私は思います。病気になったときの対策…
+
+**English (paraphrase)**
+
+The purpose is to achieve this goal — a facility for cosmic life, life itself, and full-body [holistic] approach grounded in both Eastern medicine/Buddhist medicine and Western medicine. Understanding the flow of things at its root, under the guidance of specialists in "life medicine" (生命医学) group, first-stage screening covers full clinical checks: health, physical condition, diet and other detailed items — a general and complete life-pattern survey — followed by data-based medical evaluation from specialists in physical education, nutrition, and clinical fields, each giving advice on their specialty. This health/preventive-checkup program is built around a "sense of security/reassurance" (安心感) for the user. Facility users consider health not just in terms of hardware (equipment) but of realizing healthy living — mental and spiritual well-being matters as much as physical facilities. Modern medical/hospital-type equipment is necessary, but the software side — spiritual and welfare-related programming — matters equally. …when one becomes ill, I think a sense of security is what matters most to people, more than modern equipment.
+
+---
+
+### Page No.4
+
+**Japanese (best-effort)**
+
+も大切ですが、日常生活の中で積極的に健康の保持、増進につとめることがより大切であります。健康増進はやはり医者にかかってからではなく、常にこの三つを大切にして健康増進を図ることであります。運動、栄養、休養であります。そして、その実行の「場」は「自然のいのち」がある山村、漁村が最適地であるとも私は考えております。それが今日の変化してきた社会の中で医療技術やそれを取り巻く状況も変化してきております。医療技術が変わり、社会や経済的な価値観の移行と、成長経済の構造から循環経済への提供する仕組みの変革が求められ、新しい循環作用が切実に求められております。今日、医療に対しても新しい酒を古い革袋に入れるようなことではなく、これからの医療のあるべき姿を考えます。私は医療が国民生活全般にかかわっていると申し上げたい。国民の福祉への「実」の変化が大切なことであります。福祉の変化が大切になってきます。それは自助の福祉であって、これまでの「与えられるもの」というだけではなく、国民自らが何とか耐えなければ、国の財政赤字その負担をかけるだけではなく医療というだけでなく、代の国民に多大の負担をかけるだけでなくパンクしてしまう。先ず、民生活には国家財政そのものがパンクしてしまうということであります。
+
+**English (paraphrase)**
+
+Health also matters greatly in daily life. …[Discusses postwar Japan's rapid advances in medical care and rising life expectancy alongside modern lifestyle diseases (cerebrovascular disease, cancer) increasing with an aging society, and the changing structure of the economy and society.] Today medical technology and its scope keep changing; society and the economy are also restructuring, and a large "circulation economy" (循環経済) is emerging that is shifting the framework and values around medicine. I have long felt that medical care should be provided for the public in general — but this raises the question of who bears the cost, given the growing burden on national finances from an aging population. From here on, it is not just about supplying more medicine, but about welfare — how to reduce the growing burden on the national purse without simply "punching holes" in it. First of all self-help, preventive medicine — and beyond that, how to design the "content" of welfare will matter more, especially as Japan enters an aged society and needs to think about how to live a rich later life. A "Life Style" design for how to spend one's later years well.
+
+---
+
+### Page No.5
+
+**Japanese (best-effort)**
+
+私は声を大にして申し上げなければならないと思っております。医療が国民生活全般にかかわっていることであります。先ず、自助の福祉への「実」の変化が大切なことであり、これまでの国家財政その負担をかけるだけではなく、代の国民に多大の負担をかけるだけであろうということであります。最後には国民には国家財政そのものがパンクしてしまうということでありましょう。民生活の改善に貢献してきました。特に戦後五十年の行政、医療関係者の努力によって、医療は日本経済の成長と国民の力、精神力を高く評価したいと思います。私は、この事実を先ず良く循環が今後も作用し続けるかどうかということであります。こうした循環・作用し、世界一の長寿国家と福祉国家の実現を先ず高く評価したい、と思いますが、この実現を可能にした力、精神力の結果・経済と社会・経済が良く循環し、作用してきたことについて、努力してきた医療従事者の
+
+**English (paraphrase)**
+
+[Continues on the shift from institutional/curative medicine toward a "circulation economy" and preventive/holistic approaches.] I feel that medicine should be redirected to focus on the public's actual daily life overall — raising a voice for this. The nation bears an ever-larger fiscal burden, and this is not simply a matter of raising taxes or squeezing more money out of citizens — it's a question of medical costs and welfare's changing shape. Since the war (past 50 years), Japan's economy grew alongside modern medical administration; the two developed together. But now — over roughly the past 20 years — American-style medicine (which centers costs and the doctor's side, rather than the patient's own awareness of health) has led to rising anxiety in an era when medical costs keep climbing and political and economic systems are also in flux. Real change starts from each person's own awareness of and responsibility for their own health, rather than leaving it to others.
+
+Population/mortality note referenced on this page: Japan's annual deaths were around 700,000-level in earlier years, rising toward roughly 1 million+ as the population ages — used to argue that the "tunnel" (long transitional period) of an aging, high-medical-cost society will continue for some time, and that emphasis should shift from cure (治療) toward health itself.
+
+---
+
+### Page No.6 / No.7
+
+**Japanese (best-effort)**
+
+長い経済から循環経済へと移行して行く過程で、実に見られてる、いろいろというべきか、物事をとらえる根本として東洋医学に代表される自然療法とか精神療法とか、これまでの近代医療より一段下に見られてきたようであります。しかし、最近では物事の根源、命の潜在能力を最も大切にしておき、患者が自ら癒し、治療者は援助するという、無限の生命エネルギーとでもいうべきか、治療から「生命医学」という現状認識のあるべき姿を考えます。自然療法とか精神療法とかに代表される代替療法は、これまでの近代医療より一段低いものと見られがちですが、これはどうにもなりません。現代医学と代替療法の両方の良いところを組み合わせることが大切であります。現代医学と代替療法法の中にも現代医学を認めず「薬は一切いらない」というような極端な安勢も沢山あります。こうはいうものの、まだまだ現代医学のほうでは代替療法を認めて、こういう方向に人々の目が向けられてきたようであります。自然療法の根源力を「生命医学」とでも言うべき治療の下に見られてる、最近では物事の根源を治療者は援助するという方向に人々の目が向けられてきたようであります。治療家はすべて、病気の予防に力を入れるべきです。それは病気の真の原因について深く学び、治療法を人々に教育することであります。初期の段階で病気に気づき対処する方法を人々に教え、良い治療体制を確立することが大切であります。そして、「自発的治癒力」を守るのは、誰よりもまず自分であるということを守るのは、専門家に依存しすぎることを自覚し、自分の健康を守るのは自分自身であるということを
+
+**English (paraphrase)**
+
+As we head into the 21st century, welfare and medicine become essential together — but attention must shift toward "healing" (治癒) rather than curative treatment (治療) alone — that's the meaning of the change being described here. From this point forward, medicine should place more weight on prevention and on the patient's own healing capacity, rather than only on treatment. Natural healing methods, spiritual/mental therapies, and complementary/alternative medicine (代替療法) all deserve recognition alongside modern medicine — not as fringe practices but as things to be integrated. There are many good complementary treatment systems worth organizing and establishing (e.g. various traditional and alternative healing approaches) alongside modern medicine and its specialists, rather than dismissing them as extreme. Doctors should function as *supporters* of a patient's own life force / healing capacity, not as the sole source of cure. The root of treatment lies in the patient's own life force. What matters is not depending too heavily on experts, but for each person to take charge of their own path to healing — from early-stage self-care and education, learning good treatment methods, and taking responsibility for one's own health.
+
+---
+
+### Page No.8 — Colophon
+
+**Japanese**
+
+いのちのふるさととは、健康で若々しく美しく生きるライフ・スタイルのデザインを通して本学の自分とじっくりと向き合い、考える「場」であります。
+
+・生老病死の有り様をデザインする
+・人生如何に生きるべきかのライフ・ステージをデザインする
+・人間関係の不安、精神的不安、健康に対する不安からくるストレスを解消し、より生き生きとした健康生活をデザインする
+
+平成八年三月二日
+
+佛國寺　默雷　拝
+
+**English**
+
+The homeland of life is a "place" for facing and reflecting deeply on oneself, through designing a lifestyle of health, youthfulness, and beauty.
+
+- To design how one faces birth, aging, sickness, and death (生老病死)
+- To design the life-stage of how one ought to live one's life
+- To resolve the stress arising from anxiety about relationships, mental anxiety, and health anxiety, and to design a more vibrant, healthy life
+
+Heisei 8 (1996), March 2
+
+Respectfully, Mokurai, Bukkokuji Temple (佛國寺　默雷　拝)
+
+---
+
+### Notes on relevance to the project
+
+- **Confirms authorship**: the colophon dates this to **1996-03-02** and signs it **默雷 (Mokurai) of 佛國寺 (Bukkokuji Temple)** — resolving the earlier speculation in this document that "Mokurai" was a pen name; he is a named monk/abbot associated with a specific temple. Worth checking whether 佛國寺 has any traceable link to Mitsue or a still-living successor who could be a source/advisor.
+- **Content is philosophical/programmatic, not technical**: this section elaborates the "Health Plan" (保健計画) pillar of the 100-Year Plan — a preventive-medicine, self-reliance, and "lifestyle design" facility concept for rural elderly/residents, contrasted with hospital/screening-center models. No numbers, budgets, or siting data useful for the biomass-CHP/DC engineering or financial work.
+- **Possible soft value**: the framing (self-reliant community health facility, "homeland of life," rejection of over-medicalization) is consistent in spirit with the project's own pitch of village self-reliance and could be cited in outreach materials aimed at village elders/officials as historical local precedent for a self-reliance philosophy — but it's tone/legitimacy material, not a data reference.
+- No mention of forestry, energy, or biomass in these specific pages (No.2–No.8); the forestry/CHP linkage lives in the earlier "Mysterious Life" (不思議ないのち) section already transcribed above.
+
+---
+
 # SET 3: "Mysterious Life" (不思議ないのち)
 
 ---
