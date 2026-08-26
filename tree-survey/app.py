@@ -271,6 +271,11 @@ def _login_session(request, u):
 
 
 # -------------------- auth --------------------
+@app.get("/about", response_class=HTMLResponse)
+def about_page(request: Request):
+    return templates.TemplateResponse(request, "about.html", {})
+
+
 @app.get("/login", response_class=HTMLResponse)
 def login_form(request: Request):
     return templates.TemplateResponse(request, "login.html", {"error": None})

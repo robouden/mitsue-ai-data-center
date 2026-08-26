@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="card">
+  <h2>このアプリについて / About this app</h2>
+  <p>御杖村の母樹(たねを採る木)を記録するための調査アプリです。<br>
+  <span class="ja">A field survey app for recording mother trees (seed-source trees) around Mitsue Village.</span></p>
+
+  <h2 style="margin-top:16px">使い方 / How to use</h2>
+  <ol style="padding-left:18px; font-size:14px;">
+    <li>「新規登録」からアカウントを作成し、確認メールのリンクを開いてください。<br>
+    <span class="ja">Create an account via "Sign up", then open the link in the confirmation email.</span></li>
+    <li>ログイン後、「記録」画面で木の場所（GPS）・樹種・状態を入力して送信します。<br>
+    <span class="ja">After signing in, use "Record" to log the tree's location (GPS), species, and condition, then submit.</span></li>
+    <li>「図鑑」で樹種の写真を確認できます。<br>
+    <span class="ja">Use "Guide" to browse reference photos by species.</span></li>
+    <li>「一覧」で自分がこれまで記録した木を確認できます。<br>
+    <span class="ja">Use "List" to review the trees you've recorded so far.</span></li>
+  </ol>
+
+  <p class="hint" style="margin-top:14px">ご不明な点があれば村の担当者にご連絡ください。<br>
+  <span class="ja">If you have questions, please contact the village project team.</span></p>
+
+  <p class="hint" style="margin-top:12px">
+    <a href="https://github.com/robouden/mitsue-ai-data-center/tree/main/tree-survey" target="_blank" rel="noopener">GitHub</a>
+    ・
+    <a href="https://codeberg.org/YR-Design/mitsue-ai-data-center/src/branch/main/tree-survey" target="_blank" rel="noopener">Codeberg</a>
+  </p>
+</div>
+{% endblock %}
