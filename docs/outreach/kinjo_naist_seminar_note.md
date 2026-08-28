@@ -9,6 +9,8 @@ Possible dates (seminar runs 3:10–4:40 PM):
 
 Please let me know which date works best for you, or if you'd like to discuss further.
 
+The QR code below links to the current draft presentation, which was made for funding purposes. For the NAIST seminar, it will be adjusted/modified toward possible recruitment.
+
 Thank you,
 Rob
 
@@ -24,5 +26,7 @@ NAISTで御杖村プロジェクトについて、一緒にセミナーで発表
 ・1月20日（水）
 
 ご都合の良い日を教えていただければ幸いです。ご検討よろしくお願いいたします。
+
+下記QRコードは現在のドラフト資料（資金調達用）へのリンクです。NAISTセミナー向けには、採用（リクルート）を意識した内容に調整・修正する予定です。
 
 ロブ
