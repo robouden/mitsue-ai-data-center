@@ -1,4 +1,4 @@
-<p align="right">Version: v1.3 | Last modified: 2026-08-26</p>
+<p align="right">Version: v1.5 | Last modified: 2026-08-28</p>
 
 ---
 
@@ -34,7 +34,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
-| Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | — | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
+| Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | info@mitsuemori.com / https://mitsuemori.com | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
 | Tokuo Aomi (青見) | CHP prototype partner, Sugano Organic | — | 2026-06-23 — Outreach email sent |
 | Niwa-san (丹羽) | Fuel-supply partner (sawmill), 丹羽製材, Sugano | — | 2026-07-29 — Joint fuel-chipper discussion ongoing |
 | Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
@@ -47,6 +47,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Nakajima Hideki (中島秀樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
 | Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
 | Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
+| Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-08-28 — Added from business card; no photo/profile found on village site |
 
 ## Partner Orgs / Contacts
 

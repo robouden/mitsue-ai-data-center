@@ -1,6 +1,6 @@
 <!-- Version: v1.0 | Last modified: 2026-08-22 -->
 
-# Notes: *Japan's Imperial Forest, Goryōrin, 1889–1946* and *The Lumber Industry in Early Modern Japan* (Conrad Totman)
+Yes
 
 Companion to [[totman_green_archipelago_notes]]. Two more Totman books added to this folder:
 
