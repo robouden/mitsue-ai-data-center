@@ -1,0 +1,559 @@
+<!-- File: mitsue_repo_file_structure.html | Version: v1.0 | Last modified: 2026-09-05 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mitsue AI Data Center - Repository File Structure</title>
+    <script src="../../tools/mermaid.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
+        color: #1a202c;
+        background: #f7f8fa;
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 28px 36px 70px;
+      }
+      .header {
+        border-bottom: 2px solid #1a365d;
+        padding-bottom: 10px;
+        margin-bottom: 6px;
+      }
+      h1 {
+        font-size: 22px;
+        color: #1a365d;
+        font-weight: 700;
+      }
+      .sub {
+        color: #4a5568;
+        font-size: 13px;
+        margin-top: 4px;
+      }
+      h2 {
+        font-size: 16px;
+        color: #1a365d;
+        font-weight: 700;
+        margin: 36px 0 4px;
+      }
+      .h2sub {
+        font-size: 12px;
+        color: #718096;
+        margin-bottom: 12px;
+      }
+      .diagram {
+        position: relative;
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .diagram-canvas {
+        width: 100%;
+        height: 640px;
+        overflow: hidden;
+        cursor: grab;
+        touch-action: none;
+      }
+      .diagram-canvas:active {
+        cursor: grabbing;
+      }
+      .diagram-canvas svg {
+        display: block;
+        transform-origin: 0 0;
+        max-width: none !important;
+        max-height: none !important;
+      }
+      .zoom-toolbar {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        z-index: 5;
+      }
+      .zoom-btn {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #cbd5e0;
+        background: #fff;
+        color: #1a365d;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 6px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+      }
+      .zoom-btn:hover {
+        background: #edf2f7;
+      }
+      .zoom-hint {
+        font-size: 11px;
+        color: #a0aec0;
+        margin-top: 6px;
+      }
+      .diagram-canvas .node {
+        cursor: pointer;
+      }
+      .diagram-canvas .node:hover rect,
+      .diagram-canvas .node.node-active rect {
+        stroke: #1a365d !important;
+        stroke-width: 2.5px !important;
+        filter: drop-shadow(0 0 3px rgba(26, 54, 93, 0.5));
+      }
+      #nodeTooltip {
+        position: fixed;
+        max-width: 320px;
+        background: #1a365d;
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 8px 12px;
+        border-radius: 6px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+        pointer-events: none;
+        z-index: 50;
+        display: none;
+      }
+      #nodeTooltip b {
+        display: block;
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 11px;
+        color: #9cd7ff;
+        margin-bottom: 3px;
+      }
+      table.funcs tr.row-hover {
+        background: #ebf4ff;
+      }
+      table.funcs tr.row-flash {
+        animation: rowFlash 1.6s ease;
+      }
+      @keyframes rowFlash {
+        0% { background: #fefcbf; }
+        70% { background: #fefcbf; }
+        100% { background: transparent; }
+      }
+      table.funcs {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-top: 12px;
+      }
+      table.funcs th {
+        text-align: left;
+        background: #edf2f7;
+        color: #1a365d;
+        padding: 8px 10px;
+        border-bottom: 2px solid #cbd5e0;
+      }
+      table.funcs td {
+        padding: 7px 10px;
+        border-bottom: 1px solid #e2e8f0;
+        vertical-align: top;
+      }
+      table.funcs td.path {
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 12px;
+        color: #2b6cb0;
+        white-space: nowrap;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 18px 22px;
+        margin-top: 14px;
+      }
+      .footer {
+        margin-top: 40px;
+        font-size: 11px;
+        color: #a0aec0;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .diagram .edgePath .path {
+        stroke: #4a5568 !important;
+        stroke-width: 1.4px !important;
+      }
+      .diagram marker path {
+        fill: #4a5568 !important;
+        stroke: #4a5568 !important;
+      }
+      .diagram .node text,
+      .diagram .nodeLabel {
+        font-size: 13px !important;
+      }
+      .diagram .cluster-label,
+      .diagram .cluster text {
+        font-size: 12px !important;
+        font-weight: 700;
+        fill: #2d3748 !important;
+      }
+      .diagram .cluster rect {
+        fill: #f1f5f9 !important;
+        stroke: #cbd5e0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Mitsue AI Data Center - Repository File Structure</h1>
+      <div class="sub">
+        Top-level folder map with function of each area, generated from the working repo tree
+      </div>
+    </div>
+
+    <h2>1. Folder Map</h2>
+    <div class="h2sub">Top-level directories and how docs/, research/, energy-forest/ and Docs extra/ break down</div>
+    <div class="diagram">
+      <div class="zoom-toolbar">
+        <button class="zoom-btn" id="zoomIn" title="Zoom in">+</button>
+        <button class="zoom-btn" id="zoomOut" title="Zoom out">&minus;</button>
+        <button class="zoom-btn" id="zoomReset" title="Reset view">&#8634;</button>
+      </div>
+      <div class="diagram-canvas" id="diagramCanvas">
+      <pre class="mermaid">
+graph TD
+    ROOT["Mitsue Village Project<br/>AI data center /"]
+
+    ROOT --> DOCS["docs/<br/>published deliverables"]
+    ROOT --> DECKS["decks/<br/>slide decks & funding pptx"]
+    ROOT --> AGENT["agent/<br/>Claude persona files"]
+    ROOT --> MEMORY["memory/<br/>working memory + dream diary"]
+    ROOT --> RESEARCH["research/<br/>scraped source data"]
+    ROOT --> INFRA["infra/<br/>OpenProject VPS + people register"]
+    ROOT --> TOOLS["tools/<br/>md/html to PDF pipeline"]
+    ROOT --> TREESURVEY["tree-survey/<br/>field survey webapp"]
+    ROOT --> ASSETS["assets/<br/>images, logos, mascot art"]
+    ROOT --> D3["3d models/<br/>Blender assets"]
+    ROOT --> SKILLS["skills/<br/>doc/report conventions"]
+    ROOT --> EXTRA["Docs extra/<br/>unsorted legacy scans"]
+    ROOT --> CHAT["chat-exports/<br/>archived AI conversations"]
+
+    DOCS --> D_STRAT["strategy/"]
+    DOCS --> D_GOV["governance/"]
+    DOCS --> D_MKT["marketing/"]
+    DOCS --> D_OUT["outreach/"]
+    DOCS --> D_MEET["meetings/"]
+    DOCS --> D_EF["energy-forest/"]
+    DOCS --> D_FS["field-survey/"]
+    DOCS --> D_TEAM["team/"]
+    DOCS --> D_REF["reference/"]
+    DOCS --> D_BRIEF["briefs/"]
+    DOCS --> D_FAQ["faq/"]
+
+    RESEARCH --> R_COUNCIL["council_minutes/"]
+    RESEARCH --> R_TENKAWA["tenkawa_koho/"]
+    RESEARCH --> R_INOCHI["inochi_action_plans/"]
+    RESEARCH --> R_WILDLIFE["wildlife/"]
+    RESEARCH --> R_NEWS["newsletters/"]
+
+    MEMORY --> M_DAILY["*.md daily logs"]
+    MEMORY --> M_DREAM["dreaming/ light+deep+rem"]
+
+    D_EF --> EF_CHP["chp-technical/"]
+    D_EF --> EF_ECO["ecology/"]
+    D_EF --> EF_ECON["economics/"]
+    D_EF --> EF_GRID["grid-mapping/"]
+    D_EF --> EF_HIST["history/"]
+    D_EF --> EF_MISC["misc/"]
+    D_EF --> EF_REPLAN["re-plan-alignment/"]
+    D_EF --> EF_SCANS["source-scans/"]
+    D_EF --> EF_WORK["workforce/"]
+
+    EXTRA --> EX_BID["Bidding information/"]
+    EXTRA --> EX_CHP["CHP biomass/"]
+    EXTRA --> EX_DOME["Dome school from village website/"]
+    EXTRA --> EX_STP["Extra pictures Aizumisato STP/"]
+    EXTRA --> EX_FAC["Facilities/"]
+    EXTRA --> EX_FAIRY["Fairytale/"]
+    EXTRA --> EX_GIFTS["Mayor_vice_mayor_forest_team_gifts/"]
+    EXTRA --> EX_VHALL["mitsue_files from Village hall/"]
+    EXTRA --> EX_PICS["Mitsue pictures/"]
+    EXTRA --> EX_NGO["NGO setup/"]
+    EXTRA --> EX_NPO["NPO setup/"]
+    EXTRA --> EX_THOUGHT["Thoughts/"]
+
+    classDef top fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef docsub fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef ressub fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef memsub fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef efsub fill:#2f855a,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef exsub fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class ROOT top
+    class DOCS,DECKS,AGENT,MEMORY,RESEARCH,INFRA,TOOLS,TREESURVEY,ASSETS,D3,SKILLS,EXTRA,CHAT top
+    class D_STRAT,D_GOV,D_MKT,D_OUT,D_MEET,D_EF,D_FS,D_TEAM,D_REF,D_BRIEF,D_FAQ docsub
+    class R_COUNCIL,R_TENKAWA,R_INOCHI,R_WILDLIFE,R_NEWS ressub
+    class M_DAILY,M_DREAM memsub
+    class EF_CHP,EF_ECO,EF_ECON,EF_GRID,EF_HIST,EF_MISC,EF_REPLAN,EF_SCANS,EF_WORK efsub
+    class EX_BID,EX_CHP,EX_DOME,EX_STP,EX_FAC,EX_FAIRY,EX_GIFTS,EX_VHALL,EX_PICS,EX_NGO,EX_NPO,EX_THOUGHT exsub
+</pre>
+      </div>
+      <div class="zoom-hint">Scroll/pinch to zoom, drag to pan, or use the +/&minus; controls. Hover a block for its description, click to jump to it in the table below.</div>
+    </div>
+    <div id="nodeTooltip"></div>
+
+    <h2>2. Function by Folder</h2>
+    <div class="h2sub">What each area is for and what lives in it</div>
+    <div class="card">
+      <table class="funcs">
+        <tr><th>Folder</th><th>Function</th></tr>
+        <tr data-node="DOCS"><td class="path">docs/</td><td>Canonical output of the project. Every subfolder is a deliverable type; each document ships as a Markdown source plus a rendered PDF, kept in sync via <code>tools/convert_md_to_pdf.js</code>.</td></tr>
+        <tr data-node="D_STRAT"><td class="path">&nbsp;&nbsp;docs/strategy/</td><td>Business case, cashflow model, WBS, EVM plan, founding charter, phases/funding flowchart.</td></tr>
+        <tr data-node="D_GOV"><td class="path">&nbsp;&nbsp;docs/governance/</td><td>Permits, village-office onepagers, Koryukan hours-exception request, mascot permit.</td></tr>
+        <tr data-node="D_MKT"><td class="path">&nbsp;&nbsp;docs/marketing/</td><td>Brochures (trifold A3/A4), frontpage, impact handout, stakeholder graphics.</td></tr>
+        <tr data-node="D_OUT"><td class="path">&nbsp;&nbsp;docs/outreach/</td><td>Cold-outreach email drafts and the outreach tracker, one file per contact/organization.</td></tr>
+        <tr data-node="D_MEET"><td class="path">&nbsp;&nbsp;docs/meetings/</td><td>Meeting prep notes, talking points, entity-structure options (A/B/hybrid), Q&A briefings.</td></tr>
+        <tr data-node="D_EF"><td class="path">&nbsp;&nbsp;docs/energy-forest/</td><td>Biomass CHP technical, economics, history, ecology, grid-mapping and workforce material, split into topic subfolders (below).</td></tr>
+        <tr data-node="EF_CHP"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;chp-technical/</td><td>Maker shortlist, steam-vs-gasification comparison, H2-vs-electricity-vs-DC analysis, forest-power-compute loop diagram.</td></tr>
+        <tr data-node="EF_ECO"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;ecology/</td><td>Academic summaries on planted-landscape sustainability and forest restoration (Yamaura 2012 et al.).</td></tr>
+        <tr data-node="EF_ECON"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;economics/</td><td>Resource-potential studies (Leiter 2022), FIT/grid economics check, wildlife-prevention savings talking point.</td></tr>
+        <tr data-node="EF_GRID"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;grid-mapping/</td><td>Kansai T&D grid maps and prior-consultation spreadsheets/templates for the 6.6kV interconnection.</td></tr>
+        <tr data-node="EF_HIST"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;history/</td><td>Council-minutes forestry findings, 100-year-plan transcription, Meiji/postwar forestry policy summaries, collective timeline guide.</td></tr>
+        <tr data-node="EF_MISC"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;misc/</td><td>Ungrouped energy-forest items (biomass chart, ad hoc notes).</td></tr>
+        <tr data-node="EF_REPLAN"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;re-plan-alignment/</td><td>How the project maps onto Mitsue's MoE-funded Village Renewable Energy Plan.</td></tr>
+        <tr data-node="EF_SCANS"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;source-scans/</td><td>Raw scanned source PDFs (village-hall handouts, forestry brochures) awaiting transcription.</td></tr>
+        <tr data-node="EF_WORK"><td class="path">&nbsp;&nbsp;&nbsp;&nbsp;workforce/</td><td>Forest-worker interview questions, workforce/energy plan, workforce-relocation strategy.</td></tr>
+        <tr data-node="D_FS"><td class="path">&nbsp;&nbsp;docs/field-survey/</td><td>Heritage tree field guide and school tree-survey proposal (bilingual).</td></tr>
+        <tr data-node="D_TEAM"><td class="path">&nbsp;&nbsp;docs/team/</td><td>People register - who's who on the project.</td></tr>
+        <tr data-node="D_REF"><td class="path">&nbsp;&nbsp;docs/reference/</td><td>Background reading and external reports (e.g. China rural data centers, this file).</td></tr>
+        <tr data-node="D_BRIEF"><td class="path">&nbsp;&nbsp;docs/briefs/</td><td>One-off task/context briefs for specific people or hand-offs.</td></tr>
+        <tr data-node="D_FAQ"><td class="path">&nbsp;&nbsp;docs/faq/</td><td>Standing Q&A on community participation and transparency questions.</td></tr>
+        <tr data-node="DECKS"><td class="path">decks/</td><td>Slide and funding presentations (pptx/pdf), Gantt chart, finance workbook - binary-first, separate from docs/.</td></tr>
+        <tr data-node="RESEARCH R_COUNCIL R_TENKAWA R_INOCHI R_WILDLIFE R_NEWS"><td class="path">research/</td><td>Raw structured source data mined from external documents (council minutes, newsletters, action plans, wildlife plans), mostly DuckDB + CSV, feeding docs/energy-forest and docs/outreach.</td></tr>
+        <tr data-node="INFRA"><td class="path">infra/</td><td>OpenProject VPS deployment (Docker, backups, restore scripts) and the standalone people-register PHP app.</td></tr>
+        <tr data-node="TOOLS"><td class="path">tools/</td><td>The doc pipeline: <code>convert_md_to_pdf.js</code> (canonical md/html to PDF converter, mermaid-aware), mermaid render/validate scripts, header/date updater.</td></tr>
+        <tr data-node="AGENT"><td class="path">agent/</td><td>Claude's own persistent persona/identity files (IDENTITY, SOUL, USER, HEARTBEAT) - not project content.</td></tr>
+        <tr data-node="MEMORY M_DAILY M_DREAM"><td class="path">memory/</td><td>Daily working-memory logs plus a separate dream-diary subsystem (dreaming/light, deep, rem).</td></tr>
+        <tr data-node="TREESURVEY"><td class="path">tree-survey/</td><td>Self-contained deployable Flask app for school tree-survey fieldwork (templates, DuckDB, photo storage).</td></tr>
+        <tr data-node="ASSETS"><td class="path">assets/</td><td>Images, logos, and Mitsue-kun mascot art used across docs and decks.</td></tr>
+        <tr data-node="D3"><td class="path">3d models/</td><td>Blender assets (e.g. the mascot gift box) for physical/3D deliverables.</td></tr>
+        <tr data-node="SKILLS"><td class="path">skills/</td><td>Reusable doc/report conventions (headers, report-recovery) referenced by the pipeline.</td></tr>
+        <tr data-node="EXTRA"><td class="path">Docs extra/</td><td>Legacy village-hall scans and unsorted source material not yet organized into docs/ (below).</td></tr>
+        <tr data-node="EX_BID"><td class="path">&nbsp;&nbsp;Bidding information/</td><td>Ex-school (Dome/Ao Bara billiards) bid disclosure requests, due-diligence reports, assembly seigan/chinjo docs, toilet-facility disclosure.</td></tr>
+        <tr data-node="EX_CHP"><td class="path">&nbsp;&nbsp;CHP biomass/</td><td>Mini-CHP and DIY gasifier notes, candidate CHP sites, forest-carbon/growth models, Sugano biomass proposal, Ushitoge processing center.</td></tr>
+        <tr data-node="EX_DOME"><td class="path">&nbsp;&nbsp;Dome school from village website/</td><td>Original village-site zoning/tender forms and drawings for the ex-school property.</td></tr>
+        <tr data-node="EX_STP"><td class="path">&nbsp;&nbsp;Extra pictures Aizumisato STP/</td><td>Reference photos of the Aizumisato sewage treatment plant network setup.</td></tr>
+        <tr data-node="EX_FAC"><td class="path">&nbsp;&nbsp;Facilities/</td><td>Community Development Promotion Division info requests, Koryukan usage records 2023-2025.</td></tr>
+        <tr data-node="EX_FAIRY"><td class="path">&nbsp;&nbsp;Fairytale/</td><td>"Tsuemi-hime" children's fairy tale (JP/EN) and two-page summaries, used for outreach/storytelling.</td></tr>
+        <tr data-node="EX_GIFTS"><td class="path">&nbsp;&nbsp;Mayor_vice_mayor_forest_team_gifts/</td><td>Kaya-seed poem and meeting-card gifts prepared for village officials.</td></tr>
+        <tr data-node="EX_VHALL"><td class="path">&nbsp;&nbsp;mitsue_files from Village hall/</td><td>Official village hall documents: RE plan overview + translation, financial analyses, land registry, disaster map, meeting minutes.</td></tr>
+        <tr data-node="EX_PICS"><td class="path">&nbsp;&nbsp;Mitsue pictures/</td><td>General village/project photography and mascot imagery.</td></tr>
+        <tr data-node="EX_NGO"><td class="path">&nbsp;&nbsp;NGO setup/</td><td>Ippan Shadan Hojin (NGO) setup guides, checklists, teikan drafts, pro bono law firm correspondence (Baker McKenzie, Morgan Lewis), Koshiba/Kato meeting notes.</td></tr>
+        <tr data-node="EX_NPO"><td class="path">&nbsp;&nbsp;NPO setup/</td><td>Alternative NPO-entity setup checklist (superseded by the NGO/Ippan Shadan Hojin route).</td></tr>
+        <tr data-node="EX_THOUGHT"><td class="path">&nbsp;&nbsp;Thoughts/</td><td>Informal thoughts/guideline notes (JP/EN), pre-brainstorm material.</td></tr>
+        <tr data-node="CHAT"><td class="path">chat-exports/</td><td>Archived Claude conversation exports kept for provenance.</td></tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      <span>Mitsue Village AI Data Center Project - internal working reference</span>
+      <span>Generated from repo tree · 2026-09-05</span>
+    </div>
+
+    <script>
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "default",
+        flowchart: {
+          curve: "basis",
+          nodeSpacing: 40,
+          rankSpacing: 55,
+          useMaxWidth: false,
+        },
+      });
+
+      function setupPanZoom() {
+        const canvas = document.getElementById("diagramCanvas");
+        const svg = canvas.querySelector("svg");
+        if (!svg) {
+          setTimeout(setupPanZoom, 150);
+          return;
+        }
+
+        const bbox = svg.getBBox ? svg.getBBox() : null;
+        const natW = bbox && bbox.width ? bbox.width : svg.viewBox.baseVal.width || svg.clientWidth || 800;
+        const natH = bbox && bbox.height ? bbox.height : svg.viewBox.baseVal.height || svg.clientHeight || 600;
+        svg.setAttribute("width", natW);
+        svg.setAttribute("height", natH);
+
+        let scale = 1;
+        let originX = 0;
+        let originY = 0;
+        let dragging = false;
+        let lastX = 0;
+        let lastY = 0;
+
+        function apply() {
+          svg.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+        }
+
+        function fitToCanvas() {
+          const cw = canvas.clientWidth;
+          const ch = canvas.clientHeight;
+          scale = Math.min(cw / natW, ch / natH) * 0.94;
+          originX = (cw - natW * scale) / 2;
+          originY = (ch - natH * scale) / 2;
+          apply();
+        }
+
+        function zoomAt(factor, clientX, clientY) {
+          const rect = canvas.getBoundingClientRect();
+          const px = clientX !== undefined ? clientX - rect.left : canvas.clientWidth / 2;
+          const py = clientY !== undefined ? clientY - rect.top : canvas.clientHeight / 2;
+          const newScale = Math.min(8, Math.max(0.15, scale * factor));
+          const ratio = newScale / scale;
+          originX = px - (px - originX) * ratio;
+          originY = py - (py - originY) * ratio;
+          scale = newScale;
+          apply();
+        }
+
+        canvas.addEventListener("wheel", (e) => {
+          e.preventDefault();
+          const factor = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+          zoomAt(factor, e.clientX, e.clientY);
+        }, { passive: false });
+
+        canvas.addEventListener("mousedown", (e) => {
+          dragging = true;
+          lastX = e.clientX;
+          lastY = e.clientY;
+        });
+        window.addEventListener("mouseup", () => (dragging = false));
+        window.addEventListener("mousemove", (e) => {
+          if (!dragging) return;
+          originX += e.clientX - lastX;
+          originY += e.clientY - lastY;
+          lastX = e.clientX;
+          lastY = e.clientY;
+          apply();
+        });
+
+        let touchStartDist = null;
+        canvas.addEventListener("touchstart", (e) => {
+          if (e.touches.length === 1) {
+            dragging = true;
+            lastX = e.touches[0].clientX;
+            lastY = e.touches[0].clientY;
+          } else if (e.touches.length === 2) {
+            dragging = false;
+            const dx = e.touches[0].clientX - e.touches[1].clientX;
+            const dy = e.touches[0].clientY - e.touches[1].clientY;
+            touchStartDist = Math.hypot(dx, dy);
+          }
+        }, { passive: true });
+        canvas.addEventListener("touchmove", (e) => {
+          if (e.touches.length === 1 && dragging) {
+            originX += e.touches[0].clientX - lastX;
+            originY += e.touches[0].clientY - lastY;
+            lastX = e.touches[0].clientX;
+            lastY = e.touches[0].clientY;
+            apply();
+          } else if (e.touches.length === 2 && touchStartDist) {
+            const dx = e.touches[0].clientX - e.touches[1].clientX;
+            const dy = e.touches[0].clientY - e.touches[1].clientY;
+            const dist = Math.hypot(dx, dy);
+            const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+            const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+            zoomAt(dist / touchStartDist, midX, midY);
+            touchStartDist = dist;
+          }
+        }, { passive: true });
+        canvas.addEventListener("touchend", () => {
+          dragging = false;
+          touchStartDist = null;
+        });
+
+        document.getElementById("zoomIn").addEventListener("click", () => zoomAt(1.25));
+        document.getElementById("zoomOut").addEventListener("click", () => zoomAt(1 / 1.25));
+        document.getElementById("zoomReset").addEventListener("click", fitToCanvas);
+        window.addEventListener("resize", fitToCanvas);
+
+        fitToCanvas();
+        setupNodeLinks(canvas);
+      }
+
+      function setupNodeLinks(canvas) {
+        const tooltip = document.getElementById("nodeTooltip");
+
+        function nodeIdFrom(el) {
+          const g = el.closest(".node");
+          if (!g || !g.id) return null;
+          const m = g.id.match(/^flowchart-(.+)-\d+$/);
+          return m ? m[1] : null;
+        }
+
+        function rowFor(id) {
+          return document.querySelector('tr[data-node~="' + id + '"]');
+        }
+
+        let hoveredRow = null;
+
+        canvas.addEventListener("mousemove", (e) => {
+          const id = nodeIdFrom(e.target);
+          const g = e.target.closest(".node");
+          if (!id || !g) {
+            tooltip.style.display = "none";
+            if (hoveredRow) {
+              hoveredRow.classList.remove("row-hover");
+              hoveredRow = null;
+            }
+            return;
+          }
+          const row = rowFor(id);
+          if (row) {
+            if (hoveredRow && hoveredRow !== row) hoveredRow.classList.remove("row-hover");
+            row.classList.add("row-hover");
+            hoveredRow = row;
+            const label = row.querySelector("td.path").textContent.trim();
+            const desc = row.children[1].textContent.trim();
+            tooltip.innerHTML = "<b>" + label + "</b>" + desc;
+            tooltip.style.display = "block";
+          } else {
+            tooltip.style.display = "none";
+          }
+          const pad = 16;
+          let left = e.clientX + pad;
+          let top = e.clientY + pad;
+          const tw = tooltip.offsetWidth || 260;
+          if (left + tw > window.innerWidth - 10) left = e.clientX - tw - pad;
+          tooltip.style.left = left + "px";
+          tooltip.style.top = top + "px";
+        });
+
+        canvas.addEventListener("mouseleave", () => {
+          tooltip.style.display = "none";
+          if (hoveredRow) {
+            hoveredRow.classList.remove("row-hover");
+            hoveredRow = null;
+          }
+        });
+
+        canvas.addEventListener("click", (e) => {
+          const id = nodeIdFrom(e.target);
+          if (!id) return;
+          const row = rowFor(id);
+          if (!row) return;
+          row.scrollIntoView({ behavior: "smooth", block: "center" });
+          row.classList.remove("row-flash");
+          void row.offsetWidth;
+          row.classList.add("row-flash");
+          setTimeout(() => row.classList.remove("row-flash"), 1700);
+        });
+      }
+
+      window.addEventListener("load", () => setTimeout(setupPanZoom, 400));
+    </script>
+  </body>
+</html>

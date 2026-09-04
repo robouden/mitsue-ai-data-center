@@ -1,4 +1,4 @@
-<!-- Version: v1.8 | Last modified: 2026-08-14 -->
+<!-- Version: v1.9 | Last modified: 2026-09-05 -->
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/robouden/mitsue-ai-data-center)
 
@@ -253,7 +253,11 @@ These figures are planning targets, not commitments. Actual funding mix will dep
 
 ## 10. Repository Contents
 
-This repository holds the working documents that govern the project's first three years. Key files:
+This repository holds the working documents that govern the project's first three years.
+
+**Lost? Start here:** [`docs/reference/mitsue_repo_file_structure.html`](docs/reference/mitsue_repo_file_structure.html) — an interactive, zoomable map of every folder in this repo (hover/click a block for its description), with a full function-by-folder reference table. A static [PDF version](docs/reference/mitsue_repo_file_structure.pdf) is also available.
+
+Key files:
 
 **Project identity & governance**
 
