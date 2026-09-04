@@ -77,7 +77,8 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
 | Fujitex | Chipper supplier — RFQ contact | fjenergy@fjtex.co.jp | 2026-08-01 — RFQ drafted, not yet sent |
-| Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | — | Identified as potential partner; not yet contacted |
+| Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | contact@niwamori.org | Identified as potential partner; not yet contacted |
+| Taishi Koyachi (小八千) | Technical alliance operations, HIGHRESO Co., Ltd. (株式会社ハイレゾ), Shika site (Ishikawa) | https://highreso.jp/ (no direct email/phone on file) | 2026-09-04 — Identified via Japan Times/Bloomberg article (2026-09-02, Takaichi AI-gamble piece); quoted wanting government GPU-cost support. Reached out via HIGHRESO's EN+JP contact forms referencing the article; awaiting reply |
 
 ---
 
