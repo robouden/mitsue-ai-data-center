@@ -22,6 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Strip .git before archiving (Pages artifact size limit)
+        run: rm -rf .git
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
