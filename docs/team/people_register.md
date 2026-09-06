@@ -1,4 +1,4 @@
-<p align="right">Version: v1.5 | Last modified: 2026-08-28</p>
+<p align="right">Version: v1.11 | Last modified: 2026-09-06</p>
 
 ---
 
@@ -39,6 +39,10 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Niwa-san (丹羽) | Fuel-supply partner (sawmill), 丹羽製材, Sugano | — | 2026-07-29 — Joint fuel-chipper discussion ongoing |
 | Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
 | Nishimura Yuki (西村) | Local contact ("Carp guy from Mitsue") | nishimura2099@gmail.com | 2026-05-06 — Project Q&A exchange |
+| Andy Viirtela | Instructor, グローバル人材育成塾 (ECC), teaches at 高龍館/Koryukan (old wooden school) | andy.viirtela@gmail.com / 070-1860-6454 (via wife Yurika Moriyama) | 2026-07-08 — Attended village hall meeting (children's workshop proposal) as translation support; workshop venue set to the school where he teaches |
+| Yurika Moriyama (森山ゆりか) | Andy Viirtela's wife; local contact | moriyama.yurika@gmail.com | 2026-05-20/25 — Shared Andy's phone number; has a son (Akira) who ran in a local kids' marathon; offered Rob an open invite to visit |
+| Akiko Hayashi Koyama (林／小山 明子) | Graphic Designer/Art Director, Aluminum (own practice); ex-avex, Dwango; East Nara Nabari Tourism Marketing (incl. "Magical Mitsue" travel guide); Mie-based | LinkedIn: linkedin.com/in/akikohayashi | 2026-07-08 — Attended village hall meeting (children's workshop proposal) alongside Andy Viirtela |
+| Yamaguchi Yoshiyuki (山口義行) | 地域おこし協力隊員 (max 3yr term, ends ~2027), self-employed forestry practitioner (ex-steel craftsman), moved from Osaka City Apr 2024 | 0745-95-2001 (ext.130-135, むらづくり振興課) | 2026-09-06 — Introduction request submitted via village web inquiry form; awaiting reply. Framing: not a core local-partner org, but a plausible forest-crew hire/contractor candidate post-term (wants to settle in Mitsue long-term; village offers 起業補助 startup subsidy after program ends) |
 
 ## Government
 
@@ -48,6 +52,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
 | Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
 | Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-08-28 — Added from business card; no photo/profile found on village site |
+| Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-09-04 — A4 project overview sent; awaiting reply on presenting to students |
 
 ## Partner Orgs / Contacts
 
@@ -79,6 +84,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Fujitex | Chipper supplier — RFQ contact | fjenergy@fjtex.co.jp | 2026-08-01 — RFQ drafted, not yet sent |
 | Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | contact@niwamori.org | Identified as potential partner; not yet contacted |
 | Taishi Koyachi (小八千) | Technical alliance operations, HIGHRESO Co., Ltd. (株式会社ハイレゾ), Shika site (Ishikawa) | https://highreso.jp/ (no direct email/phone on file) | 2026-09-04 — Identified via Japan Times/Bloomberg article (2026-09-02, Takaichi AI-gamble piece); quoted wanting government GPU-cost support. Reached out via HIGHRESO's EN+JP contact forms referencing the article; awaiting reply |
+| Kaide Chie (貝出智恵) | engawa Concierge / Japanese-language teacher — migration & settlement consultant, MYSH株式会社 (奥大和移住定住交流センター engawa), Kashihara, Nara | +81 744-48-3019 / chie-kaide@mysh.tokyo | 2026-11-09 — Invited by Chie to コミュニティマネージャー育成プログラム成果発表会 (Community Manager Training Program results presentation), 13:00-17:00 + networking after, at 奥大和移住定住交流センターengawa (〒634-0003 奈良県橿原市常盤町605-5, 橿原総合庁舎別館; parking at 橿原総合庁舎). Rob confirmed attendance 2026-08-26. Met in person 2026-08-21; handles migration/settlement counseling for 19 Okuyamato municipalities; possible co-applicant/intermediary for regional revitalization subsidies. MYSH CEO 向井裕人 (Hiroto Mukai) is the eventual decision-maker beyond what Chie can authorize alone; general contact info@mysh.co.jp |
 
 ---
 
