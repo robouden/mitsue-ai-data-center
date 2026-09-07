@@ -51,7 +51,8 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Nakajima Hideki (中島秀樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
 | Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
 | Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
-| Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-08-28 — Added from business card; no photo/profile found on village site |
+| Suzuki Yasuhiro (鈴木泰弘) | 教育長 (Superintendent of Education), 御杖村教育委員会 (Board of Education) | kyoui@vill.mitsue.lg.jp | 2026-09-07 — Named by village hall in reply re: Board of Education structure |
+| Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-09-07 — Office confirmed as 4 staff (次長+次長補佐+一般職員2名) reporting to Suzuki |
 | Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-09-04 — A4 project overview sent; awaiting reply on presenting to students |
 
 ## Partner Orgs / Contacts

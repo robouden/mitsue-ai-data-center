@@ -6,5 +6,20 @@
 		{
 			"path": "../../Misc/Rob misc/voilin"
 		}
-	]
+	],
+	"settings": {
+		"workbench.editorAssociations": {
+			"{hexdiff}:/**/*.*": "hexEditor.hexedit",
+			"*.ipynb": "jupyter.notebook.ipynb",
+			"*.pptx": "default",
+			"*.parquet": "duckdb.dataFileViewer",
+			"*.csv": "duckdb.dataFileViewer",
+			"*.tsv": "duckdb.dataFileViewer",
+			"*.duckdb": "duckdb.dataFileViewer",
+			"*.ddb": "duckdb.dataFileViewer",
+			"*.jsonl": "duckdb.dataFileViewer",
+			"*.ndjson": "duckdb.dataFileViewer",
+			"*.xlsx": "duckdb.dataFileViewer"
+		}
+	}
 }
