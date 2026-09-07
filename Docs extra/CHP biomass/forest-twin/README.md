@@ -1,4 +1,4 @@
-<!-- File: README.md | Version: v1.0 | Last modified: 2026-08-20 -->
+<!-- File: README.md | Version: v1.1 | Last modified: 2026-09-07 -->
 # Mitsue Forest Twin (simple version)
 
 A 50-year "what if" simulator for Mitsue's sugi forest. Stdlib Python only.
@@ -72,7 +72,7 @@ Edit the `SCENARIOS` dict in `forest_model.py` to add/change scenarios
 - `data/species.csv` – per-species growth + wood traits. Add a species = add a row.
 - `data/stands.csv` – your forest stands (id, species, area, age).
 
-## Validated result (rotation mode + Mishima calibration)
+## Result (rotation mode + Mishima-scenario calibration)
 
 The model runs three harvest regimes (`regime` in CONFIG):
 - **convert** — clearfell X%/yr, replant broadleaf. One-way: fuel is a finite
@@ -82,8 +82,10 @@ The model runs three harvest regimes (`regime` in CONFIG):
 - **mixed** — `convert_fraction` of replanting goes to broadleaf (ecology), the
   rest to sustained sugi (energy). Captures the ecology↔energy trade-off.
 
-With `elec_efficiency` calibrated to Mishima, sustained rotation reproduces the
-real Mishima envelope as a function of **managed forest area**:
+With `elec_efficiency` calibrated to the Mishima scenario (NIES confirmed
+2026-09-07 this is a simulation, not an installed system — no measured data
+exists), sustained rotation reproduces that scenario's envelope as a function
+of **managed forest area**:
 
 | Managed ha | Auto CHP | CHP fuel | 50-yr profit |
 |---|---|---|---|
@@ -92,8 +94,9 @@ real Mishima envelope as a function of **managed forest area**:
 | **300–350** | **43–51 kWe** | **714–833 t/yr** | **+208–249 M¥** |
 | 500 | 72 kWe | 1,190 t/yr | +373 M¥ |
 
-**~300–350 ha matches Mishima's ≤50 kWe / 700–800 t/yr almost exactly** —
-independent validation. Mitsue has ~7,051 ha forest, so a Mishima-scale village
+**~300–350 ha matches the Mishima scenario's ≤50 kWe / 700–800 t/yr almost
+exactly** — an independent cross-check against that published scenario, not a
+real-world validation. Mitsue has ~7,051 ha forest, so a Mishima-scale village
 CHP needs only ~4–5% of it under sustained management.
 
 ## How the CHP is sized & calibrated
@@ -104,9 +107,10 @@ look unprofitable. The model now **sizes the CHP to the fuel flow**
 8760 h), and capex/O&M follow from ¥/kWe install + O&M rates.
 
 > **Calibration note:** `elec_efficiency` is 0.13 (net), set so the model
-> reproduces the real Mishima Town (Fukushima) anchor: ~750 green t/yr → ~50 kWe
-> at 70% capacity factor. The Sugano/Tokuo figures are *generated estimates*, not
-> real data, and are NOT used for calibration.
+> reproduces the Mishima Town (Fukushima) simulation scenario: ~750 green t/yr →
+> ~50 kWe at 70% capacity factor. This is a literature benchmark, not measured
+> data — Mishima's CHP was never actually built. The Sugano/Tokuo figures are
+> *generated estimates*, not real data, and are NOT used for calibration.
 
 Lessons: (1) match the machine to the wood — a small forest wants a small
 gasifier, not a ¥30M one; (2) one-way *convert* depletes the sugi and leaves the

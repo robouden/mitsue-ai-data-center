@@ -1,4 +1,4 @@
-<!-- Version: v1.8 | Last modified: 2026-08-14 -->
+<!-- Version: v1.9 | Last modified: 2026-09-07 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -30,14 +30,14 @@ The recovered volume is tiny relative to the area worked because the current
 regime is **subsidised thinning, not mechanised harvest**. That is precisely the
 gap the project closes.
 
-## 3. Real precedents we can check
+## 3. Precedents we can check
 
 | Village / Town | Forest | Harvest model | Energy result |
 |---|---|---|---|
-| **Shimokawa, Hokkaido** (下川町) | 4,500+ ha town forest (FSC 7,150 ha) | **~50 ha/yr** harvest **+ replant**, 60-yr sustained cycle | 56% local heat self-sufficiency; −20% town CO₂ |
-| **Nishiawakura, Okayama** (西粟倉村) | 93–95% forest | ~**3,000 ha** under 100-yr management contracts (village manages on owners' behalf) | forestry-jobs revival |
-| **Maniwa, Okayama** (真庭市) | city-scale | **148,000 t/yr** (90k unused wood + 58k mill residue) | **10 MW**, 79.2 GWh/yr, ~22,000 homes, 95% uptime |
-| **Mishima, Fukushima** (三島町) | ~88% forest | ~750 t/yr | ≤50 kWe — our model's calibration anchor |
+| **Shimokawa, Hokkaido** (下川町) | 4,500+ ha town forest (FSC 7,150 ha) | **~50 ha/yr** harvest **+ replant**, 60-yr sustained cycle | 56% local heat self-sufficiency; −20% town CO₂ (real, operating) |
+| **Nishiawakura, Okayama** (西粟倉村) | 93–95% forest | ~**3,000 ha** under 100-yr management contracts (village manages on owners' behalf) | forestry-jobs revival (real, operating) |
+| **Maniwa, Okayama** (真庭市) | city-scale | **148,000 t/yr** (90k unused wood + 58k mill residue) | **10 MW**, 79.2 GWh/yr, ~22,000 homes, 95% uptime (real, operating) |
+| **Mishima, Fukushima** (三島町) | ~88% forest | ~750 t/yr (simulated scenario) | ≤50 kWe — our model's calibration anchor; **NIES confirmed 2026-09-07 this is a simulation, not a built plant** |
 
 **Shimokawa** is the closest sustained-cycle model: a whole town forest run on
 **~50 ha/yr by a professional, mechanised crew**. It shows what a scaled-up
@@ -48,7 +48,7 @@ Mitsue Village Forest Association can look like.
 Harvest volume — and therefore plant size — is set by how large and how mechanised
 the crew becomes. Figures below are from the project's calibrated **Forest Twin**
 model (sugi 600 m³/ha, 314 kg/m³, 18.5 GJ/t; net electrical efficiency 0.13,
-calibrated so a Mishima-scale unit reproduces ~50 kWe on ~750 t/yr). All harvested
+calibrated so a Mishima-scenario unit reproduces ~50 kWe on ~750 t/yr). All harvested
 wood is routed to fuel; conversion runs over 25 years.
 
 | Cooperative capacity | Harvest rate | Area in 25 yr | Wood / yr | **Biomass plant** | Electricity | Heat |
@@ -224,9 +224,10 @@ for up-skilling the doubled Mitsue Village Forest Association crew (§1). Contac
    *sugi-monoculture → native-forest conversion*, funded by the energy pulse, with
    replanting for wildlife forage and watershed protection.
 2. **Accessible area is unknown.** Steep roadless stands and fragmented private
-   ownership (>90% private — Nishiawakura's and Mishima's #1 barrier) mean the
-   "harvestable" fraction must be measured, not assumed. A drone + LiDAR survey (as
-   used in Mishima) is the tool, and doubles as a trust-building gift to landowners.
+   ownership (>90% private — Nishiawakura's #1 barrier, and identified as a likely
+   barrier in Mishima's simulation) mean the "harvestable" fraction must be
+   measured, not assumed. A drone + LiDAR survey (the method Mishima's study
+   assumed) is the tool, and doubles as a trust-building gift to landowners.
 3. **The crew is the constraint, not the trees.** Every figure above scales with
    workforce and mechanisation — the project's central investment.
 
@@ -284,9 +285,10 @@ Mitsue replant spec:
 - 御杖村森林組合 report (village forest ~7,051 ha; ~66 ha/yr thinning; ~120–300 m³/yr;
   crew avg age ~33) — `Docs extra/御杖村森林組合 (Mitsue-mura Forest Owners' Cooperative) Report.md`
 - Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues on
-  Degraded Forests in Japan* — NIES Fukushima; Mishima Town CHP (≤50 kWe / 750 t/yr).
+  Degraded Forests in Japan* — NIES Fukushima; Mishima Town CHP scenario (≤50 kWe / 750 t/yr,
+  simulation — NIES confirmed by email 2026-09-07 no unit was ever installed).
 - Forest Twin model — `Docs extra/CHP biomass/forest-twin/forest_model.py`
-  (calibrated to Mishima; all assumptions inline).
+  (calibrated to the Mishima scenario; all assumptions inline).
 - Shimokawa Town 循環型森林経営 — https://www.town.shimokawa.hokkaido.jp/jigyo/2020/01/post-10.html
 - Shimokawa Town, MAFF interview — https://www.maff.go.jp/j/shokusan/renewable/energy/interview/shimokawa.html
 - Nishiawakura Village 百年の森林構想 — https://www.vill.nishiawakura.okayama.jp/wp/百年の森林構想/

@@ -1,4 +1,4 @@
-<!-- Version: v1.9 | Last modified: 2026-08-14 -->
+<!-- Version: v2.0 | Last modified: 2026-09-07 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -205,4 +205,4 @@ This is a multi-generational commitment, not a Phase 3 task. Planning must start
 - [Niwamori Sustainable Forest Proposal (Nov 2024)](https://www.niwamori.org/2024/11/25/proposal-for-sustainable-forest-management-and-food-autonomy-enhancement-in-nara-prefecture/)
 - [林野庁 広葉樹の取組](https://www.rinya.maff.go.jp/j/keikaku/kouyouzyu.html) — national broadleaf forest promotion subsidies
 - [奈良県森林環境課](https://www.pref.nara.lg.jp/n095/p078000.html) — prefectural forestry grants gateway
-- Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan* — Mishima Town CHP precedent; 700–800 t/yr biomass, ≤¥7,000/m³ chip cost benchmark
+- Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan* — Mishima Town CHP scenario (simulation, not installed — NIES confirmed 2026-09-07); 700–800 t/yr biomass, ≤¥7,000/m³ chip cost benchmark

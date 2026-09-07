@@ -1,4 +1,4 @@
-<!-- Version: v1.9 | Last modified: 2026-07-15 -->
+<!-- Version: v2.0 | Last modified: 2026-09-07 -->
 
 # 森林グループ — プロジェクト段階別の議題
 
@@ -225,7 +225,7 @@
 - [Niwamori Sustainable Forest Proposal (2024年11月)](https://www.niwamori.org/2024/11/25/proposal-for-sustainable-forest-management-and-food-autonomy-enhancement-in-nara-prefecture/)
 - [林野庁 広葉樹の取組](https://www.rinya.maff.go.jp/j/keikaku/kouyouzyu.html) — 全国の広葉樹林推進補助
 - [奈良県森林環境課](https://www.pref.nara.lg.jp/n095/p078000.html) — 県の森林関連補助金の窓口
-- Ooba, Nakamura \& Togawa (2020), *Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan* — 三島町CHPの先例、年間700～800tのバイオマス、チップコスト≤7,000円/m³のベンチマーク
+- Ooba, Nakamura \& Togawa (2020), *Promoting Local Revitalization to Solve Issues on Degraded Forests in Japan* — 三島町CHPシナリオ（シミュレーション、実機未導入——国立環境研究所が2026-09-07に確認）、年間700～800tのバイオマス、チップコスト≤7,000円/m³のベンチマーク
   <span style="display:none">[^1]</span>
 
 <div align="center">⁂</div>

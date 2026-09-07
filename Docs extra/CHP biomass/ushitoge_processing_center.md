@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-08-14 -->
+<!-- Version: v1.2 | Last modified: 2026-09-07 -->
 
 # 御杖村森林組合 牛峠工場 — Reference Sheet
 **Ushitoge Thinning-Timber Processing Center**
@@ -46,7 +46,7 @@ Why it matters to the project: it is an **existing** processing site, so a bioma
 - Whether it already produces **biomass fuel chips**.
 - Annual throughput (m³/yr), lumber-vs-residue split, or volume of unused low-grade material.
 
-**Sizing reality check:** our only empirical anchor (Mishima Town, Fukushima — NIES 2020) shows a village/forest of this type sustainably supports a **≤50 kWe CHP eating ~700–800 t/yr**. Any feasibility figure should cite Mishima, not the larger "100 kW–1 MW" range floated in informal notes. (See `degraded_forests_paper_summary_and_application.md`.)
+**Sizing reality check:** our best literature benchmark (Mishima Town, Fukushima — NIES 2020, a simulation study, NIES confirmed by email 2026-09-07 no unit was ever built) models a village/forest of this type supporting a **≤50 kWe CHP eating ~700–800 t/yr**. Any feasibility figure should cite this Mishima scenario (not as validated fact), not the larger "100 kW–1 MW" range floated in informal notes. (See `degraded_forests_paper_summary_and_application.md`.)
 
 ---
 

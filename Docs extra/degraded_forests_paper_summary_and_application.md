@@ -6,8 +6,8 @@
 <img src="../assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-08</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-09-07</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -15,6 +15,15 @@
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
 # Paper Summary & Project Application
+
+> **CORRECTION (2026-09-07):** NIES Fukushima confirmed by email that the CHP described in
+> this paper was **never actually installed** — the paper models a hypothetical/simulated
+> CHP scenario, not a built system. Figures like 700–800 t/yr and ≤50 kW remain useful
+> **planning benchmarks**, but any wording below implying the CHP is real, operating, or
+> validated by measured results is wrong and should be read as describing the paper's
+> modeled scenario. Non-CHP elements (Tree Station programme, museum wood boiler, HEMS
+> survey, council structure) may still be real town initiatives independent of the CHP
+> simulation — not reconfirmed either way.
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
 > 先人が植えた森が、今、村を支える力になる。
@@ -28,7 +37,7 @@
 
 ### What the Paper Is About
 
-This academic study examines how a small depopulated mountain town in Fukushima Prefecture — **Mishima Town, Oku-Aizu** — addressed two linked crises: degraded, unmanaged forests and reliance on external fossil energy. The researchers (NIES) partnered with the town to design and pilot a **small-scale woody biomass combined heat and power (CHP) system** driven entirely by local forest resources.
+This academic study examines how a small depopulated mountain town in Fukushima Prefecture — **Mishima Town, Oku-Aizu** — addressed two linked crises: degraded, unmanaged forests and reliance on external fossil energy. The researchers (NIES) partnered with the town to model a **small-scale woody biomass combined heat and power (CHP) system** driven entirely by local forest resources — a simulation study, not a built pilot (see correction above).
 
 ### The Core Problem
 
@@ -172,10 +181,10 @@ For Mitsue, this validates the **Phase 0 and Phase 1 "trust-first" approach** in
 
 | Action | How the Paper Supports It |
 |---|---|
-| Install small CHP ≤50 kW | Directly validated by Mishima's feasibility findings |
+| Install small CHP ≤50 kW | Sized to match Mishima's simulated feasibility scenario — a planning benchmark, not a validated real-world result |
 | Source biomass locally within circulation radius | Raw biomass transport limit of 50–125 km confirmed; Mitsue's own forests are within this |
-| Install HEMS in pilot buildings | Mishima used this to map real energy demand before finalizing system design — do this before finalizing data center load specs |
-| Use FIT registration for electricity | Mishima's profitable scenario relied on FIT — register early before eligibility rules tighten further |
+| Install HEMS in pilot buildings | Mishima's simulation used modeled energy demand; do our own HEMS-based demand survey before finalizing data center load specs |
+| Use FIT registration for electricity | Mishima's simulated profitable scenario relied on FIT — register early before eligibility rules tighten further |
 
 ### Long-Term (Phase 4+)
 
@@ -190,13 +199,13 @@ For Mitsue, this validates the **Phase 0 and Phase 1 "trust-first" approach** in
 
 ## 4. Summary — Most Important Takeaways
 
-1. **700–800 tons/year biomass for ≤50 kW CHP** is the right pilot size for Mitsue — validated by real data from a comparable village.
+1. **700–800 tons/year biomass for ≤50 kW CHP** is the right pilot size for Mitsue — a planning benchmark from a comparable village's simulation, not validated real-world data (NIES confirmed 2026-09-07 the CHP was never built).
 2. **Drone + LiDAR forest survey first** — you cannot plan supply without knowing what you actually have.
 3. **Circulation radius is real** — design the system so biomass stays local and heat consumers are within a few hundred meters of the CHP.
 4. **FIT is a tool, not a strategy** — use it in Phase 3 but build the long-term model on data center, EV charging, and heat sales revenues.
 5. **Start small and visible** — a wood-fired boiler in a community building costs almost nothing and builds trust that no presentation can buy.
 6. **Govern with a council structure** — supply and consumption working groups under one coordination body, including local and external stakeholders.
-7. **Mitsue is not alone** — Mishima's model is a direct precedent; cite it in funding applications and with village leadership to show this has been done successfully.
+7. **Mitsue is not alone** — Mishima's is a directly comparable simulation study; cite it in funding applications and with village leadership as a rigorous planning precedent, not as proof the CHP has already been done successfully elsewhere.
 
 ---
 

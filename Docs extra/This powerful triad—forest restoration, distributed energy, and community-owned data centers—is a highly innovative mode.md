@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-06-23 -->
+<!-- Version: v1.1 | Last modified: 2026-09-07 -->
 
 # The Mitsue Model: Forest Restoration, Energy, and Data Centers
 
@@ -19,7 +19,7 @@ Why This Works for Rural Japan
 2. **Repopulation & Jobs:** It shifts the economic base from traditional agriculture/forestry to a high-tech "green" sector, creating IT and engineering jobs that attract younger demographics to the countryside. [[1](https://www.cas.go.jp/jp/seisaku/digital_denen/pdf/20221223_gaiyou-e.pdf), [2](https://www.maff.go.jp/e/data/publish/attach/pdf/index-64.pdf)]
 3. **Decentralization from Tokyo:** This supports the national goal of correcting the over-concentration of resources in the Tokyo metropolitan area by turning rural regions into self-sustaining technological and ecological hubs. [[1](https://www.cas.go.jp/jp/seisaku/digital_denen/pdf/20221223_gaiyou-e.pdf)]
 
-There are already pioneering examples of this taking shape in Japan, such as the *Soya Green Data Center* in Wakkanai, Hokkaido, which directly connects wind power to a data center, and woody biomass circular systems in towns like Mishima, Fukushima. [[1](https://www.eurus-energy.com/en/news/2026/20260114-2609.html), [2](https://airies.wikiplus.net/attach.php/6a6f75726e616c5f32342d32656e67/save/0/0/24_2-12.pdf)]
+There are already pioneering examples of this taking shape in Japan, such as the *Soya Green Data Center* in Wakkanai, Hokkaido, which directly connects wind power to a data center, and — as a planning/simulation study, not an installed system (NIES confirmed by email 2026-09-07) — woody biomass circular energy modeling for towns like Mishima, Fukushima. [[1](https://www.eurus-energy.com/en/news/2026/20260114-2609.html), [2](https://airies.wikiplus.net/attach.php/6a6f75726e616c5f32342d32656e67/save/0/0/24_2-12.pdf)]
 
 If you are exploring a specific project or region, I can:
 

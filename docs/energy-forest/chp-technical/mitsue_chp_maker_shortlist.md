@@ -1,4 +1,4 @@
-<!-- Version: v1.3 | Last modified: 2026-08-14 -->
+<!-- Version: v1.5 | Last modified: 2026-09-07 -->
 
 # Biomass CHP — Maker Shortlist
 
@@ -104,7 +104,14 @@ Fuel spec: **non-construction-grade wood only** — thinnings, branches, bark, s
 makes pulp/paper chips and is NG for fuel — a separate fuel-spec chipper is needed either way).
 Fuel-grade chip spec: <20% moisture after drying, no strict size-grading (unlike pulp chips).
 
-Tonnage benchmark: [[reference_mishima_fukushima_chp]]'s real anchor is **~750 t/yr per 50 kWe**.
+Tonnage benchmark: [[reference_mishima_fukushima_chp]]'s scenario figure (simulation, not an
+installed unit — NIES confirmed 2026-09-07) is **~750 t/yr per 50 kWe**.
+
+**Real operating anchor found:** Spa Hotel Abukuma (西郷村, Fukushima) — Entrade Energiesysteme
+(Germany) E3 (25 kWe) + WE-50P (49.9 kWe) units, running since Nov 2018, measured ratio
+~1 kWh elec + 2 kWth heat per 1 kg pellet. Imported (benchmark-only per policy above), but
+real measured output data, unlike Mishima's simulation. Capex/fuel-tonnage not yet public —
+inquiry drafted, see `mitsue_email_fujitakk_abukuma_chp_inquiry.md`.
 
 | CHP tier | Approx. fuel demand | Chipper class needed | Example models found | Price |
 |---|---|---|---|---|

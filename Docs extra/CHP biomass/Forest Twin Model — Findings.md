@@ -1,6 +1,6 @@
 # Forest Twin Model — Findings
 
-<p align="right">Version: v1.1 &nbsp;|&nbsp; Last modified: 2026-08-14</p>
+<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-09-07</p>
 
 ---
 
@@ -29,12 +29,15 @@ gasifier ≈ ~43 kWe and needs ~300 MWh/yr of fuel — about 2%/yr from ~250 ha.
 Starting from "let's buy a ¥30M unit" was itself the error; a small forest wants
 a small, cheap gasifier.
 
-**3. Calibrated to real data (Mishima), not generated estimates.**
-The only empirical anchor is the **Mishima Town, Fukushima** NIES study (Ooba,
-Nakamura & Togawa, 2020): ≤50 kWe CHP consuming 700–800 t/yr. Net electrical
-efficiency was set to 0.13 so the model reproduces this. The Sugano / Tokuo Aomi
-figures (10 kWe, 28 ha, etc.) are **generated estimates, not measured data**, and
-are NOT used for calibration — only as a case to predict.
+**3. Calibrated to the Mishima scenario, not generated estimates.**
+NIES Fukushima confirmed (2026-09-07) the Mishima paper is a **simulation**, not
+an installed system — there is no measured/empirical CHP at Mishima. The best
+available literature benchmark is the **Mishima Town, Fukushima** NIES study
+(Ooba, Nakamura & Togawa, 2020): ≤50 kWe CHP scenario consuming 700–800 t/yr.
+Net electrical efficiency was set to 0.13 so the model reproduces this modeled
+figure. The Sugano / Tokuo Aomi figures (10 kWe, 28 ha, etc.) are **generated
+estimates, not measured data**, and are NOT used for calibration — only as a
+case to predict.
 
 **4. Sustainability depends entirely on the harvest regime.**
 - *convert* (clearfell → broadleaf, one-way): fuel is a finite stock, depletes,
@@ -43,7 +46,7 @@ are NOT used for calibration — only as a case to predict.
   stays flat → perpetual fuel. (50 ha → +1 M¥, and scales well)
 - *mixed*: splits replanting between broadleaf (ecology) and sugi (energy).
 
-**5. The model independently reproduces Mishima.**
+**5. The model independently reproduces the Mishima scenario.**
 In sustained rotation, output scales with managed forest area:
 
 | Managed ha | Auto CHP | CHP fuel | 50-yr profit |
@@ -53,9 +56,9 @@ In sustained rotation, output scales with managed forest area:
 | **300–350** | **43–51 kWe** | **714–833 t/yr** | **+208–249 M¥** |
 | 500 | 72 kWe | 1,190 t/yr | +373 M¥ |
 
-**~300–350 ha matches Mishima's ≤50 kWe / 700–800 t/yr almost exactly** — an
-independent cross-check between our growth/energy model and a published field
-study.
+**~300–350 ha matches the Mishima scenario's ≤50 kWe / 700–800 t/yr almost
+exactly** — an independent cross-check between our growth/energy model and a
+published simulation study (not a field study — see note above).
 
 ## What it means for Mitsue
 

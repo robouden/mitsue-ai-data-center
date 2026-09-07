@@ -1,11 +1,11 @@
-<!-- Version: v1.1 | Last modified: 2026-08-14 -->
+<!-- Version: v1.2 | Last modified: 2026-09-07 -->
 
 # Mitsue Village — Forest Area: Before / After (25-Year Projection)
 
 **Prepared for:** 上坂奈穂様 (Nao Uesaka), Mizuho Securities — Sustainability Promotion Dept.
 **Purpose:** Order-of-magnitude estimate of how much sugi/hinoki plantation area the project's biomass-CHP-funded workforce could realistically thin and convert toward native broadleaf over 25 years, and what that implies for energy output.
 
-**Status:** These are modeled projections from the project's Forest Twin calculation, calibrated against a real empirical anchor (Mishima, Fukushima — NIES 2020, ~750 t/yr feeding ≤50 kWe). They are not measured or committed figures.
+**Status:** These are modeled projections from the project's Forest Twin calculation, calibrated against a literature benchmark (Mishima, Fukushima — NIES 2020, ~750 t/yr feeding ≤50 kWe). **Correction (2026-09-07):** NIES confirmed by email that the Mishima paper is a simulation, not an installed system — this benchmark was not previously verified as "empirical" when this document was sent; it is a modeled scenario figure, not measured data. They are not measured or committed figures.
 
 ---
 
@@ -35,18 +35,18 @@ Biomass-CHP revenue from harvested sugi thinnings pays for a larger, mechanized 
 
 **Recommended baseline: doubled workforce — roughly half the village's forest (~3,500 ha) thinned and opened to broadleaf restoration over 25 years, supporting a ~1.1–1.2 MWe biomass plant.**
 
-## Real-world precedents used to sanity-check this
+## Precedents used to sanity-check this
 
 | Village | Forest | Harvest model | Result |
 |---|---|---|---|
-| Shimokawa, Hokkaido (下川町) | 4,500+ ha | ~50 ha/yr, 60-yr sustained cycle | 56% local heat self-sufficiency |
-| Nishiawakura, Okayama (西粟倉村) | 93–95% forest | ~3,000 ha under 100-yr management | forestry-jobs revival |
-| Mishima, Fukushima (三島町) | ~88% forest | ~750 t/yr | ≤50 kWe — our model's calibration anchor |
+| Shimokawa, Hokkaido (下川町) | 4,500+ ha | ~50 ha/yr, 60-yr sustained cycle | 56% local heat self-sufficiency (real, operating) |
+| Nishiawakura, Okayama (西粟倉村) | 93–95% forest | ~3,000 ha under 100-yr management | forestry-jobs revival (real, operating) |
+| Mishima, Fukushima (三島町) | ~88% forest | ~750 t/yr (simulated scenario) | ≤50 kWe — our model's calibration anchor; **NIES-confirmed simulation, not a built system** |
 
 ---
 
 ## Sources
 - Mitsue Forest Workforce & Energy Plan (project document, v1.7, 2026-07-17)
 - 御杖村森林組合 (Mitsue Village Forest Association) cooperative report
-- NIES 2020 — Mishima, Fukushima biomass CHP case study
+- NIES 2020 — Mishima, Fukushima biomass CHP simulation study (confirmed by NIES email, 2026-09-07, as a modeled scenario, not an installed system)
 - Shimokawa Town / Nishiawakura Village public forestry data
