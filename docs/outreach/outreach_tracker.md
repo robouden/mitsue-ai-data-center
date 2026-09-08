@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-08-31 -->
+<!-- Version: v1.2 | Last modified: 2026-09-08 -->
 
 # Outreach Tracker
 
@@ -12,7 +12,8 @@ Running log of notes, forms, letters, and emails sent out for the project. Sourc
 |---|---|---|---|---|---|
 | 2026-08-31 | GX地域共創補助金事務局 (METI) | Web form | Mesh-model / multi-site eligibility inquiry | **Sent** — receipt #00001785, awaiting reply | [[project_gx_inquiry_submitted]] (memory) |
 | 2026-08-28 | 御杖村 古谷 (Furutani) | Email reply | Thanks for disclosure-doc meeting | Sent | Gmail thread `1a04651a457b3a45` |
-| 2026-08-26 | Komatsu (コマツ) forestry equipment | Email | CTL equipment trial-site inquiry | Sent | Gmail thread `1a03cf46a2fab888` |
+| 2026-09-08 | Komatsu Forest (コマツフォレスト), FMB inquiry line | Email (JP only) | CTL trial-site follow-up — clear-cut/reforest scale-up + training-ground pitch | Sent from rob@mitsue.it, awaiting reply | `mitsue_email_komatsu_ctl_followup.md`; [[project_komatsu_ctl_outreach]] |
+| 2026-08-26 | Komatsu (コマツ) forestry equipment | Email | CTL equipment trial-site inquiry | Sent — no reply, see follow-up above | Gmail thread `1a03cf46a2fab888` |
 | 2026-08-20 | 奈良県フォレスターアカデミー | Email | Confirmation re: form submission follow-up | Sent | `mitsue_email_forester_academy_request.md`; [[project_forester_academy_followup_sent]] |
 | 2026-08-14 | Miyagawa Forest Cooperative | Email (intro, updated) | Partnership intro | Sent — verify | `mitsue_email_miyagawa_shinrin_intro.md` |
 | 2026-08-06 | Fujitex | Email | Chipper RFQ | Sent — verify | `mitsue_email_fujitex_chipper_rfq.md` |
