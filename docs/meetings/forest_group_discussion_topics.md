@@ -1,4 +1,4 @@
-<!-- Version: v2.0 | Last modified: 2026-09-07 -->
+<!-- Version: v2.1 | Last modified: 2026-09-10 -->
 
 # Forest Group — Discussion Topics by Project Phase
 
@@ -133,6 +133,17 @@ This is a multi-generational commitment, not a Phase 3 task. Planning must start
 - Role: partner, contractor, or hybrid?
 - Are they willing to plant + tend native broadleaf for wildlife forage (not sugi-for-timber), with the NGO choosing the species? *(See Guiding Principle above — the key cultural ask.)*
 - Profit-sharing or service-fee model?
+
+**Fuel offtake — questions for the co-op to decide, not us** (background numbers, all draft/
+illustrative, in `mitsue_fuel_offtake_term_sheet.md` — that document is explicitly *not* an offer,
+just market context for the co-op's own discussion):
+- Does the co-op currently have a buyer for B-grade wood (plywood/pulp), or does it go unsold?
+  (Changes what share of thinnings is realistic CHP feedstock — a large swing, and only the co-op
+  knows the real answer.)
+- What does the co-op's own harvest/chip/dry/haul cost actually run per m³ today?
+- Does the current crew (~3–4) support near-term volume, or does hiring/mechanization need to
+  come first — on what timeline that works for *them*?
+- What contract term, volume ramp, and price structure would the co-op actually want?
 
 ### Economics & Feasibility *(Gate 2 decision — Dec 2026)*
 - Cost per tonne of dried chip delivered to CHP gate

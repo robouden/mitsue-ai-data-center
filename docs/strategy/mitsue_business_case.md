@@ -6,8 +6,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.6</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-07-17</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v2.2</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-09-09</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -181,6 +181,14 @@ A proposal is only persuasive against the alternatives it beats. For the candida
 ¹ Where a private buyer is involved, the village should weigh buyer credibility — the dome-school bidding file shows prospective-buyer quality varies; selling or leasing does not guarantee a good village outcome.
 ² Village cash exposure is minimized because the 交付金 subsidizes 2/3–3/4 of eligible energy capex and other layers carry the rest.
 
+### Why "forestry-only" financing has already failed once — the historical precedent
+
+Option C (forestry-only) is not a new idea — Japan ran essentially this model nationally for 60+ years, and it broke. Postwar national policy financed coniferous reforestation through **profit-sharing forestry corporations** (Prefectural Forestry Corporations, 1959 onward): the corporation covered all planting, tending, and road costs on long-term debt, on the assumption that rising future log prices would cover it at final harvest 40–50 years later. They didn't — sugi stumpage prices fell from a **¥22,707/m³ peak in 1980 to ¥4,127/m³ as of March 2024** (down another 5.4% y/y), roughly **18% of peak, still falling** [林野庁 / 日本林業経済研究所 山元立木価格統計] — and **all 47 Prefectural Forestry Corporations now carry a combined ~US$8.7 billion in long-term debt**, with interest alone exceeding 90% of some corporations' annual costs [Matsushita, 2015, DOI 10.5772/61268]. This is the direct structural reason Mitsue's own forestry economics — and the aging, unthinned stands behind them — are broken today: **the plantation model this land was built on was financially unsound from the start under a falling-price scenario, not merely under-managed.**
+
+This is the strongest argument *against* Option C and *for* Option E. A forestry-only revenue model repeats the same single-scenario bet on timber-market prices that already bankrupted the national system once. The integrated project instead pairs the forest with an **anchor offtaker whose demand (compute) is decoupled from the timber market** — thinnings fund biomass CHP, biomass CHP powers the data center, and the data center's revenue does not depend on log prices ever recovering. It is a genuinely different financing logic, not a scaled-down version of the model that failed.
+
+**Current model → Phase 1 → Phase 3:** see the diagram in [`mitsue_kanko_collaboration_diagrams.html`](../meetings/mitsue_kanko_collaboration_diagrams.html) §5 ("Forestry Financial Model — Current → Phase 1 → Phase 3"). In short: **Current** is today's model — forest, thinning, processing, timber sale, nothing else, and it is already failing per the precedent above. **Phase 1** is the prototype: the same forest splits into a ~50% thinning (light enough that wildlife forage returns in 5–10 years) plus a small, fully clear-cut **sample plot near the village** replanted with native broadleaf via more trees; processed wood feeds either a **<50 kW biomass CHP prototype** (power to the AI data center and Kepco/grid) or direct timber sale. **Phase 3** is full production once the prototype proves out: thinning cleanup continues from the 50% baseline, clear-cutting expands to the whole planned area with more trees replanting it all, and CHP capacity grows to **1.2 MW**. Either way, revenue no longer depends solely on the timber market — it comes from compute and grid power as well.
+
 ### Why the integrated project wins
 
 - **It is the only option that satisfies the village's *own* published RE plan.** That plan's "one resilient renewable + storage + EV site" indicator currently reads zero; only Option E provides the "1". Options A–D leave the village's adopted 2050 strategy without an operator.
@@ -307,7 +315,7 @@ Two linked views: **who decides what (authority)**, and **what each decision-mak
 
 ## Sources & status
 
-Financial ranges consolidate the project's own illustrative estimates from [`mitsue_revenue_model.md`](mitsue_revenue_model.md), [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §ROI, and [`mitsue_evm_plan.md`](mitsue_evm_plan.md) — not externally audited. 交付金 terms: MoE 地域脱炭素移行・再エネ推進交付金, 実施要領 (補助率 2/3・3/4) https://www.env.go.jp/content/900470616.pdf. Entity structure (一般社団法人 + 合同会社 GK) per [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §1A and the NGO-setup checklists. **Items still to confirm:** final site selection from the candidate premises (former Sugano school spare classrooms and/or a disused factory — Phase 1; the dome school is a separate building, out of scope); equity entry valuation (Phase 2); positive team profile (post JP co-founder).
+Financial ranges consolidate the project's own illustrative estimates from [`mitsue_revenue_model.md`](mitsue_revenue_model.md), [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §ROI, and [`mitsue_evm_plan.md`](mitsue_evm_plan.md) — not externally audited. 交付金 terms: MoE 地域脱炭素移行・再エネ推進交付金, 実施要領 (補助率 2/3・3/4) https://www.env.go.jp/content/900470616.pdf. Prefectural Forestry Corporation debt precedent: Matsushita K., "Japanese Forestation Policies During the 20 Years Following World War II," in *Precious Forests - Precious Earth*, IntechOpen, 2015, DOI 10.5772/61268 (see `../energy-forest/history/matsushita_2015_postwar_forestation_policies_summary.md`). Current sugi stumpage price (¥4,127/m³, March 2024, vs. ¥22,707/m³ 1980 peak): 林野庁 (Forestry Agency) 山元立木価格統計, via 日本林業経済研究所 (https://www.shinrin-ringyou.com/data/kakaku_yama.php). Entity structure (一般社団法人 + 合同会社 GK) per [`mitsue_implementation_plan.md`](mitsue_implementation_plan.md) §1A and the NGO-setup checklists. **Items still to confirm:** final site selection from the candidate premises (former Sugano school spare classrooms and/or a disused factory — Phase 1; the dome school is a separate building, out of scope); equity entry valuation (Phase 2); positive team profile (post JP co-founder).
 
 ---
 

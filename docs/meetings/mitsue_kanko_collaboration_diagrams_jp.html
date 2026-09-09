@@ -1,0 +1,555 @@
+<!-- File: mitsue_kanko_collaboration_diagrams_jp.html | Version: v1.6 | Last modified: 2026-09-10 -->
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>御杖村AIデータセンター - 事業体・資金・労働の全体像</title>
+    <script src="../../tools/mermaid.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
+        color: #1a202c;
+        background: #f7f8fa;
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 28px 36px 70px;
+      }
+      .header {
+        border-bottom: 2px solid #1a365d;
+        padding-bottom: 10px;
+        margin-bottom: 6px;
+      }
+      h1 {
+        font-size: 22px;
+        color: #1a365d;
+        font-weight: 700;
+      }
+      .sub {
+        color: #4a5568;
+        font-size: 13px;
+        margin-top: 4px;
+      }
+      .banner {
+        background: #fff5f5;
+        border: 1px solid #feb2b2;
+        color: #742a2a;
+        font-size: 13px;
+        padding: 10px 14px;
+        border-radius: 6px;
+        margin: 14px 0 6px;
+      }
+      .banner b {
+        color: #c53030;
+      }
+      .legend {
+        font-size: 12px;
+        color: #4a5568;
+        margin: 16px 0 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: center;
+      }
+      .sw {
+        display: inline-block;
+        width: 14px;
+        height: 9px;
+        margin-right: 5px;
+        vertical-align: middle;
+        border-radius: 2px;
+      }
+      .sw.dash {
+        background: repeating-linear-gradient(
+          90deg,
+          #718096 0 4px,
+          transparent 4px 7px
+        );
+      }
+
+      h2 {
+        font-size: 16px;
+        color: #1a365d;
+        font-weight: 700;
+        margin: 36px 0 4px;
+      }
+      .h2sub {
+        font-size: 12px;
+        color: #718096;
+        margin-bottom: 12px;
+      }
+      .diagram {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        overflow-x: auto;
+      }
+
+      .notes {
+        margin-top: 40px;
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 18px 22px;
+      }
+      .notes h2 {
+        margin-top: 0;
+      }
+      .notes ul {
+        font-size: 13px;
+        color: #2d3748;
+        line-height: 1.9;
+        padding-left: 20px;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 11px;
+        color: #a0aec0;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      /* darker, thicker edges for readability on white background */
+      .diagram .edgePath .path {
+        stroke: #4a5568 !important;
+        stroke-width: 1.6px !important;
+      }
+      .diagram marker path {
+        fill: #4a5568 !important;
+        stroke: #4a5568 !important;
+      }
+
+      /* consistent text size across all diagrams */
+      .diagram .node text,
+      .diagram .nodeLabel {
+        font-size: 15px !important;
+      }
+      .diagram .edgeLabel {
+        font-size: 13px !important;
+        background-color: #f7f8fa !important;
+        color: #2d3748 !important;
+      }
+      .diagram .cluster-label,
+      .diagram .cluster text {
+        font-size: 13px !important;
+        font-weight: 700;
+        fill: #2d3748 !important;
+      }
+
+      /* subgraph/cluster background: light grey instead of default yellow (sections 2, 4 & 5) */
+      .diagram .cluster rect {
+        fill: #f1f5f9 !important;
+        stroke: #cbd5e0 !important;
+      }
+
+      /* print: wide diagrams (section 4 & 5) get their own page and shrink-to-fit instead of
+         being clipped by overflow-x:auto (which has no effect on paper) */
+      @media print {
+        h2 {
+          break-after: avoid;
+        }
+        .diagram {
+          break-inside: avoid;
+        }
+        .diagram-wide {
+          break-before: page;
+        }
+        /* only section 4 is genuinely WIDE (landscape LR layout) - scale it to fill page
+           width. Section 5 is TALL (stacked TB subgraphs); forcing width:100% there would
+           scale its height up proportionally and sprawl it across many pages. */
+        #diagram4 {
+          overflow: visible !important;
+        }
+        #diagram4 svg {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
+        /* section 5: text left, tall Current->Phase1->Phase3 diagram shrunk into a
+           narrow right-hand column so the whole thing fits on one A3 page instead
+           of flowing across three. zoom (not transform) so the box actually shrinks. */
+        .sec5 {
+          break-before: page;
+          break-inside: avoid;
+          display: grid;
+          grid-template-columns: 1fr 300px;
+          grid-template-areas:
+            "title    diagram"
+            "subtitle diagram"
+            "explain  diagram";
+          column-gap: 14px;
+          align-items: start;
+        }
+        .sec5 > h2 {
+          grid-area: title;
+          margin-top: 0;
+        }
+        .sec5 > .h2sub:first-of-type {
+          grid-area: subtitle;
+        }
+        .sec5 > .diagram-wide {
+          grid-area: diagram;
+          break-before: avoid !important;
+          break-inside: avoid;
+          zoom: 0.46;
+        }
+        .sec5 > .h2sub:last-of-type {
+          grid-area: explain;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>御杖村AIデータセンター - 事業体・資金・労働の全体像</h1>
+      <div class="sub">
+        御杖村森林組合との会議のための検討ドラフト · 法人構造、資金の流れ、労働の流れ、ステークホルダー全体図
+      </div>
+    </div>
+
+    <div class="banner">
+      <b>非常に初期の草案 - 概念のみ。</b>
+      ここに記載の内容は何も決定・合意されていません。これは署名する提案ではなく、議論の出発点です。
+    </div>
+
+    <div class="legend">
+      <span
+        ><span class="sw" style="background: #2b6cb0"></span>政府</span
+      >
+      <span><span class="sw" style="background: #276749"></span>NGO / NPO</span>
+      <span><span class="sw" style="background: #975a16"></span>企業</span>
+      <span
+        ><span class="sw" style="background: #6b46c1"></span>協同組合</span
+      >
+      <span><span class="sw" style="background: #b83280"></span>学術機関</span>
+      <span
+        ><span class="sw dash"></span>実線 = 確定 &nbsp;·&nbsp; 破線 =
+        未確定・未署名の合意</span
+      >
+      <span><span class="sw" style="background: #c53030"></span>破綻中 / 現状モデル</span>
+    </div>
+
+    <h2>1. 法人・ガバナンス構造</h2>
+    <div class="h2sub">
+      階層プラン (出典: <code>mitsue_qa_crew_finance_entity_governance.md</code>)
+    </div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    VILLAGE["御杖村 村役場"]
+    NGO["一般社団法人 (Ippan Shadan Hojin)<br/>Tier 1 - ミッション・IP・<br/>村との関係・Jクレジット<br/>非分配"]
+    GK["合同会社 (GK) / KK<br/>Tier 2 - 運営会社<br/>CHP + AIデータセンター + 太陽光/FIT資産"]
+    COOP["御杖村森林組合<br/>既存の森林組合"]
+    MORETREES["more trees (NGO)"]
+
+    VILLAGE -.->|"土地賃貸候補地・許認可・関心表明書"| GK
+    VILLAGE -->|"地域連携窓口"| MORETREES
+    MORETREES -->|"NGOの代理として村と連絡"| NGO
+    NGO -->|"過半数を保有"| GK
+    GK -.->|"運営余剰 - 伐採が再植林を賄う循環"| NGO
+    NGO -.->|"森林組合と調整 - 初期協議・MOUなし"| COOP
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    class VILLAGE gov
+    class NGO ngo
+    class GK co
+    class COOP,MORETREES coop
+</pre>
+    </div>
+
+    <h2>2. 資金の流れ</h2>
+    <div class="h2sub">資金源 → 事業体 → 使途</div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    subgraph Sources["資金源"]
+        direction LR
+        L1["L1 創業者<br/>目標 ¥6M"]
+        FOUND["財団<br/>目標 ¥33M"]
+        GRANTS["政府補助金<br/>経産省GX / 環境省 / 村再エネ<br/>補助率 2/3–3/4"]
+        CORP["企業パートナー<br/>目標 ¥35M - 未確定"]
+        MIZUHO["みずほ 融資/債券/SLL<br/>構造未定"]
+    end
+
+    NGO["一般社団法人 NGO<br/>(非分配)"]
+    GK["運営会社 GK/KK<br/>(CHP + AI DC)"]
+    REV["運営収益<br/>DCホスティング + PPA/FIT売電"]
+    COOP["御杖村森林組合<br/>(森林組合)"]
+    VILLAGE["御杖村 村役場<br/>(補助金の中継)"]
+
+    L1 --> NGO
+    FOUND --> NGO
+    CORP -.->|"未確定のCSR"| NGO
+    GRANTS -->|"森林/再エネ型"| NGO
+    GRANTS --> VILLAGE
+    VILLAGE -->|"DC/電力型、官民連携"| GK
+    MIZUHO -.->|"オプションA/B未定"| GK
+    REV --> GK
+
+    NGO -->|"過半数を保有"| GK
+    GK -.->|"運営余剰"| NGO
+    GK -.->|"フェーズ1燃料材契約 - 未締結"| COOP
+
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef tentativeMoney fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    class L1,GRANTS,FOUND,REV,GK,NGO,VILLAGE money
+    class CORP,MIZUHO,COOP tentativeMoney
+</pre>
+    </div>
+
+    <h2>3. 労働・作業の流れ</h2>
+    <div class="h2sub">誰が誰のために何をするか</div>
+    <div class="diagram">
+      <pre class="mermaid">
+graph TD
+    COOP["御杖村森林組合<br/>現在3-4名、倍〜3倍に拡大予定"]
+    NGO["NGO - 樹種選定・ミッション監督"]
+    MORETREES["more trees - 再植林手法の専門知識"]
+    GK["運営会社 - CHP + DCを運営"]
+    VILLAGE["村役場 - 許認可・土地・連絡窓口"]
+    ADVISORS["アドバイザー: Dome(経済)、Takata(バイオマス事業開発)、<br/>Ozzie、Poisson(PM)、無償法律顧問(Linklaters、TMI-中野、堀田)"]
+    NAIST["NAIST (塩崎、久保/CDG)"]
+    SUGANO["菅野オーガニック (徳雄あおみ)"]
+
+    COOP -->|"植林・保育・伐採・チップ化・乾燥"| GK
+    NGO -->|"樹種・生態系基準を設定"| COOP
+    MORETREES -.->|"再植林手法を助言 - 未確定"| NGO
+    GK -->|"CHP熱/電力 + DCホスティング"| VILLAGE
+    VILLAGE -->|"許認可・地域の承認"| GK
+    ADVISORS -.->|"非公式な助言、書面合意なし"| GK
+    ADVISORS -.->|"非公式な助言"| NGO
+    NAIST -.->|"リビングラボ研究・学生プログラム提案 - フェーズ0"| NGO
+    SUGANO -.->|"フェーズ1試験CHP候補地・自社林を燃料に - 検討中"| GK
+
+    classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
+    classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
+    class COOP,NGO,GK,VILLAGE confirmed
+    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+</pre>
+    </div>
+
+    <h2>4. 全体ステークホルダー・ネットワーク</h2>
+    <div class="h2sub">種類別に分類した全事業体</div>
+    <div class="diagram diagram-wide" id="diagram4">
+      <pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 60, 'rankSpacing': 110, 'padding': 12, 'useMaxWidth': false}}}%%
+graph LR
+    subgraph Government["政府"]
+        direction TB
+        VILLAGE["御杖村<br/>村役場"]
+        NARA["奈良県<br/>土地許認可、未確定の補助金"]
+        NATIONAL["経産省 / 環境省 / 林野庁<br/>NEDO / JST"]
+    end
+    subgraph NGO_NPO["NGO / NPO"]
+        direction TB
+        NGO["プロジェクトNGO<br/>(一般社団法人)"]
+        MORETREES["more trees"]
+        FOUND["財団"]
+    end
+    subgraph Cooperative["協同組合"]
+        direction TB
+        COOP["御杖村森林組合<br/>森林組合"]
+    end
+    subgraph Companies["企業"]
+        direction TB
+        GK["運営会社<br/>(GK/KK)<br/>CHP + AI DC"]
+        MIZUHO["みずほ証券"]
+        CORP["企業パートナー<br/>未確定"]
+        SUGANO["菅野オーガニック"]
+        LEGAL["法律顧問 - 無償<br/>Linklaters(渡邊)、TMI(中野)、堀田"]
+    end
+    subgraph Academia["学術機関"]
+        direction TB
+        NAIST["NAIST"]
+    end
+
+    NATIONAL -->|"補助金"| NGO
+    NATIONAL -->|"補助金、村経由"| GK
+    VILLAGE -->|"土地・許認可"| GK
+    VILLAGE -->|"連絡窓口"| MORETREES
+    MORETREES -->|"村との連絡、樹種パートナー"| NGO
+    NARA -.->|"土地利用許認可"| GK
+    NGO -->|"過半数を保有、余剰が還流"| GK
+    NGO -.->|"森林組合と調整"| COOP
+    GK -.->|"燃料契約 - 未確定"| COOP
+    FOUND -->|"助成金"| NGO
+    MIZUHO -.->|"資金調達 - 構造未定"| GK
+    CORP -.->|"CSR - 未確定"| NGO
+    SUGANO -.->|"試験地 - 検討中"| GK
+    LEGAL -.->|"設立助言 - 無償・確定"| NGO
+    NAIST -.->|"リビングラボ - フェーズ0"| NGO
+
+    classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
+    classDef ngo fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
+    class VILLAGE,NARA,NATIONAL gov
+    class NGO,MORETREES,FOUND ngo
+    class GK,MIZUHO,CORP,SUGANO,LEGAL co
+    class COOP coop
+    class NAIST acad
+</pre>
+    </div>
+
+    <div class="sec5">
+    <h2>5. 森林事業の財務モデル - 現状 -&gt; フェーズ1 -&gt; フェーズ3</h2>
+    <div class="h2sub">
+      なぜ森林事業単体の資金モデルは既に全国で破綻したのか (松下 2015年、都道府県造林公社の債務問題)。
+      本プロジェクトが試作から本格生産へどう拡張するか
+    </div>
+    <div class="diagram diagram-wide">
+      <pre class="mermaid">
+graph TD
+    subgraph CURRENT["現状 - 森林事業単体、既に破綻中"]
+        direction TB
+        CF["森林"] -->|"間伐"| CP["加工"]
+        CP --> CS["価格が暴落した<br/>立木価格での販売"]
+        CS -.->|"収益 &lt; コスト<br/>(スギ山元立木価格: 1980年 22,707円/m3<br/>-&gt; 2024年 4,127円/m3、なお下落中)"| CX["間伐が停滞"]
+        CX -.->|"荒廃が進行"| CF
+    end
+
+    subgraph PHASE1["フェーズ1 - 試作 + サンプル区画の再生"]
+        direction TB
+        F1["森林"]
+        T1["間伐 50%"]
+        CC1["皆伐<br/>(サンプル区画)"]
+        MT1["more trees<br/>小規模区画"]
+        P1["加工"]
+        CHP1["試作CHP<br/>50kW未満"]
+        SW1["良材の<br/>販売"]
+        DC1["AIデータセンター"]
+        KE1["関電(系統)"]
+        R1["立木価格に左右<br/>されない収益"]
+
+        F1 --> T1 --> P1
+        F1 --> CC1 --> P1
+        CC1 <--> MT1
+        P1 -->|"B/C/D材 約78%<br/>(他に買い手なし)"| CHP1
+        P1 -->|"A材 約22%"| SW1
+        CHP1 --> DC1
+        CHP1 --> KE1
+        DC1 --> R1
+        KE1 --> R1
+        R1 -.->|"次の間伐サイクルの資金に"| T1
+    end
+
+    subgraph PHASE3["フェーズ3 - 本格生産"]
+        direction TB
+        F3["森林"]
+        T3["50%基準からの<br/>間伐継続"]
+        CC3["皆伐"]
+        MT3["more trees<br/>全域"]
+        P3["加工"]
+        CHP3["1.2MW CHP"]
+        SW3["良材の<br/>販売"]
+        DC3["AIデータセンター"]
+        KE3["関電(系統)"]
+        R3["立木価格に左右<br/>されない収益"]
+
+        F3 --> T3 --> P3
+        F3 --> CC3 --> P3
+        CC3 <--> MT3
+        P3 -->|"B/C/D材 約78%<br/>(他に買い手なし)"| CHP3
+        P3 -->|"A材 約22%"| SW3
+        CHP3 --> DC3
+        CHP3 --> KE3
+        DC3 --> R3
+        KE3 --> R3
+        R3 -.->|"次の間伐サイクルの資金に"| T3
+    end
+
+    CURRENT -.->|"規模拡大"| PHASE1
+    PHASE1 -.->|"規模拡大"| PHASE3
+
+    classDef res fill:#4a5568,color:#fff,stroke:#2d3748,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef danger fill:#c53030,color:#fff,stroke:#742a2a,stroke-width:1px
+    class CF,F1,F3 res
+    class CP,T1,CC1,P1,CHP1,SW1,T3,CC3,P3,CHP3,SW3 co
+    class MT1,MT3 coop
+    class DC1,KE1,R1,DC3,KE3,R3 money
+    class CS,CX danger
+</pre>
+    </div>
+    <div class="h2sub" style="margin-top: 8px">
+      左から右へ、そして下へ:
+      <b>現状</b>(赤)は今日のモデルであり、破綻しつつある循環です - 森林、間伐、加工、暴落した立木価格での販売、
+      コストを下回る収益、間伐の停滞、荒廃の進行、そしてまた繰り返す
+      (スギ山元立木価格は1980年の22,707円/m³から2024年には4,127円/m³まで下落し、なお下落中)。
+      <b>フェーズ1</b>はその循環を断ち切る試作です: 同じ森林を、野生動物の餌場が5-10年で回復する程度の
+      約50%間伐と、村に近い小規模な皆伐のサンプル区画(more treesによる在来広葉樹の再植林)に分割します。
+      加工された木材は等級によって行き先が分かれます - 間伐現場では通常**A材(既存の市場がある良材)は
+      約22%**にとどまり、残りの**約78%(B/C/D材)は他に買い手がなく**、50kW未満の試作CHP
+      (AIデータセンターと関電/系統への電力供給、緑 = 立木価格に左右されない収益)に向かい、
+      A材は直接の木材販売に向かいます。CHPの収益が停滞せずに次の間伐サイクルの資金となります。
+      <b>フェーズ3</b>は試作が実証された後の本格生産です: 同じ構造を拡張し、50%基準からの
+      間伐クリーンアップを継続し、皆伐を計画区域全体に拡大してmore treesが全域を再植林し、
+      CHP容量を1.2MWまで拡大して、同じ自己資金循環を規模を拡大して閉じます
+      (皆伐サンプル区画は成木・良形の木を含むため、この間伐材の等級比率より良い構成になる見込みです)。
+      全体の破綻ロジックの詳細と出典 (松下, 2015年, DOI 10.5772/61268) は
+      <code>mitsue_business_case.md</code> セクション2を参照。等級比率と燃料材買取提案の詳細は
+      <code>mitsue_fuel_offtake_term_sheet.md</code>参照。現在の立木価格の出典:
+      林野庁 山元立木価格統計、日本林業経済研究所経由 (shinrin-ringyou.com/data/kakaku_yama.php)。
+      等級比率の出典: 岩手県林業技術センター 研究成果速報 No.308 (カラマツ・参考値)。
+    </div>
+    </div>
+
+    <div class="notes">
+      <h2 style="margin-top: 0">御杖村森林組合との会議での論点</h2>
+      <ul>
+        <li>
+          公正な燃料材の買取契約とはどのようなものか - 価格基準、数量、期間?
+        </li>
+        <li>
+          現在の人員(約3-4名)でフェーズ1の量に対応できるか、それとも機械化・増員が先に必要か?
+        </li>
+        <li>
+          樹種・再植林手法 - 御杖村森林組合とNGO/more treesのどちらがどれだけ発言権を持つか?
+        </li>
+        <li>
+          チッパー・乾燥設備 - 補助金で導入するが、誰が所有・運用するか?
+        </li>
+        <li>
+          御杖村森林組合がコミットする前にどのような正式な関係(MOU、理事会の議席、組合員資格)を望むか?
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <span
+        >御杖村AIデータセンタープロジェクト - 内部検討用ドラフト、外部配布不可</span
+      >
+      <span
+        >出典: リポジトリ内資料(資金フローチャート、事業体構成案、
+        ステークホルダーマップ、議事録) · 2026-08-01</span
+      >
+    </div>
+
+    <script>
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "default",
+        flowchart: {
+          curve: "basis",
+          nodeSpacing: 45,
+          rankSpacing: 60,
+          useMaxWidth: false,
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.0 | Last modified: 2026-08-20 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.2 | Last modified: 2026-09-10 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,15 +36,17 @@
 
   .grid {
     flex: 1; display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.62fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "d1 d2" "d3 d4";
+    grid-template-areas: "d1 d2 d5" "d3 d4 d5";
     gap: 4mm; min-height: 0;
   }
   .cell.d1 { grid-area: d1; }
   .cell.d2 { grid-area: d2; }
   .cell.d3 { grid-area: d3; }
   .cell.d4 { grid-area: d4; }
+  .cell.d5 { grid-area: d5; }
+  .cell.d5 .h2sub { margin-bottom: 0.5mm; }
   .cell {
     border: 1px solid #e2e8f0; border-radius: 5px; padding: 2.5mm 3mm 2mm;
     display: flex; flex-direction: column; min-height: 0; min-width: 0;
@@ -72,7 +74,7 @@
       <h1>Mitsue AI Data Center - Entity, Money &amp; Labor Overview</h1>
       <div class="sub">Discussion draft for the Mitsue Village Forest Association meeting</div>
     </div>
-    <div class="meta">Working draft &middot; v1.1 &middot; 2026-08-08</div>
+    <div class="meta">Working draft &middot; v1.1 &middot; 2026-09-10</div>
   </div>
 
   <div class="toprow">
@@ -84,6 +86,7 @@
       <span><span class="sw" style="background:#6b46c1"></span>Cooperative</span>
       <span><span class="sw" style="background:#b83280"></span>Academia</span>
       <span><span class="sw dash"></span>Solid = documented &nbsp;&middot;&nbsp; Dashed = tentative / no signed agreement</span>
+      <span><span class="sw" style="background:#c53030"></span>Failing / current model</span>
     </div>
   </div>
 
@@ -205,7 +208,7 @@ graph LR
     subgraph Government["GOVERNMENT"]
         direction TB
         VILLAGE["御杖村<br/>Village Gov"]
-        NARA["Nara Prefecture<br/>land permits, subsidy TBD"]
+        NARA["Nara Pref.<br/>land permits, TBD"]
         NATIONAL["METI / MoE / 林野庁<br/>NEDO / JST"]
     end
     subgraph NGO_NPO["NGO / NPO"]
@@ -216,7 +219,7 @@ graph LR
     end
     subgraph Cooperative["COOPERATIVE"]
         direction TB
-        COOP["Mitsue Village Forest Association<br/>forest co-op"]
+        COOP["Mitsue Forest Assoc."]
     end
     subgraph Companies["COMPANIES"]
         direction TB
@@ -224,7 +227,7 @@ graph LR
         MIZUHO["Mizuho Securities"]
         SUGANO["Sugano Organic"]
         CORP["Corporate partners<br/>unconfirmed"]
-        LEGAL["Legal advisors - pro bono<br/>Linklaters, TMI, Hotta"]
+        LEGAL["Legal (pro bono)<br/>Linklaters, TMI, Hotta"]
     end
     subgraph Academia["ACADEMIA"]
         direction TB
@@ -235,16 +238,16 @@ graph LR
     NATIONAL -->|subsidies, via village| GK
     VILLAGE -->|land, permits| GK
     VILLAGE -->|liaison| MORETREES
-    MORETREES -->|liaises with village, species partner| NGO
+    MORETREES -->|species partner| NGO
     NARA -.->|land-use permits| GK
     NGO -->|majority owns| GK
-    NGO -.->|coordinates with forest group| COOP
+    NGO -.->|coordinates with co-op| COOP
     GK -.->|fuel contract - tentative| COOP
     FOUND -->|grants| NGO
     MIZUHO -.->|financing - undecided| GK
     CORP -.->|CSR - unconfirmed| NGO
     SUGANO -.->|pilot site - exploratory| GK
-    LEGAL -.->|legal advice - pro bono confirmed| NGO
+    LEGAL -.->|pro bono, confirmed| NGO
     NAIST -.->|living lab - Phase 0| NGO
 
     classDef gov fill:#2b6cb0,color:#fff,stroke:#1a4971,stroke-width:1px
@@ -257,6 +260,87 @@ graph LR
     class GK,MIZUHO,CORP,SUGANO,LEGAL co
     class COOP coop
     class NAIST acad
+</pre>
+      </div>
+    </div>
+
+    <div class="cell d5">
+      <h2>5. Forestry Financial Model - Current &rarr; Phase 1 &rarr; Phase 3</h2>
+      <div class="h2sub">Forestry-only financing already failed nationally (Matsushita 2015, forestry corp debt) - scaling from prototype to full production</div>
+      <div class="diagram diagram-solo">
+<pre class="mermaid">
+graph TD
+    subgraph CURRENT["CURRENT - forestry alone, already failing"]
+        direction TB
+        CF["forest"] -->|"Thinning"| CP["Processing"]
+        CP --> CS["Sales at collapsed<br/>stumpage price"]
+        CS -.->|"revenue &lt; cost<br/>(sugi stumpage: Y22,707/m3 in 1980<br/>-&gt; Y4,127/m3 in 2024, still falling)"| CX["Thinning stalls"]
+        CX -.->|"neglect deepens"| CF
+    end
+
+    subgraph PHASE1["PHASE 1 - Prototype + Restore Sample Plot"]
+        direction TB
+        F1["forest"]
+        T1["Thinning 50%"]
+        CC1["Clean cut<br/>(sample plot)"]
+        MT1["more trees<br/>small plot"]
+        P1["Processing"]
+        CHP1["Prototype CHP<br/>&lt;50 kW"]
+        SW1["Sales of<br/>good wood"]
+        DC1["AI data center"]
+        KE1["Kepco (grid)"]
+        R1["Revenue independent<br/>of log price"]
+
+        F1 --> T1 --> P1
+        F1 --> CC1 --> P1
+        CC1 <--> MT1
+        P1 -->|"~78% B/C/D grade<br/>(no other buyer)"| CHP1
+        P1 -->|"~22% A grade"| SW1
+        CHP1 --> DC1
+        CHP1 --> KE1
+        DC1 --> R1
+        KE1 --> R1
+        R1 -.->|"funds next thinning cycle"| T1
+    end
+
+    subgraph PHASE3["PHASE 3 - Full Production"]
+        direction TB
+        F3["forest"]
+        T3["Thinning cleanup<br/>from 50%"]
+        CC3["Clean cut"]
+        MT3["more trees<br/>all area"]
+        P3["Processing"]
+        CHP3["1.2 MW CHP"]
+        SW3["Sales of<br/>good wood"]
+        DC3["AI data center"]
+        KE3["Kepco (grid)"]
+        R3["Revenue independent<br/>of log price"]
+
+        F3 --> T3 --> P3
+        F3 --> CC3 --> P3
+        CC3 <--> MT3
+        P3 -->|"~78% B/C/D grade<br/>(no other buyer)"| CHP3
+        P3 -->|"~22% A grade"| SW3
+        CHP3 --> DC3
+        CHP3 --> KE3
+        DC3 --> R3
+        KE3 --> R3
+        R3 -.->|"funds next thinning cycle"| T3
+    end
+
+    CURRENT -.->|"scale up"| PHASE1
+    PHASE1 -.->|"scale up"| PHASE3
+
+    classDef res fill:#4a5568,color:#fff,stroke:#2d3748,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef danger fill:#c53030,color:#fff,stroke:#742a2a,stroke-width:1px
+    class CF,F1,F3 res
+    class CP,T1,CC1,P1,CHP1,SW1,T3,CC3,P3,CHP3,SW3 co
+    class MT1,MT3 coop
+    class DC1,KE1,R1,DC3,KE3,R3 money
+    class CS,CX danger
 </pre>
       </div>
     </div>
@@ -277,27 +361,33 @@ graph LR
   });
   mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
 
-  // use ONE shared scale for all four diagrams, so boxes/text render at the
-  // same physical size everywhere (the tightest-fitting diagram sets the scale;
-  // diagrams with more room just get extra whitespace instead of extra zoom)
+  // Diagrams 1-4 share ONE scale, so boxes/text render at the same physical size
+  // across that 2x2 block (the tightest-fitting of the four sets the scale; the
+  // rest just get extra whitespace instead of extra zoom). Diagram 5 is tall/
+  // narrow (a different shape entirely - three stacked flows, not a wide network)
+  // and scales independently to fill its own column, so it doesn't drag 1-4 down.
   (function () {
-    var items = [];
-    document.querySelectorAll('.diagram').forEach(function (container) {
-      var svg = container.querySelector('svg');
-      if (!svg) return;
-      var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
-      if (vb.length < 4 || !vb[2] || !vb[3]) return;
-      items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
-    });
-    if (!items.length) return;
-    var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
-    items.forEach(function (it) {
-      it.svg.style.width = (it.vbW * scale) + 'px';
-      it.svg.style.height = (it.vbH * scale) + 'px';
-      it.svg.style.maxWidth = 'none';
-      it.svg.style.display = 'block';
-      it.svg.style.margin = '0 auto';
-    });
+    function fit(containers) {
+      var items = [];
+      containers.forEach(function (container) {
+        var svg = container.querySelector('svg');
+        if (!svg) return;
+        var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
+        if (vb.length < 4 || !vb[2] || !vb[3]) return;
+        items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
+      });
+      if (!items.length) return;
+      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+      items.forEach(function (it) {
+        it.svg.style.width = (it.vbW * scale) + 'px';
+        it.svg.style.height = (it.vbH * scale) + 'px';
+        it.svg.style.maxWidth = 'none';
+        it.svg.style.display = 'block';
+        it.svg.style.margin = '0 auto';
+      });
+    }
+    fit(document.querySelectorAll('.diagram:not(.diagram-solo)'));
+    fit(document.querySelectorAll('.diagram.diagram-solo'));
   })();
 </script>
 </body>

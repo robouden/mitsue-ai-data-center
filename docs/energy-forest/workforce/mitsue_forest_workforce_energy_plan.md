@@ -1,4 +1,4 @@
-<!-- Version: v1.9 | Last modified: 2026-09-07 -->
+<!-- Version: v2.0 | Last modified: 2026-09-09 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -60,6 +60,46 @@ wood is routed to fuel; conversion runs over 25 years.
 
 ✅ **Recommended baseline: the doubled-workforce case — ~50% of the forest,
 ~1.1–1.2 MWe.**
+
+## 4a. Not all of that wood is fuel — the A/B/C/D grade split
+
+§4's harvest-volume figures route "all harvested wood to fuel," which overstates CHP feedstock —
+in practice a meaningful share of thinned wood is straight/large enough to sell as sawlog or
+plywood-grade timber, a separate, higher-value stream (this is the source of the "Forestry
+products (timber, lumber)" line already in `mitsue_revenue_model.md`, ¥3–8M by Y5). No sugi/hinoki-
+or Mitsue-specific grade study exists yet, so this uses the closest available reference —
+**a Japanese thinning-site study (larch, 28 plots, Iwate Prefecture Forestry Technology Center,
+研究成果速報 No.308)** — as an illustrative split, not a Mitsue-confirmed number:
+
+| Grade | Definition | Share of thinned volume | Destination |
+|---|---|---|---|
+| A材 | 4m, 16–36cm, straight | ~22% | Sawlog market (separate revenue) |
+| B材 | 2m, 13–30cm, straight | ~54% | Plywood-grade (separate revenue, or CHP if no buyer) |
+| C材 | 2m, 6–30cm, crooked | ~19% | Chip/fuel-grade → **CHP** |
+| D材 | Tops/branches | ~5% | Biomass-only → **CHP** |
+
+**Caveats:** this is larch, not sugi/hinoki; it comes from actively-managed comparison plots,
+while Mitsue's stands are long-unmanaged (per `../history/council_minutes_forestry_findings.md`),
+so Mitsue's A-grade share is plausibly *lower*, not higher. Treat C+D (~24%, no existing market
+today) as the **conservative CHP-only floor**, and B (~54%) as **contested** — sellable if a
+plywood/pulp buyer exists, CHP feedstock by default if not. The Phase-1 clear-cut sample plot
+(mature, better-formed trees) should skew closer to the **national all-harvest average** (~61% A /
+16% B / 23% C, 2014 METI/Forestry Agency stats) rather than this thinning-only figure.
+
+**Adjusted CHP fuel volume** (conservative: C+D only, ~24% of harvest; contested B not assumed):
+
+| Cooperative capacity | Total harvest/yr | CHP-fuel-only floor (~24%) | If B also defaults to CHP (~78%) |
+|---|---|---|---|
+| Current + light mechanisation | 10,500 m³ | ~2,500 m³ | ~8,200 m³ |
+| **Double crew** ✅ | 42,000 m³ | **~10,000 m³** | **~32,800 m³** |
+| Triple crew | 60,000 m³ | ~14,400 m³ | ~46,800 m³ |
+
+The plant-sizing table in §4 assumed the high end (B defaults to CHP); the true fuel volume is
+somewhere between the two columns depending on whether a plywood/pulp buyer takes B-grade. This
+is a live input for Phase-1 feasibility, not a settled figure — confirm with an actual Mitsue
+stand cruise before sizing capex.
+
+Sources: [岩手県林業技術センター 研究成果速報 No.308](https://www2.pref.iwate.jp/~hp1017/kenkyu/naibu/sokuho/sokuho301-350/308.pdf); [林野庁 2014年素材生産量統計](https://jfpj.jp/mokuzai_weekly/1152).
 
 ## 5. Recommended plant
 

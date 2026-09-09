@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.0 | Last modified: 2026-08-20 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.1 | Last modified: 2026-09-10 -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -36,15 +36,17 @@
 
   .grid {
     flex: 1; display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.62fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "d1 d2" "d3 d4";
+    grid-template-areas: "d1 d2 d5" "d3 d4 d5";
     gap: 4mm; min-height: 0;
   }
   .cell.d1 { grid-area: d1; }
   .cell.d2 { grid-area: d2; }
   .cell.d3 { grid-area: d3; }
   .cell.d4 { grid-area: d4; }
+  .cell.d5 { grid-area: d5; }
+  .cell.d5 .h2sub { margin-bottom: 0.5mm; }
   .cell {
     border: 1px solid #e2e8f0; border-radius: 5px; padding: 2.5mm 3mm 2mm;
     display: flex; flex-direction: column; min-height: 0; min-width: 0;
@@ -72,7 +74,7 @@
       <h1>御杖AIデータセンター - 組織・資金・労務体制概要</h1>
       <div class="sub">御杖観光ミーティング用ディスカッション草案</div>
     </div>
-    <div class="meta">作業中草案 &middot; v1.1 &middot; 2026-08-08</div>
+    <div class="meta">作業中草案 &middot; v1.1 &middot; 2026-09-10</div>
   </div>
 
   <div class="toprow">
@@ -84,6 +86,7 @@
       <span><span class="sw" style="background:#6b46c1"></span>組合</span>
       <span><span class="sw" style="background:#b83280"></span>学術機関</span>
       <span><span class="sw dash"></span>実線＝記録済み &nbsp;&middot;&nbsp; 点線＝未確定・未締結</span>
+      <span><span class="sw" style="background:#c53030"></span>破綻中/現状モデル</span>
     </div>
   </div>
 
@@ -261,6 +264,87 @@ graph LR
       </div>
     </div>
 
+    <div class="cell d5">
+      <h2>5. 森林事業の財務モデル - 現状 &rarr; フェーズ1 &rarr; フェーズ3</h2>
+      <div class="h2sub">森林事業単体の資金モデルは既に全国で破綻 (松下2015、造林公社債務) - 試作から本格生産への拡張</div>
+      <div class="diagram diagram-solo">
+<pre class="mermaid">
+graph TD
+    subgraph CURRENT["現状 - 森林事業単体、既に破綻中"]
+        direction TB
+        CF["森林"] -->|"間伐"| CP["加工"]
+        CP --> CS["価格が暴落した<br/>立木価格での販売"]
+        CS -.->|"収益 &lt; コスト<br/>(スギ山元立木価格: 1980年 22,707円/m3<br/>-&gt; 2024年 4,127円/m3、なお下落中)"| CX["間伐が停滞"]
+        CX -.->|"荒廃が進行"| CF
+    end
+
+    subgraph PHASE1["フェーズ1 - 試作 + サンプル区画の再生"]
+        direction TB
+        F1["森林"]
+        T1["間伐 50%"]
+        CC1["皆伐<br/>(サンプル区画)"]
+        MT1["more trees<br/>小規模区画"]
+        P1["加工"]
+        CHP1["試作CHP<br/>50kW未満"]
+        SW1["良材の<br/>販売"]
+        DC1["AIデータセンター"]
+        KE1["関電(系統)"]
+        R1["立木価格に左右<br/>されない収益"]
+
+        F1 --> T1 --> P1
+        F1 --> CC1 --> P1
+        CC1 <--> MT1
+        P1 -->|"B/C/D材 約78%<br/>(他に買い手なし)"| CHP1
+        P1 -->|"A材 約22%"| SW1
+        CHP1 --> DC1
+        CHP1 --> KE1
+        DC1 --> R1
+        KE1 --> R1
+        R1 -.->|"次の間伐サイクルの資金に"| T1
+    end
+
+    subgraph PHASE3["フェーズ3 - 本格生産"]
+        direction TB
+        F3["森林"]
+        T3["50%基準からの<br/>間伐継続"]
+        CC3["皆伐"]
+        MT3["more trees<br/>全域"]
+        P3["加工"]
+        CHP3["1.2MW CHP"]
+        SW3["良材の<br/>販売"]
+        DC3["AIデータセンター"]
+        KE3["関電(系統)"]
+        R3["立木価格に左右<br/>されない収益"]
+
+        F3 --> T3 --> P3
+        F3 --> CC3 --> P3
+        CC3 <--> MT3
+        P3 -->|"B/C/D材 約78%<br/>(他に買い手なし)"| CHP3
+        P3 -->|"A材 約22%"| SW3
+        CHP3 --> DC3
+        CHP3 --> KE3
+        DC3 --> R3
+        KE3 --> R3
+        R3 -.->|"次の間伐サイクルの資金に"| T3
+    end
+
+    CURRENT -.->|"規模拡大"| PHASE1
+    PHASE1 -.->|"規模拡大"| PHASE3
+
+    classDef res fill:#4a5568,color:#fff,stroke:#2d3748,stroke-width:1px
+    classDef co fill:#975a16,color:#fff,stroke:#7b341e,stroke-width:1px
+    classDef coop fill:#6b46c1,color:#fff,stroke:#44337a,stroke-width:1px
+    classDef money fill:#276749,color:#fff,stroke:#1c4532,stroke-width:1px
+    classDef danger fill:#c53030,color:#fff,stroke:#742a2a,stroke-width:1px
+    class CF,F1,F3 res
+    class CP,T1,CC1,P1,CHP1,SW1,T3,CC3,P3,CHP3,SW3 co
+    class MT1,MT3 coop
+    class DC1,KE1,R1,DC3,KE3,R3 money
+    class CS,CX danger
+</pre>
+      </div>
+    </div>
+
   </div>
 
   <div class="footer">
@@ -277,27 +361,33 @@ graph LR
   });
   mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
 
-  // use ONE shared scale for all four diagrams, so boxes/text render at the
-  // same physical size everywhere (the tightest-fitting diagram sets the scale;
-  // diagrams with more room just get extra whitespace instead of extra zoom)
+  // Diagrams 1-4 share ONE scale, so boxes/text render at the same physical size
+  // across that 2x2 block (the tightest-fitting of the four sets the scale; the
+  // rest just get extra whitespace instead of extra zoom). Diagram 5 is tall/
+  // narrow (a different shape entirely - three stacked flows, not a wide network)
+  // and scales independently to fill its own column, so it doesn't drag 1-4 down.
   (function () {
-    var items = [];
-    document.querySelectorAll('.diagram').forEach(function (container) {
-      var svg = container.querySelector('svg');
-      if (!svg) return;
-      var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
-      if (vb.length < 4 || !vb[2] || !vb[3]) return;
-      items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
-    });
-    if (!items.length) return;
-    var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
-    items.forEach(function (it) {
-      it.svg.style.width = (it.vbW * scale) + 'px';
-      it.svg.style.height = (it.vbH * scale) + 'px';
-      it.svg.style.maxWidth = 'none';
-      it.svg.style.display = 'block';
-      it.svg.style.margin = '0 auto';
-    });
+    function fit(containers) {
+      var items = [];
+      containers.forEach(function (container) {
+        var svg = container.querySelector('svg');
+        if (!svg) return;
+        var vb = (svg.getAttribute('viewBox') || '').split(/\s+/).map(Number);
+        if (vb.length < 4 || !vb[2] || !vb[3]) return;
+        items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
+      });
+      if (!items.length) return;
+      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+      items.forEach(function (it) {
+        it.svg.style.width = (it.vbW * scale) + 'px';
+        it.svg.style.height = (it.vbH * scale) + 'px';
+        it.svg.style.maxWidth = 'none';
+        it.svg.style.display = 'block';
+        it.svg.style.margin = '0 auto';
+      });
+    }
+    fit(document.querySelectorAll('.diagram:not(.diagram-solo)'));
+    fit(document.querySelectorAll('.diagram.diagram-solo'));
   })();
 </script>
 </body>
