@@ -10,3 +10,4 @@ infra/.env
 infra/people_register/config.local.php
 docs/reference/Human_Flourishing_full_quality.pdf
 .vscode/
+MoreTrees/
