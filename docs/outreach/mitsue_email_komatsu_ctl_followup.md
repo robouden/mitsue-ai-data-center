@@ -1,5 +1,4 @@
-How did we get thisWhat can you find out about that plant?
-For Kanasai<!-- Version: v1.4 | Last modified: 2026-09-08 -->
+<!-- Version: v2.0 | Last modified: 2026-09-13 -->
 
 # Komatsu Forest CTL Trial — Follow-Up (email + phone script)
 
@@ -60,6 +59,8 @@ AIデータセンターの構想を進めており、今後は現在の伐採規
 Rob Oudendijk
 +81 80-2260-5966
 https://mitsue.it
+
+---
 
 ### English (reference)
 
@@ -229,3 +230,82 @@ CTL方式による機械化はこの課題に直接資するものと考えて�
 Rob Oudendijk
 +81 80-2260-5966
 https://mitsue.it
+
+---
+
+## Step 4 — Komatsu Forest AB, Facebook Messenger (preferred over the Step 3 email above)
+
+**Trigger:** send now. It's been ~17 days since the original inquiry (Aug 26) and ~4 days since
+the JP redirect (Sep 8) with no reply either time, and Komatsu Forest's Sweden channel appears
+active/responsive on Facebook rather than email — so message their Facebook page directly instead
+of (or alongside) the Step 3 email above.
+
+**Sent 2026-09-12.** Reply received same day on Facebook: "Hi Rob! Please send an email to
+info@komatsuforest.com — Regards, Komatsu Forest." Rob confirmed back via Messenger that the
+email was sent; Komatsu Forest replied they'd pass it on internally "on Monday." See Step 5
+below for the email this triggered.
+
+### Message draft (English)
+
+My name is Rob Oudendijk. I'm part of a small initiative working with Mitsue Village (御杖村) in
+Nara Prefecture, Japan, on forest management and renewable energy — early planning stage, not
+yet a formal contracting entity.
+
+We've tried reaching Komatsu's Japan offices twice (Aug 26 + Sep 8) about your CTL trial program
+(931XC harvester / 855 forwarder, running since May 2025 in Hokkaido/Honshu/Kyushu) with no
+reply, so trying here instead — Komatsu Forest AB is the program owner anyway.
+
+What makes this different from a typical trial site: the harvested wood isn't going to a sawmill
+or pulp buyer — it fuels a wood-biomass CHP (combined heat and power) plant that powers an on-site
+AI data center. That's the demand pull driving the harvest: biomass + AI data center financing is
+what justifies clear-cutting Mitsue's aging, long-unmanaged sugi (cedar) at scale, and it's a
+novel enough use case (probably unique in Japan) that it could be worth promoting as its own
+story for Komatsu, not just another CTL trial site. The bottleneck is workforce, not land or
+demand — hence needing real mechanization to hit the volumes involved.
+
+Saw the 901XC + C93 in action and it looks like a better match for our scale than the 931XC. A
+few questions:
+
+1. Could Mitsue be considered as an additional trial or training site for the CTL program?
+2. The C93 looks optimized for thinning (150–370mm DBH, 600mm max). Our stands are 50–75 years
+   old and long-unmanaged — some stems could run larger/uneven. Would the C93 handle that, or
+   would you pair the 901XC with a bigger head for actual clear-cut work?
+3. On steep terrain like ours, what's the typical extraction-trail spacing and slope limit for
+   the 901XC/931XC — do your Japan trial sites need much permanent road built, or mostly light
+   forwarder trails?
+
+Happy to share more on the village and the project. Thanks for your time!
+
+Rob Oudendijk / https://mitsue.it
+
+### Notes
+- Keep tone casual/direct for Messenger — not the formal email register used in Step 3.
+- Same overstatement caveat as the email drafts ([[feedback_outreach_overstatement_risk]]):
+  early-stage, not a contracting entity yet.
+- Messenger got a reply the same day asking for the email — see Step 5.
+
+---
+
+## Step 5 — Follow-up email to info@komatsuforest.com (triggered by the Messenger reply)
+
+**Trigger:** Komatsu Forest AB replied on Facebook (2026-09-12) to the Step 4 message, asking
+Rob to send an email to info@komatsuforest.com so they could forward it internally. This
+supersedes Step 3's "contingency, only if Messenger stalls" framing — Komatsu explicitly
+requested this email, so it's a direct ask, not a cold contingency send.
+
+**Sent 2026-09-13**, with sign-off corrected to include phone + website. In time for the
+"on Monday (2026-09-14)" internal forward Komatsu Forest AB mentioned.
+
+**To:** info@komatsuforest.com
+**Subject:** Inquiry — Additional Trial Site for Komatsu Forest CTL Equipment in Japan (Mitsue Village, Nara)
+
+Content: English version, expanded from the Step 4 Messenger text with a Facebook-reply
+acknowledgment at the top ("Thank you for your reply on Facebook — you asked us to follow up
+by email, so here it is.") plus the same trial-site pitch and three technical questions
+(901XC+C93 fit for clear-cut vs. thinning; steep-terrain extraction-trail/slope norms).
+
+**Note:** a matching draft (unsent) also sits in the oudendijk.biz@gmail.com Gmail account,
+thread `1a09441f78f87386` — likely a leftover copy from drafting before the actual send (via
+rob@mitsue.it or another client); the actual sent copy hasn't been located via Gmail MCP search
+this session, same pattern as [[project_nies_mishima_chp_inquiry]]-adjacent NEDO sends not
+showing up cross-account. Not a concern — Rob confirmed the send directly with Komatsu.

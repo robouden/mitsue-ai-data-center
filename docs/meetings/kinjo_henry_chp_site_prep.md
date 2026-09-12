@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 | Last modified: 2026-09-12</p>
+<p align="right">Version: v1.2 | Last modified: 2026-09-12</p>
 
 ---
 
@@ -41,35 +41,29 @@
 - Don't present this as a secured site to any third party (village hall, funders) until land status and grid access are confirmed here.
 - Keep scope framed as "pilot/prototype," not full-scale deployment — avoids overstating readiness ([[feedback_outreach_overstatement_risk]]).
 
-## Mitsue Mori Team — Work Flow / Org Sketch (Oct 2 meeting)
+## Mitsue Mori Team — Bottlenecks & How We Can Help (Oct 2 meeting)
 
-**Goal:** Sketch a block diagram of how work actually flows through the Mitsue Mori (Forest Cooperative) team — who does what, where money moves, what's under contract — so we understand who we'd be partnering with operationally. Ask only what Kinjo is comfortable sharing at this stage; explicitly frame it as "help us understand your side, not an audit."
+**Stance for this phase:** We are not proposing any change to how the village and Mitsue Mori (Forest Cooperative) work together. Early phase = listen and support, not restructure. Goal is to understand where their work currently gets stuck and how a CHP/DC prototype could relieve that — not to map or formalize their org, money flow, or contracts.
 
 **Frame the ask (say this or similar):**
-"To make sure any CHP/DC pilot fits how your team actually works, could you sketch — at whatever level you're comfortable with — the flow of work, money, and contracts in Mitsue Mori? We're not asking for financials, just enough to see where we'd fit."
+"Before we talk about a pilot site, we'd like to understand — from your side — where the work gets hard right now. What slows you down? Where could a small win help you prepare for something like a first CHP+DC prototype?"
 
-**Blocks to try to fill in (only as far as Kinjo is comfortable):**
+**Topics to explore (only as far as Kinjo is comfortable):**
 
-1. **People / roles**
-   - Who is core staff vs. seasonal/contracted labor?
-   - Who reports to whom — is there a lead beyond Kinjo (e.g. Ueyama as 代表理事組合長)?
-   - [[project_mitsue_kanko_manager]] — confirm Kinjo's actual title/authority vs. Ueyama's.
+1. **Bottlenecks in current work**
+   - What is the single biggest constraint right now — labor, equipment, funding, coordination with the village?
+   - [[project_forest_workforce_energy_plan]] / [[project_council_minutes_forestry_findings]] — does this match the known worker-shortage bottleneck, or is there something new?
 
-2. **Money flow**
-   - Where does revenue currently come from (harvest sales, subsidies, village contracts)?
-   - Who holds the purse — Cooperative itself, or routed through Mitsue Kanko / village?
-   - [[project_kk_mitsue_financial_distress]] — is there any link between Mitsue Mori's finances and the KK Mitsue Onsen distress, or are they fully separate entities?
+2. **Where we could help**
+   - Anything on their plate we could take off (paperwork, equipment access, fuel logistics) ahead of a prototype?
+   - Does the [[reference_mitsue_forestry_machinery_loan_ordinance]] loan scheme, or the existing [[reference_mitsue_processing_center]] chip/dry facility, already cover part of what a prototype would need?
 
-3. **Contracts**
-   - What existing contracts govern their work (with village, with buyers, with more trees)?
-   - Any exclusivity or terms that would affect a new CHP fuel-supply arrangement?
-   - [[project_moretrees_partnership]] / [[project_tenkawa_moretrees_precedent]] — how does the more trees split (they replant, we biomass) actually get formalized on paper, if at all?
-
-4. **Decision-making**
-   - Who can actually say yes to a pilot site or fuel-supply deal — Kinjo alone, or does it need Ueyama / village sign-off?
-   - [[project_mitsue_kanko_office_move]] — does the pending office relocation change any of this in the near term?
+3. **Getting ready for the first prototype**
+   - What would need to be true on their side before a small CHP+DC pilot felt low-risk to them?
+   - Any timeline or seasonal constraint (harvest cycle, staffing) that should shape when we propose next steps?
 
 **How to hold this in the room:**
-- Let Kinjo choose the level of detail; don't push on numbers if she hesitates — a rough shape (boxes and arrows, no figures) is enough for now.
-- Henry may be able to translate/contextualize forestry-industry norms if Kinjo's answer is partial.
-- Do not write down or repeat anything Kinjo flags as sensitive outside this note.
+- Do not ask about org structure, money flow, or contracts unless Kinjo raises it herself.
+- Keep the ask open-ended and low-pressure — we're here to listen, not to audit or reorganize.
+- Henry may help translate forestry-industry norms if useful context is needed.
+- See [[feedback_no_structure_change_early_phase]].

@@ -36,7 +36,7 @@ const puppeteer = require(path.join(NM, 'puppeteer-core'));
 
 const CHROME = '/usr/bin/google-chrome';
 
-async function renderOne(htmlPath) {
+async function renderOne(htmlPath, perDiagram) {
   const absHtml = path.resolve(htmlPath);
   const outPdf = absHtml.replace(/\.html?$/i, '.pdf');
   const fileUrl = 'file://' + absHtml;
@@ -55,7 +55,7 @@ async function renderOne(htmlPath) {
       return Array.from(containers).every((c) => c.querySelector('svg'));
     }, { timeout: 15000 });
 
-    const info = await page.evaluate(() => {
+    const info = await page.evaluate((perDiagram) => {
       var items = [];
       document.querySelectorAll('.diagram').forEach(function (container) {
         var svg = container.querySelector('svg');
@@ -65,10 +65,11 @@ async function renderOne(htmlPath) {
         items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
       });
       if (!items.length) return { scale: null, items: [] };
-      var scale = Math.min.apply(null, items.map(function (it) {
+      var sharedScale = Math.min.apply(null, items.map(function (it) {
         return Math.min(it.cw / it.vbW, it.ch / it.vbH);
       }));
       items.forEach(function (it) {
+        var scale = perDiagram ? Math.min(it.cw / it.vbW, it.ch / it.vbH) : sharedScale;
         it.svg.style.width = (it.vbW * scale) + 'px';
         it.svg.style.height = (it.vbH * scale) + 'px';
         it.svg.style.maxWidth = 'none';
@@ -76,10 +77,10 @@ async function renderOne(htmlPath) {
         it.svg.style.margin = '0 auto';
       });
       return {
-        scale: scale,
+        scale: perDiagram ? null : sharedScale,
         items: items.map(function (it) { return { vbW: it.vbW, vbH: it.vbH, cw: it.cw, ch: it.ch }; }),
       };
-    });
+    }, perDiagram);
 
     await page.pdf({
       path: outPdf,
@@ -90,8 +91,10 @@ async function renderOne(htmlPath) {
     });
 
     console.log(`\n${path.basename(htmlPath)} -> ${path.basename(outPdf)}`);
-    console.log(`  shared scale: ${info.scale ? info.scale.toFixed(3) : 'n/a'}`);
-    if (info.scale !== null && info.scale < 0.5) {
+    console.log(perDiagram
+      ? '  mode: per-diagram (each fills its own cell)'
+      : `  shared scale: ${info.scale ? info.scale.toFixed(3) : 'n/a'}`);
+    if (!perDiagram && info.scale !== null && info.scale < 0.5) {
       console.log('  WARNING: scale below 0.5 — text will look small on paper.');
       console.log('  Fix: trim edge-label text, or tighten the densest diagram\'s');
       console.log('  %%{init: {\'flowchart\': {\'nodeSpacing\':.., \'rankSpacing\':.., \'padding\':..}}}%% directive.');
@@ -106,9 +109,14 @@ async function renderOne(htmlPath) {
 }
 
 async function main() {
-  const files = process.argv.slice(2);
+  const args = process.argv.slice(2);
+  const perDiagram = args.includes('--per-diagram');
+  const files = args.filter((a) => a !== '--per-diagram');
   if (!files.length) {
-    console.error('Usage: node render_mermaid_a3.js <file.html> [file2.html ...]');
+    console.error('Usage: node render_mermaid_a3.js [--per-diagram] <file.html> [file2.html ...]');
+    console.error('  --per-diagram: each diagram fills its own cell independently');
+    console.error('                 (default: one shared min-scale across all 4, for');
+    console.error('                 visual consistency when diagrams tell one story)');
     process.exit(1);
   }
   for (const f of files) {
@@ -116,7 +124,7 @@ async function main() {
       console.error(`Skipping ${f}: not found`);
       continue;
     }
-    await renderOne(f);
+    await renderOne(f, perDiagram);
   }
 }
 

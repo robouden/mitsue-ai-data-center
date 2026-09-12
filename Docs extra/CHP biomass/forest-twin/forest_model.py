@@ -86,6 +86,14 @@ CONFIG = {
     # Manual fallback (used only when chp_size_auto is False):
     "chp_om_yen_year": 3000000.0,
     "chp_capex_yen": 30000000.0,
+
+    # --- A/B/C/D grade split of harvested volume (workforce plan §4a) ---
+    # Fraction of harvest that is actually CHP-eligible (C+D only, conservative
+    # floor -- no confirmed plywood/pulp buyer for B-grade). Set to 0.78 to test
+    # the "B also defaults to CHP" case.
+    "chp_grade_fraction": 0.24,
+    "crew_size": 3,                    # current 2 field workers + 1 hire (Phase-1)
+    "crew_m3_per_person_year": 700.0,  # ~3-4 m3/person-day x ~200 days, mid estimate
 }
 
 # ---------------------------------------------------------------------------
@@ -363,6 +371,49 @@ def area_report(target_ha):
     print(f"  Biodiversity index*  : {rows[-1]['biodiversity']:>8.2f}   (* approx 0-1 proxy)\n")
 
 
+def phase1_report(target_kwe=50.0, years=3, grade_fraction=None):
+    """Phase-1 prototype sizing: clear-cut ha needed for target_kwe over `years`,
+    accounting for the A/B/C/D grade split (only chp_grade_fraction of harvested
+    volume is CHP-eligible), and check it against crew capacity.
+    Mirrors workforce plan §4b -- see that doc for the full writeup.
+    """
+    cfg = dict(CONFIG)
+    gf = grade_fraction if grade_fraction is not None else cfg["chp_grade_fraction"]
+    species = load_species(os.path.join(HERE, "data", "species.csv"))
+    sugi_vmax = species["sugi"]["vmax_m3_ha"]  # mature standing volume, m3/ha
+
+    # kWe-per-m3-of-CHP-fuel scaling, taken from the model's own auto-sizing
+    # (elec scales linearly with chp_vol at fixed elec_efficiency/capacity_factor).
+    ref_ha = 320.0
+    stands = load_stands(os.path.join(HERE, "data", "stands.csv"))
+    base = sum(s["area"] for s in stands)
+    for s in stands:
+        s["area"] *= ref_ha / base
+    rows, meta = simulate(species, stands, cfg)
+    ref_kwe = meta["nameplate_kwe"]
+    ref_chp_vol_yr = rows[5]["harvest_m3"] * cfg["alloc_chp"] if len(rows) > 5 else 0.0
+    kwe_per_m3 = ref_kwe / ref_chp_vol_yr if ref_chp_vol_yr else 0.0
+
+    fuel_vol_needed = target_kwe / kwe_per_m3 if kwe_per_m3 else 0.0
+    total_harvest_needed = fuel_vol_needed / gf
+    ha_per_year = total_harvest_needed / sugi_vmax
+    ha_total = ha_per_year * years
+
+    crew_capacity_m3_yr = cfg["crew_size"] * cfg["crew_m3_per_person_year"]
+
+    print(f"\nForest Twin -- Phase-1 prototype sizing ({target_kwe:.0f} kWe, {years}-yr ramp)\n")
+    print(f"  Grade-eligible fraction (C+D)   : {gf:.0%}")
+    print(f"  CHP fuel needed                 : {fuel_vol_needed:>8,.0f} m3/yr")
+    print(f"  Total clear-cut volume needed    : {total_harvest_needed:>8,.0f} m3/yr")
+    print(f"  Clear-cut area (@ {sugi_vmax:.0f} m3/ha) : {ha_per_year:>8,.1f} ha/yr  ->  {ha_total:>6,.1f} ha over {years} yr")
+    print(f"  Planting cost ({years} yr)          : {ha_total * cfg['planting_cost_yen_ha'] / 1e6:>8,.1f} M yen")
+    print(f"\n  Crew capacity ({cfg['crew_size']} people @ {cfg['crew_m3_per_person_year']:.0f} m3/person/yr): "
+          f"{crew_capacity_m3_yr:>8,.0f} m3/yr")
+    ratio = crew_capacity_m3_yr / total_harvest_needed if total_harvest_needed else 0.0
+    print(f"  Crew covers {ratio:.0%} of the volume needed"
+          f"{' -- feasible with current crew + 1 hire' if ratio >= 1.0 else ' -- undersized; mechanization/more hires or a B-grade CHP default needed'}\n")
+
+
 # ---------------------------------------------------------------------------
 def main():
     species = load_species(os.path.join(HERE, "data", "species.csv"))
@@ -410,5 +461,16 @@ if __name__ == "__main__":
         sweep()
     elif "--area" in sys.argv:
         area_report(float(sys.argv[sys.argv.index("--area") + 1]))
+    elif "--phase1" in sys.argv:
+        kwe = 50.0
+        if "--kwe" in sys.argv:
+            kwe = float(sys.argv[sys.argv.index("--kwe") + 1])
+        yrs = 3
+        if "--years" in sys.argv:
+            yrs = int(sys.argv[sys.argv.index("--years") + 1])
+        gf = None
+        if "--grade-fraction" in sys.argv:
+            gf = float(sys.argv[sys.argv.index("--grade-fraction") + 1])
+        phase1_report(target_kwe=kwe, years=yrs, grade_fraction=gf)
     else:
         main()

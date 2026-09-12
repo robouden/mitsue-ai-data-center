@@ -1,4 +1,4 @@
-<!-- Version: v2.0 | Last modified: 2026-09-09 -->
+<!-- Version: v2.2 | Last modified: 2026-09-12 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -100,6 +100,56 @@ is a live input for Phase-1 feasibility, not a settled figure — confirm with a
 stand cruise before sizing capex.
 
 Sources: [岩手県林業技術センター 研究成果速報 No.308](https://www2.pref.iwate.jp/~hp1017/kenkyu/naibu/sokuho/sokuho301-350/308.pdf); [林野庁 2014年素材生産量統計](https://jfpj.jp/mokuzai_weekly/1152).
+
+## 4b. Phase-1 prototype (Yr 1–3): clear-cut area for a 50 kWe pilot
+
+Before the doubled-crew build-out (§4), a 50 kWe pilot CHP is a deliberate **prototype/learning
+reality check** — sized for the conservative, worst-case fuel assumption (C+D grade only, ~24%
+of harvest; B-grade buyer status is unconfirmed, see open question in
+`../../meetings/mitsue_fuel_offtake_term_sheet.md`).
+
+| Item | Figure | Basis |
+|---|---|---|
+| CHP fuel needed | ~1,800–1,900 m³/yr | Forest Twin scaling (290 kWe ↔ 10,500 m³ fuel-vol; ≈750 green-t Mishima anchor) |
+| Total clear-cut volume needed (C+D-only, 24%) | ~7,500 m³/yr | fuel-vol ÷ 0.24 |
+| Clear-cut area (÷600 m³/ha mature sugi) | **~12.5 ha/yr** | Forest Twin `vmax_m3_ha` |
+| **3-year total** | **~37 ha** | |
+| Replanting (in phase with felling) | ~12.5 ha/yr | matches clear-cut pace, no lag |
+| Planting cost | ~¥8.75M/yr (~¥26M over 3 yr) | ¥700k/ha (CONFIG `planting_cost_yen_ha`) |
+
+**Workforce reality check:** current field crew is **2 people** (RINDO listing), doing
+66–68 ha/yr of *thinning* at only ~120–300 m³/yr recovered — not a usable productivity proxy for
+full clear-cut. Using a generic (not Mitsue-confirmed) small-scale/lightly-mechanized Japanese
+felling+extraction benchmark of ~3–4 m³/person-day × ~200 days/yr ≈ 600–800 m³/person/yr:
+
+- **2 + 1 hire (3 people) → ~1,800–2,400 m³/yr capacity** — roughly a quarter of the ~7,500 m³/yr
+  this conservative scenario needs.
+- If B-grade also defaults to CHP (no plywood/pulp buyer), fuel-eligible fraction rises to ~78%
+  and required harvest drops to ~2,300 m³/yr (~3.8 ha/yr, ~12 ha over 3 yr) — matching the 3-person
+  crew almost exactly.
+
+**Conclusion:** ~12.5 ha/yr (~37 ha over 3 years) is accepted as the Phase-1 target *precisely
+because* the gap between crew capacity and required volume is the thing Phase-1 is meant to
+surface — it forces the mechanization/hiring/offtake questions (B-grade buyer, harvester/forwarder,
+crew size beyond +1) before committing to the doubled-crew, larger-plant build-out in §4.
+
+**Mechanized alternative — Komatsu 931XC CTL harvester:** the unanswered Komatsu Forest outreach
+(`../../outreach/mitsue_email_komatsu_ctl_followup.md`) proposes Mitsue as a trial/training site for
+their 931XC harvester + 855 forwarder. Using an industry-general (not Komatsu/Mitsue-confirmed) CTL
+final-felling benchmark of ~15–20 m³/productive-machine-hour × ~1,200–1,500 hrs/yr:
+
+| Option | Capacity |
+|---|---|
+| Current crew (2 people) | ~1,200–1,600 m³/yr |
+| + 1 hire (3 people) | ~1,800–2,400 m³/yr |
+| 1 × Komatsu 931XC + operator | **~18,000–30,000 m³/yr** |
+
+One machine+operator would clear the entire ~7,500 m³/yr Phase-1 need several times over —
+mechanization removes headcount as the constraint. The remaining constraints shift to **capex**
+(no quote on file), **a trained CTL operator** (the actual scarce resource, hence the
+training-site pitch in the outreach email), and whether one unit is even right-sized for a
+12.5 ha/yr pilot rather than the doubled/tripled-crew scale in §4. No reply from Komatsu yet —
+this is a hypothetical alternative, not a committed plan.
 
 ## 5. Recommended plant
 
