@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-09-15 -->
+<!-- Version: v1.1 | Last modified: 2026-09-15 -->
 
 # Questions for Mokurai-oshō / Shaku Myōen (自然宗佛國寺) — October Meeting
 
@@ -49,6 +49,20 @@ are, what 自然宗佛國寺/いのちの森 actually is, and what happened hist
 - What were the specific "institutional, physical, and mindset" walls that ended it?
 - How did the essay/document end up with Teramoto-san's mother specifically — was she directly
   involved, or just someone who kept a copy?
+
+## いのちの森 trademark history (J-PlatPat)
+
+- The trademark いのちの森 (登録4310763) was filed 1998-03-31 and registered 1999-09-03, for
+  Class 42 墓地の提供 (cemetery services) — meaning the cemetery-service concept was present from
+  the original filing, well before the Ōsugi Valley forest-burial operation itself (2016). What
+  was the original plan/context behind the trademark in 1998 — was it already tied to a specific
+  piece of land or vision at that point?
+- The 1998 filing address was **Komono-chō, Mie** (三重郡菰野町) — not Ōdai-chō. What was the
+  Komono-chō connection? An earlier base before Ōdai-chō, or something else?
+- A transfer-of-registration notice (移転登録済通知書) is on record for 2009-05-22 — what
+  ownership or entity change did that reflect?
+- Was 宗教法人自然宗佛國寺 already the corporation's legal name in 1998, two years before the
+  temple's own history says the 自然宗佛國寺 rename happened in 2000?
 
 ## Current work
 
