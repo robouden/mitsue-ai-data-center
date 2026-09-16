@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 | Last modified: 2026-09-12</p>
+<p align="right">Version: v1.3 | Last modified: 2026-09-16</p>
 
 ---
 
@@ -35,6 +35,7 @@
 - Does the site support a domestic-maker CHP unit (中外炉/神鋼/静岡製機/ネオナイト) in terms of space/power requirements?
 - Could this double as a resilience/disaster node (like the 姫石の湯 concept), or is it purely a technical pilot?
 - Who would operate/maintain the CHP day-to-day — Cooperative staff, a contractor, or a new hire?
+- Ask Henry: at the Mie plant, how did he actually get wood chip moisture under control? Energies 2020,13,4903 found a comparable 0.36MW Japanese downdraft plant chronically failed moisture spec (27% avg vs ≤15% design), tanking efficiency — what was his drying method/target %/equipment?
 
 ## Not to raise yet
 
