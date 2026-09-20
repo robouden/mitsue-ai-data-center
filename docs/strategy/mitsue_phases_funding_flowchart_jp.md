@@ -1,4 +1,4 @@
-<!-- Version: v3.0 | Last modified: 2026-08-14 -->
+<!-- Version: v3.1 | Last modified: 2026-09-21 -->
 
 <style>
   html { font-size: 10.5px !important; }
@@ -8,13 +8,15 @@
   hr { margin: 5px 0 !important; }
   .page-break { page-break-after: always; break-after: page; height: 0; margin: 0; padding: 0; }
   .mermaid .edgeLabel text, .mermaid .edgeLabel tspan { fill: #1A1A1A !important; }
+  .mermaid .edgeLabel, .mermaid .edgeLabel div, .mermaid .edgeLabel span, .mermaid .edgeLabel p { color: #1A1A1A !important; }
+  .mermaid .node foreignObject, .mermaid .node foreignObject div, .mermaid .node foreignObject span { overflow: visible !important; max-width: none !important; white-space: nowrap !important; }
 </style>
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">バイオマスエネルギーとAI</h1>
 <p style="font-size:10pt; color:#666; margin:0 0 1mm;">フェーズ・資金調達フローチャート</p>
-<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v3.0 · 2026-08-14 · ロブ・アウデンダイク</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v3.1 · 2026-09-21 · ロブ・アウデンダイク</p>
 </div>
 
 > **現時点で確保済みの資金はありません。** 下表（2ページ目）のとおり、目標・パイプラインであり、確保済みの資金ではありません。
@@ -22,12 +24,12 @@
 ## フェーズと資金調達スタック
 
 ```mermaid
-%%{init: {'theme':'base','flowchart':{'htmlLabels':false},'themeVariables':{
+%%{init: {'theme':'base','flowchart':{'htmlLabels':true},'themeVariables':{
   'background':'#404040',
   'primaryColor':'#6796e6','primaryTextColor':'#FFFFFF','primaryBorderColor':'#3655b5',
   'lineColor':'#A8A8A8','textColor':'#1A1A1A',
   'edgeLabelBackground':'#FCEB6C',
-  'fontFamily':'Noto Sans JP, Yu Gothic, sans-serif',
+  'fontFamily':'Noto Sans CJK JP, Yu Gothic, sans-serif',
   'fontSize':'30px'
 }}}%%
 flowchart LR
