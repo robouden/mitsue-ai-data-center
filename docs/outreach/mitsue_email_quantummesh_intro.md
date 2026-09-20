@@ -1,4 +1,4 @@
-<!-- File: mitsue_email_quantummesh_intro.md | Version: v1.0 | Last modified: 2026-08-31 -->
+<!-- File: mitsue_email_quantummesh_intro.md | Version: v1.1 | Last modified: 2026-09-20 -->
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
@@ -7,8 +7,8 @@
 <img src="assets/logo_go.png" alt="御" width="50%" style="display:block;margin:0 auto;">
 <div style="height:105mm;"></div>
 <table style="width:100%; border-collapse:collapse; font-size:9pt;">
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.0</td></tr>
-<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-08-31</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold; width:30%;">Version</td><td style="padding:3mm 4mm; border:1px solid #ccc;">v1.1</td></tr>
+<tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Date</td><td style="padding:3mm 4mm; border:1px solid #ccc;">2026-09-20</td></tr>
 <tr><td style="padding:3mm 4mm; border:1px solid #ccc; font-weight:bold;">Author</td><td style="padding:3mm 4mm; border:1px solid #ccc;">Rob Oudendijk</td></tr>
 </table>
 </div>
@@ -60,6 +60,8 @@ Quantum Mesh株式会社
 
 特に、**KAMUI γ**（1m²未満のオールインワン型マイクロデータセンター）と、**PUE 1.03〜1.04**を実現する液浸冷却の効率性、そして福井県高浜町での自治体連携によるデータセンター展開の事例に強い関心を持っております。御杖村で進める私どものプロジェクトも、規模は小さいながら同じ方向性を目指しております。
 
+加えて、貴社が推進される**分散型エッジデータセンター**という考え方そのもの — 中央集権的な大規模施設ではなく、地域に分散して設置するアプローチ — は、御杖村のような山間部の小規模拠点にとって特に示唆に富むものと考えております。
+
 **御杖村プロジェクトの概要（簡略）:**
 - 村内に整備予定の小規模AI／エッジコンピューティング・データセンター（設置場所は、旧木造校舎、御杖体験交流館（こうりゅうかん）、遊休工場施設などを候補に現在選定中）
 - バイオマスCHP（熱電併給）を主電源とする24時間稼働の地産地消型エネルギー設計
@@ -78,7 +80,7 @@ Quantum Mesh株式会社
 Rob Oudendijk（ロブ・アウデンダイク）
 バイオマスエネルギーとAI 創設者
 YR-Design 代表 ／ Safecast コア・コントリビューター
-Email: oudendijk.biz@gmail.com
+Email: rob@mitsue.it
 Project: https://mitsue.it
 
 ---
@@ -98,6 +100,8 @@ My name is Rob Oudendijk, a Dutch national currently preparing a rural revitaliz
 
 I've followed **KAMUI γ** (the sub-1m² all-in-one immersion unit), your **PUE of 1.03–1.04**, and your municipal deployment in Takahama Town, Fukui Prefecture, with real interest — the Takahama model looks like a close parallel to what we're attempting in Mitsue, at a similar scale.
 
+More specifically, I'm drawn to your **distributed edge data center model itself** — siting compute locally rather than centralizing it in large-scale facilities — which feels especially relevant to a small, mountain-village site like Mitsue.
+
 **Project at a glance:**
 - Small AI / edge-compute data center in Mitsue Village, Nara Prefecture (candidate sites include an old wooden schoolhouse building, the Koryukan community facility, and disused factory buildings — selection is underway)
 - Biomass CHP as primary 24/7 baseload power, with a circular local-energy design
@@ -115,10 +119,16 @@ With sincere thanks,
 Rob Oudendijk
 Founder, BIOMASS ENERGY & AI project
 Founder, YR-Design · Core Contributor, Safecast
-Email: oudendijk.biz@gmail.com
+Email: rob@mitsue.it
 Project: https://mitsue.it
 
 ---
+
+## Send status
+
+- **Japanese form (https://quantummesh.jp/contact):** Sent 2026-09-20. On-screen confirmation shown after submission, but no confirmation email received.
+- **English form (https://quantummesh.jp/en/contact):** Attempted 2026-09-20, same content as the JP send. No on-screen confirmation popup appeared — submission status unconfirmed. Form may be broken, may silently succeed without a popup, or may require different required fields. **Do not assume it went through.**
+- **Next step:** if no reply to the Japanese submission within 14 days (by 2026-10-04), consider a fallback attempt on the English form (retry, check browser console/network tab for errors, or try a different browser) or ask Karsten/a JP-fluent contact to verify the form's behavior.
 
 ## Notes for sending
 

@@ -133,6 +133,10 @@ Project: https://mitsue.it
 
 ---
 
+## Send status
+
+- **Japanese contact form (https://highreso.jp/contact/):** Sent 2026-09-20 (refreshed v2.0 send). Filled in by Claude, reviewed and submitted by Rob. Company field used "YR-Design" (no NGO entity set up yet). Inquiry type selected: データセンターに関するお問い合わせ.
+
 ## Notes for sending
 
 - **This supersedes the May 2026 send** — that draft got no reply, so send this refreshed version rather than the old one; no need to reference the earlier attempt in the email itself.
