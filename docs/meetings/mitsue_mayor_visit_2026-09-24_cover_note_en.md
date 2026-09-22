@@ -1,10 +1,10 @@
-<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_en.md | Version: v1.6 | Last modified: 2026-09-23 -->
+<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_en.md | Version: v1.7 | Last modified: 2026-09-23 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:20pt; font-weight:700; margin:0 0 1mm;">Note on Enclosed Materials</h1>
 <p style="font-size:10pt; color:#666; margin:0 0 1mm;">For Mayor Ito — meeting materials</p>
-<p style="font-size:9pt; color:#888; margin:0 0 3mm;">v1.6 · 2026-09-24 · Rob Oudendijk</p>
+<p style="font-size:9pt; color:#888; margin:0 0 3mm;">v1.7 · 2026-09-24 · Rob Oudendijk</p>
 </div>
 
 <div style="font-size:9.5pt; line-height:1.4;">
@@ -27,10 +27,10 @@ I'm also enclosing three documents on the project's current state, following on 
 
 Not a new idea — these follow directly from council sessions:
 
-- **December 2020**: named the shortage of receiving forestry operators and workers as the real bottleneck, ahead of owner willingness or timber supply.
-- **March 2021**: noted four 協力隊 members training in self-managed forestry at the cooperative, and a policy of using thinned wood at tourism facilities.
-- **June 2026**: confirmed the forestry 協力隊 position has drawn almost no applicants for two years. Noted the 起業人/プロジェクトマネージャー programs weren't abandoned, only unmatched so far.
-- **December 2024**: after a clear-cut notification, the village can only encourage replanting — no binding requirement. Related: on 2026-08-25 I visited an active reforestation site in Tenkawa Village with more trees (NGO) — native broadleaf on former ski-resort land, backed by rotating corporate sponsors since 2021. A working example of a mechanism that could fill that gap.
+- **December 2020**: you yourself named the shortage of receiving forestry operators and workers as the real bottleneck, ahead of owner willingness or timber supply.
+- **March 2021**: you noted four 協力隊 members training in self-managed forestry at the cooperative, and a policy of using thinned wood at tourism facilities.
+- **June 2026**: you confirmed the forestry 協力隊 position has drawn almost no applicants for two years, and noted the 起業人/プロジェクトマネージャー programs weren't abandoned, only unmatched so far.
+- **December 2024**: you explained that after a clear-cut notification, the village can only encourage replanting — no binding requirement. Related: on 2026-08-25 I visited an active reforestation site in Tenkawa Village with more trees (NGO) — native broadleaf on former ski-resort land, backed by rotating corporate sponsors since 2021. A working example of a mechanism that could fill that gap.
 
 The three documents each start from one of these points: building real receiving capacity for forestry labor, using thinned wood locally, and filling the reforestation gap.
 
