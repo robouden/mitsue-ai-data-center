@@ -1,17 +1,19 @@
-<p align="right">Version: v1.3 | Last modified: 2026-09-16</p>
+<p align="right">Version: v1.4 | Last modified: 2026-09-23</p>
 
 ---
 
 # Prep Note — Kinjo + Henry Meeting: Prototype CHP + AI DC Site
 
 **Attendees:** Kinjo Rie (近処里英, Mitsue Village Forest Cooperative), Henry Takata (advisor, biomass CHP biz-dev), Rob
-**Trigger:** Kinjo mentioned a possible site for a prototype <50kWe CHP + AI data center in a recent meeting — not yet a firm offer.
+**Trigger:** No commitment from the Cooperative yet. In the last meeting, Kinjo only mentioned there could be an option to change/repurpose land the Cooperative owns to free up additional space for other activities — not a proposed site, not an offer.
 **Goal of this meeting:** Turn the informal mention into a concrete go/no-go read on feasibility. Not a commitment meeting.
 
 ## Site Basics to Confirm
 
 1. **Land status**
+   - No commitment yet — this is exploratory. Only known so far: Cooperative-owned land, possible option to change/repurpose it to create additional space.
    - Who owns/controls the site — Kinjo personally, the Forest Cooperative, or the village?
+   - What kind of "change" — reclassification, clearing, subdivision? What's driving the possibility (unused land, restructuring)?
    - Any existing use, lease, or zoning restriction?
    - Is it available for a multi-year pilot, or short-term only?
 
