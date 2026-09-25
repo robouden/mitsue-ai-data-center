@@ -1,4 +1,4 @@
-<p align="right">Version: v1.11 | Last modified: 2026-09-06</p>
+<p align="right">Version: v1.12 | Last modified: 2026-09-23</p>
 
 ---
 
@@ -36,7 +36,6 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 |---|---|---|---|
 | Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | info@mitsuemori.com / https://mitsuemori.com | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
 | Tokuo Aomi (青見) | CHP prototype partner, Sugano Organic | — | 2026-06-23 — Outreach email sent |
-| Niwa-san (丹羽) | Fuel-supply partner (sawmill), 丹羽製材, Sugano | — | 2026-07-29 — Joint fuel-chipper discussion ongoing |
 | Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
 | Nishimura Yuki (西村) | Local contact ("Carp guy from Mitsue") | nishimura2099@gmail.com | 2026-05-06 — Project Q&A exchange |
 | Andy Viirtela | Instructor, グローバル人材育成塾 (ECC), teaches at 高龍館/Koryukan (old wooden school) | andy.viirtela@gmail.com / 070-1860-6454 (via wife Yurika Moriyama) | 2026-07-08 — Attended village hall meeting (children's workshop proposal) as translation support; workshop venue set to the school where he teaches |

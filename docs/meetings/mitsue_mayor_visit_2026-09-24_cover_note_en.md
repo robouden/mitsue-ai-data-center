@@ -1,4 +1,4 @@
-<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_en.md | Version: v1.7 | Last modified: 2026-09-23 -->
+<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_en.md | Version: v1.8 | Last modified: 2026-09-23 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
@@ -17,7 +17,7 @@ I'm also enclosing three documents on the project's current state, following on 
 
 <p style="font-weight:700; font-size:12pt; margin:3mm 0 1mm; border-top:1px solid #ddd; padding-top:2mm;">Enclosed Documents</p>
 
-**1. Stakeholder Network Diagram (A4, 2 pages)** — Existing relationships: landowners, forest cooperative, Niwa Sawmill, Mitsue Kanko, village office. No new organization or authority proposed.
+**1. Stakeholder Network Diagram (A4, 2 pages)** — Existing relationships: landowners, forest cooperative, Mitsue Kanko, village office. No new organization or authority proposed.
 
 **2. Collective Timeline Guide (A4, 4 pages)** — Follows the spirit of the village's "100-Year Plan," laid out in decades. The purpose is completing what the generation that planted the cedars set out to do — not money.
 

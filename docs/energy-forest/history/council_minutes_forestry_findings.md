@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-08-14 -->
+<!-- Version: v1.3 | Last modified: 2026-09-23 -->
 
 # Village Council Minutes — Forestry & Reforestation Findings
 
@@ -36,6 +36,15 @@ His stated response: build up the 森林組合 (forestry cooperative) and workfo
 **Why this matters for this project:** this is the village's own stated diagnosis, from 2020, of exactly the constraint the [Forest Workforce Energy Plan](mitsue_forest_workforce_energy_plan.md) is built around — the bottleneck is crew and equipment capacity, not tree availability or owner willingness. This is citable, dated, on-the-record confirmation from the Mayor, independent of this project.
 
 *Source: `research/council_minutes/text/R2-12kaigiroku.txt`, lines 503–545.*
+
+**Reconfirmed, June 2026 (R8 6th regular session):** responding to Councilor Kageyama Hideaki's (影山英章) question on workforce/recruitment schemes (lines 416–431), Mayor Ito states the 地域おこし協力隊 forestry/agriculture recruitment has drawn almost no applicants for two straight years:
+
+> 「地域おこし協力隊につきましても、農林業の募集を継続的に行っております。しかしながら、ここ２年は応募も少なく採用には至っていないのが現状でございます。」
+> *("As for the Regional Revitalization Corps, we've continued recruiting for forestry/agriculture. However, for the past two years, applications have been few and we haven't been able to make any hires.")*
+
+Same bottleneck, same mayor, still unresolved six years on.
+
+*Source: `research/council_minutes/text/R86teireigikaigijiroku.txt`, lines 435–439.*
 
 ### 2.3 施業放置林整備（マネージャー）事業 (Neglected-Forest Management Project) — the village's current mechanism, and its scale
 

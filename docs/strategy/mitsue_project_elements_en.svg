@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" font-family="Caveat">
+  <defs>
+    <!-- hand-drawn wobble filter -->
+    <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.035" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="roughSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfeae6"/>
+      <stop offset="100%" stop-color="#c7dcd4"/>
+    </linearGradient>
+    <linearGradient id="mtnNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef5f1"/>
+      <stop offset="100%" stop-color="#d7e8e0"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#9a9a9a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1080" fill="#ffffff"/>
+
+  <!-- ===================== Title ===================== -->
+  <g filter="url(#roughSoft)">
+    <rect x="420" y="55" width="760" height="78" fill="#ffffff" stroke="#8a8a8a" stroke-width="3"/>
+  </g>
+  <text x="800" y="107" font-family="Kalam" font-weight="700" font-size="38" fill="#1a1a1a" text-anchor="middle">MITSUE PROJECT ELEMENTS</text>
+
+  <!-- ===================== Stylised hand-drawn mountains ===================== -->
+  <g filter="url(#roughSoft)">
+    <path d="M 900 430 L 990 300 L 1055 360 L 1110 260 L 1175 345 L 1230 235 L 1300 350 L 1360 270 L 1430 430 Z"
+          fill="url(#mtnFar)" stroke="#4a6b5e" stroke-width="2.5" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M 870 430 L 950 340 L 1010 385 L 1070 300 L 1140 400 L 1205 310 L 1270 400 L 1340 330 L 1410 430 Z"
+          fill="url(#mtnNear)" stroke="#2f4a3d" stroke-width="3" stroke-linejoin="round"/>
+    <!-- little tree flourishes along the ridge -->
+    <g stroke="#3a5a4a" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <path d="M955 345 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"/>
+      <path d="M1080 320 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"/>
+      <path d="M1215 330 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"/>
+      <path d="M1350 350 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"/>
+    </g>
+  </g>
+  <text x="1150" y="480" font-family="Caveat" font-weight="700" font-size="38" fill="#1a1a1a" text-anchor="middle">MOUNTAINS &amp; TREES</text>
+
+  <!-- ===================== School students participation ===================== -->
+  <text x="480" y="250" font-family="Caveat" font-weight="700" font-size="32" fill="#1a1a1a" text-anchor="middle">SCHOOL STUDENTS</text>
+  <text x="480" y="285" font-family="Caveat" font-weight="700" font-size="32" fill="#1a1a1a" text-anchor="middle">PARTICIPATION</text>
+
+  <!-- arrow: school -> local AI center -->
+  <path d="M 400 300 C 330 340, 300 370, 300 420" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+  <!-- arrow: school -> mountains -->
+  <path d="M 560 300 C 680 340, 780 380, 870 415" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+
+  <!-- dashed: school -> project coordination (gray) -->
+  <path d="M 470 300 C 460 370, 500 400, 560 450" fill="none" stroke="#9a9a9a" stroke-width="2.5"
+        stroke-dasharray="8 7" filter="url(#roughSoft)"/>
+
+  <!-- ===================== Local AI Center box ===================== -->
+  <g filter="url(#roughSoft)">
+    <rect x="55" y="430" width="360" height="100" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+  </g>
+  <text x="235" y="472" font-family="Caveat" font-weight="700" font-size="29" fill="#1a1a1a" text-anchor="middle">LOCAL AI CENTER</text>
+  <text x="195" y="510" font-family="Caveat" font-weight="700" font-size="29" fill="#1a1a1a" text-anchor="middle">&amp; HEAT SINK</text>
+  <text x="355" y="510" font-family="Caveat" font-weight="700" font-size="22" fill="#2255cc" text-anchor="middle">NPO</text>
+
+  <!-- ===================== Project Coordination box ===================== -->
+  <g filter="url(#roughSoft)">
+    <rect x="555" y="480" width="310" height="130" fill="#ffffff" stroke="#1a1a1a" stroke-width="3" rx="6"/>
+  </g>
+  <text x="710" y="535" font-family="Kalam" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">PROJECT</text>
+  <text x="710" y="575" font-family="Kalam" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">COORDINATION</text>
+  <text x="825" y="598" font-family="Caveat" font-weight="700" font-size="22" fill="#2255cc" text-anchor="middle">NPO</text>
+
+  <!-- dashed: coordination -> local ai center -->
+  <path d="M 560 540 C 480 560, 420 560, 400 530" fill="none" stroke="#9a9a9a" stroke-width="2.5"
+        stroke-dasharray="8 7" marker-end="url(#arrowGray)" filter="url(#roughSoft)"/>
+
+  <!-- dashed: coordination -> cut trees area (through center) -->
+  <path d="M 860 520 C 950 555, 880 620, 780 640 C 700 655, 660 610, 700 560" fill="none"
+        stroke="#9a9a9a" stroke-width="2.5" stroke-dasharray="8 7" filter="url(#roughSoft)"/>
+
+  <!-- dashed: reforestation -> coordination/cut trees line -->
+  <path d="M 1180 800 C 1000 790, 900 720, 860 640" fill="none" stroke="#9a9a9a" stroke-width="2.5"
+        stroke-dasharray="8 7" filter="url(#roughSoft)"/>
+  <text x="1230" y="620" font-family="Caveat" font-weight="700" font-size="24" fill="#2255cc" text-anchor="middle">COOP</text>
+
+  <!-- ===================== Cut trees & truck logs ===================== -->
+  <text x="1000" y="590" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">CUT TREES</text>
+  <text x="1000" y="622" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">&amp; TRUCK LOGS</text>
+
+  <!-- arrow: reforestation -> mountains -->
+  <path d="M 1430 790 C 1420 650, 1380 520, 1340 440" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+
+  <!-- arrow: cut trees -> wood chipper -->
+  <path d="M 1000 630 C 990 680, 960 720, 930 760" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+
+  <!-- ===================== Reforestation box ===================== -->
+  <g filter="url(#roughSoft)">
+    <rect x="1160" y="790" width="360" height="110" fill="#ffffff" stroke="#8a8a8a" stroke-width="3"/>
+  </g>
+  <text x="1340" y="833" font-family="Caveat" font-weight="700" font-size="27" fill="#1a1a1a" text-anchor="middle">REFORESTATION</text>
+  <text x="1340" y="868" font-family="Caveat" font-weight="700" font-size="27" fill="#1a1a1a" text-anchor="middle">WITH LOCAL SEEDS</text>
+  <text x="1470" y="890" font-family="Caveat" font-weight="700" font-size="20" fill="#2255cc" text-anchor="middle">NPO</text>
+
+  <!-- ===================== Biomass power generator ===================== -->
+  <text x="225" y="840" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">BIOMASS</text>
+  <text x="225" y="875" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">POWER GENERATOR</text>
+
+  <!-- arrow: biomass -> local ai center, "power line?" -->
+  <path d="M 260 800 C 260 700, 260 620, 260 532" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+  <text x="345" y="655" font-family="Caveat" font-size="24" fill="#1a1a1a" text-anchor="middle">POWER LINE?</text>
+
+  <!-- ===================== Wood chipper ===================== -->
+  <text x="960" y="840" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">WOOD</text>
+  <text x="960" y="875" font-family="Caveat" font-weight="700" font-size="30" fill="#1a1a1a" text-anchor="middle">CHIPPER</text>
+
+  <!-- arrow: wood chipper -> biomass, "trucks?" -->
+  <path d="M 890 850 C 700 870, 500 850, 400 810" fill="none" stroke="#1a1a1a" stroke-width="4"
+        stroke-linecap="round" marker-end="url(#arrow)" filter="url(#rough)"/>
+  <text x="640" y="815" font-family="Caveat" font-size="24" fill="#1a1a1a" text-anchor="middle">TRUCKS?</text>
+
+  <!-- ===================== Business stream pink loop ===================== -->
+  <path d="M 235 530
+           C 100 560, 90 650, 100 720
+           C 110 800, 150 870, 260 920
+           C 500 1000, 850 1000, 1020 900
+           C 1100 855, 1080 780, 1000 740
+           C 940 712, 900 700, 880 660
+           C 865 630, 890 590, 950 570"
+        fill="none" stroke="#c98fd6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#rough)" opacity="0.85"/>
+
+  <text x="500" y="1000" font-family="Kalam" font-weight="700" font-size="30" fill="#a855c4" text-anchor="middle">BUSINESS STREAM</text>
+
+</svg>

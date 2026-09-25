@@ -1,4 +1,4 @@
-<!-- Version: v0.2 | Last modified: 2026-09-12 -->
+<!-- Version: v0.4 | Last modified: 2026-09-24 -->
 
 # NAIST Jan 13, 2027 Presentation — Working Draft
 
@@ -16,21 +16,30 @@ weirdly simple solutions if you're willing to look sideways at them.**
     Organizing too. What's left for me? Creativity, intuition — the fun half."
   - Dutch engineer, self-designed/built his own house in the Mitsue forest —
     joke: "the trees are 3 meters from my front door, so if this talk is bad,
-    blame the neighbors."
+    blame the neighbors.". 
+  - **Idea (pending Kinjo's OK, not confirmed):** dress code bit for the intro —
+    Kinjo in green (short, fresh, new growth) next to Rob in gray (older, tall,
+    full-grown), standing side by side = the forest itself, young sprout next
+    to mature tree. Visual gag for the "25 years to grow the village" framing.
+    Ask Kinjo before adding to the plan.
 
-## 2. A very short history of Japanese forests (~5 min)
+## 2. History: Japanese forestry, start → 1958 (~10 min)
 
-- Edo → Meiji → now, fast version: who owned what, broadleaf for villagers,
-  sugi/hinoki for construction + government. (Pull specifics from
-  `docs/energy-forest/history/hundred_year_plan_transcription.md`.)
-- The "100-year plan": planted en masse ~75 years ago after WWII for construction
-  timber. We're 75 years into a 100-year story — 25 years left before the trees
-  are "done" *and*, funny enough, before new power tech (compute, maybe fusion)
-  changes the whole energy picture too. Two clocks ticking at once.
-- Price collapse joke angle: "we planted a retirement fund, then the 1970s–80s
-  cheap-import wave crashed the market before the trees even grew up." A-grade
-  sugi ¥12,000 → ¥4,475/m³ by 2025. Only A-grade sells today — that's the punchline
-  problem the rest of the talk fixes.
+- Full chronological timeline, Tokugawa tenure through Rob's birth year — see
+  `docs/energy-forest/history/naist_timeline_history_to_1958.md` for the
+  slide-ready ~8-slide breakdown (Tokugawa tenure/Wave 1 → Meiji Kan/Min split →
+  Goryōrin 58-year P&L arc → 1929–49 cutover crisis → postwar 5/10/6-year plans →
+  1950 fossil-fuel pivot vs. 1955 planting peak → 1958 hinge slide).
+- Hinge line into section 3/4: by 1958 Japan is mid-boom on the largest of its
+  three forestation waves, planting compulsory since 1951 — for a
+  construction-timber and firewood/charcoal economy fossil fuels had already
+  started dismantling since 1950. **The trees are older than the demand that
+  justified planting them.**
+- Price collapse joke angle, use as the bridge to "Now": "we planted a
+  retirement fund, then the 1970s–80s cheap-import wave crashed the market
+  before the trees even grew up." A-grade sugi ¥12,000 → ¥4,475/m³ by 2025.
+  Only A-grade sells today — that's the punchline problem the rest of the talk
+  fixes.
 
 ## 3. Kinjo segment — the situation on the ground today (~5–10 min, hers)
 
@@ -77,6 +86,7 @@ weirdly simple solutions if you're willing to look sideways at them.**
 ---
 
 *Sources to pull real numbers/quotes from before final pass:*
+- `docs/energy-forest/history/naist_timeline_history_to_1958.md`
 - `docs/energy-forest/history/hundred_year_plan_transcription.md`
 - `docs/energy-forest/workforce/mitsue_forest_workforce_energy_plan.md`
 - `docs/meetings/Presenter Notes - Mitsue Project.md`

@@ -1,4 +1,4 @@
-<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_jp.md | Version: v1.6 | Last modified: 2026-09-23 -->
+<!-- File: mitsue_mayor_visit_2026-09-24_cover_note_jp.md | Version: v1.7 | Last modified: 2026-09-23 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
@@ -17,7 +17,7 @@
 
 ## 同封資料
 
-**1. ステークホルダー・ネットワーク図（A4・2ページ）** — 地権者・森林組合・丹羽製材・みつえ観光・村役場など既存の関係者図。新組織・新権限の提案ではなく、既存の関係の上にどう積み上げるかを示すものです。
+**1. ステークホルダー・ネットワーク図（A4・2ページ）** — 地権者・森林組合・みつえ観光・村役場など既存の関係者図。新組織・新権限の提案ではなく、既存の関係の上にどう積み上げるかを示すものです。
 
 **2. 共同体タイムライン・ガイド（A4・4ページ）** — 村の「百年計画」の精神を受け継いだ、数十年単位のフェーズ整理。目的は資金ではなく、杉を植えた世代の構想を完成させることです。
 

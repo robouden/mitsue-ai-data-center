@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1600 1080"
+   font-family="Yomogi"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="mitsue_project_elements_jp.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   inkscape:export-filename="mitsue_project_elements_jp_1.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.554938"
+     inkscape:cx="709.9794"
+     inkscape:cy="520.66921"
+     inkscape:window-width="3440"
+     inkscape:window-height="1374"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <defs
+     id="defs6">
+    <!-- hand-drawn wobble filter -->
+    <filter
+       id="rough"
+       x="-inf"
+       y="-0.12574754"
+       width="inf"
+       height="1.1857475">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.018 0.035"
+         numOctaves="2"
+         seed="7"
+         result="noise"
+         id="feTurbulence1" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="noise"
+         scale="6"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         id="feDisplacementMap1" />
+    </filter>
+    <filter
+       id="roughSoft"
+       x="-0.013867505"
+       y="-0.13902975"
+       width="1.0226055"
+       height="1.1912535">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.012 0.02"
+         numOctaves="2"
+         seed="3"
+         result="noise"
+         id="feTurbulence2" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="noise"
+         scale="3.5"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         id="feDisplacementMap2" />
+    </filter>
+    <linearGradient
+       id="mtnFar"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#dfeae6"
+         id="stop2"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#c7dcd4"
+         id="stop3"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="mtnNear"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#eef5f1"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#d7e8e0"
+         id="stop5"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 L3,5 Z"
+         fill="#1a1a1a"
+         id="path5" />
+    </marker>
+    <marker
+       id="arrowGray"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 L3,5 Z"
+         fill="#9a9a9a"
+         id="path6" />
+    </marker>
+  </defs>
+  <rect
+     x="29.999998"
+     y="-40"
+     width="1600"
+     height="1080"
+     fill="#ffffff"
+     id="rect6" />
+  <!-- ===================== Title ===================== -->
+  <g
+     filter="url(#roughSoft)"
+     id="g7">
+    <rect
+       x="470"
+       y="55"
+       width="660"
+       height="78"
+       fill="#ffffff"
+       stroke="#8a8a8a"
+       stroke-width="3"
+       id="rect7" />
+  </g>
+  <text
+     x="800"
+     y="107"
+     font-family="Klee One"
+     font-weight="700"
+     font-size="42"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text7"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">御杖プロジェクトの構成要素</text>
+  <!-- ===================== Stylised hand-drawn mountains ===================== -->
+  <g
+     filter="url(#roughSoft)"
+     id="g13">
+    <path
+       d="M 900 430 L 990 300 L 1055 360 L 1110 260 L 1175 345 L 1230 235 L 1300 350 L 1360 270 L 1430 430 Z"
+       fill="url(#mtnFar)"
+       stroke="#4a6b5e"
+       stroke-width="2.5"
+       stroke-linejoin="round"
+       opacity="0.85"
+       id="path7"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="M 870 430 L 950 340 L 1010 385 L 1070 300 L 1140 400 L 1205 310 L 1270 400 L 1340 330 L 1410 430 Z"
+       fill="url(#mtnNear)"
+       stroke="#2f4a3d"
+       stroke-width="3"
+       stroke-linejoin="round"
+       id="path8"
+       style="fill:#ffffff;fill-opacity:1" />
+    <!-- little tree flourishes along the ridge -->
+    <g
+       stroke="#3a5a4a"
+       stroke-width="2.5"
+       stroke-linecap="round"
+       fill="none"
+       id="g12">
+      <path
+         d="M955 345 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"
+         id="path9" />
+      <path
+         d="M1080 320 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"
+         id="path10" />
+      <path
+         d="M1215 330 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"
+         id="path11" />
+      <path
+         d="M1350 350 l6 -18 m-6 12 l-9 -6 m9 6 l9 -6"
+         id="path12" />
+    </g>
+  </g>
+  <text
+     x="1150"
+     y="480"
+     font-family="Yomogi"
+     font-size="40px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text13"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:191.326;display:inline"
+     transform="translate(33.174061,2.1480971)"
+     xml:space="preserve"><tspan
+       x="1150"
+       y="480"
+       id="tspan1">山と森</tspan></text>
+  <!-- ===================== School students participation ===================== -->
+  <text
+     x="480"
+     y="260"
+     font-family="Yomogi"
+     font-size="34"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text14"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">学校生徒の参加</text>
+  <!-- arrow: school -> local AI center -->
+  <path
+     d="M 400 300 C 330 340, 300 370, 300 420"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path14" />
+  <!-- arrow: school -> mountains -->
+  <path
+     d="M 560 300 C 680 340, 780 380, 870 415"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path15" />
+  <!-- dashed: school -> project coordination (gray) -->
+  <path
+     d="M 470 300 C 460 370, 500 400, 560 450"
+     fill="none"
+     stroke="#9a9a9a"
+     stroke-width="2.5"
+     stroke-dasharray="8 7"
+     filter="url(#roughSoft)"
+     id="path16" />
+  <!-- ===================== Local AI Center box ===================== -->
+  <g
+     filter="url(#roughSoft)"
+     id="g16">
+    <rect
+       x="70"
+       y="430"
+       width="330"
+       height="100"
+       fill="#ffffff"
+       stroke="#1a1a1a"
+       stroke-width="3"
+       id="rect16" />
+  </g>
+  <text
+     x="235"
+     y="475"
+     font-family="Yomogi"
+     font-size="32"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text16"
+     style="-inkscape-font-specification:'DejaVu Sans, Normal';font-family:'DejaVu Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">地域AIセンター</text>
+  <text
+     x="200"
+     y="512"
+     font-family="Yomogi"
+     font-size="30"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text17"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">・排熱利用</text>
+  <text
+     x="345"
+     y="512"
+     font-family="Yomogi"
+     font-size="24"
+     fill="#2255cc"
+     text-anchor="middle"
+     id="text18"
+     style="-inkscape-font-specification:'DejaVu Sans, Normal';font-family:'DejaVu Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">NPO</text>
+  <!-- ===================== Project Coordination box ===================== -->
+  <g
+     filter="url(#roughSoft)"
+     id="g18">
+    <rect
+       x="560"
+       y="480"
+       width="300"
+       height="130"
+       fill="#ffffff"
+       stroke="#1a1a1a"
+       stroke-width="3"
+       rx="6"
+       id="rect18" />
+  </g>
+  <text
+     x="710"
+     y="535"
+     font-family="Klee One"
+     font-weight="700"
+     font-size="34"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text19"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">プロジェクト</text>
+  <text
+     x="710"
+     y="578"
+     font-family="Klee One"
+     font-weight="700"
+     font-size="34"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text20"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">運営</text>
+  <text
+     x="825"
+     y="598"
+     font-family="Yomogi"
+     font-size="24"
+     fill="#2255cc"
+     text-anchor="middle"
+     id="text21"
+     style="-inkscape-font-specification:'DejaVu Sans, Normal';font-family:'DejaVu Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">NPO</text>
+  <!-- dashed: coordination -> local ai center -->
+  <path
+     d="M 560 540 C 480 560, 420 560, 400 530"
+     fill="none"
+     stroke="#9a9a9a"
+     stroke-width="2.5"
+     stroke-dasharray="8 7"
+     marker-end="url(#arrowGray)"
+     filter="url(#roughSoft)"
+     id="path21" />
+  <!-- dashed: coordination -> cut trees area (through center) -->
+  <path
+     d="m 860,520 c 90,35 249.4539,-4.12969 354.9488,7.57679 181.7065,43.56655 125.1195,159.45393 150.3754,262.42321"
+     fill="none"
+     stroke="#9a9a9a"
+     stroke-width="2.5"
+     stroke-dasharray="8, 7"
+     filter="url(#roughSoft)"
+     id="path22"
+     sodipodi:nodetypes="ccc" />
+  <!-- dashed: reforestation -> coordination/cut trees line -->
+  <path
+     d="M 1180 800 C 1000 790, 900 720, 860 640"
+     fill="none"
+     stroke="#9a9a9a"
+     stroke-width="2.5"
+     stroke-dasharray="8 7"
+     filter="url(#roughSoft)"
+     id="path23" />
+  <text
+     x="1230"
+     y="620"
+     font-family="Yomogi"
+     font-size="26"
+     fill="#2255cc"
+     text-anchor="middle"
+     id="text23">組合</text>
+  <!-- ===================== Cut trees & truck logs ===================== -->
+  <text
+     x="1000"
+     y="600"
+     font-family="Yomogi"
+     font-size="34px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text24"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.8421px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:173.816;display:inline"
+     transform="translate(36.860068,45.159231)"
+     xml:space="preserve"><tspan
+       x="1000"
+       y="600"
+       id="tspan2">伐採・搬出</tspan></text>
+  <!-- arrow: reforestation -> mountains -->
+  <path
+     d="M 1430 790 C 1420 650, 1380 520, 1340 440"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path24" />
+  <!-- arrow: cut trees -> wood chipper -->
+  <path
+     d="m 1064.3901,675.70593 c -10,60 -57.5085,86.17747 -87.5085,126.17747"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path25"
+     sodipodi:nodetypes="cc" />
+  <!-- ===================== Reforestation box ===================== -->
+  <g
+     filter="url(#roughSoft)"
+     id="g25">
+    <rect
+       x="1180"
+       y="790"
+       width="340"
+       height="110"
+       fill="#ffffff"
+       stroke="#8a8a8a"
+       stroke-width="3"
+       id="rect25" />
+  </g>
+  <text
+     x="1350"
+     y="838"
+     font-family="Yomogi"
+     font-size="30"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text25"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">地域種による</text>
+  <text
+     x="1350"
+     y="873"
+     font-family="Yomogi"
+     font-size="30"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text26"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">再植林</text>
+  <text
+     x="1470"
+     y="890"
+     font-family="Yomogi"
+     font-size="22"
+     fill="#2255cc"
+     text-anchor="middle"
+     id="text27"
+     style="-inkscape-font-specification:'DejaVu Sans, Normal';font-family:'DejaVu Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">NPO</text>
+  <!-- ===================== Biomass power generator ===================== -->
+  <text
+     x="252"
+     y="792"
+     font-family="Yomogi"
+     font-size="34px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text28"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">バイオマス</text>
+  <text
+     x="253.95905"
+     y="829.92004"
+     font-family="Yomogi"
+     font-size="34px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text29"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">発電機</text>
+  <!-- arrow: biomass -> local ai center, "power line?" -->
+  <path
+     d="M 260 800 C 260 700, 260 620, 260 532"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path29" />
+  <text
+     x="330"
+     y="660"
+     font-family="Yomogi"
+     font-size="24"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text30"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">送電線？</text>
+  <!-- ===================== Wood chipper ===================== -->
+  <text
+     x="922.34827"
+     y="811.36786"
+     font-family="Yomogi"
+     font-size="34px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text31"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">木材</text>
+  <text
+     x="922.34827"
+     y="849.36786"
+     font-family="Yomogi"
+     font-size="34px"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text32"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">チッパー</text>
+  <!-- arrow: wood chipper -> biomass, "trucks?" -->
+  <path
+     d="m 848.20213,842.0212 c -190,20 -390,0 -490,-40"
+     fill="none"
+     stroke="#1a1a1a"
+     stroke-width="4"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     filter="url(#rough)"
+     id="path32" />
+  <text
+     x="640"
+     y="815"
+     font-family="Yomogi"
+     font-size="24"
+     fill="#1a1a1a"
+     text-anchor="middle"
+     id="text33"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">トラック輸送？</text>
+  <!-- ===================== Business stream pink loop ===================== -->
+  <path
+     d="M 235,530 C 100,560 90,650 100,720 c 10,80 50,150 160,200 240,80 608.43003,138.0546 778.43,38.05461 80,-45 -16.4846,-88.56656 73.0717,-191.33106 36.7577,-48.27304 118.1381,-33.46063 41.2628,-143.58362 -94.289,-135.06807 -202.77333,-30.86447 -268.45005,-22.26805"
+     fill="none"
+     stroke="#c98fd6"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     filter="url(#rough)"
+     opacity="0.85"
+     id="path33"
+     sodipodi:nodetypes="cccccsc" />
+  <text
+     x="737.74744"
+     y="979.72699"
+     font-family="'Klee One'"
+     font-weight="700"
+     font-size="32px"
+     fill="#a855c4"
+     text-anchor="middle"
+     id="text34"
+     style="-inkscape-font-specification:'DejaVu Sans, Bold';font-family:'DejaVu Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:30.84210587px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">事業の流れ</text>
+</svg>
