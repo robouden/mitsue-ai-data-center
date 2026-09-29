@@ -1,4 +1,4 @@
-<p align="right">Version: v1.12 | Last modified: 2026-09-23</p>
+<p align="right">Version: v1.13 | Last modified: 2026-09-28</p>
 
 ---
 
@@ -29,6 +29,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Sotaro Hotta (堀田総太郎) | Attorney — Legal Advisor, likely Nishimura & Asahi (unconfirmed) | — | 2026-07-08 — Confirmed pro bono support |
 | Karsten Klein | CEO & Founder, KLEIN K.K. Advisory Services Japan (Tokyo) — AI data centre consultant: AI governance (ISO 42001), cybersecurity/infosec (ISO 27001), data privacy (GDPR); ex-Nomura/Lehman/UBS/NN Life risk & control infra; PhD electronic engineering, Cambridge | https://www.kleinkk.co.jp/ | 2026-08-18 — First online meeting; discussed how the AI data center should be run: hardware, software, layers, and security |
 | Minoru Kubo (久保), Ph.D. | Assoc. Professor, Center for Digital Green-innovation (CDG), NAIST, 8916-5 Takayama-cho, Ikoma, Nara 630-0192 | +81-743-72-6082 (ex.3037) / m.kubo@bs.naist.jp / https://cdgw3.naist.jp/ | 2026-08-21 — Contact info added; connected via Shiozaki (NAIST President) |
+| Tanaka Toshihiro (田中敏宏) | Executive Vice President & Trustee / Provost (Education, Student Support, Internal Control), Osaka University | 06-6879-4400 / tanaka.toshihiro.hq@osaka-u.ac.jp | 2026-09-28 — Met at SwissNex Energy Days Osaka 2026-09-03; connected with Dome internally; confirmed lunch (12:00-13:00) + walk (13:00-14:00) meeting for Wed 2026-10-14 |
 
 ## Local Partners / Contacts
 

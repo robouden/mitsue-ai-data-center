@@ -1,4 +1,4 @@
-<!-- Version: v1.5 | Last modified: 2026-09-07 -->
+<!-- Version: v1.6 | Last modified: 2026-09-27 -->
 
 # Biomass CHP — Maker Shortlist
 
@@ -86,14 +86,29 @@ as a placeholder.
 
 ---
 
-## Prototype siting (decided 2026-07-17)
-Site the Tier-A prototype on the **grounds of Sugano Organic (菅野, Tokuo Aomi; near 丹羽製材)**,
-fed by **wood chips trucked a short haul (~2 km straight-line; road distance to confirm) from the Mitsue Village Forest Association worksite (牛峠工場, 神末797)**. Rationale:
-it de-risks the gasification tech *and* builds the Sugano Organic / 丹羽製材 fuel partnership on a
-real-fuel test, at a volume where the short chip haul is acceptable. (The later **commercial** CHP
-sits *at* 神末 to avoid haul and use waste heat for drying; the **GPU compute** co-locates there
-behind-the-meter — see `mitsue_fit_grid_check.md` three-node siting. A public prototype demo can
-also run at the Koryukan / an unused factory.)
+## Prototype siting (updated 2026-09-27 — supersedes 2026-07-17 decision)
+Site the prototype **directly at the MitsueMori (御杖村森林組合) worksite on the hill (牛峠工場,
+神末797)** — both the chip drying step and the CHP unit itself, not the earlier plan of siting the
+CHP at Sugano Organic with chips trucked down from the hill. Rationale: eliminates the ~2km chip
+haul entirely (fuel never leaves the forestry site), and lets the CHP's own waste heat feed the
+drying step on-premise (matches the disaster-CHP paper's finding — see
+`eis_53-1_2024_wood_biomass_chp_disaster_EN_translation.md` §2.2.3/Eq.② — that on-site drying
+draws directly on CHP thermal output, so co-locating drying + generation avoids a second haul AND
+keeps that heat loop short). This also converges with the "later commercial CHP sits at 神末"
+plan from the three-node siting note — the prototype now previews the commercial site's
+configuration instead of testing a different (Sugano) location.
+
+Consequence for fuel/moisture, per the CHP maker table above: since fuel arrives fresh/green
+straight from harvest (not pre-dried at a mill), the choice is between (a) a standalone dryer
+loop ahead of a low-moisture-spec unit (Volter ≤15%, Entrenco ≤12%), or (b) a wet-tolerant
+packaged unit (ESPE ≤45%, Esperia ≤40%) that folds drying into the CHP package itself — this
+now needs to be decided as part of unit selection, not assumed away. Fuel-supply-rate question
+(harvest tonnage available at MitsueMori) remains open per [[project_sugano_fuel_partner]]'s
+2026-09-03 update — Sugano/Niwa fuel-chipper route is a separate question, not this pilot's
+fuel source.
+
+(A public prototype demo can still run separately at the Koryukan / an unused factory if wanted
+for visibility, but the working pilot itself sits at MitsueMori.)
 
 ---
 

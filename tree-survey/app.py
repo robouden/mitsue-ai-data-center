@@ -541,7 +541,7 @@ def guide_rows():
 
 
 @app.get("/guide", response_class=HTMLResponse)
-def guide_view(request: Request, _: str = Depends(current_user)):
+def guide_view(request: Request):
     return templates.TemplateResponse(request, "guide.html", {
         "rows": guide_rows(), "is_admin": request.session.get("is_admin", False)})
 

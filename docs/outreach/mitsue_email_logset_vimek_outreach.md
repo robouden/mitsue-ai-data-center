@@ -1,5 +1,5 @@
 <!-- Version: v1.1 | Last modified: 2026-09-26 -->
-
+I got from 釈妙円
 # Logset & Vimek — CTL Harvester Outreach (drafts, not sent)
 
 Follow-on to the Komatsu Forest CTL trial outreach (`mitsue_email_komatsu_ctl_followup.md`).
