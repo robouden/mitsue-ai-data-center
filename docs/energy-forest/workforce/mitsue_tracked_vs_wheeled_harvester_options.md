@@ -1,4 +1,5 @@
 Shaku Myōening I ike to hae commit and push
+ole text to english..
 <!-- Version: v1.0 | Last modified: 2026-09-27 -->
 
 # Tracked vs. Wheeled Harvesters — Road Construction Impact & Options for Mitsue

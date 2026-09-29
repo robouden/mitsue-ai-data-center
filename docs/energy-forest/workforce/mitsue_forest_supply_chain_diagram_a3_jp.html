@@ -1,0 +1,124 @@
+<!-- File: mitsue_forest_supply_chain_diagram_a3_jp.html | Version: v1.0 | Last modified: 2026-09-30 -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>御杖村の森林・木材の流れ ― 現在わかっていること</title>
+<script src="../../../tools/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans CJK JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif; color:#1a202c; background:#fff; }
+  .page { width:420mm; height:297mm; padding:9mm 12mm 9mm; display:flex; flex-direction:column; }
+  .header { border-bottom:2px solid #1a365d; padding-bottom:3mm; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { font-size:26px; color:#1a365d; margin:0; }
+  .sub { color:#4a5568; font-size:13px; margin-top:1.5mm; }
+  .meta { font-size:11px; color:#a0aec0; text-align:right; }
+  .legend { display:flex; gap:9mm; font-size:12px; color:#4a5568; margin:3mm 0 1mm; }
+  .lg::before { content:''; display:inline-block; width:14px; height:10px; margin-right:5px; vertical-align:middle; border-radius:2px; }
+  .l0::before { background:#2f6f4f; }
+  .l1::before { background:#4a4a4a; border:1.5px dashed #999; }
+  .l2::before { background:#3a4f7a; border:1.5px dashed #22315c; }
+  .l3::before { background:repeating-linear-gradient(90deg,#4a5568 0 4px,transparent 4px 7px); height:2px; }
+  .diagram { flex:1; min-height:0; min-width:0; text-align:center; overflow:hidden; border:1px solid #e2e8f0; border-radius:5px; margin:2mm 0; }
+  .main { flex:1; min-height:0; display:flex; gap:5mm; margin:2mm 0; }
+  .main .diagram { margin:0; }
+  .qbox { flex:0 0 100mm; border:1px solid #e2e8f0; border-radius:5px; padding:4mm 5mm; background:#f7fafc; overflow:hidden; }
+  .qbox h2 { font-size:15px; color:#1a365d; margin:0 0 1.5mm; }
+  .qbox ol { margin:0; padding-left:0; list-style:none; font-size:12.5px; line-height:1.45; counter-reset:q; }
+  .qbox li { break-inside:avoid; margin-bottom:3mm; counter-increment:q; }
+  .qbox li::before { content:counter(q) '. '; font-weight:700; color:#1a365d; }
+  .foot { font-size:10px; color:#718096; margin-top:3mm; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header"><div><h1>御杖村の森林・木材の流れ ― 現在わかっていること</h1><div class="sub">森林所有者から買い手、将来のCHP・AIデータセンターまで。緑＝確認済み、灰色の点線＝不明・未確認、青の点線＝将来。</div></div><div class="meta">Version: v1.0 | Last modified: 2026-09-30</div></div>
+  <div class="legend"><span class="lg l0">実線の箱＝確認済み</span><span class="lg l1">灰色の点線＝不明・未確認</span><span class="lg l2">青の点線＝将来（未建設）</span><span class="lg l3">点線の矢印＝未確認または提案</span></div>
+  <div class="main"><div class="diagram"><pre class="mermaid">
+flowchart TD
+    own1["民間の森林所有者<br/>約7,051haの90%超"]
+    own2["共有地（財産区・入会）？<br/>御杖村での記録なし<br/>天川村の洞川財産区のみ確認"]
+    own3["村有林？<br/>2026-08-05に観光協会へ質問<br/>回答はまだ"]
+
+    forest["御杖村の森林 約7,051ha<br/>杉・ヒノキの戦後人工林"]
+
+    own1 --> forest
+    own2 -.-> forest
+    own3 -.-> forest
+
+    coopcrew["森林組合の現場班<br/>2名、平均年齢約33歳"]
+    yamaguchi["個人の林業者<br/>活動を確認済み・自伐型林業<br/>地域おこし協力隊（林業部門）<br/>随時・所有者からの依頼"]
+    otherindep["その他の個人林業者？<br/>村内に何人いるか<br/>2026-09-29に質問・回答待ち"]
+    corps["地域おこし協力隊 自伐型林業<br/>任期最長3年<br/>過去2年は採用ゼロ"]
+    loan["村の林業用重機貸与<br/>バックホウ＋ダンプ<br/>任期後最長5年・1日1,000円"]
+
+    forest --> coopcrew
+    forest --> yamaguchi
+    forest -.-> otherindep
+    forest -.-> corps
+    corps -.-> loan
+    loan -.-> yamaguchi
+
+    leftover["林内に残置<br/>間伐は年約66haだが<br/>搬出は年約120〜300m3のみ"]
+    coopcrew -->|間伐| leftover
+
+    mill["牛峠工場<br/>組合のチップ・乾燥加工センター"]
+    coopcrew -->|"年約120〜300m3"| mill
+    yamaguchi -.->|"出荷先は不明・回答待ち"| mill
+    otherindep -.-> mill
+
+    niwa["丹羽製材<br/>既存のパルプ用チップ購入先<br/>CHP燃料としては仕様が不適合"]
+    yamaguchi -.-> niwa
+    coopcrew -.-> niwa
+
+    mill --> gA["A材 製材用 約22%"]
+    mill --> gB["B材 合板用 約54%<br/>行き先未定"]
+    mill --> gCD["C・D材 チップ・燃料用 約24%"]
+
+    sawmkt["製材の市場<br/>買い手は不明"]
+    plymkt["合板・パルプの買い手<br/>不明"]
+    onsen["姫石の湯（温泉）<br/>すでに組合から木材を受け入れ<br/>（等級・量は未確認）"]
+    othersup["温泉へのその他の木材供給元？<br/>ある地元の見方：組合だけでは足りない<br/>（未確認）"]
+    chp["将来のCHP燃料<br/>プラントは未建設"]
+    dc["AIデータセンター（併設）<br/>CHPの電力を24時間使用<br/>需要側接続・試験規模約18kW<br/>＝CHP出力の約2%のみ"]
+    grid["系統への売電（FIP）<br/>関西送配電・市場価格＋プレミアム<br/>系統事前相談が必要"]
+    dry["CHPの熱でチップを乾燥<br/>牛峠工場で燃料ループに戻す"]
+    compute["計算資源の収入<br/>作業班・機械の費用に充当"]
+
+    gA -.-> sawmkt
+    gB -.-> plymkt
+    gB -.-> chp
+    gCD -.-> chp
+    gA -.->|"木材（等級はロブの観察）"| onsen
+    gB -.->|"木材（等級はロブの観察）"| onsen
+    othersup -.-> onsen
+    chp -.->|熱| dry
+    chp -.->|"電力（優先）"| dc
+    chp -.->|"電力（残り）"| grid
+    dc -.-> compute
+
+    classDef known fill:#2f6f4f,stroke:#1a4530,stroke-width:1.4px,color:#ffffff
+    classDef unknown fill:#4a4a4a,stroke:#999999,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
+    classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
+
+    class own1,forest,coopcrew,yamaguchi,leftover,mill,gA,gB,gCD known
+    class own2,own3,otherindep,corps,loan,sawmkt,plymkt,niwa,onsen,othersup unknown
+    class chp,dc,grid,dry,compute future
+</pre></div>
+  <div class="qbox"><h2>未確認事項</h2><ol><li><b>村有林はあるか？</b> 2026-08-05に質問、回答なし。</li><li><b>共有地（財産区・入会）は？</b> 御杖村の記録なし。確認できたのは天川村のみ。</li><li><b>個人林業者の木材の行き先は？</b> 2026-09-29に質問、回答待ち。</li><li><b>他に個人林業者は何人いるか？</b> 2026-09-30に村へ問い合わせ済み。</li><li><b>施業放置林マネージャーは誰か。</b> 所有者の名簿や会はあるか。</li><li><b>温泉の木材：</b>等級・量、組合以外の供給元は？</li><li><b>「6年」契約の根拠なし。</b> 文書で確認できるのは協力隊3年と重機貸与5年のみ。</li><li><b>B材の行き先</b>（合板か、CHP燃料か）で実際のCHP燃料量が変わる。</li></ol></div></div>
+  <div class="foot">等級の割合（A22%／B54%／C・D24%）は御杖村ではなくカラマツの調査に基づく。この図に含まない項目：伐採届、森林経営計画、補助金、森林環境譲与税。牛峠工場から温泉へ熱は送れない。社内作業用ドラフト。</div>
+</div>
+<script>
+  mermaid.initialize({ startOnLoad:false, theme:'default', themeVariables:{ fontFamily:"'Noto Sans CJK JP','Hiragino Sans',Arial,sans-serif" }, flowchart:{ curve:'basis', nodeSpacing:25, rankSpacing:35 } });
+  mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
+  (function () {
+    var c=document.querySelector('.diagram'), svg=c.querySelector('svg'); if(!svg) return;
+    var vb=(svg.getAttribute('viewBox')||'').split(/\s+/).map(Number); if(vb.length<4) return;
+    var s=Math.min(c.clientWidth/vb[2], c.clientHeight/vb[3]);
+    svg.style.width=(vb[2]*s)+'px'; svg.style.height=(vb[3]*s)+'px'; svg.style.maxWidth='none'; svg.style.display='block'; svg.style.margin='0 auto';
+  })();
+</script>
+</body>
+</html>

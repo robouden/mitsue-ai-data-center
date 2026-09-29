@@ -1,0 +1,124 @@
+<!-- File: mitsue_forest_supply_chain_diagram_a3.html | Version: v1.0 | Last modified: 2026-09-30 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mitsue Forest Supply Chain - What We Currently Have</title>
+<script src="../../../tools/mermaid.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans CJK JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif; color:#1a202c; background:#fff; }
+  .page { width:420mm; height:297mm; padding:9mm 12mm 9mm; display:flex; flex-direction:column; }
+  .header { border-bottom:2px solid #1a365d; padding-bottom:3mm; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { font-size:26px; color:#1a365d; margin:0; }
+  .sub { color:#4a5568; font-size:13px; margin-top:1.5mm; }
+  .meta { font-size:11px; color:#a0aec0; text-align:right; }
+  .legend { display:flex; gap:9mm; font-size:12px; color:#4a5568; margin:3mm 0 1mm; }
+  .lg::before { content:''; display:inline-block; width:14px; height:10px; margin-right:5px; vertical-align:middle; border-radius:2px; }
+  .l0::before { background:#2f6f4f; }
+  .l1::before { background:#4a4a4a; border:1.5px dashed #999; }
+  .l2::before { background:#3a4f7a; border:1.5px dashed #22315c; }
+  .l3::before { background:repeating-linear-gradient(90deg,#4a5568 0 4px,transparent 4px 7px); height:2px; }
+  .diagram { flex:1; min-height:0; min-width:0; text-align:center; overflow:hidden; border:1px solid #e2e8f0; border-radius:5px; margin:2mm 0; }
+  .main { flex:1; min-height:0; display:flex; gap:5mm; margin:2mm 0; }
+  .main .diagram { margin:0; }
+  .qbox { flex:0 0 100mm; border:1px solid #e2e8f0; border-radius:5px; padding:4mm 5mm; background:#f7fafc; overflow:hidden; }
+  .qbox h2 { font-size:15px; color:#1a365d; margin:0 0 1.5mm; }
+  .qbox ol { margin:0; padding-left:0; list-style:none; font-size:12.5px; line-height:1.45; counter-reset:q; }
+  .qbox li { break-inside:avoid; margin-bottom:3mm; counter-increment:q; }
+  .qbox li::before { content:counter(q) '. '; font-weight:700; color:#1a365d; }
+  .foot { font-size:10px; color:#718096; margin-top:3mm; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header"><div><h1>Mitsue Forest Supply Chain - What We Currently Have</h1><div class="sub">From forest owners to buyers and the future CHP / AI data center. Green = confirmed, grey dashed = unknown or unconfirmed, blue dashed = future.</div></div><div class="meta">Version: v1.0 | Last modified: 2026-09-30</div></div>
+  <div class="legend"><span class="lg l0">Solid box = confirmed fact</span><span class="lg l1">Dashed grey = unknown / unconfirmed</span><span class="lg l2">Dashed blue = future (not built)</span><span class="lg l3">Dashed arrow = unconfirmed or proposed</span></div>
+  <div class="main"><div class="diagram"><pre class="mermaid">
+flowchart TD
+    own1["Private landowners<br/>over 90% of ~7,051 ha"]
+    own2["Common-use 財産区・入会 ?<br/>no Mitsue record - only Tenkawa's<br/>洞川財産区 found"]
+    own3["Village-owned 村有林 ?<br/>asked Mitsue Kanko 2026-08-05,<br/>still unanswered"]
+
+    forest["Mitsue forest ~7,051 ha<br/>sugi/hinoki, postwar plantation"]
+
+    own1 --> forest
+    own2 -.-> forest
+    own3 -.-> forest
+
+    coopcrew["森林組合 field crew<br/>2 people, avg age ~33"]
+    yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned"]
+    otherindep["Other independent harvesters ?<br/>how many active in Mitsue -<br/>asked 2026-09-29, reply pending"]
+    corps["地域おこし協力隊 自伐型林業 trainees<br/>max 3-yr term - 0 hires<br/>last 2 years"]
+    loan["Village machinery loan<br/>backhoe + dump truck,<br/>post-term, max 5 yr, 1,000 yen/day"]
+
+    forest --> coopcrew
+    forest --> yamaguchi
+    forest -.-> otherindep
+    forest -.-> corps
+    corps -.-> loan
+    loan -.-> yamaguchi
+
+    leftover["Left in the forest<br/>~66 ha/yr thinned but only<br/>~120-300 m3/yr recovered"]
+    coopcrew -->|thinning| leftover
+
+    mill["牛峠工場<br/>coop chip/dry processing centre"]
+    coopcrew -->|"~120-300 m3/yr"| mill
+    yamaguchi -.->|"destination unknown - reply pending"| mill
+    otherindep -.-> mill
+
+    niwa["丹羽製材 Niwa mill<br/>existing pulp-chip buyer -<br/>wrong spec for CHP fuel"]
+    yamaguchi -.-> niwa
+    coopcrew -.-> niwa
+
+    mill --> gA["A材 sawlog ~22%"]
+    mill --> gB["B材 plywood-grade ~54%<br/>contested"]
+    mill --> gCD["C/D材 chip/fuel ~24%"]
+
+    sawmkt["Sawlog market<br/>buyer unknown"]
+    plymkt["Plywood/pulp buyer<br/>unknown"]
+    onsen["姫石の湯 onsen<br/>already receives wood from the coop<br/>(grade and volume unverified)"]
+    othersup["Other wood suppliers to the onsen ?<br/>one local view: coop cannot supply<br/>enough (not verified)"]
+    chp["Future CHP fuel<br/>plant not yet built"]
+    dc["AI data center, co-located<br/>pulls CHP electricity 24/7<br/>behind-the-meter, ~18 kW pilot<br/>= only ~2% of CHP output"]
+    grid["Grid export via FIP<br/>Kansai T&D, market price + premium<br/>grid pre-consultation needed"]
+    dry["CHP heat dries chips<br/>at 牛峠工場, feeds fuel loop"]
+    compute["Compute revenue<br/>funds crew and equipment"]
+
+    gA -.-> sawmkt
+    gB -.-> plymkt
+    gB -.-> chp
+    gCD -.-> chp
+    gA -.->|"wood, grade per Rob observation"| onsen
+    gB -.->|"wood, grade per Rob observation"| onsen
+    othersup -.-> onsen
+    chp -.->|heat| dry
+    chp -.->|"electricity, first call"| dc
+    chp -.->|"electricity, remainder"| grid
+    dc -.-> compute
+
+    classDef known fill:#2f6f4f,stroke:#1a4530,stroke-width:1.4px,color:#ffffff
+    classDef unknown fill:#4a4a4a,stroke:#999999,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
+    classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
+
+    class own1,forest,coopcrew,yamaguchi,leftover,mill,gA,gB,gCD known
+    class own2,own3,otherindep,corps,loan,sawmkt,plymkt,niwa,onsen,othersup unknown
+    class chp,dc,grid,dry,compute future
+</pre></div>
+  <div class="qbox"><h2>Open questions</h2><ol><li><b>Village-owned forest (村有林)?</b> Asked 2026-08-05, no answer.</li><li><b>Common-use land (財産区・入会)?</b> No Mitsue record; only Tenkawa confirmed.</li><li><b>Where does the independent harvester's wood go?</b> Asked 2026-09-29, reply pending.</li><li><b>How many other independent harvesters?</b> Asked the village 2026-09-30.</li><li><b>Who is the 施業放置林マネージャー</b> and is there an owners' list or group?</li><li><b>Onsen wood:</b> which grades and volumes, and from whom besides the coop?</li><li><b>The "6-year" contract term</b> has no source. Only the 3-year 協力隊 term and 5-year machinery loan are documented.</li><li><b>B-grade destination</b> (plywood buyer or CHP fuel) sets real CHP fuel volume.</li></ol></div></div>
+  <div class="foot">Grade split (A 22% / B 54% / C-D 24%) is from a larch study, not Mitsue. Not shown: felling notices (伐採届), 森林経営計画, subsidies and the forest environment tax. Onsen heat cannot be piped from 牛峠工場. Internal working draft.</div>
+</div>
+<script>
+  mermaid.initialize({ startOnLoad:false, theme:'default', themeVariables:{ fontFamily:"'Noto Sans CJK JP','Hiragino Sans',Arial,sans-serif" }, flowchart:{ curve:'basis', nodeSpacing:25, rankSpacing:35 } });
+  mermaid.init(undefined, document.querySelectorAll('pre.mermaid'));
+  (function () {
+    var c=document.querySelector('.diagram'), svg=c.querySelector('svg'); if(!svg) return;
+    var vb=(svg.getAttribute('viewBox')||'').split(/\s+/).map(Number); if(vb.length<4) return;
+    var s=Math.min(c.clientWidth/vb[2], c.clientHeight/vb[3]);
+    svg.style.width=(vb[2]*s)+'px'; svg.style.height=(vb[3]*s)+'px'; svg.style.maxWidth='none'; svg.style.display='block'; svg.style.margin='0 auto';
+  })();
+</script>
+</body>
+</html>
