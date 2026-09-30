@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-09-30 -->
+<!-- Version: v1.7 | Last modified: 2026-09-30 -->
 
 # Mitsue Forest Supply Chain — What We Currently Have
 
@@ -21,8 +21,8 @@ flowchart TD
     own3 -.-> forest
 
     coopcrew["森林組合 field crew<br/>2 people, avg age ~33"]
-    yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned"]
-    otherindep["Other independent harvesters ?<br/>how many active in Mitsue -<br/>asked 2026-09-29, reply pending"]
+    yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned;<br/>outside the coop, sells to Misugi<br/>market; not a fuel supplier"]
+    otherindep["Other independent harvesters<br/>10+ (his estimate, unverified);<br/>good logs to Sakurai timber coop?"]
     corps["地域おこし協力隊 自伐型林業 trainees<br/>max 3-yr term - 0 hires<br/>last 2 years"]
     loan["Village machinery loan<br/>backhoe + dump truck,<br/>post-term, max 5 yr, 1,000 yen/day"]
 
@@ -38,8 +38,10 @@ flowchart TD
 
     mill["牛峠工場<br/>coop chip/dry processing centre"]
     coopcrew -->|"~120-300 m3/yr"| mill
-    yamaguchi -.->|"destination unknown - reply pending"| mill
     otherindep -.-> mill
+    yamaguchi -.-> mill
+    otherindep -.-> mill
+    yamaguchi -.-> mill
 
     niwa["丹羽製材 Niwa mill<br/>existing pulp-chip buyer -<br/>wrong spec for CHP fuel"]
     yamaguchi -.-> niwa
@@ -87,16 +89,21 @@ flowchart TD
 2. **財産区/入会 (common-use land)** — no evidence any exists in Mitsue; only
    confirmed example is Tenkawa's 洞川財産区. Don't assume Mitsue has an
    equivalent.
-3. **Where does the independent harvester's felled timber actually go?** — sawmill, chip buyer,
-   market — asked 2026-09-29, reply pending.
-4. **How many *other* independent harvesters work the Mitsue area?** — one independent harvester is confirmed
-   active; whether anyone else is too is unconfirmed —
-   same email, pending.
+3. **Where does the independent harvester's felled timber actually go?** — answered 2026-09-30:
+   his own wood goes to Misugi market (西垣林業); others reportedly send good logs to
+   桜井木材共同組合 members. Coop/other operators' flows still unverified.
+4. **How many *other* independent harvesters work the Mitsue area?** — one is confirmed
+   active; he estimates 10+ operators exist (unverified, may not all be active).
+   Village hall inquiry (2026-09-30) pending.
 5. **The "3-year / 6-year" contract structure** — only sourced term found is
    地域おこし協力隊's national 3-year cap, plus the village machinery-loan
    ordinance's separate 5-year post-term loan window. No "6-year" figure exists
    in any doc or memory — if you have a source for that number, it needs adding.
-6. **B-grade destination** (plywood buyer vs. CHP-by-default) — open per
+6. **Does the coop actually thin members' forest, or do owners deal with harvesters directly?** —
+   the confirmed harvester bypassed the coop (owner deal + joint 伐採届). Ask 2026-10-02.
+7. **Reforestation in Mitsue** — 神末 clear-cut replanted with cherry; 土屋原 large clear-cut
+   reportedly to be replanted (species unknown). Who funded/did it? Ask 2026-10-02.
+8. **B-grade destination** (plywood buyer vs. CHP-by-default) — open per
    `mitsue_forest_workforce_energy_plan.md` §4a, affects real CHP fuel volume.
 
 ## Not shown here (separate, sourced elsewhere)
