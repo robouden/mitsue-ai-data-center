@@ -7,7 +7,7 @@
 
 **Status: everything below is a draft, and we are still finding a good way through this
 together — nothing here is decided, priced, or offered.** This is not a term sheet from us to
-the co-op. It exists only to put some market numbers on the table so 御杖村森林組合 — and
+the co-op. It exists only to put some market numbers on the table so 地域林業パートナー — and
 Kinjo-san specifically — have something concrete to react to, question, or throw out entirely,
 ahead of the open item already flagged in `mitsue_kanko_collaboration_diagrams.html`
 §"Discussion points." Every figure is illustrative, unconfirmed, and ours to revise once the

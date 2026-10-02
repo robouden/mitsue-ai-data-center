@@ -68,7 +68,7 @@ Make Sugano Organic completely powered and heated by nature — using the Sugi t
 
 **Key insight:** His overgrown Sugi forest needs thinning anyway. The initial clearance alone fuels the first 9 years. Long-term, a small top-up from Mitsue community forest covers the gap — strengthening the community angle.
 
-Mitsue Village Forest Association could help arrange the wood cutting and processing.
+Local Forestry Partner could help arrange the wood cutting and processing.
 
 ### + CHP Heat Recovery (recommended add-on)
 | Item | Value |
@@ -103,7 +103,7 @@ Mitsue Village Forest Association could help arrange the wood cutting and proces
 >
 > I have an idea that could make Sugano Organic completely powered and heated by nature — using the Sugi trees on your own mountain. Nothing from distant power plants, nothing artificial.
 >
-> I would love to see your place become the first living proof of this in Mitsue — a prototype that others can follow. Mitsue Village Forest Association could help with the wood cutting and processing, and the NGO I am setting up could arrange the logistics and funding.
+> I would love to see your place become the first living proof of this in Mitsue — a prototype that others can follow. Local Forestry Partner could help with the wood cutting and processing, and the NGO I am setting up could arrange the logistics and funding.
 >
 > I would love to share the details with you soon.
 >

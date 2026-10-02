@@ -2,7 +2,7 @@
 
 # Dome-sensei — request to introduce the project to the Nara Forester Academy
 
-**Ask:** Dome-sensei (project advisor, economics) to introduce / endorse the project to the 奈良県フォレスターアカデミー (Yoshino) so we can present to students as a future employer for 御杖村森林組合.
+**Ask:** Dome-sensei (project advisor, economics) to introduce / endorse the project to the 奈良県フォレスターアカデミー (Yoshino) so we can present to students as a future employer for 地域林業パートナー.
 
 ---
 
@@ -14,7 +14,7 @@ Dear Dome-sensei,
 
 Thank you again for your support of the Mitsue project. I have a small favour to ask that draws on exactly the regional-revitalization theme you know well.
 
-Our biggest constraint in Mitsue is not land or funding — it is **people**. The Mitsue Village Forest Cooperative (御杖村森林組合) is a four-person crew, and the whole plan — reforesting neglected sugi with native broadleaf, and powering local AI compute from biomass — depends on roughly doubling that workforce over the coming years. Mayor Ito (伊藤収宜) has himself said on record — in the December 2020 village council session, and again in June 2026 — that the forestry-worker shortage, not land, is the real bottleneck.
+Our biggest constraint in Mitsue is not land or funding — it is **people**. The Local Forestry Partner (地域林業パートナー) is a four-person crew, and the whole plan — reforesting neglected sugi with native broadleaf, and powering local AI compute from biomass — depends on roughly doubling that workforce over the coming years. Mayor Ito (伊藤収宜) has himself said on record — in the December 2020 village council session, and again in June 2026 — that the forestry-worker shortage, not land, is the real bottleneck.
 
 The natural source of committed young foresters in Nara is the **Nara Forester Academy** in Yoshino (~20 students across its two courses). I would like to present our project to their students — not as a data-center pitch, but as a rare kind of forestry job: one where felling directly feeds a biomass-and-compute cycle and rebuilds living forest for the next century.
 
@@ -35,7 +35,7 @@ Rob
 
 いつも御杖プロジェクトへのお力添えをいただき、ありがとうございます。先生がよくご存じの「地域再生」のテーマに関わる、小さなお願いがございます。
 
-御杖での最大の制約は、土地でも資金でもなく **「人」** です。御杖村森林組合は現在4名の小さなチームで、放置された杉林を在来の広葉樹へと再生し、間伐材のバイオマスで地域のAI計算基盤を動かす——この計画全体が、今後数年でこの人員をおよそ倍にできるかどうかにかかっています。伊藤収宜村長ご自身も、令和2年12月の村議会（および令和8年6月にも改めて）で、林業の担い手不足こそが（土地ではなく）真のボトルネックであると述べておられます。
+御杖での最大の制約は、土地でも資金でもなく **「人」** です。地域林業パートナーは現在4名の小さなチームで、放置された杉林を在来の広葉樹へと再生し、間伐材のバイオマスで地域のAI計算基盤を動かす——この計画全体が、今後数年でこの人員をおよそ倍にできるかどうかにかかっています。伊藤収宜村長ご自身も、令和2年12月の村議会（および令和8年6月にも改めて）で、林業の担い手不足こそが（土地ではなく）真のボトルネックであると述べておられます。
 
 奈良県で意欲ある若い林業人材が育つ場が、吉野の **奈良県フォレスターアカデミー**（2学科あわせて定員約20名）です。私たちはぜひ、この学生の皆さんにプロジェクトをご紹介したいと考えています。データセンターの売り込みとしてではなく、「伐採がそのままバイオマスと計算のサイクルを支え、次の百年に向けて生きた森を再生する」という、他にはない林業の仕事として、です。
 

@@ -9,7 +9,7 @@
 
 ## Why these species
 
-Selection favors trees that (a) are native to Mitsue's satoyama and ridge habitats, (b) provide seed/mast forage that keeps deer, boar, and bear in the forest rather than farmland, and (c) include at least one species — Kihada — with an existing local/regional market (medicinal bark, furniture) so the forest has an economic path alongside its ecological one. Final species mix and site allocation is expected to be a joint decision with more trees and the local forest cooperative (御杖村森林組合).
+Selection favors trees that (a) are native to Mitsue's satoyama and ridge habitats, (b) provide seed/mast forage that keeps deer, boar, and bear in the forest rather than farmland, and (c) include at least one species — Kihada — with an existing local/regional market (medicinal bark, furniture) so the forest has an economic path alongside its ecological one. Final species mix and site allocation is expected to be a joint decision with more trees and the local forest cooperative (地域林業パートナー).
 
 ## Species list
 

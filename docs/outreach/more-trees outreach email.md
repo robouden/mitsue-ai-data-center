@@ -11,7 +11,7 @@
 
 Dear more trees team,
 
-I'm writing from the Mitsue Village Project (御杖村, Nara Prefecture), where we are building a community-led plan to restore over-planted sugi/hinoki forest to diverse native broadleaf woodland, and to sustain the local forestry cooperative (御杖村森林組合) as the sole operator that plants and tends it.
+I'm writing from the Mitsue Village Project (御杖村, Nara Prefecture), where we are building a community-led plan to restore over-planted sugi/hinoki forest to diverse native broadleaf woodland, and to sustain the local forestry cooperative (地域林業パートナー) as the sole operator that plants and tends it.
 
 We deeply admire more trees' region-based stewardship model and your work against monoculture. Two areas where we hope to learn from you:
 
@@ -31,7 +31,7 @@ Rob Oudendijk — Mitsue Village Project
 
 more trees ご担当者様
 
-奈良県御杖村で進めている「御杖村プロジェクト」より連絡いたします。私たちは、過密なスギ・ヒノキ人工林を多様な在来広葉樹林へ再生し、その植栽・管理を担う御杖村森林組合を持続的に支える、地域主導の計画に取り組んでいます。
+奈良県御杖村で進めている「御杖村プロジェクト」より連絡いたします。私たちは、過密なスギ・ヒノキ人工林を多様な在来広葉樹林へ再生し、その植栽・管理を担う地域林業パートナーを持続的に支える、地域主導の計画に取り組んでいます。
 
 地域ごとの実情に寄り添う more trees の森づくりと、単一林への問題意識に深く共感しております。ぜひ以下の点でご教示いただければ幸いです。
 

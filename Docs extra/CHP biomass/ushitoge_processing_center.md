@@ -1,6 +1,6 @@
 <!-- Version: v1.2 | Last modified: 2026-09-07 -->
 
-# 御杖村森林組合 牛峠工場 — Reference Sheet
+# 地域林業パートナー 牛峠工場 — Reference Sheet
 **Ushitoge Thinning-Timber Processing Center**
 
 Reference notes on the cooperative's sawmill/processing facility and its relevance to the biomass-CHP plan. Verified contact details vs. unconfirmed assumptions are kept separate on purpose.
@@ -9,7 +9,7 @@ Reference notes on the cooperative's sawmill/processing facility and its relevan
 
 ## Two sites, one cooperative
 
-The 御杖村森林組合 (Mitsue Village Forestry Cooperative, "Mitsue Village Forest Association") operates from **two separate locations** in the village:
+The 地域林業パートナー (Mitsue Village Forestry Cooperative, "Local Forestry Partner") operates from **two separate locations** in the village:
 
 | | **Head office (本所)** | **Processing facility (牛峠工場)** |
 |---|---|---|
@@ -25,7 +25,7 @@ The two sites are ~3–4 km apart (straight line); ~5–7 km by valley road. The
 
 ### Watch-outs
 - **0745-95-2001 / 菅野368** is the **village hall 総務課** (municipal government), *not* the cooperative. Don't conflate.
-- **mitsuemori.org is dead / hijacked** — it now resolves to an unrelated page. There is no usable official coop website; use the 御杖村観光協会 (mitsue-kanko.jp) listing instead.
+- **[withheld] is dead / hijacked** — it now resolves to an unrelated page. There is no usable official coop website; use the 御杖村観光協会 (mitsue-kanko.jp) listing instead.
 
 ---
 
@@ -80,6 +80,6 @@ High-quality logs to lumber, low-grade residues to energy — standard "cascadin
 ---
 
 ## Sources
-- Mapion phonebook — 御杖村森林組合: https://www.mapion.co.jp/phonebook/M16006/29386/22930070324/
+- Mapion phonebook — 地域林業パートナー: https://www.mapion.co.jp/phonebook/M16006/29386/22930070324/
 - 御杖村観光協会 (Mitsue Kanko) listing: https://www.mitsue-kanko.jp/sightseeing/%E5%BE%A1%E6%9D%96%E6%9D%91%E6%A3%AE%E6%9E%97%E7%B5%84%E5%90%88/
 - Mishima/NIES anchor: `degraded_forests_paper_summary_and_application.md`

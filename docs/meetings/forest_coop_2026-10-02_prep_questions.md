@@ -1,8 +1,8 @@
 <!-- File: forest_coop_2026-10-02_prep_questions.md | Version: v1.7 | Last modified: 2026-09-30 -->
 
-# 質問リスト — 御杖村森林組合（2026-10-02）
+# 質問リスト — 地域林業パートナー（2026-10-02）
 
-目的：御杖村森林組合が、森林所有者・林業者・買い手の間でどのような位置にあるかを教えていただくこと。今回はお話を伺うことが目的です。
+目的：地域林業パートナーが、森林所有者・林業者・買い手の間でどのような位置にあるかを教えていただくこと。今回はお話を伺うことが目的です。
 
 ## A. 組合の体制について
 1. 組合員は何名ほどで、約7,051haのうちどれくらいをカバーしていますか。
@@ -29,7 +29,7 @@
 
 <div style="page-break-before:always"></div>
 
-# Questions — 御杖村森林組合 (Mitsue Village Forest Cooperative), 2026-10-02
+# Questions — 地域林業パートナー, 2026-10-02
 
 Goal: learn how the cooperative is organized and where it sits between forest owners, harvesters and buyers. This is a listening meeting.
 

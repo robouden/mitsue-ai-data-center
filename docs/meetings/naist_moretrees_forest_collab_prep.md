@@ -3,7 +3,7 @@
 # NAIST × more trees × Mitsue Forest — Collaboration Prep Note (28th mtg)
 
 **Goal of this meeting:** gauge whether NAIST (Kubo / CDG) is interested in a
-three-way collaboration with the **Mitsue forest team** (御杖村森林組合 / Mitsue Village Forest Association)
+three-way collaboration with the **Mitsue forest team** (地域林業パートナー / Local Forestry Partner)
 and **more trees**, and agree a first small step if so.
 
 ## Follow-up channel (separate NAIST event)

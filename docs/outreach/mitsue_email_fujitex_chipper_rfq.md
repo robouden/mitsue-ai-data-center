@@ -23,7 +23,7 @@ EN is Rob's reference. Neither has been sent — fill in phone before sending.
 突然のご連絡失礼いたします。奈良県御杖村で、地域の杉間伐材・建築用材に適さない
 低質材（枝・樹皮・端材等）を活用した小規模木質バイオマス熱電併給（CHP）事業の
 準備を進めております、YR-Design の Rob Oudendijk（ラウンダイク）と申します。
-御杖村森林組合と連携し、村の森林（約7,051 ha）の持続的な整備を検討しています。
+地域林業パートナーと連携し、村の森林（約7,051 ha）の持続的な整備を検討しています。
 
 まず**10〜20 kWe級の実証機（プロトタイプCHP）**を菅野地区（Sugano Organic 様の
 敷地内）に設置予定で、年間150〜300トン程度の低質材をチップ化する見込みです。
@@ -47,7 +47,7 @@ Dear Fujitex team,
 
 I am Rob Oudendijk (YR-Design), preparing a small woody-biomass CHP project in Mitsue
 Village, Nara, using sugi thinnings and non-construction-grade low-quality wood
-(branches, bark, offcuts), in partnership with the Mitsue Forest Cooperative (~7,051 ha).
+(branches, bark, offcuts), in partnership with the Local Forestry Partner (~7,051 ha).
 
 We plan to install a **10–20 kWe prototype CHP** at the Sugano Organic site, processing
 an estimated **150–300 t/yr** of low-quality wood into fuel chips. Could you provide a

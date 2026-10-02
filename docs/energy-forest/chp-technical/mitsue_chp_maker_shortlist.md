@@ -87,7 +87,7 @@ as a placeholder.
 ---
 
 ## Prototype siting (updated 2026-09-27 — supersedes 2026-07-17 decision)
-Site the prototype **directly at the MitsueMori (御杖村森林組合) worksite on the hill (牛峠工場,
+Site the prototype **directly at the Local Forestry Partner worksite on the hill (牛峠工場,
 神末797)** — both the chip drying step and the CHP unit itself, not the earlier plan of siting the
 CHP at Sugano Organic with chips trucked down from the hill. Rationale: eliminates the ~2km chip
 haul entirely (fuel never leaves the forestry site), and lets the CHP's own waste heat feed the
@@ -103,12 +103,12 @@ straight from harvest (not pre-dried at a mill), the choice is between (a) a sta
 loop ahead of a low-moisture-spec unit (Volter ≤15%, Entrenco ≤12%), or (b) a wet-tolerant
 packaged unit (ESPE ≤45%, Esperia ≤40%) that folds drying into the CHP package itself — this
 now needs to be decided as part of unit selection, not assumed away. Fuel-supply-rate question
-(harvest tonnage available at MitsueMori) remains open per [[project_sugano_fuel_partner]]'s
+(harvest tonnage available at Local Forestry Partner) remains open per [[project_sugano_fuel_partner]]'s
 2026-09-03 update — Sugano/Niwa fuel-chipper route is a separate question, not this pilot's
 fuel source.
 
 (A public prototype demo can still run separately at the Koryukan / an unused factory if wanted
-for visibility, but the working pilot itself sits at MitsueMori.)
+for visibility, but the working pilot itself sits at Local Forestry Partner.)
 
 ---
 

@@ -11,7 +11,7 @@
 - **Energy** — Biomass CHP from sugi thinnings gives dispatchable 24/7 electricity + heat (primary); solar + battery are a secondary hedge.
 - **Compute** — A small, efficient AI data center powered by that local energy. Compute is the CHP's best customer — worth far more per kWh than grid export — which is what makes the energy investment viable.
 
-The three pillars reinforce each other; none works as well alone. The work is carried out by the village forestry cooperative (御杖村森林組合), which the project aims to roughly double over time.
+The three pillars reinforce each other; none works as well alone. The work is carried out by the village forestry cooperative (地域林業パートナー), which the project aims to roughly double over time.
 
 ## Why this is interesting to CDG
 - **A living lab** — a real off-campus site to study green-powered compute and heat reuse, alongside NAIST's satoyama and regional-SDGs work. Open environmental, energy, and forestry data (an ethos inherited from Safecast, 250M+ open measurements since 2011).

@@ -60,8 +60,7 @@ Source file: `docs/outreach/note_kinjo_ask_yamaguchi.docx`
 
 ## 2. Prototype CHP + AI DC site (Kinjo + Henry Takata meeting prep)
 
-Structured prep questions for a **future meeting with Kinjo Rie (近処里英, Mitsue Village Forest
-Cooperative) and Henry Takata** (biomass-CHP biz-dev advisor), written 2026-09-06. Kinjo mentioned
+Structured prep questions for a **future meeting with Kinjo Rie (近処里英, Local Forestry Partner) and Henry Takata** (biomass-CHP biz-dev advisor), written 2026-09-06. Kinjo mentioned
 in a recent meeting that there could be a possible site for a **prototype <50kWe CHP + AI data
 center** — not yet a firm offer. Goal of the meeting: turn the informal mention into a concrete
 go/no-go read on feasibility, not a commitment meeting.

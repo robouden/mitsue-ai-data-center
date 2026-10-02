@@ -41,7 +41,7 @@
 This is **not a first introduction** of either Rob or the project. You are building on:
 
 - An earlier informal meeting with the **Vice Mayor (副村長)**, in which you presented a draft concept of the small-scale AI data center using the former Sugano Elementary School (now Mitsue Taiken Koryukan). Biomass, biogas, and forestry components were **not** mentioned at that first meeting.
-- Earlier informal meetings with the **local forestry group (御杖村森林組合)**, exploring how they work and whether collaboration is possible — a relationship that has since continued.
+- Earlier informal meetings with the **local forestry group (地域林業パートナー)**, exploring how they work and whether collaboration is possible — a relationship that has since continued.
 
 ### Current knowledge state (as of July 2026) — read carefully before the meeting
 
@@ -255,9 +255,9 @@ This lets **the mayor** name the local players, rather than you appearing to hav
 
 4. **Only then, condition the site on the exception.** If such an exception is possible, say you would like to consider the Koryukan as a candidate site for the small data center — framed as conditional, not assumed.
 
-5. **Signal you are not fixated on the Koryukan.** You are also exploring **other sites — unused factory buildings near the biomass production area** — and profits from those would be **shared with the forestry team (御杖村森林組合)**. This shows flexibility and that the village's building is one option, not a demand.
+5. **Signal you are not fixated on the Koryukan.** You are also exploring **other sites — unused factory buildings near the biomass production area** — and profits from those would be **shared with the forestry team (地域林業パートナー)**. This shows flexibility and that the village's building is one option, not a demand.
 
-   > "なお、私どもは体験交流館だけにこだわっているわけではございません。バイオマスの生産地に近い、使われていない工場なども候補として検討しており、そこで得られる収益は御杖村森林組合さんと分け合う形を考えております。"
+   > "なお、私どもは体験交流館だけにこだわっているわけではございません。バイオマスの生産地に近い、使われていない工場なども候補として検討しており、そこで得られる収益は地域林業パートナーさんと分け合う形を考えております。"
 
 ---
 
@@ -271,8 +271,8 @@ Because of the prior groundwork, your ask can be slightly more concrete than in 
 2. **Guidance on whom to consult next** — which 自治会 leaders, council members, prefectural contacts
 3. **An indication** of whether the village would be open to formal collaboration in due course (NOT a commitment, just openness)
 4. **Whether he prefers** further communication to go through the vice mayor or directly to him
-5. **Whether he'd support a distinct, additional funding stream for 御杖村森林組合 (Mitsue Village Forest Association)** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with species selection and site priority guided by our expert reforestation partners
-6. **Whether the village would back — or co-present in — forestry recruitment outreach** as a direct answer to the worker-shortage he named (see record below). Concretely: presenting the project as a *reason to enter forestry here* to three channels — ①奈良県フォレスターアカデミー（吉野）, ②奈良県林業機械化推進センターの林業就業支援講習, ③森林の仕事ガイダンス／ならウッドジョブ — with 近処里英さん（御杖村森林組合）と我々が共同で説明（雇用主＋構想）. The co-op is a member of the 奈良県森林組合連合会, so ②③ are a natural insider route. Ties to his own 協力隊「応募ほぼゼロが2年連続」remark — a concrete fix, not just a complaint
+5. **Whether he'd support a distinct, additional funding stream for 地域林業パートナー** — new machinery and expanded workforce — so the co-op can carry out native-broadleaf **reforestation** specifically, separate from the thinning work already funded through 施業放置林整備事業, with species selection and site priority guided by our expert reforestation partners
+6. **Whether the village would back — or co-present in — forestry recruitment outreach** as a direct answer to the worker-shortage he named (see record below). Concretely: presenting the project as a *reason to enter forestry here* to three channels — ①奈良県フォレスターアカデミー（吉野）, ②奈良県林業機械化推進センターの林業就業支援講習, ③森林の仕事ガイダンス／ならウッドジョブ — with 近処里英さん（地域林業パートナー）と我々が共同で説明（雇用主＋構想）. The co-op is a member of the 奈良県森林組合連合会, so ②③ are a natural insider route. Ties to his own 協力隊「応募ほぼゼロが2年連続」remark — a concrete fix, not just a complaint
 
 ### Citing the Village's Own Record (use if he's receptive)
 
@@ -283,7 +283,7 @@ The council's own minutes (Dec 2020) already state the constraint this project a
 
 And: everything the village currently funds (森林環境整備基金, 施業放置林整備事業) pays for **thinning** of existing plantations — none of it funds **new planting**. Frame the ask as a second, distinct funding stream for a gap the village has no current mechanism for, delivered by the same co-op the village already trusts and contracts — not a competing or replacement program:
 
-> "村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている御杖村森林組合に担っていただき、樹種選定と優先箇所については、専門の再造林パートナーの知見を踏まえて進める形を考えております。"
+> "村の森林環境整備基金や施業放置林整備事業は、既存の杉・檜林の間伐を支えるものと理解しております。私どもがご提案したいのは、それとは別の、新たな在来広葉樹の**植林**のための資金の流れでございまして、既存の事業を置き換えるものではございません。実施は村がすでに信頼し契約されている地域林業パートナーに担っていただき、樹種選定と優先箇所については、専門の再造林パートナーの知見を踏まえて進める形を考えております。"
 
 ### Suggested Phrasing
 

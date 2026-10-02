@@ -299,7 +299,7 @@ Key files:
 | `mitsue_cashflow_model.md` / `.pdf`              | Cashflow model (EN)                                                                 |
 | `mitsue_forest_workforce_energy_plan.md`         | Workforce-led 25-year forest→energy plan                                            |
 | `mitsue_chp_maker_shortlist.md` / `.pdf`         | Domestic biomass-CHP manufacturer shortlist                                         |
-| `mitsue_fit_grid_check.md` / `.pdf`              | FIT/FIP & grid-connection check, Mitsue Village Forest Association site                                  |
+| `mitsue_fit_grid_check.md` / `.pdf`              | FIT/FIP & grid-connection check, Local Forestry Partner site                                  |
 | `mitsue_forest_power_compute_loop.html` / `.pdf` | Forest → CHP → compute material & money flow diagram                                |
 
 **Government & community engagement**

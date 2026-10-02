@@ -23,7 +23,7 @@ JWBA事務局 ご担当者様
 
 突然のご連絡失礼いたします。奈良県御杖村で、地域の杉間伐材を活用した
 小規模木質バイオマス熱電併給（CHP）事業の準備を進めております、YR-Design の
-Rob Oudendijk（ラウンダイク）と申します。御杖村森林組合と連携し、村の森林
+Rob Oudendijk（ラウンダイク）と申します。地域林業パートナーと連携し、村の森林
 （約7,051 ha）の持続的な整備と、そこから得られる木質燃料による発電・熱利用を
 検討しています。
 
@@ -71,7 +71,7 @@ of your list of small-scale woody-biomass units sold in Japan. Thank you.
 Spanner Re² ご担当者様
 
 奈良県御杖村で小規模木質バイオマスCHP事業を準備しております、YR-Design の
-Rob Oudendijk と申します。御杖村森林組合と連携し、地域の杉間伐材を燃料とした
+Rob Oudendijk と申します。地域林業パートナーと連携し、地域の杉間伐材を燃料とした
 **0.6 MWe級（2基、合計約1.1〜1.2 MWe）のガス化発電**を検討しています。
 貴社が日本国内で複数のカスケード設置の実績をお持ちと伺い、ご連絡いたしました。
 
@@ -93,7 +93,7 @@ YR-Design / Safecast ／ 御杖村 森林エネルギー事業
 Dear Spanner Re² team,
 
 I am preparing a small woody-biomass CHP project in Mitsue Village, Nara, with the
-Mitsue Forest Cooperative, using sugi thinnings — planning a **~0.6 MWe-class
+Local Forestry Partner, using sugi thinnings — planning a **~0.6 MWe-class
 gasifier (2 units, ~1.1–1.2 MWe, ~13,000 dry-t/yr fuel)**. Given your cascade
 installations in Japan, could you advise: (1) an **operating Spanner site within a day
 trip of Nara that we could visit**; (2) an outline module configuration + fuel spec
@@ -161,7 +161,7 @@ and their hook:
 
 突然のご連絡失礼いたします。奈良県御杖村で、地域の杉間伐材を活用した小規模木質
 バイオマス熱電併給（CHP）事業を準備しております、YR-Design の Rob Oudendijk
-（ラウンダイク）と申します。御杖村森林組合と連携し、村の森林（約7,051 ha）の
+（ラウンダイク）と申します。地域林業パートナーと連携し、村の森林（約7,051 ha）の
 持続的な整備と、そこから得られる木質燃料による発電・熱利用を検討しています。
 
 貴社の【ガス化発電設備／該当製品】に強い関心があり、ご連絡いたしました。弊事業では
@@ -187,7 +187,7 @@ YR-Design / Safecast ／ 御杖村 森林エネルギー事業
 Dear 【company】,
 
 I am Rob Oudendijk (YR-Design), preparing a small woody-biomass CHP project in Mitsue
-Village, Nara, using sugi thinnings, with the Mitsue Forest Cooperative (~7,051 ha).
+Village, Nara, using sugi thinnings, with the Local Forestry Partner (~7,051 ha).
 We are interested in your gasification-power product and are planning **~1.1–1.2 MWe
 total (two ~0.6 MWe lines, ~13,000 dry-t/yr fuel)**, co-located at the village
 processing centre (Ushitoge, 牛峠工場). Could you advise: (1) an **operating install we

@@ -1,4 +1,4 @@
-<p align="right">Version: v1.13 | Last modified: 2026-09-28</p>
+<p align="right">Version: v1.14 | Last modified: 2026-10-02</p>
 
 ---
 
@@ -20,7 +20,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 |---|---|---|---|
 | Takuo Dome (堂目卓生) | Specially Appointed Professor, Osaka Univ.; Rep. Director, 一般社団法人いのち会議 | t-dome@econ.osaka-u.ac.jp | 2026-08-06 — Forester Academy endorsement finalized & submitted |
 | Ray Ozzie | Creator of Lotus Notes; former Microsoft CSA | — | 2026-05-05 — Confirmed as advisor |
-| Henry Takata (高田誠一) | Rep. Director, SynTech Japan; Japan Board, U.S.-Japan Council | — | 2026-07-16 — Confirmed; biomass CHP + biz-dev advice |
+| Henry Takata (高田誠一) | Rep. Director, SynTech Japan; Japan Board, U.S.-Japan Council | takathe@yahoo.com | 2026-07-16 — Confirmed; biomass CHP + biz-dev advice |
 | Evin Zoet | Co-Representative Director, Transom | elvinzoet@transom.jp | 2026-06-16 — Confirmed as advisor |
 | Yoshiko Zoet-Suzuki | Co-Representative Director, Transom | yoshikozoetsuzuki@transom.jp | 2026-06-16 — Confirmed as advisor |
 | Yuko Koshiba | Philanthropy Advisor, PA-Inc | yuko.koshiba@philanthropy-advisors.jp | 2026-07-20 — 3 questions + 公益法人 support offer outstanding |
@@ -51,6 +51,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Nakajima Hideki (中島秀樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
 | Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
 | Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
+| Teramae Ihei (寺前伊平, reading unconfirmed) | 議長 (Chair), 御杖村議会 | — | 2026-10-02 — Signed letter notifying result of Rob's 2026-07-04 petition on old-school lease: no adopt/reject; asked village to make Ao Bara strictly comply with basic agreement + lease |
 | Suzuki Yasuhiro (鈴木泰弘) | 教育長 (Superintendent of Education), 御杖村教育委員会 (Board of Education) | kyoui@vill.mitsue.lg.jp | 2026-09-07 — Named by village hall in reply re: Board of Education structure |
 | Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-09-07 — Office confirmed as 4 staff (次長+次長補佐+一般職員2名) reporting to Suzuki |
 | Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-09-04 — A4 project overview sent; awaiting reply on presenting to students |
@@ -59,6 +60,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
+| Morita Koji (森田浩次) | 代表取締役, 青薔薇株式会社 (Ao Bara / BLUEROSE), 三重県伊賀市川合103-17 | — | 2026-09-24 — Lease signed: old Mitsue school + grounds, ~20yr to 2046-03-31, ¥429,592/yr (land; building ¥0); business start planned Mar 2027 (billiards tournaments) |
 | Mizutani Shinkichi (水谷伸吉) | 事務局長 (Secretary-General), more trees | — | 2026-07-14 — Key decision-maker; Miyazaki reports to him |
 | Kishi (岸) | Staff, more trees | kishi@more-trees.org | 2026-08-05 — Live thread, reply owed |
 | Miyazaki (宮﨑) | Staff, more trees | miyazaki@more-trees.org | 2026-08-05 — Live thread, reply owed |

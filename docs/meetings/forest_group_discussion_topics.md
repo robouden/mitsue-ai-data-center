@@ -14,7 +14,7 @@ This document lists the topics the forest working group needs to address, mapped
 The purpose of replanting is **ecosystem restoration — bringing wildlife back to the forest by restoring their food supply** (deer, bear, boar, birds). This is **explicitly NOT a short-term timber-profit operation.**
 
 - **Species must be native broadleaf chosen for wildlife forage** (mast: acorns/nuts/berries — コナラ, クヌギ, etc.). Do **not** default to replanting sugi monoculture.
-- **The NGO owns species selection;** 御杖村森林組合 (mitsue-kanko) operates the physical planting + the critical multi-year tending (下刈り weeding, years 1–5).
+- **The NGO owns species selection;** 地域林業パートナー (mitsue-kanko) operates the physical planting + the critical multi-year tending (下刈り weeding, years 1–5).
 - Restoring animal food *in* the forest also reduces crop-raiding pressure on village farms.
 
 This principle frames every other forestry decision below — state it early and clearly so the co-op understands we are not asking for a conventional replant-sugi-for-timber cycle.
@@ -25,7 +25,7 @@ This principle frames every other forestry decision below — state it early and
 
 | Organisation | Role | Contact status | Notes |
 |---|---|---|---|
-| **御杖村森林組合 (mitsue-kanko)** | Primary thinning & chip production partner | ✅ Initial contact done (2026-06-22) | Clarify role: partner, contractor, or hybrid |
+| **地域林業パートナー (mitsue-kanko)** | Primary thinning & chip production partner | ✅ Initial contact done (2026-06-22) | Clarify role: partner, contractor, or hybrid |
 | **More Trees / Carbontribe — Tenkawa** | Native reforestation model + J-Credit | ✅ Initial contact done (2026-07-14) | Contacts: Kishi Takuya (kishi@more-trees.org), Miyazaki Yu (miyazaki@more-trees.org); Ryuichi Sakamoto / Kengo Kuma NGO; may let us join their J-Credit registration |
 | **Niwamori.org — Nara** | Miyawaki reforestation expertise + food forest | ❌ Not yet contacted | Contact: Jérôme Floerke; uses Miyawaki method (native canopy in 20–30 yrs); active in Nara |
 | **奈良県森林環境課** | Prefectural grants + 林野庁 subsidy gateway | ❌ Not yet contacted | Administers national broadleaf promotion subsidies locally |
@@ -56,7 +56,7 @@ Sugano Organic (Tokuo Aomi) is proposed as the project's **first living prototyp
 - Equipment needed: feller, forwarder, chipper (own vs. rent vs. contract)
 - Chip sizing standard required by the CHP (P31S / P45, ~30–50 mm)
 - Annual volume target — how many ha/year to feed the recommended **2 × ~0.6 MWe plant (~1.1–1.2 MWe total)**? See `mitsue_forest_workforce_energy_plan.md` §4–5 for the full workforce-to-plant-size model.
-- Benchmark from Mishima Town study: 700–800 tonnes/year for a ≤50 kWe CHP; chip cost target ≤¥7,000/m³. This is our model's **calibration anchor**, not the target plant size — the actual scale is set by how much of the village forest the doubled/tripled Mitsue Village Forest Association crew can harvest.
+- Benchmark from Mishima Town study: 700–800 tonnes/year for a ≤50 kWe CHP; chip cost target ≤¥7,000/m³. This is our model's **calibration anchor**, not the target plant size — the actual scale is set by how much of the village forest the doubled/tripled Local Forestry Partner crew can harvest.
 - Transport route from forest to processing/storage site
 
 ### Drying & Storage
@@ -120,7 +120,7 @@ This is a multi-generational commitment, not a Phase 3 task. Planning must start
 - Confirm NGO as the contracting party before signing
 - Any village-owned forest land usable without private contracts?
 
-### Forestry Co-op Relationship (御杖村森林組合 / mitsue-kanko)
+### Forestry Co-op Relationship (地域林業パートナー / mitsue-kanko)
 **First — ask, don't tell. Understand what they do today before proposing anything:**
 - What forestry work do they currently do? (thinning, afforestation, processing, sales)
 - **Do they already have native broadleaf / Miyawaki-style reforestation expertise, or is their replanting experience sugi-only?**

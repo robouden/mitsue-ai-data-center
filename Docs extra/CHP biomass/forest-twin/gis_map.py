@@ -25,7 +25,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Sugano Organic, 御杖村菅野2696 (GSI-geocoded) — anchor for the demonstration area
 SUGANO_LAT, SUGANO_LON = 34.482601, 136.165924
-# 御杖村森林組合 間伐材加工センター 牛峠工場, 御杖村神末797 — existing chip/dry processing
+# 地域林業パートナー 間伐材加工センター 牛峠工場, 御杖村神末797 — existing chip/dry processing
 PROCESS_LAT, PROCESS_LON = 34.488995, 136.205978
 PROCESS_NAME = "森林組合 間伐材加工センター 牛峠工場"
 # Demo stands sit beside the village/Sugano (close to people), not in remote mountains

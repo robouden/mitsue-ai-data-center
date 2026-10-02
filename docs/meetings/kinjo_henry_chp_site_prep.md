@@ -4,7 +4,7 @@
 
 # Prep Note — Kinjo + Henry Meeting: Prototype CHP + AI DC Site
 
-**Attendees:** Kinjo Rie (近処里英, Mitsue Village Forest Cooperative), Henry Takata (advisor, biomass CHP biz-dev), Rob
+**Attendees:** Kinjo Rie (近処里英, Local Forestry Partner), Henry Takata (advisor, biomass CHP biz-dev), Rob
 **Trigger:** No commitment from the Cooperative yet. In the last meeting, Kinjo only mentioned there could be an option to change/repurpose land the Cooperative owns to free up additional space for other activities — not a proposed site, not an offer.
 **Goal of this meeting:** Turn the informal mention into a concrete go/no-go read on feasibility. Not a commitment meeting.
 
@@ -44,9 +44,9 @@
 - Don't present this as a secured site to any third party (village hall, funders) until land status and grid access are confirmed here.
 - Keep scope framed as "pilot/prototype," not full-scale deployment — avoids overstating readiness ([[feedback_outreach_overstatement_risk]]).
 
-## Mitsue Mori Team — Bottlenecks & How We Can Help (Oct 2 meeting)
+## Local Forestry Partner Team — Bottlenecks & How We Can Help (Oct 2 meeting)
 
-**Stance for this phase:** We are not proposing any change to how the village and Mitsue Mori (Forest Cooperative) work together. Early phase = listen and support, not restructure. Goal is to understand where their work currently gets stuck and how a CHP/DC prototype could relieve that — not to map or formalize their org, money flow, or contracts.
+**Stance for this phase:** We are not proposing any change to how the village and Local Forestry Partner (Forest Cooperative) work together. Early phase = listen and support, not restructure. Goal is to understand where their work currently gets stuck and how a CHP/DC prototype could relieve that — not to map or formalize their org, money flow, or contracts.
 
 **Frame the ask (say this or similar):**
 "Before we talk about a pilot site, we'd like to understand — from your side — where the work gets hard right now. What slows you down? Where could a small win help you prepare for something like a first CHP+DC prototype?"

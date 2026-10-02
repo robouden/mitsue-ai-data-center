@@ -1,11 +1,11 @@
 <!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
-# Mitsue Village Forest Association — Workforce & Relocation Strategy
+# Local Forestry Partner — Workforce & Relocation Strategy
 
 > **"Rewild a mountain, power an AI data center, and rebuild a village —
 > one job, one place, one 25-year story."**
 
-Doubling (and eventually tripling) the 御杖村森林組合 (Mitsue Village Forest Association) crew is the single
+Doubling (and eventually tripling) the 地域林業パートナー crew is the single
 lever that unlocks the whole forest→energy plan (see
 `mitsue_forest_workforce_energy_plan.md`). This document sets out how to attract the
 right people — **mission first, money as the enabler** — using Japan's existing
@@ -82,13 +82,13 @@ communities and media.
 **地域おこし協力隊 (~¥520万/yr × 3 yrs)** *or* **direct co-op hire + 緑の雇用 training
 subsidy** → **plus 移住支援金 ¥100万 + ¥100万/child** → **plus akiya housing + project
 top-up.** A genuinely competitive package — and after the 協力隊 term, a permanent
-Mitsue Village Forest Association job is waiting (the retention fix most villages lack).
+Local Forestry Partner job is waiting (the retention fix most villages lack).
 
 ---
 
 ## 4. What has to happen — setup actions (Phase 0–1)
 
-1. **Mitsue Village Forest Association registers as a 緑の雇用 実施事業体** and posts jobs on Nara's matching
+1. **Local Forestry Partner registers as a 緑の雇用 実施事業体** and posts jobs on Nara's matching
    site. *Unlocks both 緑の雇用 and 移住支援金 eligibility.* — Owner: co-op + project.
 2. **御杖村 creates 地域おこし協力隊 posts** framed around the forest→energy project
    (forestry + CHP/chip ops + tree-survey/eco-tourism). *A mayor/village decision — ties
@@ -123,4 +123,4 @@ Mitsue Village Forest Association job is waiting (the retention fix most village
 - 林野庁 新規就業者育成推進事業 — https://www.rinya.maff.go.jp/j/supply/hojyo/02koubo_1/02mhk0101.html
 - 地方創生「移住支援金」 — https://www.chisou.go.jp/sousei/ijyu_shienkin.html
 - 総務省「地域おこし協力隊」 — https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/02gyosei08_03000066.html
-- Related: `mitsue_forest_workforce_energy_plan.md`, `御杖村森林組合 Report`, forest working-group issue #13
+- Related: `mitsue_forest_workforce_energy_plan.md`, `地域林業パートナー Report`, forest working-group issue #13

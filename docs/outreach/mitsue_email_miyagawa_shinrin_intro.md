@@ -22,7 +22,7 @@
 
 ## How to approach Miyagawa Forest Cooperative
 
-Unlike more trees (a Tokyo-based NGO connecting urban supporters to forests) or HIGHRESO (a company), Miyagawa Forest Cooperative is a **working forestry cooperative** — the same kind of organization as 御杖村森林組合 (Mitsue Village Forest Association), just further along a very similar path:
+Unlike more trees (a Tokyo-based NGO connecting urban supporters to forests) or HIGHRESO (a company), Miyagawa Forest Cooperative is a **working forestry cooperative** — the same kind of organization as 地域林業パートナー, just further along a very similar path:
 
 - Since a November 2022 agreement with more trees, they've run **native mixed-species planting** (broadleaf alongside conifer, not monoculture cedar/cypress)
 - They established the **Odai-cho Seedling Production Council** with residents — producing ~130 native species from locally-sourced seed
@@ -71,7 +71,7 @@ If they engage, consider — *in this order*:
 
 one more treesさんとの提携で取り組まれている、大台町での広葉樹を含む多様な樹種による森林再生や、地域の皆様と設立された「大台町苗木生産協議会」の取り組みを知り、ぜひお話を伺いたくご連絡いたしました。
 
-私どもは御杖村森林組合様とともに、在来広葉樹による森林再生と林業再活性化を、25年スケールで進める計画を準備しております。貴組合の苗木生産協議会の仕組みや、J-VER・J-クレジット制度への登録のご経験について、少しお話を伺えればと考えております。
+私どもは地域林業パートナー様とともに、在来広葉樹による森林再生と林業再活性化を、25年スケールで進める計画を準備しております。貴組合の苗木生産協議会の仕組みや、J-VER・J-クレジット制度への登録のご経験について、少しお話を伺えればと考えております。
 
 お忙しいところ恐縮ですが、少しお時間をいただけますでしょうか。
 
@@ -89,10 +89,10 @@ one more treesさんとの提携で取り組まれている、大台町での広
 
 突然のご連絡失礼いたします。奈良県御杖村において、森林再生・林業再活性化プロジェクトを準備しております、Rob Oudendijk（ロブ・アウデンダイク）と申します。
 
-一般社団法人more treesとの提携により大台町で取り組まれている、広葉樹を含む多様な樹種による森林再生、および地域住民の皆様と設立された「大台町苗木生産協議会」の取り組みを知り、深く感銘を受けました。私どもが御杖村森林組合様と共に目指す、在来広葉樹による森林再生・林業再活性化（25年スケール）と、方向性を同じくする貴組合の実践から、ぜひ学ばせていただきたく存じます。
+一般社団法人more treesとの提携により大台町で取り組まれている、広葉樹を含む多様な樹種による森林再生、および地域住民の皆様と設立された「大台町苗木生産協議会」の取り組みを知り、深く感銘を受けました。私どもが地域林業パートナー様と共に目指す、在来広葉樹による森林再生・林業再活性化（25年スケール）と、方向性を同じくする貴組合の実践から、ぜひ学ばせていただきたく存じます。
 
 **御杖村プロジェクトの概要（簡略）:**
-- 奈良県御杖村における25年スケールの森林再生・林業再活性化プログラム（御杖村森林組合が実行主体）
+- 奈良県御杖村における25年スケールの森林再生・林業再活性化プログラム（地域林業パートナーが実行主体）
 - 在来広葉樹による再生を軸とし、短期的収益より生態系・野生動物の生息環境を優先
 - 間伐材を活用したバイオマスCHP（熱電併給）とFIT売電収入により、組合の増員・機材投資を支え、林業再活性化と森林再生を自己循環させる仕組み
 - 御杖村が環境省補助で策定した公式の再エネ導入最大化計画（2025年）の実行を担う位置づけ

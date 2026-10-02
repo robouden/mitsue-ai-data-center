@@ -1,6 +1,6 @@
 <!-- Version: v1.3 | Last modified: 2026-08-14 -->
 
-# Mitsue Village Forest Association (Forest Co-op) — Meeting 5 Aug 2026
+# Local Forestry Partner (Forest Co-op) — Meeting 5 Aug 2026
 ### Advance questions sent to the co-op, for their preparation
 
 *(English reference copy of `mitsue_kanko_meeting_prep_questions_jp.md`, the document actually sent.)*

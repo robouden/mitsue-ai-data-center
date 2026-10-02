@@ -47,6 +47,6 @@ Biomass-CHP revenue from harvested sugi thinnings pays for a larger, mechanized 
 
 ## Sources
 - Mitsue Forest Workforce & Energy Plan (project document, v1.7, 2026-07-17)
-- 御杖村森林組合 (Mitsue Village Forest Association) cooperative report
+- 地域林業パートナー cooperative report
 - NIES 2020 — Mishima, Fukushima biomass CHP simulation study (confirmed by NIES email, 2026-09-07, as a modeled scenario, not an installed system)
 - Shimokawa Town / Nishiawakura Village public forestry data

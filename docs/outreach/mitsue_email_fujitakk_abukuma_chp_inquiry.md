@@ -30,7 +30,7 @@ Not sent yet — needs phone number filled in and a decision on which contact fo
 
 突然のご連絡失礼いたします。奈良県御杖村にて、地域の木質バイオマス資源を活用した
 小規模ガス化CHP（50kWe以下）の導入を検討しているプロジェクトの者です。YR-Design の
-Rob Oudendijk（ラウンダイク）と申します。御杖村森林組合と連携し、村の森林
+Rob Oudendijk（ラウンダイク）と申します。地域林業パートナーと連携し、村の森林
 （約7,051 ha）の持続的な整備・活用を目指しています。
 
 貴社がスパホテルあぶくま様（西郷村）にて導入された、独ENTRADE Energiesysteme社製
@@ -57,7 +57,7 @@ Dear Fujita Construction Industry team,
 
 My name is Rob Oudendijk (YR-Design). I'm working on a project in Mitsue Village, Nara,
 exploring a small-scale (≤50kWe) wood-gasification CHP using local biomass, in partnership
-with the Mitsue Forest Cooperative (~7,051 ha).
+with the Local Forestry Partner (~7,051 ha).
 
 NIES Fukushima's Regional Collaborative Research Base pointed us to your work at Spa Hotel
 Abukuma (Nishigo) — the small wood-gasification CHP units (Entrade Energiesysteme E3/WE-50P)

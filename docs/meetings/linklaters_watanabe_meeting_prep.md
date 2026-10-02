@@ -51,7 +51,7 @@ A village-scale project in 御杖村 (Mitsue, Nara): reforest neglected sugi pla
 
 ## 4. Project-specific legal flags to raise (briefly)
 
-- **Land/forest**: reforestation on land we don't own — lease vs agreement with 御杖村森林組合; more trees-style partnership precedents exist (Tenkawa, Miyagawa).
+- **Land/forest**: reforestation on land we don't own — lease vs agreement with 地域林業パートナー; more trees-style partnership precedents exist (Tenkawa, Miyagawa).
 - **Energy**: biomass CHP ≥1000 kW is FIP-only (not FIT); grid 事前相談 pending. Any regulatory counsel needed?
 - **Compute/data**: AI data-center offtake contracts, data-handling obligations — does the entity form affect these?
 - **Cross-border**: Dutch founder; any foreign-director/investment wrinkles for a Japanese NGO?

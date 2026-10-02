@@ -8,7 +8,7 @@
 ## 1. The core idea
 
 The bottleneck in Mitsue's forest is **not the trees — it is the crew and the machines**.
-御杖村森林組合 (Mitsue Village Forest Association) today manages only a fraction of the village's
+地域林業パートナー today manages only a fraction of the village's
 **7,051 ha** of forest, most of it as subsidised thinning rather than full harvest.
 
 This project's purpose is to **double — and over time triple — the cooperative's
@@ -41,7 +41,7 @@ gap the project closes.
 
 **Shimokawa** is the closest sustained-cycle model: a whole town forest run on
 **~50 ha/yr by a professional, mechanised crew**. It shows what a scaled-up
-Mitsue Village Forest Association can look like.
+Local Forestry Partner can look like.
 
 ## 4. What the workforce can realistically deliver
 
@@ -202,7 +202,7 @@ district heat.
 
 **Project requirement: the CHP unit must be a Japanese manufacturer** — for domestic
 service/parts, simpler FIT + 交付金 paperwork, and to reinforce the local supply-chain /
-endogenous-development story with the village and 御杖村森林組合. Small woody-gasification
+endogenous-development story with the village and 地域林業パートナー. Small woody-gasification
 units mostly top out at ~200–500 kWe, so ~0.6 MWe is a **cluster of modules**.
 
 | Maker | Tech / scale | Fit | Notes |
@@ -223,7 +223,7 @@ see `mitsue_biomass_visit_request_emails.md`.
 
 ## 6. Fuel handling & drying — equipment and cost
 
-Site the plant at the existing **Mitsue Village Forest Association processing centre (牛峠工場, 神末797)**,
+Site the plant at the existing **Local Forestry Partner processing centre (牛峠工場, 神末797)**,
 which already chips and dries wood, so the CHP's heat feeds the dryers directly
 (no heat transport) and closes the loop **CHP heat → dry chips → CHP fuel**.
 
@@ -268,7 +268,7 @@ more palatable to conservation partners (e.g. more trees) than an energy-only ha
 
 **Tenkawa Forest Power Council (天川村フォレストパワー協議会)** — formed Dec 2016 by the
 **village + forest cooperative + chamber of commerce** (the same three-body structure as
-御杖村 + 御杖村森林組合). On clear-cut sugi land they replant high-value natives with
+御杖村 + 地域林業パートナー). On clear-cut sugi land they replant high-value natives with
 existing markets:
 
 | Species | Product / market | To harvest |
@@ -295,10 +295,10 @@ rather than only cost. Kihada bark localises a supply Tenkawa currently buys out
 - **Value-add:** partner Pony no Sato Farm runs bark-stripping, natural-dyeing and woodworking
   workshops and plans kihada-heartwood furniture — i.e. the products stay local.
 
-**Training route for Mitsue Village Forest Association:** Tenkawa also runs the **天川村森林塾 (Tenkawa Forest
+**Training route for Local Forestry Partner:** Tenkawa also runs the **天川村森林塾 (Tenkawa Forest
 School)** — an 8-day felling/chainsaw course that has trained **60+ people since 2017,
 explicitly "from inside AND outside the village."** It is the concrete peer-village channel
-for up-skilling the doubled Mitsue Village Forest Association crew (§1). Contact: ten.forestpower@gmail.com /
+for up-skilling the doubled Local Forestry Partner crew (§1). Contact: ten.forestpower@gmail.com /
 0747-63-0321.
 
 > **Action:** open a knowledge-exchange with the Tenkawa Forest Power Council and森林塾, and
@@ -346,7 +346,7 @@ Mitsue replant spec:
 2. **"Diverse forest-building" (多様な森づくり).** Design for biodiversity — a mix of
    native species *and* the animals that live in them — not another single-species
    plantation. No universal recipe: the species mix and method are chosen per site
-   with 御杖村森林組合's field knowledge plus expert advice.
+   with 地域林業パートナー's field knowledge plus expert advice.
 3. **Assisted natural regeneration + 自然配植 (natural planting-arrangement).** Where
    native saplings already exist, nurture them (release-cutting, ground scarification,
    sasa control) instead of clearing and replanting — cheaper and better suited to
@@ -372,8 +372,8 @@ Mitsue replant spec:
 
 ## Sources / 出典
 
-- 御杖村森林組合 report (village forest ~7,051 ha; ~66 ha/yr thinning; ~120–300 m³/yr;
-  crew avg age ~33) — `Docs extra/御杖村森林組合 (Mitsue-mura Forest Owners' Cooperative) Report.md`
+- 地域林業パートナー report (village forest ~7,051 ha; ~66 ha/yr thinning; ~120–300 m³/yr;
+  crew avg age ~33) — `Docs extra/地域林業パートナー (Mitsue-mura Forest Owners' Cooperative) Report.md`
 - Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues on
   Degraded Forests in Japan* — NIES Fukushima; Mishima Town CHP scenario (≤50 kWe / 750 t/yr,
   simulation — NIES confirmed by email 2026-09-07 no unit was ever installed).

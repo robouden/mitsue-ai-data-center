@@ -1,10 +1,10 @@
 <!-- Version: v1.1 | Last modified: 2026-08-14 -->
 
-# 御杖村森林組合——担い手確保・移住戦略
+# 地域林業パートナー——担い手確保・移住戦略
 
 > **「山を再生し、AIデータセンターを動かし、村を再建する——ひとつの仕事、ひとつの場所、25年の物語。」**
 
-御杖村森林組合（Mitsue Village Forest Association）の作業員を倍増（将来的に3倍）することが、森林→エネルギー
+地域林業パートナーの作業員を倍増（将来的に3倍）することが、森林→エネルギー
 計画全体を可能にする唯一のレバーです（`mitsue_forest_workforce_energy_plan_jp.md` 参照）。
 本書は、日本の既存の林業・移住支援制度を活用し、**使命を第一に、資金をその後押しとして**
 適切な人材を惹きつける方法を示します。
@@ -106,4 +106,4 @@
 - 林野庁 新規就業者育成推進事業 — https://www.rinya.maff.go.jp/j/supply/hojyo/02koubo_1/02mhk0101.html
 - 地方創生「移住支援金」 — https://www.chisou.go.jp/sousei/ijyu_shienkin.html
 - 総務省「地域おこし協力隊」 — https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/02gyosei08_03000066.html
-- 関連：`mitsue_forest_workforce_energy_plan_jp.md`、御杖村森林組合レポート、森林作業部会 issue #13
+- 関連：`mitsue_forest_workforce_energy_plan_jp.md`、地域林業パートナーレポート、森林作業部会 issue #13

@@ -35,7 +35,7 @@ python3 gis_map.py --sugano 28       # organic ~28 ha demo area around Sugano Or
 - **sugano_area.geojson / .html** — an *organic-shaped* (not a block) potential
   demonstration/thinning area centred on Sugano Organic (御杖村菅野2696, GSI-geocoded),
   right by the village where people can see it. The map also marks the existing
-  **御杖村森林組合 間伐材加工センター 牛峠工場** (神末797) and the haul line to it —
+  **地域林業パートナー 間伐材加工センター 牛峠工場** (神末797) and the haul line to it —
   ~3.7 km straight-line (~5–7 km by road). Using this existing chip/dry facility
   keeps transport low **and** avoids new processing capex (its chipping/drying are
   operating fees in the model, not capex).

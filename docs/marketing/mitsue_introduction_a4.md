@@ -1,4 +1,4 @@
-<!-- Version: v4.2 | Last modified: 2026-08-20 -->
+<!-- Version: v4.3 | Last modified: 2026-10-02 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
@@ -28,7 +28,7 @@ These are not three separate ideas — each one makes the others possible.
 | Former school/factories vacant | Repurposed as data center & community anchor (site confirmed Phase 1) |
 | Cedar monoculture, ecologically depleted | Systematic conversion to native mixed forest |
 | Grid dependency, no local power | Biomass CHP from sugi thinnings as primary supply, solar/EV as complement |
-| Shrinking population, no local jobs | **Roughly doubling the forestry cooperative crew** + data center/energy/maintenance roles |
+| Shrinking population, no local jobs | **Roughly doubling the local forestry workforce** + data center/energy/maintenance roles |
 | Blackouts, wildlife crop damage | On-site biomass power keeps key facilities running; restored forest keeps wildlife in the woods |
 
 ## Who Is Behind It

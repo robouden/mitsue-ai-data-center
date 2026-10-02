@@ -79,7 +79,7 @@ An idle forestry property in central 菅野/Sugano (~34.4883°N, 136.1673°E), o
 ### Why it's appealing (Rob's observation)
 - **Existing building + open yard** — shelter for a CHP/gasifier, a **covered dry-chip store** (moisture <20% is mandatory for gasification — see onsen note), workshop, log deck. Reuse > new build.
 - **High visibility** — heavy through-traffic on 国道369/伊勢本街道. A working "forest → power" demonstrator here is **free, continuous promotion** ("a village powered by its own forest").
-- **Institutional cluster** — next to the **Mitsue Village Forest Association head office** (神末797), the **village hall**, 御杖村社会福祉協議会, and the **active private sawmill 丹羽製材 (Niwa Seizai)** — 御杖村大字菅野400-5, on 伊勢本街道/国道369; owner (丹羽/Niwa family) known to Rob, owner + wife already informed about the project. Forestry-industrial context, likely existing truck access and possibly 3-phase grid.
+- **Institutional cluster** — next to the **Local Forestry Partner head office** (神末797), the **village hall**, 御杖村社会福祉協議会, and the **active private sawmill 丹羽製材 (Niwa Seizai)** — 御杖村大字菅野400-5, on 伊勢本街道/国道369; owner (丹羽/Niwa family) known to Rob, owner + wife already informed about the project. Forestry-industrial context, likely existing truck access and possibly 3-phase grid.
 
 > **Note on the active mill's chipper (Rob checked, 2026-06-30):** it HAS a chipper, but the chips are made for **paper/pulp** → **NG as CHP fuel**. The output is a *sold product* committed to a paper mill (not surplus), and pulp-chip spec ≠ gasifier fuel-chip spec. So their *existing* chipper is **not a drop-in fuel source**.
 
@@ -92,7 +92,7 @@ An idle forestry property in central 菅野/Sugano (~34.4883°N, 136.1673°E), o
 **Three things that make or break it:**
 1. **Capex / who funds the fuel chipper** — new kit, separate from the pulp chipper. Target a **forestry/biomass subsidy**: grant-funded shared infrastructure the mill owns + operates.
 2. **Drying + storage, not just chipping** — gasification needs **<20% moisture** (fresh sugi 40–60%) + uniform 20–50 mm. Scope = chipper **+ covered dry store**; cheapest drying = **CHP waste heat** (heat-cascade link).
-3. **Volume match, sustainably** — ~50 kWe ≈ 700–800 t/yr (Mishima anchor). Confirm residue + thinnings can supply that without over-harvest, and **coordinate with 御杖村森林組合** (sole forestry operator) so it complements 牛峠工場, not competes.
+3. **Volume match, sustainably** — ~50 kWe ≈ 700–800 t/yr (Mishima anchor). Confirm residue + thinnings can supply that without over-harvest, and **coordinate with 地域林業パートナー** (sole forestry operator) so it complements 牛峠工場, not competes.
 
 **Structure if it checks out:** grant-funded chipper → mill operates → sells fuel chips to CHP node(s) under a simple supply agreement. Mill gains asset + revenue; project gains secure local fuel.
 

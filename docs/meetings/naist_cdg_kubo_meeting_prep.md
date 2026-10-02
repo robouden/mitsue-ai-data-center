@@ -14,7 +14,7 @@ Confirm a genuine fit and agree a concrete next step (a Mitsue site visit, or a 
 ## Your 5-minute pitch (say it in this order)
 1. **One line:** In Mitsue (Nara) we reforest neglected sugi with native broadleaf, make energy from the thinnings, and use that energy to power local AI compute — closing the loop between forest, energy, heat, and computation at village scale.
 2. **Why dispatchable, not just "renewable":** biomass CHP gives 24/7 baseload → the AI data center is the CHP's best customer (compute is worth far more per kWh than grid export). Solar + battery are a secondary hedge.
-3. **People are the engine:** work done by the village forestry cooperative (御杖村森林組合), which the project aims to roughly double via national relocation/training subsidies.
+3. **People are the engine:** work done by the village forestry cooperative (地域林業パートナー), which the project aims to roughly double via national relocation/training subsidies.
 4. **Status:** Phase 0 — feasibility, community consultation, NPO formation. Honest and early.
 
 ## Two hooks matched to Kubo's remit (lead with these)

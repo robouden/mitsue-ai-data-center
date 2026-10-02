@@ -13,7 +13,7 @@
 
 Kishi-san, Miyazaki-san,
 
-Thank you for your patience — as promised, here is a report from the August 5th meeting with J-Forest (the local forestry group, formally 御杖村森林組合).
+Thank you for your patience — as promised, here is a report from the August 5th meeting with J-Forest (the local forestry group, formally 地域林業パートナー).
 
 I met with the manager, Kinjo-san, and her assistant. The meeting went well: they are open to working together. The exact shape that collaboration will take is still to be worked out — we did not settle on a model yet, but the door is genuinely open.
 
@@ -34,7 +34,7 @@ Rob Oudendijk
 
 岸様、宮﨑様
 
-お待たせいたしました。お約束しておりました通り、8月5日のJ-Forest（地元の林業団体、正式名称：御杖村森林組合）との打ち合わせについてご報告いたします。
+お待たせいたしました。お約束しておりました通り、8月5日のJ-Forest（地元の林業団体、正式名称：地域林業パートナー）との打ち合わせについてご報告いたします。
 
 組合長の近処様と、そのアシスタントの方にお会いしました。打ち合わせは良い雰囲気で進み、協力していくこと自体には前向きなお考えをいただいております。ただし、具体的にどのような形で協力していくかはまだこれからの検討課題で、今回の場では特定のモデルを決めるまでには至っておりません。それでも門戸は確かに開かれていると感じています。
 

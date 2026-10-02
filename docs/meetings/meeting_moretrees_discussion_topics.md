@@ -10,7 +10,7 @@ strong overlap on **reforestation, education, corporate engagement, and sponsors
 **Working model:** more trees takes the *forest / government / replanting* layer; our NGO
 takes the *biomass CHP + AI data center* layer. Harvested sugi is the interface — our
 energy+compute revenue funds the clearing, more trees replants it; the Mitsue Forest
-Cooperative (御杖村森林組合) does the physical work for both. Reforestation values adopted
+Cooperative (地域林業パートナー) does the physical work for both. Reforestation values adopted
 in `mitsue_forest_workforce_energy_plan.md` §9.
 
 ---
@@ -76,7 +76,7 @@ in `mitsue_forest_workforce_energy_plan.md` §9.
 
 ## Related docs
 - `mitsue_forest_workforce_energy_plan.md` §9 — adopted more trees reforestation values
-- `Docs extra/forest_group_discussion_topics_jp.md` — Mitsue Village Forest Association meeting questions
+- `Docs extra/forest_group_discussion_topics_jp.md` — Local Forestry Partner meeting questions
 - `Docs extra/more_trees_annual_report_2025_EN.docx` — more trees 2025 annual report
 - Memory: `project_moretrees_partnership.md`
 - Japanese version: `meeting_moretrees_discussion_topics_jp.md`

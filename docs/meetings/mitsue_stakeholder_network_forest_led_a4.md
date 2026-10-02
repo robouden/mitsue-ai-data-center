@@ -25,7 +25,7 @@
 <p style="font-size:9pt; color:#888; margin:0 0 4mm;">v1.0 · 2026-09-21 · Rob Oudendijk</p>
 </div>
 
-> **Very early draft — concept only.** Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign. Alternative to the NGO-led model in `mitsue_kanko_collaboration_diagrams`: here the Mitsue Village Forest Association (8-crew forestry cooperative) is the operational hub for logging, replanting and processing, with the NGO delegating day-to-day coordination rather than running it directly.
+> **Very early draft — concept only.** Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign. Alternative to the NGO-led model in `mitsue_kanko_collaboration_diagrams`: here the Local Forestry Partner (8-crew forestry cooperative) is the operational hub for logging, replanting and processing, with the NGO delegating day-to-day coordination rather than running it directly.
 
 ## Network diagram
 
@@ -43,7 +43,7 @@ graph TB
         FOUND["Foundations"]
     end
     subgraph Cooperative["FOREST TEAM"]
-        COOP["Mitsue Village Forest Association<br/>8 crew - hub"]
+        COOP["Local Forestry Partner<br/>8 crew - hub"]
     end
     subgraph Companies["COMPANIES"]
         GK["Operating Co<br/>GK/KK<br/>CHP + AI DC"]
@@ -95,7 +95,7 @@ graph TB
 <td style="border:none; padding:1mm 4mm 1mm 0; font-size:8.5pt;">— solid arrow: planned/structural link &nbsp;·&nbsp; <span class="legend-sw dash" style="width:20px;"></span> dashed: tentative / unconfirmed</td>
 </tr></table>
 
-**Reading the diagram:** liaison runs Village Hall → more trees → NGO; the NGO delegates day-to-day coordination to the Mitsue Village Forest Association (8-crew hub), which in turn supplies fuel-wood to the Operating Company. NAIST's research link goes direct to the Forest Team, not through the NGO. Dashed edges (equipment grants, land-use permits, Mizuho financing, corporate CSR, Sugano pilot site, pro bono legal) are not yet confirmed in writing.
+**Reading the diagram:** liaison runs Village Hall → more trees → NGO; the NGO delegates day-to-day coordination to the Local Forestry Partner (8-crew hub), which in turn supplies fuel-wood to the Operating Company. NAIST's research link goes direct to the Forest Team, not through the NGO. Dashed edges (equipment grants, land-use permits, Mizuho financing, corporate CSR, Sugano pilot site, pro bono legal) are not yet confirmed in writing.
 
 ## Node detail
 
@@ -107,7 +107,7 @@ graph TB
 | Project NGO (一般社団法人) | NGO/NPO | Non-distributing legal/financing wrapper; majority owner of Operating Co |
 | more trees | NGO/NPO | Liaison + replanting species/method partner between Village Hall and NGO |
 | Foundations | NGO/NPO | Grant source into NGO — target ¥33M, ¥0 secured to date (see funding flowchart) |
-| Mitsue Village Forest Association | Forest Team | 8-crew forestry cooperative; operational hub for logging, replanting, processing under this model |
+| Local Forestry Partner | Forest Team | 8-crew forestry cooperative; operational hub for logging, replanting, processing under this model |
 | Operating Co (GK/KK) | Company | CHP + AI Data Center operating entity, majority-owned by the NGO |
 | Mizuho Securities | Company | Financing option — undecided (tentative) |
 | Sugano Organic | Company | Exploratory pilot CHP site (tentative) |
