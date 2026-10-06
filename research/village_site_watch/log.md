@@ -34,3 +34,20 @@ Checked: 御杖村掲示板 (all 8 categories via `kurashi/gyosei/index.tree.jso
 - `news_list.html` (site's own new-items feed) shows nothing (feed appears stale/unused — do not rely on it, use per-section `index.tree.json` instead).
 
 **Assessment:** no new items relevant to the AI data center / biomass project this pass. Nothing to action; re-check in a few weeks or when the Sept assembly session minutes are expected (~Oct).
+
+## 2026-10-06 check
+Checked: 御杖村掲示板/gyosei tree (all pages updated since 9/21), johokokai tree, 議会 minutes archive (336.html PDF list).
+
+**New since 2026-09-21:**
+- **ふるさと納税に関する行政情報の公表** (johokokai/896) updated 2026-09-30 — annual furusato-nozei donation/usage disclosure (FY2021–FY2025 by category). Routine, not project-relevant.
+- **人事行政の運営等の状況** (johokokai) updated 2026-09-10 — routine annual personnel disclosure.
+- **農業委員会関係** updated 2026-10-01 — 第8回 convening notice (routine).
+- 広報みつえ（最新号） and SNS list refreshed 2026-10-01 (routine).
+
+**No change:** minutes archive still 100 PDFs, newest = 令和8年第2回(6月)定例会 — 第3回(9月)定例会 minutes/決議結果 not yet posted (so `council_minutes.duckdb` not updated). No new forestry/subsidy or school-renovation items found in the trees checked (sangyo_koyo tree URL 404s via `kurashi/sangyo_koyo/`; use its real path next time).
+
+**Assessment:** nothing actionable. Re-check mid/late Oct for 第3回定例会 minutes.
+
+**Follow-up 2026-10-06:** read FY2025 人事行政の運営等の状況 PDF (aggregates only, no names); built `docs/team/village_hall_org.md` (departments, last-seen chiefs, R1–R7 headcount).
+
+**Correction 2026-10-06 (later):** real URLs use `www.` host and `kurashi/jigyosha/` (not `kurashi/sangyo_koyo/`): forestry/industry = `https://www.vill.mitsue.nara.jp/kurashi/jigyosha/sangyo_koyo/index.tree.json` (newest: 協力隊林業募集 2026-04-24, 譲与税 2025-09-01 — no change). School page `.../jigyosha/kyuumitueshougakkourikatuyoujigyou/3160.html` updated 2026-10-01: **賃貸借契約 with 青薔薇株式会社 signed 2026-09-24**, 基本協定 2026-06-12, 優先交渉者 selected 2026-01-27; site visits closed. Contact = 政策推進課 (内線240–241) — so 政策推進課 exists today; update org chart.

@@ -1,4 +1,4 @@
-<p align="right">Version: v1.14 | Last modified: 2026-10-02</p>
+<p align="right">Version: v1.18 | Last modified: 2026-10-05</p>
 
 ---
 
@@ -27,7 +27,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Takahisa Watanabe (渡邉貴久) | Managing Associate — Legal Advisor, Linklaters Tokyo | takahisa.watanabe@linklaters.com | 2026-07-24 — Confirmed pro bono support; advised keeping entity structure open in Phase 0 |
 | Yuji Nakano (中野雄司) | Attorney — Legal Advisor, TMI Associates | Yuji_Nakano@tmi.gr.jp | 2026-06-14 — Confirmed pro bono support; sent entity-structure (NPO/一般社団法人) comparison |
 | Sotaro Hotta (堀田総太郎) | Attorney — Legal Advisor, likely Nishimura & Asahi (unconfirmed) | — | 2026-07-08 — Confirmed pro bono support |
-| Karsten Klein | CEO & Founder, KLEIN K.K. Advisory Services Japan (Tokyo) — AI data centre consultant: AI governance (ISO 42001), cybersecurity/infosec (ISO 27001), data privacy (GDPR); ex-Nomura/Lehman/UBS/NN Life risk & control infra; PhD electronic engineering, Cambridge | https://www.kleinkk.co.jp/ | 2026-08-18 — First online meeting; discussed how the AI data center should be run: hardware, software, layers, and security |
+| Karsten Klein | CEO & Founder, KLEIN K.K. Advisory Services Japan (Tokyo) — AI data centre consultant: AI governance (ISO 42001), cybersecurity/infosec (ISO 27001), data privacy (GDPR); ex-Nomura/Lehman/UBS/NN Life risk & control infra; PhD electronic engineering, Cambridge | karsten.klein@kleinkk.co.jp / https://www.kleinkk.co.jp/ | 2026-10-05 — Offered to contact Eido Inoue (Quantum Mesh); sent setup/size outline; asked to join HIGHRESO meeting (cc). Prior: 2026-08-18 first online meeting (hardware, software, layers, security) |
 | Minoru Kubo (久保), Ph.D. | Assoc. Professor, Center for Digital Green-innovation (CDG), NAIST, 8916-5 Takayama-cho, Ikoma, Nara 630-0192 | +81-743-72-6082 (ex.3037) / m.kubo@bs.naist.jp / https://cdgw3.naist.jp/ | 2026-08-21 — Contact info added; connected via Shiozaki (NAIST President) |
 | Tanaka Toshihiro (田中敏宏) | Executive Vice President & Trustee / Provost (Education, Student Support, Internal Control), Osaka University | 06-6879-4400 / tanaka.toshihiro.hq@osaka-u.ac.jp | 2026-09-28 — Met at SwissNex Energy Days Osaka 2026-09-03; connected with Dome internally; confirmed lunch (12:00-13:00) + walk (13:00-14:00) meeting for Wed 2026-10-14 |
 
@@ -48,13 +48,14 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
-| Nakajima Hideki (中島秀樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
-| Furutani Masatoshi (古谷匡敏) | Village Hall staff, 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
+| Nakajima Hideki (中嶋英樹) | Vice Mayor, 御杖村 | 0745-95-2001 / h-nakajima@vill.mitsue.lg.jp | 2025-12-01 — Initial informal contact |
+| Furutani Masatoshi (古谷匡敏) | 総務課長 (per Assembly minutes; DB: Village Hall staff), 御杖村役場 | t-furutani@vill.mitsue.lg.jp | 2026-07-13 — Handled information disclosure request |
 | Ito Shugi (伊藤収宜) | Mayor, 御杖村 | — | 2026-06-01 — On record re: forestry workforce shortage (council minutes) |
 | Teramae Ihei (寺前伊平, reading unconfirmed) | 議長 (Chair), 御杖村議会 | — | 2026-10-02 — Signed letter notifying result of Rob's 2026-07-04 petition on old-school lease: no adopt/reject; asked village to make Ao Bara strictly comply with basic agreement + lease |
 | Suzuki Yasuhiro (鈴木泰弘) | 教育長 (Superintendent of Education), 御杖村教育委員会 (Board of Education) | kyoui@vill.mitsue.lg.jp | 2026-09-07 — Named by village hall in reply re: Board of Education structure |
 | Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-09-07 — Office confirmed as 4 staff (次長+次長補佐+一般職員2名) reporting to Suzuki |
-| Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-09-04 — A4 project overview sent; awaiting reply on presenting to students |
+| Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-10-05 — Sakoda replied: swamped, will check email this week; Rob replied (no rush, same 2 questions). Phone if silent by ~10/09 |
+| Oba Kimitaka (大場公隆) | フォレスター, 産業建設課 (Industry & Construction), 御杖村役場 | m-oba@vill.mitsue.lg.jp / 0745-95-2001 (内線234) | 2026-10-05 — Rob replied: visit counter Thu Oct 8 13:30 (plan viewing/copy); gave purpose for 協力隊 forestry intro. Prior: plan lists no operators, intros need consent |
 
 ## Partner Orgs / Contacts
 
@@ -86,7 +87,9 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 |---|---|---|---|
 | Fujitex | Chipper supplier — RFQ contact | fjenergy@fjtex.co.jp | 2026-08-01 — RFQ drafted, not yet sent |
 | Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | contact@niwamori.org | Identified as potential partner; not yet contacted |
-| Taishi Koyachi (小八千) | Technical alliance operations, HIGHRESO Co., Ltd. (株式会社ハイレゾ), Shika site (Ishikawa) | https://highreso.jp/ (no direct email/phone on file) | 2026-09-04 — Identified via Japan Times/Bloomberg article (2026-09-02, Takaichi AI-gamble piece); quoted wanting government GPU-cost support. Reached out via HIGHRESO's EN+JP contact forms referencing the article; awaiting reply |
+| Taishi Koyachi (小谷内太士) | アライアンス本部 テクニカルアライアンス部, HIGHRESO Co., Ltd. (株式会社ハイレゾ) | 070-5308-7060 / taishi-koyachi@highreso.co.jp | 2026-10-05 — Rob replied proposing online mtg Oct 15 14:00 / Oct 21 14:00 / Oct 22 13:00; awaiting reply. Nothing committed |
+| Nobuhiro Kawamoto (kanji TBC) | HIGHRESO (role unknown; cc on reply) | nobuhiro-kawamoto@highreso.co.jp | 2026-10-05 — cc on meeting reply |
+| Yuka Kawakami (kanji TBC) | HIGHRESO (role unknown; cc on reply) | yuka-kawakami@highreso.co.jp | 2026-10-05 — cc on meeting reply |
 | Kaide Chie (貝出智恵) | engawa Concierge / Japanese-language teacher — migration & settlement consultant, MYSH株式会社 (奥大和移住定住交流センター engawa), Kashihara, Nara | +81 744-48-3019 / chie-kaide@mysh.tokyo | 2026-11-09 — Invited by Chie to コミュニティマネージャー育成プログラム成果発表会 (Community Manager Training Program results presentation), 13:00-17:00 + networking after, at 奥大和移住定住交流センターengawa (〒634-0003 奈良県橿原市常盤町605-5, 橿原総合庁舎別館; parking at 橿原総合庁舎). Rob confirmed attendance 2026-08-26. Met in person 2026-08-21; handles migration/settlement counseling for 19 Okuyamato municipalities; possible co-applicant/intermediary for regional revitalization subsidies. MYSH CEO 向井裕人 (Hiroto Mukai) is the eventual decision-maker beyond what Chie can authorize alone; general contact info@mysh.co.jp |
 
 ---
