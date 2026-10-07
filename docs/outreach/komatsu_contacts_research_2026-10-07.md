@@ -25,6 +25,16 @@ Method: public web search + page fetches, 2026-10-07. **Confidence labels:** VER
 - Significance: he is the HQ person who works directly with Komatsu Forest's overseas organisation on market development, i.e. the Japan-side owner of bringing Komatsu Forest machines to Japan. This fits his role in the May 2025 Japan CTL trial (below), though no source names him in the trial itself (inference).
 - Not to be confused with: dblp "Hisanori Yagami" (an academic author; page could not be read, affiliation unknown) and 矢上尚孝 (Naotaka Yagami), a different person reported in Komatsu's agriculture division.
 
+### Kanji and career trail: 矢上 尚孝 (やがみ ひさのり) — HIGH confidence (added 2026-10-07, from a second ChatGPT pass; the 2021 article was re-checked by me)
+
+- **2021-05-28:** [SMART AGRI interview](https://smartagri-jp.com/smartagri/2106) names 矢上尚孝 in the agriculture side of Komatsu's Green Business Promotion Division (グリーン事業推進部). Checked directly: the page names him and gives no reading of the name.
+- **2015:** a [JICA report](https://openjicareport.jica.go.jp/pdf/12357976_01.pdf) lists 矢上 尚孝 of ㈱小松製作所 茨城工場 (Komatsu Ibaraki Plant) as host of a visit. Not checked by me.
+- **2025-02-18:** HITRAF names Hisanori Yagami, Marketing Development Manager, Komatsu Japan (verified above).
+- **Reading (やがみ ひさのり):** ChatGPT's claim; the 2021 article gives no reading. The kanji is inferred by triangulating the romanized name, employer and business area, not from a Komatsu document. Confirm with his business card or Japanese signature.
+- **Not him:** 八神 寿徳 (Hisanori Yagami), associate professor at Mie University (numerical simulation, IP, entrepreneurship education). An earlier ChatGPT suggestion of 八神 寿徳 was wrong, and so was my first guess 八神 久典.
+- An earlier search of mine had returned "Naotaka Yagami (矢上尚孝)" for the same article; that was a misreading of the name, so the same person is likely.
+- **Implication:** a long-serving Komatsu employee who has moved from the plant to Green Business agriculture and now forestry market development. Where he sits under Hiroyuki Umeda (division head) is not yet known.
+
 ## Peter Hasselryd — VERIFIED
 
 - **Current:** VP Marketing & Sales, Komatsu Forest AB, Umeå, Sweden. Quoted in the 2026-03-18 announcement that Komatsu Forest AB would acquire **Malwa Forest AB** (small harvesters/forwarders for selective thinning and sensitive terrain; closing expected 2026-04-01): "a natural extension of our ambition to find the best solution for the challenges we have in forestry today." Source: [Komatsu Forest newsroom](https://www.komatsuforest.com/media/newsroom/komatsu-to-acquire-forestry-manufacturer-malwa-forest-ab).
