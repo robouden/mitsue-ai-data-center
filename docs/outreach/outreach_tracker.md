@@ -12,6 +12,8 @@ Running log of notes, forms, letters, and emails sent out for the project. Sourc
 |---|---|---|---|---|---|
 | 2026-08-31 | GX地域共創補助金事務局 (METI) | Web form | Mesh-model / multi-site eligibility inquiry | **Sent** — receipt #00001785, awaiting reply | [[project_gx_inquiry_submitted]] (memory) |
 | 2026-08-28 | 御杖村 古谷 (Furutani) | Email reply | Thanks for disclosure-doc meeting | Sent | Gmail thread `1a04651a457b3a45` |
+| 2026-10-07 | Malwa (Samuel, samuel@malwa.se) | Email follow-up | Update: first Komatsu reply received, nothing agreed; still interested in Malwa small machines | Sent from oudendijk.biz@gmail.com, awaiting reply | Gmail thread `1a0dc7eaab955c5d`, msg `1a114c41ab7a4c91` |
+| 2026-10-07 | Komatsu Ltd. HQ (Yagami) | Email reply received | Replied to 2026-09-12 Komatsu Forest AB email; 5 questions, proposes Teams mtg/site visit | Reply owed — draft in `mitsue_email_komatsu_hq_reply_2026-10-07.md` | Gmail thread `1a114007947fe6f3` |
 | 2026-09-08 | Komatsu Forest (コマツフォレスト), FMB inquiry line | Email (JP only) | CTL trial-site follow-up — clear-cut/reforest scale-up + training-ground pitch | Sent from rob@mitsue.it, awaiting reply | `mitsue_email_komatsu_ctl_followup.md`; [[project_komatsu_ctl_outreach]] |
 | 2026-08-26 | Komatsu (コマツ) forestry equipment | Email | CTL equipment trial-site inquiry | Sent — no reply, see follow-up above | Gmail thread `1a03cf46a2fab888` |
 | 2026-08-20 | 奈良県フォレスターアカデミー | Email | Confirmation re: form submission follow-up | Sent | `mitsue_email_forester_academy_request.md`; [[project_forester_academy_followup_sent]] |

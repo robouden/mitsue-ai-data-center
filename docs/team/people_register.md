@@ -89,7 +89,13 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Jérôme Floerke | Miyawaki reforestation specialist, Niwamori.org (Nara) | contact@niwamori.org | Identified as potential partner; not yet contacted |
 | Taishi Koyachi (小谷内太士) | アライアンス本部 テクニカルアライアンス部, HIGHRESO Co., Ltd. (株式会社ハイレゾ) | 070-5308-7060 / taishi-koyachi@highreso.co.jp | 2026-10-05 — Rob replied proposing online mtg Oct 15 14:00 / Oct 21 14:00 / Oct 22 13:00; awaiting reply. Nothing committed |
 | Nobuhiro Kawamoto (kanji TBC) | HIGHRESO (role unknown; cc on reply) | nobuhiro-kawamoto@highreso.co.jp | 2026-10-05 — cc on meeting reply |
-| Yuka Kawakami (kanji TBC) | HIGHRESO (role unknown; cc on reply) | yuka-kawakami@highreso.co.jp | 2026-10-05 — cc on meeting reply |
+| Yuka Kawakami (kanji TBC) | HIGHRESO (role unknown; cc on reply) | +81 70-5271-8015 (mobile) / yuka-kawakami@highreso.co.jp | 2026-10-05 — cc on meeting reply |
+| Hisanori Yagami (矢上 尚孝) | Forest and Agriculture Business Division, Komatsu Ltd. HQ (Marketing Development Manager, Komatsu Japan per HITRAF Feb 2025 — verified) | hisanori_yagami@global.komatsu | 2026-10-07 — Replied to CTL trial inquiry; 5 questions + proposes Teams mtg / site visit |
+| Peter Hasselryd | VP Marketing & Sales, Komatsu Forest AB, Umeå (cc) | peter.hasselryd@komatsuforest.com | 2026-10-07 — cc on Yagami reply |
+| Hirotaka Adachi | Komatsu Ltd. (role unknown; cc) | hirotaka_adachi@global.komatsu | 2026-10-07 — cc on Yagami reply |
+| Asako Nakamura | Komatsu Ltd. (role unknown; cc) | asako_nakamura@global.komatsu | 2026-10-07 — cc on Yagami reply |
+| Shinichi Tokunaga | Komatsu Ltd. (role unknown; cc) | shinichi_tokunaga@global.komatsu | 2026-10-07 — cc on Yagami reply |
+| Atsushi Saitou | Komatsu Ltd. (role unknown; cc) | atsushi_01_saitou@global.komatsu | 2026-10-07 — cc on Yagami reply |
 | Kaide Chie (貝出智恵) | engawa Concierge / Japanese-language teacher — migration & settlement consultant, MYSH株式会社 (奥大和移住定住交流センター engawa), Kashihara, Nara | +81 744-48-3019 / chie-kaide@mysh.tokyo | 2026-11-09 — Invited by Chie to コミュニティマネージャー育成プログラム成果発表会 (Community Manager Training Program results presentation), 13:00-17:00 + networking after, at 奥大和移住定住交流センターengawa (〒634-0003 奈良県橿原市常盤町605-5, 橿原総合庁舎別館; parking at 橿原総合庁舎). Rob confirmed attendance 2026-08-26. Met in person 2026-08-21; handles migration/settlement counseling for 19 Okuyamato municipalities; possible co-applicant/intermediary for regional revitalization subsidies. MYSH CEO 向井裕人 (Hiroto Mukai) is the eventual decision-maker beyond what Chie can authorize alone; general contact info@mysh.co.jp |
 
 ---
