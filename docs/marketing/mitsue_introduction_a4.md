@@ -1,43 +1,44 @@
-<!-- Version: v4.3 | Last modified: 2026-10-02 -->
+<!-- Version: v4.6 | Last modified: 2026-10-08 -->
 
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 2mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:22pt; font-weight:700; margin:0 0 1mm;">BIOMASS ENERGY & AI</h1>
 <p style="font-size:10pt; color:#666; margin:0 0 1mm;">Reforesting in Mitsue ― Ecology · Energy · Digital Infrastructure</p>
-<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.2 · 2026-08-20 · Rob Oudendijk</p>
+<p style="font-size:9pt; color:#888; margin:0 0 4mm;">v4.6 · 2026-10-08 · Rob Oudendijk</p>
 </div>
 
 > **"The forest our ancestors planted — the power that sustains the village they built"**
 
-*A 25-year initiative to revitalise the former Sugano Elementary School and the forest that surrounds it*
+*A 25-year initiative to revitalise a village site and the forest that surrounds it*
 
 ## What the Project Is
 
-Transforms the **former Sugano Elementary School (Mitsue Taiken Koryukan)** (leading candidate site, final choice confirmed in Phase 1) and the aging cedar forest above it into a living model of rural self-sufficiency. Three elements work together:
+Transforms a **village site (not yet decided — candidates include vacant school buildings and disused factories; final choice in Phase 1)** and the aging cedar forest nearby into a living model of rural self-sufficiency. Three elements work together:
 
 - **Forest restoration** — Replacing aging sugi monoculture with native species. Thinnings yield biomass fuel; native broadleaf trees feed deer/boar/bear, reducing crop damage
 - **Biomass CHP energy** — Sugi thinnings fuel a combined heat & power system (electricity + heat), complemented by solar and EV charging, with backup during outages
-- **Sustainable AI data center** — Small, efficient digital facility in the former school or a disused factory, powered entirely by local energy — new infrastructure and jobs
+- **Sustainable AI data center** — Small, efficient digital facility at a site still to be chosen (e.g. a vacant public building or disused factory), powered entirely by local energy — new infrastructure and jobs
 
 These are not three separate ideas — each one makes the others possible.
+
+**Underneath it all: いのち (inochi, “life”).** The energy from the trees the older generation planted will brighten the lives of their children and grandchildren. The village’s 100-Year Plan “begins with nurturing people and ends with nurturing people.”
 
 ## The Problems This Project Solves
 
 | Challenge | How the Project Responds |
 |---|---|
-| Former school/factories vacant | Repurposed as data center & community anchor (site confirmed Phase 1) |
+| Large data centers drain power grids and water | Small, sized to local biomass power: no new grid load, minimal water |
+| Former school/factories vacant | Repurposed as data center & community anchor (site set in Phase 1) |
 | Cedar monoculture, ecologically depleted | Systematic conversion to native mixed forest |
 | Grid dependency, no local power | Biomass CHP from sugi thinnings as primary supply, solar/EV as complement |
-| Shrinking population, no local jobs | **Roughly doubling the local forestry workforce** + data center/energy/maintenance roles |
-| Blackouts, wildlife crop damage | On-site biomass power keeps key facilities running; restored forest keeps wildlife in the woods |
+| Shrinking population, no local jobs | **Roughly doubling the forestry workforce** + data center/energy jobs |
+| Blackouts, wildlife crop damage | On-site biomass power backs up key facilities; restored forest keeps wildlife in the woods |
 
 ## Who Is Behind It
 
 **Rob Oudendijk** — Dutch electrical engineer, resident of Mitsue since 2012, core hardware developer for [Safecast](https://safecast.org).
 
-**Advisors:** Ray Ozzie (Blues) · San Poisson · Takuo Dome (Prof. Emeritus, Osaka University) · Evin Zoet / Yoshiko Zoet-Suzuki (Transom) · Henry Takata (biomass plant operations)
-
-A dedicated **non-profit** is being established with local residents, village leadership, forestry professionals, and academic partners.
+**Advisors:** Ray Ozzie (Blues) · San Poisson · Takuo Dome (Osaka Univ.) · Evin Zoet / Yoshiko Zoet-Suzuki (Transom) · Henry Takata (biomass) A **non-profit** is being established with residents, village leadership, foresters and academics.
 
 <div class="page-break"></div>
 
