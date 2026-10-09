@@ -1,4 +1,4 @@
-<p align="right">Version: v1.18 | Last modified: 2026-10-05</p>
+<p align="right">Version: v1.19 | Last modified: 2026-10-08</p>
 
 ---
 
@@ -35,7 +35,8 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
-| Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | info@mitsuemori.com / https://mitsuemori.com | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
+| Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | 0745-95-2010 (co-op main line; FAX 0745-95-3388) / info@mitsuemori.com / https://mitsuemori.com | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
+| Fukuzaki Takafumi (福崎貴文) | 森林整備課長 (Forest Management Section Chief), Mitsue Village Forest Cooperative (御杖村森林組合) | 0745-95-2010 (FAX 0745-95-3388) / info@mitsuemori.com (shared) / 〒633-1301 奈良県宇陀郡御杖村神末798番地 | 2026-10-07 — Business card received |
 | Tokuo Aomi (青見) | CHP prototype partner, Sugano Organic | — | 2026-06-23 — Outreach email sent |
 | Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
 | Nishimura Yuki (西村) | Local contact ("Carp guy from Mitsue") | nishimura2099@gmail.com | 2026-05-06 — Project Q&A exchange |
@@ -43,6 +44,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Yurika Moriyama (森山ゆりか) | Andy Viirtela's wife; local contact | moriyama.yurika@gmail.com | 2026-05-20/25 — Shared Andy's phone number; has a son (Akira) who ran in a local kids' marathon; offered Rob an open invite to visit |
 | Akiko Hayashi Koyama (林／小山 明子) | Graphic Designer/Art Director, Aluminum (own practice); ex-avex, Dwango; East Nara Nabari Tourism Marketing (incl. "Magical Mitsue" travel guide); Mie-based | LinkedIn: linkedin.com/in/akikohayashi | 2026-07-08 — Attended village hall meeting (children's workshop proposal) alongside Andy Viirtela |
 | Yamaguchi Yoshiyuki (山口義行) | 地域おこし協力隊員 (max 3yr term, ends ~2027), self-employed forestry practitioner (ex-steel craftsman), moved from Osaka City Apr 2024 | 0745-95-2001 (ext.130-135, むらづくり振興課) | 2026-09-06 — Introduction request submitted via village web inquiry form; awaiting reply. Framing: not a core local-partner org, but a plausible forest-crew hire/contractor candidate post-term (wants to settle in Mitsue long-term; village offers 起業補助 startup subsidy after program ends) |
+| Tokuda Hiroshi (徳田博志) | 代表取締役, 株式会社徳田林産 — local harvester/logging firm, 御杖村神末4057-1; sister co. 株式会社徳田造林 (2025); site https://www.tokumoku.com/profile.html | 0745-95-2272, yamatoku1994@outlook.jp | 2026-10-08 — Found via Oba-san (village hall) referral; not yet contacted. Wife/partner name unknown. |
 
 ## Government
 
@@ -55,7 +57,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Suzuki Yasuhiro (鈴木泰弘) | 教育長 (Superintendent of Education), 御杖村教育委員会 (Board of Education) | kyoui@vill.mitsue.lg.jp | 2026-09-07 — Named by village hall in reply re: Board of Education structure |
 | Nobori Ryutaro (登隆太郎) | 次長補佐 (Assistant Deputy Director), 御杖村教育委員会事務局 (Board of Education Secretariat) | 0745-95-2004 / kyoui@vill.mitsue.lg.jp | 2026-09-07 — Office confirmed as 4 staff (次長+次長補佐+一般職員2名) reporting to Suzuki |
 | Sakoda Kazuya (迫田和也) | 教務課長 (Head of Academic Affairs), 奈良県フォレスターアカデミー (Nara Forester Academy) | 0746-42-8100 / sakoda-kazuya@office.pref.nara.lg.jp | 2026-10-05 — Sakoda replied: swamped, will check email this week; Rob replied (no rush, same 2 questions). Phone if silent by ~10/09 |
-| Oba Kimitaka (大場公隆) | フォレスター, 産業建設課 (Industry & Construction), 御杖村役場 | m-oba@vill.mitsue.lg.jp / 0745-95-2001 (内線234) | 2026-10-05 — Rob replied: visit counter Thu Oct 8 13:30 (plan viewing/copy); gave purpose for 協力隊 forestry intro. Prior: plan lists no operators, intros need consent |
+| Ohba Masataka (大場公隆) | フォレスター, 産業建設課 (Industry & Construction), 御杖村役場 | m-oba@vill.mitsue.lg.jp / 0745-95-2001 (内線234) / Fax 0745-95-6800 / 〒633-1302 御杖村菅野368 | 2026-10-09 — Rob sent 2 emails (JP+EN): Tokuda Rinsan follow-up (6 Qs) and machinery-loan/operator-selection/意向調査 questions (6 Qs); awaiting replies. 2026-10-08 — Business card received in person (name romanized Ohba Masataka). 2026-10-05 — Rob replied: visit counter Thu Oct 8 13:30 (plan viewing/copy); gave purpose for 協力隊 forestry intro. Prior: plan lists no operators, intros need consent |
 
 ## Partner Orgs / Contacts
 

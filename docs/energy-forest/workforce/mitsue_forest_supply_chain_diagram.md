@@ -1,4 +1,4 @@
-<!-- Version: v1.7 | Last modified: 2026-09-30 -->
+<!-- Version: v1.8 | Last modified: 2026-10-09 -->
 
 # Mitsue Forest Supply Chain — What We Currently Have
 
@@ -20,31 +20,51 @@ flowchart TD
     own2 -.-> forest
     own3 -.-> forest
 
+    vh["Village hall 産業建設課<br/>伐採届 = notification only, not a permit;<br/>picks operators for village-funded thinning<br/>and 村有林 (how: asked 2026-10-09)"]
+    forest --> vh
+
     coopcrew["森林組合 field crew<br/>2 people, avg age ~33"]
-    yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned;<br/>outside the coop, sells to Misugi<br/>market; not a fuel supplier"]
-    otherindep["Other independent harvesters<br/>10+ (his estimate, unverified);<br/>good logs to Sakurai timber coop?"]
+    yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned;<br/>sells to Misugi market;<br/>declines to be a fuel supplier"]
+    tokuda["徳田林産 Tokuda Rinsan<br/>HQ 神末; 7 staff + 15 temp;<br/>buys land and timber, sells direct<br/>to mills and markets (Sakurai);<br/>Mie office 2018; no village tie found"]
+    otherindep["Other independent harvesters<br/>10+ (his estimate, unverified)"]
+    miesup["Mie-side operators (Misugi) ?<br/>unverified"]
     corps["地域おこし協力隊 自伐型林業 trainees<br/>max 3-yr term - 0 hires<br/>last 2 years"]
     loan["Village machinery loan<br/>backhoe + dump truck,<br/>post-term, max 5 yr, 1,000 yen/day"]
 
     forest --> coopcrew
     forest --> yamaguchi
+    forest -.-> tokuda
     forest -.-> otherindep
     forest -.-> corps
     corps -.-> loan
     loan -.-> yamaguchi
+    vh -->|"village-funded thinning"| coopcrew
+    vh -.-> tokuda
 
     leftover["Left in the forest<br/>~66 ha/yr thinned but only<br/>~120-300 m3/yr recovered"]
     coopcrew -->|thinning| leftover
 
     mill["牛峠工場<br/>coop chip/dry processing centre"]
     coopcrew -->|"~120-300 m3/yr"| mill
-    otherindep -.-> mill
-    yamaguchi -.-> mill
-    otherindep -.-> mill
-    yamaguchi -.-> mill
+
+    gate["PROPOSAL: open-gate fuel yard<br/>any operator delivers C/D wood<br/>to spec at a posted gate price;<br/>coop = processor and buyer"]
+    otherindep -.-> gate
+    tokuda -.-> gate
+    miesup -.-> gate
+    gate -.-> mill
+
+    machine["PROPOSAL: shared harvester pool<br/>Komatsu 901XC or 931XC trial;<br/>owner open: village, NGO or coop;<br/>equal terms for all operators"]
+    machine -.-> coopcrew
+    machine -.-> otherindep
+    vh -.-> machine
+
+    misugi["Misugi log market 西垣林業<br/>buys his logs"]
+    yamaguchi --> misugi
+    tokuda -.-> sakurai["Sakurai timber market<br/>and large sawmills"]
+    yamamoto["山本製材所 sawmill, 神末<br/>status and volume unknown"]
+    forest -.-> yamamoto
 
     niwa["丹羽製材 Niwa mill<br/>existing pulp-chip buyer -<br/>wrong spec for CHP fuel"]
-    yamaguchi -.-> niwa
     coopcrew -.-> niwa
 
     mill --> gA["A材 sawlog ~22%"]
@@ -77,34 +97,24 @@ flowchart TD
     classDef unknown fill:#4a4a4a,stroke:#999999,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
     classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
 
-    class own1,forest,coopcrew,yamaguchi,leftover,mill,gA,gB,gCD known
-    class own2,own3,otherindep,corps,loan,sawmkt,plymkt,niwa,onsen,othersup unknown
-    class chp,dc,grid,dry,compute future
+    class own1,forest,coopcrew,yamaguchi,tokuda,leftover,mill,gA,gB,gCD,misugi known
+    class own2,own3,vh,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
+    class chp,dc,grid,dry,compute,gate,machine future
 ```
 
 ## Open questions (this is the real answer to "what do we have")
 
-1. **村有林** — any village-owned forest usable without private contracts? Asked
-   Mitsue Kanko 2026-08-05, still unanswered.
-2. **財産区/入会 (common-use land)** — no evidence any exists in Mitsue; only
-   confirmed example is Tenkawa's 洞川財産区. Don't assume Mitsue has an
-   equivalent.
-3. **Where does the independent harvester's felled timber actually go?** — answered 2026-09-30:
-   his own wood goes to Misugi market (西垣林業); others reportedly send good logs to
-   桜井木材共同組合 members. Coop/other operators' flows still unverified.
-4. **How many *other* independent harvesters work the Mitsue area?** — one is confirmed
-   active; he estimates 10+ operators exist (unverified, may not all be active).
-   Village hall inquiry (2026-09-30) pending.
-5. **The "3-year / 6-year" contract structure** — only sourced term found is
-   地域おこし協力隊's national 3-year cap, plus the village machinery-loan
-   ordinance's separate 5-year post-term loan window. No "6-year" figure exists
-   in any doc or memory — if you have a source for that number, it needs adding.
-6. **Does the coop actually thin members' forest, or do owners deal with harvesters directly?** —
-   the confirmed harvester bypassed the coop (owner deal + joint 伐採届). Ask 2026-10-02.
-7. **Reforestation in Mitsue** — 神末 clear-cut replanted with cherry; 土屋原 large clear-cut
-   reportedly to be replanted (species unknown). Who funded/did it? Ask 2026-10-02.
-8. **B-grade destination** (plywood buyer vs. CHP-by-default) — open per
-   `mitsue_forest_workforce_energy_plan.md` §4a, affects real CHP fuel volume.
+1. **Village-owned forest (村有林)?** Asked 2026-08-05, no answer.
+2. **Common-use land (財産区・入会)?** No Mitsue record; only Tenkawa confirmed.
+3. **Where does wood go?** Yamaguchi to Misugi market; Tokuda to mills and Sakurai market (its own site); coop flows unverified.
+4. **Who else is active?** 10+ independents (his estimate); 山本製材所 (神末) status unknown; Mie-side operators unverified.
+5. **Does Tokuda cut inside Mitsue,** or mostly Mie and Sakurai? Asked Ohba-san 2026-10-09 (awaiting reply).
+6. **How are operators chosen** for village-funded thinning and 村有林? Asked 2026-10-09.
+7. **Owners:** any group or owner-intent survey results? Coop member count and forest area? Asked 2026-10-09.
+8. **Coop finances:** no document seen; "coop in trouble" is a hypothesis only.
+9. **Onsen wood:** which grades and volumes, and from whom besides the coop?
+10. **B-grade destination** (plywood buyer or CHP fuel) sets real CHP fuel volume.
+11. **Proposals to test with the coop:** open-gate yard, shared harvester and who owns it.
 
 ## Not shown here (separate, sourced elsewhere)
 
