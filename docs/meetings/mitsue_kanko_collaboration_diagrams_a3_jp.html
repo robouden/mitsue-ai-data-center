@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.1 | Last modified: 2026-09-10 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.2 | Last modified: 2026-10-10 -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -179,6 +179,7 @@ graph TD
     ADVISORS["顧問: Dome、Takata、<br/>Ozzie、Poisson、法務・無償(Linklaters、TMI、堀田)"]
     NAIST["NAIST (塩崎・久保/CDG)"]
     SUGANO["菅野オーガニック (青見徳雄)"]
+    PRIV["民間伐採業者・土地所有者<br/>- 未確認"]
 
     COOP -->|植林 保育 伐採 チップ化 乾燥| GK
     NGO -->|樹種/生態基準を設定| COOP
@@ -189,11 +190,13 @@ graph TD
     ADVISORS -.->|非公式助言| NGO
     NAIST -.->|リビングラボ 学生プログラム - フェーズ0| NGO
     SUGANO -.->|CHP試験地 - 検討中| GK
+    PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    COOP -.->|"森林経営計画・伐採届"| VILLAGE
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
     class COOP,NGO,GK,VILLAGE confirmed
-    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV tentative
 </pre>
       </div>
     </div>
@@ -226,6 +229,8 @@ graph LR
         GK["運営会社<br/>(GK/KK)<br/>CHP + AI DC"]
         MIZUHO["みずほ証券"]
         SUGANO["菅野オーガニック"]
+        PRIV["民間伐採業者・土地所有者"]
+        YOSHINO["吉野発電所<br/>既存のC/D材の受入先"]
         CORP["企業パートナー<br/>未確定"]
         LEGAL["法務アドバイザー - 無償<br/>リンクレーターズ、TMI、堀田"]
     end
@@ -247,6 +252,8 @@ graph LR
     MIZUHO -.->|資金調達 - 未定| GK
     CORP -.->|CSR - 未確定| NGO
     SUGANO -.->|試験地 - 検討中| GK
+    PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    PRIV -.->|"C/D材 - 推定・未確認"| YOSHINO
     LEGAL -.->|法律助言 - 無償協力確定| NGO
     NAIST -.->|リビングラボ - フェーズ0| NGO
 
@@ -257,7 +264,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LEGAL co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO co
     class COOP coop
     class NAIST acad
 </pre>

@@ -1,4 +1,4 @@
-<!-- Version: v2.0 | Last modified: 2026-09-10 -->
+<!-- Version: v2.1 | Last modified: 2026-10-10 -->
 
 # CHP Fuel Supply — Background Notes for the Forest Association's Own Discussion
 
@@ -108,6 +108,26 @@ are even in the same ballpark. Not something we're asking the co-op to commit to
 
 Full table and caveats in `mitsue_forest_workforce_energy_plan.md` §4a. Whether B-grade has a
 local buyer is a question for the co-op to answer, not us — it changes this picture a lot.
+
+---
+
+## 3b. What this could mean for landowners — scale check, draft
+
+Illustrative arithmetic only; nothing here is offered or committed (¥0 funded).
+
+| Item | Figure | Basis |
+|---|---|---|
+| 50 kWe prototype fuel | ~450–600 t dry/yr ≈ 1,400–1,900 m³ solid/yr | `../energy-forest/chp-technical/mitsue_50kwe_prototype_fuel_demand.md` |
+| Share of the C+D "fuel-only" floor (~10,000 m³/yr, §3) | ~14–19% | §3 above |
+| Electricity at 8,000 h | 400 MWh/yr | 50 kW × 8,000 h |
+| FIT premium, plan-certified thinning wood (¥32 vs ¥24/kWh) | ¥8/kWh ≈ ¥3.2M/yr | `../energy-forest/workforce/mitsue_forest_permit_subsidy_fit_reference.md` |
+| Premium per m³ if 100% passed upstream (ceiling) | ≈ ¥1,700–2,300/m³ | ¥3.2M ÷ 1,400–1,900 m³ |
+
+What this suggests:
+- **Where landowners could gain:** a local buyer (and floor price) for C/D-grade wood that has none today; thinning pooled by the co-op across small plots; the plan-certified premium *if* the co-op files a 森林経営計画 and the premium is shared upstream.
+- **Where it won't:** the 50 kWe prototype is too small to move local prices, and A/B sawlogs (most of landowner income) keep going to sawmills. Real price effect would need the ~2×0.6 MWe scale (Phase 4).
+- **Caveats:** premium certification mechanics (self-cert vs audit) and eligibility for a ≤50 kWe unit are unverified — do not quote ¥8/kWh externally yet. A margin share depends on actual CHP revenue, which is unfunded.
+- **Framing:** "an added buyer and premium for wood with no market today", complementary to the co-op and private harvesters — not "better than" any company.
 
 ---
 

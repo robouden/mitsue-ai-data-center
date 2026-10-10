@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.2 | Last modified: 2026-09-10 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.3 | Last modified: 2026-10-10 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,6 +179,7 @@ graph TD
     ADVISORS["Advisors: Dome, Takata,<br/>Ozzie, Poisson, legal pro bono (Linklaters, TMI, Hotta)"]
     NAIST["NAIST (Shiozaki, Kubo/CDG)"]
     SUGANO["Sugano Organic (Tokuo Aomi)"]
+    PRIV["Private harvesters / landowners<br/>- unverified"]
 
     COOP -->|plant, tend, harvest, chip, dry| GK
     NGO -->|sets species/eco criteria| COOP
@@ -189,11 +190,13 @@ graph TD
     ADVISORS -.->|informal advisory| NGO
     NAIST -.->|living-lab, student pgm - Phase 0| NGO
     SUGANO -.->|pilot CHP site - exploratory| GK
+    PRIV -.->|possible C/D residue supply - unconfirmed| GK
+    COOP -.->|forest-management plan + felling notices| VILLAGE
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
     class COOP,NGO,GK,VILLAGE confirmed
-    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV tentative
 </pre>
       </div>
     </div>
@@ -226,6 +229,8 @@ graph LR
         GK["Operating Co<br/>(GK/KK)<br/>CHP + AI DC"]
         MIZUHO["Mizuho Securities"]
         SUGANO["Sugano Organic"]
+        PRIV["Private harvesters / landowners"]
+        YOSHINO["Yoshino biomass plant<br/>existing C/D outlet"]
         CORP["Corporate partners<br/>unconfirmed"]
         LEGAL["Legal (pro bono)<br/>Linklaters, TMI, Hotta"]
     end
@@ -247,6 +252,8 @@ graph LR
     MIZUHO -.->|financing - undecided| GK
     CORP -.->|CSR - unconfirmed| NGO
     SUGANO -.->|pilot site - exploratory| GK
+    PRIV -.->|possible C/D residue supply - unconfirmed| GK
+    PRIV -.->|C/D wood - assumed, unverified| YOSHINO
     LEGAL -.->|pro bono, confirmed| NGO
     NAIST -.->|living lab - Phase 0| NGO
 
@@ -257,7 +264,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LEGAL co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO co
     class COOP coop
     class NAIST acad
 </pre>

@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_jp.html | Version: v1.6 | Last modified: 2026-09-10 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_jp.html | Version: v1.7 | Last modified: 2026-10-10 -->
 <!doctype html>
 <html lang="ja">
   <head>
@@ -321,6 +321,7 @@ graph TD
     ADVISORS["アドバイザー: Dome(経済)、Takata(バイオマス事業開発)、<br/>Ozzie、Poisson(PM)、無償法律顧問(Linklaters、TMI-中野、堀田)"]
     NAIST["NAIST (塩崎、久保/CDG)"]
     SUGANO["菅野オーガニック (徳雄あおみ)"]
+    PRIV["民間伐採業者・土地所有者<br/>- 未確認"]
 
     COOP -->|"植林・保育・伐採・チップ化・乾燥"| GK
     NGO -->|"樹種・生態系基準を設定"| COOP
@@ -331,11 +332,13 @@ graph TD
     ADVISORS -.->|"非公式な助言"| NGO
     NAIST -.->|"リビングラボ研究・学生プログラム提案 - フェーズ0"| NGO
     SUGANO -.->|"フェーズ1試験CHP候補地・自社林を燃料に - 検討中"| GK
+    PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    COOP -.->|"森林経営計画・伐採届"| VILLAGE
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
     class COOP,NGO,GK,VILLAGE confirmed
-    class MORETREES,ADVISORS,NAIST,SUGANO tentative
+    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV tentative
 </pre>
     </div>
 
@@ -367,6 +370,8 @@ graph LR
         MIZUHO["みずほ証券"]
         CORP["企業パートナー<br/>未確定"]
         SUGANO["菅野オーガニック"]
+        PRIV["民間伐採業者・土地所有者"]
+        YOSHINO["吉野発電所<br/>既存のC/D材の受入先"]
         LEGAL["法律顧問 - 無償<br/>Linklaters(渡邊)、TMI(中野)、堀田"]
     end
     subgraph Academia["学術機関"]
@@ -387,6 +392,8 @@ graph LR
     MIZUHO -.->|"資金調達 - 構造未定"| GK
     CORP -.->|"CSR - 未確定"| NGO
     SUGANO -.->|"試験地 - 検討中"| GK
+    PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    PRIV -.->|"C/D材 - 推定・未確認"| YOSHINO
     LEGAL -.->|"設立助言 - 無償・確定"| NGO
     NAIST -.->|"リビングラボ - フェーズ0"| NGO
 
@@ -397,7 +404,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LEGAL co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO co
     class COOP coop
     class NAIST acad
 </pre>
@@ -525,6 +532,12 @@ graph TD
         </li>
         <li>
           地域林業パートナーがコミットする前にどのような正式な関係(MOU、理事会の議席、組合員資格)を望むか?
+        </li>
+        <li>
+          Mitsue内の森林に森林経営計画はあるか、組合が作成できるか?
+        </li>
+        <li>
+          森林経営計画認定のFITプレミアム(¥8/kWh、未確認)を土地所有者と分け合えるか?
         </li>
       </ul>
     </div>
