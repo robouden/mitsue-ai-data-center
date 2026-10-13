@@ -1,4 +1,4 @@
-<!-- Version: v1.8 | Last modified: 2026-10-09 -->
+<!-- Version: v1.9 | Last modified: 2026-10-13 -->
 
 # Mitsue Forest Supply Chain — What We Currently Have
 
@@ -26,6 +26,7 @@ flowchart TD
     coopcrew["森林組合 field crew<br/>2 people, avg age ~33"]
     yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned;<br/>sells to Misugi market;<br/>declines to be a fuel supplier"]
     tokuda["徳田林産 Tokuda Rinsan<br/>HQ 神末; 7 staff + 15 temp;<br/>buys land and timber, sells direct<br/>to mills and markets (Sakurai);<br/>Mie office 2018; no village tie found"]
+    iino["飯野美創 Iino Bisou (飯野瑛司)<br/>harvester / transporter, 土屋原;<br/>met 2026-10; reportedly linked to<br/>Kimura and Yamaguchi (unconfirmed)"]
     otherindep["Other independent harvesters<br/>10+ (his estimate, unverified)"]
     miesup["Mie-side operators (Misugi) ?<br/>unverified"]
     corps["地域おこし協力隊 自伐型林業 trainees<br/>max 3-yr term - 0 hires<br/>last 2 years"]
@@ -35,6 +36,7 @@ flowchart TD
     forest --> yamaguchi
     forest -.-> tokuda
     forest -.-> otherindep
+    forest -.-> iino
     forest -.-> corps
     corps -.-> loan
     loan -.-> yamaguchi
@@ -49,6 +51,7 @@ flowchart TD
 
     gate["PROPOSAL: open-gate fuel yard<br/>any operator delivers C/D wood<br/>to spec at a posted gate price;<br/>coop = processor and buyer"]
     otherindep -.-> gate
+    iino -.-> gate
     tokuda -.-> gate
     miesup -.-> gate
     gate -.-> mill
@@ -56,6 +59,7 @@ flowchart TD
     machine["PROPOSAL: shared harvester pool<br/>Komatsu 901XC or 931XC trial;<br/>owner open: village, NGO or coop;<br/>equal terms for all operators"]
     machine -.-> coopcrew
     machine -.-> otherindep
+    machine -.-> iino
     vh -.-> machine
 
     misugi["Misugi log market 西垣林業<br/>buys his logs"]
@@ -98,7 +102,7 @@ flowchart TD
     classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
 
     class own1,forest,coopcrew,yamaguchi,tokuda,leftover,mill,gA,gB,gCD,misugi known
-    class own2,own3,vh,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
+    class own2,own3,vh,iino,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
     class chp,dc,grid,dry,compute,gate,machine future
 ```
 

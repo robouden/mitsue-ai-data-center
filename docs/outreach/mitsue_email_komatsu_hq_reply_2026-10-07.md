@@ -1,4 +1,4 @@
-<!-- Version: v1.2 | Last modified: 2026-10-08 -->
+<!-- Version: v1.9 | Last modified: 2026-10-12 -->
 
 # Komatsu HQ Reply (received 2026-10-07 10:35 JST) + Draft Response
 
@@ -40,7 +40,7 @@ Gmail thread `1a114007947fe6f3`. Replies to Rob's 2026-09-12 email to info@komat
 - **Q4:** answered 2026-10-07: seen on YouTube (video only). Rob to confirm wording.
 - **Q3:** schedule — only state what is actually planned (no funding committed; prototype 50 kWe CHP + 20ft container is the nearest step). 
 - **Q5:** Rob's position 2026-10-07: wants Komatsu to be able to use the project for its CSR; purchase possible after trial. Draft reflects both.
-- Meeting dates (Teams / site visit).
+- Meeting dates: Teams times proposed 2026-10-12 (in Gmail draft); site visit deferred until there is something to show (Rob, 2026-10-12).
 - **Status 2026-10-08:** Rob SENT a short holding reply (thanks; will answer the five questions after consulting team; dates to follow). The full draft below is still unsent and awaits team input.
 - **Status 2026-10-07:** Rob is checking with team members on how to reply; hold the full draft until then.
 - **Rob's schedule note (Q3):** plan = prototype CHP first, then a small ~50 kW AI data center within about a year (Phase 1). Full-scale data center is later and undated.
@@ -48,7 +48,7 @@ Gmail thread `1a114007947fe6f3`. Replies to Rob's 2026-09-12 email to info@komat
 ## DRAFT reply (English; NOT sent — needs Rob's approval)
 
 **To:** hisanori_yagami@global.komatsu
-**Cc:** all five original cc's
+**Cc:** all five original cc's + Elvin Zoet and Yoshiko Zoet-Suzuki (added 2026-10-12)
 **Subject:** RE: Inquiry — Additional Trial Site for Komatsu Forest CTL Equipment in Japan (Mitsue Village, Nara)
 
 Dear Yagami-san,
@@ -59,11 +59,11 @@ Answers to your five questions, in order:
 
 1. **Background.** We are a small initiative developing a forest-restoration and energy project in Mitsue Village. Many of the village's 50–75-year-old sugi plantations have gone unmanaged. The plan is to harvest them in stages, replant native broadleaf species, and use the wood as fuel for a small biomass CHP (heat and power) plant. The plant would also power a compute facility. The main bottleneck is forestry workforce, not land or fuel demand, so mechanisation is central.
 2. **Relationship with the village.** The mayor and vice mayor know we are researching how to restart reforestation with broadleaf replanting, in collaboration with the NGO more trees. We are working with the local forestry cooperatives and individual harvesters to find out how to get an efficient flow of wood, biomass and electricity. We are an independent initiative; nothing is contracted at this stage.
-3. **Schedule.** The project is in early planning. The nearest step is a small prototype (about 50 kWe CHP) at a local forestry site. A small (~50 kW) AI data center would follow within about a year (Phase 1); a full-scale facility is a later phase with no fixed date. [Rob to add a realistic window for when CTL machines would first be useful, e.g. a trial in FY2027.]
-4. **901XC + C93.** We saw them in this video: https://www.youtube.com/watch?v=o2PtH65snEc . For the 931XC we watched this one: https://www.youtube.com/watch?v=UVLWedE8d58 . So this is an impression from video only; we have not seen the machines in the field. The 901XC with C93 head looked like a better match for our scale and small-diameter thinning.
+3. **Schedule.** The project is in early planning. The nearest step is a small prototype (about 50 kWe CHP) at a local forestry site. A small (~50 kW) AI data center would follow within about a year (Phase 1); a full-scale facility is a later phase with no fixed date. A realistic window for CTL machines to first be useful is a trial around early 2028 (the end of FY2027).
+4. **901XC + C93.** We saw them in this video: https://www.youtube.com/watch?v=o2PtH65snEc . For the C93 head we also watched this one: https://www.youtube.com/watch?v=GSvUBPzcz6Y . For the 931XC we watched this one: https://www.youtube.com/watch?v=UVLWedE8d58 . So this is an impression from video only; we have not seen the machines in the field. The 901XC with C93 head looked like a better match for our scale and small-diameter thinning.
 5. **Purchase or CSR.** Both are possible and neither is committed. First we would like to run a trial in Mitsue. If it shows a good fit and financing is in place, we would consider purchase or lease. The project is also a concrete example of Japanese-made forestry machinery supporting broadleaf reforestation, local biomass energy and village revitalisation. Komatsu is very welcome to use it for its own CSR and sustainability activities (case studies, joint publicity, hosting visitors). We would be glad to shape that together, at whatever level suits Komatsu.
 
-We would very much welcome a Teams meeting, and a site visit when convenient. [Proposed dates: ___.] We can arrange a visit to the village's forests with local forestry operators.
+As a next step we would very much welcome a Teams meeting. Proposed Teams times (JST): Mon 19 Oct 13:00-14:00; Tue 27 Oct 14:00-15:00; Wed 28 Oct 15:00-16:00; Thu 29 Oct 13:00-14:00. Ask whether Komatsu attendees are mostly in Japan or all in Sweden; if Sweden, we can arrange a time that suits their working hours. A site visit would be better at a later stage, when we have something to show on the ground. We would be glad to arrange a visit to the village's forests with local forestry operators then.
 
 Best regards,
 (standard HTML signature — see `email_signature_standard.md`)

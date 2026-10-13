@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-10-02 -->
+<!-- Version: v1.1 | Last modified: 2026-10-11 -->
 
 # 50 kWe Prototype CHP — Wood Fuel Demand for 24 h Operation
 
@@ -34,6 +34,8 @@ Prepared for the local forestry partner (meeting 2026-10-02). Estimate of the wo
 - Applies only if the chosen unit needs dry chips (Volter ≤15%, Entrenco ≤12%). Wet-tolerant units (ESPE ≤45%, Esperia ≤40%) fold drying into the package.
 
 ## 4. Caveats
+
+- Candidate extra source: SANSEI kiri plantation (see [sansei_yamauchi_kiri_biomass_source.md](../workforce/sansei_yamauchi_kiri_biomass_source.md)); unverified.
 
 - Tokuo's sheet (21.8 t/yr) assumes only 2,000 h/yr of operation. **Do not quote it for 24 h operation.**
 - Figures are gasifier input only. Chipping losses, actual wood species and actual moisture are not included.
