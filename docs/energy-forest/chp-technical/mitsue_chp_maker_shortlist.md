@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-09-27 -->
+<!-- Version: v1.7 | Last modified: 2026-10-15 -->
 
 # Biomass CHP — Maker Shortlist
 
@@ -10,6 +10,12 @@ commercial fleet**.
 service/parts, simpler FIT + 交付金 paperwork, local supply-chain story). Imported units
 are **benchmark-only, not for procurement** — with one possible, explicitly-flagged
 exception at prototype scale (see Tier A).
+
+**Update 2026-10-15 (Rob: Japanese CHP options only):**
+- **ENTRENCO is dropped from consideration.** WegscheidEntrenco GmbH (Regensburg, HRB 17110) entered insolvency on 2026-04-30 (Amtsgericht Regensburg, 4 IN 133/26; administrator RA Michael Verken; creditors' meeting 2026-07-23 to decide shutdown vs continuation, outcome not checked; source: [insolvenz-radar.de](https://insolvenz-radar.de/firmeninsolvenz/hrb+17110/regensburg/d3410/)). Its Japan units (5 installed) face supplier, parts and warranty risk. Its predecessor-technology firm Entrade Energiesysteme AG was insolvent in 2018.
+- Foreign makers (ESPE, Esperia, All Power Labs, Spanner) stay **benchmark only**. **Volter (Finland) is kept as an active contact** at Rob's request (2026-10-15): the Finland connection matters to him; kiri gasification inquiry drafted to sales@volter.fi.
+- **Conflict to resolve:** the JWBA 2024 list (see memory `reference_jwba_equipment_database`) shows a Neonite **HKW50, up to 55 kWe, ≤15% moisture with dryer, installed in Kumamoto**, which contradicts "Neonite smallest ~350 kWe" below. If the HKW50 is real, a domestic gasifier exists at ~50 kWe, which would change the "no domestic gasifier at prototype scale" finding. Verify with Neonite.
+- Kiri gasification inquiry: send to the Japanese makers (Neonite, Shizuoka Seiki) and the Hokkaido FPRI; see [outreach draft](../../outreach/mitsue_email_kiri_gasification_inquiry_2026-10-15.md).
 
 **Authoritative reference:** the JWBA list *国内で販売されている小規模木質バイオマス発電機器の一覧*
 catalogues every domestic unit with specs — use it to confirm any figure below.

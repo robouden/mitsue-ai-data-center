@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 | Last modified: 2026-10-13</p>
+<p align="right">Version: v1.5 | Last modified: 2026-10-15</p>
 
 # Kiri (Paulownia) vs Sugi vs Hinoki — Green Moisture and Drying
 
@@ -33,9 +33,26 @@ MC convention: **wet basis** (water ÷ total mass) unless marked "dry basis". Co
 
 ### 2b. Energy and weight: bottom line
 
-- **Per dry kilogram, kiri and sugi are about the same fuel** within the spread of the studies. Heating values overlap; the Kanagawa sugi number is higher but its basis is unstated.
-- **Kiri's weight per m³ is uncertain** (231–335 kg/m³ dry). Its advantage is growth rate, not fuel density: a plausible case is ~ sugi's density with a much shorter rotation.
+- **Per dry kilogram, kiri is slightly lower than sugi, not equal:** same-lab bomb calorimeter, Tochigi paper (Table 5): kiri wood 18.9 MJ/kg vs sugi 20.2 MJ/kg (about 6% lower). Across other kiri studies the range is 16.7–19.7 MJ/kg, so older notes saying "about the same" are only true within that spread.
+- **Kiri's weight per m³ is low:** 231–335 kg/m³ dry across studies; the Japanese 4-year trees measured 209 kg/m³ at the butt-to-top mean of 255, against 302 for sugi. Its advantage is growth rate, not fuel density.
 - **Fresh weight is mostly water.** At ~60% MC one fresh tonne holds only ~0.4 t dry wood, whichever species. Moisture matters more than species for hauling and drying cost.
+- **Expert view (Sugimoto Kazuya, Tenkawa, 2026-10-15, personal opinion):** kiri wood is very low density, so he considers it low in energy and unsuitable for biomass. The Tochigi paper agrees on the per-m³ point (4.0 vs 6.1 GJ/m³ for sugi): more hauling, handling and storage per MWh.
+- **Direct kiri-vs-sugi comparison (Nezu et al., BioEnergy Research 19:6, 2026; full paper read; copy in docs/energy-forest/source-scans/s12155-025-10943-8.pdf; funded by NEDO).** 15 four-year-old Paulownia (Mashiko, Tochigi), planted July 2020 at 3×3 m on **abandoned flat farmland with annual fertilizer, weeding, pest control, pruning**. Mean stem 15.6 cm diameter, 9.7 m tall, 0.0828 m³/tree. Compared with 9 Japanese species (Tables 5, 6, 7):
+
+  | | Paulownia (4 yr) | Sugi |
+  |---|---|---|
+  | Gross calorific value, wood | 18.9 MJ/kg | 20.2 MJ/kg |
+  | Basic density (oven-dry/green vol.) | 209 kg/m³ (stem mean 255) | 302 kg/m³ |
+  | Energy per m³ of wood | **4.0 GJ/m³ (lowest of all 10 species; 66% of sugi)** | 6.1 GJ/m³ |
+  | Ash, wood | **1.7% (JWBA chip class 3)** | 0.4% (class 1) |
+  | Ash, bark | 4.5% (class 4) | 0.5% |
+  | Potassium | 0.4% wood, 1.5% bark (clinker risk) | not measured |
+  | Moisture, fresh (wet basis) | mean 58.2%; 70.5% at butt down to 47.6% at top | n/a in paper |
+  | Annual yield per ha | 4.9 t/ha/yr, 93 GJ/ha/yr (whole stem) | 5.0 t/ha/yr, 101 GJ/ha/yr (48-yr stand) |
+
+  Authors' conclusion: per m³ kiri is the worst fuel tested, but per hectare per year it roughly matches sugi because it grows fast, so it could work in short rotation. They note JWBA grading calls chips over 55% moisture unsuitable, so drying is required; upper-stem wood is drier, and using the lower stem for solid wood cuts drying cost. **Caveats for Mitsue:** per-ha figures are extrapolated from 15 average trees × 1,055 trees/ha on managed, flat farmland, with no deer or steep slope; the sugi comparator is a 48-year stand; one site, one age. Whole-stem yield falls to 47 GJ/ha/yr if the butt log goes to solid wood.
+- **Croatian study (Vusić et al., GREEN 2018, Zagreb forestry faculty):** three hybrids (9501, Shang Tong, OXI); fresh MC 62.4 ± 1.7%, basic density 335 ± 27 kg/m³; also measured ash, CHNS and heating value for wood and bark. It does not compare with sugi. Source: [CROSBI 947148](https://www.bib.irb.hr/947148). The 19.3 MJ/kg figure above was not re-confirmed.
+- **Ash:** Tochigi 1.7% (wood) vs sugi 0.4% (same method, same paper). Other kiri studies: 0.4% (COTEVISA-2, Springer 2024), 0.89% (trihybrid). Ash and potassium matter for gasifiers; kiri ash is higher than sugi in the one direct comparison.
 - **Not found:** direct kiri-vs-sugi test on one site, sugi dry density from a primary source, hinoki density. Kiri tops/leaves have a higher ash/moisture load (unmeasured).
 
 **Growing note:** kiri is frost-sensitive and needs good protection against bear and deer. Sugi and hinoki are established local species and are not frost-limited at Mitsue. Protection cost belongs in any kiri-vs-sugi fuel cost comparison.
@@ -45,7 +62,8 @@ MC convention: **wet basis** (water ÷ total mass) unless marked "dry basis". Co
 1. Fresh MC of **京都皇帝早生桐** stemwood, at 5 and 7 years (ask SANSEI on 10/22; they may hold data).
 2. Hinoki green MC (no number found); hinoki is not a priority fuel here.
 3. Kiri chip/log drying time under Mitsue weather (Tottori's 4 months applies to sugi only).
-4. Oven-dry MC tests (EN ISO 18134-2 method) on a few local sugi logs now, for a baseline.
+4. **Gasification of kiri (searched 2026-10-15, English and Japanese): no gasifier test of Paulownia/kiri found.** Only lab properties (above), slow pyrolysis of Paulownia wood (Yorgun & Yıldız 2015, J. Anal. Appl. Pyrolysis; max conversion 77.4% at 773 K, liquid 54 wt%), and an unreviewed green-methanol concept article. No ash-fusion data for Paulownia. Risks for a downdraft gasifier (K-rich ash slagging, low bulk density feeding/bridging, moisture ~58%) are inferences from general biomass gasification and the Tochigi paper, not kiri tests. Ask CHP makers (Volter, Entrenco, ESPE, etc.) and Hokkaido FPRI (林産試験場, which tests species in downdraft gasifiers) whether they have run kiri.
+5. Oven-dry MC tests (EN ISO 18134-2 method) on a few local sugi logs now, for a baseline.
 
 ## 4. Sources
 

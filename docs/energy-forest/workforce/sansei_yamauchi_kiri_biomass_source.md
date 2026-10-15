@@ -1,4 +1,4 @@
-<p align="right">Version: v1.9 | Last modified: 2026-10-13</p>
+<p align="right">Version: v2.0 | Last modified: 2026-10-15</p>
 
 # SANSEI (山内敏史) — Potential Biomass Source: Kiri (早生桐) on the 15 ha Parcel
 
@@ -31,6 +31,7 @@ Status: **candidate only, nothing agreed.** Source: business cards + Rob's notes
 - Rob checked the SANSEI website: "very aligned."
 - **Update 2026-10-12:** Rob's reply WAS sent 2026-10-11 (accepts 10/26). Yamauchi answered 2026-10-12: 10/26 welcome, but cooperative and village hall staff will attend so no time to sit down; proposes a sit-down at his Kyoto office before the 26th and asks for candidate dates.
 - **Rob's reply sent 2026-10-12:** proposes **Thu 2026-10-22, ~12:00**, SANSEI office (KRP2号館201, Kyoto), before Rob's Osaka event that day. **Yamauchi confirmed 2026-10-12 19:03 JST:** Thu 2026-10-22 ~12:00 at SANSEI office (KRP2号館 2階201, TEL 075-748-9188). He will bring 京都皇帝早生桐 materials; agenda = Rob's biomass + AI DC concept and how SANSEI's kiri/mountain land can collaborate. He will give the 10/26 Mitsue meeting time/place at that meeting. Rob sent a JP+EN thank-you reply 2026-10-12 confirming 10/22. Yamauchi also mentioned he has worked with Ohba-san (大場公隆, 産業建設課, village hall) a lot.
+- **Update 2026-10-15:**  Rob SENT a JP+EN reply (info@sansei-japan.com, same thread): looks forward to 10/22 and 10/26; asks for Yamauchi's own views first (purpose of kiri, 5-yr buyer, deer/bear/frost protection, kiri alone vs mixed, 京都皇帝早生桐 growth data, 嬉野 status, 10/26 planting numbers); names the Tochigi paper (Nezu et al. 2026) + JP summary as attachments, framed as reference only. Message size ~385 KB, so the 1.4 MB original paper PDF was probably NOT attached (check; offered to send on request). Sugimoto's views NOT included; held for 10/22.
 
 ## 3. Fit as a biomass source
 
