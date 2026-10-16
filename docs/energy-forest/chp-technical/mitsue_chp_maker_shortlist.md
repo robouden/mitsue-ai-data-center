@@ -1,4 +1,4 @@
-<!-- Version: v1.7 | Last modified: 2026-10-15 -->
+<!-- Version: v1.9 | Last modified: 2026-10-16 -->
 
 # Biomass CHP — Maker Shortlist
 
@@ -15,7 +15,7 @@ exception at prototype scale (see Tier A).
 - **ENTRENCO is dropped from consideration.** WegscheidEntrenco GmbH (Regensburg, HRB 17110) entered insolvency on 2026-04-30 (Amtsgericht Regensburg, 4 IN 133/26; administrator RA Michael Verken; creditors' meeting 2026-07-23 to decide shutdown vs continuation, outcome not checked; source: [insolvenz-radar.de](https://insolvenz-radar.de/firmeninsolvenz/hrb+17110/regensburg/d3410/)). Its Japan units (5 installed) face supplier, parts and warranty risk. Its predecessor-technology firm Entrade Energiesysteme AG was insolvent in 2018.
 - Foreign makers (ESPE, Esperia, All Power Labs, Spanner) stay **benchmark only**. **Volter (Finland) is kept as an active contact** at Rob's request (2026-10-15): the Finland connection matters to him; kiri gasification inquiry drafted to sales@volter.fi.
 - **Conflict to resolve:** the JWBA 2024 list (see memory `reference_jwba_equipment_database`) shows a Neonite **HKW50, up to 55 kWe, ≤15% moisture with dryer, installed in Kumamoto**, which contradicts "Neonite smallest ~350 kWe" below. If the HKW50 is real, a domestic gasifier exists at ~50 kWe, which would change the "no domestic gasifier at prototype scale" finding. Verify with Neonite.
-- Kiri gasification inquiry: send to the Japanese makers (Neonite, Shizuoka Seiki) and the Hokkaido FPRI; see [outreach draft](../../outreach/mitsue_email_kiri_gasification_inquiry_2026-10-15.md).
+- Kiri gasification inquiry: send to the Japanese makers (Neonite, Shizuoka Seiki) and the Hokkaido FPRI; see [outreach draft](../../outreach/mitsue_email_kiri_gasification_inquiry_2026-10-15.md). **Update 2026-10-16: Shizuoka Seiki declined — small gasification development discontinued.**
 
 **Authoritative reference:** the JWBA list *国内で販売されている小規模木質バイオマス発電機器の一覧*
 catalogues every domestic unit with specs — use it to confirm any figure below.
@@ -52,7 +52,7 @@ Recommendation to decide: **(a) for a fast, policy-clean, revenue-visible protot
 |---|---|---|---|---|
 | **巴商会 (Tomoe Shokai)** | wood-chip boiler + **Stirling engine**, ~10 kWe / ~180 kWth | ✅ (distributor) | Not published — quote-only | Closest domestic match to prototype scale; combustion+Stirling, *not* gasification. Lead for option (a). |
 | **ネオナイト (Neonite)** | downdraft 2-stage **gasification**, smallest ~350 kWe | ✅ | Not published | Too big for a prototype — belongs to Tier B. Biochar/wood-tar recovery. |
-| **静岡製機 (Shizuoka Seiki)** | small outdoor gasification, ~200 kWe | ✅ | Not published | Also above prototype scale; Tier B cluster candidate. |
+| **静岡製機 (Shizuoka Seiki)** | small outdoor gasification, ~200 kWe | ✅ | Not published | **DISCONTINUED (2026-10-16): Shizuoka Seiki replied twice (inquiry desk + international desk, 石黒) that it has stopped developing small gasification power systems, withdrawn from the business and disposed of the equipment.** Remove from candidates. |
 | **All Power Labs (Power Pallet)** | downdraft micro-**gasification**, ~10–25 kWe | ❌ US (on JWBA list) | Historically listed ~$40,000–50,000 on their own site — **not re-verified this session, confirm on apl.solar before citing** | Best *gasification* size match; **import → pilot-exception only**. |
 | **Volter** | CHP micro-gasifier, ~40 kWe | ❌ Finland | Not published | Benchmark; import-only. |
 | **Spanner Re² (HKA-9 / HKA-30 / HKA-45)** | wood gasifier-CHP modules, ~9–45 kWe | ❌ Germany | Not published | Benchmark; smallest module near prototype scale; import-only. |
@@ -75,7 +75,7 @@ modules**. (Reproduced from `mitsue_forest_workforce_energy_plan.md` §5.)
 |---|---|---|---|---|
 | **中外炉工業 (Chugai Ro)** | rotary-kiln gasification cogen | ✅ **lead** | Not published | Since 1997, NEDO-backed; reaches our per-unit size; tolerates rough fuel (branches/bark). |
 | **神鋼環境ソリューション (Shinko / Kobe Steel grp)** | ~500 kWe-class up | backup | Not published | ⚠️ confirm **gasification** vs steam (big plants are combustion). |
-| **静岡製機 (Shizuoka Seiki)** | small ~200 kWe outdoor unit | cluster | Not published | METI-funded, aimed at agriculture/forestry — closest in spirit. |
+| ~~静岡製機 (Shizuoka Seiki)~~ **(development stopped, 2026-10-16)** | small ~200 kWe outdoor unit | cluster | Not published | METI-funded, aimed at agriculture/forestry — closest in spirit. |
 | **ネオナイト (Neonite)** | downdraft two-stage, ~350 / 750 kWe | cluster | Not published | Recovers charcoal + wood tar (biochar angle). |
 
 **The only hard cost figure found in public sources** is operating (not capital) cost: 中外炉's own
