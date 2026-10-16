@@ -1,4 +1,4 @@
-<p align="right">Version: v2.0 | Last modified: 2026-10-15</p>
+<p align="right">Version: v2.1 &nbsp;|&nbsp; Last modified: 2026-10-16</p>
 
 # SANSEI (山内敏史) — Potential Biomass Source: Kiri (早生桐) on the 15 ha Parcel
 
@@ -56,6 +56,8 @@ Literature says yes in favourable conditions; unverified for Mitsue's climate.
 **Note (Rob, 2026-10-13): kiri is frost-sensitive and needs good protection against bear and deer** (fencing/guards); ask Yamauchi what protection he uses (see Q3). Bear damage is Rob's note, not checked in the literature.
 
 **Risks for Mitsue (御杖村, Nara highland):** frost/cold winters, steep slope & soil depth, **deer/boar browsing** (village spends ≈¥5.1M/yr on wildlife control), wind breakage. High-yield figures come from managed, flat, fertilised plantations.
+
+**Site requirements (sourced, JP+EN):** see [kiri growing requirements on steep terrain](../kiri_growing_requirements_steep_terrain.md) — light, slope position/aspect, soil depth, drainage, frost, wind, altitude; verdict for steep terrain and an onsite checklist.
 
 ## 4b. SANSEI's own claims and NAIST overlap (web check, 2026-10-11)
 
