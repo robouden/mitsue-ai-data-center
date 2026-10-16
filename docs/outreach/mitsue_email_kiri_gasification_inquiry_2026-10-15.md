@@ -175,3 +175,4 @@ Rob Oudendijk (ロブ・アウデンダイク)
 Mitsue-it / rob@mitsue.it / 080-2260-5966
 
 **English (for Rob's review):** Questions: (1) current models, smallest output in kWe, fuel and moisture spec for the paddle-type gasifier developed with Shizuoka University; any ~50 kWe plan or joint test using a test unit; possibility to visit an installation. (2) Kiri: any gasification experience, view on low density / high ash and potassium / ~58% moisture, fuel spec, and willingness to test a sample.
+yes
