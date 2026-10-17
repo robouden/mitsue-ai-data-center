@@ -1,4 +1,4 @@
-<p align="right">Version: v1.3 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.4 | Last modified: 2026-10-18</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -30,6 +30,7 @@
 - 獣害(シカ・クマ)と霜への対策は、どのようにされますか。
 - 桐は先駆樹種で、後から入る樹種に淘汰されやすいとのことですが、山でのご経験はいかがですか。
 - 一部だけ桐にして、残りを広葉樹にする混植は、お考えになれますか。
+- 伐採後、桐の間にはどんな草木が育つとお考えですか。シカの餌は十分にありそうでしょうか。
 - 嬉野(三重)の山の現状を教えてください。すでに伐採されていますか。何が生えていますか。桐はいつ植える予定ですか。
 - 10月26日の植栽の本数、面積、苗の種類を教えてください。
 
@@ -72,6 +73,7 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - How will you protect against deer, bear and frost?
 - Sugimoto-san says kiri is a pioneer that later shade-tolerant trees outcompete. Does that match what you see on your land?
 - Would you consider kiri on part of the land with broadleaves on the rest?
+- After the cut, what do you expect to grow between the kiri? Would there be enough food for deer?
 - What is the current state of the Ureshino (Mie) forest? Has it been cut, what is standing there, and when will kiri be planted?
 - For 26 October: how many trees, what area, which seedlings?
 
