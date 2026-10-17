@@ -1,4 +1,4 @@
-<p align="right">Version: v1.2 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.3 | Last modified: 2026-10-18</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -39,7 +39,7 @@
 - **植え方のご提案:** 山の南側の斜面は桐、北側やその他の斜面は混交林(広葉樹などの混植)にする案が考えられます。
 - **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
 
-**私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。山内様の山での桐は山内様のご判断ですが、混植であれば、この考え方とも両立できると思います。
+**私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。
 
 Rob Oudendijk (ロブ・アウデンダイク)
 Mitsue-it / rob@mitsue.it / 080-2260-5966
@@ -81,7 +81,7 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - **A planting idea:** On your mountain, the south-facing side could be kiri, and the north and other sides a mixed forest (broadleaves and others).
 - **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
 
-**Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on. Kiri on your land is your decision; a mixed planting would fit that approach.
+**Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on.
 
 Rob Oudendijk
 Mitsue-it / rob@mitsue.it / 080-2260-5966
