@@ -1,4 +1,4 @@
-<p align="right">Version: v1.1 | Last modified: 2026-10-15</p>
+<p align="right">Version: v1.2 | Last modified: 2026-10-18</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -32,6 +32,12 @@
 - 一部だけ桐にして、残りを広葉樹にする混植は、お考えになれますか。
 - 嬉野(三重)の山の現状を教えてください。すでに伐採されていますか。何が生えていますか。桐はいつ植える予定ですか。
 - 10月26日の植栽の本数、面積、苗の種類を教えてください。
+
+**桐の花について(追加)**
+- **桐の花は食べられます。** 甘く、バニラとはちみつのような味と香りがします。新鮮な花は新しい商品になる可能性があり、新規事業の第一歩になるかもしれません。
+- **お伺いしたいこと:** 木や花に農薬・薬剤の散布をご予定でしょうか。食用を考える場合は、無散布が前提になります。
+- **植え方のご提案:** 山の南側の斜面は桐、北側やその他の斜面は混交林(広葉樹などの混植)にする案が考えられます。
+- **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
 
 **私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。山内様の山での桐は山内様のご判断ですが、混植であれば、この考え方とも両立できると思います。
 
@@ -68,6 +74,12 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - Would you consider kiri on part of the land with broadleaves on the rest?
 - What is the current state of the Ureshino (Mie) forest? Has it been cut, what is standing there, and when will kiri be planted?
 - For 26 October: how many trees, what area, which seedlings?
+
+**About the flowers (added)**
+- **Kiri flowers are edible.** They taste and smell sweet, like vanilla and honey. Fresh flowers could be a new product and a good start for a new business.
+- **A question:** Do you plan to spray chemicals (pesticides or herbicides) on the trees or flowers? Edible use requires no spraying.
+- **A planting idea:** On your mountain, the south-facing side could be kiri, and the north and other sides a mixed forest (broadleaves and others).
+- **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
 
 **Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on. Kiri on your land is your decision; a mixed planting would fit that approach.
 
