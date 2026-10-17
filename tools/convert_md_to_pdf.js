@@ -39,8 +39,10 @@ const path = require('path');
 const fs = require('fs');
 const os = require('os');
 
-const EXT = '/home/rob/.antigravity/extensions/yzane.markdown-pdf-1.5.0-universal';
-const NM  = path.join(EXT, 'node_modules');
+// Assets (template/CSS) come from the markdown-pdf extension; npm deps live in a stable dir
+// (install: cd ~/.local/share/mitsue-pdf-tools && npm i markdown-it highlight.js cheerio mustache puppeteer-core)
+const EXT = '/home/rob/.vscode-oss/extensions/yzane.markdown-pdf-2.2.0-universal';
+const NM  = path.join(os.homedir(), '.local/share/mitsue-pdf-tools/node_modules');
 
 const markdownIt  = require(path.join(NM, 'markdown-it'));
 const hljs        = require(path.join(NM, 'highlight.js'));
@@ -164,7 +166,7 @@ function convertMarkdownToHtml(mdFile, text) {
 
 // For .html brochures: use system Chrome + modern puppeteer for correct page size
 const SYSTEM_CHROME = '/usr/bin/google-chrome';
-const NEW_PUPPETEER = '/tmp/pup-brochure/node_modules/puppeteer-core';
+const NEW_PUPPETEER = path.join(NM, 'puppeteer-core');
 
 async function convertHtmlToPdf(htmlFile) {
   const pup = require(NEW_PUPPETEER);
@@ -253,7 +255,7 @@ async function convertToPdf(mdFile, opts = {}) {
   ].filter(Boolean).join(' &nbsp;|&nbsp; ');
 
   const browser = await puppeteer.launch({
-    executablePath: puppeteer.executablePath(),
+    executablePath: SYSTEM_CHROME,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-web-security']
   });
 
