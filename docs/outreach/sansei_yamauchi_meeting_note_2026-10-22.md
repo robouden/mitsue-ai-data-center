@@ -1,4 +1,4 @@
-<p align="right">Version: v1.4 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.5 | Last modified: 2026-10-18</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -38,6 +38,10 @@
 - **桐の花は食べられます。** 甘く、バニラとはちみつのような味と香りがします。新鮮な花は新しい商品になる可能性があり、新規事業の第一歩になるかもしれません。
 - **お伺いしたいこと:** 木や花に農薬・薬剤の散布をご予定でしょうか。食用を考える場合は、無散布が前提になります。
 - **植え方のご提案:** 山の南側の斜面は桐、北側やその他の斜面は混交林(広葉樹などの混植)にする案が考えられます。
+- **観光のアイデア:** 桐だけの林(単一樹種)にして、観光スポットにする案もあります。花の季節に歩けるよう、観光客が歩きやすい散策路を整えます。お手本は、御杖村のすぐ隣、三重県津市美杉町の「ミツマタ群生地」です。1950年代半ばから植えられ、2012年の大規模な間伐でミツマタが大きく増え、新しい観光名所になりました。ガイドマップと案内標識、階段のある散策路、展望台、東屋が整っています。春の開花期には週末・祝日に臨時の路線バスも運行されます。
+  - 津市の案内: [https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html](https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html)
+  - 紹介記事(英語): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
+- **観光のアイデア:** 桐だけの林(単一樹種)にして、観光スポットにする案もあります。花の季節に歩けるよう、近くの三椏(ミツマタ)の群生地のように、観光客が歩きやすい散策路を整えます。
 - **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
 
 **私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。
@@ -81,6 +85,10 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - **Kiri flowers are edible.** They taste and smell sweet, like vanilla and honey. Fresh flowers could be a new product and a good start for a new business.
 - **A question:** Do you plan to spray chemicals (pesticides or herbicides) on the trees or flowers? Edible use requires no spraying.
 - **A planting idea:** On your mountain, the south-facing side could be kiri, and the north and other sides a mixed forest (broadleaves and others).
+- **A tourism idea:** A kiri-only grove could become a tourist attraction, with tourist-friendly paths so visitors can walk among the flowers in season. The model is the mitsumata colony in Misugi-cho, Tsu City, Mie, right next to Mitsue. Mitsumata was planted there from the mid-1950s; large-scale thinning in 2012 greatly increased the trees, and it became a new tourist attraction. It has a guide map and direction signs, a stepped promenade through the colony, an observation deck and a gazebo. Special weekend and holiday buses run in the spring bloom season.
+  - Tsu City page: [https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html](https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html)
+  - Article (English): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
+- **A tourism idea:** A kiri-only grove could become a tourist attraction. Make the paths tourist-friendly, like the mitsumata forest close to Mitsue, so visitors can walk among the flowers in season.
 - **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
 
 **Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on.
