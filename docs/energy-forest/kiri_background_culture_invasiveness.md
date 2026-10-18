@@ -1,8 +1,8 @@
-<p align="right">Version: v1.2 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
-**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
+**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
 
 ---
 
@@ -46,6 +46,23 @@ The second transcript is from a US Paulownia plantation company ("World Tree") a
 | Fixes nitrogen, removes heavy metals, nectar-rich for bees, shade for coffee/cacao | **Nitrogen claim doubtful** (Paulownia is not a known nitrogen-fixer); do not repeat. Nectar and phytoremediation plausible, unverified. |
 
 Takeaway for SANSEI: if kiri is planted, choose a known cultivar or species and ask the nursery about seed sterility; do not rely on "non-invasive" marketing.
+
+## 3c. Third transcript: German plantation operator (also a seller)
+
+A plantation company's walkthrough of its oldest German site (5 ha, planted 2011 near Bonn, cool temperate climate) and a new Spanish site (100,000 trees). Hybrid varieties named: Nordmax 21 (flowers), Phoenix 1 (non-flowering, for warmer regions). Seller's account; figures are self-reported.
+
+| Point | Note |
+|---|---|
+| Best tree at 15 yrs: DBH ~59 cm, height ~15–16 m, pruned trunk ~5 m | Corner tree with the most light, i.e. the **upper end**, not the average. Diameters "vary considerably". |
+| Weak growth in the waterlogged dip; "no wet feet" | Consistent with the growing requirements doc (drainage is key). |
+| Light-loving; strongest growth at plantation edges | Consistent; avoids shaded Mitsue valleys. |
+| Short-rotation agroforestry on farmland, returns to crops after harvest | Different model from Mitsue steep forest land; **not directly transferable**. |
+| Leaf litter decomposes fast, soil organic matter rises (monitored soil tests) | Plausible, unverified; no data shown. |
+| Partial shade allows grazing under trees; flowers give honey (mid-Apr to end-May) | Possible side income on flat land only. |
+| Value pruning in years 2–4 to 5–6 m for clean timber | Labour need; matters for timber, not for biomass. |
+| Hybrids "non-invasive"; no spread in 15 yrs at this site | **Anecdotal, one site.** Same caveat as §3b. |
+
+Takeaway: encouraging cool-climate growth rate (best case ~4 cm DBH/yr), but a flat-farmland model. Ask for the cultivar, not just "kiri". Mitsue's cold, steep land remains unproven (see growing requirements doc).
 
 ---
 
