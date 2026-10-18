@@ -1,8 +1,8 @@
-<p align="right">Version: v1.4 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
-**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
+**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`, `... 5.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
 
 ---
 
@@ -84,6 +84,21 @@ A narrated video: "a tree that does not burn, doesn't rot, stronger than oak, su
 | Coppice at 3–5 yrs for biomass/firewood; stump resprouts; 8–10 yrs for structural timber | Resprouting is real and relevant to the biomass plan; yields not given. See the Tochigi paper summary. |
 
 Verdict: only the cultural and cultivation basics are usable, and each is already covered by better sources above.
+
+## 3e. Fifth transcript: "Kiri Blocks" (German building-system seller)
+
+Same German operator as §3c. Shows a **construction use of 3-year-old kiri trunks**: 1 m log sections, pre-dried ~6 weeks, sawn into octagonal profiles, dried to ~15% moisture, joined with pine dowels (no glue or metal). Seller's account.
+
+| Claim | Status |
+|---|---|
+| Fast growth: 20 cm to 1.2 m in 8 weeks; ~10 m height and ~22 cm DBH at 4 yrs; ">6 m in one year" | Plausible. The 4-yr figure is the same order as the Tochigi trial (15.6 cm DBH, 9.7 m at 4 yrs), so it is a useful cross-check. "6 m in a year" is the best case. Both are flat farmland with care. |
+| Wood weight ~250 kg/m³ | Matches our density range (209–335 kg/m³). Pine dowels are harder than kiri. |
+| Solid-wood utilisation >70% | Seller figure, unverified. |
+| Wall modules 25 cm / 15 cm thick; U-value 0.19 with 60 mm Gutex panel; ~40% better insulation than other construction woods | Plausible for low-density wood; unverified. |
+| "Fire class REI 90" | This is the fire resistance of a **wall assembly** (EN 13501-2), not a property of the wood. Do not read it as "kiri doesn't burn" (see §3d). |
+| Multi-storey capable (upright fibres) | Unverified; low density means low strength, so check any engineering data before citing. |
+
+Relevance to Mitsue: a short-rotation product of small-diameter trunks that is **not** biomass. It could add value to a kiri plan (and a modular-building idea), but there is no evidence of Japanese building-code approval, and Mitsue's steep, cold sites differ from this farmland model. Idea only, not a plan.
 
 ---
 
