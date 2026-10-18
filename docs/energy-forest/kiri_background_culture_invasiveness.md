@@ -1,8 +1,8 @@
-<p align="right">Version: v1.7 &nbsp;|&nbsp; Last modified: 2026-10-19</p>
+<p align="right">Version: v1.8 &nbsp;|&nbsp; Last modified: 2026-10-19</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
-**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`, `... 5.txt`, `... 6.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
+**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`, `... 5.txt`, `... 6.txt`, `... 7.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
 
 ---
 
@@ -142,7 +142,21 @@ Seller video ([YouTube](https://www.youtube.com/watch?v=U3aYyN7PaLo)) from a 100
 | Irrigation (underground drip, 30–40 cm deep, watering less often but longer to push roots deep; remote-controlled) | Not needed at Mitsue (~1,700 mm rain/yr; our doc says the problem is drainage, not drought). |
 | Claim: drip + kiri halves water use vs the previous crops | Seller claim; irrelevant to a rain-fed mountain site. |
 
-Part 2 has not been seen.
+## 3h. Seventh transcript: WeGrow, "Plantation Management & Timber Harvesting (Part 2/2)"
+
+Seller video ([YouTube](https://www.youtube.com/watch?v=EFNPuKjEKKs)), same Talavera site, Phoenix 1 cultivar.
+
+| Point | Note for Mitsue |
+|---|---|
+| Hand pruning only in years 1–2; clean, knot-free trunk to ~6 m by year 3 | Cultivar-specific; labour is front-loaded. |
+| Dense start: staggered 3 × 4 m (~800 trees/ha) grows straighter and faster | A design choice for flat farmland. |
+| Thinning at 3–4 yrs (20–25 cm diameter): fell every second diagonal row; remaining trees get 2× light, water and root space and reach 40–50 cm "within a few years" | Seller figures, flat irrigated land. Compare Tochigi (15.6 cm at 4 yrs, no irrigation). |
+| After thinning: remove the roots and keep ~400/ha, or let stumps resprout (8–9 m in 2 years on a stump) | Resprouting supports the coppice idea for biomass; no yield per hectare given. |
+| Thinning wood cut into ~1 m sections (10 per tree), sorted by diameter, air-dried a few weeks; ~90% trunk utilisation (the §3e video said >70% for finished profiles) | Different measures; both unverified. |
+| Thin branches are left on site and mulched into the soil | **Fuel angle:** this residue is what a CHP could use instead, but kiri's low density, high ash (1.7% wood, 4.5% bark) and moisture apply (see fuel analysis). |
+| Mobile small sawmill; 4-sided rough sawing; stacked for cheap shipping, then kiln-dried and finished in Tönisvorst, Germany | Process model: a small mobile sawmill at the site is an option if volume exists. |
+
+Net: the full-system economics (thinning wood into building modules, stump regrowth) are the seller's and unverified. For Mitsue the usable ideas are early thinning, resprouting after cutting, and keeping clean small-diameter wood for non-fuel uses.
 
 ---
 

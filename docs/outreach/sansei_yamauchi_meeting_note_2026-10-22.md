@@ -1,4 +1,4 @@
-<p align="right">Version: v1.9 | Last modified: 2026-10-19</p>
+<p align="right">Version: v1.10 | Last modified: 2026-10-19</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -45,6 +45,7 @@
 - **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
 - **建築への利用例(参考動画):** 3〜4年生の桐の幹からモジュール式の木造壁をつくるドイツ企業(WeGrow)の紹介動画(ドイツ語)です。燃料以外の小径木の使い道として、ご参考までに。企業側の説明で、日本での建築認可などは未確認です。 [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 - **栽培の参考動画:** 「Paulownia: Soil Requirements and Irrigation (Part 1/2)」(英語、WeGrow)。スペインの平坦な農地での解説で、深さ約2mの試掘穴で土の深い層を確認する方法や、苗木の保護筒の使い方が紹介されています。企業側の説明で、御杖村の急傾斜・寒冷地にそのまま当てはまるかは未確認です(灌水は雨の多い御杖村では不要と考えます)。 [https://www.youtube.com/watch?v=U3aYyN7PaLo](https://www.youtube.com/watch?v=U3aYyN7PaLo)
+- **栽培の参考動画(第2部):** 「Paulownia Plantation Management & Timber Harvesting (Part 2/2)」(英語、WeGrow)。密植して3〜4年で間伐し、切り株から再び芽を出させる管理や、枝打ちの方法が紹介されています。企業側の説明で、平坦な農地での例です。 [https://www.youtube.com/watch?v=EFNPuKjEKKs](https://www.youtube.com/watch?v=EFNPuKjEKKs)
 
 **私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。
 
@@ -94,6 +95,7 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
 - **A building use (reference video):** A German company (WeGrow) shows modular wooden walls made from 3–4-year-old kiri trunks (video in German). Shared as an example of a use for small-diameter trunks beyond fuel. It is the company's own presentation; I have not checked Japanese building approvals. [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 - **A cultivation video:** "Paulownia: Soil Requirements and Irrigation (Part 1/2)" (English, WeGrow), a flat Spanish farm, showing how to check the deeper soil with a ~2 m test pit and how tree guards are used. It is the company's own guidance; I have not checked whether it applies to steep, cold land like Mitsue (irrigation should not be needed with Mitsue's rainfall). [https://www.youtube.com/watch?v=U3aYyN7PaLo](https://www.youtube.com/watch?v=U3aYyN7PaLo)
+- **A cultivation video (Part 2):** "Paulownia Plantation Management & Timber Harvesting (Part 2/2)" (English, WeGrow): dense planting, thinning at 3–4 years, regrowth from stumps, and pruning. It is the company's own account of a flat farm. [https://www.youtube.com/watch?v=EFNPuKjEKKs](https://www.youtube.com/watch?v=EFNPuKjEKKs)
 
 **Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on.
 
