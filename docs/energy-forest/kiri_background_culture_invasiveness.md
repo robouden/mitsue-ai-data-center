@@ -1,4 +1,4 @@
-<p align="right">Version: v1.7 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.7 &nbsp;|&nbsp; Last modified: 2026-10-19</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 

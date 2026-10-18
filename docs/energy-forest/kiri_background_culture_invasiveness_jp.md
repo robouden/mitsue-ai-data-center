@@ -1,4 +1,4 @@
-<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-10-19</p>
 
 # 桐(キリ)— 文化的価値・国産材の減少・侵略性
 
