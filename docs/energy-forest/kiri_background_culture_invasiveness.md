@@ -1,4 +1,4 @@
-<p align="right">Version: v1.5 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.6 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
@@ -75,7 +75,7 @@ A narrated video: "a tree that does not burn, doesn't rot, stronger than oak, su
 | Guqin / gayageum soundboards of paulownia | True for the soundboards. "UNESCO heritage" status of the gayageum is unverified. |
 | Edo 1657 Meireki fire: kiri chests survived, contents intact | The fire is real (明暦の大火). Kiri chests protecting contents is a traditional claim; no evidence given. |
 | "Doesn't burn", "Class A like concrete and steel" ("ASME 84" should be ASTM E84) | **Unsupported/contradicted.** Kiri wood burns; this project plans to burn it as CHP fuel. Lightness and low resin are real, but fire-proof is not. |
-| "Doesn't rot", "stronger than oak", "lighter than water" | Light, yes (low density). **Not strong or durable** versus oak; low natural durability is a known limit. Do not repeat. |
+| "Doesn't rot", "stronger than oak", "lighter than water" | Light, yes. **Stronger than oak: false** (see §3f: bending ~42 MPa vs oak ~100). "Doesn't rot": **mixed**: one seller-supplied lab test (one hybrid) reports durability class 1; treat as unverified for outdoor use. |
 | 20 ft/yr growth; 10× carbon of hardwoods; "fastest carbon sink on Earth" | Marketing figures, no source. |
 | $15–25/board ft; $300–500 lumber per 10-yr tree | Unsourced. Do not use. |
 | "Invasive label is industry suppression" | Conspiracy framing. The invasiveness concern for *P. tomentosa* is real (§3). |
@@ -100,12 +100,41 @@ Same German operator as §3c. Shows a **construction use of 3-year-old kiri trun
 
 Relevance to Mitsue: a short-rotation product of small-diameter trunks that is **not** biomass. It could add value to a kiri plan (and a modular-building idea), but there is no evidence of Japanese building-code approval, and Mitsue's steep, cold sites differ from this farmland model. Idea only, not a plan.
 
+## 3f. Seller data: KIRITEC GmbH ([kiritec.eu](https://www.kiritec.eu/))
+
+KIRITEC (Tönisvorst, Germany; part of the listed WeGrow group) is the timber and building-system arm behind the §3c and §3e videos. The brand KiriBloX® sells wall modules (Hornbach online shop for the small 150 line). Its datasheets are the **only measured data in this note**, but they are the seller's own, and testing labs are mostly unnamed. Sources: [technical data sheet, 07/2023](https://www.kiritec.eu/wp-content/uploads/2025/01/TechnischeDatenKIRITECA4_2307.pdf), [KiriBloX building physics, 08/2025](https://www.kiritec.eu/wp-content/uploads/2025/09/KiriBloX_BUILDING-PHYSICS-PROPERTIES_2025.09.pdf).
+
+**Sawn timber (kiln-dried ~13% moisture; hybrid NordMax21 = *P. tomentosa* × *fortunei* was tested for durability):**
+
+| Property | Mean (min–max) | Comment |
+|---|---|---|
+| Density, 12–15% moisture | 268 (218–353) kg/m³ | Oven-dry 253 (205–335); matches our 209–335 range |
+| Bending strength / modulus | 42.5 (36–50) MPa / 5,033 MPa | Roughly 40% of oak/spruce strength; stiffness about 40–50% |
+| Compression parallel to grain | 23.4 (14.6–40.3) MPa | Wide scatter |
+| Tension parallel to grain | 43 (27–62) MPa | |
+| Shrinkage radial / tangential | 0.69% / 2.46% | Low; good stability |
+| Thermal conductivity | 0.09 W/mK | Good insulator |
+| Durability vs. fungi (EN 113-2 / EN 350) | Class "1v" (outer heartwood, one hybrid) | Lab test only, **unusual for such light wood; confirm with the lab report before citing**. Seller-supplied. |
+| Weathering test | no cracks/warping after 3 months | Rapid-weathering lamp test (Göttingen), not field data |
+| Emissions | AgBB met; formaldehyde 0.004 mg/m³; French A+ | Indoor-air suitability |
+
+**KiriBloX wall system (22.5 cm thick):**
+- Fire: REI 90. No test institute or standard is named in the sheet; get the classification report.
+- U-value 0.19 W/m²K with 6 cm Gutex board and 20 mm board inside.
+- Load tests on one 2.4 × 2.4 m panel: 29.3 kN and 341 kN (two scenarios, unexplained); allowable compression 1,000 kN at 3 m × 1.5 m. No building-approval (abZ) listed.
+- Compression (EN 408 basis): fc,0 16.5 MPa, Ec,0 4,587 MPa.
+
+**Marketing claims (kiriblox.de):** up to 6 m growth in year 1, 40 cm trunk after 10 years, up to 35 kg CO₂ per tree per year, "non-invasive" hybrids with documented genetics, regrowth from stump for several harvests, sandy soils usable. All unverified.
+
+**Net:** this corrects two earlier cautions. Kiri timber is **not weak in a relative sense** (decent for its weight) but still well below oak and spruce in absolute strength. The "doesn't rot" line should be rechecked against a primary lab report. The heating value and fuel data still come from our fuel analysis, not from KIRITEC.
+
 ---
 
 ## 4. Open items
 
 - Confirm kiri's legal status in Japan (外来生物法 / 生態系被害防止外来種リスト).
 - Spread/invasiveness evidence is still missing for Appalachian-type trials; cite USFS guidance (§3) instead.
+- Request from KIRITEC: REI 90 classification report (institute, standard), EN 113 durability report, and the cultivar list incl. sterility documentation.
 - Get trade-stat and price data from MOF / 林野庁 before using any value claim.
 - Confirm whether disease-resistant seedlings (Fukushima) are available to SANSEI.
 
