@@ -1,8 +1,8 @@
-<p align="right">Version: v1.6 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.7 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
-**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`, `... 5.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
+**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`, `... 5.txt`, `... 6.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
 
 ---
 
@@ -127,6 +127,22 @@ KIRITEC (Tönisvorst, Germany; part of the listed WeGrow group) is the timber an
 **Marketing claims (kiriblox.de):** up to 6 m growth in year 1, 40 cm trunk after 10 years, up to 35 kg CO₂ per tree per year, "non-invasive" hybrids with documented genetics, regrowth from stump for several harvests, sandy soils usable. All unverified.
 
 **Net:** this corrects two earlier cautions. Kiri timber is **not weak in a relative sense** (decent for its weight) but still well below oak and spruce in absolute strength. The "doesn't rot" line should be rechecked against a primary lab report. The heating value and fuel data still come from our fuel analysis, not from KIRITEC.
+
+## 3g. Sixth transcript: WeGrow, "Soil Requirements and Irrigation (Part 1/2)"
+
+Seller video ([YouTube](https://www.youtube.com/watch?v=U3aYyN7PaLo)) from a 100,000-tree plantation near Talavera, central Spain (summer-dry; irrigated). Practical agronomy, most of it consistent with the growing requirements doc.
+
+| Point | Note for Mitsue |
+|---|---|
+| Soil: sandy loam / loamy sand, drains fast in heavy rain but holds nutrients | Matches our requirements doc (light, well-drained). |
+| Judge the **deep horizons**, not the top 30 cm: dig a ~2 m pit with an excavator and check for thick clay or impenetrable layers; grain-size analysis | Directly usable: ask for a soil pit on the site (our doc says 1.5–2 m depth is the main limit on steep land). |
+| Cultivate 20 cm one year, disc-harrow the next; works in leaf litter and discourages mice | Flat-farmland practice; not applicable to steep mountain slopes. |
+| Leaf litter turns to humus quickly; soil organic matter rises from canopy closure, per annual samples | Plausible; no data shown. |
+| Tree guards for the first weeks and 1–3 years against hares and rabbits, then removed | Relevant: Mitsue's browsers are deer, boar and bear, which small guards will not stop. Ask Yamauchi-san about fencing or guards. |
+| Irrigation (underground drip, 30–40 cm deep, watering less often but longer to push roots deep; remote-controlled) | Not needed at Mitsue (~1,700 mm rain/yr; our doc says the problem is drainage, not drought). |
+| Claim: drip + kiri halves water use vs the previous crops | Seller claim; irrelevant to a rain-fed mountain site. |
+
+Part 2 has not been seen.
 
 ---
 
