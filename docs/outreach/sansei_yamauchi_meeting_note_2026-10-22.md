@@ -1,4 +1,4 @@
-<p align="right">Version: v1.6 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.7 | Last modified: 2026-10-18</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
 
@@ -43,6 +43,7 @@
   - 紹介記事(英語): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
 - **観光のアイデア:** 桐だけの林(単一樹種)にして、観光スポットにする案もあります。花の季節に歩けるよう、近くの三椏(ミツマタ)の群生地のように、観光客が歩きやすい散策路を整えます。
 - **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
+- **建築への利用例(参考動画):** 3〜4年生の桐の幹からモジュール式の木造壁をつくるドイツ企業(WeGrow)の紹介動画(ドイツ語)です。燃料以外の小径木の使い道として、ご参考までに。企業側の説明で、日本での建築認可などは未確認です。 [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 
 **私たちの立場**:御杖村では、動物が餌にできる在来の広葉樹を基本にしています。
 
@@ -90,6 +91,7 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
   - Article (English): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
 - **A tourism idea:** A kiri-only grove could become a tourist attraction. Make the paths tourist-friendly, like the mitsumata forest close to Mitsue, so visitors can walk among the flowers in season.
 - **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
+- **A building use (reference video):** A German company (WeGrow) shows modular wooden walls made from 3–4-year-old kiri trunks (video in German). Shared as an example of a use for small-diameter trunks beyond fuel. It is the company's own presentation; I have not checked Japanese building approvals. [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 
 **Our position:** In Mitsue the base approach is native broadleaf that wildlife can feed on.
 
