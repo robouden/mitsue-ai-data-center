@@ -1,8 +1,8 @@
-<p align="right">Version: v1.3 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
+<p align="right">Version: v1.4 &nbsp;|&nbsp; Last modified: 2026-10-18</p>
 
 # Kiri (Paulownia) — Cultural Value, Supply Decline and Invasiveness
 
-**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
+**Purpose:** Background for the SANSEI kiri plan (Yamauchi). Combines claims from a US garden video (transcripts: `misc/This is the empress tree. Paulownia tomentosa.txt` and `... 2.txt`, `... 3.txt`, `... 4.txt`) with checked sources. Reference only; the landowner decides. Primary use in the project is biomass fuel; timber value is possible upside, not a plan.
 
 ---
 
@@ -63,6 +63,27 @@ A plantation company's walkthrough of its oldest German site (5 ha, planted 2011
 | Hybrids "non-invasive"; no spread in 15 yrs at this site | **Anecdotal, one site.** Same caveat as §3b. |
 
 Takeaway: encouraging cool-climate growth rate (best case ~4 cm DBH/yr), but a flat-farmland model. Ask for the cultivar, not just "kiri". Mitsue's cold, steep land remains unproven (see growing requirements doc).
+
+## 3d. Fourth transcript: "The Green Archive" (promotional / conspiracy framing)
+
+A narrated video: "a tree that does not burn, doesn't rot, stronger than oak, suppressed by a $51B softwood industry". **Least reliable of the four; most technical claims are wrong or unsupported. Do not cite.**
+
+| Claim | Status |
+|---|---|
+| Kiri crest (桐紋) on imperial seal, ¥500 coin, PM's residence | Broadly true (government/imperial use of 桐紋; the ¥500 coin carries a paulownia design). Cite a Japanese source. |
+| Plant a tree at a daughter's birth, make a 桐たんす at marriage (Japan; *odong namu* in Korea) | Well-known tradition. |
+| Guqin / gayageum soundboards of paulownia | True for the soundboards. "UNESCO heritage" status of the gayageum is unverified. |
+| Edo 1657 Meireki fire: kiri chests survived, contents intact | The fire is real (明暦の大火). Kiri chests protecting contents is a traditional claim; no evidence given. |
+| "Doesn't burn", "Class A like concrete and steel" ("ASME 84" should be ASTM E84) | **Unsupported/contradicted.** Kiri wood burns; this project plans to burn it as CHP fuel. Lightness and low resin are real, but fire-proof is not. |
+| "Doesn't rot", "stronger than oak", "lighter than water" | Light, yes (low density). **Not strong or durable** versus oak; low natural durability is a known limit. Do not repeat. |
+| 20 ft/yr growth; 10× carbon of hardwoods; "fastest carbon sink on Earth" | Marketing figures, no source. |
+| $15–25/board ft; $300–500 lumber per 10-yr tree | Unsourced. Do not use. |
+| "Invasive label is industry suppression" | Conspiracy framing. The invasiveness concern for *P. tomentosa* is real (§3). |
+| Sterile hybrid "Cotevisa 2" widely tested | Unverified; check with the nursery. |
+| Zones 5–9, zone 4 marginal (winter protection first 2 yrs); full sun; deep well-drained soil, pH 5.5–8 | Consistent with the growing requirements doc. Relevant: Mitsue is cold (mean ~13.2°C). |
+| Coppice at 3–5 yrs for biomass/firewood; stump resprouts; 8–10 yrs for structural timber | Resprouting is real and relevant to the biomass plan; yields not given. See the Tochigi paper summary. |
+
+Verdict: only the cultural and cultivation basics are usable, and each is already covered by better sources above.
 
 ---
 
