@@ -1,4 +1,4 @@
-<!-- Version: v1.0 | Last modified: 2026-08-05 -->
+<!-- Version: v1.1 | Last modified: 2026-10-18 -->
 
 # Mizuho — Nao/You follow-up (reply on "]noplit[Mitsue Project" thread)
 
@@ -7,7 +7,7 @@
 **Cc:** you.li@mizuho-sc.com, ivw@gol.com
 **Subject:** Re: ]noplit[Mitsue Project (Subject Changed)
 
-**Status: DRAFT — not sent.**
+**Status: SENT 2026-08-05** (You Li acknowledged 2026-08-06). Follow-ups sent 2026-08-11, 2026-09-23 and 2026-10-18.
 
 ---
 

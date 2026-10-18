@@ -1,4 +1,4 @@
-<p align="right">Version: v1.33 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.34 | Last modified: 2026-10-18</p>
 
 ---
 
@@ -83,7 +83,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
-| Nao Uesaka (上坂奈央) | Representative, Mizuho Securities | nao.uesaka@mizuho-sc.com | 2026-08-05 — Meeting went well; deck + broadleaf list promised |
+| Nao Uesaka (上坂奈央) | Representative, Mizuho Securities | nao.uesaka@mizuho-sc.com | 2026-08-05 — Meeting went well; deck + broadleaf list sent same day. Follow-ups 08-11, 09-23, 10-18 (structure update + asked You Li re kiri monoculture soil/wildlife); awaiting reply |
 | You Li | Representative, Mizuho Securities | you.li@mizuho-sc.com | 2026-07-01 — No public profile found; unconfirmed contact |
 | Yuya Kato (加藤祐也) | Impact Officer, SIIF (Social Impact Investment Foundation) | kato@siif.or.jp | 2026-07-08 — Morgan Lewis event; outcome-financing discussion |
 
