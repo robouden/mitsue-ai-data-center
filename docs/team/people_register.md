@@ -1,4 +1,4 @@
-<p align="right">Version: v1.35 | Last modified: 2026-10-21</p>
+<p align="right">Version: v1.36 | Last modified: 2026-10-21</p>
 
 ---
 
@@ -11,7 +11,8 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 | Name | Role / Org | Contact | Last Activity |
 |---|---|---|---|
 | Rob Oudendijk | Founder & Project Lead, YR-Design | 080-2260-5966 / oudendijk.biz@gmail.com | 2026-08-06 — Ongoing daily project work |
-| Yuka Hayashi (石村ゆか) | Colleague / co-presenter | yuuka1213@hotmail.com | 2026-07-29 — Sugano Organic meeting |
+| Yuka Hayashi (林 由佳) | Rob's partner; founder of YR-Design | https://yr-design.biz/category/profile/ | 2026-10-21 — Mokurai/Myoen/Fujiwara meeting |
+| Yuka Ishimura (石村ゆか) | Colleague / co-presenter; partner of San Poisson | yuuka1213@hotmail.com | 2026-07-29 — Sugano Organic meeting |
 | San Poisson | Project Manager | sanpoisson@gmail.com | 2026-07-29 — Sugano Organic meeting |
 
 ## Advisors
