@@ -1,4 +1,4 @@
-<p align="right">Version: v1.34 | Last modified: 2026-10-18</p>
+<p align="right">Version: v1.35 | Last modified: 2026-10-21</p>
 
 ---
 
@@ -37,6 +37,7 @@ Local text mirror of the "Mitsue Project — People Register" artifact. Everyone
 |---|---|---|---|
 | Kinjo Rie (近処里英) | 代表理事組合長 (Co-op Head), Mitsue Village Forest Cooperative | 0745-95-2010 (co-op main line; FAX 0745-95-3388) / info@mitsuemori.com / https://mitsuemori.com | 2026-08-05 — Meeting; open to collaboration, retention (not recruitment) is the real problem |
 | Fukuzaki Takafumi (福崎貴文) | 森林整備課長 (Forest Management Section Chief), Mitsue Village Forest Cooperative (御杖村森林組合) | 0745-95-2010 (FAX 0745-95-3388) / info@mitsuemori.com (shared) / 〒633-1301 奈良県宇陀郡御杖村神末798番地 | 2026-10-07 — Business card received |
+| Fujiwara Yasutaka (藤原康孝) | 藤原林業有限会社 (いのちの森づくり), Odai-cho, Mie — 林業技士, thinning instructor, cable-yarding supervisor; CSR forest-making, firewood, forestry classes | TEL/FAX 0598-78-3476 / 090-7697-9736 / fujiwara@ma.mctv.ne.jp / 〒519-2633 三重県多気郡大台町久豆251-7 | 2026-10-21 — Met in person (day of Mokurai/Myoen meeting); thank-you email drafted |
 | Tokuo Aomi (青見) | CHP prototype partner, Sugano Organic | suganokoubou@gmail.com (usually Instagram) | 2026-10-11 — Shop visit; sent Instagram thank-you + offered English tanka-style poem for product tag. 2026-06-23 — Outreach email sent |
 | Kawakita Yasunori (川北康則) | Retired Principal, Mitsue Elementary School | — | 2026-06-16 — Approved the Kaya poem |
 | Nishimura Yuki (西村) | Local contact ("Carp guy from Mitsue") | nishimura2099@gmail.com | 2026-05-06 — Project Q&A exchange |
