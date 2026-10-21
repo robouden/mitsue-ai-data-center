@@ -277,8 +277,8 @@ async function convertToPdf(mdFile, opts = {}) {
       landscape: !!opts.landscape,
       scale: opts.scale || 1,
       printBackground: true,
-      margin: { top: '1.2cm', right: '1.5cm', bottom: '2cm', left: '1.5cm' },
-      displayHeaderFooter: true,
+      margin: opts.noHeader ? { top: '1.2cm', right: '1.5cm', bottom: '1.2cm', left: '1.5cm' } : { top: '1.2cm', right: '1.5cm', bottom: '2cm', left: '1.5cm' },
+      displayHeaderFooter: !opts.noHeader,
       headerTemplate: `<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:7pt; line-height:1.1; color:#555; padding:0 1.5cm; text-align:right; box-sizing:border-box;">${headerText}</div>`,
       footerTemplate: '<div style="width:100%; font-family:-apple-system,Helvetica,Arial,sans-serif; font-size:8pt; color:#999; padding:0 1.5cm; text-align:right; box-sizing:border-box;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
       timeout: 0
@@ -311,6 +311,7 @@ async function main() {
     else if (h) opts.height = h[1];
     else if (sc) opts.scale = parseFloat(sc[1]);
     else if (a === '--landscape') opts.landscape = true;
+    else if (a === '--no-header') opts.noHeader = true;
     else args.push(a);
   }
   if (args.length === 0) {

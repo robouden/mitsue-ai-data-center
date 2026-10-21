@@ -1,8 +1,6 @@
-<p align="right">Version: v1.10 | Last modified: 2026-10-19</p>
+<p align="right">Version: v1.11 | Last modified: 2026-10-21</p>
 
 # Note for Yamauchi-san (SANSEI) — Meeting 2026-10-22, kiri feedback
-
-**DRAFT: for Rob to hand over or read at the meeting. Not sent.** Yamauchi speaks hardly any English, so Japanese first.
 
 ## 日本語
 
@@ -41,7 +39,6 @@
 - **観光のアイデア:** 桐だけの林(単一樹種)にして、観光スポットにする案もあります。花の季節に歩けるよう、観光客が歩きやすい散策路を整えます。お手本は、御杖村のすぐ隣、三重県津市美杉町の「ミツマタ群生地」です。1950年代半ばから植えられ、2012年の大規模な間伐でミツマタが大きく増え、新しい観光名所になりました。ガイドマップと案内標識、階段のある散策路、展望台、東屋が整っています。春の開花期には週末・祝日に臨時の路線バスも運行されます。私自身も何度か訪れており、ミツマタの香りの中を歩くのがとても好きです。
   - 津市の案内: [https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html](https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html)
   - 紹介記事(英語): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
-- **観光のアイデア:** 桐だけの林(単一樹種)にして、観光スポットにする案もあります。花の季節に歩けるよう、近くの三椏(ミツマタ)の群生地のように、観光客が歩きやすい散策路を整えます。
 - **名前の由来:** 桐の学名「Paulownia(パウロウニア)」は、オランダ王妃アンナ・パヴロヴナ(1795–1865、ロシア皇帝パーヴェル1世の娘)にちなんで名付けられました。オランダ出身の私にも縁を感じます。
 - **建築への利用例(参考動画):** 3〜4年生の桐の幹からモジュール式の木造壁をつくるドイツ企業(WeGrow)の紹介動画(ドイツ語)です。燃料以外の小径木の使い道として、ご参考までに。企業側の説明で、日本での建築認可などは未確認です。 [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 - **栽培の参考動画:** 「Paulownia: Soil Requirements and Irrigation (Part 1/2)」(英語、WeGrow)。スペインの平坦な農地での解説で、深さ約2mの試掘穴で土の深い層を確認する方法や、苗木の保護筒の使い方が紹介されています。企業側の説明で、御杖村の急傾斜・寒冷地にそのまま当てはまるかは未確認です(灌水は雨の多い御杖村では不要と考えます)。 [https://www.youtube.com/watch?v=U3aYyN7PaLo](https://www.youtube.com/watch?v=U3aYyN7PaLo)
@@ -91,7 +88,6 @@ Ahead of our meeting on 22 October, here is feedback from a local expert on plan
 - **A tourism idea:** A kiri-only grove could become a tourist attraction, with tourist-friendly paths so visitors can walk among the flowers in season. The model is the mitsumata colony in Misugi-cho, Tsu City, Mie, right next to Mitsue. Mitsumata was planted there from the mid-1950s; large-scale thinning in 2012 greatly increased the trees, and it became a new tourist attraction. It has a guide map and direction signs, a stepped promenade through the colony, an observation deck and a gazebo. Special weekend and holiday buses run in the spring bloom season. I have visited this forest myself a few times and really enjoy walking through the fragrance of the mitsumata.
   - Tsu City page: [https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html](https://www.info.city.tsu.mie.jp/www/sp/contents/1517810351164/index.html)
   - Article (English): [https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata](https://gigazine.net/gsc_news/en/20250323-misugi-mitsumata)
-- **A tourism idea:** A kiri-only grove could become a tourist attraction. Make the paths tourist-friendly, like the mitsumata forest close to Mitsue, so visitors can walk among the flowers in season.
 - **The name:** The scientific name *Paulownia* honours Anna Pavlovna (1795–1865), Queen of the Netherlands and daughter of Tsar Paul I of Russia. As a Dutchman, I like that connection. (Wikipedia: Anna Pavlovna of Russia.)
 - **A building use (reference video):** A German company (WeGrow) shows modular wooden walls made from 3–4-year-old kiri trunks (video in German). Shared as an example of a use for small-diameter trunks beyond fuel. It is the company's own presentation; I have not checked Japanese building approvals. [https://www.youtube.com/watch?v=z0Z8BWDHuW8](https://www.youtube.com/watch?v=z0Z8BWDHuW8)
 - **A cultivation video:** "Paulownia: Soil Requirements and Irrigation (Part 1/2)" (English, WeGrow), a flat Spanish farm, showing how to check the deeper soil with a ~2 m test pit and how tree guards are used. It is the company's own guidance; I have not checked whether it applies to steep, cold land like Mitsue (irrigation should not be needed with Mitsue's rainfall). [https://www.youtube.com/watch?v=U3aYyN7PaLo](https://www.youtube.com/watch?v=U3aYyN7PaLo)
