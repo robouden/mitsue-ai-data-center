@@ -1,81 +1,4 @@
 {
-  "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "Task",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code post-task'"
-          }
-        ]
-      },
-      {
-        "matcher": "TodoWrite",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code post-todo'"
-          }
-        ]
-      }
-    ],
-    "PreToolUse": [
-      {
-        "matcher": "Task",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code pre-task'"
-          }
-        ]
-      }
-    ],
-    "SessionEnd": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code session-end'"
-          }
-        ]
-      }
-    ],
-    "SessionStart": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then printf \"%s\\n\" \"{\\\"systemMessage\\\":\\\"\\\\n\\\\nEntire CLI is enabled but not installed or not on PATH.\\\\nInstallation guide: https://docs.entire.io/cli/installation#installation-methods\\\"}\"; exit 0; fi; exec entire hooks claude-code session-start'"
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code stop'"
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "sh -c 'if ! command -v entire >/dev/null 2>&1; then exit 0; fi; exec entire hooks claude-code user-prompt-submit'"
-          }
-        ]
-      }
-    ]
-  },
   "permissions": {
     "additionalDirectories": [
       "/tmp/mitsue_pdf"
@@ -108,15 +31,12 @@
       "Bash(node convert_md_to_pdf.js mitsue_frontpage.html mitsue_frontpage_jp.html)",
       "Bash(fc-list \"Noto Sans CJK JP\")",
       "Bash(node convert_md_to_pdf.js mitsue_frontpage_jp.html)",
-      "Bash(convert -size 400x400 'xc:#f5f1ea' -font /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc -pointsize 260 -fill '#1c1c1a' -gravity center -annotate 0 御 '/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/assets/logo_go.png')",
+      "Bash(convert -size 400x400 'xc:#f5f1ea' -font /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc -pointsize 260 -fill '#1c1c1a' -gravity center -annotate 0 \u5fa1 '/home/rob/Documents/Mitsue/Mitsue Village Project AI data center/assets/logo_go.png')",
       "Bash(node convert_md_to_pdf.js mitsue_frontpage.html)",
       "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/tsuemi_hime_and_the_seven_dwarfs.md\")",
-      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/つえみ姫と七人の森の精.md\")",
+      "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/\u3064\u3048\u307f\u59eb\u3068\u4e03\u4eba\u306e\u68ee\u306e\u7cbe.md\")",
       "Bash(node convert_md_to_pdf.js --theme=github \"Docs extra/Fairytale/Fairy Tale Two-Page Summary.md\")",
       "Bash(pdfinfo \"Fairy Tale Two-Page Summary.pdf\")"
-    ],
-    "deny": [
-      "Read(./.entire/metadata/**)"
     ]
   }
 }
