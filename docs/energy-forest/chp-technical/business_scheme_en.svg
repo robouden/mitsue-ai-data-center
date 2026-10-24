@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" width="1040" height="560" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="g" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L7,4 L0,8 z" fill="#00b38a"/></marker>
+    <marker id="o" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L7,4 L0,8 z" fill="#ff7f50"/></marker>
+  </defs>
+  <rect width="1040" height="560" fill="#fff"/>
+  <!-- title -->
+  <rect x="20" y="11" width="1000" height="43" fill="#00a5b5"/>
+  <text x="520" y="33" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="23" font-weight="bold" letter-spacing="9">Business Scheme</text>
+
+  <!-- Shin Energy top -->
+  <rect x="362" y="87" width="258" height="28" fill="#00a5b5"/>
+  <text x="491" y="101" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="bold">Shin Energy Co., Ltd.</text>
+  <line x1="491" y1="115" x2="491" y2="123" stroke="#00b38a" stroke-width="2"/>
+  <rect x="366" y="123" width="250" height="26" fill="#d8eef0"/>
+  <text x="380" y="136" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Design &amp; Construction</text>
+  <text x="520" y="136" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Maintenance</text>
+  <line x1="491" y1="149" x2="491" y2="164" stroke="#00b38a" stroke-width="2" marker-end="url(#g)"/>
+
+  <!-- main -->
+  <rect x="343" y="170" width="295" height="261" fill="#00a5b5"/>
+  <text x="491" y="213" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="16" font-weight="bold">Aridagawa Biomass Co., Ltd.</text>
+  <rect x="362" y="259" width="258" height="143" fill="#fff"/>
+  <path d="M491,286 l-9,16 h5 l-8,13 h24 l-8,-13 h5 z M491,315 v6" fill="none" stroke="#00a5b5" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="491" y="335" text-anchor="middle" dominant-baseline="central" fill="#555" font-size="15" font-weight="bold">Aridagawa Biomass Power Plant</text>
+  <rect x="389" y="349" width="204" height="23" fill="#fff" stroke="#00a5b5" stroke-width="1.5"/>
+  <text x="491" y="361" text-anchor="middle" dominant-baseline="central" fill="#00a5b5" font-size="11.5" font-weight="bold">Power generation capacity: 900 kW</text>
+
+  <!-- left side -->
+  <rect x="50" y="259" width="164" height="29" fill="#00a5b5"/>
+  <text x="132" y="273" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11.5" font-weight="bold">Aridagawa Town, etc.</text>
+  <line x1="214" y1="273" x2="340" y2="273" stroke="#00b38a" stroke-width="2" marker-end="url(#g)"/>
+  <rect x="232" y="259" width="84" height="29" fill="#d8eef0"/>
+  <text x="274" y="273" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Land Lease</text>
+
+  <rect x="50" y="301" width="164" height="47" fill="#00a5b5"/>
+  <text x="60" y="313" dominant-baseline="central" fill="#fff" font-size="10.5" font-weight="bold">• Harami Forestry Co., Ltd.</text>
+  <text x="60" y="334" dominant-baseline="central" fill="#fff" font-size="10.5" font-weight="bold">• Local foresters, etc.</text>
+  <line x1="214" y1="325" x2="358" y2="325" stroke="#00b38a" stroke-width="2" marker-end="url(#g)"/>
+  <rect x="232" y="311" width="84" height="28" fill="#d8eef0"/>
+  <text x="274" y="325" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Timber Supply</text>
+
+  <!-- right side arrows (behind labels) -->
+  <g stroke="#00b38a" stroke-width="2" marker-end="url(#g)">
+    <line x1="770" y1="184" x2="642" y2="184"/><line x1="770" y1="218" x2="642" y2="218"/>
+    <line x1="770" y1="251" x2="642" y2="251"/><line x1="770" y1="284" x2="642" y2="284"/>
+    <line x1="770" y1="317" x2="642" y2="317"/><line x1="770" y1="351" x2="642" y2="351"/>
+    <line x1="770" y1="385" x2="642" y2="385"/><line x1="770" y1="418" x2="642" y2="418"/>
+  </g>
+  <!-- financing -->
+  <rect x="672" y="171" width="93" height="61" fill="#d8eef0"/>
+  <text x="718" y="201" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="11" font-weight="bold">Financing</text>
+  <g fill="#00a5b5"><rect x="770" y="171" width="220" height="26"/><rect x="770" y="205" width="220" height="26"/></g>
+  <g fill="#fff" font-size="11.5" font-weight="bold" text-anchor="middle" dominant-baseline="central">
+    <text x="880" y="184">Kiyo Bank, Ltd.</text>
+    <text x="880" y="218">Japan Finance Corporation</text>
+  </g>
+  <!-- investment -->
+  <rect x="672" y="238" width="22" height="193" fill="#d8eef0"/>
+  <text transform="translate(683,334) rotate(-90)" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="11" font-weight="bold">Investment</text>
+  <rect x="700" y="238" width="65" height="94" fill="#d8eef0"/>
+  <text transform="translate(733,285) rotate(-90)" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Common Shares</text>
+  <rect x="700" y="338" width="65" height="93" fill="#d8eef0"/>
+  <text transform="translate(733,384) rotate(-90)" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Silent Partnership</text>
+  <g fill="#00a5b5">
+    <rect x="770" y="238" width="220" height="26"/><rect x="770" y="271" width="220" height="26"/><rect x="770" y="304" width="220" height="26"/>
+    <rect x="770" y="338" width="220" height="26"/><rect x="770" y="372" width="220" height="26"/><rect x="770" y="405" width="220" height="26"/>
+  </g>
+  <g fill="#fff" font-size="11.5" font-weight="bold" text-anchor="middle" dominant-baseline="central">
+    <text x="880" y="251">Harami Forestry Co., Ltd.</text>
+    <text x="880" y="284">Kawaguchi Construction Co., Ltd.</text>
+    <text x="880" y="317">Shin Energy Co., Ltd.</text>
+    <text x="880" y="351">JR West Innovations Co., Ltd.</text>
+    <text x="880" y="385">Chubu Electric Power Co., Inc.</text>
+    <text x="880" y="418">Local Businesses &amp; Residents</text>
+  </g>
+
+  <!-- bottom -->
+  <rect x="340" y="441" width="85" height="28" fill="#fde3d9"/>
+  <text x="382" y="455" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Electricity Sales</text>
+  <line x1="382" y1="431" x2="382" y2="441" stroke="#ff7f50" stroke-width="2"/>
+  <line x1="382" y1="469" x2="382" y2="484" stroke="#ff7f50" stroke-width="2" marker-end="url(#o)"/>
+  <rect x="320" y="488" width="125" height="38" fill="#ff7f50"/>
+  <text x="382" y="500" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold">Kansai Electric</text>
+  <text x="382" y="514" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold">Power Co., Inc.</text>
+
+  <rect x="525" y="441" width="85" height="28" fill="#fde3d9"/>
+  <text x="567" y="455" text-anchor="middle" dominant-baseline="central" fill="#333" font-size="10.5" font-weight="bold">Heat Sales</text>
+  <line x1="567" y1="431" x2="567" y2="441" stroke="#ff7f50" stroke-width="2"/>
+  <line x1="567" y1="469" x2="567" y2="484" stroke="#ff7f50" stroke-width="2" marker-end="url(#o)"/>
+  <rect x="505" y="488" width="125" height="38" fill="#ff7f50"/>
+  <text x="567" y="500" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold">Kanaya Myoekyo</text>
+  <text x="567" y="514" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="11" font-weight="bold">Onsen</text>
+</svg>
