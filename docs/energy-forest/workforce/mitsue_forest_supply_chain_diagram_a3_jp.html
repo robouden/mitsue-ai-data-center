@@ -1,4 +1,4 @@
-<!-- File: mitsue_forest_supply_chain_diagram_a3_jp.html | Version: v1.2 | Last modified: 2026-10-09 -->
+<!-- File: mitsue_forest_supply_chain_diagram_a3_jp.html | Version: v1.3 | Last modified: 2026-10-24 -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -34,7 +34,7 @@
 </head>
 <body>
 <div class="page">
-  <div class="header"><div><h1>御杖村の森林・木材の流れ ― 現在わかっていること</h1><div class="sub">森林所有者から買い手、将来のCHP・AIデータセンターまで。緑＝確認済み、灰色の点線＝不明・未確認、青の点線＝将来。</div></div><div class="meta">Version: v1.2 | Last modified: 2026-10-09</div></div>
+  <div class="header"><div><h1>御杖村の森林・木材の流れ ― 現在わかっていること</h1><div class="sub">森林所有者から買い手、将来のCHP・AIデータセンターまで。緑＝確認済み、灰色の点線＝不明・未確認、青の点線＝将来。</div></div><div class="meta">Version: v1.3 | Last modified: 2026-10-24</div></div>
   <div class="legend"><span class="lg l0">実線の箱＝確認済み</span><span class="lg l1">灰色の点線＝不明・未確認</span><span class="lg l2">青の点線＝将来（未建設）</span><span class="lg l3">点線の矢印＝未確認または提案</span></div>
   <div class="main"><div class="diagram"><pre class="mermaid">
 flowchart TD
@@ -53,7 +53,9 @@ flowchart TD
 
     coopcrew["森林組合の現場班<br/>2名、平均年齢約33歳"]
     yamaguchi["個人の林業者<br/>活動を確認済み・自伐型林業<br/>地域おこし協力隊（林業部門）<br/>随時・所有者からの依頼<br/>木材は美杉市場へ<br/>燃料供給者にはならない意向"]
-    tokuda["徳田林産<br/>本社 神末・社員7名＋臨時15名<br/>山林と立木を購入し<br/>市場・製材所へ直送（桜井等）<br/>三重事務所2018年・村との関係は確認できず"]
+    tokuda["徳田林産<br/>本社 神末・社員7名＋臨時15名<br/>山林と立木を購入し<br/>市場・製材所へ直送（桜井等）<br/>三重事務所2018年・村との関係は確認できず<br/>2026-10-24面会・役割未定"]
+    yamauchi["民間の山林所有者（山内氏・SANSEI）<br/>15haの山林・桐の植栽希望<br/>試作の早期立上げに有望だが<br/>後期段階には不足・未定"]
+    iino["飯野美創（飯野瑛司）<br/>伐採・運搬業者、土屋原<br/>2026-10に面会・木村氏・山口氏と<br/>つながりがあるとされる（未確認）"]
     otherindep["その他の個人林業者<br/>10以上（本人の推測・未確認）"]
     miesup["三重側（美杉）の事業者？<br/>未確認"]
     corps["地域おこし協力隊 自伐型林業<br/>任期最長3年<br/>過去2年は採用ゼロ"]
@@ -62,6 +64,8 @@ flowchart TD
     forest --> coopcrew
     forest --> yamaguchi
     forest -.-> tokuda
+    forest -.-> yamauchi
+    forest -.-> iino
     forest -.-> otherindep
     forest -.-> corps
     corps -.-> loan
@@ -74,9 +78,11 @@ flowchart TD
 
     mill["牛峠工場<br/>組合のチップ・乾燥加工センター"]
     coopcrew -->|"年約120〜300m3"| mill
+    yamauchi -.->|"試作用の木材の可能性・未定"| mill
 
     gate["提案：オープンゲート燃料土場<br/>どの事業者もC・D材を規格どおり<br/>公表の受入価格で搬入<br/>組合＝加工・買取"]
     otherindep -.-> gate
+    iino -.-> gate
     tokuda -.-> gate
     miesup -.-> gate
     gate -.-> mill
@@ -84,6 +90,7 @@ flowchart TD
     machine["提案：共有ハーベスタ<br/>コマツ901XCまたは931XC試験導入<br/>所有者は未定（村・NGO・組合）<br/>全事業者に同条件"]
     machine -.-> coopcrew
     machine -.-> otherindep
+    machine -.-> iino
     vh -.-> machine
 
     misugi["美杉の原木市場（西垣林業）<br/>本人の丸太の販売先"]
@@ -126,7 +133,7 @@ flowchart TD
     classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
 
     class own1,forest,coopcrew,yamaguchi,tokuda,leftover,mill,gA,gB,gCD,misugi known
-    class own2,own3,vh,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
+    class own2,own3,vh,iino,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup,yamauchi unknown
     class chp,dc,grid,dry,compute,gate,machine future
 </pre></div>
   <div class="qbox"><h2>未確認事項</h2><ol><li><b>村有林はあるか？</b> 2026-08-05に質問、回答なし。</li><li><b>共有地（財産区・入会）は？</b> 御杖村の記録なし。確認できたのは天川村のみ。</li><li><b>木材の行き先：</b>個人林業者は美杉市場へ、徳田林産は製材所・桜井市場へ（同社サイト）。組合の流れは未確認。</li><li><b>他に誰が活動しているか？</b> 個人林業者10以上（本人の推測）、山本製材所（神末）の状況は不明、三重側の事業者は未確認。</li><li><b>徳田林産は村内で伐採しているか、</b>主に三重・桜井か？ 大場様へ2026-10-09に質問（返信待ち）。</li><li><b>村費の間伐・村有林の事業者はどう選ばれるか？</b> 2026-10-09に質問。</li><li><b>所有者：</b>会や意向調査の結果は？ 組合員数・面積は？ 2026-10-09に質問。</li><li><b>組合の経営状況：</b>資料は未確認。「経営難」は仮説にすぎない。</li><li><b>温泉の木材：</b>等級・量、組合以外の供給元は？</li><li><b>B材の行き先</b>（合板か、CHP燃料か）で実際のCHP燃料量が変わる。</li><li><b>組合と検討する提案：</b>オープンゲート土場、共有ハーベスタ、その所有者。</li></ol></div></div>

@@ -1,4 +1,4 @@
-<!-- Version: v1.6 | Last modified: 2026-10-09 -->
+<!-- Version: v1.8 | Last modified: 2026-10-24 -->
 
 # 御杖村の森林・木材の流れ ― 現在わかっていること
 
@@ -22,7 +22,9 @@ flowchart TD
 
     coopcrew["森林組合の現場班<br/>2名、平均年齢約33歳"]
     yamaguchi["個人の林業者<br/>活動を確認済み・自伐型林業<br/>地域おこし協力隊（林業部門）<br/>随時・所有者からの依頼<br/>木材は美杉市場へ<br/>燃料供給者にはならない意向"]
-    tokuda["徳田林産<br/>本社 神末・社員7名＋臨時15名<br/>山林と立木を購入し<br/>市場・製材所へ直送（桜井等）<br/>三重事務所2018年・村との関係は確認できず"]
+    tokuda["徳田林産<br/>本社 神末・社員7名＋臨時15名<br/>山林と立木を購入し<br/>市場・製材所へ直送（桜井等）<br/>三重事務所2018年・村との関係は確認できず<br/>2026-10-24面会・役割未定"]
+    yamauchi["民間の山林所有者（山内氏・SANSEI）<br/>15haの山林・桐の植栽希望<br/>試作の早期立上げに有望だが<br/>後期段階には不足・未定"]
+    iino["飯野美創（飯野瑛司）<br/>伐採・運搬業者、土屋原<br/>2026-10に面会・木村氏・山口氏と<br/>つながりがあるとされる（未確認）"]
     otherindep["その他の個人林業者<br/>10以上（本人の推測・未確認）"]
     miesup["三重側（美杉）の事業者？<br/>未確認"]
     corps["地域おこし協力隊 自伐型林業<br/>任期最長3年<br/>過去2年は採用ゼロ"]
@@ -31,6 +33,8 @@ flowchart TD
     forest --> coopcrew
     forest --> yamaguchi
     forest -.-> tokuda
+    forest -.-> yamauchi
+    forest -.-> iino
     forest -.-> otherindep
     forest -.-> corps
     corps -.-> loan
@@ -43,9 +47,11 @@ flowchart TD
 
     mill["牛峠工場<br/>組合のチップ・乾燥加工センター"]
     coopcrew -->|"年約120〜300m3"| mill
+    yamauchi -.->|"試作用の木材の可能性・未定"| mill
 
     gate["提案：オープンゲート燃料土場<br/>どの事業者もC・D材を規格どおり<br/>公表の受入価格で搬入<br/>組合＝加工・買取"]
     otherindep -.-> gate
+    iino -.-> gate
     tokuda -.-> gate
     miesup -.-> gate
     gate -.-> mill
@@ -53,6 +59,7 @@ flowchart TD
     machine["提案：共有ハーベスタ<br/>コマツ901XCまたは931XC試験導入<br/>所有者は未定（村・NGO・組合）<br/>全事業者に同条件"]
     machine -.-> coopcrew
     machine -.-> otherindep
+    machine -.-> iino
     vh -.-> machine
 
     misugi["美杉の原木市場（西垣林業）<br/>本人の丸太の販売先"]
@@ -95,7 +102,7 @@ flowchart TD
     classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
 
     class own1,forest,coopcrew,yamaguchi,tokuda,leftover,mill,gA,gB,gCD,misugi known
-    class own2,own3,vh,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
+    class own2,own3,vh,iino,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup,yamauchi unknown
     class chp,dc,grid,dry,compute,gate,machine future
 ```
 

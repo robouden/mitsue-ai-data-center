@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.3 | Last modified: 2026-10-10 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3.html | Version: v1.4 | Last modified: 2026-10-24 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,8 +37,8 @@
   .grid {
     flex: 1; display: grid;
     grid-template-columns: 1fr 1fr 0.62fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "d1 d2 d5" "d3 d4 d5";
+    grid-template-rows: 0.98fr 0.96fr 1.48fr;
+    grid-template-areas: "d1 d2 d5" "d3 d3 d5" "d4 d4 d5";
     gap: 4mm; min-height: 0;
   }
   .cell.d1 { grid-area: d1; }
@@ -74,11 +74,11 @@
       <h1>Mitsue AI Data Center - Entity, Money &amp; Labor Overview</h1>
       <div class="sub">Discussion draft for the Local Forestry Partner meeting</div>
     </div>
-    <div class="meta">Working draft &middot; v1.1 &middot; 2026-09-10</div>
+    <div class="meta">Working draft &middot; v1.4 &middot; 2026-10-24</div>
   </div>
 
   <div class="toprow">
-    <div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign.</div>
+    <div class="banner"><b>Very early draft - concept only.</b> Nothing here is decided or agreed. Starting point for discussion, not a proposal to sign. <b>Newly added harvesting contractor / landowner = contacts only; roles are possibilities, not decisions.</b></div>
     <div class="legend">
       <span><span class="sw" style="background:#2b6cb0"></span>Government</span>
       <span><span class="sw" style="background:#276749"></span>NGO / NPO</span>
@@ -180,6 +180,8 @@ graph TD
     NAIST["NAIST (Shiozaki, Kubo/CDG)"]
     SUGANO["Sugano Organic (Tokuo Aomi)"]
     PRIV["Private harvesters / landowners<br/>- unverified"]
+    HARV["Local harvesting contractor<br/>- contact only, role TBD"]
+    OWNER["Landowner (kiri trial)<br/>- contact only, role TBD"]
 
     COOP -->|plant, tend, harvest, chip, dry| GK
     NGO -->|sets species/eco criteria| COOP
@@ -191,12 +193,14 @@ graph TD
     NAIST -.->|living-lab, student pgm - Phase 0| NGO
     SUGANO -.->|pilot CHP site - exploratory| GK
     PRIV -.->|possible C/D residue supply - unconfirmed| GK
+    HARV -.->|"possible harvest - TBD"| GK
+    OWNER -.->|"possible prototype fast-start - TBD"| GK
     COOP -.->|forest-management plan + felling notices| VILLAGE
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
     class COOP,NGO,GK,VILLAGE confirmed
-    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV tentative
+    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV,HARV,OWNER tentative
 </pre>
       </div>
     </div>
@@ -230,6 +234,8 @@ graph LR
         MIZUHO["Mizuho Securities"]
         SUGANO["Sugano Organic"]
         PRIV["Private harvesters / landowners"]
+        HARV["Local harvesting contractor<br/>- contact only, role TBD"]
+        OWNER["Landowner (kiri trial)<br/>- contact only, role TBD"]
         YOSHINO["Yoshino biomass plant<br/>existing C/D outlet"]
         CORP["Corporate partners<br/>unconfirmed"]
         LEGAL["Legal (pro bono)<br/>Linklaters, TMI, Hotta"]
@@ -254,6 +260,8 @@ graph LR
     SUGANO -.->|pilot site - exploratory| GK
     PRIV -.->|possible C/D residue supply - unconfirmed| GK
     PRIV -.->|C/D wood - assumed, unverified| YOSHINO
+    HARV -.->|"possible harvest - TBD"| GK
+    OWNER -.->|"possible prototype fast-start - TBD"| GK
     LEGAL -.->|pro bono, confirmed| NGO
     NAIST -.->|living lab - Phase 0| NGO
 
@@ -264,7 +272,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO,HARV,OWNER co
     class COOP coop
     class NAIST acad
 </pre>
@@ -356,7 +364,7 @@ graph TD
 
   <div class="footer">
     <span>Mitsue Village AI Data Center Project - internal working draft, not for external distribution</span>
-    <span>Source: repo docs (funding flowchart, entity-structure decks, stakeholder map, meeting notes) &middot; 2026-08-01</span>
+    <span>Source: repo docs (funding flowchart, entity-structure decks, stakeholder map, meeting notes) &middot; 2026-10-24</span>
   </div>
 </div>
 
@@ -384,7 +392,7 @@ graph TD
         items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
       });
       if (!items.length) return;
-      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); })) * 0.95;
       items.forEach(function (it) {
         it.svg.style.width = (it.vbW * scale) + 'px';
         it.svg.style.height = (it.vbH * scale) + 'px';
