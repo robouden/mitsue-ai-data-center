@@ -1,4 +1,4 @@
-<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.2 | Last modified: 2026-10-10 -->
+<!-- File: mitsue_kanko_collaboration_diagrams_a3_jp.html | Version: v1.3 | Last modified: 2026-10-24 -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -37,8 +37,8 @@
   .grid {
     flex: 1; display: grid;
     grid-template-columns: 1fr 1fr 0.62fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "d1 d2 d5" "d3 d4 d5";
+    grid-template-rows: 0.98fr 0.96fr 1.48fr;
+    grid-template-areas: "d1 d2 d5" "d3 d3 d5" "d4 d4 d5";
     gap: 4mm; min-height: 0;
   }
   .cell.d1 { grid-area: d1; }
@@ -74,11 +74,11 @@
       <h1>御杖AIデータセンター - 組織・資金・労務体制概要</h1>
       <div class="sub">御杖観光ミーティング用ディスカッション草案</div>
     </div>
-    <div class="meta">作業中草案 &middot; v1.1 &middot; 2026-09-10</div>
+    <div class="meta">作業中草案 &middot; v1.3 &middot; 2026-10-24</div>
   </div>
 
   <div class="toprow">
-    <div class="banner"><b>非常に初期段階の草案 - 概念のみ。</b> ここに記載の内容は何も決定・合意されていません。署名を前提とした提案ではなく、議論の出発点です。</div>
+    <div class="banner"><b>非常に初期段階の草案 - 概念のみ。</b> ここに記載の内容は何も決定・合意されていません。署名を前提とした提案ではなく、議論の出発点です。<b>新たに追加した伐採請負業者・山林所有者は面識があるだけで、役割は可能性であり決定ではありません。</b></div>
     <div class="legend">
       <span><span class="sw" style="background:#2b6cb0"></span>政府</span>
       <span><span class="sw" style="background:#276749"></span>NGO・NPO</span>
@@ -180,6 +180,8 @@ graph TD
     NAIST["NAIST (塩崎・久保/CDG)"]
     SUGANO["菅野オーガニック (青見徳雄)"]
     PRIV["民間伐採業者・土地所有者<br/>- 未確認"]
+    HARV["地元の伐採請負業者<br/>- 面識のみ・役割未定"]
+    OWNER["山林所有者（桐の試験植栽）<br/>- 面識のみ・役割未定"]
 
     COOP -->|植林 保育 伐採 チップ化 乾燥| GK
     NGO -->|樹種/生態基準を設定| COOP
@@ -191,12 +193,14 @@ graph TD
     NAIST -.->|リビングラボ 学生プログラム - フェーズ0| NGO
     SUGANO -.->|CHP試験地 - 検討中| GK
     PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    HARV -.->|"伐採の可能性 - 未定"| GK
+    OWNER -.->|"試作の早期立上げに有望 - 未定"| GK
     COOP -.->|"森林経営計画・伐採届"| VILLAGE
 
     classDef confirmed fill:#2c5282,color:#fff,stroke:#1a365d,stroke-width:1px
     classDef tentative fill:#718096,color:#fff,stroke:#4a5568,stroke-width:1px
     class COOP,NGO,GK,VILLAGE confirmed
-    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV tentative
+    class MORETREES,ADVISORS,NAIST,SUGANO,PRIV,HARV,OWNER tentative
 </pre>
       </div>
     </div>
@@ -230,6 +234,8 @@ graph LR
         MIZUHO["みずほ証券"]
         SUGANO["菅野オーガニック"]
         PRIV["民間伐採業者・土地所有者"]
+        HARV["地元の伐採請負業者<br/>- 面識のみ・役割未定"]
+        OWNER["山林所有者（桐の試験植栽）<br/>- 面識のみ・役割未定"]
         YOSHINO["吉野発電所<br/>既存のC/D材の受入先"]
         CORP["企業パートナー<br/>未確定"]
         LEGAL["法務アドバイザー - 無償<br/>リンクレーターズ、TMI、堀田"]
@@ -253,6 +259,8 @@ graph LR
     CORP -.->|CSR - 未確定| NGO
     SUGANO -.->|試験地 - 検討中| GK
     PRIV -.->|"C/D材の残材供給の可能性 - 未確定"| GK
+    HARV -.->|"伐採の可能性 - 未定"| GK
+    OWNER -.->|"試作の早期立上げに有望 - 未定"| GK
     PRIV -.->|"C/D材 - 推定・未確認"| YOSHINO
     LEGAL -.->|法律助言 - 無償協力確定| NGO
     NAIST -.->|リビングラボ - フェーズ0| NGO
@@ -264,7 +272,7 @@ graph LR
     classDef acad fill:#b83280,color:#fff,stroke:#702459,stroke-width:1px
     class VILLAGE,NARA,NATIONAL gov
     class NGO,MORETREES,FOUND ngo
-    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO co
+    class GK,MIZUHO,CORP,SUGANO,LEGAL,PRIV,YOSHINO,HARV,OWNER co
     class COOP coop
     class NAIST acad
 </pre>
@@ -356,7 +364,7 @@ graph TD
 
   <div class="footer">
     <span>御杖村AIデータセンタープロジェクト - 内部作業草案、外部配布不可</span>
-    <span>出典: リポジトリ資料（資金フロー図、組織構造資料、ステークホルダーマップ、議事録）&middot; 2026-08-01</span>
+    <span>出典: リポジトリ資料（資金フロー図、組織構造資料、ステークホルダーマップ、議事録）&middot; 2026-10-24</span>
   </div>
 </div>
 
@@ -384,7 +392,7 @@ graph TD
         items.push({ svg: svg, vbW: vb[2], vbH: vb[3], cw: container.clientWidth, ch: container.clientHeight });
       });
       if (!items.length) return;
-      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); }));
+      var scale = Math.min.apply(null, items.map(function (it) { return Math.min(it.cw / it.vbW, it.ch / it.vbH); })) * 0.95;
       items.forEach(function (it) {
         it.svg.style.width = (it.vbW * scale) + 'px';
         it.svg.style.height = (it.vbH * scale) + 'px';

@@ -1,4 +1,4 @@
-<!-- Version: v1.9 | Last modified: 2026-10-13 -->
+<!-- Version: v1.10 | Last modified: 2026-10-24 -->
 
 # Mitsue Forest Supply Chain — What We Currently Have
 
@@ -25,7 +25,8 @@ flowchart TD
 
     coopcrew["森林組合 field crew<br/>2 people, avg age ~33"]
     yamaguchi["Independent harvester<br/>confirmed active - 自伐型林業,<br/>協力隊 forestry division,<br/>ad hoc, owner-commissioned;<br/>sells to Misugi market;<br/>declines to be a fuel supplier"]
-    tokuda["徳田林産 Tokuda Rinsan<br/>HQ 神末; 7 staff + 15 temp;<br/>buys land and timber, sells direct<br/>to mills and markets (Sakurai);<br/>Mie office 2018; no village tie found"]
+    tokuda["徳田林産 Tokuda Rinsan<br/>HQ 神末; 7 staff + 15 temp;<br/>buys land and timber, sells direct<br/>to mills and markets (Sakurai);<br/>Mie office 2018; no village tie found;<br/>met 2026-10-24, role TBD"]
+    yamauchi["Private landowner (Yamauchi, SANSEI)<br/>15 ha parcel, kiri planting wish;<br/>possible fast start for prototype,<br/>not enough for later phases - TBD"]
     iino["飯野美創 Iino Bisou (飯野瑛司)<br/>harvester / transporter, 土屋原;<br/>met 2026-10; reportedly linked to<br/>Kimura and Yamaguchi (unconfirmed)"]
     otherindep["Other independent harvesters<br/>10+ (his estimate, unverified)"]
     miesup["Mie-side operators (Misugi) ?<br/>unverified"]
@@ -35,6 +36,7 @@ flowchart TD
     forest --> coopcrew
     forest --> yamaguchi
     forest -.-> tokuda
+    forest -.-> yamauchi
     forest -.-> otherindep
     forest -.-> iino
     forest -.-> corps
@@ -48,6 +50,7 @@ flowchart TD
 
     mill["牛峠工場<br/>coop chip/dry processing centre"]
     coopcrew -->|"~120-300 m3/yr"| mill
+    yamauchi -.->|"possible prototype wood - TBD"| mill
 
     gate["PROPOSAL: open-gate fuel yard<br/>any operator delivers C/D wood<br/>to spec at a posted gate price;<br/>coop = processor and buyer"]
     otherindep -.-> gate
@@ -102,7 +105,7 @@ flowchart TD
     classDef future fill:#3a4f7a,stroke:#22315c,stroke-width:1.4px,color:#ffffff,stroke-dasharray:5 4
 
     class own1,forest,coopcrew,yamaguchi,tokuda,leftover,mill,gA,gB,gCD,misugi known
-    class own2,own3,vh,iino,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup unknown
+    class own2,own3,vh,iino,otherindep,miesup,corps,loan,sawmkt,sakurai,yamamoto,plymkt,niwa,onsen,othersup,yamauchi unknown
     class chp,dc,grid,dry,compute,gate,machine future
 ```
 

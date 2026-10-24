@@ -1,4 +1,4 @@
-<!-- File: mitsue_email_ohba_land_ownership_map_2026-10-15.md | Version: v0.1 | Last modified: 2026-10-15 -->
+<!-- File: mitsue_email_ohba_land_ownership_map_2026-10-15.md | Version: v0.2 | Last modified: 2026-10-24 -->
 
 **Status: DRAFT, NOT SENT. Show Rob for approval before sending.**
 
@@ -15,12 +15,12 @@
 
 産業建設課 大場様
 
-いつもお世話になっております。御杖村 森林エネルギー事業の準備をしておりますロブ・ウーデンダイクです。先日は計画資料のご案内と、メールでのご回答をありがとうございました。
+いつもお世話になっております。御杖村 森林エネルギー事業の準備をしておりますロブ・アウデンダイクです。先日は計画資料のご案内と、10月21日のメールでの丁寧なご回答をありがとうございました。
 
 村内の森林の位置・面積・所有区分を把握するための資料について、ご相談です。木質バイオマス（熱電併給）の燃料供給を検討するための調査・準備段階であり、現時点で契約や事業の確定はございません。
 
 1. **林地台帳と地図（GIS）データ**
-   森林法第191条の4に基づく林地台帳と、付属の地図データを閲覧、または写しをいただくことは可能でしょうか。必要な手続き（申請書、本人確認など）もお教えください。
+   所有者のデータは現状ないとのこと、承知いたしました。そのうえで、森林法第191条の4に基づく林地台帳と、付属の地図データを閲覧、または写しをいただくことは可能でしょうか。必要な手続き（申請書、本人確認など）もお教えください。
 
 2. **所有者情報の範囲**
    所有者のお名前を開示いただけない場合は、所有者の区分（個人・法人・財産区・村有など）、面積、林班・小班、地番のみでも構いません。どこまで可能か、お教えいただけますでしょうか。
@@ -43,9 +43,9 @@ Request to view / receive the forest land ledger and forest map data
 
 Dear Ohba-san,
 
-Thank you for the plan documents and your email replies. I would like to ask about data on forest ownership in the village. This is preparatory research for biomass CHP fuel supply planning; no contract or project is decided.
+Thank you for the plan documents and your detailed email answers of 21 October. I would like to ask about data on forest ownership in the village. This is preparatory research for biomass CHP fuel supply planning; no contract or project is decided.
 
-1. **Forest land ledger (林地台帳) and map/GIS data** under Forest Act Art. 191-4: may we view them or receive a copy? What is the procedure (application form, ID)?
+1. **Forest land ledger (林地台帳) and map/GIS data.** Thank you for explaining that the village has no owner data. Even so, under Forest Act Art. 191-4: may we view them or receive a copy? What is the procedure (application form, ID)?
 2. **Scope of owner information:** if owner names cannot be disclosed, owner category (individual / company / 財産区 / village), area, 林班・小班 and 地番 would still help. What is possible?
 3. **Georeferenced map data:** we downloaded the Legal Affairs Bureau's public parcel map, but some sheets are in arbitrary local coordinates and cannot be placed on a map. Could the village share 地籍調査 results (control-point coordinates) or already-placed map data?
 4. **Introduction to owners:** if we later want to discuss biomass use with owners of specific plots, can the village make the introduction?
