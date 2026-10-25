@@ -1,4 +1,4 @@
-<!-- Version: v1.1 | Last modified: 2026-08-06 (added WBS 5.6a prototype CHP/chipper gap flag) -->
+<!-- Version: v1.2 | Last modified: 2026-10-25 (Phase 0 extended to Dec 2026; Phase 1+ shifted ~3 months in schedule note) -->
 <div style="font-family:-apple-system,Helvetica,Arial,sans-serif;">
 <p style="font-size:7.5pt; font-weight:600; letter-spacing:0.25em; color:#3a7a5a; margin:0 0 4mm;">PROJECT DOCUMENT</p>
 <h1 style="font-size:28pt; font-weight:700; margin:0 0 2mm; border-bottom:1px solid #eee; padding-bottom:2mm;">BIOMASS ENERGY & AI</h1>
@@ -33,7 +33,7 @@ The plan covers the **30-month period April 2026 – September 2028**. Phase 4 (
 
 **Data Date for current baseline**: 2026-05-18 (end of Month 2)
 
-> **Schedule reconciliation (2026-07-03).** This PMB is anchored to the original compressed schedule (M1 = Apr 2026, 30 months to Sep 2028). The **live OpenProject Gantt** — now the operative schedule — runs materially later: Phase 0 to Oct 2026, Phase 1 to May 2027, Phase 2 to May 2028, Phase 3 to Nov 2029 (~44 months). Phase 0 is on-track against the Gantt; the earlier sense of slippage came from comparing to this compressed baseline. The monthly PV curve and CPI/SPI figures below remain **Baseline Rev 1** and have **not** been re-timed to the Gantt — re-timing the PMB is the explicit **Baseline Rev 2** deliverable (due M9 / Dec 2026), which will also fold in any confirmed 交付金 amount. Until then, read schedule variance against the live Gantt, not this Rev 1 curve.
+> **Schedule reconciliation (2026-07-03; Phase 0 extended 2026-10-25).** This PMB is anchored to the original compressed schedule (M1 = Apr 2026, 30 months to Sep 2028). The **live OpenProject Gantt** — now the operative schedule — runs materially later: Phase 0 to Dec 2026 (extended from Oct 2026 on 2026-10-25), Phase 1 to Aug 2027, Phase 2 to Aug 2028, Phase 3 to Feb 2030 (~47 months). Phase 0 is on-track against the Gantt; the earlier sense of slippage came from comparing to this compressed baseline. The monthly PV curve and CPI/SPI figures below remain **Baseline Rev 1** and have **not** been re-timed to the Gantt — re-timing the PMB is the explicit **Baseline Rev 2** deliverable (due M9 / Dec 2026), which will also fold in any confirmed 交付金 amount. Until then, read schedule variance against the live Gantt, not this Rev 1 curve.
 
 ---
 

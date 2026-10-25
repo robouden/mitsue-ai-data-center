@@ -1,4 +1,4 @@
-<!-- File: README1.md | Version: v1.0 | Last modified: 2026-08-20 -->
+<!-- File: README1.md | Version: v1.1 | Last modified: 2026-10-25 -->
    
 **BIOMASS ENERGY & AI — バイオマスエネルギーとAI**  
 **Reforesting in Mitsue — 御杖村における地域植林**  
@@ -12,7 +12,7 @@
 | **Location** | Mitsue Village, Nara Prefecture, Japan |   
 | **Initiated** | April 2026 |   
 | **Horizon** | 25 years |   
-| **Current Phase** | Phase 0 — Pre-Foundation (Apr–Oct 2026) |   
+| **Current Phase** | Phase 0 — Pre-Foundation (Apr–Dec 2026) |   
 | **Project Lead** | Rob Oudendijk (YR-Design / Safecast) |   
 | **Document Status** | Working draft, July 3, 2026 |   
    
@@ -48,11 +48,11 @@ All methods, data, financial records, and lessons learned are published under op
 **5. Phased Implementation**  
 The first three years are organised into five phases, each gated by an explicit funding checkpoint. The full phase logic, including hold/descope branches and the funding-source map, is documented in [mitsue_phases_funding_flowchart.md.](mitsue_phases_funding_flowchart.md "mitsue_phases_funding_flowchart.md")  
 flowchart LR  
-     P0["Phase 0<br/>Pre-Foundation<br/>Apr–Oct 2026"]  
-     P1["Phase 1<br/>Foundation<br/>Oct 26–May 27"]  
+     P0["Phase 0<br/>Pre-Foundation<br/>Apr–Dec 2026"]  
+     P1["Phase 1<br/>Foundation<br/>Jan–Aug 27"]  
      P2["Phase 2<br/>Pilot Design<br/>May 27–May 28"]  
      P3["Phase 3<br/>Pilot Build<br/>May 28–Nov 29"]  
-     P4["Phase 4<br/>Operate & Scale<br/>Nov 2029+"]  
+     P4["Phase 4<br/>Operate & Scale<br/>Feb 2030+"]  
    
      G1{{"Gate 1<br/>¥3–8M"}}  
      G2{{"Gate 2<br/>¥30–50M"}}  
@@ -87,17 +87,17 @@ flowchart LR
 | | | | |  
 |-|-|-|-|  
 | **Phase** | **Timeframe** | **Focus** | **Indicative Budget** |   
-| 0. Pre-Foundation | Apr–Oct 2026 | Local trust-building, founding team, draft charter | ¥0–0.5M (self-funded) |   
-| 1. Foundation | Oct 2026–May 2027 | Legal entity, feasibility studies, professional advisors | ¥3–8M |   
-| 2. Pilot Design | May 2027–May 2028 | Detailed engineering, partnerships, permits | ¥15–30M |   
-| 3. Pilot Build | May 2028–Nov 2029 | First-stage construction, commissioning | ¥120–290M |   
-| 4. Operation & Scale | Nov 2029+ | Operations, monitoring, replication | Variable |   
+| 0. Pre-Foundation | Apr–Dec 2026 | Local trust-building, founding team, draft charter | ¥0–0.5M (self-funded) |   
+| 1. Foundation | Jan 2027–Aug 2027 | Legal entity, feasibility studies, professional advisors | ¥3–8M |   
+| 2. Pilot Design | Aug 2027–Aug 2028 | Detailed engineering, partnerships, permits | ¥15–30M |   
+| 3. Pilot Build | Aug 2028–Feb 2030 | First-stage construction, commissioning | ¥120–290M |   
+| 4. Operation & Scale | Feb 2030+ | Operations, monitoring, replication | Variable |   
    
 Funding gates between phases are: **G1 ¥3–8M · G2 ¥30–50M · G3 ¥120–290M · G4 Operating revenue online**. Failure to clear a gate triggers a hold-and-re-pitch cycle rather than acceleration into an under-resourced phase.  
 A more detailed plan, including phase-by-phase deliverables, ROI framework, and risk register, is in [mitsue_implementation_plan.md.](mitsue_implementation_plan.md "mitsue_implementation_plan.md")  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsSeYxZw/lVeDGMACBrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA6fOBdd+dKAKAAAAAElFTkSuQmCC)  
 **6. Current Status — Phase 0**  
-**Period:** Apr–Oct 2026 ·  **Budget:** Self-funded ·  **Posture:** No public announcements, no press.  
+**Period:** Apr–Dec 2026 ·  **Budget:** Self-funded ·  **Posture:** No public announcements, no press.  
 **Completed**  
 - Initial meeting with Vice Mayor of Mitsue (late 2025)  
 - Initial meeting with the local forestry group (early 2026)  
