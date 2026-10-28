@@ -11,7 +11,7 @@ with 産業建設課. Follow up if no reply by ~2026-10-14.
 via the village's **general web inquiry form** — same channel used for the 2026-09-06
 Yamaguchi introduction request (`vill.mitsue.nara.jp` contact form; no direct staff
 email on file for this division, only 0745-95-2001 内線130-135, per
-`docs/team/people_register.md` line 45). This is the division that runs the
+`docs/private/people_register.md` line 45). This is the division that runs the
 地域おこし協力隊（林業部門）, so most likely to know who else is doing forestry work
 locally, corps or independent.
 
