@@ -373,7 +373,7 @@ Mitsue replant spec:
 ## Sources / 出典
 
 - 地域林業パートナー report (village forest ~7,051 ha; ~66 ha/yr thinning; ~120–300 m³/yr;
-  crew avg age ~33) — `Docs extra/地域林業パートナー (Mitsue-mura Forest Owners' Cooperative) Report.md`
+  crew avg age ~33) — `Docs extra/地域林業パートナー (Village Forest Co-op) Report.md`
 - Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues on
   Degraded Forests in Japan* — NIES Fukushima; Mishima Town CHP scenario (≤50 kWe / 750 t/yr,
   simulation — NIES confirmed by email 2026-09-07 no unit was ever installed).

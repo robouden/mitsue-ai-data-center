@@ -67,7 +67,7 @@ published simulation study (not a field study — see note above).
 - At that scale it is both clearly profitable (~+200 M¥ / 50 yr) **and**
   carbon-stable, unlike one-way conversion.
 
-## Open question — for Mitsue Village Forest Association (御杖村森林組合)
+## Open question — for Village Forest Co-op (村の森林組合)
 
 The model gives the *target* (~320 ha sustainably managed). How much of the
 7,051 ha is **actually accessible and harvestable** is a question only the forest
@@ -85,7 +85,7 @@ A drone + LiDAR forest survey (as used in Mishima) is the tool to measure this.
 - Ooba, Nakamura & Togawa (2020), *Promoting Local Revitalization to Solve Issues
   on Degraded Forests in Japan* — NIES Fukushima; Mishima Town CHP precedent.
   See `degraded_forests_paper_summary_and_application.md`.
-- 御杖村森林組合 report — village forest area ~7,051 ha; cooperative throughput.
+- 村の森林組合 report — village forest area ~7,051 ha; cooperative throughput.
 - NEDO small-scale biomass gasification efficiency ranges.
 - Model assumptions (growth curves, prices, costs) are documented inline in
   `forest-twin/forest_model.py` CONFIG; all are tunable and order-of-magnitude.

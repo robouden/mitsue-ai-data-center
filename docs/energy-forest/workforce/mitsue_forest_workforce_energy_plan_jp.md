@@ -230,7 +230,7 @@ ten.forestpower@gmail.com / 0747-63-0321。
 ## 出典 / Sources
 
 - 地域林業パートナーレポート（村森林約7,051 ha、間伐約66 ha/年、素材生産約120〜300 m³/年、
-  平均年齢約33歳）— `Docs extra/地域林業パートナー (Mitsue-mura Forest Owners' Cooperative) Report.md`
+  平均年齢約33歳）— `Docs extra/地域林業パートナー (Village Forest Co-op) Report.md`
 - Ooba, Nakamura & Togawa (2020)『日本の劣化森林問題解決に向けた地域活性化』— NIES福島；
   三島町CHPシナリオ（≤50 kWe / 750 t/年、シミュレーション——国立環境研究所が2026-09-07
   にメールで実機未導入と確認）。

@@ -9,7 +9,7 @@ Reference notes on the cooperative's sawmill/processing facility and its relevan
 
 ## Two sites, one cooperative
 
-The 地域林業パートナー (Mitsue Village Forestry Cooperative, "Local Forestry Partner") operates from **two separate locations** in the village:
+The 地域林業パートナー (Village Forest Co-op, "Local Forestry Partner") operates from **two separate locations** in the village:
 
 | | **Head office (本所)** | **Processing facility (牛峠工場)** |
 |---|---|---|

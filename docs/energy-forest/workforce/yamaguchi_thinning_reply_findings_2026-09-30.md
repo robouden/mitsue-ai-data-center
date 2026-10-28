@@ -22,7 +22,7 @@ Source: Gmail thread「間伐の意思決定プロセスについて教えてく
 - **10+ operators** = a real pool exists; the gap is coordination, not headcount.
 - **Reforestation precedent inside the village**: Kamisue (cherry) and Tsuchiyahara (planned). Relevant to more-trees/native-broadleaf framing — worth finding the 広報 article and who funded it.
 
-## Use at the Oct 2 coop meeting ([forest_coop_2026-10-02_prep_questions.md](../../meetings/forest_coop_2026-10-02_prep_questions.md))
+## Use at the Oct 2 coop meeting ([village_coop_2026-10-02_prep_questions.md](../../meetings/village_coop_2026-10-02_prep_questions.md))
 
 Helpful — confirms the question set is right and sharpens it:
 - **Q2** (do harvesters work through the coop?): now a *verify* question — "some operators tell us they work independently with owners and file 伐採届 jointly; is that common?"

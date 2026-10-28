@@ -107,7 +107,7 @@ My name is Rob Oudendijk, a Dutch national currently preparing a rural revitaliz
 Learning that more trees has carried out thinning and native-forest reforestation work since Ryuichi Sakamoto founded the organisation, I was struck by how closely it echoes our own principle: restoring native broadleaf forest for wildlife habitat and ecosystem health, ahead of short-term timber profit.
 
 **Project at a glance:**
-- A 25-year forest restoration and forestry revitalization programme in Mitsue Village, Nara (implemented by the Mitsue Forestry Cooperative, 地域林業パートナー)
+- A 25-year forest restoration and forestry revitalization programme in Mitsue Village, Nara (implemented by the Village Forest Co-op, 地域林業パートナー)
 - Native broadleaf reforestation prioritizing ecosystem and wildlife habitat over short-term yield
 - A biomass CHP (combined heat and power) system fuelled by forest thinnings, selling power under Japan's FIT scheme (feed-in tariff) — revenue that funds cooperative workforce growth and equipment, which in turn expands both forestry and reforestation capacity (planned as 2 × 0.6 MWe gasifier gensets)
 - Paired with a small AI/edge-compute data center in a repurposed former elementary school

@@ -1,4 +1,4 @@
-<!-- File: forest_coop_2026-10-02_prep_questions.md | Version: v1.7 | Last modified: 2026-09-30 -->
+<!-- File: village_coop_2026-10-02_prep_questions.md | Version: v1.7 | Last modified: 2026-09-30 -->
 
 # 質問リスト — 地域林業パートナー（2026-10-02）
 

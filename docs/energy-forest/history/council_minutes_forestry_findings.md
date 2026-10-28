@@ -48,7 +48,7 @@ Same bottleneck, same mayor, still unresolved six years on.
 
 ### 2.3 施業放置林整備（マネージャー）事業 (Neglected-Forest Management Project) — the village's current mechanism, and its scale
 
-The village's actual current tool for the above: the **same 村森林組合** (Mitsue Village Forest Association, already treated in this project as the sole forestry operator — see [[project_reforestation_principle]]) is contracted to survey long-neglected, un-thinned forest, confirm the owner's intent, and — where the owner can't manage it — the village pays for thinning itself, financed entirely by the 森林環境譲与税. This thinning runs at an unusually high **40% rate** (vs. normal thinning), specifically so the forest needs no further attention for some years afterward.
+The village's actual current tool for the above: the **same 村森林組合** (Village Forest Co-op, already treated in this project as the sole forestry operator — see [[project_reforestation_principle]]) is contracted to survey long-neglected, un-thinned forest, confirm the owner's intent, and — where the owner can't manage it — the village pays for thinning itself, financed entirely by the 森林環境譲与税. This thinning runs at an unusually high **40% rate** (vs. normal thinning), specifically so the forest needs no further attention for some years afterward.
 
 As of the January 2024 session: **approximately 2,600 ha of neglected forest (放置林) still exists village-wide.**
 
@@ -103,7 +103,7 @@ The only 造林-related funding references found are a different kind of activit
 
 Building on §2.2 (workforce bottleneck), §2.3 (village currently funds thinning only), and §2.7 (no village or advocacy-body funding currently reaches new planting):
 
-> Would the Mayor be interested in the NGO taking the lead — in coordination with the village hall — on **reforestation** specifically (new native-broadleaf planting), as distinct from the thinning work the village already funds through 施業放置林整備事業? Concretely: would he support the village setting up **additional funding for 御杖村森林組合 (Mitsue Village Forest Association)** — new machinery and an expanded workforce — so the co-op can carry out this reforestation work, with the NGO directing species selection and site priority per [[project_reforestation_principle]]?
+> Would the Mayor be interested in the NGO taking the lead — in coordination with the village hall — on **reforestation** specifically (new native-broadleaf planting), as distinct from the thinning work the village already funds through 施業放置林整備事業? Concretely: would he support the village setting up **additional funding for 村の森林組合 (Village Forest Co-op)** — new machinery and an expanded workforce — so the co-op can carry out this reforestation work, with the NGO directing species selection and site priority per [[project_reforestation_principle]]?
 
 **Why frame it this way:** it doesn't ask the village to replace or compete with 施業放置林整備事業 — it proposes a second, distinct funding stream for a gap the village currently has no mechanism for (§2.7), operated by the same co-op the village already trusts and contracts (§2.3), with the NGO providing direction rather than asking the village to fund the NGO directly. That mirrors the ordinance-based, co-op-delivered structure the village already uses, rather than proposing something organizationally new.
 

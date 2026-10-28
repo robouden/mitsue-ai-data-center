@@ -14,11 +14,11 @@
 
 <div style="page-break-after:always; break-after:page; height:0; margin:0; padding:0;"></div>
 
-# Mitsue Village Forestry Cooperative (御杖村森林組合)
+# Village Forest Co-op (村の森林組合)
 
 > 先人が植えた森が、今、村を支える力になる。
 
-Here's what I was able to piece together about 御杖村森林組合 (Mitsue Village Forestry Cooperative). A fair amount is well-documented; the financials are the gap, for reasons I'll explain.
+Here's what I was able to piece together about 村の森林組合 (Village Forest Co-op). A fair amount is well-documented; the financials are the gap, for reasons I'll explain.
 
 ### Basics
 
@@ -71,7 +71,7 @@ If it'd help, I can draft a short bilingual inquiry (to the cooperative, the vil
 
 # 
 
-Mitsue Village Forest Cooperative is a small forestry cooperative serving Mitsue Village in Nara Prefecture, Japan. It appears to be run as a local member-based cooperative focused on forest management and timber operations, with a very small staff and a practical, field-oriented structure.
+Village Forest Co-op is a small forestry cooperative serving Mitsue Village in Nara Prefecture, Japan. It appears to be run as a local member-based cooperative focused on forest management and timber operations, with a very small staff and a practical, field-oriented structure.
 
 ## What it does
 
@@ -105,7 +105,7 @@ In short, this is a very small but active local forestry cooperative that combin
 
 Yes — here are the specific sources behind the main facts I mentioned.## Staff count
 
-The “2 field workers + 2 office staff” figure comes from the RINDO recruitment/company page for 御杖村森林組合, which lists **従業員数, 現場作業者：2名 事務職員：2名**.[^1]
+The “2 field workers + 2 office staff” figure comes from the RINDO recruitment/company page for 村の森林組合, which lists **従業員数, 現場作業者：2名 事務職員：2名**.[^1]
 
 ## Business area
 
@@ -125,7 +125,7 @@ The **31,346,000 yen** figure also comes from the same RINDO page, where it is e
 
 ## Ownership and legal status
 
-For a broader institutional description, the Forestry Agency explains that a forest cooperative is a cooperative formed by forest owners to support forest management, guidance, operations outsourcing, joint purchasing, and processing/sales.  That framework fits how 御杖村森林組合 appears to operate locally.[^3][^1]
+For a broader institutional description, the Forestry Agency explains that a forest cooperative is a cooperative formed by forest owners to support forest management, guidance, operations outsourcing, joint purchasing, and processing/sales.  That framework fits how 村の森林組合 appears to operate locally.[^3][^1]
 
 If you want, I can next pull together a **clean fact sheet** with only verified fields, or a **deeper profile** including address, leadership, legal timber certification, and village forestry policy context.
 <span style="display:none">[^10][^11][^4][^5][^6][^7][^8][^9]</span>
@@ -162,7 +162,7 @@ Yes — here are **both**: a polished fact sheet and a bit of broader context wi
 
 ## Fact sheet
 
-- Name: 御杖村森林組合 (Mitsue Village Forest Cooperative).[^1][^2]
+- Name: 村の森林組合 (Village Forest Co-op).[^1][^2]
 - Address: 797 Kozue, Mitsue, Uda District, Nara 633-1301 (office relocated 2026; see internal note).[^2][^3][^4]
 - Phone/FAX: 0745-95-2010 / 0745-95-3388.[^3][^2]
 - Established: January 12, 1952.[^1]
@@ -197,7 +197,7 @@ Would you like me to turn this into a **one-page English profile** or a **table 
 
 [^2]: https://www.goho-wood.jp/nintei_system/user/detail.php?entrepreneur_id=35820\&group_id=114\&address_search=\&recognition_type_search=
 
-[^3]: https://www.mitsue-kanko.jp/sightseeing/御杖村森林組合/
+[^3]: https://www.mitsue-kanko.jp/sightseeing/村の森林組合/
 
 [^4]: https://itp.ne.jp/zenkoku/nara/mitsuemura/oazasugano/290122716300000899
 
@@ -227,11 +227,11 @@ Would you like me to turn this into a **one-page English profile** or a **table 
 
 # 
 
-Here are **both**: a side-by-side comparison with Murou Village Forest Cooperative, and a broader English profile of Mitsue Village Forest Cooperative.
+Here are **both**: a side-by-side comparison with Murou Village Forest Cooperative, and a broader English profile of Village Forest Co-op.
 
 ## Side-by-side
 
-| Item           | 御杖村森林組合                                                                                                         | 室生村森林組合                                                                                          |
+| Item           | 村の森林組合                                                                                                         | 室生村森林組合                                                                                          |
 |:-------------- |:--------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------ |
 | Location       | Mitsue Village, Nara. [^1][^2]                                                                                  | Murou Ono 2439, Uda City, Nara. [^3][^4]                                                         |
 | Staff          | 2 field workers, 2 office staff. [^5]                                                                           | 6 total employees. [^3][^6]                                                                      |
@@ -241,7 +241,7 @@ Here are **both**: a side-by-side comparison with Murou Village Forest Cooperati
 
 ## What Mitsue does
 
-御杖村森林組合 is a very small local forestry cooperative that mainly handles forest management and timber work inside Mitsue Village.  Publicly listed outputs include about 68.3 hectares of thinning and 301 cubic meters of timber production in one year, then 65.98 hectares and 123 cubic meters the next.  That makes it a practical field operation focused on keeping village forests managed rather than a large industrial producer.[^5]
+村の森林組合 is a very small local forestry cooperative that mainly handles forest management and timber work inside Mitsue Village.  Publicly listed outputs include about 68.3 hectares of thinning and 301 cubic meters of timber production in one year, then 65.98 hectares and 123 cubic meters the next.  That makes it a practical field operation focused on keeping village forests managed rather than a large industrial producer.[^5]
 
 ## How it is run
 
@@ -262,7 +262,7 @@ If useful, I can next make this into a **clean English briefing document** or a 
 
 [^1]: https://www.goho-wood.jp/nintei_system/user/detail.php?entrepreneur_id=35820\&group_id=114\&address_search=\&recognition_type_search=
 
-[^2]: https://www.mitsue-kanko.jp/sightseeing/御杖村森林組合/
+[^2]: https://www.mitsue-kanko.jp/sightseeing/村の森林組合/
 
 [^3]: https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010\&action=dispDetailBtn\&kJNo=2903002645961\&kJKbn=1\&jGSHNo=G0avNA8V9bbfMf4CkJeSrw%3D%3D\&fullPart=1\&iNFTeikyoRiyoDtiID=\&kSNo=\&newArrived=\&tatZngy=1\&shogaiKbn=0
 
