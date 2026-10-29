@@ -1,0 +1,6 @@
+# Reproducible with fetch_extract.py, build_db.py, scrape_kaigiroku.py; too large for git
+files/
+text/
+pages/
+uda_city.duckdb
+kaigiroku/
