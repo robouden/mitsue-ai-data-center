@@ -1,0 +1,127 @@
+<!-- File: kiri_sugi_chp_model_flowchart_a3_jp.html | Version: v1.0 | Last modified: 2026-10-31 -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>桐 vs 杉 CHP財務モデル:計算のつながり</title>
+<script src="mermaid11.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; height: 296mm; margin: 0; padding: 0; overflow: hidden; }
+  body { font-family: 'Noto Sans CJK JP','Helvetica Neue',Arial,'Hiragino Sans',sans-serif; color:#1a202c; background:#fff; }
+  .page { width:420mm; height:296mm; overflow:hidden; padding:8mm 10mm 5mm; display:flex; flex-direction:column; }
+  .header { border-bottom:2px solid #1a365d; padding-bottom:3mm; margin-bottom:3mm; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { font-size:22px; color:#1a365d; margin:0; }
+  .sub { color:#4a5568; font-size:11px; margin-top:1.5mm; }
+  .meta { font-size:10px; color:#a0aec0; text-align:right; }
+  .grid { flex:1; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:minmax(0,1.15fr) minmax(0,0.85fr) auto; grid-template-areas:"d1 d2" "d3 d3" "kr kr"; gap:5mm; min-height:0; }
+  .d1{grid-area:d1} .d2{grid-area:d2} .d3{grid-area:d3} .kr{grid-area:kr}
+  .cell { border:1px solid #e2e8f0; border-radius:5px; padding:3mm 4mm 2mm; display:flex; flex-direction:column; min-height:0; min-width:0; }
+  .cell h2 { font-size:15px; color:#1a365d; margin:0 0 1mm; }
+  .diagram { flex:1; min-height:0; min-width:0; text-align:center; overflow:visible; padding-bottom:3mm; }
+  .kr { background:#f7fafc; }
+  .kr ul { margin:0; padding-left:5mm; columns:2; font-size:11.5px; line-height:1.4; }
+  .xl { margin-top:1.5mm; font-size:11px; color:#1a365d; border-top:1px solid #e2e8f0; padding-top:1.5mm; } .xl a { color:#2b6cb0; }
+  .footer { font-size:9px; color:#a0aec0; border-top:1px solid #e2e8f0; padding-top:1.5mm; margin-top:2mm; }
+  .diagram .flowchart-link { stroke:#4a5568 !important; stroke-width:1.5px !important; }
+  .diagram marker path, .diagram .arrowMarkerPath { fill:#4a5568 !important; stroke:#4a5568 !important; }
+  .diagram .node text, .diagram .nodeLabel { font-size:15px !important; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header"><div><h1>桐 vs 杉 CHP財務モデル:計算のつながり</h1><div class="sub">作業モデル v1.0(2026-10-31)。青=入力、灰=計算、緑=結果、赤=最重要の変数。費用はすべて仮置きで、見積ではありません。</div></div><div class="meta">v1.0 &middot; 2026-10-31</div></div>
+  <div class="grid">
+    <div class="cell d1"><h2>1. 全体像:何が何に効くか</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    IN["<b>入力</b><br/>稼働時間、効率、<br/>売電単価、<br/>補助率、金利"] --> PLANT["<b>発電所(50 / 1200 kWe)</b><br/>燃料必要量、収入、<br/>運転費、設備費"]
+    FP["<b>燃料価格</b><br/>円/生t"] --> PLANT
+    FP --> KIRI["<b>桐 1haあたり</b><br/>収量、植栽費"]
+    IN --> CO2["<b>CO2クレジット</b><br/>吸収量、系統電力の削減"]
+    KIRI --> CO2
+    PLANT --> CO2
+    PLANT --> O1["<b>EBITDA、回収年数、<br/>損益分岐価格</b>"]
+    KIRI --> O2["<b>桐の純収支 円/ha、<br/>損益分岐の燃料価格</b>"]
+    CO2 --> O3["<b>クレジット収入 百万円/年</b>"]
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class IN inp
+    class FP key
+    class PLANT,KIRI,CO2 calc
+    class O1,O2,O3 res
+</pre></div></div>
+    <div class="cell d2"><h2>2. 桐の1haあたり収支とCO2クレジット</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    Y["桐の収量 4.9 t/ha/年<br/>x 5年輪伐"] --> F["収穫あたり<br/>生t"]
+    F --> R["収穫あたり<br/>燃料収入"]
+    P["燃料価格<br/>円/生t"] --> R
+    C["植栽・柵・管理<br/>(1サイクル)"] --> N["純収支 円/ha"]
+    R --> N
+    F --> BE["損益分岐の<br/>燃料価格"]
+    C --> BE
+    Y --> U["桐の吸収量<br/>t-CO2/ha/年"]
+    U --> S["平均蓄積:<br/>一回限りのクレジット"]
+    PC["Jクレジット価格<br/>5,600円/t"] --> S
+    M["発電所 MWh/年<br/>x 系統係数 0.45"] --> Dd["系統CO2<br/>削減量"]
+    Dd --> V["クレジット収入 百万円/年<br/>(自家消費のみ、<br/>FITとは併用不可)"]
+    PC --> V
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class Y,C,PC,M inp
+    class P key
+    class F,R,U,S,Dd calc
+    class N,BE,V res
+</pre></div></div>
+    <div class="cell d3"><h2>3. 発電所シート(50 kWe と 1.2 MWe)</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    A["定格kW<br/>x 稼働時間"] --> B["発電量<br/>MWh/年"]
+    B --> C["乾燥燃料 t/年<br/>(効率、発熱量)"]
+    C --> D["生燃料 t/年<br/>(含水率50%で乾燥の2倍)"]
+    D --> E["燃料費"]
+    P["燃料価格<br/>円/生t"] --> E
+    B --> F["売電収入<br/>MWh x 単価"]
+    X["熱販売 + 計算需要<br/>(50 kWeのみ)"] --> F
+    E --> G["運転費合計<br/>+ 保守、人件費、賃料"]
+    F --> H["EBITDA"]
+    G --> H
+    H --> I["回収年数"]
+    J["設備費<br/>- 補助金"] --> K["自己負担の設備費"]
+    K --> I
+    K --> L["資本費<br/>年額"]
+    H --> M["資本費控除後<br/>の結果"]
+    L --> M
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class A,X,J inp
+    class P,E key
+    class H,I,M res
+    class B,C,D,F,G,K,L calc
+</pre></div></div>
+    <div class="cell kr"><h2>主な結果(仮置き、基本ケース)</h2><ul><li>50 kWe 売電のみ:EBITDA 約 -800万円/年(資本費前の損益分岐 約53円/kWh)</li><li>50 kWe 熱+計算需要あり:回収 約5年(補助2/3)〜15年(補助なし)</li><li>1.2 MWe:燃料が生t約5,000円以下の場合のみ黒字</li><li>桐を燃料にすると:1サイクル1haで収入 約40万円、植栽費 約200万円</li><li>CO2:50 kWeで年約180 t削減、5,600円/tで約100万円/年</li></ul><div class="xl">計算ファイル:Excelモデル <a href='kiri_sugi_chp_financial_model_2026-10-31.xlsx'>kiri_sugi_chp_financial_model_2026-10-31.xlsx</a>(同じフォルダ。シート:Inputs、Plant50、Plant12、Kiri_ha、CO2、Notes)。青いセルを変えると燃料価格・補助率・収量の感度を試せます。</div></div>
+  </div>
+  <div class="footer">御杖村AIデータセンタープロジェクト - 社内作業案。出典:Nezu他 2026(桐)、Forest Twinモデル、林野庁白書R7(Jクレジット価格)。</div>
+</div>
+<script>
+  mermaid.initialize({ startOnLoad:false, theme:'default', flowchart:{ nodeSpacing:55, rankSpacing:80 } });
+  mermaid.run({ querySelector:'pre.mermaid' }).then(function () {
+    document.querySelectorAll('.diagram').forEach(function (c) {
+      var svg = c.querySelector('svg'); if (!svg) return;
+      var vb = (svg.getAttribute('viewBox')||'').split(/\s+/).map(Number);
+      if (vb.length<4||!vb[2]||!vb[3]) return;
+      var s = Math.min(c.clientWidth/vb[2], c.clientHeight/vb[3])*0.97;
+      svg.style.width=(vb[2]*s)+'px'; svg.style.height=(vb[3]*s)+'px'; svg.style.maxWidth='none'; svg.style.display='block'; svg.style.margin='0 auto';
+    });
+  });
+</script>
+</body>
+</html>

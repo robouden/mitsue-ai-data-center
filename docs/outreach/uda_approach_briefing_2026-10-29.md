@@ -22,7 +22,7 @@ Internal working note for Rob. Not for sending. Facts are sourced; items marked 
 - **Closed schools:** the city reuses them (旧野依小 became the new school lunch center, opened Sept 2024; 旧宇賀志小 became a fire station; 旧西谷小 and 旧田原小 are heading for private-sector reuse). Haibara's three elementary schools merge in April 2027; reuse of those sites is undecided (2026-06-23).
 
 ## 4. Your precedent
-Safecast blog, Rob Oudendijk, 2012-12-19: around **Sept 2011** you and Yuka Hayashi were asked to help turn the old **Akazawa Elementary School** (Aizu-Misato) into a data center, for local jobs and learning; you were there until **1 Nov** (2011, inferred), built bGeigie loggers in the science room, and modified Ninja software to act as a test device. Open points: Akazawa vs Yagisawa address, what "STP" is, whether it still operates. See docs/reference/aizu_school_data_center_reference.md.
+Safecast blog, Rob Oudendijk, 2012-12-19: around **Sept 2011** you and Yuka Hayashi were asked to help turn the old **Akazawa Elementary School** (Aizu-Misato) into a data center, for local jobs and learning; you were there until **1 Nov 2012**, built bGeigie loggers in the science room, and modified Ninja software to act as a test device. Open points: Akazawa vs Yagisawa address, what "STP" is, whether it still operates. See docs/reference/aizu_school_data_center_reference.md.
 
 ## 5. Risks and unknowns
 - Coop capacity (5 staff): the CHP and data center would need an outside operator.

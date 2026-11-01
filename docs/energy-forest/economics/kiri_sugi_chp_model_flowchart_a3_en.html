@@ -1,0 +1,127 @@
+<!-- File: kiri_sugi_chp_model_flowchart_a3_en.html | Version: v1.0 | Last modified: 2026-10-31 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kiri vs Sugi CHP Financial Model: How the Calculations Fit Together</title>
+<script src="mermaid11.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: 420mm 297mm; margin: 0; }
+  html, body { width: 420mm; height: 296mm; margin: 0; padding: 0; overflow: hidden; }
+  body { font-family: 'Noto Sans CJK JP','Helvetica Neue',Arial,'Hiragino Sans',sans-serif; color:#1a202c; background:#fff; }
+  .page { width:420mm; height:296mm; overflow:hidden; padding:8mm 10mm 5mm; display:flex; flex-direction:column; }
+  .header { border-bottom:2px solid #1a365d; padding-bottom:3mm; margin-bottom:3mm; display:flex; justify-content:space-between; align-items:flex-end; }
+  h1 { font-size:22px; color:#1a365d; margin:0; }
+  .sub { color:#4a5568; font-size:11px; margin-top:1.5mm; }
+  .meta { font-size:10px; color:#a0aec0; text-align:right; }
+  .grid { flex:1; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:minmax(0,1.15fr) minmax(0,0.85fr) auto; grid-template-areas:"d1 d2" "d3 d3" "kr kr"; gap:5mm; min-height:0; }
+  .d1{grid-area:d1} .d2{grid-area:d2} .d3{grid-area:d3} .kr{grid-area:kr}
+  .cell { border:1px solid #e2e8f0; border-radius:5px; padding:3mm 4mm 2mm; display:flex; flex-direction:column; min-height:0; min-width:0; }
+  .cell h2 { font-size:15px; color:#1a365d; margin:0 0 1mm; }
+  .diagram { flex:1; min-height:0; min-width:0; text-align:center; overflow:visible; padding-bottom:3mm; }
+  .kr { background:#f7fafc; }
+  .kr ul { margin:0; padding-left:5mm; columns:2; font-size:11.5px; line-height:1.4; }
+  .xl { margin-top:1.5mm; font-size:11px; color:#1a365d; border-top:1px solid #e2e8f0; padding-top:1.5mm; } .xl a { color:#2b6cb0; }
+  .footer { font-size:9px; color:#a0aec0; border-top:1px solid #e2e8f0; padding-top:1.5mm; margin-top:2mm; }
+  .diagram .flowchart-link { stroke:#4a5568 !important; stroke-width:1.5px !important; }
+  .diagram marker path, .diagram .arrowMarkerPath { fill:#4a5568 !important; stroke:#4a5568 !important; }
+  .diagram .node text, .diagram .nodeLabel { font-size:15px !important; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header"><div><h1>Kiri vs Sugi CHP Financial Model: How the Calculations Fit Together</h1><div class="sub">Working model v1.0 (2026-10-31). Blue = inputs, grey = calculations, green = results, red = decisive lever. All costs are placeholders, not quotes.</div></div><div class="meta">v1.0 &middot; 2026-10-31</div></div>
+  <div class="grid">
+    <div class="cell d1"><h2>1. Overview: what feeds what</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    IN["<b>Inputs</b><br/>hours, efficiency,<br/>electricity price,<br/>subsidy, loan rate"] --> PLANT["<b>Plant50 / Plant12</b><br/>fuel need, revenue,<br/>opex, capex"]
+    FP["<b>Fuel price</b><br/>¥/t fresh"] --> PLANT
+    FP --> KIRI["<b>Kiri per hectare</b><br/>yield, planting cost"]
+    IN --> CO2["<b>CO2 credits</b><br/>uptake, displaced grid power"]
+    KIRI --> CO2
+    PLANT --> CO2
+    PLANT --> O1["<b>EBITDA, payback,<br/>break-even price</b>"]
+    KIRI --> O2["<b>Kiri net ¥/ha,<br/>break-even fuel price</b>"]
+    CO2 --> O3["<b>Credit value ¥M/yr</b>"]
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class IN inp
+    class FP key
+    class PLANT,KIRI,CO2 calc
+    class O1,O2,O3 res
+</pre></div></div>
+    <div class="cell d2"><h2>2. Kiri per hectare and CO2 credits</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    Y["Kiri yield 4.9 t/ha/yr<br/>x 5-year rotation"] --> F["Fresh t<br/>per harvest"]
+    F --> R["Fuel revenue<br/>per harvest"]
+    P["Fuel price<br/>¥/t fresh"] --> R
+    C["Planting, fence,<br/>upkeep per cycle"] --> N["Net ¥/ha"]
+    R --> N
+    F --> BE["Break-even<br/>fuel price"]
+    C --> BE
+    Y --> U["Kiri uptake<br/>t-CO2/ha/yr"]
+    U --> S["Average stock:<br/>one-off credit only"]
+    PC["J-Credit price<br/>¥5,600/t"] --> S
+    M["Plant MWh/yr<br/>x grid factor 0.45"] --> Dd["Grid CO2<br/>displaced"]
+    Dd --> V["Credit value ¥M/yr<br/>(self-consumed only,<br/>not with FIT)"]
+    PC --> V
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class Y,C,PC,M inp
+    class P key
+    class F,R,U,S,Dd calc
+    class N,BE,V res
+</pre></div></div>
+    <div class="cell d3"><h2>3. Plant sheets (50 kWe and 1.2 MWe)</h2><div class="diagram"><pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 55, 'rankSpacing': 80, 'padding': 14}}}%%
+flowchart LR
+    A["Rated kW<br/>x hours"] --> B["Electricity<br/>MWh/yr"]
+    B --> C["Dry fuel t/yr<br/>(efficiency, LHV)"]
+    C --> D["Fresh fuel t/yr<br/>(x2 at 50% moisture)"]
+    D --> E["Fuel cost"]
+    P["Fuel price<br/>¥/t fresh"] --> E
+    B --> F["Revenue<br/>MWh x price"]
+    X["Heat + compute<br/>(50 kWe only)"] --> F
+    E --> G["Total opex<br/>+ O&M, staff, rent"]
+    F --> H["EBITDA"]
+    G --> H
+    H --> I["Payback years"]
+    J["Capex<br/>- subsidy"] --> K["Net capex"]
+    K --> I
+    K --> L["Capital charge<br/>per year"]
+    H --> M["Result after<br/>capital"]
+    L --> M
+    classDef inp fill:#1f4e79,stroke:#0b2a47,color:#ffffff
+    classDef calc fill:#37474f,stroke:#1c2a30,color:#ffffff
+    classDef res fill:#1b5e20,stroke:#0d3b11,color:#ffffff
+    classDef key fill:#b71c1c,stroke:#7f0000,color:#ffffff
+    class A,X,J inp
+    class P,E key
+    class H,I,M res
+    class B,C,D,F,G,K,L calc
+</pre></div></div>
+    <div class="cell kr"><h2>Key results (placeholders, base case)</h2><ul><li>50 kWe, electricity only: EBITDA about -¥8M/yr (break-even about ¥53/kWh before capital)</li><li>50 kWe with heat + compute: payback about 5 yr (2/3 subsidy) to 15 yr (none)</li><li>1.2 MWe: positive only if fuel ≤ about ¥5,000/t fresh</li><li>Kiri as fuel: about ¥0.4M revenue per ha per cycle vs about ¥2M to plant</li><li>CO2: 50 kWe displaces about 180 t/yr, about ¥1M/yr at ¥5,600/t</li></ul><div class="xl">Calculations: Excel model <a href='kiri_sugi_chp_financial_model_2026-10-31.xlsx'>kiri_sugi_chp_financial_model_2026-10-31.xlsx</a> (same folder; sheets Inputs, Plant50, Plant12, Kiri_ha, CO2, Notes). Change the blue cells to test other fuel prices, subsidies or yields.</div></div>
+  </div>
+  <div class="footer">Mitsue Village AI Data Center Project - internal working draft. Sources: Nezu et al. 2026 (kiri), Forest Twin model, Rinya white paper R7 (J-Credit price).</div>
+</div>
+<script>
+  mermaid.initialize({ startOnLoad:false, theme:'default', flowchart:{ nodeSpacing:55, rankSpacing:80 } });
+  mermaid.run({ querySelector:'pre.mermaid' }).then(function () {
+    document.querySelectorAll('.diagram').forEach(function (c) {
+      var svg = c.querySelector('svg'); if (!svg) return;
+      var vb = (svg.getAttribute('viewBox')||'').split(/\s+/).map(Number);
+      if (vb.length<4||!vb[2]||!vb[3]) return;
+      var s = Math.min(c.clientWidth/vb[2], c.clientHeight/vb[3])*0.97;
+      svg.style.width=(vb[2]*s)+'px'; svg.style.height=(vb[3]*s)+'px'; svg.style.maxWidth='none'; svg.style.display='block'; svg.style.margin='0 auto';
+    });
+  });
+</script>
+</body>
+</html>
