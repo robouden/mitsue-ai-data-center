@@ -1,0 +1,27 @@
+"panel(H=height m,D=diameter cm)",group,label,age_yr,value,note
+H,sansei,"SANSEI Oita 3.5 mo (range 1.7-3 m, midpoint)",0.29,2.35,doc p.9
+H,sansei,SANSEI Oita ~1y3m (5-6 m),1.25,5.5,doc p.8
+H,sansei,SANSEI Kyoto garden 2 yr,2,7,doc p.8
+H,sansei,SANSEI Tokushima 3 yr,3,8,doc p.8
+H,sansei_weak,SANSEI Shiga 2 yr (poor soil prep),2,4,doc p.8
+H,sansei_weak,SANSEI Sapporo ~1 yr (1 tree),1,2,doc p.8
+D,sansei,SANSEI Kyoto garden 2 yr,2,15.3,girth 46 cm / pi
+D,sansei,SANSEI Tokushima 3 yr,3,22.9,girth 72 cm / pi
+H,lit,"Tochigi paper (Mashiko, mean 15)",1,3.3,Nezu 2026
+H,lit,"Tochigi paper (Mashiko, mean 15)",2,7.3,Nezu 2026
+H,lit,"Tochigi paper (Mashiko, mean 15)",3,9.7,Nezu 2026
+H,lit,"Tochigi paper (Mashiko, mean 15)",4,9.7,Nezu 2026
+H,lit,J. Forest Science 2022,5,15.0,+-1.3
+H,lit,Fukushima 7.5 yr (~16 m),7.5,16,J. Arid Land Studies
+H,lit,"German seller, best tree 15 yr",15,15.5,"upper end, pruned"
+D,lit,"Tochigi paper (Mashiko, mean 15)",4,15.6,Nezu 2026
+D,lit,J. Forest Science 2022,5,21.1,+-3.3
+D,lit,Fukushima 7.5 yr (girth >70 cm: >=22.3),7.5,22.3,lower bound
+D,lit,"German seller, 4 yr (~22 cm)",4,22,seller claim
+D,best,"German seller, best tree 15 yr (excluded from fit)",15,59,"upper end, corner tree"
+D,lit,Slovakia (3.1 cm/yr x 7),7,21.7,Pastor 2022 via SANSEI p.13
+D,lowlit,Appalachia (1.9 cm/yr x 9),9,17.1,Berg 2020 via SANSEI p.13
+D,lowlit,Nepal (1.8 cm/yr x 20),20,36,Joshi & Pant 2026 via SANSEI p.13
+D,lowlit,Czech Rep. (0.7 cm/yr x 5),5,3.5,Kadlec 2023 via SANSEI p.13
+D,lowlit,"Kumakura 1957 yield table, 4 yr (13.6 cm)",4,13.6,traditional P. tomentosa
+H,claim,SANSEI website claim: >15 m at 5 yr,5,15,unsourced marketing

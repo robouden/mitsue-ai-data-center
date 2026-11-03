@@ -1,6 +1,6 @@
-<!-- File: mitsue_email_ohba_second_questions_2026-10-13.md | Version: v0.2 | Last modified: 2026-10-15 -->
+<!-- File: mitsue_email_ohba_second_questions_2026-10-13.md | Version: v0.3 | Last modified: 2026-11-03 -->
 
-**Status: DRAFT, NOT SENT. Show Rob for approval before sending.**
+**Status: SUPERSEDED / SENT 2026-11-03 as a condensed 11-question Gmail email ("11月6日の面談に向けた追加のご質問", thread 1a1a028acaae12dc) covering these Qs 1–6 plus village-wide Qs 7–11 (forest register, stumpage, clear-cut/replant rules, log buyers). The land-ownership-map email (2026-10-15) is still NOT sent.**
 
 **To:** 大場公隆 (Ohba Masataka), フォレスター, 産業建設課, 御杖村役場 — m-oba@vill.mitsue.lg.jp / 0745-95-2001 (内線234)
 **Update 2026-10-15:** generic owner-introduction and plan-map questions (old Q3 broker part, Q7) moved to `mitsue_email_ohba_land_ownership_map_2026-10-15.md`; send that one first.
@@ -14,6 +14,7 @@
 4. 令和6年度・7年度の計画は実際に実施されましたか。実績（面積・材積・搬出か伐捨か）を教えていただけますか。
 5. 計画の対象地までの林道・作業道の状況（トラックが入れるか）を、把握されている範囲で教えていただけますか。
 6. 令和9年度以降の計画案があれば、見せていただくことは可能でしょうか。また、計画表の電子データ（Excel等）はありますか。
+7. 村全体で、年間にどれくらいの木材が実際に搬出されているか教えていただけますか（伐採届ベースの面積・材積、皆伐と間伐の別、搬出と伐捨の割合）。組合以外の事業者や個人の分も含めた村全体の数字が知りたいです。
 
 ## Same questions (EN reference)
 
@@ -23,5 +24,6 @@
 4. Were the R6 and R7 plans actually carried out? Actual area, volume, extraction vs cut-and-leave?
 5. What is the forest-road / work-road access to the plan sites (can trucks reach them)?
 6. Is there a draft plan for R9 onward? Is the plan table available as Excel?
+7. Village-wide, how much wood is actually taken out of the forest per year (area and volume from the 伐採届 notifications, clear-felling vs thinning, extracted vs cut-and-leave)? We want the village-wide total including operators other than the cooperative and private owners. *(Added 2026-11-03: the cooperative-only figure of ~120–300 m³/yr we had is unverified; Rob believes most thinned wood is left in the forest.)*
 
 Note: preparatory research only; no contract or partnership exists. Keep this stated in the email. Signature per `feedback_outreach_email_signature_format`.

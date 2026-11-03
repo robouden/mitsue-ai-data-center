@@ -15,7 +15,7 @@
 |---|---|
 | Total village forest | ~7,051 ha (>90% privately owned, postwar sugi/hinoki plantation) |
 | Annual thinning (current co-op capacity) | ~66 ha/yr |
-| Wood actually recovered | only ~120–300 m³/yr |
+| Wood recovered (cooperative only; unverified, disputed 2026-11-03) | ~120–300 m³/yr |
 | Forest cooperative crew | small, average age ~33 |
 
 The gap: thinning today is subsidy-driven and leaves the cut wood largely in the forest — it is not a mechanized harvest, so almost none of the cleared area is followed by active broadleaf replanting.

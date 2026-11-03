@@ -11,7 +11,7 @@ Answers to four questions raised 2026-07-09, drawing on the forest workforce pla
 The forestry crew belongs to **地域林業パートナー**, not the project entity — the project's role is to fund its growth, not to hire directly.
 
 - **Current size:** very small — sources disagree slightly (3 regular staff avg. age ~33 per one recruiting interview; "2 field + 2 office" = 4 total per another listing). Either way, a 3–4 person operation.
-- **Current output:** ~66–68 ha/yr thinning, only ~120–300 m³/yr recovered timber — tiny relative to the village's 7,051 ha of forest, because it's subsidized thinning, not mechanized harvest.
+- **Current output:** ~66–68 ha/yr thinning, reportedly ~120–300 m³/yr recovered by the cooperative (unverified, disputed 2026-11-03) — tiny relative to the village's 7,051 ha of forest, because it's subsidized thinning, not mechanized harvest.
 - **Scaling path (the plan's core mechanism):** energy revenue pays for more crew + machines (harvester/forwarder, chipper, drying) → bigger crew harvests more → feeds a bigger biomass plant — a self-funding loop modeled on Shimokawa/Nishiawakura.
   - Doubled crew → ~140 ha/yr → 50% of forest over 25 yr → ~1.15 MWe (**recommended baseline**)
   - Tripled crew, full mechanization → ~200 ha/yr → ~1.6 MWe

@@ -1,4 +1,4 @@
-<!-- Version: v2.2 | Last modified: 2026-09-12 -->
+<!-- Version: v2.5 | Last modified: 2026-11-03 -->
 
 # Mitsue Forest → Energy: A Workforce-Led 25-Year Plan
 
@@ -23,7 +23,8 @@ loop**, the same model proven in Shimokawa and Nishiawakura.
 |---|---|---|
 | Village forest area | ~7,051 ha (>90% private, sugi/hinoki postwar plantations) | Co-op report |
 | Annual thinning | ~66 ha/yr | Co-op report |
-| Raw material recovered | only ~120–300 m³/yr | Co-op report |
+| Raw material recovered **by the cooperative** | ~120–300 m³/yr — **UNVERIFIED; cooperative-only, not village-wide, and Rob disputes it (2026-11-03). Most thinned wood is left in the forest. Do not use as a village total.** | Co-op report |
+| Thinned wood left in the forest | **~88%** of planned thinning volume R6–R8 (cut-and-leave 18,140 of 20,714 m³; extracted 2,574 m³, ~860 m³/yr) | Village R6–R8 thinning plan, `village_thinning_plan_R6-R8.xlsx` (2026-11-03 calc) |
 | Crew | small, young (avg age ~33) | Co-op report |
 
 The recovered volume is tiny relative to the area worked because the current
@@ -48,7 +49,8 @@ Local Forestry Partner can look like.
 Harvest volume — and therefore plant size — is set by how large and how mechanised
 the crew becomes. Figures below are from the project's calibrated **Forest Twin**
 model (sugi 600 m³/ha, 314 kg/m³, 18.5 GJ/t; net electrical efficiency 0.13,
-calibrated so a Mishima-scenario unit reproduces ~50 kWe on ~750 t/yr). All harvested
+calibrated so a Mishima-scenario unit reproduces ~50 kWe on ~750 t/yr — conservative
+for MWe-scale plants, see §4b). All harvested
 wood is routed to fuel; conversion runs over 25 years.
 
 | Cooperative capacity | Harvest rate | Area in 25 yr | Wood / yr | **Biomass plant** | Electricity | Heat |
@@ -101,7 +103,44 @@ stand cruise before sizing capex.
 
 Sources: [岩手県林業技術センター 研究成果速報 No.308](https://www2.pref.iwate.jp/~hp1017/kenkyu/naibu/sokuho/sokuho301-350/308.pdf); [林野庁 2014年素材生産量統計](https://jfpj.jp/mokuzai_weekly/1152).
 
-## 4b. Phase-1 prototype (Yr 1–3): clear-cut area for a 50 kWe pilot
+
+## 4b. Efficiency depends on plant size (added 2026-11-03)
+
+The 0.13 net electrical efficiency in §4 is calibrated to the Mishima scenario, a **simulated
+≤50 kWe** unit, and is right only for that size. Efficiency rises with scale:
+
+| Plant size | Net electrical efficiency | Basis |
+|---|---|---|
+| ≤50 kWe | ~12–15% (model: 13%) | Mishima simulation (NIES); Forest Twin calibration |
+| ~50 kWe, measured | ~19–20% | ~1 kWh_e per kg dry wood ([prototype fuel demand](../chp-technical/mitsue_50kwe_prototype_fuel_demand.md), method B) |
+| ~0.5–1.5 MWe gasifier + engine | **~23–28% (25% central)** | engine efficiency × gasifier cold-gas efficiency, less parasitic load; typical published range |
+
+Fuel needed at 8,000 h/yr, 18.5 GJ/t, 314 kg dry/m³:
+
+| Net efficiency | Fuel per MWe-year | Fuel for 1.2 MWe |
+|---|---|---|
+| 13% | ~38,300 m³ | ~46,000 m³ |
+| 20% | ~24,800 m³ | ~29,700 m³ |
+| **25%** | **~19,800 m³** | **~23,800 m³** |
+| 28% | ~17,600 m³ | ~21,100 m³ |
+
+Plant size supported at **25%** efficiency, by harvest scenario and fuel share (compare §4a):
+
+| Cooperative capacity | Harvest/yr | All to fuel | B also chipped (~78%) | C+D only (~24%) |
+|---|---|---|---|---|
+| Current + light mechanisation | 10,500 m³ | ~0.5 MWe | ~0.4 MWe | ~0.13 MWe |
+| **Double crew** ✅ | 42,000 m³ | ~2.1 MWe | **~1.65 MWe** | ~0.5 MWe |
+| Triple crew | 60,000 m³ | ~3.0 MWe | ~2.4 MWe | ~0.7 MWe |
+| **One Komatsu 931XC at break-even** | 30,000 m³ | ~1.5 MWe | **~1.2 MWe** | **~0.36 MWe** |
+
+**Reading:** a ~1.2 MWe plant needs ~24,000 m³/yr of fuel at 25%, which one 931XC at its
+~30,000 m³/yr minimum supplies **only if B-grade also goes to the chipper**. With C+D only, the same
+machine supports ~0.35 MWe. The binding input is the B-grade market, not the CHP efficiency. A plant
+≥1,000 kW is also FIP-only with no splitting ([FIT/grid note](mitsue_forest_permit_subsidy_fit_reference.md)),
+so a ~0.5–0.6 MWe first unit remains the safer sizing until a B-grade buyer is known. The 13% figures
+in §4 are retained as the pessimistic case. Efficiency of a specific unit must come from maker RFQ data.
+
+## 4c. Phase-1 prototype (Yr 1–3): clear-cut area for a 50 kWe pilot
 
 Before the doubled-crew build-out (§4), a 50 kWe pilot CHP is a deliberate **prototype/learning
 reality check** — sized for the conservative, worst-case fuel assumption (C+D grade only, ~24%
@@ -118,7 +157,7 @@ of harvest; B-grade buyer status is unconfirmed, see open question in
 | Planting cost | ~¥8.75M/yr (~¥26M over 3 yr) | ¥700k/ha (CONFIG `planting_cost_yen_ha`) |
 
 **Workforce reality check:** current field crew is **2 people** (RINDO listing), doing
-66–68 ha/yr of *thinning* at only ~120–300 m³/yr recovered — not a usable productivity proxy for
+66–68 ha/yr of *thinning* at a reported ~120–300 m³/yr recovered by the cooperative (unverified) — not a usable productivity proxy for
 full clear-cut. Using a generic (not Mitsue-confirmed) small-scale/lightly-mechanized Japanese
 felling+extraction benchmark of ~3–4 m³/person-day × ~200 days/yr ≈ 600–800 m³/person/yr:
 
