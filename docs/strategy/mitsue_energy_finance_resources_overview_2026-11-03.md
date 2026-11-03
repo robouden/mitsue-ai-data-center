@@ -1,4 +1,4 @@
-<p align="right">Version: v1.0 | Last modified: 2026-11-03</p>
+<p align="right">Version: v1.1 | Last modified: 2026-11-03</p>
 
 # Energy, finance and resources — what is workable (overview, 3 Nov 2026)
 
@@ -6,7 +6,7 @@ Synthesis of the 2–3 Nov calculations: [system summary](../energy-forest/econo
 
 ## 1. Bottom line
 
-1. **The binding constraint is wood, not the power plant.** Most thinned wood in the village is left in the forest (~88% of the R6–R8 plan: 18,140 of 20,714 m³; only ~860 m³/yr extracted). The earlier "120–300 m³/yr" figure is cooperative-only and unverified.
+1. **The binding constraint is wood, not the power plant.** Fuel need not come from Mitsue alone: chips and residue can also be bought in from neighbouring villages and cooperatives (e.g. Uda City, Tenkawa, Mie side), which relaxes the 30,000 m³ requirement on Mitsue land; transport distance and chip price then become the key inputs (not yet modelled). Most thinned wood in the village is left in the forest (~88% of the R6–R8 plan: 18,140 of 20,714 m³; only ~860 m³/yr extracted). The earlier "120–300 m³/yr" figure is cooperative-only and unverified.
 2. **A plausible system exists, but only with planned clear-cutting** (~50 ha/yr, ~30,000 m³/yr, one Komatsu 931XC at its stated minimum), selling A/B sawlogs and chipping C+D for CHP. Sawlog sales fund everything.
 3. **Base case is positive (+¥45M/yr system net) but fragile**: at the village's actual standing volume (277–317 m³/ha instead of 600) it falls to about break-even (+¥1M/yr). The open inputs, not the technology, decide viability.
 4. **Size the first plant at ~0.5–0.6 MWe**, not 1.2 MWe: a 1.2 MWe plant needs ~24,000 m³/yr of fuel, available from one 931XC only if B-grade is also chipped; and ≥1,000 kW is FIP-only with no splitting.
@@ -50,6 +50,7 @@ Synthesis of the 2–3 Nov calculations: [system summary](../energy-forest/econo
 | Thinning | ~66 ha/yr planned; most cut-and-left; collection of ~6,050 m³/yr cut-and-left wood (75%) is the "free" fuel stream |
 | Machines/crew | 931XC (+855 forwarder) needs ≥30,000 m³/yr; current crew tiny (cooperative reported 2 field staff); coop relationship ended 2026-10-27, so a new operator/crew structure is needed |
 | Kiri | Fast-growth fuel crop (Tokushima 8.6 t dry/ha/yr; SANSEI measured data requested); coppice replant every 4th cut; steep-terrain requirements documented |
+| Outside Mitsue | Fuel can be imported from other villages/cooperatives (Uda City coop first; others to be approached). Not in model v1.2: needs delivered price (¥/t), haul distance and supplier volumes. Mitsue then supplies the plant site and part of the fuel rather than all of it. |
 | Land & partners | Uda City coop (associate membership, possible alternative prototype site); Yamauchi/SANSEI (kiri planting); more trees (replanting/NGO); Niwa sawmill (chips) |
 
 ## 5. What would change the answer (decisions pending)
@@ -66,4 +67,5 @@ Synthesis of the 2–3 Nov calculations: [system summary](../energy-forest/econo
 
 - Present externally as **"feasibility sizing under way; viable only with planned clear-cut, an A/B-grade market and a larger crew."** Do not state the +¥45M figure as a forecast.
 - Keep the 50 kWe pilot as the learning step; target ~0.5–0.6 MWe as first commercial unit; defer 1.2 MWe until B-grade buyer and harvest volume are proven.
+- Add a **regional fuel-supply scenario** to the model (delivered ¥/t by haul distance, volumes from Uda and other neighbours) and approach suppliers; this may decide plant size more than Mitsue's own harvest.
 - Prioritise the 6 Nov Oba answers: stand volume (B8) and stumpage/income (B9) move the result the most.
