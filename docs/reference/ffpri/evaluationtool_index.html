@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<title>国立研究開発法人 森林研究・整備機構 森林総合研究所／小規模な木質バイオマスエネルギー利用の採算性評価ツール（ガス化CHP ver.1.3およびバイオマスボイラーver.1.1）</title>
+<meta name="keywords" content="木質バイオマス,採算性評価ツール,ガス化CH評価ツールP,バイオマスボイラー評価ツール" />
+<meta name="description" content="ユーザーが各種設定値を入力することによって、小規模の木質バイオマスガス化熱電併給（CHP）事業やバイオマスボイラーを用いた熱供給事業の採算性を評価するツールを、表計算ソフトExcelを利用して開発しました。" />
+
+<meta name="author" content="国立研究開発法人 森林研究・整備機構 森林総合研究所" />
+<meta name="viewport" content="width=device-width, maximum-scale=3.0" />
+<meta name="format-detection" content="telephone=no" />
+<link href="/shared/site_ffpri/style/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/shared/site_ffpri/style/shared.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/shared/site_ffpri/style/color/color0.css" rel="stylesheet" type="text/css" media="all" id="tmp_color" title="default" class="tmp_color" />
+<link href="/shared/site_ffpri/style/color/color1.css" rel="alternate stylesheet" type="text/css" media="all" title="darkblue" class="tmp_color" />
+<link href="/shared/site_ffpri/style/color/color2.css" rel="alternate stylesheet" type="text/css" media="all" title="yellow" class="tmp_color" />
+<link href="/shared/site_ffpri/style/color/color3.css" rel="alternate stylesheet" type="text/css" media="all" title="black" class="tmp_color" />
+<link href="/shared/site_ffpri/style/font/normal.css" rel="stylesheet" type="text/css" id="tmp_font" media="all" title="default" class="tmp_font" />
+<link href="/shared/site_ffpri/style/font/small.css" rel="alternate stylesheet" type="text/css" media="all" title="small" class="tmp_font" />
+<link href="/shared/site_ffpri/style/font/big.css" rel="alternate stylesheet" type="text/css" media="all" title="big" class="tmp_font" />
+<link href="/shared/site_ffpri/style/font/big2.css" rel="alternate stylesheet" type="text/css" media="all" title="big2" class="tmp_font" />
+<link href="/shared/templates/ffpri_free/style/edit.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/shared/site_ffpri/style/smartphone.css" rel="stylesheet" media="only screen and (max-width : 480px)" type="text/css" id="tmp_smartphone_css" />
+<link href="/shared/images/favicon/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/shared/images/favicon/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+<script type="text/javascript" src="/shared/management/js/jquery.js"></script>
+<script type="text/javascript" src="/shared/management/js/gd.js"></script>
+<script type="text/javascript" src="/shared/management/js/setting_head.js"></script>
+
+
+
+
+
+
+<script type="text/javascript" src="/shared/js/ga.js"></script>
+</head>
+<body class="format_free no_javascript">
+<script type="text/javascript" src="/shared/management/js/setting_body.js"></script>
+<div id="tmp_wrapper">
+<noscript>
+<p>このサイトではJavaScriptを使用したコンテンツ・機能を提供しています。JavaScriptを有効にするとご利用いただけます。</p>
+</noscript>
+<p><a href="#tmp_honbun" class="skip">本文へスキップします。</a></p>
+
+<div id="tmp_wrap_header">
+<div id="tmp_header">
+<div id="tmp_hlogo">
+<p><a href="/ffpri.html"><img width="320" height="62" alt="国立研究開発法人 森林研究・整備機構 森林総合研究所" src="/shared/site_ffpri/images/header/hlogo.gif" /></a></p>
+</div>
+<div id="tmp_means">
+<div id="tmp_means_primary"> <dl id="tmp_func_txt"> <dt>文字サイズ</dt> <dd><a title="縮小" href="javascript:void(0);" class="text_size_down">縮小</a></dd> <dd><a title="標準" href="javascript:void(0);" class="text_size_normal">標準</a></dd> <dd><a title="拡大" href="javascript:void(0);" class="text_size_up">拡大</a></dd> </dl> <dl id="tmp_func_clr"> <dt>色合い</dt> <dd><a id="tmp_color_default" href="javascript:void(0);" class="changestyle">標準</a></dd> <dd><a title="黄色地に黒" id="tmp_yellow" href="javascript:void(0);" class="changestyle">1</a></dd> <dd><a title="青地に黄色" id="tmp_darkblue" href="javascript:void(0);" class="changestyle">2</a></dd> <dd><a title="黒地に黄色" id="tmp_black" href="javascript:void(0);" class="changestyle">3</a></dd> </dl>
+<p class="top_btn"><a href="/index.html">森林研究・整備機構トップ</a></p>
+</div>
+<div id="tmp_means_secondary">
+<div id="tmp_search">
+<form id="tmp_gsearch" action="/search/result.html" name="tmp_gsearch">
+    <dl> <dt><label for="tmp_query">サイト内検索</label></dt> <dd>
+    <p> <input id="tmp_query" type="text" size="31" value="" name="q" /> </p>
+    <p> <input id="tmp_func_sch_btn" type="submit" value="検索" name="sa" /> </p>
+    <p id="tmp_search_hidden"> <input type="hidden" value="016583235944043587140:xapbxn4g0ru" name="cx" /> <input type="hidden" value="UTF-8" name="ie" /> <input type="hidden" value="FORID:9" name="cof" /> </p>
+    </dd> </dl>
+</form>
+</div>
+<ul id="tmp_hnavi">
+    <li><a lang="en" xml:lang="en" href="/ffpri/en/index.html"><span>English</span></a></li>
+</ul>
+</div>
+</div>
+<ul id="tmp_hnavi_s">
+    <li id="tmp_hnavi_lmenu"><a href="javascript:void(0);"><span>メニュー</span></a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="tmp_wrap_gnavi">
+<div id="tmp_wrap_gnavi2">
+<div id="tmp_gnavi">
+<ul>
+    <li id="tmp_glist1"><a href="/index-g.html"><span>森林総合研究所について</span></a> </li>
+    <li id="tmp_glist2"><a href="/index-r.html"><span>研究紹介</span></a> </li>
+    <li id="tmp_glist5"><a href="/index-k.html"><span>研究のキーワード</span></a> </li>
+</ul>
+</div>
+<div id="tmp_gnavi_s">
+<ul>
+    <li id="tmp_glist3"><a href="/info/access.html"><span>交通案内</span></a> </li>
+    <li id="tmp_glist4"><a href="/info/contact.html"><span>お問い合わせ</span></a> </li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="tmp_wrapper2">
+<div id="tmp_wrap_main" class="column_cnt">
+<div id="tmp_custom_func">
+<div id="tmp_pankuzu">
+<p><a href="/index-r.html">研究紹介</a> &gt; <a href="/database.html">データベース</a> &gt; 小規模な木質バイオマスエネルギー利用の採算性評価ツール（ガス化CHP ver.1.3およびバイオマスボイラーver.1.1）</p>
+</div>
+<div id="tmp_wrap_custom_update">
+<div id="tmp_custom_update">
+
+<p id="tmp_update">更新日：2026年10月5日</p>
+
+</div>
+</div>
+</div>
+<div id="tmp_main">
+<div class="col_main">
+<p id="tmp_honbun" class="skip">ここから本文です。</p>
+<div id="tmp_wrap_contents">
+<div id="tmp_contents">
+<h1>小規模な木質バイオマスエネルギー利用の採算性評価ツール（ガス化CHP ver.1.3およびバイオマスボイラーver.1.1）</h1>
+<div class="outline">
+			<p><span class="space_lft1">Microsoft社の表計算ソフトExcelを利用して、木質バイオマスを用いた小規模なガス化熱電併給事業やバイオマスボイラーを用いた熱供給事業の採算性を評価するためのプログラムです。</span></p>
+			</div>
+<h2>用途</h2>
+<p><span class="space_lft1">発電出力、設備導入費用、原料の種類・消費量・購入単価、熱利用の条件などを入力することによって、小規模なガス化方式の木質バイオマス熱電併給事業やバイオマスボイラーを用いた熱供給事業の採算性を評価できます。</span></p>
+<h2>利用方法</h2>
+<div class="section">
+<p>アンケートに回答いただいた方にプログラムを提供いたします。<br />
+アンケート用のファイルどちらかをダウンロードして回答してください。</p>
+<p><o:p><strong><a href="/database/evaluationtool/documents/enquete_202203.docx" target="_blank"><span class="space_lft1">ワードファイル（アンケート：20KB）</span></a><strong>&nbsp;<a href="/database/evaluationtool/documents/enquete_202203.pdf" target="_blank">PDFファイル（アンケート：235KB）</a></strong></strong></o:p></p>
+</div>
+<div class="section">
+<p>メールに回答したアンケート用紙を添付し、必要事項（お名前、勤務先名、部署名、役職名、住所、E-mail、電話番号）を記入の上、以下のアドレスに送付してください。折り返し、プログラムファイルとマニュアルをメールに添付して返信させていただきます。</p>
+<p><span class="space_lft1">送信先アドレス</span>：<a href="mailto:hatsuden&#64;ml.affrc.go.jp">hatsuden&#64;ml.affrc.go.jp</a></p>
+<p>回答はFAXでも受け付けます。その際にも、必要事項を書き加えていただき、029-873-3799にFAX送信してください。</p>
+</div>
+<h2>著作権</h2>
+<p><span class="space_lft1">このプログラムは、国立研究開発法人森林研究・整備機構森林総合研究所と地方独立行政法人北海道立総合研究機構森林研究本部林産試験場とが共同研究によって開発したもので、著作権は両者に帰属しています。</span></p>
+<h2>免責、禁止事項</h2>
+<p><span class="space_lft1">このプログラムの使用およびその結果によって生じたいかなる損害についても、著作権者は一切の責任を負いません。また、このプログラムを著作権者の許可なく改変、移植および再配布することを禁止します。</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="box_info">
+			<div class="box_info_ttl">
+			<p>お問い合わせ</p>
+			</div>
+			<div class="box_info_cnt">
+			<p>担当部局：バイオマス利用システム担当チーム<br />
+			FAX番号：029-873-3799<br />
+			E-mail：<a href="mailto:hatsuden&#64;ml.affrc.go.jp">hatsuden&#64;ml.affrc.go.jp</a></p>
+			</div>
+</div>
+
+
+</div>
+<div class="plugin">
+<p class="plugin_img"><a href="https://get.adobe.com/jp/reader/"><img src="/shared/images/plugin/get_reader.png" alt="Adobe Acrobat Readerのダウンロードページへ" width="158" height="39" /></a></p>
+<p>PDF形式のファイルをご覧いただく場合には、Adobe Acrobat Readerが必要です。Adobe Acrobat Readerをお持ちでない方は、バナーのリンク先から無料ダウンロードしてください。</p>
+</div>
+
+<!--
+<div id="tmp_feedback">
+<div id="tmp_feedback_ttl">
+<p>より良いウェブサイトにするためにみなさまのご意見をお聞かせください</p>
+</div>
+<div id="tmp_feedback_cnt">
+<form id="feedback" action="/cgi-bin/feedback/feedback.cgi" method="post">
+<p><input type="hidden" name="page_id" value="17088" />
+<input type="hidden" name="page_title" value="小規模な木質バイオマスエネルギー利用の採算性評価ツール（ガス化CHP ver.1.3およびバイオマスボイラーver.1.1）" />
+<input type="hidden" name="page_url" value="https://www.ffpri.go.jp/database/evaluationtool/index.html" />
+<input type="hidden" name="item_cnt" value="2" /></p>
+<fieldset>
+<legend>このページの情報は役に立ちましたか？</legend>
+<p><input id="que1_1" type="radio" name="item_1" value="役に立った" />
+<label for="que1_1">1：役に立った</label></p>
+<p><input id="que1_2" type="radio" name="item_1" value="ふつう" />
+<label for="que1_2">2：ふつう</label></p>
+<p><input id="que1_3" type="radio" name="item_1" value="役に立たなかった" />
+<label for="que1_3">3：役に立たなかった</label></p>
+</fieldset>
+<p><input type="hidden" name="label_1" value="質問：このページの情報は役に立ちましたか？" />
+<input type="hidden" name="nes_1" value="0" />
+<input type="hidden" name="img_1" />
+<input type="hidden" name="img_alt_1" />
+<input type="hidden" name="mail_1" value="0" />
+</p>
+<fieldset>
+<legend>このページの情報は見つけやすかったですか？</legend>
+<p><input id="que2_1" type="radio" name="item_2" value="見つけやすかった" />
+<label for="que2_1">1：見つけやすかった</label></p>
+<p><input id="que2_2" type="radio" name="item_2" value="ふつう" />
+<label for="que2_2">2：ふつう</label></p>
+<p><input id="que2_3" type="radio" name="item_2" value="見つけにくかった" />
+<label for="que2_3">3：見つけにくかった</label></p>
+</fieldset>
+<p><input type="hidden" name="label_2" value="質問：このページの情報は見つけやすかったですか？" />
+<input type="hidden" name="nes_2" value="0" />
+<input type="hidden" name="img_2" />
+<input type="hidden" name="img_alt_2" />
+<input type="hidden" name="mail_2" value="0" />
+</p>
+<p class="submit"><input type="submit" value="送信" /></p>
+</form>
+</div>
+</div>
+-->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="tmp_wrap_footer">
+<div id="tmp_footer">
+<ul id="tmp_fnavi">
+	<li><a href="/sitemap-ffpri.html">サイトマップ</a></li>
+	<li><a href="/link/index.html">リンク集</a></li>
+	<li><a href="/info/terms.html">このサイトについて</a></li>
+	<li><a href="/info/privacypolicy.html">プライバシーポリシー</a></li>
+	<li><a href="/aboutfrmo/publicity/smop.html">ソーシャルメディア運用ポリシー</a></li>
+	<li><a href="/info/rss.html">RSSについて</a></li>
+</ul>
+<div id="tmp_footer_cnt">
+<address>
+<p class="ttl">国立研究開発法人森林研究・整備機構 森林総合研究所</p>
+<p><span>〒305-8687　茨城県つくば市松の里1</span> <span>法人番号 4050005005317</span></p>
+</address>
+</div>
+<div id="tmp_pnavi">
+<p><a href="#tmp_header"><span>ページの先頭へ戻る</span></a></p>
+</div>
+</div>
+</div>
+<div id="tmp_wrap_copyright">
+<div id="tmp_copyright">
+<p lang="en" xml:lang="en">Copyright &copy; Forest Research and Management Organization. All rights reserved.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/shared/management/js/dropdownmenu.js"></script>
+<script type="text/javascript" src="/shared/site_ffpri/js/setting_responsive.js"></script>
+<script type="text/javascript" src="/shared/site_ffpri/js/setting_onload.js"></script>
+</body>
+</html>

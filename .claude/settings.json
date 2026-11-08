@@ -37,7 +37,8 @@
       "ClaudeInChromeDomain(www.city.uda.lg.jp)",
       "mcp__claude-in-chrome__browser_batch",
       "ClaudeInChromeDomain(www.pref.nara.lg.jp)",
-      "ClaudeInChromeDomain(www.vill.mitsue.nara.jp)"
+      "ClaudeInChromeDomain(www.vill.mitsue.nara.jp)",
+      "ClaudeInChromeDomain(i-t-o.jp)"
     ],
     "additionalDirectories": [
       "/tmp/mitsue_pdf"
