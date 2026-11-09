@@ -1,4 +1,4 @@
-<p align="right">Version: v0.2 | Last modified: 2026-11-09</p>
+<p align="right">Version: v0.3 | Last modified: 2026-11-09</p>
 
 # NAIST seminar, 13 Jan 2027: slide deck
 
@@ -8,11 +8,11 @@ Working deck for the 40-minute NAIST seminar. **Presenters: James Hill (history)
 
 | File | What |
 |---|---|
-| `Mitsue_NAIST_Seminar_v0.2.pptx` | **Current deck (29 slides). Edit this.** |
-| `Mitsue_NAIST_Seminar_v0.2.pdf` | Quick-look preview. Rendered with substitute fonts, so spacing differs from PowerPoint |
-| `Mitsue_NAIST_Seminar_v0.1.*` | Earlier, plainer version (kept for roll-back) |
-| `src/build_deck_v02.py` | Script that generated v0.2 (python-pptx). Reference only once the pptx is hand-edited |
-| `src/img/` | Photos used (from the project funding deck; check rights and who is shown before the talk) |
+| `Mitsue_NAIST_Seminar_v0.3.pptx` | **Current deck (29 slides). Edit this.** |
+| `Mitsue_NAIST_Seminar_v0.3.pdf` | Quick-look preview. Rendered with substitute fonts, so spacing differs from PowerPoint |
+| `Mitsue_NAIST_Seminar_v0.2.*`, `v0.1.*` | Earlier versions (kept for roll-back) |
+| `src/build_deck_v03.py` | Script that generated v0.3 (v0.2 script kept next to it) (python-pptx). Reference only once the pptx is hand-edited |
+| `src/img/` | Photos used (from the project funding deck; check rights and who is shown before the talk). `rob_born_1958.jpg` = Rob's newborn photo, OK'd by Rob for the public repo |
 
 ## Look
 
@@ -37,10 +37,11 @@ Terracotta-outlined "STILL RESEARCHING" tags mark slides where we show work in p
 - Commit message `NAIST deck vX.Y: <what changed>`; tag `naist-deck-vX.Y` (`git tag`, then `git push --tags`). Roll back with `git checkout naist-deck-v0.1 -- decks/naist_2027-01-13/`.
 - Update the version in the slide header text and in this README.
 
-## Open items for v0.3
+## Open items for v0.4
 
 - [ ] James: rework history slides 4–13 (real planted-area vs firewood/charcoal series; price series for slide 12)
-- [ ] Rob: confirm the 1958 / birth-year line on slide 13, and photo rights/captions (slides 16, 24, 25)
+- [x] v0.3: newborn photo of Rob on the 1958 slide (13), approved by Rob
+- [ ] Rob: photo rights/captions for the team photo (slides 16, 25) and the school photo (24)
 - [ ] One verified sentence per precedent on slide 24
 - [ ] Refresh the open-questions table (slide 26) right before the talk
 - [ ] Japanese version: decide bilingual slides or separate deck
