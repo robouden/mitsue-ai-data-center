@@ -1,43 +1,46 @@
-<p align="right">Version: v0.1 | Last modified: 2026-11-09</p>
+<p align="right">Version: v0.2 | Last modified: 2026-11-09</p>
 
 # NAIST seminar, 13 Jan 2027: slide deck
 
-Working deck for the 40-minute NAIST seminar (Kinjo Rie, James Hill, Rob Oudendijk).
-Style follows the Komatsu draft deck; the content is new.
+Working deck for the 40-minute NAIST seminar. **Presenters: James Hill (history) and Rob Oudendijk.** Kinjo-san is not presenting (decided 2026-11-09).
 
 ## Files
 
 | File | What |
 |---|---|
-| `Mitsue_NAIST_Seminar_v0.1.pptx` | The deck (28 slides). Edit this. |
-| `Mitsue_NAIST_Seminar_v0.1.pdf` | Quick-look PDF of the same version |
-| `src/build_deck.py` | Script that generated v0.1 (python-pptx). Reference only once the pptx is hand-edited |
-| `src/title_illustration.png` | Title-slide picture |
+| `Mitsue_NAIST_Seminar_v0.2.pptx` | **Current deck (29 slides). Edit this.** |
+| `Mitsue_NAIST_Seminar_v0.2.pdf` | Quick-look preview. Rendered with substitute fonts, so spacing differs from PowerPoint |
+| `Mitsue_NAIST_Seminar_v0.1.*` | Earlier, plainer version (kept for roll-back) |
+| `src/build_deck_v02.py` | Script that generated v0.2 (python-pptx). Reference only once the pptx is hand-edited |
+| `src/img/` | Photos used (from the project funding deck; check rights and who is shown before the talk) |
+
+## Look
+
+Same as the website mitsue.it: cream paper, deep green, clay accent; headlines in **Cormorant Garamond** with an italic emphasis, body in **IBM Plex Sans**, labels in **IBM Plex Mono**, Japanese in **Noto Serif JP**. These are free Google Fonts: **install them before opening the deck**, or PowerPoint substitutes other fonts and the layout shifts.
+Palette (hex): paper `F5F1EA`, ink `1C1C1A`, deep green `1F3423`, green `39553F`, clay `9D6F48`, rule `D8D2C5`.
 
 ## Structure
 
-1. Slides 1–3: title, who is talking, 40-minute plan
-2. **Slides 4–13: History (10 slides), James.** Skeleton from `docs/energy-forest/history/naist_timeline_history_to_1958.md`. Replace, merge or re-order freely. Every history slide has speaker notes with sources and a note for James.
-3. Slides 14–15: Today (Kinjo-san's part, placeholder + village facts)
-4. Slides 16–22: the problem, the idea, first numbers, energy
-5. Slides 23–26: precedents, homework done, open questions, where we stand
-6. Slides 27–28: closing, Q&A
+1. 1–3: title, the two presenters, the 40-minute path
+2. **4–13: History (10 slides), James.** Skeleton from `docs/energy-forest/history/naist_timeline_history_to_1958.md`. Replace, merge or re-order freely. Speaker notes carry sources. Two charts (slides 9, 11) are **schematic, not data**: James to replace with real series.
+3. 14–16: today (village facts, three problems, thinning wood left in the forest)
+4. 17–23: the idea (pull not push, A/B/C/D wood, replanting), first numbers, four unknowns, energy sizing
+5. 24–27: precedents, homework done, open questions, where we stand
+6. 28–29: closing slogan, Q&A
 
-Terracotta "STILL RESEARCHING" tags mark slides where we show work in progress on purpose.
-All money figures are placeholders from the model v1.2 and not a forecast.
+Terracotta-outlined "STILL RESEARCHING" tags mark slides where we show work in progress on purpose. All money figures are placeholders from model v1.2, not a forecast.
 
-## Versioning (so we can roll back and forward)
+## Versioning (roll back and forward)
 
-- One file per version name: `Mitsue_NAIST_Seminar_v<major>.<minor>.pptx`. Do not overwrite an older version's file; save a new name, commit, tag.
-- Suggested: `v0.x` = drafts, `v1.0` = first version shown to NAIST, `v1.x` = fixes after review.
-- Commit message: `NAIST deck vX.Y: <what changed>`. Tag with `naist-deck-vX.Y`.
-- Update the version in the footer text of the slides and in this README's header.
+- One file per version: `Mitsue_NAIST_Seminar_v<major>.<minor>.pptx`. Never overwrite an older version's file: save under the new name, commit, tag.
+- `v0.x` = drafts, `v1.0` = first version shown to NAIST, `v1.x` = fixes after review.
+- Commit message `NAIST deck vX.Y: <what changed>`; tag `naist-deck-vX.Y` (`git tag`, then `git push --tags`). Roll back with `git checkout naist-deck-v0.1 -- decks/naist_2027-01-13/`.
+- Update the version in the slide header text and in this README.
 
-## Open items for v0.2
+## Open items for v0.3
 
-- [ ] James: rework history slides 4–13 (data for the planted-area vs firewood/charcoal chart on slide 11)
-- [ ] Kinjo-san: replace slide 14 with her material; check the numbers on slides 15 and 17 with her
-- [ ] Confirm dress-code idea (slide 2) and Rob's birth-year line (slide 13) with the people concerned
-- [ ] One verified sentence per precedent on slide 23
-- [ ] Refresh the open-questions table (slide 25) right before the talk
-- [ ] Japanese version (decide: bilingual slides or separate deck)
+- [ ] James: rework history slides 4–13 (real planted-area vs firewood/charcoal series; price series for slide 12)
+- [ ] Rob: confirm the 1958 / birth-year line on slide 13, and photo rights/captions (slides 16, 24, 25)
+- [ ] One verified sentence per precedent on slide 24
+- [ ] Refresh the open-questions table (slide 26) right before the talk
+- [ ] Japanese version: decide bilingual slides or separate deck

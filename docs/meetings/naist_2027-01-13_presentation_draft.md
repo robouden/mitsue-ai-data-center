@@ -1,10 +1,12 @@
-<!-- Version: v0.4 | Last modified: 2026-09-24 -->
+<!-- Version: v0.5 | Last modified: 2026-11-09 -->
 
 # NAIST Jan 13, 2027 Presentation — Working Draft
 
 **Tone: light, fun, not academic. Jokes welcome. Core feeling: big scary problems have
 weirdly simple solutions if you're willing to look sideways at them.**
 40 min total, split with Kinjo-san.
+
+**UPDATE 2026-11-09:** Kinjo-san will NOT present. Only James Hill (history) and Rob present. Sections 1 and 3 below were written for Kinjo; Rob now covers the 'today' part himself, and the green/grey dress-code idea is dropped. Slide deck: `decks/naist_2027-01-13/` (v0.2).
 
 ---
 
