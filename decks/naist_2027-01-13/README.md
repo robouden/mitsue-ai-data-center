@@ -37,11 +37,11 @@ Terracotta-outlined "STILL RESEARCHING" tags mark slides where we show work in p
 ## Open items for v0.7
 
 - [ ] James: rework history slides 1–10 (real planted-area vs firewood/charcoal series; price series for slide 9)
-- [x] v0.3: newborn photo of Rob on the 1958 slide (13), approved by Rob
+- [x] v0.3: newborn photo of Rob on the 1958 slide (10), approved by Rob
 - [x] v0.6: cut from 29 to 20 slides (10 + 10) with cross-references between the presenters
 - [x] v0.4: Rob's comment under it: "We are all born without clothes. We are all the same. Humans."
 - [x] v0.5: upscaled newborn photo (Rob)
-- [ ] Rob: photo rights/captions for the team photo (slides 13, 15) and the school photo (v0.5 only)
-- [ ] One verified sentence per precedent on slide 24
-- [ ] Refresh the open-questions table (slide 26) right before the talk
+- [ ] Rob: photo rights/captions for the team photo (slide 13) and the school photo (v0.5 only)
+- [ ] One verified sentence per precedent in the speaker notes of slide 14
+- [ ] Refresh the open-questions table (slide 18) right before the talk
 - [ ] Japanese version: decide bilingual slides or separate deck
