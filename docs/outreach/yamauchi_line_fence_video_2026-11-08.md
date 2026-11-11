@@ -1,4 +1,4 @@
-# LINE note to Yamauchi-san: fence video + 20 cm question (2026-11-08)
+email from UDA coop. Th# LINE note to Yamauchi-san: fence video + 20 cm question (2026-11-08)
 
 <p align="right">Version: v1.0 | Last modified: 2026-11-08</p>
 
